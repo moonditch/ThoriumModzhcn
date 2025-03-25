@@ -2910,13 +2910,13 @@ Mods: {
 			JestersMask: {
 				DisplayName: 弄臣面具
 				Tooltip: 增加11%音波暴击率
-				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
+				SetBonus: 音波暴击会在你头顶响起一个铃铛, 短暂减速附近所有敌怪
 			}
 
 			JestersMask2: {
 				DisplayName: 弄臣面具
 				Tooltip: 增加11%音波暴击率
-				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
+				SetBonus: 音波暴击会在你头顶响起一个铃铛, 短暂减速附近所有敌怪
 			}
 
 			JestersShirt: {
@@ -2926,7 +2926,7 @@ Mods: {
 
 			JestersShirt2: {
 				DisplayName: 弄臣服
-				Tooltip: 音波伤害有20%概率以生命再生增幅玩家
+				Tooltip: 音波伤害有20%概率以固定伤害增幅玩家
 			}
 
 			JingleBells: {
