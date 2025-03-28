@@ -7,7 +7,7 @@ namespace ThoriumModzhcn.Translator
 	{
 		private class ThoriumMod{}
 		[ExtendsFromMod("ThoriumMod"), JITWhenModsEnabled("ThoriumMod")]
-		private class TranslatorLoad : ForceLocalizeSystem<ThoriumMod, TranslatorLoad>{}
+		private class TranslatorLoad : ForceLocalizeSystemTiger<ThoriumMod, TranslatorLoad>{}
 		public static void LoadTranslator()
 		{
 			if(ModLoader.TryGetMod("ThoriumMod",out var mod))
@@ -557,6 +557,14 @@ namespace ThoriumModzhcn.Translator
 					{"25% basic damage","20% 基本伤害"},
 				});
 				#endregion ThoriumMod.Items.ThrownItems.PiratesPurse
+
+				#region ThoriumMod.Items.Misc.LilGuppy
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Misc.LilGuppy", "AnglerQuestChat", new ()
+				{
+					{"Being out at sea for so long was pretty lonely... I made one friend though, a tiny little fish I named Lil' Guppy! He always manages to escape his fish bowl though! I miss him and I want him, go get my friend!","在海上呆这么长时间是相当孤独的。不过我交了个朋友，它是一条小鱼，我叫它小虹鳉！不过他总是设法从鱼缸里逃出去！我想他，我想要他，快去找我的朋友！"},
+					{"Caught in the Ocean.","在海洋生物群系捕捉"},
+				});
+				#endregion ThoriumMod.Items.Misc.LilGuppy
 
 
 			}

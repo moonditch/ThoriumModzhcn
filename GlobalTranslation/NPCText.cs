@@ -5,7 +5,6 @@ using Terraria.ID;
 using Terraria.UI.Chat;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
-using ThoriumMod.NPCs.BossLich;
 
 namespace ThoriumModzhcn.GlobalTranslation
 {
@@ -143,8 +142,8 @@ namespace ThoriumModzhcn.GlobalTranslation
 			{
 				if (Angler >= 0 && chat == "" + Main.npc[Angler].GivenName + " can be a real brat at times, but as long as he keeps providing me with fresh fish, I won't complain.")
 					chat = "" + Main.npc[Angler].GivenName + "有些时候真是顽劣，但只要他一直给我提供新鲜的鱼，我就不会抱怨的。";
-				if (PartyGirl >= 0 && chat == "Cooking for " + Main.npc[PartyGirl].GivenName + " is no easy task. She simply refuses to eat any form of meat!")
-					chat = "给" + Main.npc[PartyGirl].GivenName + "做饭可真不简单。她完全不吃任何形式的肉类！";
+				if (Dryad >= 0 && chat == "Cooking for " + Main.npc[Dryad].GivenName + " is no easy task. She simply refuses to eat any form of meat!")
+					chat = "给" + Main.npc[Dryad].GivenName + "做饭可真不简单。她完全不吃任何形式的肉类！";
 				if (WitchDoctor >= 0 && chat == "The last time " + Main.npc[WitchDoctor].GivenName + " asked me to cook for him, he requested bugs! This truly is a strange place...")
 					chat = "上一次" + Main.npc[WitchDoctor].GivenName + "让我给他做饭的时候，他点了虫子！真是太奇怪了…";
 
@@ -251,7 +250,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 			//德鲁伊
 			if (npc.type == ModContent.NPCType<Druid>())
  			{
-				if (Cook >= 0 && chat == "I wonder if I can convince " + Main.npc[Cook].GivenName + ", to whip me up a salad.")
+				if (Cook >= 0 && chat == "I wonder if I can convince " + Main.npc[Cook].GivenName + " to whip me up a salad.")
 					chat = "我想知道我可以让" + Main.npc[Cook].GivenName + "给我做一份沙拉。";
 				if (Dryad >= 0 && chat == "Ever since I was a child, I've always wanted to meet a dryad. What luck it is to find " + Main.npc[Dryad].GivenName + " here!")
 					chat = "从我还是小孩子的时候，就一直想看看" + Main.npc[Dryad].GivenName + "，没想到在这里看见了，真幸运！";
