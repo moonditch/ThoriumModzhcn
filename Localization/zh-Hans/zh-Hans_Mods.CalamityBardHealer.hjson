@@ -112,10 +112,10 @@ Items: {
 	}
 
 	AnahitasArpeggio: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
+		DisplayName: 阿娜希塔琶音
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			发射缓慢移动的高音音斧诱惑敌人
 			基于作者DM Dokuro的竖琴演奏曲“Forbidden Lullaby”改编
 			'''
 	}
@@ -410,7 +410,7 @@ Items: {
 	}
 
 	DesertedDrugDeal: {
-		DisplayName:旱海狂鲨之血
+		DisplayName: 旱海狂鲨之血
 		Tooltip:
 			'''
 			无视30防御力
@@ -622,7 +622,7 @@ Items: {
 			'''
 			在玩家上方创造巨大的五线谱
 			演奏乐器时，音符会在五线谱中涌动
-			音符会脱落并攻击敌人
+			然后，音符会脱落并攻击敌人
 			"与世间所有史莱姆共谱和谐弦音。"
 			'''
 	}
@@ -1406,7 +1406,7 @@ Configs: {
 
 		expensiveDraedonsForge: {
 			Label: 昂贵的嘉登熔炉
-			Tooltip: 嘉登熔炉的制作需要瑟银的元素核心
+			Tooltip: 嘉登熔炉的制作配方需要瑟银的元素核心
 		}
 
 		rogueThrowerMerge: {
