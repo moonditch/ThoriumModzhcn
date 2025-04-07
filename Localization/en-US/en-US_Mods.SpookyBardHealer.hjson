@@ -382,6 +382,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots seeds that bloom into Song Flowers which shoot enemies
+			Song Flowers deal reduced damage if multiple are spawned in a short period of time
 			"There are zombies in your lawn"
 			'''
 	}

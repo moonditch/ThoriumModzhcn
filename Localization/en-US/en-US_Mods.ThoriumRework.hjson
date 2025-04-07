@@ -341,6 +341,9 @@ Projectiles: {
 	DreadRazor.DisplayName: Dread Razor
 	DyingReality.DisplayName: Dying Reality
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergyBurst.DisplayName: Granite Energy Burst
+	EnergyCollapse.DisplayName: Collapsing Energy
+	EnergySpike.DisplayName: Energy Spike
 	EnergySurge.DisplayName: Energy Surge
 	EradicationBeam.DisplayName: Eradication Beam
 	EradicationBeamF.DisplayName: Eradication Beam
@@ -354,6 +357,8 @@ Projectiles: {
 	GrandThunder.DisplayName: Grand Thunder
 	GrandThunderF.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
+	HighTide.DisplayName: High Tide
+	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
 	HitScanner.DisplayName: Hit Scanner
 	HitScannerTelegraph.DisplayName: Hit Scanner
@@ -414,6 +419,7 @@ Projectiles: {
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
+	VisualCrack.DisplayName: Crack
 	VisualShockwave.DisplayName: Shockwave
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix

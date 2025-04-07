@@ -383,6 +383,7 @@ Items: {
 		Tooltip:
 			'''
 			发射会在命中敌人时开花的种子
+			如果在短时间内生成了多个魔音葵，那么魔音葵的伤害会降低
 			“有僵尸出现在你的草坪上”
 			'''
 	}
@@ -522,8 +523,8 @@ Buffs: {
 	}
 
 	InkLeaking: {
-		DisplayName: Ink Leaking漏墨
-		Description: Your instruments are leaking ink!你的乐器在漏墨！
+		DisplayName: 漏墨
+		Description: 你的乐器在漏墨！
 	}
 
 	OrroBoroLeechCooldown: {
