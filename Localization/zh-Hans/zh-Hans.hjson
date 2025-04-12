@@ -7596,7 +7596,7 @@ Mods: {
 			}
 
 			YumasPendant: {
-				DisplayName: 游马的皇之键（wiki翻译：云玛垂饰）
+				DisplayName: 游马的皇之键
 				Tooltip:
 					'''
 					增加10%召唤伤害
