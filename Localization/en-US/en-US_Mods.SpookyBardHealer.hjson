@@ -101,6 +101,42 @@ Items: {
 			'''
 	}
 
+	FiestaGarments: {
+		DisplayName: Fiesta Garments
+		Tooltip:
+			'''
+			15% increased symphonic and radiant damage
+			Healing spells will heal an additional 3 life
+			Enemies are less likely to target you
+			'''
+	}
+
+	FiestaMaskara: {
+		DisplayName: Fiesta Maskara
+		Tooltip:
+			'''
+			10% increased healing and symphonic playing speed
+			5% increased inspiration regeneration rate
+			Enemies are less likely to target you
+			'''
+		SetBonus:
+			'''
+			Dealing symphonic or radiant damage builds a special meter
+			When the meter is full, press 'Armor Ability' key to unleash a cloud of notes
+			The notes deal damage to enemies and heal ally life equivalent to heal bonus
+			'''
+	}
+
+	FiestaPantaloons: {
+		DisplayName: Fiesta Pantaloons
+		Tooltip:
+			'''
+			15% increased movement speed
+			Increases the duration of your symphonic empowerments by 2 seconds
+			Enemies are less likely to target you
+			'''
+	}
+
 	GastricJuices: {
 		DisplayName: Gastric Juices
 		Tooltip:
@@ -462,6 +498,8 @@ Projectiles: {
 	Gourdnade.DisplayName: Gourdnade
 	GourdnadeFly.DisplayName: Gourdnade
 	FacundoYPanfilo.DisplayName: Panfilo & Facundo
+	FiestaMeter.DisplayName: Fiesta Meter
+	FiestaSuper.DisplayName: Fiesta Super
 	LarrytheLarynx.DisplayName: Larry the Larynx
 	LarryVoiceCrack.DisplayName: Larry's Voice Crack
 	LeakingInk.DisplayName: Leaking Ink

@@ -102,6 +102,42 @@ Items: {
 			'''
 	}
 
+	FiestaGarments: {
+		DisplayName: 圣日服装
+		Tooltip:
+			'''
+			增加15%光辉和音波伤害
+			治疗法术会额外治疗3生命值
+			敌人不太可能以你为目标
+			'''
+	}
+
+	FiestaMaskara: {
+		DisplayName: 圣日舞会面具
+		Tooltip:
+			'''
+			增加10%光辉治愈速度和音波演奏速度
+			灵感值恢复速度提高5%
+			敌人不太可能以你为目标
+			'''
+		SetBonus:
+			'''
+			造成音波或光辉伤害时会产生特殊的音符
+			满充能时按下“盔甲能力”键可释放一团音符
+			音符对敌人造成伤害并会治疗队友，治疗效果取决于额外治疗量
+			'''
+	}
+
+	FiestaPantaloons: {
+		DisplayName: 圣日灯笼裤
+		Tooltip:
+			'''
+			增加15%移动速度
+			咒音增幅持续时间延长2秒
+			敌人不太可能以你为目标
+			'''
+	}
+
 	GastricJuices: {
 		DisplayName: 胃液
 		Tooltip:
