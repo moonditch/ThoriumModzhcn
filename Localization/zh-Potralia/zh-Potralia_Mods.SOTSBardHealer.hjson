@@ -1,0 +1,371 @@
+ItemDescriptions: {
+	BagOfCharms: <Replace>2 暴击会回复生命值、虚空值、魔力值并返还灵感值
+	DemonTongue: 虚空牧师武器的治疗法术虚空值减半
+	FoggyClairvoyance: 不能把免疫作为套装效果、饰品效果的减益或恢复冷却
+	HarvestersScythe:
+		'''
+		光辉镰刀的灵魂精华也会回复虚空值
+		虚空镰刀的灵魂精华回复更多虚空值
+		'''
+	HypersonicTunerExtras:
+		'''
+		所有乐器击中敌人会产生冲击波
+		弦乐器命中敌人时触发实体方块碰撞产生的效果
+		弦乐器弹幕每穿透一次速度提高20%
+		打击乐器命中敌人会在敌人身上掷出锤子
+		电子乐器的弹幕速度大幅提升
+		'''
+	InfrasonicTunerExtras:
+		'''
+		召唤暗黑灵魂向敌人发射诅咒音符
+		诅咒音符受到管乐器和弦乐器加成影响
+		吟游诗人武器会喷墨水
+		喷出的墨水受到持有武器属性的影响并油也可以喷到敌人身上
+		'''
+	SafetySwitch: 在物品栏内时也会生效
+	SoulCharm: <Replace>0 暴击会回复生命值、虚空值、魔力值与灵感值
+	TerrariumParticleSprinters: 在地面上双击可向前进行爆裂冲刺，提供更快的速度与加速度
+	VoidRadiantWeapon: 消耗{0}虚空值&汲取{1}生命值
+}
+
+Items: {
+	AbsoLute: {
+		DisplayName: 绝响琴
+		Tooltip:
+			'''
+			释放星形的绝对和弦
+			"琴音已被完全稀释"
+			'''
+	}
+
+	AncientHarp: {
+		DisplayName: 古厄竖琴
+		Tooltip:
+			'''
+			释放一股可反弹的钥之石能量
+			弦乐器的反弹次数加成不会影响该武器的反弹次数
+			但是会让弹幕持续时间更长
+			"这就是为什么，钥之石碎块对声音的反应很奇怪"
+			'''
+	}
+
+	BladedSnowflake: {
+		DisplayName: 飞雪刃锋
+		Tooltip:
+			'''
+			投掷飞雪刃锋，击中敌人后分裂出匕首
+			暴击会召唤额外的飞雪环绕玩家
+			额外的飞雪会在玩家使用其他武器时射出
+			'''
+	}
+
+	CursedAnkhStaff: {
+		DisplayName: 诅咒十字杖
+		Tooltip:
+			'''
+			召唤一个受诅咒的十字架跟随光标
+			十字架会用触须攻击附近的敌人
+			在造成伤害时，治疗附近的队友
+			'''
+	}
+
+	DualStylophone: {
+		DisplayName: 对偶电琴
+		Tooltip:
+			'''
+			释放充满活力的手写笔
+			手写笔可短暂的穿透物块
+			'''
+	}
+
+	ForbiddenMaelstrom: {
+		DisplayName: 禁忌漩流
+		Tooltip:
+			'''
+			投掷诅咒锯片并在攻击时撕碎敌人
+			击中敌人会形成小型的破坏性漩涡
+			'''
+	}
+
+	GoopwoodReap: {
+		DisplayName: 流胶木收割镰
+		Tooltip: 释放三个到处跳跃的凝胶球
+	}
+
+	GoopwoodSplit: {
+		DisplayName: 流胶木撕裂斧
+		Tooltip:
+			'''
+			击中敌人会分裂
+			暴击会分裂的更多
+			'''
+	}
+
+	GoopwoodWiggle: {
+		DisplayName: 流胶木扭音管
+		Tooltip:
+			'''
+			发射两束不同颜色的扭曲噪音
+			两束噪音在飞行一段时间或一段距离后返回玩家
+			'''
+	}
+
+	HypersonicTuner: {
+		DisplayName: 极超音速调谐器
+		Tooltip:
+			'''
+			将最大灵感值转化为最大虚空值
+			吟游诗人武器使用虚空值而不是灵感值
+			灵感值回复速度转化为虚空恢复速度
+			灵感音符可以再生虚空值
+			然而，灵感音符不再受到盔甲增益的影响
+			咒音增幅会大幅增强虚空属性
+			"引导听觉上限之外的音波之力！"
+			'''
+	}
+
+	InfrasonicTuner: {
+		DisplayName: 次音速调谐器
+		Tooltip:
+			'''
+			手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
+			灵感值耗尽后，消耗25点虚空值填满
+			"引导窸窣杂音之力！"
+			'''
+	}
+
+	PhaseKarambit: {
+		DisplayName: 相位鹰爪刀
+		Tooltip:
+			'''
+			旋转一把混沌鹰爪刀并发射出它的投影
+			投影会追踪附近的敌人
+			"可能会在某个社区卖很多"
+			'''
+	}
+
+	RingofRest: {
+		DisplayName: 安息之戒
+		Tooltip: 暴击恢复灵感值
+	}
+
+	Serpentbite: {
+		DisplayName: 骇蟒之噬
+		Tooltip:
+			'''
+			攻击时产生亚空雷电
+			暴击触发闪电两次
+			'''
+	}
+
+	SerpentCharmerofSage: {
+		DisplayName: 圣贤耍蛇笛
+		Tooltip:
+			'''
+			召唤一条会追踪敌人并攻击的蛇
+			成功在计时区域击中会不断增加它的伤害，追踪范围和咒音增幅等级
+			与其他乐器一样，此乐器的咒音增幅也是从2级开始，直到1级
+			错失节拍会大幅降低这些加成并消耗<VoidCost>点虚空值
+			此惩罚会根据成功在计时区域击中的数量而降低
+			这些加成会在更换武器期间保留，但会在你的主武器不是它时逐渐衰减
+			改编自Heart Plus Up的 "Serpent of Sage"
+			'''
+	}
+
+	SerpentFangScythe: {
+		DisplayName: 蛇牙长柄镰
+		Tooltip:
+			'''
+			释放一道强大的穿透斩击波
+			释放斩击波时也会释放三颗波纹弹
+			一颗波纹弹为红色，其余都为绿色
+			红波纹弹会追踪受伤的队友并治疗他们
+			但不能触发其他治疗物品的治疗效果
+			绿波纹弹会追踪并持续攻击敌人
+			获得灵魂精华时会恢复虚空值
+			'''
+	}
+
+	SerpentsTongue: {
+		DisplayName: 骇蟒之舌
+		Tooltip:
+			'''
+			增加15%光辉伤害
+			增加20%暴击伤害
+			敌人有10%的概率掉落双倍的战利品
+			暴击击杀时概率则为20%
+			为一些攻击施加暗能量
+			光辉法术的生命消耗减半，但不包括生命转移效果
+			虚空光辉武器和治疗法术的虚空消耗减半
+			来自光辉镰刀的灵魂精华也会恢复一些虚空值
+			来自虚空光辉镰刀的灵魂精华能够恢复更多的虚空值
+			"嘶嘶嘶-辣啊!"
+			'''
+	}
+
+	SubsonicTuner: {
+		DisplayName: 亚音速调谐器
+		Tooltip:
+			'''
+			手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
+			灵感值耗尽后，会消耗50点虚空值将其填满
+			"那么，究竟是什么启发了你的灵感?" "是虚空"
+			'''
+	}
+
+	TurboSlicer: {
+		DisplayName: 涡轮镰
+		Tooltip:
+			'''
+			旋转速度比大多数镰刀快
+			长按镰刀会充能
+			充能后会把镰刀抛出去
+			被抛出时不能赋予灵魂精华
+			蓄力攻击击中或获得灵魂精华时回复虚空值
+			'''
+	}
+
+	TwilightAscendance: {
+		DisplayName: 暮光权杖
+		Tooltip:
+			'''
+			发射出一团会造成伤害的混沌之环
+			当其仍处于团块形态时，触碰混沌之环的队友将被治疗
+			在一段时间后，或治疗队友后，会爆炸出3个普通的混沌之环
+			普通的混沌之环将会追踪敌人
+			'''
+	}
+
+	UltrasonicBassBooster: {
+		DisplayName: 超声波低音冲击波
+		Tooltip:
+			'''
+			发射出一束追踪的过载音波
+			发出的声音有三种颜色，每种颜色都会造成不同的减益
+			黄色会造成灵液，粉色会造成荧光，紫色会造成光之咒
+			'''
+	}
+
+	VibrantResonator: {
+		DisplayName: 振荡共鸣杖
+		Tooltip:
+			'''
+			治疗队友20点生命值
+			如果队友不移动，就会治疗两次
+			不能触发其他治疗物品的治疗效果
+			'''
+	}
+
+	VibrantTomahawk: {
+		DisplayName: 振荡投斧
+		Tooltip: 投掷出一把不受重力影响的振荡投斧
+	}
+}
+
+Projectiles: {
+	AbsoLute.DisplayName: Abso-Lute
+	AncientHarp.DisplayName: Ancient Harp
+	AnkhHealing.DisplayName: Ankh Healing
+	BladedSnowflake.DisplayName: Bladed Snowflake
+	CharmedSerpent.DisplayName: Charmed Serpent of Sage
+	ChaosCircle.DisplayName: Chaos Ring
+	ChaosSphere.DisplayName: Chaos Ring
+	CursedAnkh.DisplayName: Cursed Ankh
+	DualStylophone.DisplayName: Dual Stylophone
+	DualStylophonePro.DisplayName: Dual Stylophone
+	ForbiddenMaelstrom.DisplayName: Forbidden Maelstrom
+	GoopwoodReap.DisplayName: Goopwood Reap
+	GoopwoodReapPro.DisplayName: Goopwood Reap
+	GoopwoodSplit.DisplayName: Goopwood Split
+	GoopwoodWiggle.DisplayName: Goopwood Wiggle
+	InfrasonicTuner.DisplayName: Infrasonic Tuner
+	PhaseKarambit.DisplayName: Phase Karambit
+	Serpentbite.DisplayName: Serpentbite
+	SerpentFangScythe.DisplayName: Serpent Fang Scythe
+	SerpentFangSlash.DisplayName: Serpent Fang Scythe
+	SerpentLightning.DisplayName: Serpentbite
+	SnowflakeBlade.DisplayName: Snowflake Blade
+	SubsonicTuner.DisplayName: Subsonic Tuner
+	TurboSlicer.DisplayName: Turbo Slicer
+	TurboSlicerThrown.DisplayName: Turbo Slicer
+	UltrasonicBassBooster.DisplayName: Ultrasonic Bass Booster
+	VibrantResonator.DisplayName: Vibrant Resonator
+	VibrantTomahawk.DisplayName: Vibrant Tomahawk
+	WaveBlast.DisplayName: Wave Blast
+}
+
+Prefixes: {
+	Chthonic.DisplayName: "{$Mods.SOTS.Prefixes.Chthonic.DisplayName}"
+	Famished.DisplayName: "{$Mods.SOTS.Prefixes.Famished.DisplayName}"
+	Omnipotent.DisplayName: "{$Mods.SOTS.Prefixes.Omnipotent.DisplayName}"
+	Potent.DisplayName: "{$Mods.SOTS.Prefixes.Potent.DisplayName}"
+	Precarious.DisplayName: "{$Mods.SOTS.Prefixes.Precarious.DisplayName}"
+}
+
+DamageClasses: {
+	VoidRadiant.DisplayName: 虚空+{$Mods.ThoriumMod.DamageClasses.HealerDamage.DisplayName}
+	VoidSymphonic.DisplayName: 虚空+{$Mods.ThoriumMod.DamageClasses.BardDamage.DisplayName}
+	VoidThrowing.DisplayName: 虚空+投掷伤害
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: 平衡设置
+
+		thrower: {
+			Label: 投掷武器伤害倍率
+			Tooltip:
+				'''
+				投掷武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		bard: {
+			Label: 吟游诗人武器伤害倍率
+			Tooltip:
+				'''
+				吟游诗人武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		radiant: {
+			Label: 牧师武器伤害倍率
+			Tooltip:
+				'''
+				牧师武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		soulEssence: {
+			Label: 灵魂精华倍率
+			Tooltip:
+				'''
+				牧师武器灵魂精华倍率
+				上限为5
+				(需要重新启动才能生效!）
+				'''
+		}
+
+		healing: {
+			Label: 治疗倍率
+			Tooltip:
+				'''
+				牧师治疗法术倍率
+				数值为0表示治疗法术只能治疗1点生命值
+				(需要重新启动才能生效!）
+				'''
+		}
+
+		voidCost: {
+			Label: 虚空消耗
+			Tooltip:
+				'''
+				此模组的虚空武器的虚空消耗倍率
+				(需要重新启动才能生效!）
+				'''
+		}
+	}
+}

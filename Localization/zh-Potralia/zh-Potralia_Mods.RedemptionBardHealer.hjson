@@ -1,0 +1,464 @@
+Items: {
+	AtomSplitter: {
+		DisplayName: 微原裂斧
+		Tooltip:
+			'''
+			左键投掷一把带有放射性的飞斧，飞斧无限穿透
+			右键在光标位置释放一颗不稳定原核
+			只能同时存在一颗不稳定原核
+			原核一但被任意投掷弹幕命中，会将此弹幕一分为三
+			如果有敌人在附近，它会使这些弹幕瞄准敌人
+			此外，原核会裂变成两颗跟踪敌人的稳定同位素
+			“核裂变！”
+			'''
+	}
+
+	BlackPlague: {
+		DisplayName: 黑死病
+		Tooltip:
+			'''
+			旋转一柄疫染镰刀毒戮敌人
+			偶尔会发射感染菌株
+			'''
+	}
+
+	CrusadersWarHorn: {
+		DisplayName: 十字军征战号角
+		Tooltip:
+			'''
+			发射带有弹性的光球
+			“为了圣地！”
+			'''
+	}
+
+	CursedSporeKnife: {
+		DisplayName: 诅咒孢刃
+		Tooltip:
+			'''
+			投掷一把中等射程的毒匕首
+			暴击时会生成弱毒性孢子云
+			'''
+	}
+
+	EaglecrestTambourine: {
+		DisplayName: 鹰冠铃鼓
+		Tooltip:
+			'''
+			长按<left>演奏铃鼓，并为其蓄力
+			蓄力可以增加它的伤害，至多增加至1000%
+			松开<left>将其掷出
+			'''
+	}
+
+	EaglecrestTomahawk: {
+		DisplayName: 鹰冠战斧
+		Tooltip:
+			'''
+			投掷一柄陶土飞斧，飞斧飞行一段时间后会坠落
+			飞斧命中物块或者敌人都会引发爆炸
+			随着坠落的时长增加造成的伤害，至多造成600%伤害
+			此伤害增幅仅适用于飞斧直接命中造成的伤害
+			“所有问题迎斧而解！”
+			'''
+	}
+
+	EMStabber: {
+		DisplayName: E.M.刺杀刃
+		Tooltip:
+			'''
+			命中时会锁定在敌人身上
+			6颗[i:Redemption/EnergyCell]可以使飞刃过载
+			过载的飞刃会在锁定的敌人身上生成电磁场造成伤害
+			可以在没有能量罐时使用
+			'''
+	}
+
+	GroomsGift: {
+		DisplayName: 新郎的赠礼
+		Tooltip:
+			'''
+			喷涌出一连串不精确的灵魂，灵魂有微弱的跟踪能力
+			“她宝贵的私藏之一，没人知道这到底是什么”
+			'''
+	}
+
+	HalfLife: {
+		DisplayName: 半衰期
+		Tooltip:
+			'''
+			这把镰刀以固定顺序的挥舞方式攻击，而非旋转
+			每轮循环的前两次挥舞会发射数个阿尔法粒子
+			阿尔法粒子不会穿透敌人，但是会在命中处留存片刻
+			第三次攻击攻击进行一次旋转并释放数个贝塔粒子
+			贝塔粒子可以穿透物块与敌人，但造成较少的伤害（实测没有造成更少伤害）
+			“一旦瑟银-232达到半衰期，其三将会出现”
+			'''
+	}
+
+	HardlightMask: {
+		DisplayName: 强光面具
+		Tooltip:
+			'''
+			降低33%的非光辉伤害
+			增加13%的光辉伤害
+			增加10%的光辉暴击率
+			治疗法术将额外治疗6点生命值
+			'''
+		SetBonus:
+			'''
+			呼叫修复无人机来治疗生命值最低的玩家
+			修复无人机会以额外治疗量对玩家进行总计10次治疗
+			'''
+	}
+
+	HardlightReticle: {
+		DisplayName: 强光网罩
+		Tooltip:
+			'''
+			增加13%投掷伤害
+			33%%概率不消耗投掷物品
+			最大技巧值增加2
+			'''
+		SetBonus: 呼叫无人机在你所处区域进行一轮轨道轰炸
+	}
+
+	HardlightVisage: {
+		DisplayName: 强光面盔
+		Tooltip:
+			'''
+			增加13%音波伤害
+			增加7%音波演奏速度
+			最大灵感值增加4点
+			增加2秒咒音增幅的持续时间
+			'''
+		SetBonus:
+			'''
+			释放一段可以分散注意力的节拍，咒音增幅的持续时间提升I
+			此外，可以快速获得40点灵感值
+			'''
+	}
+
+	HauntedGramophone: {
+		DisplayName: 闹鬼留声机
+		Tooltip:
+			'''
+			播放萦绕难除的噪音调谐敌怪
+			右键使声音全方位传播
+			被调谐的敌人受到的所有伤害增加5%
+			“令人毛骨悚然，它甚至会无端自行播放”
+			'''
+	}
+
+	HolyChalice: {
+		DisplayName: 圣水杯
+		Tooltip:
+			'''
+			泼洒圣水的水滴
+			“你的灵魂将得到祝福!”
+			'''
+	}
+
+	IonWind: {
+		DisplayName: 离子风
+		Tooltip:
+			'''
+			射出追踪敌人的电离风
+			电离风会持续追踪攻击到的敌人
+			消耗的能量（[i:Redemption/EnergyCell]）与灵感值相同
+			需要玩家物品栏内存在能量罐
+			'''
+	}
+
+	KillswitchEngineer: {
+		DisplayName: 杀伐掣动镰
+		Tooltip:
+			'''
+			这把镰刀以固定顺序的挥舞方式攻击，而非旋转
+			玩家物品栏内存在能量罐时:
+			交替发射出炙热冲击波和追踪子弹
+			33%以上能量时，弹幕击中敌人会释放额外的斩痕
+			33%以下能量时，直接镰刀本体与炙热冲击波击中敌人会为能量罐充能，充能量与获得灵魂精华的数量相同
+			消耗的能量（[i:Redemption/EnergyCell]）与获得灵魂精华的数量相同
+			'''
+	}
+
+	LeafLyre: {
+		DisplayName: 叶子情人七弦琴
+		Tooltip: 发射出锋利的叶子
+	}
+
+	Oboeterator: {
+		DisplayName: 歼灭双簧管
+		Tooltip:
+			'''
+			同时算作电子乐器与管乐器
+			50%以上能量时，发射冲击扫描闪电，造成[i:Redemption/Thunder]元素伤害
+			闪电辅助瞄准的效果受管乐器追踪速度与追踪范围的影响
+			闪电暴击时回复1灵感值
+			50%以下能量时，发射追踪的等离子弹，造成[i:Redemption/Fire]元素伤害
+			等离子弹暴击会给你的能量罐充能
+			消耗的能量（[i:Redemption/EnergyCell]）与灵感值相同
+			需要玩家物品栏内存在能量罐
+			“歼灭你敌人那可怜的耳朵”
+			'''
+	}
+
+	OmegaDefibrillator: {
+		DisplayName: 欧米茄除颤器
+		Tooltip:
+			'''
+			（2[i:Redemption/EnergyCell]）向敌人与队友投射出强大的电磁场
+			最多可以作用于三个目标，敌人的优先级高于队友
+			脉冲电流会治疗队友，每次治疗消耗（1[i:Redemption/EnergyCell]）能量
+			电磁场会持续对敌人造成伤害，每次攻击消耗（1[i:Redemption/EnergyCell]）能量
+			需要玩家物品栏内存在能量罐
+			“让队友心肺复苏，让敌人心肺骤停”
+			'''
+	}
+
+	NoceboEffect: {
+		DisplayName: 反安慰剂效应
+		Tooltip:
+			'''
+			向目标体内注射致命血清
+			“打针不疼的！（其实很疼，疼死了…）”
+			'''
+	}
+
+	RadiumGuitar: {
+		DisplayName: 88号元素吉他
+		Tooltip:
+			'''
+			向光标处发射聚焦的伽马射线
+			释放的射线会持续一小段时间
+			“硬科技摇滚！”
+			'''
+	}
+
+	RendingCoil: {
+		DisplayName: 劫裂线圈
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			玩家物品栏内存在能量罐时:
+			每次挥舞释放电能冲击波
+			能量高于50%时，冲击波会在敌人之间生成闪电链
+			消耗的能量（[i:Redemption/EnergyCell]）与获得灵魂精华的数量相同
+			'''
+	}
+
+	ReverseGeigerCounter: {
+		DisplayName: 反向盖格计数器
+		Tooltip:
+			'''
+			发出微弱的放射线攻击敌人
+			“从技术的角度来看，这确实是个乐器，只是并非从传统意义上的乐器”
+			'''
+	}
+
+	SeventhSeraph: {
+		DisplayName: 第七炽天使
+		Tooltip:
+			'''
+			召唤致命的星星从天而降
+			星星会自动瞄准敌人
+			“呼唤天启…”
+			'''
+	}
+
+	ScorchingScalpel: {
+		DisplayName: 炙热解剖刃
+		Tooltip:
+			'''
+			扔出三把炙热解剖刃
+			（4[i:Redemption/EnergyCell]）过载你的解剖刃
+			过载解剖刃命中敌人会生成幻影刃
+			幻影刃会锁定目标并在一段时间后刺击
+			无需能量罐即可使用
+			“火热又激烈的手术要来了！”
+			'''
+	}
+
+	Shockriken: {
+		DisplayName: 手雳剑
+		Tooltip:
+			'''
+			（2[i:Redemption/EnergyCell]）扔出内置了泰瑟枪的手里剑
+			可以同时攻击40格范围内三个敌人
+			每多一个攻击目标，减少15%的伤害
+			需要玩家物品栏内存在能量罐
+			'''
+	}
+
+	Synthesizer: {
+		DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+		Tooltip: "{$Mods.Redemption.Items.Synthesizer.Tooltip}"
+	}
+
+	TheTwig: {
+		DisplayName: “树枝”
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			攻击使敌人中毒且有概率射出碎片
+			碎片堆积在目标体内，造成伤害会使碎片飞出
+			“这可不是个简单的树枝，这是‘树枝圣镰’！简直是你小时候的梦中情枝！”
+			'''
+	}
+
+	VirtuousFavor: {
+		DisplayName: 美德恩施
+		Tooltip:
+			'''
+			发射一束救赎之光追踪并治疗队友
+			治疗队友后，光束会返回并治疗使用者，治疗量是队友的一半
+			“爱人如己”
+			'''
+	}
+
+	VlitchSynthesizer: {
+		DisplayName: 伏里契音频合成器
+		Tooltip:
+			'''
+			发射自动瞄准的音频合成器光束
+			（2[i:Redemption/EnergyCell]）向随机方向放出闪电，发射出更多的音频合成器光束
+			无需能量罐即可使用
+			“您现在收听的是，[REDACTED]FM！在这里我们只为您带来[REDACTED]音乐！”
+			'''
+	}
+
+	MutagenBard: {
+		DisplayName: 颂歌诱变器
+		Tooltip:
+			'''
+			增加15%音波伤害
+			增加10%音波暴击率
+			增加4点最大灵感值
+			'''
+	}
+
+	MutagenHealer: {
+		DisplayName: 圣职诱变器
+		Tooltip:
+			'''
+			增加15%光辉伤害
+			增加10%光辉暴击率
+			治疗法术额外治疗2点生命值
+			'''
+	}
+
+	MutagenThrower: {
+		DisplayName: 忍者诱变器
+		Tooltip:
+			'''
+			增加15%投掷伤害
+			增加10%投掷暴击率
+			最大技巧值增加1点
+			'''
+	}
+}
+
+Projectiles: {
+	AtomSplitter.DisplayName: 微原裂斧
+	BlackPlague.DisplayName: 黑死病
+	BlackPlagueStrain.DisplayName: 黑死病菌株
+	CrusadersWarCry.DisplayName: 十字军征战号令
+	CursedSporeCloud.DisplayName: 诅咒孢子云
+	CursedSporeKnife.DisplayName: 诅咒孢刃
+	EaglecrestTambourine.DisplayName: 鹰冠铃鼓
+	EaglecrestTomahawk.DisplayName: 鹰冠投斧
+	EaglecrestTomahawkBlast.DisplayName: 鹰冠投斧
+	EMStabber.DisplayName: E.M.刺杀刃
+	GammaRadiation.DisplayName: 伽马射线
+	GroomsGift.DisplayName: 新郎的赠礼
+	HalfLife.DisplayName: 半衰期
+	HalfLifeRadiation.DisplayName: 半衰期
+	HardlightBeatDrop.DisplayName: 强光节拍
+	HardlightBomberDrone.DisplayName: 炸弹无人机Mk.17
+	HardlightGrenade.DisplayName: 强光手榴弹
+	HardlightHealingDrone.DisplayName: 治疗无人机Mk.99
+	HauntedNoise.DisplayName: 闹鬼噪音
+	HauntedSound.DisplayName: 闹鬼环绕音
+	HolyWater.DisplayName: 圣水杯水滴
+	IonWind.DisplayName: 离子风
+	KillswitchBolt.DisplayName: 杀伐掣动镰追踪弹
+	KillswitchEngineer.DisplayName: 杀伐掣动镰
+	KillswitchSlice.DisplayName: 杀伐掣动镰斩痕
+	KillswitchWave.DisplayName: 杀伐掣动镰冲击波
+	LeafLyre.DisplayName: 叶子
+	LightStrike.DisplayName: 闪电
+	Oboeterator.DisplayName: 歼灭双簧管
+	OboeteratorLightning.DisplayName: 歼灭双簧管闪电
+	OmegaDefibrillation.DisplayName: 欧米茄除颤器
+	NoceboEffect.DisplayName: 反安慰剂效应
+	RedemptionBeam.DisplayName: 救赎之光
+	RendingCoil.DisplayName: 劫裂线圈
+	RendingCoilWave.DisplayName: 劫裂线圈冲击波
+	RendingJolt.DisplayName: 劫裂线圈闪电链
+	ScorchingScalpel.DisplayName: 炙热解剖刃
+	ScorchingScalpelApparition.DisplayName: 幻影解剖刃
+	SeventhSeraphStar.DisplayName: 第七炽天使之星
+	Shockriken.DisplayName: 手雳剑
+	Splinter.DisplayName: 碎片
+	Synthesizer.DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+	SynthesizerBeam.DisplayName: 音频合成器光束
+	SynthesizerLightning.DisplayName: 音频合成器光束
+	SynthNote.DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+	TheTwig.DisplayName: “树枝”
+	UnstableNucleus.DisplayName: 不稳定原核
+	Violin.DisplayName: 小提琴
+	WeakRadiation.DisplayName: 微弱辐射
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: 平衡设置
+
+		thrower: {
+			Label: 投掷武器伤害倍率
+			Tooltip:
+				'''
+				投掷武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		bard: {
+			Label: 吟游诗人武器伤害倍率
+			Tooltip:
+				'''
+				吟游诗人武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		radiant: {
+			Label: 牧师武器伤害倍率
+			Tooltip:
+				'''
+				牧师武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		soulEssence: {
+			Label: 灵魂精华倍率
+			Tooltip:
+				'''
+				牧师武器灵魂精华倍率
+				上限为5
+				(需要重新启动才能生效!）
+				'''
+		}
+
+		healing: {
+			Label: 治疗倍率
+			Tooltip:
+				'''
+				牧师治疗法术倍率
+				数值为0表示治疗法术只能治疗1点生命值
+				(需要重新启动才能生效!）
+				'''
+		}
+	}
+}

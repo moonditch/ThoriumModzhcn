@@ -94,11 +94,13 @@ namespace ThoriumModzhcn.Systems
                     var oldString = ILCursor.Previous.Operand.ToString();
                     foreach (var Key in Value.Keys) {
                         if (Value[Key] == oldString) {
-                            ILCursor.Index--;
-                            ILCursor.Remove();
-                            ILCursor.Emit(OpCodes.Ldstr, Key);
+                            //ILCursor.Index--;
+                            //ILCursor.Remove();
+                            //ILCursor.Emit(OpCodes.Ldstr, Key);
+                            ILCursor.Prev.Operand = Key;
                             ILCursor.Emit(OpCodes.Call, UnLoad.GetTextValue);
-                            ILCursor.Index++;
+                            if (ILCursor.Next != null)
+                                ILCursor.GotoNext();
                             break;
                         }
                     }

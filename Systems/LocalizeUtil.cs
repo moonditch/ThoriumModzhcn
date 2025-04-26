@@ -1,4 +1,5 @@
 ﻿using Hjson;
+using Microsoft.Xna.Framework;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
@@ -18,7 +20,8 @@ namespace ThoriumModzhcn.Systems
         {
             简体中文,
             台湾繁体,
-            香港繁体
+            Potralia的害人汉化,
+            文言文汉化,
         }
 
         static LocalizeUtil()
@@ -27,8 +30,9 @@ namespace ThoriumModzhcn.Systems
         }
 
         private static Dictionary<string, string> 台湾繁体 { get; } = [];
-        private static Dictionary<string, string> 香港繁体 { get; } = [];
+        private static Dictionary<string, string> Potralia的害人汉化 { get; } = [];
         private static Dictionary<string, string> 简体中文 { get; } = [];
+        private static Dictionary<string, string> 文言文汉化 { get; } = [];
         //private static Dictionary<string, LocalizedText> TaiWan { get; } = [];
         //private static Dictionary<string, LocalizedText> HongKong { get; } = [];
         //private static Dictionary<string, LocalizedText> Chinese { get; } = [];
@@ -104,12 +108,16 @@ namespace ThoriumModzhcn.Systems
                 case Language.台湾繁体:
                     GoToDictionary(台湾繁体);
                     break;
-                case Language.香港繁体:
-                    GoToDictionary(香港繁体);
+                case Language.Potralia的害人汉化:
+                    GoToDictionary(Potralia的害人汉化);
                     break;
                 case Language.简体中文:
                     GoToChinese();
                     GoToDictionary(简体中文);
+                    break;
+                case Language.文言文汉化:
+                    GoToChinese();
+                    GoToDictionary(文言文汉化);
                     break;
             }
         }
@@ -118,15 +126,20 @@ namespace ThoriumModzhcn.Systems
         /// 将现在使用的本地化值切换为传入字典的值
         /// </summary>
         //private static void GoToDictionary(Dictionary<string, LocalizedText> localizedTexts)
-        private static void GoToDictionary(Dictionary<string, string> localizedTexts)
+        private static async void GoToDictionary(Dictionary<string, string> localizedTexts)
         {
-            foreach (var kv in localizedTexts) {
-                if (LocalizedTexts.ContainsKey(kv.Key)) {
-                    //LocalizedTexts[kv.Key] = kv.Value;
-                    var xg = LocalizedTexts[kv.Key];
-                    LocalizedTextSetValue.Invoke(xg, [kv.Value]);
+            //CombatText.NewText(new Rectangle(Main.player[Main.myPlayer]));
+            await Task.Run(() => {
+                Main.NewText("正在更改文本内容");
+                foreach (var kv in localizedTexts) {
+                    if (LocalizedTexts.ContainsKey(kv.Key)) {
+                        //LocalizedTexts[kv.Key] = kv.Value;
+                        var xg = LocalizedTexts[kv.Key];
+                        LocalizedTextSetValue.Invoke(xg, [kv.Value]);
+                    }
                 }
-            }
+                Main.NewText("文本内容更改完成");
+            });
         }
 
         /// <summary>
@@ -145,10 +158,12 @@ namespace ThoriumModzhcn.Systems
         {
             if (language == Language.台湾繁体)
                 return 台湾繁体;
-            else if (language == Language.香港繁体)
-                return 香港繁体;
-            else
+            else if (language == Language.Potralia的害人汉化)
+                return Potralia的害人汉化;
+            else if (language == Language.简体中文)
                 return 简体中文;
+            else
+                return 文言文汉化;
         }
 
         /// <summary>
@@ -197,7 +212,7 @@ namespace ThoriumModzhcn.Systems
                     }
                     additionalContext = "\nContext:" + linesOutput.ToString();
                 }
-                throw new Exception(/*$"The localization file \"{translationFile.Name}\" is malformed and failed to load:{additionalContext} ", e*/);
+                throw new Exception($"The localization file \"{fileName}\" is malformed and failed to load:{additionalContext} ", e);
             }
 
             // Parse JSON

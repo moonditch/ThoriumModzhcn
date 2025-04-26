@@ -112,10 +112,10 @@ Items: {
 	}
 
 	AnahitasArpeggio: {
-		DisplayName: 阿娜希塔琶音
+		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			发射缓慢移动的高音音斧诱惑敌人
+			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
 			基于作者DM Dokuro的竖琴演奏曲“Forbidden Lullaby”改编
 			'''
 	}

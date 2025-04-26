@@ -1,0 +1,475 @@
+ItemDescriptions: {
+	ElectricGuitar:
+		'''
+		每造成一次闪电攻击恢复1点灵感值
+		'摇滚宝贝,摇滚!'
+		'''
+	Ukelele: 闪电攻击有概率恢复1点灵感值
+	TerrariumParticleSprinters: 大幅度增加在空中的敏捷性
+	FrigidHelm:
+		'''
+		降低15%非光辉伤害
+		增加5%光辉伤害
+		治疗法术会额外治疗2点生命值
+		'''
+	FrigidChestplate:
+		'''
+		降低15%非光辉伤害
+		增加10%光辉伤害
+		增加3%光辉暴击率
+		'''
+	FrigidLegs:
+		'''
+		降低15%非光辉伤害
+		增加7%光辉伤害
+		'''
+	FrigidSetBonus:
+		'''
+		双击{0}在光标位置创造一面冰墙
+		在接触冰墙的短时间内提高生命恢复
+		此效果有8秒冷却时间
+		'''
+	RogueHood: 增加5%投掷伤害
+	RoguePlate: 增加5%投掷暴击率
+	RoguePants: 增加5%投掷速度
+	GraniteHelmet: "{$Mods.SpiritMod.Items.GraniteHelm.Tooltip}"
+	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
+	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
+	WayfarerHead: 增加5%灵感值再生速率和灵感音符掉率
+	WayfarerBody: 增加5%音波伤害和音波演奏速度
+	WayfarerLegs: 增加1秒咒音增幅的持续时间
+	WayfarerSetBonus: 咒音增幅中获得的移动速度更强
+}
+
+Items: {
+	AntumbralTip: {
+		DisplayName: 本影矛
+		Tooltip:
+			'''
+			用矛尖刺入敌人
+			依附敌人时释放影焰薄环
+			影焰薄环会对范围内的敌人造成伤害
+			'''
+	}
+
+	Apostaracas: {
+		DisplayName: 唤祖遗锤
+		Tooltip:
+			'''
+			演奏可以吸引始祖骨鸟的沙锤
+			始祖骨鸟会进行俯冲并攻击光标附近的敌人
+			'''
+	}
+
+	AvianBeak: {
+		DisplayName: 微风喙
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			在光标的方向挥舞产生紊流风
+			"Shwaaahaaahaaahaa"
+			'''
+	}
+
+	BolatilusShells: {
+		DisplayName: 流星螺壳
+		Tooltip:
+			'''
+			按住左键旋转由鹦鹉螺壳制作的流星锤
+			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而增加
+			完全旋转并投掷出去会产生爆炸
+			"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤"
+			'''
+	}
+
+	Clairvoyage: {
+		DisplayName: 洞视游星
+		Tooltip:
+			'''
+			释放一颗小而有穿透力的星星，击中任何东西都会反弹
+			至少反弹一次后星星会消失
+			"有时候，你只需要一个人漂浮在太空中"
+			'''
+	}
+
+	CryoliteFridgerator: {
+		DisplayName: 冰晶寒雾杖
+		Tooltip:
+			'''
+			释放冰雾治疗队友
+			不会触发治疗效果
+			"你有没有因为高温产生过睡在冰箱里的想法?”
+			'''
+	}
+
+	CryoliteSnowflake: {
+		DisplayName: 冰晶霜蚀花
+		Tooltip:
+			'''
+			投掷会短暂依附在敌人身上的冰晶霜蚀花
+			命中后造成极寒爆破减益
+			"潜伏的寒意？不，是潜伏的侵蚀."
+			'''
+	}
+
+	DawnPhantom: {
+		DisplayName: 曙晖幻影
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			攻击释放短距离的暗影球
+			造成伤害时会在玩家周围逐渐累积暗影魂焰
+			右键释放暗影魂焰
+			暗影魂焰会追踪附近的敌人
+			'''
+	}
+
+	Dredgenade: {
+		DisplayName: 血颅裂影
+		Tooltip:
+			'''
+			投掷后在短时间内爆炸并释放恶意能量
+			恶意能量会造成极度痛苦减益,缓慢的消耗敌人的生命值
+			'''
+	}
+
+	DuskSerenade: {
+		DisplayName: 冥暮小夜曲
+		Tooltip: 释放冥暮音符，弹跳后生成追踪敌人的冥暮新月
+	}
+
+	EtherealHum: {
+		DisplayName: 缥缈之音
+		Tooltip: 释放两道螺旋交错魂灵焰束并造成灵魂灼烧减益
+	}
+
+	FloranHarp: {
+		DisplayName: 叶族竖琴
+		Tooltip: 释放可弹跳一次的音符状孢子
+	}
+
+	FloranJavelin: {
+		DisplayName: 叶族标枪
+		Tooltip: 投掷可以飞得很远的轻型标枪
+	}
+
+	FloranScythe: {
+		DisplayName: 叶族镰刀
+		Tooltip: 旋转镰刀时会留下残叶
+	}
+
+	GildedChakram: {
+		DisplayName: 辉金环刃
+		Tooltip: 投掷后返回玩家手里时可以对返回途中的敌人造成伤害
+	}
+
+	HellorHighWaters: {
+		DisplayName: 绝海潮音
+		Tooltip: 蓄力并命中物块时释放宇宙潮汐
+	}
+
+	IllumiteZapper: {
+		DisplayName: 荧光光束枪
+		Tooltip:
+			'''
+			9召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			发射出充满能量的荧光光束
+			被击中的敌人赋予荧光效果，并受到10%的伤害
+			'''
+	}
+
+	LavenderAcupuncture: {
+		DisplayName: 薰衣草针灸
+		Tooltip:
+			'''
+			释放薰衣草针灸，攻击玩家和敌人
+			击中的玩家会在短时间内提高生命恢复
+			被治愈的玩家可以更快地从负面状态中恢复
+			'''
+	}
+
+	LodestoneMegaMace: {
+		DisplayName: 地脉狼牙棒
+		Tooltip:
+			'''
+			玩家下落时命中敌人可以造成更高的伤害
+			满蓄力时击中物块会产生地脉巨石
+			对敌怪造成伤害会剥离它们，它们所受伤害增加10
+			"磁力吸引着你敌人的头骨"
+			'''
+	}
+
+	MoonGelStaff: {
+		DisplayName: 皎月之凝
+		Tooltip: 在路径上留下治疗队友的月凝痕迹
+	}
+
+	MoonJellyJazz: {
+		DisplayName: 幽蓝爵士
+		Tooltip:
+			'''
+			发射包裹迷你月光水母的泡泡
+			当泡泡破裂时，水母会被释放并追踪敌人
+			成功在计时区域击中会增加泡泡内水母的数量
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"月光水母之秘，你我一同守护?"
+			'''
+	}
+
+	ScarabSong: {
+		DisplayName: 圣甲虫之颂
+		Tooltip:
+			'''
+			演奏时召唤小型圣甲虫
+			"致我床下的蟑螂，这首歌送给你们！"
+			'''
+	}
+
+	ScreamofTerror: {
+		DisplayName: 恐惑尖啸
+		Tooltip:
+			'''
+			释放血液冲击波击中敌人然后坍塌并爆炸
+			血液冲击波会造成'极度痛苦'减益并缓慢的消耗敌人的生命值
+			"它会发出像是呀呀呀的声音还是呜呜呜的声音?”
+			'''
+	}
+
+	ShootingStar: {
+		DisplayName: 奔星之辉
+		Tooltip:
+			'''
+			命中敌人时会有另一颗奔星之辉从天而降
+			"许个愿吧"
+			'''
+	}
+
+	SpiritHatchet: {
+		DisplayName: 魂灵投斧
+		Tooltip: 攻击时会额外生成投斧幻影并附加灵魂灼烧减益
+	}
+
+	Sporophyll: {
+		DisplayName: 孢子叶
+		Tooltip: 向敌人投掷一束孢子
+	}
+
+	Staggerang: {
+		DisplayName: 全息回旋
+		Tooltip:
+			'''
+			在敌人之间反弹，在反弹过程中让敌人持有眩晕效果
+			"强电震击镖！"
+			'''
+	}
+
+	StarScythe: {
+		DisplayName: 星界镰刀
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			命中敌人时会在敌人的上方召唤星束协同攻击
+			'''
+	}
+
+	Tashortinus: {
+		DisplayName: 亘隼遗爪
+		Tooltip:
+			'''
+			向敌人投掷锋利的爪子
+			暴击会让下一次攻击投掷三个爪子
+			"也可以用作挠背器"
+			'''
+	}
+
+	TerrariumParalyser: {
+		DisplayName: 元素麻痹枪
+		Tooltip:
+			'''
+			15召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			发射一束彩色闪电
+			'''
+	}
+
+	TerrariumWorldShaker: {
+		DisplayName: 元素震荡锤
+		Tooltip: 蓄力攻击会释放绚丽爆炸
+	}
+
+	ThornBlow: {
+		DisplayName: 蒺藜呕哑
+		Tooltip:
+			'''
+			演奏时迅速释放尖刺
+			"注意不要不小心吸入它们"
+			'''
+	}
+
+	TitanSlammer: {
+		DisplayName: 泰坦之锤
+		Tooltip:
+			'''
+			蓄力攻击将产生一道泰坦冲击波
+			暴击会造成额外伤害
+			'''
+	}
+
+	Transfusion: {
+		DisplayName: 鲜血奉献
+		Tooltip:
+			'''
+			释放追踪光束并治疗附近的队友
+			"一个人不能简单地通过伤害他人来治疗自己...除非是输血，或者任何器官移植."
+			'''
+	}
+
+	ValadiumStunGun: {
+		DisplayName: 虚金眩晕枪
+		Tooltip:
+			'''
+			6召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			伤害会以异次元能量爆破敌人
+			'''
+	}
+
+	VolcanicLightning: {
+		DisplayName: 焰霆之怒
+		Tooltip:
+			'''
+			22召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			连续发射的火焰束不定时释放闪电
+			"灰烬如雨，洒落在我们深爱的城市之上..."
+			'''
+	}
+}
+
+Projectiles: {
+	AntumbralTip.DisplayName: 本影矛
+	Apostaracas.DisplayName: 唤祖遗锤
+	AvianBeak.DisplayName: 微风喙
+	AvianBeakWind.DisplayName: 紊流风
+	BlownThorn.DisplayName: Blown Thorn
+	BolatilusShells.DisplayName: 流星螺壳
+	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
+	Clairvoyage.DisplayName: 洞视游星
+	CryoliteFridgerator.DisplayName: 冰晶寒雾杖
+	CryoliteSnowflake.DisplayName: 冰晶霜蚀花
+	DawnPhantom.DisplayName: 曙晖幻影
+	Dredge.DisplayName: 恶意能量
+	Dredgenade.DisplayName: 血颅裂影
+	DuskLunate.DisplayName: 冥暮新月
+	DuskNote.DisplayName: 冥暮音符
+	EtherealHum.DisplayName: 缥缈之音
+	FloranJavelin.DisplayName: 叶族标枪
+	FloranLeaf.DisplayName: 叶族残叶
+	FloranNote.DisplayName: 叶族孢子
+	FloranScythe.DisplayName: 叶族镰刀
+	GildedChakram.DisplayName: 辉金环刃
+	HellorHighTides.DisplayName: 宇宙潮汐
+	HellorHighWaters.DisplayName: 绝海潮音
+	IllumiteZapper.DisplayName: 荧光光束枪
+	LavenderAcupuncture.DisplayName: 薰衣草针灸
+	LodestoneChunk.DisplayName: 地脉巨石
+	LodestoneMegaMace.DisplayName: 地脉狼牙棒
+	MoonGel.DisplayName: 皎月之凝
+	MoonJellyJazz.DisplayName: 幽蓝爵士
+	ScarabSong.DisplayName: 圣甲虫之颂
+	ScreamofTerror.DisplayName: 恐惑尖啸
+	ScytheStar.DisplayName: 星界镰刀
+	ShootingStar.DisplayName: 奔星之辉
+	ShadowBall.DisplayName: 暗影球
+	ShadowBallPrimed.DisplayName: 暗影球
+	SpiritHatchet.DisplayName: 魂灵投斧
+	SpiritHatchetApparition.DisplayName: 投斧幻影
+	Sporophyll.DisplayName: 孢子叶
+	Staggerang.DisplayName: 全息回旋
+	StarScythe.DisplayName: 星界镰刀
+	Tashortinus.DisplayName: 蒺藜呕哑
+	TerrariumParalyser.DisplayName: 元素麻痹枪
+	TerrariumWorldShake.DisplayName: 元素震荡锤
+	TerrariumWorldShaker.DisplayName: 元素震荡锤
+	TitanSlammer.DisplayName: 泰坦之锤
+	Transfusion.DisplayName: 鲜血奉献
+	ValadiumStunGun.DisplayName: 虚金眩晕枪
+	VolcanicLightning.DisplayName: 焰霆之怒
+	VolcanicLightningStrike.DisplayName: 焰霆之怒
+}
+
+Buffs: {
+	SummonTag6: {
+		DisplayName: Summon Tag
+		Description: ""
+	}
+
+	SummonTag9: {
+		DisplayName: Summon Tag
+		Description: ""
+	}
+
+	SummonTag15: {
+		DisplayName: Summon Tag
+		Description: ""
+	}
+
+	SummonTag22: {
+		DisplayName: Summon Tag
+		Description: ""
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: 平衡设置
+
+		thrower: {
+			Label: 投掷武器伤害倍率
+			Tooltip:
+				'''
+				投掷武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		bard: {
+			Label: 吟游诗人武器伤害倍率
+			Tooltip:
+				'''
+				吟游诗人武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		radiant: {
+			Label: 牧师武器伤害倍率
+			Tooltip:
+				'''
+				牧师武器伤害倍率
+				(需要重新启动才能生效!)
+				'''
+		}
+
+		soulEssence: {
+			Label: 灵魂精华倍率
+			Tooltip:
+				'''
+				牧师武器灵魂精华倍率
+				上限为5
+				(需要重新启动才能生效!）
+				'''
+		}
+
+		healing: {
+			Label: 治疗倍率
+			Tooltip:
+				'''
+				牧师治疗法术倍率
+				数值为0表示治疗法术只能治疗1点生命值
+				(需要重新启动才能生效!）
+				'''
+		}
+	}
+}

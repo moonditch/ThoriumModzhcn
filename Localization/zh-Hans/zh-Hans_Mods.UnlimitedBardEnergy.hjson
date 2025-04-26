@@ -1,8 +1,0 @@
-# This file will automatically update with entries for new content after a build and reload.
-
-Items: {
-	UnlimitedInspiration: {
-		DisplayName: 无限灵感
-		Tooltip: 提供无限灵感
-	}
-}

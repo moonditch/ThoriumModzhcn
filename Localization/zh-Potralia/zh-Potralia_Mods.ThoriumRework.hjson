@@ -1,0 +1,900 @@
+ItemDescriptions: {
+	DreamWeaversHelmet: 最大生命增加60
+	DreamWeaversHood: 最大生命增加100
+	DreamWeaversTabard: 减少20%受到的伤害
+	DreamWeaversTreads:
+		'''
+		增加20%光辉施法速度
+		最大生命增加80
+		'''
+	TideTurnerBreastplate:
+		'''
+		减少10%受到的伤害
+		穿戴者的生命值越低，防御和伤害减免就越高
+		最高100点防御和60%的伤害减免
+		'''
+	TideTurnerGreaves: 增加20%近战和投掷攻速
+	TideTurnerHelmet:
+		'''
+		穿戴者的生命值越低，近战攻速越快
+		最高200%的近战攻速
+		'''
+	TideTurnersGaze: 增加50点投掷伤害
+	MasterArbalestHood: 远程伤害无视100点防御力
+	MasterMarksmansScouter: 提高12%射速
+	AssassinsGuard: 增加20点远程伤害
+	AssassinsWalkers: 提高20%攻速
+	MagmaSeersMask:
+		'''
+		提高40%鞭子攻速
+		增加30点召唤伤害
+		'''
+	PyromancerCowl: 减少40%法力消耗
+	PyromancerLeggings:
+		'''
+		提高30%释放速度
+		最大哨兵数量增加1
+		'''
+	PyromancerTabard:
+		'''
+		增加75%鞭子攻击距离
+		最大召唤物数量增加2
+		'''
+	InspiratorsHelmet: 提高25%吟游诗人演奏速度
+	RhapsodistChestWoofer: 音波伤害无视250点防御力
+	RhapsodistBoots: 咒音增幅范围加倍
+	SoloistHat: 最大灵感值增加8点
+	ChampionBomberStaff:
+		'''
+		发射一枚神奇的导弹重复攻击敌人
+		"攻击并不一定意味着要打死他们"
+		'''
+	ChampionSwiftBlade:
+		'''
+		释放强力冲击波对敌人造成50%的伤害
+		每挥舞的第三和四次会召唤剑魂
+		'''
+	GraniteCrossbow:
+		'''
+		每3次攻击，发射3根花岗岩箭，然后用能量溢散击中的敌怪
+		被溢散的敌怪多受5%伤害
+		'''
+	IllumiteBarrage:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteBlade:
+		'''
+		挥舞两把荧光刃
+		挥舞时，向附近的敌人发射荧光束
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteBlaster:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteShotbow:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteSpear:
+		'''
+		每3次攻击发射荧光矛尖
+		攻击附近的敌人时，额外发射荧光束
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	CobaltPopper: 使用过程中增加防御力
+	PalladiumSubmachineGun: 使用过程中增加生命再生
+	MythrilPelter: 使用一段时间后攻击速度会翻倍
+	OrichalcumPelter: 随着时间的推移逐渐增加攻击速度
+	AdamantiteCarbine: 使用过程中增加暴击率
+	TitaniumRifle: 使用过程中增加护甲穿透
+	PyroclastStaff:
+		'''
+		发射1到5个火焰光束
+		火焰光束攻击物块或击中敌人时会进行分裂
+		'''
+	Obliterator:
+		'''
+		左键射出非穿透激光
+		右键释放光球，向附近的目标发射子弹并造成60%的伤害
+		用激光攻击光球，让激光反弹到附近的敌怪并造成500%的伤害
+		'''
+	OmegaBlaster:
+		'''
+		发射三颗能量子弹，小幅度蓄力后，射出能量魔法阵
+		大幅度蓄力后，发射能量光束并造成800%的伤害
+		对敌人使用能量子弹造成伤害时会积累能量值
+		能量值充满后，右键释放瞬移光剑，对敌人造成1100%的伤害
+		瞬移光剑使用后，能量值在10秒内不能充能
+		但是，该武器不消耗法力值
+		'成为天界最伟大的守护者'
+		'''
+	HitScanner:
+		'''
+		这把枪发射的火枪子弹没有行进时间并无视50点防御
+		火枪子弹也会在短时间内穿过方块
+		'''
+	ParticleWhip:
+		'''
+		释放粒子光束在敌人之间弹跳
+		在弹跳时，粒子光束变成弯曲的闪电
+		"不是那种鞭子…"
+		'''
+	LodeStoneBow:
+		'''
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		'''
+	LodeStoneQuickDraw:
+		'''
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		'''
+	ValadiumBow:
+		'''
+		攻击时用虚空能量诅咒敌人
+		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		'''
+	ValadiumFoeBlaster:
+		'''
+		攻击时用虚空能量诅咒敌人
+		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		'''
+	ValadiumSpear:
+		'''
+		攻击时用虚空能量诅咒敌人
+		右键对敌人产生多数攻击并快速攻击附近的敌人
+		'''
+	SoulRender:
+		'''
+		每挥舞的第三和四次会释放旋转的灵魂之刃并造成40%的伤害
+		攻击速度越高，灵魂之刃造成的伤害就越高
+		'''
+	FleshSkewer:
+		'''
+		攻击有概率汲取生命，但会短暂禁用生命再生
+		暴击有几率回复生命值，但不会禁用生命再生
+		'''
+	ToothOfTheConsumer:
+		'''
+		挥舞两把肉食者之牙
+		攻击有概率汲取生命，但会短暂禁用生命再生
+		暴击有几率回复生命值，但不会禁用生命再生
+		右键消耗1点生命值释放鲜血
+		'''
+	DragonTooth:
+		'''
+		每次挥舞4次会释放诅咒焰
+		对敌人攻击产生暴击时，从敌人身上释放多束诅咒焰
+		'''
+	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
+	DreadRazor:
+		'''
+		右键释放一股恐惧能量
+		攻击会自动累积恐惧能量
+		'''
+	DemonBloodSpear:
+		'''
+		每三次攻击释放一组幻影血矛
+		造成伤害会提供鲜血充能
+		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
+		'''
+	PrimesFury:
+		'''
+		每挥舞4次会释放红色光束并造成三倍伤害
+		右键释放一连串攻击并造成一半伤害
+		"我们家里有一把至尊之怒"
+		'''
+	TitanSword:
+		'''
+		挥舞两把泰坦剑
+		暴击会造成额外伤害
+		'''
+	TerrariumSaber:
+		'''
+		挥舞两把元素誓约之剑
+		攻击敌人后，释放追踪的元素能量
+		'''
+	DoomSayersCoin:
+		'''
+		[c/DB7093:在第二阶段造成混乱的现实减益，减益存在时噬梦者BOSS不会受到伤害]
+		[c/DB7093:触碰到紫色法阵后，移除混乱的现实减益]
+		[c/DB7093:在你身边生成箭头指引紫色法阵的位置]
+		[c/DB7093:混乱的现实减益被移除后，进行伤害输出阶段并持续20秒]
+		[c/DB7093:如果混乱的现实减益倒计结束，你会立即死亡]
+		[c/DB7093:击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以对噬梦者造成伤害]
+		[c/DB7093:如果噬梦者已被击败，右键可以直接召唤噬梦者]
+		[c/DB7093:此外，始生灾灵在场时，右键会使其消失]
+		'''
+	IllumiteScythe:
+		'''
+		对附近的敌人释放荧光刃砍
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	TerrariumBomber:
+		'''
+		释放追踪的彩色导弹
+		彩色导弹攻击到到敌人时分裂成三个
+		25%概率节省弹药
+		'''
+	TerrariumPulseRifle:
+		'''
+		一次性发射四个子弹
+		将合适的弹药转换成脉冲射线，继承子弹的命中效果
+		15%概率节省弹药
+		'''
+}
+
+NPCRenames: {
+	Beholder: 堕落注视者的仆人
+	FallenBeholder: 堕落注视者
+	FallenBeholder2: 虚空凝瞳·堕落注视者
+	Lich: 噬元凶灾之徒·巫妖
+	LichHeadless: 死亡之徒·巫妖
+	ForgottenOne: 遗忘之主的壳
+	ForgottenOneCracked: 遗忘之主
+	ForgottenOneReleased: 旧神潮汐·遗忘之主
+	DreamEater: 泯灭现实·噬梦者
+}
+
+InfernumIntros: {
+	Aquaius:
+		'''
+		永劫狂潮
+		潮汐之灵
+		'''
+	BoreanStrider:
+		'''
+		苔原威胁
+		极地遁蛛
+		'''
+	BuriedChampion:
+		'''
+		昔日遗影
+		英灵残骸
+		'''
+	DreamEater:
+		'''
+		临终现实
+		噬梦者
+		'''
+	FallenBeholder:
+		'''
+		虚空凝瞳
+		堕落注视者
+		'''
+	ForgottenOne:
+		'''
+		潮汐旧神
+		遗忘之主
+		'''
+	GraniteEnergyStorm:
+		'''
+		震荡板块
+		花岗岩流能风暴
+		'''
+	Lich:
+		'''
+		噬元凶灾之徒
+		巫妖
+		'''
+	QueenJellyfish:
+		'''
+		突变海怪君主
+		水母皇后
+		'''
+	Omnicide:
+		'''
+		噬元凶灾
+		毁灭之灵
+		'''
+	SlagFury:
+		'''
+		原初烈火
+		戮焰之灵
+		'''
+	StarScouter:
+		'''
+		星宇航舟
+		星际监察者
+		'''
+	TheGrandThunderBird:
+		'''
+		狂野食腐者
+		惊雷王鹰
+		'''
+	Viscount:
+		'''
+		洞穴领主
+		蝙蝠子爵
+		'''
+}
+
+Projectiles: {
+	AbyssalApparition.DisplayName: 深渊幽灵
+	AquaiusBubble.DisplayName: 泡泡
+	AquaiusPunchAttack.DisplayName: 潮汐之手
+	AquaiusWhirlpool.DisplayName: 无尽涡流
+	BeamSaber.DisplayName: 激光剑
+	BeholderBlade.DisplayName: 注视者之刃
+	BiteyBaby.DisplayName: 贪食小蝙蝠
+	BlackHole.DisplayName: 黑洞
+	ChampionBomber.DisplayName: 魔法爆弹
+	ChampionBomberF.DisplayName: 魔法爆弹
+	ChampionShield.DisplayName: 英灵的反击之盾
+	ChampionSlash.DisplayName: 英灵的迅捷锋刃
+	ChampionSlice.DisplayName: 英灵剑气
+	ChampionSliceF.DisplayName: 英灵剑气
+	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
+	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
+	ChampionWarHorn.DisplayName: 英灵战号
+	DancingJellyfish.DisplayName: 跳舞水母
+	Darkness.DisplayName: 黑暗
+	DeathRain.DisplayName: 死亡之雨
+	DemonBloodSword.DisplayName: Demon Blood Sword
+	DragonTooth.DisplayName: 龙牙
+	DreadRazor.DisplayName: Dread Razor
+	DyingReality.DisplayName: 垂死现实
+	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergySurge.DisplayName: 能量脉搏
+	EradicationBeam.DisplayName: 湮灭光束
+	EradicationBeamF.DisplayName: 湮灭光束
+	EradicationRay.DisplayName: 湮灭激光
+	EraserLaser.DisplayName: 歼灭镭射
+	ExtinctionRay.DisplayName: 泯灭激光
+	FalseBeholder.DisplayName: 注视者假身
+	FalseSun.DisplayName: 伪日
+	FlareSlash.DisplayName: 怒火斩击
+	Flash.DisplayName: 闪光
+	GrandThunder.DisplayName: 王鹰之雷
+	GrandThunderF.DisplayName: 王鹰之雷
+	GraniteCharge.DisplayName: 花岗岩充能
+	HitScan.DisplayName: 冲击射线
+	HitScanner.DisplayName: 冲击扫描仪
+	HitScannerTelegraph.DisplayName: Hit Scanner
+	IllumiteBlade.DisplayName: 荧光刃
+	IllumitePortal.DisplayName: 荧光传送门
+	ImpendingDread.DisplayName: 迫近之惧
+	ImpendingDreadF.DisplayName: 迫近之惧
+	InfernalRay.DisplayName: 炼狱射线
+	InfernalRayTelegraph.DisplayName: 炼狱射线
+	JammingJellyfish.DisplayName: 水母音符
+	JellyfishJam.DisplayName: 水母音符
+	LichLantern.DisplayName: 易爆灯笼
+	LichWhip.DisplayName: 震荡性仪器
+	LodeStoneClaymore.DisplayName: 地脉长刃
+	Loudener.DisplayName: 扩音器
+	LucidNuke.DisplayName: 洞察之能
+	LucidRay.DisplayName: 洞察之能
+	LucidRayTelegraph.DisplayName: 洞察之能
+	Mjolnir.DisplayName: 传说之雷
+	NightmareClaw.DisplayName: 梦魇魔爪
+	NightmareSlash.DisplayName: 梦魇魔爪
+	Obliterator.DisplayName: 泯灭者
+	ObliteratorRay.DisplayName: 泯灭者
+	OmegaRay.DisplayName: 欧米茄射线
+	OmniBoom.DisplayName: 原子爆发
+	OmniBurst.DisplayName: 原子爆发
+	OmniSlash.DisplayName: 死亡斩击
+	OmnicidePunchAttack.DisplayName: 毁灭之拳
+	Oneirophobia.DisplayName: Oneirophobia
+	OneirophobiaBlade.DisplayName: Lucid Edge
+	OneirophobiaBolt.DisplayName: Lucid Missile
+	OneirophobiaLaser.DisplayName: Lucid Ray
+	OneirophobiaMinion.DisplayName: Lucid Instrument
+	OneirophobiaNuke.DisplayName: Lucid Blast
+	OneirophobiaSlice.DisplayName: Lucid Slash
+	Paylode.DisplayName: 电磁载荷
+	PrimesFury.DisplayName: 至尊之怒
+	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
+	ShellxophoneHealing.DisplayName: Tidal Restoration
+	ShellxophoneRipple.DisplayName: Aquatic Ripple
+	ShellxophoneStrike.DisplayName: Abyssal Strike
+	SoulBleed.DisplayName: Soul Bleed
+	SoulRender.DisplayName: 灵魂镰刃
+	StableRealityRift.DisplayName: 稳定的现实裂隙
+	StarCore.DisplayName: Star Core
+	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	Stuff.DisplayName: 法杖
+	TerrariumSaber.DisplayName: 元素圣剑
+	TideDagger.DisplayName: 水刃暴雨
+	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	TitanSword.DisplayName: 泰坦剑
+	ToothOfTheConsumer.DisplayName: 肉食者之牙
+	ValadiumRay.DisplayName: 虚空射线
+	ValadiumSlash.DisplayName: 虚空斩击
+	ValadiumSlicer.DisplayName: 虚金切割者
+	VaporizingFlames.DisplayName: Vaporizing Flames
+	VaporizingFreeze.DisplayName: Vaporizing Freeze
+	VaporizingPoison.DisplayName: Vaporizing Poison
+	VisualShockwave.DisplayName: 冲击波
+	Void.DisplayName: 虚空
+	VoidEye.DisplayName: 注视者之眼
+	VoidEyeF.DisplayName: 注视者之刃
+	ZephyrFeather.DisplayName: 西风之羽
+	ZephyrsRuin.DisplayName: 西风残垣
+	TerrariumPulseRay.DisplayName: 元素脉冲射线
+}
+
+Items: {
+	BeholderBlade: {
+		DisplayName: 凝视者之刃
+		Tooltip:
+			'''
+			每挥舞的第三和四次会发射凝视光束
+			暴击时，敌人身上会产生虚空泡泡
+			虚空泡泡里会召唤眼睛攻击敌人，并造成50%的伤害
+			每次只能生成一个虚空泡泡
+			'''
+	}
+
+	ChampionWarHorn: {
+		DisplayName: 英灵战号
+		Tooltip:
+			'''
+			释放追踪的音波
+			"CHARGE!"
+			'''
+	}
+
+	ConcussiveInstrument: {
+		DisplayName: 震荡性仪器
+		Tooltip:
+			'''
+			打击乐器攻击时，会在敌人身上掷出一个锤子
+			"这是……只是一把锤子?"
+			'''
+	}
+
+	DeathsingerPotion: {
+		DisplayName: 死亡歌者药水
+		Tooltip: 增加7%音波伤害和音波演奏速度
+	}
+
+	ExecutionersContract: {
+		DisplayName: 刽子手协议
+		Tooltip:
+			'''
+			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
+			"把他们的灵魂带给我…"
+			'''
+	}
+
+	FanDonations: {
+		DisplayName: 粉丝捐款
+		Tooltip:
+			'''
+			所有乐器击中敌人会产生爆炸，光辉大小取决于演奏的乐器和造成的暴击伤害降低50%
+			穿透性弦乐器攻击每次击中后速度增加，不再降低伤害
+			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
+			打击乐器攻击时，会在敌人身上掷出一个锤子
+			电子乐器的弹幕速度大幅提升
+			最大灵感增加5点
+			"卖得并不好，但至少有人好心地提供了帮助…"
+			'''
+	}
+
+	ImpulseAmplifier: {
+		DisplayName: 脉冲扬声器
+		Tooltip:
+			'''
+			电子乐器的弹幕速度大幅提升
+			"不，它不会比火箭飞得更快!"
+			'''
+	}
+
+	InspirationRegenerationPotion: {
+		DisplayName: 灵感恢复药水
+		Tooltip: 增加灵感恢复速度
+	}
+
+	JellyfishJam: {
+		DisplayName: 水母狂想曲
+		Tooltip: 释放跳舞的水母刺穿敌人
+	}
+
+	LichWhip: {
+		DisplayName: 笞魂刑具
+		Tooltip:
+			'''
+			挥出由灵魂之火赋予力量的三重鞭
+			敌人被鞭打后会流血
+			流血的灵魂会释放一根彩线治愈周围的玩家
+			"用来折磨死后灵魂的工具"
+			'''
+	}
+
+	Loudener: {
+		DisplayName: 扩音器
+		Tooltip:
+			'''
+			管乐器和铜管乐器击中敌人会产生金色光辉
+			金色光辉大小取决于演奏的乐器
+			爆炸造成的暴击伤害降低50%
+			"你有消音器，我有扩音器!"
+			'''
+	}
+
+	LunateCharm: {
+		DisplayName: 新月护身符
+		Tooltip: 取消牧师盔甲带来的非光辉伤害削减
+	}
+
+	Oneirophobia: {
+		DisplayName: 恐梦症
+		Tooltip:
+			'''
+			释放多种类的幻影武器
+			第一，二次攻击时，武器会变成一把幻影剑
+			第一次攻击会产生强烈的冲击波，第二次攻击会产生三个冲击波
+			第三次攻击时，武器的刀刃脱落并向前抛出
+			然后武器会变成一把幻影镰刀
+			第四次攻击时，镰刀旋转并释放追踪敌怪的光束
+			第五次攻击时，武器会变成幻影魔杖
+			释放不稳定的能量球，并在一段时间后爆炸
+			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
+			不使用武器时，生成幻影仆从为你而战
+			"对梦和噩梦的非理性恐惧的表现"
+			'''
+	}
+
+	RedCresent: {
+		DisplayName: 绯红新月
+		Tooltip:
+			'''
+			释放蝙蝠攻击敌人，蝙蝠会回到你身边
+			蝙蝠造成的1/3伤害用来恢复吸血值
+			右键释放蝙蝠，蝙蝠会追踪并治愈其他玩家
+			每次消耗10点吸血值
+			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
+			但是，治疗队友会退还一些法力值给予治疗者
+			吸血值: <bloodSiphon>
+			<legendaryModeOnly>在传奇模式下使用需要生命值
+			"蝙蝠的美妙歌谣"
+			'''
+	}
+
+	MagicalHarp: {
+		DisplayName: "{$ItemName.MagicalHarp}"
+		Tooltip: ""
+	}
+
+	PickShapedPebble: {
+		DisplayName: 锄形卵石
+		Tooltip:
+			'''
+			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
+			"这是摇滚音乐!"
+			'''
+	}
+
+	PocketEnergyStorm: {
+		DisplayName: 便携式能量风暴
+		Tooltip:
+			'''
+			投掷一个不稳定的能量球，将花岗岩能量溢向目标
+			被溢散的敌怪多受5%伤害
+			按住左键让能量球在你身边环绕
+			松开左键将你身边所有的能量球向你鼠标位置发射
+			一次最多20个能量球
+			不会增加疲惫值
+			"赐予能量球新的意义"
+			'''
+	}
+
+	RepurposedStarCaller: {
+		DisplayName: 星际召唤器
+		Tooltip:
+			'''
+			召唤监察者核心为你而战
+			火焰核心燃烧目标，生命核心毒害目标，寒冰核心造成冷冻
+			"我们收到你的信息了，现在有什么指示?"
+			'''
+	}
+
+	SealedContract: {
+		DisplayName: 正式契约
+		Tooltip:
+			'''
+			最大生命增加60
+			治疗法术会额外治疗5点生命值
+			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
+			取消牧师盔甲带来的非光辉伤害削减
+			"正式达成协议!"
+			'''
+	}
+
+	Shellxophone: {
+		DisplayName: 深海奥德赛
+		Tooltip:
+			'''
+			左键释放两根弹跳并追踪敌怪的海渊涟漪
+			右键释放追踪队友的水滴，使用10点灵感值并治疗队友
+			治疗效果会根据队友的咒音增幅等级而增加
+			"唤醒蛰伏渊洋的生灵，奏响世间至韵之声"
+			'''
+	}
+
+	StellarTune: {
+		DisplayName: "{$ItemName.SparkleGuitar}"
+		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	ZephyrsRuin: {
+		DisplayName: 西风残垣
+		Tooltip:
+			'''
+			投矛会刺入敌人或物块
+			一段时间后，召唤闪电攻击敌人或物块
+			暴击会立即释放一次闪电
+			不会增加疲惫值
+			"人们说闪电不会在同一个地方击中两次"
+			'''
+	}
+}
+
+Buffs: {
+	Deathsinger: {
+		DisplayName: 死亡歌者
+		Description: 增加7%音波伤害和音波演奏速度
+	}
+
+	Inspired: {
+		DisplayName: 启发
+		Description: 增加灵感恢复速度
+	}
+
+	SoulBleed: {
+		DisplayName: 灵魂流血
+		Description: 你的灵魂正在消散……
+	}
+
+	StarCalled: {
+		DisplayName: 星际的呼唤
+		Description: 他们回应了你的信号
+	}
+
+	TerminalLucidity: {
+		DisplayName: "[c/FF7F00:混乱的现实]"
+		Description:
+			'''
+			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:当此减益存在时，噬梦者不会受到伤害]
+			[c/FF7F00:减益倒计时结束会立刻杀死玩家]
+			[c/FF7F00:触摸稳定的现实裂缝，进行伤害输出阶段并重置此减益倒计时]
+			[c/FF7F00:稳定的现实裂缝是紫色法阵]
+			[c/FF1CAE:汉化备注:击败一次始生灾灵后，无视此减益，减益倒计时结束会削减血条，但不会代码杀]
+			[c/FF7F00:"等待命运..."]
+			'''
+	}
+
+	LucidRetaliation: {
+		DisplayName: "[c/FF7F00:恢复的现实]"
+		Description:
+			'''
+			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:当此增益存在时，噬梦者会受到伤害]
+			[c/FF7F00:被完全成型的现实裂缝击中后，会提前移除此增益]
+			[c/FF1CAE:汉化备注:不稳定的现实裂缝更改为完全成型的现实裂缝，是因为条件触发苛刻]
+			[c/FF7F00:完全成型的现实裂缝是噬梦者的黑色裂缝攻击]
+			[c/FF7F00:允许无限飞行]
+			[c/FF7F00:"等待命运..."]
+			'''
+	}
+}
+
+Prefixes: {
+	Careless: {
+		DisplayName: 淡漠
+		Description: 增加2点生命消耗
+	}
+
+	Risky: {
+		DisplayName: 冒险
+		Description: 增加1点生命消耗
+	}
+
+	Suicidal: {
+		DisplayName: 自杀
+		Description: 增加3点生命消耗
+	}
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: 视觉设置
+
+		flash: {
+			Label: 闪光强度
+			Tooltip: 设置闪光的明暗度
+		}
+
+		overlay: {
+			Label: 覆盖强度
+			Tooltip: 设置屏幕覆盖强弱度
+		}
+
+		seizures: {
+			Label: 光敏警告提示
+			Tooltip: 启动世界后有光敏警告提示
+		}
+
+		bossRenames: {
+			Label: BOSS名称重命名
+			Tooltip: 启用时，为瑟银模组的boss进行重新重命名
+		}
+	}
+
+	CompatConfig: {
+		DisplayName: 模组兼容性设置
+
+		healthScale: {
+			Label: 瑟银BOSS生命值增加
+			Tooltip: 让瑟银BOSS的生命值乘以当前数值
+		}
+
+		damageScale: {
+			Label: 瑟银BOSS伤害加成
+			Tooltip: 让瑟银的boss的攻击伤害乘以当前数值
+		}
+
+		speedScale: {
+			Label: 瑟银BOSS速度加成
+			Tooltip:
+				'''
+				让瑟银的boss的速度乘以当前数值
+				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
+				灾厄炼狱模组推荐使用1.35倍速度
+				'''
+		}
+
+		extraItems: {
+			Label: 额外物品
+			Tooltip:
+				'''
+				(可选)
+				在这个模组增加一些不相关的物品
+				'''
+		}
+
+		extraPotions: {
+			Label: 额外药剂内容
+			Tooltip:
+				'''
+				(可选)
+				增加与瑟银的职业有关的增益药水
+				'''
+		}
+
+		extraPrefixes: {
+			Label: 额外修饰语内容
+			Tooltip:
+				'''
+				(可选)
+				增加与瑟银的职业有关的修饰语
+				'''
+		}
+
+		masterDrops: {
+			Label: 大师模式掉落
+			Tooltip:
+				'''
+				(推荐!)
+				让瑟银模组的boss的大师掉落武器，在复仇模式或永恒模式也可以掉落
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: 专家模式下掉落大师模式专属武器
+			Tooltip:
+				'''
+				专家模式下掉落大师模式专属武器
+				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
+				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
+				'''
+		}
+
+		itemReworks: {
+			Label: 重置原瑟银一些武器
+			Tooltip:
+				'''
+				(推荐!)
+				让原瑟银模组武器更好的使用
+				'''
+		}
+
+		postDoGRag: {
+			Label: 在灾厄与法狗魂石里重置始生灾灵阶级
+			Tooltip:
+				'''
+				(推荐!)
+				灾厄中始生灾灵在神明吞噬者前召唤
+				法狗魂石中始生灾灵在宇宙英灵前召唤
+				如果两模组都启动，则在两个boss两之间召唤
+				'''
+		}
+
+		vanillaBard: {
+			Label: 让星星吉他和魔法竖琴成为吟游诗人武器
+			Tooltip: 让星星吉他和魔法竖琴成为吟游诗人武器并加入灌注附魔效果
+		}
+
+		DoD: {
+			Label: 神明吞噬者有许许多多的梦想 (玩笑设置)
+			Tooltip:
+				'''
+				这是一个玩笑设置，它让神明吞噬者拥有噬梦者部分弹幕攻击
+				可能公平，也可能不公平
+				'''
+		}
+
+		thorlamityBR: {
+			Label: 瑟银boss加入灾厄bossrush
+			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
+		}
+
+		eternityModeOnly: {
+			Label: 仅限永恒模式
+			Tooltip: 模组的内容重置只在永恒模式开启时生效
+		}
+	}
+
+	ReworkTogglesConfig: {
+		DisplayName: BOSS重置开/关
+
+		bird: {
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]惊雷王鹰"
+			Tooltip: 惊雷王鹰重置
+		}
+
+		jelly: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]水母皇后"
+			Tooltip: 水母皇后重置
+		}
+
+		bat: {
+			Label: "[i:ThoriumMod/ViscountMask]蝙蝠子爵"
+			Tooltip: 蝙蝠子爵重置
+		}
+
+		champ: {
+			Label: "[i:ThoriumMod/BuriedChampionMask]英灵遗骸"
+			Tooltip: 英灵遗骸重置
+		}
+
+		ges: {
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]花岗岩流能风暴"
+			Tooltip: 花岗岩流能风暴重置
+		}
+
+		scout: {
+			Label: "[i:ThoriumMod/StarScouterMask]星际监察者"
+			Tooltip: 星际监察者重置
+		}
+
+		coznix: {
+			Label: "[i:ThoriumMod/FallenBeholderMask]堕落注视者"
+			Tooltip: 堕落注视者重置
+		}
+
+		lich: {
+			Label: "[i:ThoriumMod/LichMask]巫妖"
+			Tooltip: 巫妖重置
+		}
+
+		abyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]遗忘之主"
+			Tooltip: 遗忘之主重置
+		}
+
+		rag: {
+			Label: "[i:ThoriumMod/TheOmegaCore]始生灾灵"
+			Tooltip: 始生灾灵重置
+		}
+	}
+}
