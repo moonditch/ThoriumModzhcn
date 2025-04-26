@@ -15,7 +15,7 @@ namespace ThoriumModzhcn.Translator
 				#region SpookyBardHealer.Tiles.SecretPainting
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Tiles.SecretPainting", "KillMultiTile", new ()
 				{
-					{"HEY! HEY! HEY!","嘿! 嘿! 嘿!"},
+					{"SpookyBardHealer.SpookyBardHealer.Tiles.SecretPainting.KillMultiTile.51","HEY! HEY! HEY!"},
 				});
 				#endregion SpookyBardHealer.Tiles.SecretPainting
 
@@ -23,31 +23,31 @@ namespace ThoriumModzhcn.Translator
 				#region SpookyBardHealer.Items.SecretPainting
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Items.SecretPainting", "UpdateInventory", new ()
 				{
-					{"P L A C E   M E","放  置  我"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.UpdateInventory.216","P L A C E   M E"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Items.SecretPainting", "OnConsumeItem", new ()
 				{
-					{"A mɒsʇǝɹpiɘce","绝无仅有"},
-					{"Bɘɒutiful!","漂亮！"},
-					{"1 pǝǝu ʏ0u","打你"},
-					{"A finɘ ɒɹʇwork","精美的艺术物品"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnConsumeItem.217","A finɘ ɒɹʇwork"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnConsumeItem.218","A mɒsʇǝɹpiɘce"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnConsumeItem.219","Bɘɒutiful!"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnConsumeItem.220","1 pǝǝu ʏ0u"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Items.SecretPainting", "OnSpawn", new ()
 				{
-					{"D0n't lɘɒvǝ me!!!","不要离开我!!!"},
-					{"Why mnsʇ y0u foɹsɒkǝ mɘ","你为什么不需要"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnSpawn.222","Why mnsʇ y0u foɹsɒkǝ mɘ"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnSpawn.223","D0n't lɘɒvǝ me!!!"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Items.SecretPainting", "OnStack", new ()
 				{
-					{"Яǝunion!!","连接！！"},
-					{"t0gɘtheɹ, sʇrongǝr!","专辑，强烈！"},
-					{"Wǝ. Aɹe. Ouɘ!","我们在一起！"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnStack.224","Wǝ. Aɹe. Ouɘ!"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnStack.225","Яǝunion!!"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnStack.226","t0gɘtheɹ, sʇrongǝr!"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Items.SecretPainting", "OnPickup", new ()
 				{
-					{"Ͷevɘɿ leɒvǝ mǝ agɒin!","让我再来一次！"},
-					{"GoOd, g0od!!","很好，很好！！"},
-					{"Яǝunitɘd 0ncɘ more...","再现重逢......"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnPickup.228","Яǝunitɘd 0ncɘ more..."},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnPickup.229","Ͷevɘɿ leɒvǝ mǝ agɒin!"},
+					{"SpookyBardHealer.SpookyBardHealer.Items.SecretPainting.OnPickup.230","GoOd, g0od!!"},
 				});
 				#endregion SpookyBardHealer.Items.SecretPainting
 

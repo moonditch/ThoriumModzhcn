@@ -1,7 +1,7 @@
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
-namespace ThoriumModzhcn.ThoriumModTranslator
+namespace ThoriumModzhcn.Translator
 {
 	public class ThoriumModTranslator
 	{
@@ -13,7 +13,11 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 			if(ModLoader.TryGetMod("ThoriumMod",out var mod))
 			{
 				#region ThoriumMod.ThoriumPlayer
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.ThoriumPlayer", "AddCoinTooltip", new()
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.ThoriumPlayer", "PostUpdateEquips", new ()
+				{
+					{"ThoriumMod.ThoriumMod.ThoriumPlayer.PostUpdateEquips.142"," life heal streak"},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.ThoriumPlayer", "AddCoinTooltip", new ()
 				{
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.167"," gold, "},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.168"," gold, and "},
@@ -22,10 +26,6 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.171"," copper"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.172","0 coins"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.176","MoneyAmount"},
-				});
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.ThoriumPlayer", "PostUpdateEquips", new ()
-				{
-					{"ThoriumMod.ThoriumMod.ThoriumPlayer.PostUpdateEquips.142"," life heal streak"},
 				});
 				#endregion ThoriumMod.ThoriumPlayer
 

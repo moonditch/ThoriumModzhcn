@@ -15,10 +15,10 @@ namespace ThoriumModzhcn.Translator
 				#region ThoriumClassTagsConsistency.ClassTagsGlobalItem
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumClassTagsConsistency.ClassTagsGlobalItem", "ModifyTooltips", new ()
 				{
-					{"-Warrior Class-","-近战职业-"},
-					{"-Ranger Class-","-远程职业-"},
-					{"-Sorcerer Class-","-魔法师职业-"},
-					{"-Summoner Class-","-召唤师职业-"},
+					{"ThoriumClassTagsConsistency.ThoriumClassTagsConsistency.ClassTagsGlobalItem.ModifyTooltips.70","-Warrior Class-"},
+					{"ThoriumClassTagsConsistency.ThoriumClassTagsConsistency.ClassTagsGlobalItem.ModifyTooltips.71","-Ranger Class-"},
+					{"ThoriumClassTagsConsistency.ThoriumClassTagsConsistency.ClassTagsGlobalItem.ModifyTooltips.72","-Sorcerer Class-"},
+					{"ThoriumClassTagsConsistency.ThoriumClassTagsConsistency.ClassTagsGlobalItem.ModifyTooltips.73","-Summoner Class-"},
 				});
 				#endregion ThoriumClassTagsConsistency.ClassTagsGlobalItem
 
