@@ -2,13 +2,13 @@
 
 Items: {
 	TerrHacks: {
-		DisplayName: 元素采伐者
+		DisplayName: 元素採伐者
 		Tooltip: ""
 	}
 
 	TerrJacks: {
 		DisplayName: 元素撼地者
-		Tooltip: "'别和飞天扫帚搞混了'"
+		Tooltip: "'別和飛天掃帚搞混了'"
 	}
 }
 
