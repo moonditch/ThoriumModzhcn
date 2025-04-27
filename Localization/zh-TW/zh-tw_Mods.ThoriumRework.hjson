@@ -1,386 +1,386 @@
 ItemDescriptions: {
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
-	DreamWeaversTabard: 减少20%受到的伤害
+	DreamWeaversTabard: 減少20%受到的傷害
 	DreamWeaversTreads:
 		'''
-		增加20%光辉施法速度
+		增加20%光輝施法速度
 		最大生命增加80
 		'''
 	TideTurnerBreastplate:
 		'''
-		减少10%受到的伤害
-		穿戴者的生命值越低，防御和伤害减免就越高
-		最高100点防御和60%的伤害减免
+		減少10%受到的傷害
+		穿戴者的生命值越低，防禦和傷害減免就越高
+		最高100點防禦和60%的傷害減免
 		'''
-	TideTurnerGreaves: 增加20%近战和投掷攻速
+	TideTurnerGreaves: 增加20%近戰和投擲攻速
 	TideTurnerHelmet:
 		'''
-		穿戴者的生命值越低，近战攻速越快
-		最高200%的近战攻速
+		穿戴者的生命值越低，近戰攻速越快
+		最高200%的近戰攻速
 		'''
-	TideTurnersGaze: 增加50点投掷伤害
-	MasterArbalestHood: 远程伤害无视100点防御力
+	TideTurnersGaze: 增加50點投擲傷害
+	MasterArbalestHood: 遠程傷害無視100點防禦力
 	MasterMarksmansScouter: 提高12%射速
-	AssassinsGuard: 增加20点远程伤害
+	AssassinsGuard: 增加20點遠程傷害
 	AssassinsWalkers: 提高20%攻速
 	MagmaSeersMask:
 		'''
 		提高40%鞭子攻速
-		增加30点召唤伤害
+		增加30點召喚傷害
 		'''
-	PyromancerCowl: 减少40%法力消耗
+	PyromancerCowl: 減少40%法力消耗
 	PyromancerLeggings:
 		'''
-		提高30%释放速度
-		最大哨兵数量增加1
+		提高30%釋放速度
+		最大哨兵數量增加1
 		'''
 	PyromancerTabard:
 		'''
-		增加75%鞭子攻击距离
-		最大召唤物数量增加2
+		增加75%鞭子攻擊距離
+		最大召喚物數量增加2
 		'''
-	InspiratorsHelmet: 提高25%吟游诗人演奏速度
-	RhapsodistChestWoofer: 音波伤害无视250点防御力
-	RhapsodistBoots: 咒音增幅范围加倍
-	SoloistHat: 最大灵感值增加8点
+	InspiratorsHelmet: 提高25%吟游詩人演奏速度
+	RhapsodistChestWoofer: 音波傷害無視250點防禦力
+	RhapsodistBoots: 咒音增幅範圍加倍
+	SoloistHat: 最大靈感值增加8點
 	ChampionBomberStaff:
 		'''
-		发射一枚神奇的导弹重复攻击敌人
-		"攻击并不一定意味着要打死他们"
+		發射一枚神奇的導彈重複攻擊敵人
+		"攻擊並不一定意味著要打死他們"
 		'''
 	ChampionSwiftBlade:
 		'''
-		释放强力冲击波对敌人造成50%的伤害
-		每挥舞的第三和四次会召唤剑魂
+		釋放強力衝擊波對敵人造成50%的傷害
+		每揮舞的第三和四次會召喚劍魂
 		'''
 	GraniteCrossbow:
 		'''
-		每3次攻击，发射3根花岗岩箭，然后用能量溢散击中的敌怪
-		被溢散的敌怪多受5%伤害
+		每3次攻擊，發射3根花崗岩箭，然後用能量溢散擊中的敵怪
+		被溢散的敵怪多受5%傷害
 		'''
 	IllumiteBarrage:
 		'''
-		每攻击6次召唤传送门，攻击附近的敌人
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		每攻擊6次召喚傳送門，攻擊附近的敵人
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
 	IllumiteBlade:
 		'''
-		挥舞两把荧光刃
-		挥舞时，向附近的敌人发射荧光束
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		揮舞兩把螢光刃
+		揮舞時，向附近的敵人發射螢光束
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
 	IllumiteBlaster:
 		'''
-		每攻击6次召唤传送门，攻击附近的敌人
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		每攻擊6次召喚傳送門，攻擊附近的敵人
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
 	IllumiteShotbow:
 		'''
-		每攻击6次召唤传送门，攻击附近的敌人
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		每攻擊6次召喚傳送門，攻擊附近的敵人
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
 	IllumiteSpear:
 		'''
-		每3次攻击发射荧光矛尖
-		攻击附近的敌人时，额外发射荧光束
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		每3次攻擊發射螢光矛尖
+		攻擊附近的敵人時，額外發射螢光束
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
-	CobaltPopper: 使用过程中增加防御力
-	PalladiumSubmachineGun: 使用过程中增加生命再生
-	MythrilPelter: 使用一段时间后攻击速度会翻倍
-	OrichalcumPelter: 随着时间的推移逐渐增加攻击速度
-	AdamantiteCarbine: 使用过程中增加暴击率
-	TitaniumRifle: 使用过程中增加护甲穿透
+	CobaltPopper: 使用過程中增加防禦力
+	PalladiumSubmachineGun: 使用過程中增加生命再生
+	MythrilPelter: 使用一段時間後攻擊速度會翻倍
+	OrichalcumPelter: 隨著時間的推移逐漸增加攻擊速度
+	AdamantiteCarbine: 使用過程中增加暴擊率
+	TitaniumRifle: 使用過程中增加護甲穿透
 	PyroclastStaff:
 		'''
-		发射1到5个火焰光束
-		火焰光束攻击物块或击中敌人时会进行分裂
+		發射1到5個火焰光束
+		火焰光束攻擊物塊或擊中敵人時會進行分裂
 		'''
 	Obliterator:
 		'''
-		左键射出非穿透激光
-		右键释放光球，向附近的目标发射子弹并造成60%的伤害
-		用激光攻击光球，让激光反弹到附近的敌怪并造成500%的伤害
+		左鍵射出非穿透鐳射
+		右鍵釋放光球，向附近的目標發射子彈並造成60%的傷害
+		用鐳射攻擊光球，讓鐳射反彈到附近的敵怪並造成500%的傷害
 		'''
 	OmegaBlaster:
 		'''
-		发射三颗能量子弹，小幅度蓄力后，射出能量魔法阵
-		大幅度蓄力后，发射能量光束并造成800%的伤害
-		对敌人使用能量子弹造成伤害时会积累能量值
-		能量值充满后，右键释放瞬移光剑，对敌人造成1100%的伤害
-		瞬移光剑使用后，能量值在10秒内不能充能
-		但是，该武器不消耗法力值
-		'成为天界最伟大的守护者'
+		發射三顆能量子彈，小幅度蓄力後，射出能量魔法陣
+		大幅度蓄力後，發射能量光束並造成800%的傷害
+		對敵人使用能量子彈造成傷害時會積累能量值
+		能量值充滿後，右鍵釋放瞬移光劍，對敵人造成1100%的傷害
+		瞬移光劍使用後，能量值在10秒內不能充能
+		但是，該武器不消耗法力值
+		'成為天界最偉大的守護者'
 		'''
 	HitScanner:
 		'''
-		这把枪发射的火枪子弹没有行进时间并无视50点防御
-		火枪子弹也会在短时间内穿过方块
+		這把槍發射的火槍子彈沒有行進時間並無視50點防禦
+		火槍子彈也會在短時間內穿過方塊
 		'''
 	ParticleWhip:
 		'''
-		释放粒子光束在敌人之间弹跳
-		在弹跳时，粒子光束变成弯曲的闪电
-		"不是那种鞭子…"
+		釋放粒子光束在敵人之間彈跳
+		在彈跳時，粒子光束變成彎曲的閃電
+		"不是那種鞭子…"
 		'''
 	LodeStoneBow:
 		'''
-		对敌怪造成伤害会剥离它们，它们所受伤害增加10
-		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		對敵怪造成傷害會剝離它們，它們所受傷害增加10
+		每3次攻擊都會向剝離的敵人發射地脈箭（若沒有剝離狀態敵人，發射五個地脈箭）
 		'''
 	LodeStoneQuickDraw:
 		'''
-		对敌怪造成伤害会剥离它们，它们所受伤害增加10
-		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		對敵怪造成傷害會剝離它們，它們所受傷害增加10
+		每3次攻擊都會向剝離的敵人發射地脈箭（若沒有剝離狀態敵人，發射五個地脈箭）
 		'''
 	ValadiumBow:
 		'''
-		攻击时用虚空能量诅咒敌人
-		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		攻擊時用虛空能量詛咒敵人
+		每3次攻擊使用用虛空鐳射攻擊，詛咒的敵人
 		'''
 	ValadiumFoeBlaster:
 		'''
-		攻击时用虚空能量诅咒敌人
-		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		攻擊時用虛空能量詛咒敵人
+		每3次攻擊使用用虛空鐳射攻擊，詛咒的敵人
 		'''
 	ValadiumSpear:
 		'''
-		攻击时用虚空能量诅咒敌人
-		右键对敌人产生多数攻击并快速攻击附近的敌人
+		攻擊時用虛空能量詛咒敵人
+		右鍵對敵人產生多數攻擊並快速攻擊附近的敵人
 		'''
 	SoulRender:
 		'''
-		每挥舞的第三和四次会释放旋转的灵魂之刃并造成40%的伤害
-		攻击速度越高，灵魂之刃造成的伤害就越高
+		每揮舞的第三和四次會釋放旋轉的靈魂之刃並造成40%的傷害
+		攻擊速度越高，靈魂之刃造成的傷害就越高
 		'''
 	FleshSkewer:
 		'''
-		攻击有概率汲取生命，但会短暂禁用生命再生
-		暴击有几率回复生命值，但不会禁用生命再生
+		攻擊有概率汲取生命，但會短暫禁用生命再生
+		暴擊有幾率回復生命值，但不會禁用生命再生
 		'''
 	ToothOfTheConsumer:
 		'''
-		挥舞两把肉食者之牙
-		攻击有概率汲取生命，但会短暂禁用生命再生
-		暴击有几率回复生命值，但不会禁用生命再生
-		右键消耗1点生命值释放鲜血
+		揮舞兩把肉食者之牙
+		攻擊有概率汲取生命，但會短暫禁用生命再生
+		暴擊有幾率回復生命值，但不會禁用生命再生
+		右鍵消耗1點生命值釋放鮮血
 		'''
 	DragonTooth:
 		'''
-		每次挥舞4次会释放诅咒焰
-		对敌人攻击产生暴击时，从敌人身上释放多束诅咒焰
+		每次揮舞4次會釋放詛咒焰
+		對敵人攻擊產生暴擊時，從敵人身上釋放多束詛咒焰
 		'''
-	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
+	DragonTalon: 攻擊用詛咒焰束點燃受擊敵怪
 	DreadRazor:
 		'''
-		右键释放一股恐惧能量
-		攻击会自动累积恐惧能量
+		右鍵釋放一股恐懼能量
+		攻擊會自動累積恐懼能量
 		'''
 	DemonBloodSpear:
 		'''
-		每三次攻击释放一组幻影血矛
-		造成伤害会提供鲜血充能
-		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
+		每三次攻擊釋放一組幻影血矛
+		造成傷害會提供鮮血充能
+		處於最大充能時，你的下次攻擊會造成兩倍傷害並治療你造成傷害的20%
 		'''
 	PrimesFury:
 		'''
-		每挥舞4次会释放红色光束并造成三倍伤害
-		右键释放一连串攻击并造成一半伤害
-		"我们家里有一把至尊之怒"
+		每揮舞4次會釋放紅色光束並造成三倍傷害
+		右鍵釋放一連串攻擊並造成一半傷害
+		"我們家裡有一把至尊之怒"
 		'''
 	TitanSword:
 		'''
-		挥舞两把泰坦剑
-		暴击会造成额外伤害
+		揮舞兩把泰坦劍
+		暴擊會造成額外傷害
 		'''
 	TerrariumSaber:
 		'''
-		挥舞两把元素誓约之剑
-		攻击敌人后，释放追踪的元素能量
+		揮舞兩把元素誓約之劍
+		攻擊敵人後，釋放追蹤的元素能量
 		'''
 	DoomSayersCoin:
 		'''
-		[c/DB7093:在第二阶段造成混乱的现实减益，减益存在时噬梦者BOSS不会受到伤害]
-		[c/DB7093:触碰到紫色法阵后，移除混乱的现实减益]
-		[c/DB7093:在你身边生成箭头指引紫色法阵的位置]
-		[c/DB7093:混乱的现实减益被移除后，进行伤害输出阶段并持续20秒]
-		[c/DB7093:如果混乱的现实减益倒计结束，你会立即死亡]
-		[c/DB7093:击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以对噬梦者造成伤害]
-		[c/DB7093:如果噬梦者已被击败，右键可以直接召唤噬梦者]
-		[c/DB7093:此外，始生灾灵在场时，右键会使其消失]
+		[c/DB7093:在第二階段造成混亂的現實減益，減益存在時噬夢者BOSS不會受到傷害]
+		[c/DB7093:觸碰到紫色法陣後，移除混亂的現實減益]
+		[c/DB7093:在你身邊生成箭頭指引紫色法陣的位置]
+		[c/DB7093:混亂的現實減益被移除後，進行傷害輸出階段並持續20秒]
+		[c/DB7093:如果混亂的現實減益倒計結束，你會立即死亡]
+		[c/DB7093:擊敗一次始生災靈後，擁有混亂的現實減益不需要觸碰到紫色法陣，也可以對噬夢者造成傷害]
+		[c/DB7093:如果噬夢者已被擊敗，右鍵可以直接召喚噬夢者]
+		[c/DB7093:此外，始生災靈在場時，右鍵會使其消失]
 		'''
 	IllumiteScythe:
 		'''
-		对附近的敌人释放荧光刃砍
-		被击中的敌人赋予荧光效果，并受到10%的伤害
+		對附近的敵人釋放螢光刃砍
+		被擊中的敵人賦予螢光效果，並受到10%的傷害
 		'''
 	TerrariumBomber:
 		'''
-		释放追踪的彩色导弹
-		彩色导弹攻击到到敌人时分裂成三个
-		25%概率节省弹药
+		釋放追蹤的彩色導彈
+		彩色導彈攻擊到到敵人時分裂成三個
+		25%概率節省彈藥
 		'''
 	TerrariumPulseRifle:
 		'''
-		一次性发射四个子弹
-		将合适的弹药转换成脉冲射线，继承子弹的命中效果
-		15%概率节省弹药
+		一次性發射四個子彈
+		將合適的彈藥轉換成脈衝射線，繼承子彈的命中效果
+		15%概率節省彈藥
 		'''
 }
 
 NPCRenames: {
-	Beholder: 堕落注视者的仆人
-	FallenBeholder: 堕落注视者
-	FallenBeholder2: 虚空凝瞳·堕落注视者
-	Lich: 噬元凶灾之徒·巫妖
+	Beholder: 墮落注視者的僕人
+	FallenBeholder: 墮落注視者
+	FallenBeholder2: 虛空凝瞳·墮落注視者
+	Lich: 噬元兇災之徒·巫妖
 	LichHeadless: 死亡之徒·巫妖
-	ForgottenOne: 遗忘之主的壳
-	ForgottenOneCracked: 遗忘之主
-	ForgottenOneReleased: 旧神潮汐·遗忘之主
-	DreamEater: 泯灭现实·噬梦者
+	ForgottenOne: 遺忘之主的殼
+	ForgottenOneCracked: 遺忘之主
+	ForgottenOneReleased: 舊神潮汐·遺忘之主
+	DreamEater: 泯滅現實·噬夢者
 }
 
 InfernumIntros: {
 	Aquaius:
 		'''
 		永劫狂潮
-		潮汐之灵
+		潮汐之靈
 		'''
 	BoreanStrider:
 		'''
-		苔原威胁
-		极地遁蛛
+		苔原威脅
+		極地遁蛛
 		'''
 	BuriedChampion:
 		'''
-		昔日遗影
-		英灵残骸
+		昔日遺影
+		英靈殘骸
 		'''
 	DreamEater:
 		'''
-		临终现实
-		噬梦者
+		臨終現實
+		噬夢者
 		'''
 	FallenBeholder:
 		'''
-		虚空凝瞳
-		堕落注视者
+		虛空凝瞳
+		墮落注視者
 		'''
 	ForgottenOne:
 		'''
-		潮汐旧神
-		遗忘之主
+		潮汐舊神
+		遺忘之主
 		'''
 	GraniteEnergyStorm:
 		'''
-		震荡板块
-		花岗岩流能风暴
+		震盪板塊
+		花崗岩流能風暴
 		'''
 	Lich:
 		'''
-		噬元凶灾之徒
+		噬元兇災之徒
 		巫妖
 		'''
 	QueenJellyfish:
 		'''
-		突变海怪君主
+		突變海怪君主
 		水母皇后
 		'''
 	Omnicide:
 		'''
-		噬元凶灾
-		毁灭之灵
+		噬元兇災
+		毀滅之靈
 		'''
 	SlagFury:
 		'''
 		原初烈火
-		戮焰之灵
+		戮焰之靈
 		'''
 	StarScouter:
 		'''
 		星宇航舟
-		星际监察者
+		星際監察者
 		'''
 	TheGrandThunderBird:
 		'''
 		狂野食腐者
-		惊雷王鹰
+		驚雷王鷹
 		'''
 	Viscount:
 		'''
-		洞穴领主
+		洞穴領主
 		蝙蝠子爵
 		'''
 }
 
 Projectiles: {
-	AbyssalApparition.DisplayName: 深渊幽灵
+	AbyssalApparition.DisplayName: 深淵幽靈
 	AquaiusBubble.DisplayName: 泡泡
 	AquaiusPunchAttack.DisplayName: 潮汐之手
-	AquaiusWhirlpool.DisplayName: 无尽涡流
-	BeamSaber.DisplayName: 激光剑
-	BeholderBlade.DisplayName: 注视者之刃
-	BiteyBaby.DisplayName: 贪食小蝙蝠
+	AquaiusWhirlpool.DisplayName: 無盡渦流
+	BeamSaber.DisplayName: 鐳射劍
+	BeholderBlade.DisplayName: 注視者之刃
+	BiteyBaby.DisplayName: 貪食小蝙蝠
 	BlackHole.DisplayName: 黑洞
-	ChampionBomber.DisplayName: 魔法爆弹
-	ChampionBomberF.DisplayName: 魔法爆弹
-	ChampionShield.DisplayName: 英灵的反击之盾
-	ChampionSlash.DisplayName: 英灵的迅捷锋刃
-	ChampionSlice.DisplayName: 英灵剑气
-	ChampionSliceF.DisplayName: 英灵剑气
-	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
-	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
-	ChampionWarHorn.DisplayName: 英灵战号
+	ChampionBomber.DisplayName: 魔法爆彈
+	ChampionBomberF.DisplayName: 魔法爆彈
+	ChampionShield.DisplayName: 英靈的反擊之盾
+	ChampionSlash.DisplayName: 英靈的迅捷鋒刃
+	ChampionSlice.DisplayName: 英靈劍氣
+	ChampionSliceF.DisplayName: 英靈劍氣
+	ChampionsSwiftBlade.DisplayName: 英靈的迅捷鋒刃
+	ChampionsSwiftBladeClone.DisplayName: 英靈的迅捷鋒刃
+	ChampionWarHorn.DisplayName: 英靈戰號
 	DancingJellyfish.DisplayName: 跳舞水母
 	Darkness.DisplayName: 黑暗
 	DeathRain.DisplayName: 死亡之雨
 	DemonBloodSword.DisplayName: Demon Blood Sword
-	DragonTooth.DisplayName: 龙牙
+	DragonTooth.DisplayName: 龍牙
 	DreadRazor.DisplayName: Dread Razor
-	DyingReality.DisplayName: 垂死现实
+	DyingReality.DisplayName: 垂死現實
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
-	EnergySurge.DisplayName: 能量脉搏
-	EradicationBeam.DisplayName: 湮灭光束
-	EradicationBeamF.DisplayName: 湮灭光束
-	EradicationRay.DisplayName: 湮灭激光
-	EraserLaser.DisplayName: 歼灭镭射
-	ExtinctionRay.DisplayName: 泯灭激光
-	FalseBeholder.DisplayName: 注视者假身
-	FalseSun.DisplayName: 伪日
-	FlareSlash.DisplayName: 怒火斩击
-	Flash.DisplayName: 闪光
-	GrandThunder.DisplayName: 王鹰之雷
-	GrandThunderF.DisplayName: 王鹰之雷
-	GraniteCharge.DisplayName: 花岗岩充能
-	HitScan.DisplayName: 冲击射线
-	HitScanner.DisplayName: 冲击扫描仪
+	EnergySurge.DisplayName: 能量脈搏
+	EradicationBeam.DisplayName: 湮滅光束
+	EradicationBeamF.DisplayName: 湮滅光束
+	EradicationRay.DisplayName: 湮滅鐳射
+	EraserLaser.DisplayName: 殲滅鐳射
+	ExtinctionRay.DisplayName: 泯滅鐳射
+	FalseBeholder.DisplayName: 注視者假身
+	FalseSun.DisplayName: 偽日
+	FlareSlash.DisplayName: 怒火斬擊
+	Flash.DisplayName: 閃光
+	GrandThunder.DisplayName: 王鷹之雷
+	GrandThunderF.DisplayName: 王鷹之雷
+	GraniteCharge.DisplayName: 花崗岩充能
+	HitScan.DisplayName: 衝擊射線
+	HitScanner.DisplayName: 衝擊掃描器
 	HitScannerTelegraph.DisplayName: Hit Scanner
-	IllumiteBlade.DisplayName: 荧光刃
-	IllumitePortal.DisplayName: 荧光传送门
-	ImpendingDread.DisplayName: 迫近之惧
-	ImpendingDreadF.DisplayName: 迫近之惧
-	InfernalRay.DisplayName: 炼狱射线
-	InfernalRayTelegraph.DisplayName: 炼狱射线
+	IllumiteBlade.DisplayName: 螢光刃
+	IllumitePortal.DisplayName: 螢光傳送門
+	ImpendingDread.DisplayName: 迫近之懼
+	ImpendingDreadF.DisplayName: 迫近之懼
+	InfernalRay.DisplayName: 煉獄射線
+	InfernalRayTelegraph.DisplayName: 煉獄射線
 	JammingJellyfish.DisplayName: 水母音符
 	JellyfishJam.DisplayName: 水母音符
-	LichLantern.DisplayName: 易爆灯笼
-	LichWhip.DisplayName: 震荡性仪器
-	LodeStoneClaymore.DisplayName: 地脉长刃
-	Loudener.DisplayName: 扩音器
+	LichLantern.DisplayName: 易爆燈籠
+	LichWhip.DisplayName: 震盪性儀器
+	LodeStoneClaymore.DisplayName: 地脈長刃
+	Loudener.DisplayName: 擴音器
 	LucidNuke.DisplayName: 洞察之能
 	LucidRay.DisplayName: 洞察之能
 	LucidRayTelegraph.DisplayName: 洞察之能
-	Mjolnir.DisplayName: 传说之雷
-	NightmareClaw.DisplayName: 梦魇魔爪
-	NightmareSlash.DisplayName: 梦魇魔爪
-	Obliterator.DisplayName: 泯灭者
-	ObliteratorRay.DisplayName: 泯灭者
-	OmegaRay.DisplayName: 欧米茄射线
-	OmniBoom.DisplayName: 原子爆发
-	OmniBurst.DisplayName: 原子爆发
-	OmniSlash.DisplayName: 死亡斩击
-	OmnicidePunchAttack.DisplayName: 毁灭之拳
+	Mjolnir.DisplayName: 傳說之雷
+	NightmareClaw.DisplayName: 夢魘魔爪
+	NightmareSlash.DisplayName: 夢魘魔爪
+	Obliterator.DisplayName: 泯滅者
+	ObliteratorRay.DisplayName: 泯滅者
+	OmegaRay.DisplayName: 歐米茄射線
+	OmniBoom.DisplayName: 原子爆發
+	OmniBurst.DisplayName: 原子爆發
+	OmniSlash.DisplayName: 死亡斬擊
+	OmnicidePunchAttack.DisplayName: 毀滅之拳
 	Oneirophobia.DisplayName: Oneirophobia
 	OneirophobiaBlade.DisplayName: Lucid Edge
 	OneirophobiaBolt.DisplayName: Lucid Missile
@@ -388,174 +388,174 @@ Projectiles: {
 	OneirophobiaMinion.DisplayName: Lucid Instrument
 	OneirophobiaNuke.DisplayName: Lucid Blast
 	OneirophobiaSlice.DisplayName: Lucid Slash
-	Paylode.DisplayName: 电磁载荷
+	Paylode.DisplayName: 電磁載荷
 	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
-	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
+	SevenSeasDevastatorWhirlpool.DisplayName: 七海攪碎者
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
 	ShellxophoneStrike.DisplayName: Abyssal Strike
 	SoulBleed.DisplayName: Soul Bleed
-	SoulRender.DisplayName: 灵魂镰刃
-	StableRealityRift.DisplayName: 稳定的现实裂隙
+	SoulRender.DisplayName: 靈魂鐮刃
+	StableRealityRift.DisplayName: 穩定的現實裂隙
 	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
-	TerrariumSaber.DisplayName: 元素圣剑
+	TerrariumSaber.DisplayName: 元素聖劍
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
-	TitanSword.DisplayName: 泰坦剑
+	TitanSword.DisplayName: 泰坦劍
 	ToothOfTheConsumer.DisplayName: 肉食者之牙
-	ValadiumRay.DisplayName: 虚空射线
-	ValadiumSlash.DisplayName: 虚空斩击
-	ValadiumSlicer.DisplayName: 虚金切割者
+	ValadiumRay.DisplayName: 虛空射線
+	ValadiumSlash.DisplayName: 虛空斬擊
+	ValadiumSlicer.DisplayName: 虛金切割者
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
-	VisualShockwave.DisplayName: 冲击波
-	Void.DisplayName: 虚空
-	VoidEye.DisplayName: 注视者之眼
-	VoidEyeF.DisplayName: 注视者之刃
-	ZephyrFeather.DisplayName: 西风之羽
-	ZephyrsRuin.DisplayName: 西风残垣
-	TerrariumPulseRay.DisplayName: 元素脉冲射线
+	VisualShockwave.DisplayName: 衝擊波
+	Void.DisplayName: 虛空
+	VoidEye.DisplayName: 注視者之眼
+	VoidEyeF.DisplayName: 注視者之刃
+	ZephyrFeather.DisplayName: 西風之羽
+	ZephyrsRuin.DisplayName: 西風殘垣
+	TerrariumPulseRay.DisplayName: 元素脈衝射線
 }
 
 Items: {
 	BeholderBlade: {
-		DisplayName: 凝视者之刃
+		DisplayName: 凝視者之刃
 		Tooltip:
 			'''
-			每挥舞的第三和四次会发射凝视光束
-			暴击时，敌人身上会产生虚空泡泡
-			虚空泡泡里会召唤眼睛攻击敌人，并造成50%的伤害
-			每次只能生成一个虚空泡泡
+			每揮舞的第三和四次會發射凝視光束
+			暴擊時，敵人身上會產生虛空泡泡
+			虛空泡泡裡會召喚眼睛攻擊敵人，並造成50%的傷害
+			每次只能生成一個虛空泡泡
 			'''
 	}
 
 	ChampionWarHorn: {
-		DisplayName: 英灵战号
+		DisplayName: 英靈戰號
 		Tooltip:
 			'''
-			释放追踪的音波
+			釋放追蹤的音波
 			"CHARGE!"
 			'''
 	}
 
 	ConcussiveInstrument: {
-		DisplayName: 震荡性仪器
+		DisplayName: 震盪性儀器
 		Tooltip:
 			'''
-			打击乐器攻击时，会在敌人身上掷出一个锤子
-			"这是……只是一把锤子?"
+			打擊樂器攻擊時，會在敵人身上擲出一個錘子
+			"這是……只是一把錘子?"
 			'''
 	}
 
 	DeathsingerPotion: {
-		DisplayName: 死亡歌者药水
-		Tooltip: 增加7%音波伤害和音波演奏速度
+		DisplayName: 死亡歌者藥水
+		Tooltip: 增加7%音波傷害和音波演奏速度
 	}
 
 	ExecutionersContract: {
-		DisplayName: 刽子手协议
+		DisplayName: 劊子手協議
 		Tooltip:
 			'''
-			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
-			"把他们的灵魂带给我…"
+			牧師鐮刀的彈幕擊中敵人時也能獲得靈魂精華
+			"把他們的靈魂帶給我…"
 			'''
 	}
 
 	FanDonations: {
-		DisplayName: 粉丝捐款
+		DisplayName: 粉絲捐款
 		Tooltip:
 			'''
-			所有乐器击中敌人会产生爆炸，光辉大小取决于演奏的乐器和造成的暴击伤害降低50%
-			穿透性弦乐器攻击每次击中后速度增加，不再降低伤害
-			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
-			打击乐器攻击时，会在敌人身上掷出一个锤子
-			电子乐器的弹幕速度大幅提升
-			最大灵感增加5点
-			"卖得并不好，但至少有人好心地提供了帮助…"
+			所有樂器擊中敵人會產生爆炸，光輝大小取決於演奏的樂器和造成的暴擊傷害降低50%
+			穿透性絃樂器攻擊每次擊中後速度增加，不再降低傷害
+			絃樂器的彈幕在與實體方塊碰撞時產生的效果也能在敵人身上產生
+			打擊樂器攻擊時，會在敵人身上擲出一個錘子
+			電子樂器的彈幕速度大幅提升
+			最大靈感增加5點
+			"賣得並不好，但至少有人好心地提供了幫助…"
 			'''
 	}
 
 	ImpulseAmplifier: {
-		DisplayName: 脉冲扬声器
+		DisplayName: 脈衝揚聲器
 		Tooltip:
 			'''
-			电子乐器的弹幕速度大幅提升
-			"不，它不会比火箭飞得更快!"
+			電子樂器的彈幕速度大幅提升
+			"不，它不會比火箭飛得更快!"
 			'''
 	}
 
 	InspirationRegenerationPotion: {
-		DisplayName: 灵感恢复药水
-		Tooltip: 增加灵感恢复速度
+		DisplayName: 靈感恢復藥水
+		Tooltip: 增加靈感恢復速度
 	}
 
 	JellyfishJam: {
 		DisplayName: 水母狂想曲
-		Tooltip: 释放跳舞的水母刺穿敌人
+		Tooltip: 釋放跳舞的水母刺穿敵人
 	}
 
 	LichWhip: {
 		DisplayName: 笞魂刑具
 		Tooltip:
 			'''
-			挥出由灵魂之火赋予力量的三重鞭
-			敌人被鞭打后会流血
-			流血的灵魂会释放一根彩线治愈周围的玩家
-			"用来折磨死后灵魂的工具"
+			揮出由靈魂之火賦予力量的三重鞭
+			敵人被鞭打後會流血
+			流血的靈魂會釋放一根彩線治癒周圍的玩家
+			"用來折磨死後靈魂的工具"
 			'''
 	}
 
 	Loudener: {
-		DisplayName: 扩音器
+		DisplayName: 擴音器
 		Tooltip:
 			'''
-			管乐器和铜管乐器击中敌人会产生金色光辉
-			金色光辉大小取决于演奏的乐器
-			爆炸造成的暴击伤害降低50%
-			"你有消音器，我有扩音器!"
+			管樂器和銅管樂器擊中敵人會產生金色光輝
+			金色光輝大小取決於演奏的樂器
+			爆炸造成的暴擊傷害降低50%
+			"你有消音器，我有擴音器!"
 			'''
 	}
 
 	LunateCharm: {
-		DisplayName: 新月护身符
-		Tooltip: 取消牧师盔甲带来的非光辉伤害削减
+		DisplayName: 新月護身符
+		Tooltip: 取消牧師盔甲帶來的非光輝傷害削減
 	}
 
 	Oneirophobia: {
-		DisplayName: 恐梦症
+		DisplayName: 恐夢症
 		Tooltip:
 			'''
-			释放多种类的幻影武器
-			第一，二次攻击时，武器会变成一把幻影剑
-			第一次攻击会产生强烈的冲击波，第二次攻击会产生三个冲击波
-			第三次攻击时，武器的刀刃脱落并向前抛出
-			然后武器会变成一把幻影镰刀
-			第四次攻击时，镰刀旋转并释放追踪敌怪的光束
-			第五次攻击时，武器会变成幻影魔杖
-			释放不稳定的能量球，并在一段时间后爆炸
-			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
-			不使用武器时，生成幻影仆从为你而战
-			"对梦和噩梦的非理性恐惧的表现"
+			釋放多種類的幻影武器
+			第一，二次攻擊時，武器會變成一把幻影劍
+			第一次攻擊會產生強烈的衝擊波，第二次攻擊會產生三個衝擊波
+			第三次攻擊時，武器的刀刃脫落並向前拋出
+			然後武器會變成一把幻影鐮刀
+			第四次攻擊時，鐮刀旋轉並釋放追蹤敵怪的光束
+			第五次攻擊時，武器會變成幻影魔杖
+			釋放不穩定的能量球，並在一段時間後爆炸
+			第六次攻擊時，此武器會變成帶有鎖定敵怪的幻影鐳射槍
+			不使用武器時，生成幻影僕從為你而戰
+			"對夢和噩夢的非理性恐懼的表現"
 			'''
 	}
 
 	RedCresent: {
-		DisplayName: 绯红新月
+		DisplayName: 緋紅新月
 		Tooltip:
 			'''
-			释放蝙蝠攻击敌人，蝙蝠会回到你身边
-			蝙蝠造成的1/3伤害用来恢复吸血值
-			右键释放蝙蝠，蝙蝠会追踪并治愈其他玩家
-			每次消耗10点吸血值
-			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
-			但是，治疗队友会退还一些法力值给予治疗者
+			釋放蝙蝠攻擊敵人，蝙蝠會回到你身邊
+			蝙蝠造成的1/3傷害用來恢復吸血值
+			右鍵釋放蝙蝠，蝙蝠會追蹤並治癒其他玩家
+			每次消耗10點吸血值
+			蝙蝠治癒<healAmount>點生命值，不會觸發治療效果
+			但是，治療隊友會退還一些法力值給予治療者
 			吸血值: <bloodSiphon>
-			<legendaryModeOnly>在传奇模式下使用需要生命值
-			"蝙蝠的美妙歌谣"
+			<legendaryModeOnly>在傳奇模式下使用需要生命值
+			"蝙蝠的美妙歌謠"
 			'''
 	}
 
@@ -565,58 +565,58 @@ Items: {
 	}
 
 	PickShapedPebble: {
-		DisplayName: 锄形卵石
+		DisplayName: 鋤形卵石
 		Tooltip:
 			'''
-			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
-			"这是摇滚音乐!"
+			絃樂器的彈幕在與實體方塊碰撞時產生的效果也能在敵人身上產生
+			"這是搖滾音樂!"
 			'''
 	}
 
 	PocketEnergyStorm: {
-		DisplayName: 便携式能量风暴
+		DisplayName: 可擕式能量風暴
 		Tooltip:
 			'''
-			投掷一个不稳定的能量球，将花岗岩能量溢向目标
-			被溢散的敌怪多受5%伤害
-			按住左键让能量球在你身边环绕
-			松开左键将你身边所有的能量球向你鼠标位置发射
-			一次最多20个能量球
-			不会增加疲惫值
-			"赐予能量球新的意义"
+			投擲一個不穩定的能量球，將花崗岩能量溢向目標
+			被溢散的敵怪多受5%傷害
+			按住左鍵讓能量球在你身邊環繞
+			鬆開左鍵將你身邊所有的能量球向你滑鼠位置發射
+			一次最多20個能量球
+			不會增加疲憊值
+			"賜予能量球新的意義"
 			'''
 	}
 
 	RepurposedStarCaller: {
-		DisplayName: 星际召唤器
+		DisplayName: 星際召喚器
 		Tooltip:
 			'''
-			召唤监察者核心为你而战
-			火焰核心燃烧目标，生命核心毒害目标，寒冰核心造成冷冻
-			"我们收到你的信息了，现在有什么指示?"
+			召喚監察者核心為你而戰
+			火焰核心燃燒目標，生命核心毒害目標，寒冰核心造成冷凍
+			"我們收到你的資訊了，現在有什麼指示?"
 			'''
 	}
 
 	SealedContract: {
-		DisplayName: 正式契约
+		DisplayName: 正式契約
 		Tooltip:
 			'''
 			最大生命增加60
-			治疗法术会额外治疗5点生命值
-			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
-			取消牧师盔甲带来的非光辉伤害削减
-			"正式达成协议!"
+			治療法術會額外治療5點生命值
+			牧師鐮刀的彈幕擊中敵人時也能獲得靈魂精華
+			取消牧師盔甲帶來的非光輝傷害削減
+			"正式達成協議!"
 			'''
 	}
 
 	Shellxophone: {
-		DisplayName: 深海奥德赛
+		DisplayName: 深海奧德賽
 		Tooltip:
 			'''
-			左键释放两根弹跳并追踪敌怪的海渊涟漪
-			右键释放追踪队友的水滴，使用10点灵感值并治疗队友
-			治疗效果会根据队友的咒音增幅等级而增加
-			"唤醒蛰伏渊洋的生灵，奏响世间至韵之声"
+			左鍵釋放兩根彈跳並追蹤敵怪的海淵漣漪
+			右鍵釋放追蹤隊友的水滴，使用10點靈感值並治療隊友
+			治療效果會根據隊友的咒音增幅等級而增加
+			"喚醒蟄伏淵洋的生靈，奏響世間至韻之聲"
 			'''
 	}
 
@@ -626,14 +626,14 @@ Items: {
 	}
 
 	ZephyrsRuin: {
-		DisplayName: 西风残垣
+		DisplayName: 西風殘垣
 		Tooltip:
 			'''
-			投矛会刺入敌人或物块
-			一段时间后，召唤闪电攻击敌人或物块
-			暴击会立即释放一次闪电
-			不会增加疲惫值
-			"人们说闪电不会在同一个地方击中两次"
+			投矛會刺入敵人或物塊
+			一段時間後，召喚閃電攻擊敵人或物塊
+			暴擊會立即釋放一次閃電
+			不會增加疲憊值
+			"人們說閃電不會在同一個地方擊中兩次"
 			'''
 	}
 }
@@ -641,49 +641,49 @@ Items: {
 Buffs: {
 	Deathsinger: {
 		DisplayName: 死亡歌者
-		Description: 增加7%音波伤害和音波演奏速度
+		Description: 增加7%音波傷害和音波演奏速度
 	}
 
 	Inspired: {
-		DisplayName: 启发
-		Description: 增加灵感恢复速度
+		DisplayName: 啟發
+		Description: 增加靈感恢復速度
 	}
 
 	SoulBleed: {
-		DisplayName: 灵魂流血
-		Description: 你的灵魂正在消散……
+		DisplayName: 靈魂流血
+		Description: 你的靈魂正在消散……
 	}
 
 	StarCalled: {
-		DisplayName: 星际的呼唤
-		Description: 他们回应了你的信号
+		DisplayName: 星際的呼喚
+		Description: 他們回應了你的信號
 	}
 
 	TerminalLucidity: {
-		DisplayName: "[c/FF7F00:混乱的现实]"
+		DisplayName: "[c/FF7F00:混亂的現實]"
 		Description:
 			'''
-			[c/FF7F00:-BOSS攻击方式-]
-			[c/FF7F00:当此减益存在时，噬梦者不会受到伤害]
-			[c/FF7F00:减益倒计时结束会立刻杀死玩家]
-			[c/FF7F00:触摸稳定的现实裂缝，进行伤害输出阶段并重置此减益倒计时]
-			[c/FF7F00:稳定的现实裂缝是紫色法阵]
-			[c/FF1CAE:汉化备注:击败一次始生灾灵后，无视此减益，减益倒计时结束会削减血条，但不会代码杀]
-			[c/FF7F00:"等待命运..."]
+			[c/FF7F00:-BOSS攻擊方式-]
+			[c/FF7F00:當此減益存在時，噬夢者不會受到傷害]
+			[c/FF7F00:減益倒計時結束會立刻殺死玩家]
+			[c/FF7F00:觸摸穩定的現實裂縫，進行傷害輸出階段並重置此減益倒計時]
+			[c/FF7F00:穩定的現實裂縫是紫色法陣]
+			[c/FF1CAE:漢化備註:擊敗一次始生災靈後，無視此減益，減益倒計時結束會削減血條，但不會代碼殺]
+			[c/FF7F00:"等待命運..."]
 			'''
 	}
 
 	LucidRetaliation: {
-		DisplayName: "[c/FF7F00:恢复的现实]"
+		DisplayName: "[c/FF7F00:恢復的現實]"
 		Description:
 			'''
-			[c/FF7F00:-BOSS攻击方式-]
-			[c/FF7F00:当此增益存在时，噬梦者会受到伤害]
-			[c/FF7F00:被完全成型的现实裂缝击中后，会提前移除此增益]
-			[c/FF1CAE:汉化备注:不稳定的现实裂缝更改为完全成型的现实裂缝，是因为条件触发苛刻]
-			[c/FF7F00:完全成型的现实裂缝是噬梦者的黑色裂缝攻击]
-			[c/FF7F00:允许无限飞行]
-			[c/FF7F00:"等待命运..."]
+			[c/FF7F00:-BOSS攻擊方式-]
+			[c/FF7F00:當此增益存在時，噬夢者會受到傷害]
+			[c/FF7F00:被完全成型的現實裂縫擊中後，會提前移除此增益]
+			[c/FF1CAE:漢化備註:不穩定的現實裂縫更改為完全成型的現實裂縫，是因為條件觸發苛刻]
+			[c/FF7F00:完全成型的現實裂縫是噬夢者的黑色裂縫攻擊]
+			[c/FF7F00:允許無限飛行]
+			[c/FF7F00:"等待命運..."]
 			'''
 	}
 }
@@ -691,165 +691,165 @@ Buffs: {
 Prefixes: {
 	Careless: {
 		DisplayName: 淡漠
-		Description: 增加2点生命消耗
+		Description: 增加2點生命消耗
 	}
 
 	Risky: {
-		DisplayName: 冒险
-		Description: 增加1点生命消耗
+		DisplayName: 冒險
+		Description: 增加1點生命消耗
 	}
 
 	Suicidal: {
-		DisplayName: 自杀
-		Description: 增加3点生命消耗
+		DisplayName: 自殺
+		Description: 增加3點生命消耗
 	}
 }
 
 Configs: {
 	ReworkConfig: {
-		DisplayName: 视觉设置
+		DisplayName: 視覺設置
 
 		flash: {
-			Label: 闪光强度
-			Tooltip: 设置闪光的明暗度
+			Label: 閃光強度
+			Tooltip: 設置閃光的明暗度
 		}
 
 		overlay: {
-			Label: 覆盖强度
-			Tooltip: 设置屏幕覆盖强弱度
+			Label: 覆蓋強度
+			Tooltip: 設置螢幕覆蓋強弱度
 		}
 
 		seizures: {
 			Label: 光敏警告提示
-			Tooltip: 启动世界后有光敏警告提示
+			Tooltip: 啟動世界後有光敏警告提示
 		}
 
 		bossRenames: {
-			Label: BOSS名称重命名
-			Tooltip: 启用时，为瑟银模组的boss进行重新重命名
+			Label: BOSS名稱重命名
+			Tooltip: 啟用時，為瑟銀模組的boss進行重新重命名
 		}
 	}
 
 	CompatConfig: {
-		DisplayName: 模组兼容性设置
+		DisplayName: 模組相容性設置
 
 		healthScale: {
-			Label: 瑟银BOSS生命值增加
-			Tooltip: 让瑟银BOSS的生命值乘以当前数值
+			Label: 瑟銀BOSS生命值增加
+			Tooltip: 讓瑟銀BOSS的生命值乘以當前數值
 		}
 
 		damageScale: {
-			Label: 瑟银BOSS伤害加成
-			Tooltip: 让瑟银的boss的攻击伤害乘以当前数值
+			Label: 瑟銀BOSS傷害加成
+			Tooltip: 讓瑟銀的boss的攻擊傷害乘以當前數值
 		}
 
 		speedScale: {
-			Label: 瑟银BOSS速度加成
+			Label: 瑟銀BOSS速度加成
 			Tooltip:
 				'''
-				让瑟银的boss的速度乘以当前数值
-				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
-				灾厄炼狱模组推荐使用1.35倍速度
+				讓瑟銀的boss的速度乘以當前數值
+				有更高的目標挑戰BOSS推薦2倍速度（最高2倍速度）
+				災厄煉獄模組推薦使用1.35倍速度
 				'''
 		}
 
 		extraItems: {
-			Label: 额外物品
+			Label: 額外物品
 			Tooltip:
 				'''
-				(可选)
-				在这个模组增加一些不相关的物品
+				(可選)
+				在這個模組增加一些不相關的物品
 				'''
 		}
 
 		extraPotions: {
-			Label: 额外药剂内容
+			Label: 額外藥劑內容
 			Tooltip:
 				'''
-				(可选)
-				增加与瑟银的职业有关的增益药水
+				(可選)
+				增加與瑟銀的職業有關的增益藥水
 				'''
 		}
 
 		extraPrefixes: {
-			Label: 额外修饰语内容
+			Label: 額外修飾語內容
 			Tooltip:
 				'''
-				(可选)
-				增加与瑟银的职业有关的修饰语
+				(可選)
+				增加與瑟銀的職業有關的修飾語
 				'''
 		}
 
 		masterDrops: {
-			Label: 大师模式掉落
+			Label: 大師模式掉落
 			Tooltip:
 				'''
-				(推荐!)
-				让瑟银模组的boss的大师掉落武器，在复仇模式或永恒模式也可以掉落
+				(推薦!)
+				讓瑟銀模組的boss的大師掉落武器，在復仇模式或永恆模式也可以掉落
 				'''
 		}
 
 		masterDropsAreNonExclusive: {
-			Label: 专家模式下掉落大师模式专属武器
+			Label: 專家模式下掉落大師模式專屬武器
 			Tooltip:
 				'''
-				专家模式下掉落大师模式专属武器
-				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
-				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
+				專家模式下掉落大師模式專屬武器
+				如果你不喜歡玩大師或其他其他模組只能在專家模式下遊玩
+				(例如：fargo魂模組永恆模式在大師模式下變成受虐模式，或者災厄煉獄模組無法開啟大師模式)
 				'''
 		}
 
 		itemReworks: {
-			Label: 重置原瑟银一些武器
+			Label: 重置原瑟銀一些武器
 			Tooltip:
 				'''
-				(推荐!)
-				让原瑟银模组武器更好的使用
+				(推薦!)
+				讓原瑟銀模組武器更好的使用
 				'''
 		}
 
 		postDoGRag: {
-			Label: 在灾厄与法狗魂石里重置始生灾灵阶级
+			Label: 在災厄與法狗魂石裡重置始生災靈階級
 			Tooltip:
 				'''
-				(推荐!)
-				灾厄中始生灾灵在神明吞噬者前召唤
-				法狗魂石中始生灾灵在宇宙英灵前召唤
-				如果两模组都启动，则在两个boss两之间召唤
+				(推薦!)
+				災厄中始生災靈在神明吞噬者前召喚
+				法狗魂石中始生災靈在宇宙英靈前召喚
+				如果兩模組都啟動，則在兩個boss兩之間召喚
 				'''
 		}
 
 		vanillaBard: {
-			Label: 让星星吉他和魔法竖琴成为吟游诗人武器
-			Tooltip: 让星星吉他和魔法竖琴成为吟游诗人武器并加入灌注附魔效果
+			Label: 讓星星吉他和魔法豎琴成為吟游詩人武器
+			Tooltip: 讓星星吉他和魔法豎琴成為吟游詩人武器並加入灌注附魔效果
 		}
 
 		DoD: {
-			Label: 神明吞噬者有许许多多的梦想 (玩笑设置)
+			Label: 神明吞噬者有許許多多的夢想 (玩笑設置)
 			Tooltip:
 				'''
-				这是一个玩笑设置，它让神明吞噬者拥有噬梦者部分弹幕攻击
+				這是一個玩笑設置，它讓神明吞噬者擁有噬夢者部分彈幕攻擊
 				可能公平，也可能不公平
 				'''
 		}
 
 		thorlamityBR: {
-			Label: 瑟银boss加入灾厄bossrush
-			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
+			Label: 瑟銀boss加入災厄bossrush
+			Tooltip: 瑟銀boss加入災厄bossrush，根據適當的階級排序
 		}
 
 		eternityModeOnly: {
-			Label: 仅限永恒模式
-			Tooltip: 模组的内容重置只在永恒模式开启时生效
+			Label: 僅限永恆模式
+			Tooltip: 模組的內容重置只在永恆模式開啟時生效
 		}
 	}
 
 	ReworkTogglesConfig: {
-		DisplayName: BOSS重置开/关
+		DisplayName: BOSS重置開/關
 
 		bird: {
-			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]惊雷王鹰"
-			Tooltip: 惊雷王鹰重置
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]驚雷王鷹"
+			Tooltip: 驚雷王鷹重置
 		}
 
 		jelly: {
@@ -863,23 +863,23 @@ Configs: {
 		}
 
 		champ: {
-			Label: "[i:ThoriumMod/BuriedChampionMask]英灵遗骸"
-			Tooltip: 英灵遗骸重置
+			Label: "[i:ThoriumMod/BuriedChampionMask]英靈遺骸"
+			Tooltip: 英靈遺骸重置
 		}
 
 		ges: {
-			Label: "[i:ThoriumMod/GraniteEnergyStormMask]花岗岩流能风暴"
-			Tooltip: 花岗岩流能风暴重置
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]花崗岩流能風暴"
+			Tooltip: 花崗岩流能風暴重置
 		}
 
 		scout: {
-			Label: "[i:ThoriumMod/StarScouterMask]星际监察者"
-			Tooltip: 星际监察者重置
+			Label: "[i:ThoriumMod/StarScouterMask]星際監察者"
+			Tooltip: 星際監察者重置
 		}
 
 		coznix: {
-			Label: "[i:ThoriumMod/FallenBeholderMask]堕落注视者"
-			Tooltip: 堕落注视者重置
+			Label: "[i:ThoriumMod/FallenBeholderMask]墮落注視者"
+			Tooltip: 墮落注視者重置
 		}
 
 		lich: {
@@ -888,13 +888,13 @@ Configs: {
 		}
 
 		abyssion: {
-			Label: "[i:ThoriumMod/ForgottenOneMask]遗忘之主"
-			Tooltip: 遗忘之主重置
+			Label: "[i:ThoriumMod/ForgottenOneMask]遺忘之主"
+			Tooltip: 遺忘之主重置
 		}
 
 		rag: {
-			Label: "[i:ThoriumMod/TheOmegaCore]始生灾灵"
-			Tooltip: 始生灾灵重置
+			Label: "[i:ThoriumMod/TheOmegaCore]始生災靈"
+			Tooltip: 始生災靈重置
 		}
 	}
 }
