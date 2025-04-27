@@ -14,7 +14,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework.Graphics;
 using MonoMod.Cil;
 
-namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
+namespace ThoriumModzhcn.Systems
 {
     //瑟银重置世界频道+ui秒
     public class StatsTranslate : ModSystem
