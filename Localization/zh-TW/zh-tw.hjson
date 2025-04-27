@@ -1,50 +1,50 @@
 Mods: {
 	ThoriumMod: {
 		Announcements: {
-			WorldEngineChange: 世界难度改为{0}.
-			LodestoneWarning1: 你的世界已散播地脉矿!
-			LodestoneWarning2: 你的世界已大量散播地脉矿!
-			ValadiumWarning1: 你的世界已散播虚金矿!
+			WorldEngineChange: 世界難度改為{0}.
+			LodestoneWarning1: 你的世界已散播地脈礦!
+			LodestoneWarning2: 你的世界已大量散播地脈礦!
+			ValadiumWarning1: 你的世界已散播虛金礦!
 			ValadiumWarning2: 你的世界已大量散播虚金矿!
-			LichWarning: 墓地中的灵魂苏醒了...
-			GraniteMarbleWarning: 大理石和花岗岩洞穴传来震动……
-			IllumiteWarning: 世纪之花散发的光辉照耀着这片大地……
-			HMDepthsWarning: 深邃水域中的新生命如春笋般涌现！
-			ForgottenOneWarning: 什么东西在深渊蠕动……
-			QueenJellyfishWarning: 海洋表面之下浮出了深渊气泡！
-			ExpertForgottenOne1: 遗忘之主的贝壳裂开来了！
-			ExpertForgottenOne2: 遗忘之主挣脱了囚禁它的远古监狱！
-			ForgottenOneDefeat: 深海的毒雾已被驱散……
-			SpiderWarning: 蜘蛛的巢穴在愤怒地作响……
-			BoreanStriderAppear: 八足的可怖威胁正在雪地上徘徊……
-			PatchWerkDefeat: 恐怖的缝合人分崩离析！
-			CorpseBloomDefeat: 藏匿的绝命花已经凋零……
-			IllusionistDefeat: 神秘幻术师被碾碎了……
-			BuriedChampionAppear: 英灵遗骸挣脱了束缚！
-			GraniteEnergyStormAppear: 花岗岩流能风暴爆发了！
-			DiverFree: 有人刚从那个可恶的水生生物上掉下来！
-			ThePrimordialsStart: 整个泰拉世界都在颤动……
-			DreamEaterAppear: 现实正在分崩离析！
-			DreamEaterDefeat: 现实恢复回了原先的宁静……
+			LichWarning: 墓地中的靈魂蘇醒了...
+			GraniteMarbleWarning: 大理石和花崗岩洞穴傳來震動……
+			IllumiteWarning: 世紀之花散發的光輝照耀著這片大地……
+			HMDepthsWarning: 深邃水域中的新生命如春筍般湧現！
+			ForgottenOneWarning: 什麼東西在深淵蠕動……
+			QueenJellyfishWarning: 海洋表面之下浮出了深淵氣泡！
+			ExpertForgottenOne1: 遺忘之主的貝殼裂開來了！
+			ExpertForgottenOne2: 遺忘之主掙脫了囚禁它的遠古監獄！
+			ForgottenOneDefeat: 深海的毒霧已被驅散……
+			SpiderWarning: 蜘蛛的巢穴在憤怒地作響……
+			BoreanStriderAppear: 八足的可怖威脅正在雪地上徘徊……
+			PatchWerkDefeat: 恐怖的縫合人分崩離析！
+			CorpseBloomDefeat: 藏匿的絕命花已經凋零……
+			IllusionistDefeat: 神秘幻術師被碾碎了……
+			BuriedChampionAppear: 英靈遺骸掙脫了束縛！
+			GraniteEnergyStormAppear: 花崗岩流能風暴爆發了！
+			DiverFree: 有人剛從那個可惡的水生生物上掉下來喔！
+			ThePrimordialsStart: 整個泰拉世界都在顫動……
+			DreamEaterAppear: 現實正在分崩離析！
+			DreamEaterDefeat: 現實恢復回了原先的寧靜……
 		}
 
-		Bestiary.InfoElements.ExpertModeInfoElement: 仅限专家模式
+		Bestiary.InfoElements.ExpertModeInfoElement: 僅限專家模式
 
 		GravestoneText: {
 			# Bit ugly but you need to keep updating these numbers to be consecutive (no gaps), and also update the total count in code (GraveyardPass.GravestoneTextCount)
 			# The code bit hopefully won't be necessary with 1.4.4
-			0: 爱.
-			1: 曾经爱过.
-			2: 在爱的记忆里.
-			3: 一旦遇见，就永远不会忘记.
-			4: 永远在我们心中.
+			0: 愛.
+			1: 曾經愛過.
+			2: 在愛的記憶裡.
+			3: 一旦遇見，就永遠不會忘記.
+			4: 永遠在我們心中.
 			5: 安息.
-			6: 长寿.
-			7: 长眠至永恒.
-			8: 终于团聚了.
-			9: 他结局很好.
-			10: 她结局很好.
-			11: 我会再次遇见到你.
+			6: 長壽.
+			7: 長眠至永恆.
+			8: 終於團聚了.
+			9: 他結局很好.
+			10: 她結局很好.
+			11: 我會再次遇見到你.
 		}
 
 		GameTips: {
