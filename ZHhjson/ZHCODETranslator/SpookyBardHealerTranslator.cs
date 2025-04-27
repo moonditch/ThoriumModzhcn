@@ -1,7 +1,7 @@
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
-namespace ThoriumModzhcn.Translator
+namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 {
 	public class SpookyBardHealerTranslator
 	{
