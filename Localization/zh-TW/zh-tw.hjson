@@ -1669,7 +1669,7 @@ Mods: {
 			}
 
 			ScytheofUndoingBuff: {
-				DisplayName: 影流之鐮
+				DisplayName: 滅世之鐮
 				Description: 被暗影能量染指…
 			}
 
@@ -19165,7 +19165,7 @@ Mods: {
 			}
 
 			ScytheofUndoing: {
-				DisplayName: 影流之鐮
+				DisplayName: 滅世之鐮
 				Tooltip:
 					'''
 					旋轉一把惡魔鐮刀，隨著傷害敵怪積攢怒氣
@@ -19199,7 +19199,7 @@ Mods: {
 						KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
 						LouderScream: 它們叫得越大聲越好。
 						SetFree: 解放我吧！
-						MuchFlesh: 要是它們都有這麼多血肉供我砍個痛快就好了！
+						MuchFlesh: 要是他們都有這麼多肉該多好！
 						CutDown: 殺了他們！
 					}
 
@@ -19214,8 +19214,8 @@ Mods: {
 					}
 
 					BossDefeat: {
-						TheUndoing: 我即是影流！
-						NeverThere: 灰飛煙滅，就像不曾存在一樣…
+						TheUndoing: 我即是滅世者！
+						NeverThere: 彷彿他們從未存在過...
 						TheReaping: 怒火焚身…我即是死亡！
 					}
 
@@ -19223,12 +19223,12 @@ Mods: {
 
 					RecallHome: {
 						TheWeakRun: 弱者才逃跑。堅守，戰鬥！
-						Retreat: 撤退？！
+						Retreat: 這就要撤啦？！
 					}
 
 					Transforming: {
 						TheseLegs: 這雙腿得花點時間習慣。
-						Wrath: 哦，那想要釋放的怒意啊！
+						Wrath: 哦，我那將要釋放的怒意啊！
 						Destruction: 毀滅，天命，怒火，一切都早已註定。
 						Reaping: 收割開始，馬上！
 					}
