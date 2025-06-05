@@ -1669,7 +1669,7 @@ Mods: {
 			}
 
 			ScytheofUndoingBuff: {
-				DisplayName: 影流之镰
+				DisplayName: 灭世之镰
 				Description: 被暗影能量染指…
 			}
 
@@ -1695,7 +1695,7 @@ Mods: {
 		}
 
 		Conditions: {
-			DonatorItemToggled: 在瑟银中启用 {$Configs.ThoriumConfigServer.DisplayName}
+			DonatorItemToggled: 在瑟银的 {$Configs.ThoriumConfigServer.DisplayName} 中启用
 			DonatorItemToggledSteamBattery: 启用与{$Items.SteamBattery.DisplayName}相关的任何项目，在 {$Configs.ThoriumConfigServer.DisplayName}
 			DownedQueenJellyfish: "{$NPCs.QueenJellyfish.DisplayName}击败后"
 			DownedViscount: "{$NPCs.Viscount.DisplayName}击败后"
@@ -3521,7 +3521,7 @@ Mods: {
 			}
 
 			TheTriangle: {
-				DisplayName: 三角铃(香港)
+				DisplayName: 三角铃
 				Tooltip:
 					'''
 					释放一个收缩三角
@@ -4712,7 +4712,7 @@ Mods: {
 			}
 
 			cDarksteelAxe: {
-				DisplayName: 暗钢斧暗钢斧
+				DisplayName: 暗钢斧
 				Tooltip: ""
 			}
 
@@ -8138,6 +8138,7 @@ Mods: {
 					'让这把武器成为你战胜一切困难的证明'
 					快速投掷传奇雷神之锤的电能图像
 					右键生成保护性电能护盾
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 
@@ -18888,6 +18889,7 @@ Mods: {
 					每次造成伤害时增加5点生命护盾，上限50点
 					造成伤害时治疗自身所造成伤害的1%
 					右键释放一个魔法奇点
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 
@@ -19165,7 +19167,7 @@ Mods: {
 			}
 
 			ScytheofUndoing: {
-				DisplayName: 影流之镰
+				DisplayName: 灭世之镰
 				Tooltip:
 					'''
 					旋转一把恶魔镰刀，随着伤害敌怪积攒怒气
@@ -19199,7 +19201,7 @@ Mods: {
 						KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
 						LouderScream: 它们叫得越大声越好。
 						SetFree: 解放我吧！
-						MuchFlesh: 要是它们都有这么多血肉供我砍个痛快就好了！
+						MuchFlesh: 要是他们都有这么多肉该多好！
 						CutDown: 杀了他们！
 					}
 
@@ -19214,8 +19216,8 @@ Mods: {
 					}
 
 					BossDefeat: {
-						TheUndoing: 我即是影流！
-						NeverThere: 灰飞烟灭，就像不曾存在一样…
+						TheUndoing: 我即是灭世者！
+						NeverThere: 仿佛他们从未存在过...
 						TheReaping: 怒火焚身…我即是死亡！
 					}
 
@@ -19223,12 +19225,12 @@ Mods: {
 
 					RecallHome: {
 						TheWeakRun: 弱者才逃跑。坚守，战斗！
-						Retreat: 撤退？！
+						Retreat:  这就要撤了？！
 					}
 
 					Transforming: {
 						TheseLegs: 这双腿得花点时间习惯。
-						Wrath: 哦，那想要释放的怒意啊！
+						Wrath: 哦，我那将要释放的怒意啊！
 						Destruction: 毁灭，天命，怒火，一切都早已注定。
 						Reaping: 收割开始，马上！
 					}
@@ -23096,7 +23098,7 @@ Mods: {
 		}
 
 		Emotes: {
-			ScytheofUndoingEmote.Command: 影流之镰
+			ScytheofUndoingEmote.Command: 灭世之镰
 			WhisperingSetEmote.Command: 低语者套装
 		}
 

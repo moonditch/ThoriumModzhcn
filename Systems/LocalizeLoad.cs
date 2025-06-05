@@ -1,18 +1,20 @@
-﻿using System;
+﻿#pragma warning disable CA2255
 using System.Collections.Generic;
-using System.Reflection;
+using System.IO;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
 using Terraria.ModLoader.Core;
+using static Terraria.ModLoader.Core.TmodFile;
 using static ThoriumModzhcn.Systems.LocalizeUtil;
 
 namespace ThoriumModzhcn.Systems
 {
     public class LocalizeLoad : ModSystem
     {
-        public static List<string> PCRHJson { get; } =
+        /*public static List<string> PCRHJson { get; } =
          [
             "Localization/zh-Potralia/zh-Potralia.hjson",
             "Localization/zh-Potralia/zh-Potralia_Mods.CalamityBardHealer.hjson",
@@ -22,7 +24,10 @@ namespace ThoriumModzhcn.Systems
             "Localization/zh-Potralia/zh-Potralia_Mods.SpookyBardHealer.hjson",
             "Localization/zh-Potralia/zh-Potralia_Mods.TerrariumHacks.hjson",
             "Localization/zh-Potralia/zh-Potralia_Mods.ThoriumRework.hjson",
-            "ThoriumModTranslator/IL_ThoriumModpcr.hjson"
+            "ZHhjson/Potraliazh/IL_ThoriumModpcr.hjson",
+            "ZHhjson/Potraliazh/IL_CalamityBardHealerpcr.hjson",
+            "ZHhjson/Potraliazh/IL_ThoriumClassTagsConsistencypcr.hjson",
+            "ZHhjson/Potraliazh/IL_SpookyBardHealerpcr.hjson",
         ];
 
         public static List<string> CSOWHJson { get; } =
@@ -35,8 +40,11 @@ namespace ThoriumModzhcn.Systems
             "Localization/zh-CSOW/zh-CSOW_Mods.SpookyBardHealer.hjson",
             "Localization/zh-CSOW/zh-CSOW_Mods.TerrariumHacks.hjson",
             "Localization/zh-CSOW/zh-CSOW_Mods.ThoriumRework.hjson",
-            "ThoriumModTranslator/IL_ThoriumModcsow.hjson"
-        ];
+            "ZHhjson/Csowzh/IL_ThoriumModcsow.hjson",
+            "ZHhjson/Csowzh/IL_CalamityBardHealercsow.hjson",
+            "ZHhjson/Csowzh/IL_ThoriumClassTagsConsistencycsow.hjson",
+            "ZHhjson/Csowzh/IL_SpookyBardHealercsow.hjson",
+        ];*/
 
         public static List<string> TWHJson { get; } =
          [
@@ -48,7 +56,10 @@ namespace ThoriumModzhcn.Systems
             "Localization/zh-TW/zh-tw_Mods.SpookyBardHealer.hjson",
             "Localization/zh-TW/zh-tw_Mods.TerrariumHacks.hjson",
             "Localization/zh-TW/zh-tw_Mods.ThoriumRework.hjson",
-            "ThoriumModTranslator/IL_ThoriumModtw.hjson"
+            "ZHhjson/Unsimplifiedzh/IL_ThoriumModtw.hjson",
+            "ZHhjson/Unsimplifiedzh/IL_CalamityBardHealertw.hjson",
+            "ZHhjson/Unsimplifiedzh/IL_ThoriumClassTagsConsistencytw.hjson",
+            "ZHhjson/Unsimplifiedzh/IL_SpookyBardHealertw.hjson",
         ];
 
         public static List<string> ZHHJson { get; } = 
@@ -61,44 +72,37 @@ namespace ThoriumModzhcn.Systems
             "Localization/zh-Hans/zh-Hans_Mods.SpookyBardHealer.hjson",
             "Localization/zh-Hans/zh-Hans_Mods.TerrariumHacks.hjson",
             "Localization/zh-Hans/zh-Hans_Mods.ThoriumRework.hjson",
-            "ThoriumModTranslator/IL_ThoriumModzh.hjson"
+            "ZHhjson/Simplifiedzh/IL_ThoriumModzh.hjson",
+            "ZHhjson/Simplifiedzh/IL_CalamityBardHealerzh.hjson",
+            "ZHhjson/Simplifiedzh/IL_ThoriumClassTagsConsistencyzh.hjson",
+            "ZHhjson/Simplifiedzh/IL_SpookyBardHealerzh.hjson",
         ];
 
-        public override void Load()
-        {
-            //var r = (TmodFile)typeof(Mod).GetProperty("File", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(Mod);
-            //foreach (var item in r) {
-            //    var file = item;
-            //}
 
-            Load(PCRHJson, LocalizeUtil.Language.Potralia的害人汉化);
-            Load(TWHJson, LocalizeUtil.Language.台湾繁体);
-            Load(ZHHJson, LocalizeUtil.Language.简体中文);
-            Load(CSOWHJson, LocalizeUtil.Language.文言文汉化);
-            base.Load();
+        [ModuleInitializer]
+        public static void LoadLocalizationJson()
+        {
+            Load(ZHHJson, Language.简体中文);
         }
 
-        static LocalizeLoad()
+        private static void Load(List<string> paths, Language language)
         {
+            foreach (var hjson in paths) 
+                LoadLocalizedKey(hjson, language, GetStartChars(hjson));
         }
-
-        private static void Load(List<string> paths, LocalizeUtil.Language language)
-        {
-            foreach (var hjson in paths) LocalizeUtil.LoadLocalizedKey(hjson, language, GetStartChars(hjson));
-        }
-
 
         public override void PostSetupRecipes()
         {
-            LoadFatherKey(LocalizeUtil.Language.Potralia的害人汉化);
-            LoadFatherKey(LocalizeUtil.Language.台湾繁体);
-            LoadFatherKey(LocalizeUtil.Language.简体中文);
-            LoadFatherKey(LocalizeUtil.Language.文言文汉化);
+            //LoadFatherKey(Language.Potralia的害人汉化);
+            LoadFatherKey(Language.台湾繁体);
+            LoadFatherKey(Language.简体中文);
+            //LoadFatherKey(Language.文言文汉化);
             base.PostSetupRecipes();
         }
-        private static void LoadFatherKey(LocalizeUtil.Language language)
+
+        private static void LoadFatherKey(Language language)
         {
-            Dictionary<string, string> localizeTests = LocalizeUtil.GetLocalizationDictionary(language);
+            Dictionary<string, string> localizeTests = GetLocalizationDictionary(language);
             string regex = @"\{\$(.*?)\}";
             foreach (var kv in localizeTests) {
 
@@ -132,17 +136,20 @@ namespace ThoriumModzhcn.Systems
             if (fileName.Contains("IL_")) return "";
             return splitString[1].Replace(".hjson", ".");
         }
+
+        public static Language CurrentLanguage { get; set; } = Language.简体中文;
     }
 
     public class 语言切换 : ModConfig
     {
-        public LocalizeUtil.Language 语言;
+        public Language 语言;
 
         public override ConfigScope Mode => ConfigScope.ClientSide;
 
         public override void OnChanged()
         {
-            LocalizeUtil.CutLanguage(语言);
+            LocalizeLoad.CurrentLanguage = 语言;
+            CutLanguage(语言);
             base.OnChanged();
         }
     }

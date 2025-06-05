@@ -1695,7 +1695,7 @@ Mods: {
 		}
 
 		Conditions: {
-			DonatorItemToggled: 在瑟銀中啟用 {$Configs.ThoriumConfigServer.DisplayName}
+			DonatorItemToggled: 在瑟銀的 {$Configs.ThoriumConfigServer.DisplayName} 中啟用
 			DonatorItemToggledSteamBattery: 啟用與{$Items.SteamBattery.DisplayName}相關的任何專案，在 {$Configs.ThoriumConfigServer.DisplayName}
 			DownedQueenJellyfish: "{$NPCs.QueenJellyfish.DisplayName}擊敗後"
 			DownedViscount: "{$NPCs.Viscount.DisplayName}擊敗後"
@@ -4712,7 +4712,7 @@ Mods: {
 			}
 
 			cDarksteelAxe: {
-				DisplayName: 暗鋼斧暗鋼斧
+				DisplayName: 暗鋼斧
 				Tooltip: ""
 			}
 
@@ -8138,6 +8138,7 @@ Mods: {
 					'讓這把武器成為你戰勝一切困難的證明'
 					快速投擲傳奇雷神之錘的電能圖像
 					右鍵生成保護性電能護盾
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 
@@ -18888,6 +18889,7 @@ Mods: {
 					每次造成傷害時增加5點生命護盾，上限50點
 					造成傷害時治療自身所造成傷害的1%
 					右鍵釋放一個魔法奇點
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 

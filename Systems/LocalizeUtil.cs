@@ -1,9 +1,13 @@
-﻿using Hjson;
+﻿#nullable enable
+using Hjson;
 using Microsoft.Xna.Framework;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
+using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -11,24 +15,29 @@ using System.Threading.Tasks;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 
 namespace ThoriumModzhcn.Systems
 {
     public class LocalizeUtil : ModSystem
     {
-        public enum Language
-        {
-            简体中文,
-            台湾繁体,
-            Potralia的害人汉化,
-            文言文汉化,
+        private static TmodFile? thisTModFile;
+        /// <summary>
+        /// 本模组的模组文件
+        /// </summary>
+        public static TmodFile ThisTModFile { 
+            get
+            {
+                if (thisTModFile is null) {
+                    LoadModAssembly.LoadModContext.TryGetValue(
+                        typeof(LocalizeLoad).FullName!.Split('.')[0],
+                        out var modContext
+                    );
+                    thisTModFile = (TmodFile)modContext!.GetType().GetField("modFile")!.GetValue(modContext)!;
+                }
+                return thisTModFile!;
+            }
         }
-
-        static LocalizeUtil()
-        {
-            Init();
-        }
-
         private static Dictionary<string, string> 台湾繁体 { get; } = [];
         private static Dictionary<string, string> Potralia的害人汉化 { get; } = [];
         private static Dictionary<string, string> 简体中文 { get; } = [];
@@ -38,34 +47,39 @@ namespace ThoriumModzhcn.Systems
         //private static Dictionary<string, LocalizedText> Chinese { get; } = [];
 
 
-        private static bool IsInit = false;
-
+        private static MethodInfo? localizedTextSetValue;
         /// <summary>
         /// 设置LocalizedText值的方法
         /// </summary>
-        public static MethodInfo LocalizedTextSetValue { get; private set; }
+        public static MethodInfo LocalizedTextSetValue { 
+            get
+            {
+                return localizedTextSetValue ??= 
+                    typeof(LocalizedText)
+                        .GetProperty(nameof(LocalizedText.Value))!
+                        .GetSetMethod(true)!;
+            }
+        }
 
+        internal static Dictionary<string, LocalizedText>? localizedTexts;
         /// <summary>
         /// 全部本地化键和值
         /// </summary>
-        public static Dictionary<string, LocalizedText> LocalizedTexts { get; private set; }
+        public static Dictionary<string, LocalizedText> LocalizedTexts 
+        {
+            get
+            {
+                return localizedTexts ??=
+                    (Dictionary<string, LocalizedText>)typeof(LanguageManager)!
+                        .GetField("_localizedTexts", BindingFlags.NonPublic | BindingFlags.Instance)!
+                        .GetValue(LanguageManager.Instance)!;
+            }
+        }
 
         /// <summary>
         /// LocalizedText的构造方法(私有的)
         /// </summary>
-        private static ConstructorInfo LocalizedTextCons { get; set; }
-
-        /// <summary>
-        /// 初始化
-        /// </summary>
-        internal static void Init()
-        {
-            if (IsInit) return;
-            LocalizedTextSetValue = typeof(LocalizedText).GetProperty(nameof(LocalizedText.Value)).GetSetMethod(true);
-            LocalizedTexts = (Dictionary<string, LocalizedText>)typeof(LanguageManager).GetField("_localizedTexts", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(LanguageManager.Instance);
-            LocalizedTextCons = typeof(LocalizedText).GetConstructor(BindingFlags.NonPublic | BindingFlags.Instance, [typeof(string), typeof(string)]);
-            IsInit = true;
-        }
+        private readonly static ConstructorInfo LocalizedTextCons = typeof(LocalizedText).GetConstructor(BindingFlags.NonPublic | BindingFlags.Instance, [typeof(string), typeof(string)])!;
 
         /// <summary>
         /// 创建一个LocalizedText，其构造方法是私有的
@@ -108,17 +122,17 @@ namespace ThoriumModzhcn.Systems
                 case Language.台湾繁体:
                     GoToDictionary(台湾繁体);
                     break;
-                case Language.Potralia的害人汉化:
-                    GoToDictionary(Potralia的害人汉化);
-                    break;
+                //case Language.Potralia的害人汉化:
+                    //GoToDictionary(Potralia的害人汉化);
+                    //break;
                 case Language.简体中文:
                     GoToChinese();
                     GoToDictionary(简体中文);
                     break;
-                case Language.文言文汉化:
-                    GoToChinese();
-                    GoToDictionary(文言文汉化);
-                    break;
+                //case Language.文言文汉化:
+                    //GoToChinese();
+                    //GoToDictionary(文言文汉化);
+                    //break;
             }
         }
 
@@ -126,20 +140,20 @@ namespace ThoriumModzhcn.Systems
         /// 将现在使用的本地化值切换为传入字典的值
         /// </summary>
         //private static void GoToDictionary(Dictionary<string, LocalizedText> localizedTexts)
-        private static async void GoToDictionary(Dictionary<string, string> localizedTexts)
+        private static void GoToDictionary(Dictionary<string, string> localizedTexts)
         {
             //CombatText.NewText(new Rectangle(Main.player[Main.myPlayer]));
-            await Task.Run(() => {
-                Main.NewText("正在更改文本内容");
-                foreach (var kv in localizedTexts) {
-                    if (LocalizedTexts.ContainsKey(kv.Key)) {
-                        //LocalizedTexts[kv.Key] = kv.Value;
-                        var xg = LocalizedTexts[kv.Key];
-                        LocalizedTextSetValue.Invoke(xg, [kv.Value]);
-                    }
-                }
-                Main.NewText("文本内容更改完成");
-            });
+            Main.NewText("正在更改文本内容");
+            foreach (var kv in localizedTexts) {
+                var localizedText = LanguageManager.Instance.GetText(kv.Key);
+                LocalizedTextSetValue.Invoke(localizedText, [kv.Value]);
+                //if (LocalizedTexts.ContainsKey(kv.Key)) {
+                //    //LocalizedTexts[kv.Key] = kv.Value;
+                //    var xg = LocalizedTexts[kv.Key];
+                //    LocalizedTextSetValue.Invoke(xg, [kv.Value]);
+                //}
+            }
+            Main.NewText("文本内容更改完成");
         }
 
         /// <summary>
@@ -158,12 +172,12 @@ namespace ThoriumModzhcn.Systems
         {
             if (language == Language.台湾繁体)
                 return 台湾繁体;
-            else if (language == Language.Potralia的害人汉化)
-                return Potralia的害人汉化;
-            else if (language == Language.简体中文)
-                return 简体中文;
+            //else if (language == Language.Potralia的害人汉化)
+                //return Potralia的害人汉化;
+            //else if (language == Language.文言文汉化)
+                //return 文言文汉化;
             else
-                return 文言文汉化;
+                return 简体中文;
         }
 
         /// <summary>
@@ -174,16 +188,51 @@ namespace ThoriumModzhcn.Systems
         {
             if (!fileName.EndsWith("hjson"))
                 return string.Empty;
-            //if (FileExists(fileName))
-            //    return string.Empty;
-            if(ModLoader.TryGetMod(typeof(LocalizeUtil).FullName.Split(".")[0], out Mod mod)) {
-                //读取文件
-                using Stream file = mod.GetFileStream(fileName);
-                using StreamReader fileRead = new StreamReader(file);
-                string hjsonValue = fileRead.ReadToEnd();
-                return hjsonValue;
-            }
-            return string.Empty;
+
+            var fileEntry = ThisTModFile.FirstOrDefault(f => f.Name == fileName);
+            if (fileEntry is null)
+                return "";
+            Type type = typeof(ModLoader).Assembly.GetType("Terraria.ModLoader.Core.EntryReadStream")!;
+            var ersCtor = type.GetConstructor([
+                typeof(TmodFile),
+                typeof(TmodFile.FileEntry),
+                typeof(Stream),
+                typeof(bool)
+            ]);
+
+            var BIN = BindingFlags.Instance | BindingFlags.NonPublic;
+            var indep = (IList)typeof(TmodFile).GetField("independentEntryReadStreams", BIN)!.GetValue(ThisTModFile)!;
+            var fileStream = (Stream)ersCtor!.Invoke([ThisTModFile, fileEntry, File.OpenRead(ThisTModFile.path), false]);
+            //var fileStream = ThisTModFile.GetStream(fileEntry, true);
+            indep.Add(fileStream);
+            
+            string fileContent = GetText(fileStream, fileEntry.IsCompressed) ?? "";
+            fileStream.Close();
+            return fileContent;
+
+            #region old
+            //var thisModName = typeof(LocalizeUtil).FullName!.Split(".")[0];
+            //var thisMod = ModLoader.Mods.FirstOrDefault(f => f.Name == thisModName);
+            //if (!(thisMod is null)) {
+            //    //读取文件
+            //    using Stream file = thisMod.GetFileStream(fileName);
+            //    return GetText(file) ?? "";
+            //}
+
+            //return string.Empty;
+            #endregion
+        }
+
+        public static string? GetText(Stream fileStream, bool isCompressed = false)
+        {
+            if (!fileStream.CanRead)
+                return null;
+            if (isCompressed)
+                fileStream = new DeflateStream(fileStream, CompressionMode.Decompress);
+
+            StreamReader fileRead = new StreamReader(fileStream, Encoding.UTF8);
+            string? content = fileRead.ReadToEnd();
+            return content;
         }
 
         /// <summary>
@@ -279,4 +328,13 @@ namespace ThoriumModzhcn.Systems
         }
 
     }
+
+    public enum Language
+    {
+        简体中文,
+        台湾繁体,
+        //Potralia的害人汉化,
+        //文言文汉化,
+    }
+
 }

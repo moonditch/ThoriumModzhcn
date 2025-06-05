@@ -1695,7 +1695,7 @@ Mods: {
 		}
 
 		Conditions: {
-			DonatorItemToggled: 在瑟银中启用 {$Configs.ThoriumConfigServer.DisplayName}
+			DonatorItemToggled: 在瑟银的 {$Configs.ThoriumConfigServer.DisplayName} 中启用
 			DonatorItemToggledSteamBattery: 启用与{$Items.SteamBattery.DisplayName}相关的任何项目，在 {$Configs.ThoriumConfigServer.DisplayName}
 			DownedQueenJellyfish: "{$NPCs.QueenJellyfish.DisplayName}击败后"
 			DownedViscount: "{$NPCs.Viscount.DisplayName}击败后"
@@ -4712,7 +4712,7 @@ Mods: {
 			}
 
 			cDarksteelAxe: {
-				DisplayName: 暗钢斧暗钢斧
+				DisplayName: 暗钢斧
 				Tooltip: ""
 			}
 
@@ -8138,6 +8138,7 @@ Mods: {
 					'让这把武器成为你战胜一切困难的证明'
 					快速投掷传奇雷神之锤的电能图像
 					右键生成保护性电能护盾
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 
@@ -18888,6 +18889,7 @@ Mods: {
 					每次造成伤害时增加5点生命护盾，上限50点
 					造成伤害时治疗自身所造成伤害的1%
 					右键释放一个魔法奇点
+					[c/ab40ff:-真实伤害-]
 					'''
 			}
 
@@ -19165,7 +19167,7 @@ Mods: {
 			}
 
 			ScytheofUndoing: {
-				DisplayName: 灭世之镰(wiki:影流之镰)
+				DisplayName: 灭世之镰
 				Tooltip:
 					'''
 					旋转一把恶魔镰刀，随着伤害敌怪积攒怒气
@@ -23096,7 +23098,7 @@ Mods: {
 		}
 
 		Emotes: {
-			ScytheofUndoingEmote.Command: 影流之镰
+			ScytheofUndoingEmote.Command: 灭世之镰
 			WhisperingSetEmote.Command: 低语者套装
 		}
 
