@@ -1,0 +1,9 @@
+Items: {
+	TarragonCowl: {
+		DisplayName: Tarragon Cowl
+	}
+
+	TarragonShroud: {
+		DisplayName: Tarragon Shroud
+	}
+}

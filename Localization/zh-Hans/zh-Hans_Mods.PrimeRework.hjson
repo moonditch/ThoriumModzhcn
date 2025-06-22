@@ -1,0 +1,15 @@
+Tiles: {
+	SoulofPlightinaBottle.MapEntry: 瓶中誓言之魂
+}
+
+Items: {
+	SoulofPlight: {
+		DisplayName: 誓言之魂
+		Tooltip: "'终结者的精华'"
+	}
+
+	SoulofPlightinaBottle: {
+		DisplayName: 瓶中誓言之魂
+		Tooltip: ""
+	}
+}

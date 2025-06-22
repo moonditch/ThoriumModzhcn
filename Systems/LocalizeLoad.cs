@@ -60,6 +60,7 @@ namespace ThoriumModzhcn.Systems
             "ZHhjson/Unsimplifiedzh/IL_CalamityBardHealertw.hjson",
             "ZHhjson/Unsimplifiedzh/IL_ThoriumClassTagsConsistencytw.hjson",
             "ZHhjson/Unsimplifiedzh/IL_SpookyBardHealertw.hjson",
+
         ];
 
         public static List<string> ZHHJson { get; } = 
@@ -72,10 +73,13 @@ namespace ThoriumModzhcn.Systems
             "Localization/zh-Hans/zh-Hans_Mods.SpookyBardHealer.hjson",
             "Localization/zh-Hans/zh-Hans_Mods.TerrariumHacks.hjson",
             "Localization/zh-Hans/zh-Hans_Mods.ThoriumRework.hjson",
+            "Localization/zh-Hans/zh-Hans_Mods.PrimeRework.hjson",
+            "Localization/zh-Hans/zh-Hans_Mods.RagnarokMod.hjson",
             "ZHhjson/Simplifiedzh/IL_ThoriumModzh.hjson",
             "ZHhjson/Simplifiedzh/IL_CalamityBardHealerzh.hjson",
             "ZHhjson/Simplifiedzh/IL_ThoriumClassTagsConsistencyzh.hjson",
             "ZHhjson/Simplifiedzh/IL_SpookyBardHealerzh.hjson",
+            "ZHhjson/Simplifiedzh/IL_RagnarokModzh.hjson",
         ];
 
 
@@ -83,6 +87,9 @@ namespace ThoriumModzhcn.Systems
         public static void LoadLocalizationJson()
         {
             Load(ZHHJson, Language.简体中文);
+            Load(TWHJson, Language.台湾繁体);
+            //Load(ZHHJson, Language.Potralia的害人汉化);
+            //Load(TWHJson, Language.文言文汉化);
         }
 
         private static void Load(List<string> paths, Language language)
