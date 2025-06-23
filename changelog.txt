@@ -1,22 +1,26 @@
- [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银中文wiki[/url] 和 [url=https://github.com/madamamada/ThoriumModzhcn]本汉化的Github[/url]
-
 适配：
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银本体V: 1.7.2.2[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置V: 0.9.8[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器V: 0.9.6[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非救赎官方瑟银武器V: 0.2.3[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非魂灵官方瑟银武器V: 0.4.2[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非惊惧官方瑟银武器V: 0.2.2[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非暗影奥秘官方瑟银武器V: 0.2[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]瑟银式职业标签V: 1.0.2[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3295549432]无限灵感值V: 0.1[/url]
-= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧V: 1.1.0.1[/url]
+=  英文--------------------------------------------------------------------- 中文---------------------------模组版本
+
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]Thorium Mod-------------------------------------------------------瑟银本体---------------------------V: 1.7.2.3[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]Thorium Bosses Reworked------------------------------------瑟银BOSS重置 ------------------V: 0.10.1[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]Unofficial Calamity Bard & Healer----------------------------非灾厄官方瑟银武器------------V: 0.9.7[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]Unofficial Redemption Bard, Thrower & Healer-----------非救赎官方瑟银武器------------V: 0.2.3[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]Unofficial Spirit Bard, Thrower & Healer--------------------非魂灵官方瑟银武器------------V: 0.4.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]nofficial Spooky Bard, Thrower & Healer-------------------非惊惧官方瑟银武器------------V: 0.3[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]Unofficial SOTS Bard, Thrower and Healer----------------非暗影奥秘官方瑟银武器----- V: 0.2.1[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]Unofficial Macrocosm Bard, Thrower and Healer----------非群星外域官方瑟银武器----- V: 0.1[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]Thorium Class Tags Consistency-----------------------------瑟银式职业标签------------------V: 1.0.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677][THORIUM ADDON] Terrarium Hamaxe---------------------元素锤斧--------------------------V: 1.1.0.1[/url]
+
+上面是链接
 
 本汉化版本&更新内容
-#Version：2025.2.17.1
-2025.3（337）
+#Version：2025.6.13.0
+2025.6（360）
+返回删除瑟银式职业标签和元素锤斧汉化，并将瑟银式职业标签分外置一份qwq、
+2025.6（361）
+更新非群星外域官方瑟银武器v.0.1
 
 
-
-可能性计划: 
-旅人归途牧乐投汉化
+计划
+无

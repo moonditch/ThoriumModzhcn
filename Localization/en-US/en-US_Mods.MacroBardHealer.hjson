@@ -1,0 +1,297 @@
+Items: {
+	ApolliumAxe: {
+		DisplayName: Apollium Axe
+		Tooltip: ""
+	}
+
+	ApolliumBar: {
+		DisplayName: Apollium Bar
+		Tooltip: ""
+	}
+
+	ApolliumChestplate: {
+		DisplayName: Apollium Chestplate
+		Tooltip:
+			'''
+			15% increased symphonic damage
+			Increases the length of empowerments by 3 seconds
+			'''
+	}
+
+	ApolliumCloche: {
+		DisplayName: Apollium Cloche
+		Tooltip:
+			'''
+			10% increased symphonic critical strike chance
+			15% increased inspiration regeneration rate
+			'''
+	}
+
+	ApolliumDrill: {
+		DisplayName: Apollium Drill
+		Tooltip: ""
+	}
+
+	ApolliumHammer: {
+		DisplayName: Apollium Hammer
+		Tooltip: ""
+	}
+
+	ApolliumHarp: {
+		DisplayName: Messenger's Harp
+		Tooltip: Unleashes a barrage of Apollium pellets
+	}
+
+	ApolliumHorn: {
+		DisplayName: Messenger's Horn
+		Tooltip: Unleashes a duo of energy waves
+	}
+
+	ApolliumLeggings: {
+		DisplayName: Apollium Leggings
+		Tooltip:
+			'''
+			15% increased symphonic playing speed
+			10% increased movement speed
+			'''
+	}
+
+	ApolliumPickaxe: {
+		DisplayName: Apollium Pickaxe
+		Tooltip: ""
+	}
+
+	AsclepiteAxe: {
+		DisplayName: Asclepite Axe
+		Tooltip: ""
+	}
+
+	AsclepiteBar: {
+		DisplayName: Asclepite Bar
+		Tooltip: ""
+	}
+
+	AsclepiteChestplate: {
+		DisplayName: Asclepite Chestplate
+		Tooltip:
+			'''
+			10% increased radiant damage
+			25% decreased non-radiant damage
+			Healing spells heal an additional 6 life
+			'''
+	}
+
+	AsclepiteDrill: {
+		DisplayName: Asclepite Drill
+		Tooltip: ""
+	}
+
+	AsclepiteHammer: {
+		DisplayName: Asclepite Hammer
+		Tooltip: ""
+	}
+
+	AsclepiteHelmet: {
+		DisplayName: Asclepite Helmet
+		Tooltip:
+			'''
+			20% increased radiant damage
+			25% decreased non-radiant damage
+			Healing spells heal an additional 4 life
+			'''
+	}
+
+	AsclepiteLeggings: {
+		DisplayName: Asclepite Leggings
+		Tooltip:
+			'''
+			5% increased radiant damage
+			25% decreased non-radiant damage
+			10% increased movement speed
+			Healing spells heal an additional 2 life
+			'''
+	}
+
+	AsclepiteOre: {
+		DisplayName: Asclepite Ore
+		Tooltip: ""
+	}
+
+	AsclepitePickaxe: {
+		DisplayName: Asclepite Pickaxe
+		Tooltip: ""
+	}
+
+	AsclepiteScythe: {
+		DisplayName: Asclepite Scythe
+		Tooltip:
+			'''
+			Ignores 35 points of defense
+			This scythe is swung directionally instead of spun
+			Leaves behind lingering Asclepite Shards
+			'''
+	}
+
+	AsclepiteStaff: {
+		DisplayName: Staff of Asclepius
+		Tooltip:
+			'''
+			Shoots an Asclepite Crystal Snake that bites enemies
+			Releases healing orbs on bite and can be picked up by any player
+			Healing orbs home into nearby allies but never the user
+			'''
+	}
+
+	ApolliumOre: {
+		DisplayName: Apollium Ore
+		Tooltip: ""
+	}
+
+	TyphiumAxe: {
+		DisplayName: Typhium Axe
+		Tooltip: ""
+	}
+
+	TyphiumBar: {
+		DisplayName: Typhium Bar
+		Tooltip: ""
+	}
+
+	TyphiumChestplate: {
+		DisplayName: Typhium Chestplate
+		Tooltip:
+			'''
+			15% increased throwing damage
+			Increases maximum technique points by 1
+			'''
+	}
+
+	TyphiumDrill: {
+		DisplayName: Typhium Drill
+		Tooltip: ""
+	}
+
+	TyphiumHammer: {
+		DisplayName: Typhium Hammer
+		Tooltip: ""
+	}
+
+	TyphiumHood: {
+		DisplayName: Typhium Hood
+		Tooltip:
+			'''
+			10% increased throwing critical strike chance
+			Increases maximum technique points by 1
+			'''
+	}
+
+	TyphiumJavelin: {
+		DisplayName: Typhium Javelin
+		Tooltip: Leaves behind a trail of turbulent wind
+	}
+
+	TyphiumLeggings: {
+		DisplayName: Typhium Leggings
+		Tooltip:
+			'''
+			10% increased movement speed
+			Increases maximum technique points by 1
+			'''
+	}
+
+	TyphiumOre: {
+		DisplayName: Typhium Ore
+		Tooltip: ""
+	}
+
+	TyphiumPickaxe: {
+		DisplayName: Typhium Pickaxe
+		Tooltip: ""
+	}
+
+	TyphiumTop: {
+		DisplayName: Typhium Top
+		Tooltip:
+			'''
+			Throw a spinning top that forms a powerful tornado
+			Only ten of these can be active at a time
+			'''
+	}
+}
+
+Projectiles: {
+	ApolliumDrill.DisplayName: Apollium Drill
+	ApolliumHarp.DisplayName: Apollium Harp
+	ApolliumHorn.DisplayName: Messenger's Horn
+	AsclepiteDrill.DisplayName: Asclepite Drill
+	AsclepiteOrb.DisplayName: Asclepite Orb
+	AsclepiteScythe.DisplayName: Asclepite Scythe
+	AsclepiteShard.DisplayName: Asclepite Shard
+	AsclepiteSnake.DisplayName: Asclepite Snake
+	TyphiumDrill.DisplayName: Typhium Drill
+	TyphiumJavelin.DisplayName: Typhium Javelin
+	TyphiumTop.DisplayName: Typhium Top
+	TyphiumWinds.DisplayName: Typhium Winds
+}
+
+Tiles: {
+	ApolliumBar.MapEntry: Apollium Bar
+	ApolliumOre.MapEntry: Apollium
+	AsclepiteBar.MapEntry: Asclepite Bar
+	AsclepiteOre.MapEntry: Asclepite
+	TyphiumBar.MapEntry: Typhium Bar
+	TyphiumOre.MapEntry: Typhium
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: Balance Settings
+
+		thrower: {
+			Label: Throwing weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for throwing weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		bard: {
+			Label: Bard weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for bard weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		radiant: {
+			Label: Radiant weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for offense healer weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		soulEssence: {
+			Label: Soul essence multiplier
+			Tooltip:
+				'''
+				Granted soul essence multiplier for offense healer weapons
+				Capped at 5
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		healing: {
+			Label: Healing multiplier
+			Tooltip:
+				'''
+				Healing multiplier for healing spells
+				A value of 0 means it will only heal 1 life
+				(World restart required for this to take effect!)
+				'''
+		}
+	}
+}

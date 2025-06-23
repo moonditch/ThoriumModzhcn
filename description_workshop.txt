@@ -1,29 +1,26 @@
 [h1]=模组介绍=[/h1]
-感谢：由灾厄维基出品的中文瑟银WIKI 和 灾厄维基汉化组部分成员+世纪小花+末泠帮我制作的部分翻译及部分代码
-为拥有炼狱模组后瑟银BOSS重置的BOSS出场文字增加可选模组[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
-此汉化包含 瑟银BOSS重置 & 非灾厄 / 救赎 / 魂灵 / 惊惧 / 暗影奥秘官方瑟银武器 & 瑟银式职业标签 & 瑟银无限灵感值 & 元素锤斧不包括以这九个模组为前置，以瑟银为前置
+感谢：由灾厄维基出品的中文瑟银WIKI 和 灾厄维基汉化组部分成员+令+世纪小花+末泠+苍棱+南亭帮我制作的部分翻译及部分代码
+此汉化包含 瑟银BOSS重置 & 非灾厄 / 救赎 / 魂灵 / 惊惧 / 暗影奥秘 / 群星外域官方瑟银武器 & 瑟银式职业标签 & 元素锤斧不包括以这九个模组为前置，以瑟银为前置
+诸神的黄昏追加汉化补充，以及机械BOSS重置文案重叠的部分
 
-[h1]=使用方式=[/h1]
-1.同时订阅ThoriumMod和本Mod   
-2.进入tml，在模组管理中同时启用ThoriumMod和本Mod   
-3.安装完成，进行游戏
+[h1]=问题解决=[/h1]
+如果需要帮助 / BUG 加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
+也可以在评论区告诉我，如果无法进行评论区留言。加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]steam的聊天室[/url]
+不接受任何以问题性和奇怪目的加steam好友 / qq好友信息
 
-[h1]=模组问题Q&A=[/h1]
-Q1：我和xx模组导致卡顿有没有什么办法解决
-A1：能表达清晰的在评论区告诉我，无法表达清晰的带上 [b][u]截图[/u][/b] 和 [b][u]你的问题[/u][/b] 加入以下群号告诉我
-选择1.有确认性bug加qq群  [b]895423665瑟银交流群[/b]   
-不接受任何以问题为条件加steam好友和QQ好友的信息
-选择2.[url=https://steamcommunity.com/groups/liketerraria]steam组[/url]和对应的[url=https://steamcommunity.com/chat/invite/RKieSpPJ]聊天室[/url]
-Q2：模组为什么有一堆骷髅头样式的图标 / 为什么模组会报错
-A2：解决方式：Steam库 -> 鼠标右键 TModLoader游戏  -> 属性 -> 测试版 -> 选择'无' 
+[h1]=超链接=[/h1]
+[url=https://github.com/moonditch/ThoriumModzhcn]瑟银汉化的源码[/url]
+[url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银中文WIKI[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3446070012]SoloistsHatinfinite·灵感无限![/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2024.12.25.0版本分离）
+附属超链接查看[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3055383223] 改动说明 [/url]
 
-[h1]=和此汉化相关链接=[/h1]
-[url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银中文WIKI[/url]|[url=https://github.com/madamamada/ThoriumModzhcn]Github[/url]|[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3157893946]救赎汉化补丁[/url]
-
-[quote=tModLoader 作者介绍]
-瑟银wiki————————Listentowind
-瑟银wiki转换可用翻译——Flandre Scarlet，令，Super_ego
-程序——————————末泠，Flandre Scarlet，马达，plantare，furgo
-瑟银附属翻译——————Flandre Scarlet，Super_ego，兹翼，终子星，Ivybless，虞悖，Yee苍棱
-github发布———————马达，Super_ego，Flandre Scarlet，末泠，兹翼，终子星
-加入时间顺序排版[/quote]
+[h1]=作者介绍=[/h1]
+瑟银wiki：Listentowind
+瑟银wiki转换可用翻译：Flandre Scarlet，令，Super_ego
+瑟银附属翻译：Flandre Scarlet，Super_ego，兹翼，终子星，Ivybless，虞悖，Yee苍棱
+台湾繁体汉化：白狐狸
+程序：末泠，Flandre Scarlet，马达，plantare，furgo，南亭
+吉祥物：狐萝卜
