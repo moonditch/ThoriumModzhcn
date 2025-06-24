@@ -62,17 +62,17 @@ Items: {
 	}
 
 	AsclepiteAxe: {
-		DisplayName: 阿斯克斧
+		DisplayName: 医神斧
 		Tooltip: ""
 	}
 
 	AsclepiteBar: {
-		DisplayName: 阿斯克锭
+		DisplayName: 医神锭
 		Tooltip: ""
 	}
 
 	AsclepiteChestplate: {
-		DisplayName: 阿斯克胸甲
+		DisplayName: 医神胸甲
 		Tooltip:
 			'''
 			增加15%光辉伤害
@@ -82,17 +82,17 @@ Items: {
 	}
 
 	AsclepiteDrill: {
-		DisplayName: 阿斯克钻
+		DisplayName: 医神钻
 		Tooltip: ""
 	}
 
 	AsclepiteHammer: {
-		DisplayName: 阿斯克锤
+		DisplayName: 医神锤
 		Tooltip: ""
 	}
 
 	AsclepiteHelmet: {
-		DisplayName: 阿斯克头盔
+		DisplayName: 医神头盔
 		Tooltip:
 			'''
 			增加20%光辉伤害
@@ -102,7 +102,7 @@ Items: {
 	}
 
 	AsclepiteLeggings: {
-		DisplayName: 阿斯克护腿
+		DisplayName: 医神护腿
 		Tooltip:
 			'''
 			增加5%光辉伤害
@@ -113,30 +113,30 @@ Items: {
 	}
 
 	AsclepiteOre: {
-		DisplayName: 阿斯克矿
+		DisplayName: 医神矿
 		Tooltip: ""
 	}
 
 	AsclepitePickaxe: {
-		DisplayName: 阿斯克镐
+		DisplayName: 医神镐
 		Tooltip: ""
 	}
 
 	AsclepiteScythe: {
-		DisplayName: 阿斯克镰刀
+		DisplayName: 医神镰刀
 		Tooltip:
 			'''
 			无视35点防御力
 			这把镰刀是定向挥舞而不是旋转
-			滞留阿斯克碎片
+			滞留医神碎片
 			'''
 	}
 
 	AsclepiteStaff: {
-		DisplayName: 阿斯克法杖
+		DisplayName: 医神法杖
 		Tooltip:
 			'''
-			释放阿斯克晶体蛇并攻击敌人
+			释放医神晶体蛇并攻击敌人
 			攻击敌人时会给予治疗球，治疗球可被其他玩家拾取
 			治疗球可追踪附近的队友，但不会回到施法者身上
 			'''
@@ -220,27 +220,27 @@ Items: {
 }
 
 Projectiles: {
-	ApolliumDrill.DisplayName: Apollium Drill
-	ApolliumHarp.DisplayName: Apollium Harp
-	ApolliumHorn.DisplayName: Messenger's Horn
-	AsclepiteDrill.DisplayName: Asclepite Drill
-	AsclepiteOrb.DisplayName: Asclepite Orb
-	AsclepiteScythe.DisplayName: Asclepite Scythe
-	AsclepiteShard.DisplayName: Asclepite Shard
-	AsclepiteSnake.DisplayName: Asclepite Snake
-	TyphiumDrill.DisplayName: Typhium Drill
-	TyphiumJavelin.DisplayName: Typhium Javelin
-	TyphiumTop.DisplayName: Typhium Top
-	TyphiumWinds.DisplayName: Typhium Winds
+	ApolliumDrill.DisplayName: 阿波罗钻
+	ApolliumHarp.DisplayName: 阿波罗竖琴
+	ApolliumHorn.DisplayName: 信使号角
+	AsclepiteDrill.DisplayName: 医神钻
+	AsclepiteOrb.DisplayName: 医神矿
+	AsclepiteScythe.DisplayName: 医神镰刀
+	AsclepiteShard.DisplayName: 医神矿碎片
+	AsclepiteSnake.DisplayName: 医神之蛇
+	TyphiumDrill.DisplayName: 提丰钻
+	TyphiumJavelin.DisplayName: 提丰标枪
+	TyphiumTop.DisplayName: 提丰陀螺
+	TyphiumWinds.DisplayName: 提丰之风
 }
 
 Tiles: {
-	ApolliumBar.MapEntry: 阿波罗矿
-	ApolliumOre.MapEntry: 阿波罗
-	AsclepiteBar.MapEntry: 阿斯克矿
-	AsclepiteOre.MapEntry: 阿斯克
-	TyphiumBar.MapEntry: 堤丰矿
-	TyphiumOre.MapEntry: 堤丰
+	ApolliumBar.MapEntry: 阿波罗矿锭
+	ApolliumOre.MapEntry: 阿波罗矿
+	AsclepiteBar.MapEntry: 医神矿锭
+	AsclepiteOre.MapEntry: 医神矿
+	TyphiumBar.MapEntry: 堤丰矿锭
+	TyphiumOre.MapEntry: 堤丰矿
 }
 
 Configs: {
