@@ -187,6 +187,17 @@ Items: {
 		Tooltip: Launches little lacerating leaves
 	}
 
+	Milkomeda: {
+		DisplayName: Milkomeda
+		Tooltip:
+			'''
+			Throw two cosmic chakrams that occasionally collide with each other
+			Generates stars every collision
+			Stars can home into enemies
+			"The beautiful billion-year dance of two merging galaxies"
+			'''
+	}
+
 	MutagenBard: {
 		DisplayName: Bard's Mutagen
 		Tooltip:
@@ -390,6 +401,7 @@ Projectiles: {
 	Oboeterator.DisplayName: Oboeterator
 	OboeteratorLightning.DisplayName: Oboeterator
 	OmegaDefibrillation.DisplayName: Omega Defibrillation
+	Milkomeda.DisplayName: Milkomeda
 	NoceboEffect.DisplayName: Nocebo Effect
 	RedemptionBeam.DisplayName: Redemption Beam
 	RendingCoil.DisplayName: Rending Coil
@@ -408,6 +420,7 @@ Projectiles: {
 	UnstableNucleus.DisplayName: Unstable Nucleus
 	Violin.DisplayName: Violin
 	WeakRadiation.DisplayName: Weak Radiation
+	MilkomedaStar.DisplayName: Milkomeda Star
 }
 
 Configs: {
@@ -455,7 +468,7 @@ Configs: {
 			Label: Healing multiplier
 			Tooltip:
 				'''
-				Healinng multiplier for healing spells
+				Healing multiplier for healing spells
 				A value of 0 means it will only heal 1 life
 				(World restart required for this to take effect!)
 				'''

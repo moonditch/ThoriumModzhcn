@@ -187,6 +187,17 @@ Items: {
 		Tooltip: 發射出鋒利的葉子
 	}
 
+	Milkomeda: {
+		DisplayName: 仙銀星座
+		Tooltip:
+			'''
+			投擲兩個宇宙星体偶爾會相互碰撞
+			每次碰撞都會產生小星体
+			星体可以追蹤敵人
+			"雙星系跨越十億年的絕美愛戀之舞"
+			'''
+	}
+
 	Oboeterator: {
 		DisplayName: 殲滅雙簧管
 		Tooltip:
@@ -408,6 +419,8 @@ Projectiles: {
 	UnstableNucleus.DisplayName: 不穩定原核
 	Violin.DisplayName: 小提琴
 	WeakRadiation.DisplayName: 微弱輻射
+	Milkomeda.DisplayName: 仙銀星座
+	MilkomedaStar.DisplayName: 仙銀星座小星体
 }
 
 Configs: {
