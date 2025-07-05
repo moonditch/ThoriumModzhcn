@@ -31,20 +31,19 @@ Mods: {
 		Bestiary.InfoElements.ExpertModeInfoElement: Expert Mode Only
 
 		GravestoneText: {
-			# Bit ugly but you need to keep updating these numbers to be consecutive (no gaps), and also update the total count in code (GraveyardPass.GravestoneTextCount)
-			# The code bit hopefully won't be necessary with 1.4.4
-			0: Beloved.
-			1: Ever loved.
-			2: In loving memory.
-			3: Once met, never forgotten.
-			4: Forever in our hearts.
-			5: Rest in Peace.
-			6: A long life well lived.
-			7: Sleep till eternity.
-			8: Reunited at last.
-			9: He ended well.
-			10: She ended well.
-			11: I will see you again.
+			# Add new keys here, they will automatically work without any extra code
+			Beloved: Beloved.
+			EverLoved: Ever loved.
+			InLovingMemory: In loving memory.
+			OnceMet: Once met, never forgotten.
+			ForeverHearts: Forever in our hearts.
+			RIP: Rest in Peace.
+			LongLife: A long life well lived.
+			Sleep: Sleep till eternity.
+			Reunited: Reunited at last.
+			HeEnded: He ended well.
+			SheEnded: She ended well.
+			WillSee: I will see you again.
 		}
 
 		GameTips: {
@@ -129,9 +128,9 @@ Mods: {
 				Description: Just about nothing can harm you!
 			}
 
-			AbyssalWeight: {
+			AbyssalShellDebuff: {
 				DisplayName: Abyssal Weight
-				Description: Damage, defense, and movement speed greatly reduced
+				Description: Abyssal Shell is on cooldown
 			}
 
 			AirStrikeShieldBuff: {
@@ -686,7 +685,8 @@ Mods: {
 
 			SoulEssence: {
 				DisplayName: Soul Essence
-				Description: Mods.ThoriumMod.Buffs.SoulEssence.Description
+				Description: Recover health and mana based on stacks
+				Stacks: Upon reaching 5 stacks of soul essence, you recover {0} health and {1} mana
 			}
 
 			SpiritualistBuff: {
@@ -742,11 +742,6 @@ Mods: {
 			IlluminatedNPC: {
 				DisplayName: Illuminated
 				Description: This revealed enemy is taking 10% more damage
-			}
-
-			IncandescentSparkDebuff: {
-				DisplayName: Incandescent Burn
-				Description: Losing life
 			}
 
 			Insanity: {
@@ -1353,56 +1348,6 @@ Mods: {
 				Description: Unleash your arsenal upon your foes
 			}
 
-			BannerBounty: {
-				DisplayName: Bounty Banner
-				Description: Nearby minions generate coins when damaging enemies
-			}
-
-			BannerConfusion: {
-				DisplayName: Hive Mind
-				Description: Nearby minion attacks might confuse enemies
-			}
-
-			BannerDamage: {
-				DisplayName: Battle Banner
-				Description: Minions are dealing 5 additional damage
-			}
-
-			BannerDefense: {
-				DisplayName: Combative Banner
-				Description: Damage reduction increased by 3% per maximum minion
-			}
-
-			BannerFalcon: {
-				DisplayName: Falcon
-				Description: Nearby summons might deal additional damage on hit
-			}
-
-			BannerGhost: {
-				DisplayName: Sacrificial Effigy
-				Description: Nearby kills will summon a helpful ghost
-			}
-
-			BannerLifeRegen: {
-				DisplayName: Morale Banner
-				Description: Minion attacks might heal you
-			}
-
-			BannerPious: {
-				DisplayName: Pious Banner
-				Description: Nearby minions...
-			}
-
-			BannerPower: {
-				DisplayName: Power Banner
-				Description: One of your sentries is empowered
-			}
-
-			BannerPrecision: {
-				DisplayName: Precision Banner
-				Description: Nearby minions have a 5% chance to critically strike
-			}
-
 			BeholderStaffBuff: {
 				DisplayName: Beholding
 				Description: The Beholder will give sight of and eradicate your foes
@@ -1411,11 +1356,6 @@ Mods: {
 			BlobhornCoralStaffBuff: {
 				DisplayName: Blobfish
 				Description: Is it cute? Is it ugly? You decide...
-			}
-
-			BloodFeasterStaffBuff: {
-				DisplayName: Blood Zombie
-				Description: As long as it gets to feed, it won't bother you...
 			}
 
 			BloodPact: {
@@ -1692,6 +1632,47 @@ Mods: {
 				DisplayName: Twilight Boost
 				Description: An ally is augmenting your on-hit effects
 			}
+
+			BannerDamage: {
+				DisplayName: Battle Banner
+				Description: Taking {0}% more minion and sentry damage
+			}
+
+			BannerBounty: {
+				DisplayName: Bounty Banner
+				Description: Generates coins when hit by summon damage
+			}
+
+			Slowed: {
+				DisplayName: Slowed
+				Description: Movement is slowed!
+			}
+
+			BannerPrecision: {
+				DisplayName: Precision Banner
+				Description: Chance to be critically struck by minion and sentry damage
+			}
+
+			BannerPower: {
+				DisplayName: Banner Power
+				Description: Taking {0}% more whip damage
+			}
+
+			ThrombosisBuff: {
+				DisplayName: Bloodling
+				Description: The bloodling will assist you
+			}
+
+			ThrombosisDebuff: {
+				DisplayName: Thrombosis
+				Description: "{$CommonItemTooltip.SummonTagDamage}"
+			}
+
+			ManaInjectionKitBuff: {
+				DisplayName: Mana Injection
+				Description: Magic damage increased
+				Damage: Magic damage increased by {0}%
+			}
 		}
 
 		Conditions: {
@@ -1709,6 +1690,7 @@ Mods: {
 			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName} has been defeated"
 			DownedIllusionist: "{$NPCs.Illusionist.DisplayName} has been defeated"
 			DownedOgre: An Ogre has been defeated
+			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!
 			HasInspiration: Player has {0} or more total inspiration
 			CompletedCookRecipe: Player supplied enough ingredients to the {$NPCs.Cook.DisplayName}
 			NotInBeachSnowDesert: Player is not in an Ocean, Snow, or Desert biome
@@ -1719,6 +1701,8 @@ Mods: {
 			NotInMasterMode: Not in master mode
 			WorldHasBloodAltar: World has Blood Altar
 			WorldHasNoBloodAltarOrDownedViscount: World has no Blood Altar or {$Conditions.DownedViscount}
+			WorldIsCrimsonOrHardmode: World is Crimson or in Hardmode
+			WorldIsCorruptionOrHardmode: World is Corruption or in Hardmode
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1856,10 +1840,10 @@ Mods: {
 				DisplayName: Abyssal Shell
 				Tooltip:
 					'''
-					Pressing the 'Encase' key will place you in an impenetrable shell
-					While encased, you can't use items or health potions, life regeneration is heavily reduced, and damage is nearly nullified
-					Leaving the shell will greatly lower your speed, damage reduction and damage briefly
-					Leaving the shell will prohibit the use of the shell again for 20 seconds
+					Pressing the 'Encase' key will briefly place you in an impenetrable shell
+					While encased, you are immune to all damage but cannot hurt enemies for the duration
+					While encased, you can't move, use items, or drink healing potions
+					Leaving the shell will prohibit the use of the shell again for {0} seconds
 					'''
 			}
 
@@ -2030,15 +2014,6 @@ Mods: {
 					'''
 					Shoots a volley of petals
 					Damaging enemies grants brief life recovery
-					'''
-			}
-
-			FalconeerCane: {
-				DisplayName: Falconeer's Cane
-				Tooltip:
-					'''
-					Commands a single falcon to fly towards your cursor
-					While nearby, your summons have a chance to deal additional damage
 					'''
 			}
 
@@ -2296,7 +2271,7 @@ Mods: {
 				Tooltip:
 					'''
 					Allows you to rhythmically play on a big alphorn
-					Successfully timing hits will steadily increase its damage, empowerment level, and penetration
+					Successfully timing hits will steadily increase its damage and empowerment level
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -2321,7 +2296,7 @@ Mods: {
 				Tooltip:
 					'''
 					Allows you to rhythmically play on a big bagpipe
-					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
+					Successfully timing hits will steadily increase its damage and empowerment level
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -3072,7 +3047,7 @@ Mods: {
 				Tooltip:
 					'''
 					Allows you to rhythmically play on a big organ
-					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
+					Successfully timing hits will steadily increase its damage and empowerment level
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -3166,7 +3141,7 @@ Mods: {
 				Tooltip:
 					'''
 					Allows you to rhythmically play on a big, magical harp
-					Successfully timing hits will steadily increase its damage, empowerment level, bounce amount, and projectile count
+					Successfully timing hits will steadily increase its damage, empowerment level, and bounce amount
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -3366,6 +3341,7 @@ Mods: {
 			TerrariumAutoharp: {
 				DisplayName: Terrarium Autoharp
 				Tooltip: Unleashes a prismatic burst of warbling sound
+				Variety: Variety
 			}
 
 			TerrariumSurroundSound: {
@@ -4865,11 +4841,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AquaticDepthsBiomeChest_Trapped: {
-				DisplayName: Trapped Aquatic Depths Chest
-				Tooltip: ""
-			}
-
 			AquaticDepthsBiomeKey: {
 				DisplayName: Aquatic Depths Key
 				Tooltip: Unlocks an {$Items.AquaticDepthsBiomeChest.DisplayName} in the dungeon
@@ -4933,11 +4904,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DepthChest_Trapped: {
-				DisplayName: Trapped Depth Chest
-				Tooltip: ""
-			}
-
 			DepthDiverChestplate: {
 				DisplayName: Depth Diver's Chestplate
 				Tooltip: "'Become a selfless protector'"
@@ -4955,7 +4921,7 @@ Mods: {
 					'Become a selfless protector'
 					Critical strike chance increased by 6%
 					'''
-				SetBonus: You and nearby allies gain {0}% increased damage, {1}% movement speed, and can breath underwater
+				SetBonus: You and nearby allies gain {0}% increased damage, {1}% movement speed, and can breathe underwater
 			}
 
 			DepthScale: {
@@ -5119,7 +5085,7 @@ Mods: {
 				DisplayName: Rain Stone
 				Tooltip:
 					'''
-					'It's said that this strange stone was torn from an entity that could control the seas...'
+					'Legend says this strange stone was torn from an entity that could control the tides...'
 					Activates or cancels a rainstorm
 					'''
 			}
@@ -5202,6 +5168,9 @@ Mods: {
 				Tooltip: ""
 			}
 
+			AceBreastplate.DisplayName: Ace Breastplate
+			AceGreaves.DisplayName: Ace Greaves
+			AceHelmet.DisplayName: Ace Helmet
 			BlockyMask.DisplayName: Blocky Mask
 			BlockyPants.DisplayName: Blocky Pants
 			BlockyShirt.DisplayName: Blocky Shirt
@@ -5210,14 +5179,10 @@ Mods: {
 			BrutalMask.DisplayName: Brutal Mask
 			CataclysmicsGarb.DisplayName: Cataclysmic Garb
 			CataclysmicsHollowMask.DisplayName: Cataclysmic Hollow Mask
-			ChunkyGreaves.DisplayName: Chunky Greaves
-			ChunkyHelmet.DisplayName: Chunky Helmet
-			ChunkyMail.DisplayName: Chunky Mail
 			DannyLamentLeggings.DisplayName: Danny's Lament Leggings
 			DannyLamentMask.DisplayName: Danny's Lament Mask
 			DannyLamentSuit.DisplayName: Danny's Lament Suit
-			DeluxeHalcandranBow.DisplayName: Deluxe Halcandran Bow
-			DeluxeHalcandranHat.DisplayName: Deluxe Halcandran Hat
+			HalcandranDeluxeApparel.DisplayName: Halcandran Deluxe Apparel
 			GhastlyGarment.DisplayName: Ghastly Garment
 			GhastlyHood.DisplayName: Ghastly Hood
 			GhastlyLeggings.DisplayName: Ghastly Leggings
@@ -5231,6 +5196,9 @@ Mods: {
 			MrUniversePants.DisplayName: Mr. Universe's Pants
 			MrUniverseSuit.DisplayName: Mr. Universe's Suit
 			PhonicWings.DisplayName: Phonic Wings
+			ProspectorHeadgear.DisplayName: Prospector's Headgear
+			ProspectorShorts.DisplayName: Prospector's Shorts
+			ProspectorVest.DisplayName: Prospector's Vest
 			ShinobiGi.DisplayName: Shinobi Gi
 			ShinobiMask.DisplayName: Shinobi Mask
 			ShinobiTreads.DisplayName: Shinobi Treads
@@ -5363,6 +5331,7 @@ Mods: {
 					Place seeds or a fruit within the feeder to eventually attract the attention of a bird
 					Birds leave behind random fruits or potions based on what you place in the feeder
 					Having it placed or in the inventory allows the collection of seeds
+					Seed collection can be toggled in the top left of the inventory once placed
 					Can only be placed on the surface
 					'''
 				ConvertTooltip: Right click to cycle styles or recraft to convert into a {0} variant
@@ -5432,7 +5401,7 @@ Mods: {
 				DisplayName: Blood Drinker
 				Tooltip:
 					'''
-					Melee strikes store up to 10 blood essence
+					Melee strikes store up to {0} blood essence
 					Right click uses essence to fire a damaging stream that heals you and your allies
 					'''
 			}
@@ -5624,8 +5593,8 @@ Mods: {
 				DisplayName: Concussive Warhead
 				Tooltip:
 					'''
-					Increases rocket damage by 100% and ranged damage briefly stuns enemies
-					Decreases firing speed by 50%
+					Increases rocket damage by {0}% and ranged damage briefly stuns enemies
+					Decreases firing speed by {1}%
 					'''
 			}
 
@@ -6047,7 +6016,7 @@ Mods: {
 
 			GrimFlayer: {
 				DisplayName: Grim Flayer
-				Tooltip: Attacks have a chance to steal life
+				Tooltip: Attacks heal you for 2 life
 			}
 
 			GuardiansBoots: {
@@ -6224,16 +6193,6 @@ Mods: {
 					'''
 					Releases a massive barrage of expanding sound waves
 					Hit enemies will be charmed, lowering their speed and contact damage
-					'''
-			}
-
-			IncandescentSpark: {
-				DisplayName: Incandescent Spark
-				Tooltip:
-					'''
-					Allows you to double tap dash into enemies, releasing an explosion of energy on hit
-					Hold DOWN to drastically increase fall speed and release energy upon landing
-					Increases jump height
 					'''
 			}
 
@@ -6431,8 +6390,7 @@ Mods: {
 					'''
 					'Perfect for a growing dragon's diet... I think?'
 					Summons a mountable Baby Dragon
-					While mounted, the dragon will spit fireballs at nearby enemies
-					The fireballs deal the same type of damage as your held weapon
+					While mounted, the dragon will breathe fire on enemies in front of it
 					'''
 			}
 
@@ -6544,7 +6502,7 @@ Mods: {
 				DisplayName: Northern Light
 				Tooltip:
 					'''
-					'Is this the first time that you've ever seen. Aurora Borealis crush mankind?'
+					'Is this the first time that you've ever seen an aurora borealis crush mankind?'
 					Summons a localized aurora borealis upon your cursor's position
 					The aurora borealis unleashes a light storm upon enemies below
 					'''
@@ -6557,11 +6515,6 @@ Mods: {
 					Automatically sets you into a lesser stealth mode
 					Right click to moderately zoom out
 					'''
-			}
-
-			NuclearFury: {
-				DisplayName: Nuclear Fury
-				Tooltip: Unleashes a nova of homing cosmic energy balls
 			}
 
 			ObsidianStaff: {
@@ -6693,7 +6646,7 @@ Mods: {
 
 			PlasmaStaff: {
 				DisplayName: Plasma Staff
-				Tooltip: Move back and forth to generate friction, increasing the potency of your attack
+				Tooltip: Press LEFT, RIGHT, or UP to generate friction, increasing the potency of your attack
 			}
 
 			PLG: {
@@ -6850,7 +6803,7 @@ Mods: {
 				DisplayName: Rifle Spear
 				Tooltip:
 					'''
-					Left click to stab forward, gaining up to 10 blood essence
+					Left click to stab forward, gaining up to {0} blood essence
 					Right click uses essence to slash and release a spread of blood bolts
 					'''
 			}
@@ -7076,7 +7029,7 @@ Mods: {
 					'''
 					'He told you...'
 					Left click to hurl impaling echoes of the soul reaver, which stick into enemies
-					Right click to stab the soul reaver forward, stealing life equal to the amount of echoes in the enemy
+					Right click to stab the soul reaver forward, stealing {0} life for each echo in the enemy
 					'''
 			}
 
@@ -7552,11 +7505,6 @@ Mods: {
 			DragonTalon: {
 				DisplayName: Dragon's Talon
 				Tooltip: Attacks will burn the hit enemy with green fire
-			}
-
-			DragonTalonNecklace: {
-				DisplayName: Dragon's Talon Necklace
-				Tooltip: Increases armor penetration by 15
 			}
 
 			DragonTooth: {
@@ -8057,6 +8005,7 @@ Mods: {
 					Your ranged damage has a {0}% chance to completely eradicate the hit target
 					This effect can only occur on bosses if they are below {1}% maximum life
 					'''
+				Eradicated: ERADICATED
 			}
 
 			OmniBow: {
@@ -8199,8 +8148,7 @@ Mods: {
 					'''
 					'The rhythm can be felt in all things...'
 					Allows you to rhythmically bang on a set of drums
-					Each timed hit increases the set's damage by 4% up to 120%
-					Each timed hit above 80% bonus damage releases additional bursts of sound
+					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -9443,8 +9391,8 @@ Mods: {
 				Tooltip: 16% increased radiant damage
 				SetBonus:
 					'''
-					Your radiant damage has a {0}% chance to release a blinding flash of light
-					The flash heals nearby allies equal to your bonus healing and confuses enemies
+					Your luck is slightly increased
+					Radiant damage has a {0}% chance to flash, healing nearby allies for {1} life and confusing enemies
 					'''
 			}
 
@@ -9483,7 +9431,7 @@ Mods: {
 
 			LeechBolt: {
 				DisplayName: Leech Bolt
-				Tooltip: Sends out a bolt of life stealing blood
+				Tooltip: Sends out a blood bolt that steals life from the first enemy hit
 			}
 
 			LethalInjection: {
@@ -9738,6 +9686,7 @@ Mods: {
 					Heals ally life by 7.5% of their maximum life
 					Releases a player-homing necrotic surge
 					'''
+				LifeCost: Uses {0}% of your maximum life
 			}
 
 			NirvanaStatuette: {
@@ -9978,7 +9927,7 @@ Mods: {
 				Tooltip:
 					'''
 					Swings a blessed mace that releases lingering healing energy on its first hit
-					Up to 10 healing energy can exist at once
+					Up to 8 healing energy can exist at once
 					'''
 			}
 
@@ -10073,7 +10022,7 @@ Mods: {
 				DisplayName: Shadow Wand
 				Tooltip:
 					'''
-					Spews forth an erratic release of shadow energy
+					Rapidly spews forth erratic shadow energy based on how hurt you are
 					Half the life cost is given to your ally with the least health
 					'''
 			}
@@ -10297,6 +10246,7 @@ Mods: {
 					Left click to release an orb of healing energy at the cost of mana
 					Right click to release an orb of shadow energy at the cost of life
 					'''
+				UsesManaAndLife: Uses {0} mana & {1} life
 			}
 
 			Twinkle: {
@@ -10446,7 +10396,7 @@ Mods: {
 
 			ChampionsTrifectaShot: {
 				DisplayName: Champion's Trifecta-Shot
-				Tooltip: Your arrows fluctuate between different elements
+				Tooltip: Turns wooden arrows into fluctuating elemental arrows
 			}
 
 			ChampionSwiftBlade: {
@@ -10469,7 +10419,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Unleash a flurry of ice!'
-					Attacks might frostburn the target briefly
+					Attacks frostburn the hit target briefly
 					'''
 			}
 
@@ -10872,7 +10822,7 @@ Mods: {
 
 			AdamantiteStaff: {
 				DisplayName: Adamantite Staff
-				Tooltip: Fires an orb of magic, which can pop into multiple bolts at your cursor
+				Tooltip: Casts an orb of magic, which pops into multiple bolts at your cursor
 			}
 
 			BlackholeCannon: {
@@ -10887,7 +10837,7 @@ Mods: {
 
 			CobaltStaff: {
 				DisplayName: Cobalt Staff
-				Tooltip: Shoots out two bouncy, reflective bolts of energy
+				Tooltip: Casts a duo of bouncing energy bolts
 			}
 
 			CryomancersCrown: {
@@ -10981,17 +10931,17 @@ Mods: {
 
 			MythrilStaff: {
 				DisplayName: Mythril Staff
-				Tooltip: Shoots out three bolts that will attempt to home in on enemies
+				Tooltip: Casts a barrage of homing bolts
 			}
 
 			OrichalcumStaff: {
 				DisplayName: Orichalcum Staff
-				Tooltip: Rapidly releases a barrage of powerful petals
+				Tooltip: Casts a burst of powerful petals
 			}
 
 			PalladiumStaff: {
 				DisplayName: Palladium Staff
-				Tooltip: Shoots out energy that shatters into multiple shards
+				Tooltip: Casts a shattering energy bolt
 			}
 
 			SpectralBlade: {
@@ -11038,7 +10988,7 @@ Mods: {
 
 			TitaniumStaff: {
 				DisplayName: Titanium Staff
-				Tooltip: Releases a pulse of popping energy towards your cursor
+				Tooltip: Casts a pulse of popping energy towards your cursor
 			}
 
 			VesselBuster: {
@@ -11554,11 +11504,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DesertBiomeChest_Trapped: {
-				DisplayName: Trapped Desert Chest
-				Tooltip: ""
-			}
-
 			DesertBiomeKey: {
 				DisplayName: Desert Key
 				Tooltip: Unlocks a {$Items.DesertBiomeChest.DisplayName} in the dungeon
@@ -11691,7 +11636,9 @@ Mods: {
 
 			LilGuppy: {
 				DisplayName: Lil' Guppy
-				Tooltip: ""
+				Tooltip: "'Caught in Ocean'"
+				QuestDescription: Being out at sea for so long was pretty lonely... I made one friend though, a tiny little fish I named Lil' Guppy! He always manages to escape his fish bowl though! I miss him and I want him, go get my friend!
+				QuestCatchLocation: Caught in Ocean.
 			}
 
 			LootRang: {
@@ -11933,11 +11880,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			UnderworldBiomeChest_Trapped: {
-				DisplayName: Trapped Underworld Chest
-				Tooltip: ""
-			}
-
 			UnderworldBiomeKey: {
 				DisplayName: Underworld Key
 				Tooltip: Unlocks an {$Items.UnderworldBiomeChest.DisplayName} in the dungeon
@@ -12082,7 +12024,7 @@ Mods: {
 
 			CrawdadClaw: {
 				DisplayName: Crawdad Claw
-				Tooltip: While in combat, your damage increases by 1 over time up to 2
+				Tooltip: While in combat, your armor penetration increases by 1 over time up to 2
 			}
 
 			DeathGazersGlass: {
@@ -12222,7 +12164,7 @@ Mods: {
 
 			GiantShellSpine: {
 				DisplayName: Giant Shell Spine
-				Tooltip: While in combat, your defense increases by 1 over time up to 5
+				Tooltip: While in combat, your defense increases by 1 over time up to 4
 			}
 
 			GraveBuster: {
@@ -12327,7 +12269,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Let's get dangerous...'
-					While in combat, your damage, defense, and life recovery increase over time
+					While in combat, your armor penetration, defense, and life recovery increase over time
 					'''
 			}
 
@@ -12381,18 +12323,9 @@ Mods: {
 				Tooltip: Envenoms the hit target briefly
 			}
 
-			SacrificialDagger: {
-				DisplayName: Sacrificial Dagger
-				Tooltip:
-					'''
-					Summons a single sacrificial effigy at your cursor
-					While nearby, killing enemies will summon a short lived spirit to attack enemies
-					'''
-			}
-
 			SalamanderEye: {
 				DisplayName: Salamander Eye
-				Tooltip: While in combat, your life recovery increases by 1 over time up to 2
+				Tooltip: While in combat for 5 seconds, your life recovery increases by 1
 			}
 
 			Scalper: {
@@ -12851,11 +12784,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			BloodstainedChest_Trapped: {
-				DisplayName: Trapped Bloodstained Chest
-				Tooltip: ""
-			}
-
 			BloodstainedClock: {
 				DisplayName: Bloodstained Clock
 				Tooltip: ""
@@ -12991,11 +12919,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			CelestialChest_Trapped: {
-				DisplayName: Trapped Celestial Chest
-				Tooltip: ""
-			}
-
 			CelestialClock: {
 				DisplayName: Celestial Clock
 				Tooltip: ""
@@ -13086,6 +13009,16 @@ Mods: {
 				Tooltip: ""
 			}
 
+			CoalBrick: {
+				DisplayName: Coal Brick
+				Tooltip: ""
+			}
+
+			CoalBrickWall: {
+				DisplayName: Coal Brick Wall
+				Tooltip: ""
+			}
+
 			CursedBathtub: {
 				DisplayName: Cursed Bathtub
 				Tooltip: ""
@@ -13128,11 +13061,6 @@ Mods: {
 
 			CursedChest: {
 				DisplayName: Cursed Chest
-				Tooltip: ""
-			}
-
-			CursedChest_Trapped: {
-				DisplayName: Trapped Cursed Chest
 				Tooltip: ""
 			}
 
@@ -13296,122 +13224,117 @@ Mods: {
 			}
 
 			EvergreenBathtub: {
-				DisplayName: Evergreen Bathtub
+				DisplayName: Evergreen Wood Bathtub
 				Tooltip: ""
 			}
 
 			EvergreenBed: {
-				DisplayName: Evergreen Bed
+				DisplayName: Evergreen Wood Bed
 				Tooltip: ""
 			}
 
 			EvergreenBlock: {
-				DisplayName: Evergreen Block
+				DisplayName: Evergreen Wood
 				Tooltip: ""
 			}
 
 			EvergreenBookcase: {
-				DisplayName: Evergreen Bookcase
+				DisplayName: Evergreen Wood Bookcase
 				Tooltip: ""
 			}
 
 			EvergreenCandelabra: {
-				DisplayName: Evergreen Candelabra
+				DisplayName: Evergreen Wood Candelabra
 				Tooltip: ""
 			}
 
 			EvergreenCandle: {
-				DisplayName: Evergreen Candle
+				DisplayName: Evergreen Wood Candle
 				Tooltip: ""
 			}
 
 			EvergreenChair: {
-				DisplayName: Evergreen Chair
+				DisplayName: Evergreen Wood Chair
 				Tooltip: ""
 			}
 
 			EvergreenChandelier: {
-				DisplayName: Evergreen Chandelier
+				DisplayName: Evergreen Wood Chandelier
 				Tooltip: ""
 			}
 
 			EvergreenChest: {
-				DisplayName: Evergreen Chest
-				Tooltip: ""
-			}
-
-			EvergreenChest_Trapped: {
-				DisplayName: Trapped Evergreen Chest
+				DisplayName: Evergreen Wood Chest
 				Tooltip: ""
 			}
 
 			EvergreenClock: {
-				DisplayName: Evergreen Clock
+				DisplayName: Evergreen Wood Clock
 				Tooltip: ""
 			}
 
 			EvergreenCup: {
-				DisplayName: Evergreen Cup
+				DisplayName: Evergreen Wood Cup
 				Tooltip: ""
 			}
 
 			EvergreenDoor: {
-				DisplayName: Evergreen Door
+				DisplayName: Evergreen Wood Door
 				Tooltip: ""
 			}
 
 			EvergreenDresser: {
-				DisplayName: Evergreen Dresser
+				DisplayName: Evergreen Wood Dresser
 				Tooltip: ""
 			}
 
 			EvergreenLamp: {
-				DisplayName: Evergreen Lamp
+				DisplayName: Evergreen Wood Lamp
 				Tooltip: ""
 			}
 
 			EvergreenLantern: {
-				DisplayName: Evergreen Lantern
+				DisplayName: Evergreen Wood Lantern
 				Tooltip: ""
 			}
 
 			EvergreenPiano: {
-				DisplayName: Evergreen Piano
+				DisplayName: Evergreen Wood Piano
 				Tooltip: ""
 			}
 
 			EvergreenPlatform: {
-				DisplayName: Evergreen Platform
+				DisplayName: Evergreen Wood Platform
 				Tooltip: ""
 			}
 
 			EvergreenSink: {
-				DisplayName: Evergreen Sink
+				DisplayName: Evergreen Wood Sink
 				Tooltip: ""
 			}
 
 			EvergreenSofa: {
-				DisplayName: Evergreen Sofa
+				DisplayName: Evergreen Wood Sofa
 				Tooltip: ""
 			}
 
 			EvergreenTable: {
-				DisplayName: Evergreen Table
+				DisplayName: Evergreen Wood Table
 				Tooltip: ""
 			}
 
 			EvergreenToilet: {
-				DisplayName: Evergreen Toilet
+				DisplayName: Evergreen Wood Toilet
 				Tooltip: ""
 			}
 
 			EvergreenWall: {
-				DisplayName: Evergreen Wall
+				DisplayName: Evergreen Wood Wall
 				Tooltip: ""
 			}
 
 			EvergreenWorkbench: {
-				DisplayName: Evergreen Work Bench
+				DisplayName: Evergreen Wood Work Bench
 				Tooltip: ""
 			}
 
@@ -13457,11 +13380,6 @@ Mods: {
 
 			FossilChest: {
 				DisplayName: Fossil Chest
-				Tooltip: ""
-			}
-
-			FossilChest_Trapped: {
-				DisplayName: Trapped Fossil Chest
 				Tooltip: ""
 			}
 
@@ -13577,11 +13495,6 @@ Mods: {
 
 			GingerbreadChest: {
 				DisplayName: Gingerbread Chest
-				Tooltip: ""
-			}
-
-			GingerbreadChest_Trapped: {
-				DisplayName: Trapped Gingerbread Chest
 				Tooltip: ""
 			}
 
@@ -13778,11 +13691,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LivingMahoganyChest_Trapped: {
-				DisplayName: Trapped Living Mahogany Chest
-				Tooltip: ""
-			}
-
 			LivingMahoganyClock: {
 				DisplayName: Living Mahogany Clock
 				Tooltip: ""
@@ -13898,11 +13806,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LodestoneChest_Trapped: {
-				DisplayName: Trapped Lodestone Chest
-				Tooltip: ""
-			}
-
 			LodestoneClock: {
 				DisplayName: Lodestone Clock
 				Tooltip: ""
@@ -14015,11 +13918,6 @@ Mods: {
 
 			MarineChest: {
 				DisplayName: Marine Chest
-				Tooltip: ""
-			}
-
-			MarineChest_Trapped: {
-				DisplayName: Trapped Marine Chest
 				Tooltip: ""
 			}
 
@@ -14185,11 +14083,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			NagaChest_Trapped: {
-				DisplayName: Trapped Naga Chest
-				Tooltip: ""
-			}
-
 			NagaClock: {
 				DisplayName: Naga Clock
 				Tooltip: ""
@@ -14345,11 +14238,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			OrnateChest_Trapped: {
-				DisplayName: Trapped Ornate Chest
-				Tooltip: ""
-			}
-
 			OrnateClock: {
 				DisplayName: Ornate Clock
 				Tooltip: ""
@@ -14457,11 +14345,6 @@ Mods: {
 
 			PermafrostChest: {
 				DisplayName: Permafrost Chest
-				Tooltip: ""
-			}
-
-			PermafrostChest_Trapped: {
-				DisplayName: Trapped Permafrost Chest
 				Tooltip: ""
 			}
 
@@ -14577,11 +14460,6 @@ Mods: {
 
 			PlateChest: {
 				DisplayName: Plate Chest
-				Tooltip: ""
-			}
-
-			PlateChest_Trapped: {
-				DisplayName: Trapped Plate Chest
 				Tooltip: ""
 			}
 
@@ -14820,11 +14698,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ScarletChest_Trapped: {
-				DisplayName: Trapped Scarlet Chest
-				Tooltip: ""
-			}
-
 			ScarletClock: {
 				DisplayName: Scarlet Clock
 				Tooltip: ""
@@ -14945,11 +14818,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ShadyChest_Trapped: {
-				DisplayName: Trapped Shady Chest
-				Tooltip: ""
-			}
-
 			ShadyClock: {
 				DisplayName: Shady Clock
 				Tooltip: ""
@@ -15067,11 +14935,6 @@ Mods: {
 
 			ShootingStarChest: {
 				DisplayName: Shooting Star Chest
-				Tooltip: ""
-			}
-
-			ShootingStarChest_Trapped: {
-				DisplayName: Trapped Shooting Star Chest
 				Tooltip: ""
 			}
 
@@ -15247,11 +15110,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ThoriumChest_Trapped: {
-				DisplayName: Trapped Thorium Chest
-				Tooltip: ""
-			}
-
 			ThoriumClock: {
 				DisplayName: Thorium Clock
 				Tooltip: ""
@@ -15364,11 +15222,6 @@ Mods: {
 
 			ValadiumChest: {
 				DisplayName: Valadium Chest
-				Tooltip: ""
-			}
-
-			ValadiumChest_Trapped: {
-				DisplayName: Trapped Valadium Chest
 				Tooltip: ""
 			}
 
@@ -15497,11 +15350,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			WhiteDwarfChest_Trapped: {
-				DisplayName: Trapped White Dwarf Chest
-				Tooltip: ""
-			}
-
 			WhiteDwarfClock: {
 				DisplayName: White Dwarf Clock
 				Tooltip: ""
@@ -15604,11 +15452,6 @@ Mods: {
 
 			YewChest: {
 				DisplayName: Yew Wood Chest
-				Tooltip: ""
-			}
-
-			YewChest_Trapped: {
-				DisplayName: Trapped Yew Wood Chest
 				Tooltip: ""
 			}
 
@@ -16187,15 +16030,6 @@ Mods: {
 					'''
 			}
 
-			BattleBanner: {
-				DisplayName: Battle Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, the user's summon damage is increased by 5
-					'''
-			}
-
 			BioMatter: {
 				DisplayName: Bio Matter
 				Tooltip: "'A writhing mass of chlorophyll'"
@@ -16210,17 +16044,46 @@ Mods: {
 					'''
 			}
 
-			BloodFeasterStaff: {
-				DisplayName: Blood Feaster Staff
-				Tooltip: Summons a flesh eating blood zombie
+			BattleBanner: {
+				DisplayName: Battle Banner
+				Tooltip: Summons a banner that increases the minion and sentry damage nearby enemies take by {0}%
 			}
 
 			BountyBanner: {
 				DisplayName: Bounty Banner
+				Tooltip: Summons a banner that causes nearby enemies to generate coins when hit by summon damage
+			}
+
+			CombatBanner: {
+				DisplayName: Combat Banner
+				Tooltip: Summons a banner that periodically slows enemies within its radius
+			}
+
+			MoraleBanner: {
+				DisplayName: Morale Banner
 				Tooltip:
 					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, summon damage will generate some coins
+					Summons a banner that slowly generates a single heart that heals {0} life
+					Only the banner's summoner may pick it up
+					'''
+			}
+
+			PiousBanner: {
+				DisplayName: Pious Banner
+				Tooltip: Summons a banner that rapidly stuns enemies within its radius
+			}
+
+			PowerBanner: {
+				DisplayName: Power Banner
+				Tooltip: Summons a banner that increases the whip damage nearby enemies take by {0}%
+			}
+
+			PrecisionBanner: {
+				DisplayName: Precision Banner
+				Tooltip:
+					'''
+					Summons a banner that causes nearby enemies to become vulnerable
+					Vulnerable enemies have a {0}% chance to receive critical strikes from minion and sentry damage
 					'''
 			}
 
@@ -16230,15 +16093,6 @@ Mods: {
 					'''
 					'The latest in butterfly technology'
 					Summons 3 random butterflies to attack your enemies
-					'''
-			}
-
-			CombatBanner: {
-				DisplayName: Combat Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, the user's damage reduction is increased by 3% per maximum minion slot
 					'''
 			}
 
@@ -16395,15 +16249,6 @@ Mods: {
 				Tooltip: Summons a friendly meteor head to crush your enemies
 			}
 
-			MoraleBanner: {
-				DisplayName: Morale Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, the user's summon damage has a small chance to heal
-					'''
-			}
-
 			MortarStaff: {
 				DisplayName: Mortar Staff
 				Tooltip: Summons a living mortar to launch bombs at your enemies
@@ -16427,33 +16272,6 @@ Mods: {
 					'Death is not the end for you...'
 					Taking fatal damage will instead return you to 25% life every four minutes
 					Life recovery is increased while the phylactery is not on cooldown
-					'''
-			}
-
-			PiousBanner: {
-				DisplayName: Pious Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, ...
-					'''
-			}
-
-			PowerBanner: {
-				DisplayName: Power Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, the user's nearest sentry gains 100% more damage
-					'''
-			}
-
-			PrecisionBanner: {
-				DisplayName: Precision Banner
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}
-					While nearby, the user's summon damage has a 5% chance to critically strike
 					'''
 			}
 
@@ -17931,7 +17749,7 @@ Mods: {
 				Tooltip:
 					'''
 					Pressing the 'Encase' key will place you within a fragile cocoon
-					Within the cocoon, you have have greatly increased life recovery, but greatly reduced damage reduction
+					Within the cocoon, you have greatly increased life recovery, but greatly reduced damage reduction
 					If you survive the process, your damage and attack speed are briefly increased by 30%
 					The cocoon may be activated every 1 minute
 					'''
@@ -18444,9 +18262,105 @@ Mods: {
 				Tooltip: ""
 			}
 
+			CausticHeadgear: {
+				DisplayName: Caustic Headgear
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			CausticLeggings: {
+				DisplayName: Caustic Leggings
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			CausticRobe: {
+				DisplayName: Caustic Robe
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			ChunkyGreaves: {
+				DisplayName: Chunky Greaves
+				Tooltip: ""
+			}
+
+			ChunkyHelmet: {
+				DisplayName: Chunky Helmet
+				Tooltip: ""
+			}
+
+			ChunkyMail: {
+				DisplayName: Chunky Mail
+				Tooltip: ""
+			}
+
 			FishHat: {
 				DisplayName: Fish Hat
 				Tooltip: "'Women want me, fish fear me'"
+			}
+
+			LegendaryChainmail: {
+				DisplayName: Legendary Chainmail
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LegendaryGreaves: {
+				DisplayName: Legendary Greaves
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LegendaryHelmet: {
+				DisplayName: Legendary Helmet
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonLeggings: {
+				DisplayName: Light Automaton Leggings
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonMask: {
+				DisplayName: Light Automaton Mask
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonNuvaArmor: {
+				DisplayName: Light Automaton Nuva-Armor
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
 			}
 
 			GelatinousGreaves: {
@@ -18490,6 +18404,24 @@ Mods: {
 				Tooltip: "'Motivation!'"
 			}
 
+			MaroonMageHat: {
+				DisplayName: Maroon Mage Hat
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			MaroonMageRobe: {
+				DisplayName: Maroon Mage Robe
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
 			MeteorMask: {
 				DisplayName: Meteor Mask
 				Tooltip: ""
@@ -18523,6 +18455,76 @@ Mods: {
 			SnarbolaxGreaves: {
 				DisplayName: Snarbolax Greaves
 				Tooltip: ""
+			}
+
+			SpaceDwarfBeard: {
+				DisplayName: Space Dwarf Beard
+				Tooltip:
+					'''
+					'By the Beard!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfBoots: {
+				DisplayName: Space Dwarf Boots
+				Tooltip:
+					'''
+					'Leave no dwarf behind!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfHeadset: {
+				DisplayName: Space Dwarf Headset
+				Tooltip:
+					'''
+					'Galaxy's finest!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfSuit: {
+				DisplayName: Space Dwarf Suit
+				Tooltip:
+					'''
+					'Rock and Stone!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			Sundress: {
+				DisplayName: Sundress
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			Sunhat: {
+				DisplayName: Sunhat
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SunnySandals: {
+				DisplayName: Sunny Sandals
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
 			}
 
 			BatScythe: {
@@ -18861,7 +18863,8 @@ Mods: {
 				Tooltip:
 					'''
 					'An object from an age long past...'
-					This item no longer exists in the game. If it's used by another mod in some way, contact the other mod's developer
+					This item no longer exists in the game
+					If it's used by another mod in some way, contact the other mod's developer
 					'''
 				DarksteelMace.DisplayName: Darksteel Mace
 				Firestormboots.DisplayName: Firestorm Boots
@@ -18872,6 +18875,10 @@ Mods: {
 				AstralBarrierWand.DisplayName: Astral Barrier Wand
 				Fertilizer.DisplayName: Fertilizer
 				ArcaneDust.DisplayName: Arcane Dust
+				FalconeerCane.DisplayName: Falconeer's Cane
+				SacrificialDagger.DisplayName: Sacrificial Dagger
+				HiveMind.DisplayName: Hive Mind
+				BloodFeasterStaff.DisplayName: Blood Feaster Staff
 			}
 
 			TrackPlayers: {
@@ -19106,11 +19113,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DeadwoodChest_Trapped: {
-				DisplayName: Deadwood Chest_ Trapped
-				Tooltip: ""
-			}
-
 			DeadwoodClock: {
 				DisplayName: Deadwood Clock
 				Tooltip: ""
@@ -19327,6 +19329,83 @@ Mods: {
 					+Brief invincibility
 					'''
 			}
+
+			HemogoblinSharkToothNecklace: {
+				DisplayName: Hemogoblin Shark Tooth Necklace
+				Tooltip: Increases armor penetration by {0}
+			}
+
+			LargeCoralVase: {
+				DisplayName: Large Coral Vase
+				Tooltip: Right click to cycle styles
+			}
+
+			CurtainWall: {
+				DisplayName: Curtain Wall
+				Tooltip: "'Best used with deep paints!'"
+			}
+
+			EvergreenFence: {
+				DisplayName: Evergreen Wood Fence
+				Tooltip: ""
+			}
+
+			ChromaticFury: {
+				DisplayName: Chromatic Fury
+				Tooltip: Unleashes a barrage of chromatic energy
+			}
+
+			Thrombosis: {
+				DisplayName: Thrombosis
+				Tooltip:
+					'''
+					{$CommonItemTooltip.SummonTagDamage}
+					{$CommonItemTooltip.Whips}
+					Strike enemies to summon a friendly bloodling
+					'''
+			}
+
+			BloodCell: {
+				DisplayName: Blood Cell
+				Tooltip: "'A writhing mass of viscera'"
+			}
+
+			IncandescentAlacrity: {
+				DisplayName: Incandescent Alacrity
+				Tooltip:
+					'''
+					'An orb imbued with the swiftness of a fox spirit'
+					Increases movement acceleration & jump height, as well as fall speed when holding DOWN
+					Slowly generate up to {0} spirit flames which allow you to perform a dash towards your cursor
+					Press the '{$Keybinds.AccessoryAbility.DisplayName}' key to perform the dash
+					'''
+			}
+
+			RandomInstrument: {
+				DisplayName: Random Instrument
+				Tooltip: ""
+			}
+
+			ManaInjectionKit: {
+				DisplayName: Mana Injection Kit
+				Tooltip:
+					'''
+					'Not recommended for squeamish sorcerers'
+					Mana potions no longer recover mana and instead cost {0}% of their mana value to use
+					When drinking mana potions, you gain decaying magic damage instead of mana sickness
+					Duration and damage stack with potion uses, and scale with cost of the potion up to {1}%
+					'''
+				ManaPotionTooltip: Costs {0} mana to drink, but grants [c/{1}:{2}%] decaying magic damage
+			}
+
+			FrostPelter: {
+				DisplayName: Frost Pelter
+				Tooltip:
+					'''
+					Uses Snowballs as ammunition
+					Attacks might frostburn the target briefly
+					'''
+			}
 		}
 
 		NPCs: {
@@ -19431,6 +19510,30 @@ Mods: {
 				}
 
 				Census.SpawnCondition: Defeat the {$NPCName.EyeofCthulhu}
+
+				Names: {
+					Albert: Albert
+					Brutus: Brutus
+					Byron: Byron
+					Clay: Clay
+					Dwayne: Dwayne
+					Flint: Flint
+					George: George
+					Gregory: Gregory
+					Hagan: Hagan
+					Hans: Hans
+					Hedrick: Hedrick
+					Kilbas: Kilbas
+					Lester: Lester
+					Mason: Mason
+					McDuff: McDuff
+					Paul: Paul
+					Smith: Smith
+					Tavernkeep: Tavernkeep
+					Vicktor: Vicktor
+					Wayland: Wayland
+					Kendall: Kendall
+				}
 			}
 
 			BlackWidowWall: {
@@ -19629,6 +19732,29 @@ Mods: {
 
 				Census.SpawnCondition: Have any kind of shoe accessory in your inventory ([i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots] etc.)
 				Button2: Shine Shoes
+
+				Names: {
+					Alfred: Alfred
+					Alphonse: Alphonse
+					Barney: Barney
+					Baxter: Baxter
+					Calvin: Calvin
+					Curtis: Curtis
+					Desmond: Desmond
+					Dimitri: Dimitri
+					Fred: Fred
+					Griswald: Griswald
+					Ike: Ike
+					Jonathan: Jonathan
+					Kenneth: Kenneth
+					Larry: Larry
+					Lawrence: Lawrence
+					Louis: Louis
+					Quinn: Quinn
+					Stanley: Stanley
+					Winston: Winston
+					Wyatt: Wyatt
+				}
 			}
 
 			CoinBagCopper: {
@@ -19674,6 +19800,36 @@ Mods: {
 
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.PatchWerk.DisplayName}]
 				Button2: Enemy Repellent ({^0:80 Silver;1 Gold})
+				NoMoney: Looks like you're a bit short on funds. Come back to me when you have a little more coin in your pocket!
+				DayNotOver: I'm afraid you'll have to give me some more time to prepare the next repellent. This stuff can get pretty complicated...
+				Repellent_0: I just whipped up the perfect recipe to deter bats from bothering you; no more tiny nibbles!
+				Repellent_1: If this turned out correctly, you'll smell just like a zombie. Hopefully your nights will be a tad more calm!
+				Repellent_2: Getting this stuff to work underwater was a huge hassle... Either way, hungry fish shouldn't attempt to eat you with this.
+				Repellent_3: I'll be honest, this is just a bottle of pure liquid calcium. Don't question it, the skeletons surely won't.
+				Repellent_4: With this nasty concoction, insects will associate your scent with their queen! Neat, huh?
+
+				Names: {
+					Bile: Bile
+					Bloat: Bloat
+					Carrion: Carrion
+					Deadbeat: Deadbeat
+					Fester: Fester
+					Gasbag: Gasbag
+					Grimm: Grimm
+					Grundy: Grundy
+					Lazarus: Lazarus
+					Leech: Leech
+					Mort: Mort
+					Ollie: Ollie
+					Pustule: Pustule
+					Richter: Richter
+					Rotgut: Rotgut
+					Salem: Salem
+					Stitch: Stitch
+					Vernon: Vernon
+					Victor: Victor
+					Yikes: Yikes
+				}
 			}
 
 			BlueHag: {
@@ -19720,6 +19876,30 @@ Mods: {
 
 				Census.SpawnCondition: Defeat the {$NPCName.KingSlime}
 				Button2: Supply Ingredients
+				IngredientInterested: The cook might be interested in this: {0} / {1}
+
+				Names: {
+					Alain: Alain
+					Alexis: Alexis
+					Alfredo: Alfredo
+					Alton: Alton
+					Antoine: Antoine
+					Auguste: Auguste
+					Emeril: Emeril
+					Eric: Éric
+					Fernand: Fernand
+					Flay: Flay
+					Gordan: Gordan
+					Guillaume: Guillaume
+					Guy: Guy
+					Jacques: Jacques
+					Jamie: Jamie
+					Joel: Joel
+					Linguini: Linguini
+					Philip: Philip
+					Thomas: Thomas
+					Wolfgang: Wolfgang
+				}
 			}
 
 			Coolmera: {
@@ -19907,6 +20087,29 @@ Mods: {
 
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 				Button2: Sandstorm ({^0:80 Silver;1 Gold})
+
+				Names: {
+					Ahmad: Ahmad
+					Ahura: Ahura
+					Aladdin: Aladdin
+					BakiiKum: Ba'kii Kum
+					Banumusa: Banumusa
+					Biruni: Biruni
+					Garshasp: Garshasp
+					Ghazi: Ghazi
+					Jordan: Jordan
+					Kindi: Kindi
+					Khwarizmi: Khwarizmi
+					Kourosh: Kourosh
+					Maaz: Maaz
+					Mazdak: Mazdak
+					Marduk: Marduk
+					Pourya: Pourya
+					Sahir: Sahir
+					Sassan: Sassan
+					Yazata: Yazata
+					Zerzura: Zerzura
+				}
 			}
 
 			DissonanceSeer: {
@@ -19937,6 +20140,29 @@ Mods: {
 
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.QueenJellyfish.DisplayName}]
 				Button2: Air Tank
+
+				Names: {
+					Adin: Adin
+					Alexander: Alexander
+					Austin: Austin
+					Calder: Calder
+					Cameron: Cameron
+					Carlos: Carlos
+					Clyde: Clyde
+					Elijah: Elijah
+					Ethan: Ethan
+					Francis: Francis
+					Jesse: Jesse
+					Maxwell: Maxwell
+					Neil: Neil
+					Nolen: Nolen
+					Percy: Percy
+					Robert: Robert
+					Rodrigues: Rodrigues
+					Sam: Sam
+					Stephen: Stephen
+					Zane: Zane
+				}
 			}
 
 			Druid: {
@@ -19961,6 +20187,29 @@ Mods: {
 				}
 
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}].
+
+				Names: {
+					Alyssa: Alyssa
+					Camellia: Camellia
+					Ceres: Ceres
+					Cheryl: Cheryl
+					Clover: Clover
+					Erica: Erica
+					Fleur: Fleur
+					Folium: Folium
+					Forsythia: Forsythia
+					Hana: Hana
+					Ligna: Ligna
+					Lignum: Lignum
+					Lilac: Lilac
+					Lilly: Lilly
+					Magnolia: Magnolia
+					Primrose: Primrose
+					Rose: Rose
+					Viridis: Viridis
+					Yarrow: Yarrow
+					Zinnia: Zinnia
+				}
 			}
 
 			EarthenBat: {
@@ -20409,6 +20658,29 @@ Mods: {
 
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.BuriedChampion.DisplayName}]
 				Button2: Guardian Angel
+
+				Names: {
+					Algalon: Algalon
+					Balthasar: Balthasar
+					Bodhi: Bodhi
+					Caspar: Caspar
+					Dhruv: Dhruv
+					Dwight: Dwight
+					Dyeus: Dyeus
+					Keter: Keter
+					Malkuth: Malkuth
+					Melchior: Melchior
+					Nix: Nix
+					Ormazd: Ormazd
+					Pax: Pax
+					Psi: Psi
+					Solomon: Solomon
+					Titus: Titus
+					Yang: Yang
+					Yazata: Yazata
+					Yin: Yin
+					Zen: Zen
+				}
 			}
 
 			StrangeBulb: {
@@ -20477,6 +20749,29 @@ Mods: {
 				Census.SpawnCondition: Defeat the {$NPCName.EyeofCthulhu}
 				Button: Spend Medals
 				Button2: Available Contracts
+
+				Names: {
+					Aaron: Aaron
+					Atlas: Atlas
+					Bernard: Bernard
+					Brendan: Brendan
+					Cliffton: Cliffton
+					Conrad: Conrad
+					Cyris: Cyris
+					Dalton: Dalton
+					Daston: Daston
+					Derrick: Derrick
+					Garm: Garm
+					Gustav: Gustav
+					Guts: Guts
+					Hunter: Hunter
+					Kwan: Kwan
+					Linus: Linus
+					Roy: Roy
+					Russell: Russell
+					Schneider: Schneider
+					Tristan: Tristan
+				}
 			}
 
 			UFO: {
@@ -20518,6 +20813,30 @@ Mods: {
 
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
 				Button2: Hire Demon ({^0:8 Gold;10 Gold})
+
+				Names: {
+					Bruzo: Bruzo
+					Cratorburst: Cratorburst
+					Flatoom: Flatoom
+					Fuzgrom: Fuzgrom
+					Glibtok: Glib'tok
+					Gnokaer: Gno'kaer
+					Grethzek: Greth'zek
+					Hathgore: Hathgore
+					Hathlos: Hathlos
+					Helnos: Helnos
+					Hindarax: Hindarax
+					Hrograk: Hro'grak
+					Kadron: Kadron
+					Kontast: Kontast
+					Mezznar: Mezznar
+					Morgolon: Morgolon
+					Morrik: Morrik
+					Seranoth: Sera'noth
+					Targup: Targup
+					Viloth: Viloth
+					NoobMaher: Noob Ma'her
+				}
 			}
 
 			WindElemental: {
@@ -20965,7 +21284,6 @@ Mods: {
 			ClockWorkBombPro1.DisplayName: Clock Work Bomb Pro1
 			ClockWorkBombPro2.DisplayName: Clock Work Bomb Pro2
 			ClockWorkBombPro3.DisplayName: Clockwork Bomb
-			CobaltBolt.DisplayName: Cobalt Bolt
 			ColdFrontPro.DisplayName: Cold Front Pro
 			CombustionFlask.DisplayName: Combustion Flask
 			CometCrossfireBoom.DisplayName: Comet Crossfire Boom
@@ -21146,7 +21464,7 @@ Mods: {
 			FleshJackhammerPro.DisplayName: Flesh Jackhammer Pro
 			FleshMacePro.DisplayName: Flesh Mace
 			FleshSkewerPro.DisplayName: Flesh Skewer Pro
-			FlurryPro.DisplayName: Flurry Pro
+			FlurryPro.DisplayName: Flurry
 			FlyingSafe.DisplayName: Flying Safe
 			ForkPro.DisplayName: Fork Pro
 			FreezePro.DisplayName: Freeze Pro
@@ -21188,7 +21506,6 @@ Mods: {
 			GoldenLocksPro4.DisplayName: Golden Locks
 			GolemsGazePro.DisplayName: Golems Gaze Pro
 			GolemsGazePro2.DisplayName: Golems Gaze Pro2
-			GorgonGaze.DisplayName: Gorgon's Gaze
 			GorgonsEyePro.DisplayName: Gorgons Eye Pro
 			GraniteArrowPro.DisplayName: Granite Arrow Pro
 			GraniteBarrier.DisplayName: Granite Barrier
@@ -21269,6 +21586,7 @@ Mods: {
 			HealingOrbYellow.DisplayName: Healing Orb Yellow
 			HealNoBonus.DisplayName: Heal No Bonus
 			HealNoEffects.DisplayName: Heal No Effects
+			HealNoBonusNoEffects.DisplayName: Heal No Bonus No Effects
 			HeartWandPro.DisplayName: Heart Wand Pro
 			HeartWandPro2.DisplayName: Heart Wand Pro2
 			HeavenlyCloudScepterPro.DisplayName: Heavenly Cloud Scepter Pro
@@ -21382,6 +21700,7 @@ Mods: {
 			SunrayStaffPro2.DisplayName: Sunray Staff Pro2
 			SyringePro.DisplayName: Syringe Pro
 			TemplarJudgmentPro2.DisplayName: Templar Judgment Pro2
+			TemplarJudgmentPro.DisplayName: Templar Judgment Pro
 			TemplarsGracePro.DisplayName: Templars Grace Pro
 			TheDigesterPro.DisplayName: The Digester Pro
 			TheEffuserPro.DisplayName: The Effuser Pro
@@ -21440,8 +21759,6 @@ Mods: {
 			IllumiteSpearImage.DisplayName: Illumite Spear Image
 			IllumiteSpearPro.DisplayName: Illumite Spear Pro
 			IllustriousPro.DisplayName: Illustrious Pro
-			IncandescentBoom.DisplayName: Incandescent Boom
-			IncandescentSparkSurge.DisplayName: Incandescent Spark Surge
 			InfernoStaffPro.DisplayName: Inferno Staff Pro
 			InfernoStaffPro2.DisplayName: Inferno Staff Pro2
 			InfernoStaffPro3.DisplayName: Inferno Staff Pro3
@@ -21538,7 +21855,6 @@ Mods: {
 			BleedingHeartStaffPro.DisplayName: Bleeding Heart
 			BleedingHeartStaffPro2.DisplayName: Bleeding Heart Staff Pro2
 			BlobhornCoralStaffPro.DisplayName: Blobfish
-			BloodFeasterStaffPro.DisplayName: Blood Feaster
 			BloodyPaganStaffPro.DisplayName: Malicious Face
 			BloodyPaganStaffPro2.DisplayName: Malicious Bolt
 			BloodyPaganStaffPro3.DisplayName: Malicious Face
@@ -21562,7 +21878,6 @@ Mods: {
 			EnigmaBeam.DisplayName: Enigma Beam
 			EyeofOdinPro.DisplayName: Eye of Odin
 			EyeofOdinPro2.DisplayName: Eyeof Odin Pro2
-			FalconeerCanePro.DisplayName: Falcon Familiar
 			FieryTotemHostilePro.DisplayName: Fiery Totem
 			FieryTotemPlaced.DisplayName: Fiery Totem
 			FieryTotemPro.DisplayName: Fiery Totem
@@ -21618,7 +21933,6 @@ Mods: {
 			RudeWandPro5.DisplayName: Rude Wand Pro5
 			Sacrifice.DisplayName: Sacrifice
 			SacrificePro.DisplayName: Sacrifice
-			SacrificialDaggerPro.DisplayName: Sacrificial Dagger
 			SeahorseWandPro.DisplayName: Seahorse
 			SeahorseWandPro2.DisplayName: Bubble
 			ShadowOrb.DisplayName: Shadow Orb
@@ -21671,7 +21985,6 @@ Mods: {
 			MushroomHookProjectile.DisplayName: Mushroom Hook Projectile
 			MyceliumSporePro.DisplayName: Spore
 			MyceliumWhipPro.DisplayName: Mycelium Whip
-			MythrilBolt.DisplayName: Mythril Bolt
 			NeptuneHook.DisplayName: Neptune Hook
 			NightStaffPro.DisplayName: Night Staff Pro
 			NightStaffPro2.DisplayName: Night Staff Pro2
@@ -21686,7 +21999,6 @@ Mods: {
 			NorthernLightPro0.DisplayName: Northern Light Pro0
 			NorthernLightPro1.DisplayName: Northern Light Pro1
 			NovaRiflePro.DisplayName: Nova Rifle Pro
-			NuclearFuryPro.DisplayName: Nuclear Fury Pro
 			ObliteratorPro.DisplayName: Obliterator Pro
 			ObsidianStaffPro.DisplayName: Obsidian Staff Pro
 			ObsidianStaffPro2.DisplayName: Obsidian Staff Pro2
@@ -21711,8 +22023,6 @@ Mods: {
 			OpalHookPro.DisplayName: Opal Hook Pro
 			OpalStaffPro.DisplayName: Opal Staff Pro
 			OrichalcumStaffPro.DisplayName: Orichalcum Staff
-			PalladiumBolt.DisplayName: Palladium Bolt
-			PalladiumBoltShatter.DisplayName: Palladium Bolt Shatter
 			ParticleWhipPro.DisplayName: Particle Whip
 			PearlPikePro.DisplayName: Pearl Pike Pro
 			PenguinWandPro.DisplayName: Penguin Wand Pro
@@ -22265,15 +22575,31 @@ Mods: {
 			MaestroSetPro3.DisplayName: Maestro Ghosts
 			MaestroSetPro4.DisplayName: Maestro Ghosts
 			MaestroSetPro.DisplayName: Maestro Ghosts
-			PalladiumCowbellPro.DisplayName: Palladium Cowbell Pro
-			CobaltGongPro.DisplayName: Cobalt Gong Pro
-			BagpipePro.DisplayName: Bagpipe Pro
+			PalladiumCowbellPro.DisplayName: Palladium Cowbell
+			CobaltGongPro.DisplayName: Cobalt Gong
+			BagpipePro.DisplayName: Bagpipe
 			SnarkyGunPro.DisplayName: Snarky Gun
 			AdamantiteKlaxonPro.DisplayName: Adamantite Klaxon
 			AdamantiteKlaxonPro2.DisplayName: Adamantite Klaxon
 			TitaniumCimbassoPro.DisplayName: Titanium Cimbasso
 			ValadiumThereminPro.DisplayName: Valadium Theremin
-			CelloPro.DisplayName: Cello Pro
+			CelloPro.DisplayName: Cello
+			ChampionsTrifectaShotPro.DisplayName: Champions Trifecta Shot
+			ChampionsTrifectaShotPro2.DisplayName: Champions Trifecta Shot
+			ChampionsTrifectaShotPro3.DisplayName: Champions Trifecta Shot
+			ChampionsTrifectaShotPro4.DisplayName: Champions Trifecta Shot
+			MediumRareSteakPro.DisplayName: Medium Rare Steak
+			BannerMoraleHeartPro.DisplayName: Morale Banner Heart
+			ChromaticFuryPro.DisplayName: Chromatic Fury
+			ThrombosisPro.DisplayName: Thrombosis
+			ThrombosisPro2.DisplayName: Thrombosis
+			FrostPelterPro.DisplayName: Frost Pelter
+			GorgonGazeStaffPro.DisplayName: Gorgon Gaze Staff
+			GorgonGazeStaffPro2.DisplayName: Gorgon Gaze Staff
+			PalladiumStaffPro.DisplayName: Palladium Staff Pro
+			PalladiumStaffPro2.DisplayName: Palladium Staff Pro2
+			MythrilStaffPro.DisplayName: Mythril Staff Pro
+			CobaltStaffPro.DisplayName: Cobalt Staff Pro
 		}
 
 		Tiles: {
@@ -22441,7 +22767,6 @@ Mods: {
 				TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
 				DevItem: "'Great for impersonating Thorium Devs!'"
 				ShoulderGuardianLimit: Only one shoulder guardian may be summoned at once
-				BannerPlacement: Places a single banner on the ground
 				BigInstrument:
 					'''
 					Mistiming hits will decrease these bonuses greatly and cost 5 inspiration
@@ -22468,6 +22793,7 @@ Mods: {
 			TreasureBag: Treasure Bag ({0})
 			ThePrimordials: The Primordials
 			MusicBox: Music Box ({0})
+			TrappedChest: Trapped {0}
 		}
 
 		DeathText: {
@@ -22912,6 +23238,133 @@ Mods: {
 						'''
 				}
 			}
+		}
+
+		BuilderToggles: {
+			BirdFeederSeedToggle: {
+				Name: "{$ItemName.Seed} collection for {$Items.BirdFeederGrounded.DisplayName}"
+				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name} on"
+				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name} off"
+			}
+		}
+
+		MusicDisplaySupport: {
+			ModName: Thorium Mod
+
+			AHeroNoMore: {
+				Title: A Hero No More
+				Author: SkippyZii
+			}
+
+			ASightToBehold: {
+				Title: A Sight To Behold
+				Author: Kaosu
+			}
+
+			Aqua: {
+				Title: Aqua
+				Author: Shiki Sakura, AdipemDragon
+			}
+
+			BatBallad: {
+				Title: Bat Ballad
+				Author: Salvati
+			}
+
+			BeneathTheDepths: {
+				Title: Beneath the Depths
+				Author: SkippyZii
+			}
+
+			EyeOfTheStorm: {
+				Title: Eye of the Storm
+				Author: SkippyZii
+			}
+
+			GrandThunderBird: {
+				Title: Grand Thunder Bird
+				Author: Smxfoxtrot
+			}
+
+			HarvestNight: {
+				Title: Harvest Night
+				Author: SkippyZii
+			}
+
+			InOverYourHead: {
+				Title: In Over Your Head
+				Author: SkippyZii
+			}
+
+			InterplanetaryHarbinger: {
+				Title: Interplanetary Harbinger
+				Author: SkippyZii
+			}
+
+			LostInTheBlizzard: {
+				Title: Lost in the Blizzard
+				Author: Smxfoxtrot
+			}
+
+			RealitysEnd: {
+				Title: Reality's End
+				Author: Smxfoxtrot
+			}
+
+			StrongerFoe: {
+				Title: Stronger Foe
+				Author: SkippyZii
+			}
+
+			WorldsEnd: {
+				Title: World's End
+				Author: Smxfoxtrot
+			}
+		}
+
+		NewBeginningsSupport: {
+			GraveRobber: {
+				DisplayName: Grave Robber
+				Flavor: To those with a keen eye, gold gleams like a dagger's point.
+				Description: Starts with a gravedigger set, a gravedigger's shovel, a glittering chalice, and a (stolen) ring with lower max life at a marked grave.
+			}
+
+			Medic: {
+				DisplayName: Medic
+				Flavor: A welcome sight for the wounded, they work to ensure their allies make it out of any fight alive.
+				Description: Starts with a partial set of novice cleric's armor, a medical bag, a bonesaw, and 300 syringes.
+			}
+
+			Minstrel: {
+				DisplayName: Minstrel
+				Flavor: A wandering vagabond, weaving magic through music to inspire allies and bring down foes.
+				Description: Starts with a full set of crier's armor, two random instruments, and additional starting inspiration in exchange for lower max life.
+			}
+
+			Occultist: {
+				DisplayName: Occultist
+				Flavor: A dissident scholar in communion with dark forces.
+				Description: Starts with a palm cross and leech bolt tome, and a hexing talisman, mysterious cape, and scowl, with additional mana but lower max life. Permanently empowers certain radiant attacks with dark energy.
+			}
+
+			Ronin: {
+				DisplayName: Ronin
+				Flavor: "'Today one must be better than yesterday, and tomorrow better than today. The pursuit of perfection is a lifelong quest that has no end.'"
+				Description: Starts with a wandering set, a katana, and a leather sheath. Sheath strikes charge twice as fast while standing still, but all non-sheath strike attacks deal no damage.
+			}
+		}
+
+		SpiritReforgedSupport: {
+			BatPot: {
+				DisplayName: Bat Pot
+				Description: A unique pot from the Blood Chamber with a variety of useful goodies.
+			}
+		}
+
+		CombatText: {
+			HealStreak: "{0} life heal streak"
+			CloseCall: Close call
+			Freebie: Freebie!
 		}
 	}
 }

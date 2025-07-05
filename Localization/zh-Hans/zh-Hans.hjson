@@ -31,20 +31,19 @@ Mods: {
 		Bestiary.InfoElements.ExpertModeInfoElement: 仅限专家模式
 
 		GravestoneText: {
-			# Bit ugly but you need to keep updating these numbers to be consecutive (no gaps), and also update the total count in code (GraveyardPass.GravestoneTextCount)
-			# The code bit hopefully won't be necessary with 1.4.4
-			0: 爱.
-			1: 曾经爱过.
-			2: 在爱的记忆里.
-			3: 一旦遇见，就永远不会忘记.
-			4: 永远在我们心中.
-			5: 安息.
-			6: 长寿.
-			7: 长眠至永恒.
-			8: 终于团聚了.
-			9: 他结局很好.
-			10: 她结局很好.
-			11: 我会再次遇见到你.
+			# Add new keys here, they will automatically work without any extra code
+			Beloved: 爱.
+			EverLoved: 曾经爱过.
+			InLovingMemory: 在爱的记忆里.
+			OnceMet: 一旦遇见，就永远不会忘记.
+			ForeverHearts: 永远在我们心中.
+			RIP: 安息.
+			LongLife: 长寿.
+			Sleep: 长眠至永恒.
+			Reunited: 终于团聚了.
+			HeEnded: 他结局很好.
+			SheEnded: 她结局很好.
+			WillSee: 我会再次遇见到你.
 		}
 
 		GameTips: {
@@ -129,9 +128,9 @@ Mods: {
 				Description: 绝对防御, 无物可伤！
 			}
 
-			AbyssalWeight: {
-				DisplayName: 深渊重压
-				Description: 伤害、防御和移动速度大幅度降低
+			AbyssalShellDebuff: {
+				DisplayName: 深渊重压（占位符，新更新）
+				Description: 深渊重压处于冷却状态
 			}
 
 			AirStrikeShieldBuff: {
@@ -686,7 +685,8 @@ Mods: {
 
 			SoulEssence: {
 				DisplayName: 灵魂精华
-				Description: Mods.ThoriumMod.Buffs.SoulEssence.Description
+				Description: 根据灵魂精华的层数恢复生命值和法力值
+				Stacks: 每获得5点灵魂精华，恢复 {0} 生命和 {1} 魔力
 			}
 
 			SpiritualistBuff: {
@@ -742,11 +742,6 @@ Mods: {
 			IlluminatedNPC: {
 				DisplayName: 荧光
 				Description: 此敌人会受到10%额外伤害
-			}
-
-			IncandescentSparkDebuff: {
-				DisplayName: 炽热灼烧
-				Description: 正在损失生命值
 			}
 
 			Insanity: {
@@ -1353,56 +1348,6 @@ Mods: {
 				Description: 向敌人释放你的武器
 			}
 
-			BannerBounty: {
-				DisplayName: 赏金令旗
-				Description: 附近的召唤物在攻击敌人时会掉落钱币
-			}
-
-			BannerConfusion: {
-				DisplayName: 虫群之心
-				Description: 附近的召唤物在攻击敌人时有几率使其困惑
-			}
-
-			BannerDamage: {
-				DisplayName: 战争令旗
-				Description: 召唤物攻击会额外造成5点伤害
-			}
-
-			BannerDefense: {
-				DisplayName: 好战令旗
-				Description: 每有1格最大召唤栏位都会增加3%伤害减免
-			}
-
-			BannerFalcon: {
-				DisplayName: 战隼
-				Description: 附近的召唤物有几率造成额外伤害
-			}
-
-			BannerGhost: {
-				DisplayName: 祭祀雕像
-				Description: 附近的敌人死亡时会召唤友善的鬼魂
-			}
-
-			BannerLifeRegen: {
-				DisplayName: 振奋令旗
-				Description: 召唤物攻击敌人时有几率治疗你
-			}
-
-			BannerPious: {
-				DisplayName: 虔诚令旗
-				Description: 附近的仆从...
-			}
-
-			BannerPower: {
-				DisplayName: 力量令旗
-				Description: 你的一个哨兵被强化了
-			}
-
-			BannerPrecision: {
-				DisplayName: 精准令旗
-				Description: 附近的仆从有5%概率暴击
-			}
-
 			BeholderStaffBuff: {
 				DisplayName: 凝视
 				Description: 注视者会凝视并消灭你的敌人
@@ -1411,11 +1356,6 @@ Mods: {
 			BlobhornCoralStaffBuff: {
 				DisplayName: 水滴鱼
 				Description: 可爱还是丑陋? 由你来决定...
-			}
-
-			BloodFeasterStaffBuff: {
-				DisplayName: 血腥僵尸
-				Description: 只要它饱了, 你就没事了...
 			}
 
 			BloodPact: {
@@ -1692,6 +1632,47 @@ Mods: {
 				DisplayName: Twilight Boost
 				Description: An ally is augmenting your on-hit effects
 			}
+
+			BannerDamage: {
+				DisplayName: Battle Banner
+				Description: Taking {0}% more minion and sentry damage
+			}
+
+			BannerBounty: {
+				DisplayName: Bounty Banner
+				Description: Generates coins when hit by summon damage
+			}
+
+			Slowed: {
+				DisplayName: Slowed
+				Description: Movement is slowed!
+			}
+
+			BannerPrecision: {
+				DisplayName: Precision Banner
+				Description: Chance to be critically struck by minion and sentry damage
+			}
+
+			BannerPower: {
+				DisplayName: Banner Power
+				Description: Taking {0}% more whip damage
+			}
+
+			ThrombosisBuff: {
+				DisplayName: Bloodling
+				Description: The bloodling will assist you
+			}
+
+			ThrombosisDebuff: {
+				DisplayName: Thrombosis
+				Description: "{$CommonItemTooltip.SummonTagDamage}"
+			}
+
+			ManaInjectionKitBuff: {
+				DisplayName: Mana Injection
+				Description: Magic damage increased
+				Damage: Magic damage increased by {0}%
+			}
 		}
 
 		Conditions: {
@@ -1709,6 +1690,7 @@ Mods: {
 			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName}击败后"
 			DownedIllusionist: "{$NPCs.Illusionist.DisplayName}击败后"
 			DownedOgre: boss击败后
+			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!
 			HasInspiration: 当玩家拥有{0}及以上的灵感值
 			CompletedCookRecipe: 当玩家提供了足够的原料给{$NPCs.Cook.DisplayName}
 			NotInBeachSnowDesert: 玩家不在海洋、雪或沙漠生物群落中
@@ -1719,6 +1701,8 @@ Mods: {
 			NotInMasterMode: 不在大师模式下
 			WorldHasBloodAltar: 这个世界有鲜血祭坛
 			WorldHasNoBloodAltarOrDownedViscount: 这个世界没有鲜血祭坛或{$Conditions.DownedViscount}
+			WorldIsCrimsonOrHardmode: World is Crimson or in Hardmode
+			WorldIsCorruptionOrHardmode: World is Corruption or in Hardmode
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1857,10 +1841,13 @@ Mods: {
 				DisplayName: 深渊贝壳
 				Tooltip:
 					'''
+					Pressing the 'Encase' key will briefly place you in an impenetrable shell
+					While encased, you are immune to all damage but cannot hurt enemies for the duration
+					While encased, you can't move, use items, or drink healing potions（占位符）
 					按下“包裹”键会将你置于坚固的壳中
 					被包裹时无法使用物品或治疗药水，生命再生大幅减少且几乎不能造成伤害
 					离开壳会短暂大幅降低你的速度，伤害减免和伤害
-					离开壳后的20秒内无法再次使用壳
+					离开壳后的 {0} 秒内无法再次使用壳
 					[c/70DB93:获取方式：击败遗忘之主(宝藏袋)获得]
 					'''
 			}
@@ -2053,15 +2040,6 @@ Mods: {
 					'''
 					射出一群花瓣
 					伤害敌怪会获得短暂的生命恢复
-					'''
-			}
-
-			FalconeerCane: {
-				DisplayName: 猎鹰手杖
-				Tooltip:
-					'''
-					命令一只猎鹰飞向你的光标
-					在附近时，你的仆从有概率造成额外伤害
 					'''
 			}
 
@@ -2327,9 +2305,8 @@ Mods: {
 				Tooltip:
 					'''
 					允许你富有节奏地演奏巨大的阿尔卑斯长号
-					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和穿透
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					成功在计时区域击中会不断增加它的伤害和咒音增幅等级
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -2354,9 +2331,8 @@ Mods: {
 				Tooltip:
 					'''
 					允许你富有节奏地演奏巨大的风笛
-					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕数量（等待wiki）
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					成功在计时区域击中会不断增加它的伤害和咒音增幅等级
+					{$Common.Tooltips.BigInstrument}
 					[c/70DB93:获取方式：困难模式血月事件一些敌怪掉落]
 					'''
 			}
@@ -3162,9 +3138,8 @@ Mods: {
 				Tooltip:
 					'''
 					允许你富有节奏地演奏巨大的管风琴
-					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕数量
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					成功在计时区域击中会不断增加它的伤害和咒音增幅等级
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -3261,9 +3236,8 @@ Mods: {
 				Tooltip:
 					'''
 					允许你富有节奏地演奏巨大的魔法竖琴
-					成功在计时区域击中会不断增加它的伤害，咒音增幅等级，反弹次数和弹幕数量
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和反弹次数
+					{$Common.Tooltips.BigInstrument}
 					[c/70DB93:获取方式：巫师出售]
 					'''
 			}
@@ -3484,6 +3458,7 @@ Mods: {
 			TerrariumAutoharp: {
 				DisplayName: 元素自动竖琴
 				Tooltip: 释放一阵彩色音波
+				Variety: 多种音波脉冲
 			}
 
 			TerrariumSurroundSound: {
@@ -4985,11 +4960,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AquaticDepthsBiomeChest_Trapped: {
-				DisplayName: 机关渊海箱
-				Tooltip: ""
-			}
-
 			AquaticDepthsBiomeKey: {
 				DisplayName: 渊海钥匙
 				Tooltip: 解锁地牢中的{$Items.AquaticDepthsBiomeChest.DisplayName}
@@ -5050,11 +5020,6 @@ Mods: {
 
 			DepthChest: {
 				DisplayName: 深海箱
-				Tooltip: ""
-			}
-
-			DepthChest_Trapped: {
-				DisplayName: 机关深海箱
 				Tooltip: ""
 			}
 
@@ -5329,6 +5294,9 @@ Mods: {
 				Tooltip: ""
 			}
 
+			AceBreastplate.DisplayName: Ace Breastplate
+			AceGreaves.DisplayName: Ace Greaves
+			AceHelmet.DisplayName: Ace Helmet
 			BlockyMask.DisplayName: 方块面具
 			BlockyPants.DisplayName: 方块裤子
 			BlockyShirt.DisplayName: 方块衣服
@@ -5337,14 +5305,10 @@ Mods: {
 			BrutalMask.DisplayName: 残忍面具
 			CataclysmicsGarb.DisplayName: 大灾变衣
 			CataclysmicsHollowMask.DisplayName: 空洞面具
-			ChunkyGreaves.DisplayName: 厚重护胫
-			ChunkyHelmet.DisplayName: 厚重头盔
-			ChunkyMail.DisplayName: 厚重盔甲
 			DannyLamentLeggings.DisplayName: 丹尼之叹护胫
 			DannyLamentMask.DisplayName: 丹尼之叹面具
 			DannyLamentSuit.DisplayName: 丹尼之叹上衣
-			DeluxeHalcandranBow.DisplayName: 豪华哈坎德兰蝴蝶结
-			DeluxeHalcandranHat.DisplayName: 豪华哈坎德兰帽
+			HalcandranDeluxeApparel.DisplayName: Halcandran Deluxe Apparel
 			GhastlyGarment.DisplayName: 恐怖皮衣
 			GhastlyHood.DisplayName: 恐怖兜帽
 			GhastlyLeggings.DisplayName: 恐怖护胫
@@ -5358,6 +5322,9 @@ Mods: {
 			MrUniversePants.DisplayName: 宇宙先生的裤子
 			MrUniverseSuit.DisplayName: 宇宙先生的服饰
 			PhonicWings.DisplayName: 无声羽翼
+			ProspectorHeadgear.DisplayName: Prospector's Headgear
+			ProspectorShorts.DisplayName: Prospector's Shorts
+			ProspectorVest.DisplayName: Prospector's Vest
 			ShinobiGi.DisplayName: 忍者束腰宽松服
 			ShinobiMask.DisplayName: 忍者面具
 			ShinobiTreads.DisplayName: 忍者靴
@@ -5490,6 +5457,7 @@ Mods: {
 					在其中放入种子或水果以最终吸引鸟的注意
 					鸟会基于你放入的物品留下水果或药水
 					将其放置或在物品栏中可以收集种子
+					Seed collection can be toggled in the top left of the inventory once placed
 					仅能放置在地表
 					'''
 				ConvertTooltip: 右键循环样式或重新制作转化为{0}
@@ -5559,7 +5527,7 @@ Mods: {
 				DisplayName: 饮血者
 				Tooltip:
 					'''
-					近战攻击会储存至多10道鲜血精华
+					近战攻击会储存至多 {0} 道鲜血精华
 					右键使用精华发射一道伤害性血流，治疗你和你的队友
 					'''
 			}
@@ -5751,8 +5719,8 @@ Mods: {
 				DisplayName: 震荡弹头
 				Tooltip:
 					'''
-					增加100%火箭伤害且远程伤害会短暂晕眩敌怪
-					降低50%开火速度
+					增加 {0}% 火箭伤害且远程伤害会短暂晕眩敌怪
+					降低 {1}% 开火速度
 					'''
 			}
 
@@ -6175,7 +6143,7 @@ Mods: {
 
 			GrimFlayer: {
 				DisplayName: 冷酷劫掠者
-				Tooltip: 攻击有概率偷取生命
+				Tooltip: 攻击会恢复 2 点生命值
 			}
 
 			GuardiansBoots: {
@@ -6357,16 +6325,6 @@ Mods: {
 					'''
 					释放一道大型的扩张音波弹幕
 					击中的敌怪会被魅惑，降低它们的速度和接触伤害
-					'''
-			}
-
-			IncandescentSpark: {
-				DisplayName: 炽热火花
-				Tooltip:
-					'''
-					允许你双击冲向敌人，击中时释放能量爆炸
-					按down大幅增加下落速度并在落地时释放能量
-					增加跳跃高度
 					'''
 			}
 
@@ -6559,13 +6517,12 @@ Mods: {
 			}
 
 			MediumRareSteak: {
-				DisplayName: 三分熟牛排
+				DisplayName: 三分熟牛排（占位符，更新）
 				Tooltip:
 					'''
 					'非常适合龙的成长饮食……我想？'
 					召唤一只可骑乘的小龙
-					骑乘时，小龙会向附近的敌怪喷吐火球
-					火球造成的伤害类型与你手持的武器类型相同
+					While mounted, the dragon will breathe fire on enemies in front of it
 					'''
 			}
 
@@ -6690,11 +6647,6 @@ Mods: {
 					自动将你设为更弱的潜行模式
 					右键适度缩放视野
 					'''
-			}
-
-			NuclearFury: {
-				DisplayName: 原核之怒
-				Tooltip: 释放追踪的宇宙能量球
 			}
 
 			ObsidianStaff: {
@@ -6826,7 +6778,7 @@ Mods: {
 
 			PlasmaStaff: {
 				DisplayName: 等离子法杖
-				Tooltip: 前后移动产生摩擦，增强你的攻击
+				Tooltip: 按住左键和右键或上键产生摩擦，增强你的攻击
 			}
 
 			PLG: {
@@ -6983,7 +6935,7 @@ Mods: {
 				DisplayName: 来复矛
 				Tooltip:
 					'''
-					左键向前刺，获得最多10个鲜血精华
+					左键向前刺，获得最多 {0} 个鲜血精华
 					右键使用精华斩切并释放一阵血流
 					'''
 			}
@@ -7204,12 +7156,12 @@ Mods: {
 			}
 
 			SoulReaver: {
-				DisplayName: 夺魂枪
+				DisplayName: 夺魂枪（占位符，更新）
 				Tooltip:
 					'''
 					“他告诉你……”
 					左键投掷夺魂枪的突刺回音，可以粘在敌怪身上
-					右键将夺魂枪向前刺，偷取敌怪等同于其身上回音数量的生命值
+					Right click to stab the soul reaver forward, stealing {0} life for each echo in the enemy
 					'''
 			}
 
@@ -7688,11 +7640,6 @@ Mods: {
 			DragonTalon: {
 				DisplayName: 绿龙爪
 				Tooltip: 攻击时会用绿色火焰点燃受击敌怪
-			}
-
-			DragonTalonNecklace: {
-				DisplayName: 龙爪项链
-				Tooltip: 增加15点盔甲穿透
 			}
 
 			DragonTooth: {
@@ -8196,6 +8143,7 @@ Mods: {
 					你的远程伤害有 {0}% 概率完全湮灭击中的目标
 					此效果只能在Boss生命值低于 {1}%时生效
 					'''
+				Eradicated: ERADICATED
 			}
 
 			OmniBow: {
@@ -8333,15 +8281,13 @@ Mods: {
 			}
 
 			TheSet: {
-				DisplayName: 大鼓套组
+				DisplayName: 大鼓套组（占位符，更新）
 				Tooltip:
 					'''
 					'任何东西中都能感受到节奏……'
 					允许你有节奏地敲击一套鼓组
-					每次击中会增加鼓组4%伤害，至多120%
-					超过80%伤害加成时每次击中会释放额外的音波
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -9588,12 +9534,12 @@ Mods: {
 			}
 
 			IridescentHelmet: {
-				DisplayName: 光耀头盔
+				DisplayName: 光耀头盔（占位符，更新）
 				Tooltip: 增加16%光辉伤害
 				SetBonus:
 					'''
-					你的光辉伤害有 {0}% 概率释放一道致盲闪光
-					闪光会以你的治疗加成治疗所有附近队友并困惑敌怪
+					Your luck is slightly increased
+					Radiant damage has a {0}% chance to flash, healing nearby allies for {1} life and confusing enemies
 					'''
 			}
 
@@ -9631,8 +9577,8 @@ Mods: {
 			}
 
 			LeechBolt: {
-				DisplayName: 汲血牙
-				Tooltip: 发射偷取生命的血牙
+				DisplayName: 汲血牙（占位符，更新）
+				Tooltip: Sends out a blood bolt that steals life from the first enemy hit
 			}
 
 			LethalInjection: {
@@ -9889,8 +9835,13 @@ Mods: {
 			}
 
 			NecroticStaff: {
-				DisplayName: 死灵法杖
-				Tooltip: 释放一道追踪玩家的死灵涌动
+				DisplayName: Necrotic Staff（占位符，更新）
+				Tooltip:
+					'''
+					Heals ally life by 7.5% of their maximum life
+					Releases a player-homing necrotic surge
+					'''
+				LifeCost: Uses {0}% of your maximum life
 			}
 
 			NirvanaStatuette: {
@@ -10132,7 +10083,7 @@ Mods: {
 				Tooltip:
 					'''
 					挥舞一把被祝福的链锤，首次击中时会释放停留的治疗能量
-					最多可同时存在10道治疗能量
+					最多可同时存在8道治疗能量
 					'''
 			}
 
@@ -10227,7 +10178,7 @@ Mods: {
 				DisplayName: 暗影杖
 				Tooltip:
 					'''
-					将那些人的心灵融向光标
+					Rapidly spews forth erratic shadow energy based on how hurt you are（占位符）
 					消耗生命值的一半会给予到生命值最低的队友
 					'''
 			}
@@ -10449,12 +10400,13 @@ Mods: {
 			}
 
 			TwilightStaff: {
-				DisplayName: 黄昏法杖
+				DisplayName: 黄昏法杖(占位符，更新)
 				Tooltip:
 					'''
 					左键消耗魔力释放治疗能量球
 					右键消耗生命释放暗影能量球
 					'''
+				UsesManaAndLife: Uses {0} mana & {1} life
 			}
 
 			Twinkle: {
@@ -10604,8 +10556,8 @@ Mods: {
 			}
 
 			ChampionsTrifectaShot: {
-				DisplayName: 英灵的三元圣弓
-				Tooltip: 你的箭会在不同元素间波动
+				DisplayName: 英灵的三元圣弓（占位符，更新）
+				Tooltip: Turns wooden arrows into fluctuating elemental arrows
 			}
 
 			ChampionSwiftBlade: {
@@ -10624,11 +10576,11 @@ Mods: {
 			}
 
 			Flurry: {
-				DisplayName: 暴风雪
+				DisplayName: 暴风雪（占位符，更新）
 				Tooltip:
 					'''
 					'Unleash a flurry of ice!'
-					攻击可能会短暂霜冻目标
+					Attacks frostburn the hit target briefly
 					'''
 			}
 
@@ -11031,8 +10983,8 @@ Mods: {
 			}
 
 			AdamantiteStaff: {
-				DisplayName: 精金法杖
-				Tooltip: 发射一个魔法球，会在光标处炸成多道弹幕
+				DisplayName: 精金法杖（占位符，更新）
+				Tooltip: Casts an orb of magic, which pops into multiple bolts at your cursor
 			}
 
 			BlackholeCannon: {
@@ -11046,8 +10998,8 @@ Mods: {
 			}
 
 			CobaltStaff: {
-				DisplayName: 钴蓝法杖
-				Tooltip: 射出两道弹性，反光的能量矢
+				DisplayName: 钴蓝法杖(占位符，更新)
+				Tooltip: Casts a duo of bouncing energy bolts
 			}
 
 			CryomancersCrown: {
@@ -11140,18 +11092,18 @@ Mods: {
 			}
 
 			MythrilStaff: {
-				DisplayName: 秘银法杖
-				Tooltip: 射出三道试图追踪敌怪的弹幕
+				DisplayName: 秘银法杖（占位符更新,下面三个）
+				Tooltip: Casts a barrage of homing bolts
 			}
 
 			OrichalcumStaff: {
 				DisplayName: 山铜法杖
-				Tooltip: 快速释放一波强力花瓣
+				Tooltip: Casts a burst of powerful petals
 			}
 
 			PalladiumStaff: {
 				DisplayName: 钯金法杖
-				Tooltip: 射出分裂成多个碎片的能量
+				Tooltip: Casts a shattering energy bolt
 			}
 
 			SpectralBlade: {
@@ -11197,8 +11149,8 @@ Mods: {
 			}
 
 			TitaniumStaff: {
-				DisplayName: 钛金法杖
-				Tooltip: 向你的光标位置释放爆裂能量脉冲
+				DisplayName: 钛金法杖（占位符，更新）
+				Tooltip: Casts a pulse of popping energy towards your cursor
 			}
 
 			VesselBuster: {
@@ -11714,11 +11666,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DesertBiomeChest_Trapped: {
-				DisplayName: 机关沙漠箱
-				Tooltip: ""
-			}
-
 			DesertBiomeKey: {
 				DisplayName: 沙漠钥匙
 				Tooltip: 解锁地牢中的{$Items.DesertBiomeChest.DisplayName}
@@ -11857,7 +11804,9 @@ Mods: {
 
 			LilGuppy: {
 				DisplayName: 小虹鳉
-				Tooltip: ""
+				Tooltip: "'在海洋生物群系捕捉'"
+				QuestDescription: 在海上呆这么长时间是相当孤独的。不过我交了个朋友，它是一条小鱼，我叫它小虹鳉！不过他总是设法从鱼缸里逃出去！我想他，我想要他，快去找我的朋友！
+				QuestCatchLocation: 在海洋生物群系捕捉
 			}
 
 			LootRang: {
@@ -12109,11 +12058,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			UnderworldBiomeChest_Trapped: {
-				DisplayName: 机关地狱箱
-				Tooltip: ""
-			}
-
 			UnderworldBiomeKey: {
 				DisplayName: 地狱钥匙
 				Tooltip: 解锁地牢中的{$Items.UnderworldBiomeChest.DisplayName}
@@ -12262,8 +12206,8 @@ Mods: {
 			}
 
 			CrawdadClaw: {
-				DisplayName: 龙虾爪
-				Tooltip: 战斗中你的伤害会随时间增加1点，至多3点
+				DisplayName: 龙虾爪（占位符更新）
+				Tooltip: While in combat, your armor penetration increases by 1 over time up to 2
 			}
 
 			DeathGazersGlass: {
@@ -12404,7 +12348,7 @@ Mods: {
 
 			GiantShellSpine: {
 				DisplayName: 巨型卷壳怪脊椎
-				Tooltip: 战斗中你的防御会随时间增加1点，至多5点
+				Tooltip: 战斗中你的防御会随时间增加1点，至多4点
 			}
 
 			GraveBuster: {
@@ -12509,7 +12453,7 @@ Mods: {
 				Tooltip:
 					'''
 					'让我们变得危险……'
-					战斗中你的伤害，防御和生命再生会随时间增加
+					战斗中你的盔甲穿透，防御和生命再生会随时间增加
 					'''
 			}
 
@@ -12571,18 +12515,9 @@ Mods: {
 				Tooltip: 短暂毒伤击中的目标
 			}
 
-			SacrificialDagger: {
-				DisplayName: 祭灵短匕
-				Tooltip:
-					'''
-					在你的光标处召唤一个祭祀雕像
-					在附近时，被击杀的敌怪会召唤一个短时存在的灵魂攻击其它敌怪
-					'''
-			}
-
 			SalamanderEye: {
-				DisplayName: 火蜥蜴之眼
-				Tooltip: 战斗中你的生命恢复会随时间增加1点，至多2点
+				DisplayName: 火蜥蜴之眼（占位符，更新）
+				Tooltip: While in combat for 5 seconds, your life recovery increases by 1
 			}
 
 			Scalper: {
@@ -13049,11 +12984,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			BloodstainedChest_Trapped: {
-				DisplayName: 机关污血箱
-				Tooltip: ""
-			}
-
 			BloodstainedClock: {
 				DisplayName: 污血钟
 				Tooltip: ""
@@ -13189,11 +13119,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			CelestialChest_Trapped: {
-				DisplayName: 机关天界箱
-				Tooltip: ""
-			}
-
 			CelestialClock: {
 				DisplayName: 天界钟
 				Tooltip: ""
@@ -13284,6 +13209,17 @@ Mods: {
 				Tooltip: ""
 			}
 
+
+			CoalBrick: {
+				DisplayName: Coal Brick（占位符更新*2）
+				Tooltip: ""
+			}
+
+			CoalBrickWall: {
+				DisplayName: Coal Brick Wall
+				Tooltip: ""
+			}
+
 			CursedBathtub: {
 				DisplayName: 诅咒浴缸
 				Tooltip: ""
@@ -13326,11 +13262,6 @@ Mods: {
 
 			CursedChest: {
 				DisplayName: 诅咒箱
-				Tooltip: ""
-			}
-
-			CursedChest_Trapped: {
-				DisplayName: 机关诅咒箱
 				Tooltip: ""
 			}
 
@@ -13494,122 +13425,118 @@ Mods: {
 			}
 
 			EvergreenBathtub: {
-				DisplayName: 常青床
+				DisplayName: 常青木浴缸
 				Tooltip: ""
 			}
 
 			EvergreenBed: {
-				DisplayName: 常青床
+				DisplayName: 常青木床
 				Tooltip: ""
 			}
 
 			EvergreenBlock: {
-				DisplayName: 常青块
+				DisplayName: 常青木块
 				Tooltip: ""
 			}
 
 			EvergreenBookcase: {
-				DisplayName: 常青书架
+				DisplayName: 常青木书架
 				Tooltip: ""
 			}
 
 			EvergreenCandelabra: {
-				DisplayName: 常青烛台
+				DisplayName: 常青木烛台
 				Tooltip: ""
 			}
 
 			EvergreenCandle: {
-				DisplayName: 常青蜡烛
+				DisplayName: 常青木蜡烛
 				Tooltip: ""
 			}
 
 			EvergreenChair: {
-				DisplayName: 常青椅
+				DisplayName: 常青木椅
 				Tooltip: ""
 			}
 
 			EvergreenChandelier: {
-				DisplayName: 常青吊灯
+				DisplayName: 常青木吊灯
 				Tooltip: ""
 			}
 
 			EvergreenChest: {
-				DisplayName: 常青箱
-				Tooltip: ""
-			}
-
-			EvergreenChest_Trapped: {
-				DisplayName: 机关常青箱
+				DisplayName: 常青木箱
 				Tooltip: ""
 			}
 
 			EvergreenClock: {
-				DisplayName: 常青钟
+				DisplayName: 常青木钟
 				Tooltip: ""
 			}
 
 			EvergreenCup: {
-				DisplayName: 常青门
+				DisplayName: 常青木杯
+
 				Tooltip: ""
 			}
 
 			EvergreenDoor: {
-				DisplayName: 常青门
+				DisplayName: 常青木门
 				Tooltip: ""
 			}
 
 			EvergreenDresser: {
-				DisplayName: 常青梳妆台
+				DisplayName: 常青木梳妆台
 				Tooltip: ""
 			}
 
 			EvergreenLamp: {
-				DisplayName: 常青灯
+				DisplayName: 常青木灯
 				Tooltip: ""
 			}
 
 			EvergreenLantern: {
-				DisplayName: 常青灯笼
+				DisplayName: 常青木灯笼
 				Tooltip: ""
 			}
 
 			EvergreenPiano: {
-				DisplayName: 常青钢琴
+				DisplayName: 常青木钢琴
 				Tooltip: ""
 			}
 
 			EvergreenPlatform: {
-				DisplayName: 常青平台
+				DisplayName: 常青木平台
 				Tooltip: ""
 			}
 
 			EvergreenSink: {
-				DisplayName: 常青水槽
+				DisplayName: 常青木水槽
 				Tooltip: ""
 			}
 
 			EvergreenSofa: {
-				DisplayName: 常青沙发
+				DisplayName: 常青木沙发
 				Tooltip: ""
 			}
 
 			EvergreenTable: {
-				DisplayName: 常青桌
+				DisplayName: 常青木桌
 				Tooltip: ""
 			}
 
 			EvergreenToilet: {
-				DisplayName: 常青马桶
+				DisplayName: 常青木马桶
 				Tooltip: ""
 			}
 
 			EvergreenWall: {
-				DisplayName: 常青墙
+				DisplayName: 常青木墙
 				Tooltip: ""
 			}
 
 			EvergreenWorkbench: {
-				DisplayName: 常青工作台
+				DisplayName: 常青木工作台
 				Tooltip: ""
 			}
 
@@ -13655,11 +13582,6 @@ Mods: {
 
 			FossilChest: {
 				DisplayName: 化石箱
-				Tooltip: ""
-			}
-
-			FossilChest_Trapped: {
-				DisplayName: 机关化石箱
 				Tooltip: ""
 			}
 
@@ -13775,11 +13697,6 @@ Mods: {
 
 			GingerbreadChest: {
 				DisplayName: 姜饼箱
-				Tooltip: ""
-			}
-
-			GingerbreadChest_Trapped: {
-				DisplayName: 机关姜饼箱
 				Tooltip: ""
 			}
 
@@ -13976,11 +13893,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LivingMahoganyChest_Trapped: {
-				DisplayName: 机关生命红木箱
-				Tooltip: ""
-			}
-
 			LivingMahoganyClock: {
 				DisplayName: 生命红木钟
 				Tooltip: ""
@@ -14096,11 +14008,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LodestoneChest_Trapped: {
-				DisplayName: 机关地脉箱
-				Tooltip: ""
-			}
-
 			LodestoneClock: {
 				DisplayName: 地脉钟
 				Tooltip: ""
@@ -14213,11 +14120,6 @@ Mods: {
 
 			MarineChest: {
 				DisplayName: 海洋箱
-				Tooltip: ""
-			}
-
-			MarineChest_Trapped: {
-				DisplayName: 机关海洋箱
 				Tooltip: ""
 			}
 
@@ -14383,11 +14285,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			NagaChest_Trapped: {
-				DisplayName: 机关娜迦箱
-				Tooltip: ""
-			}
-
 			NagaClock: {
 				DisplayName: 娜迦钟
 				Tooltip: ""
@@ -14543,11 +14440,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			OrnateChest_Trapped: {
-				DisplayName: 机关华贵箱
-				Tooltip: ""
-			}
-
 			OrnateClock: {
 				DisplayName: 华贵钟
 				Tooltip: ""
@@ -14655,11 +14547,6 @@ Mods: {
 
 			PermafrostChest: {
 				DisplayName: 永冻箱
-				Tooltip: ""
-			}
-
-			PermafrostChest_Trapped: {
-				DisplayName: 机关永冻箱
 				Tooltip: ""
 			}
 
@@ -14775,11 +14662,6 @@ Mods: {
 
 			PlateChest: {
 				DisplayName: 金属箱
-				Tooltip: ""
-			}
-
-			PlateChest_Trapped: {
-				DisplayName: 机关金属箱
 				Tooltip: ""
 			}
 
@@ -15018,11 +14900,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ScarletChest_Trapped: {
-				DisplayName: 机关绯红箱
-				Tooltip: ""
-			}
-
 			ScarletClock: {
 				DisplayName: 绯红钟
 				Tooltip: ""
@@ -15143,11 +15020,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ShadyChest_Trapped: {
-				DisplayName: 机关阴暗箱
-				Tooltip: ""
-			}
-
 			ShadyClock: {
 				DisplayName: 阴暗钟
 				Tooltip: ""
@@ -15265,11 +15137,6 @@ Mods: {
 
 			ShootingStarChest: {
 				DisplayName: 流影掠星箱
-				Tooltip: ""
-			}
-
-			ShootingStarChest_Trapped: {
-				DisplayName: 机关流影掠星箱
 				Tooltip: ""
 			}
 
@@ -15449,11 +15316,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ThoriumChest_Trapped: {
-				DisplayName: 机关瑟银箱
-				Tooltip: ""
-			}
-
 			ThoriumClock: {
 				DisplayName: 瑟银钟
 				Tooltip: ""
@@ -15566,11 +15428,6 @@ Mods: {
 
 			ValadiumChest: {
 				DisplayName: 虚金箱
-				Tooltip: ""
-			}
-
-			ValadiumChest_Trapped: {
-				DisplayName: 机关虚金箱
 				Tooltip: ""
 			}
 
@@ -15699,11 +15556,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			WhiteDwarfChest_Trapped: {
-				DisplayName: 机关白矮星箱
-				Tooltip: ""
-			}
-
 			WhiteDwarfClock: {
 				DisplayName: 白矮星钟
 				Tooltip: ""
@@ -15806,11 +15658,6 @@ Mods: {
 
 			YewChest: {
 				DisplayName: 紫衫木箱
-				Tooltip: ""
-			}
-
-			YewChest_Trapped: {
-				DisplayName: 机关紫衫木箱
 				Tooltip: ""
 			}
 
@@ -16401,15 +16248,6 @@ Mods: {
 					'''
 			}
 
-			BattleBanner: {
-				DisplayName: 战争令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时，使用者的仆从伤害会增加5
-					'''
-			}
-
 			BioMatter: {
 				DisplayName: 生物物质
 				Tooltip: "'一大团扭动的叶绿素'"
@@ -16429,30 +16267,55 @@ Mods: {
 				Tooltip: 召唤一只吞食血肉的血腥僵尸
 			}
 
+			BattleBanner: {
+				DisplayName: Battle Banner（占位符）
+				Tooltip: Summons a banner that increases the minion and sentry damage nearby enemies take by {0}%
+			}
+
 			BountyBanner: {
-				DisplayName: 赏金令旗
+				DisplayName: Bounty Banner
+				Tooltip: Summons a banner that causes nearby enemies to generate coins when hit by summon damage
+			}
+
+			CombatBanner: {
+				DisplayName: Combat Banner
+				Tooltip: Summons a banner that periodically slows enemies within its radius
+			}
+
+			MoraleBanner: {
+				DisplayName: Morale Banner
 				Tooltip:
 					'''
-					在地面上放置一面旗帜
-					在附近时，仆从攻击会生成一些钱币
+					Summons a banner that slowly generates a single heart that heals {0} life
+					Only the banner's summoner may pick it up
+					'''
+			}
+
+			PiousBanner: {
+				DisplayName: Pious Banner
+				Tooltip: Summons a banner that rapidly stuns enemies within its radius
+			}
+
+			PowerBanner: {
+				DisplayName: Power Banner
+				Tooltip: Summons a banner that increases the whip damage nearby enemies take by {0}%
+			}
+
+			PrecisionBanner: {
+				DisplayName: Precision Banner
+				Tooltip:
+					'''
+					Summons a banner that causes nearby enemies to become vulnerable
+					Vulnerable enemies have a {0}% chance to receive critical strikes from minion and sentry damage
 					'''
 			}
 
 			ButterflyStaff: {
-				DisplayName: 蝴蝶法杖
+				DisplayName: Butterfly Staff
 				Tooltip:
 					'''
-					'蝴蝶技术中最新的'
-					召唤3只随机蝴蝶攻击你的敌人
-					'''
-			}
-
-			CombatBanner: {
-				DisplayName: 好战令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时，每个仆从栏位会增加使用者3%的伤害减免
+					'The latest in butterfly technology'
+					Summons 3 random butterflies to attack your enemies
 					'''
 			}
 
@@ -16609,15 +16472,6 @@ Mods: {
 				Tooltip: 召唤一只友好的流星头粉碎你的敌人
 			}
 
-			MoraleBanner: {
-				DisplayName: 振奋令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时，使用者的仆从伤害有概率治疗
-					'''
-			}
-
 			MortarStaff: {
 				DisplayName: 炮龟法杖
 				Tooltip: 召唤一只活的炮龟向你的敌怪发射炸弹
@@ -16641,33 +16495,6 @@ Mods: {
 					'死亡不是你的尽头……'
 					每四分钟，受到致命伤害时会将你恢复到25%生命值时
 					魂匣未处于冷却期间生命恢复增加
-					'''
-			}
-
-			PiousBanner: {
-				DisplayName: 虔诚令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时, ...
-					'''
-			}
-
-			PowerBanner: {
-				DisplayName: 力量令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时，离使用者最近的哨兵伤害增加100%
-					'''
-			}
-
-			PrecisionBanner: {
-				DisplayName: 精准令旗
-				Tooltip:
-					'''
-					在地面上放置一面旗帜
-					在附近时，使用者的仆从攻击有5%概率暴击
 					'''
 			}
 
@@ -18678,9 +18505,105 @@ Mods: {
 				Tooltip: ""
 			}
 
+			CausticHeadgear: {
+				DisplayName: Caustic Headgear
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			CausticLeggings: {
+				DisplayName: Caustic Leggings
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			CausticRobe: {
+				DisplayName: Caustic Robe
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			ChunkyGreaves: {
+				DisplayName: Chunky Greaves
+				Tooltip: ""
+			}
+
+			ChunkyHelmet: {
+				DisplayName: Chunky Helmet
+				Tooltip: ""
+			}
+
+			ChunkyMail: {
+				DisplayName: Chunky Mail
+				Tooltip: ""
+			}
+
 			FishHat: {
 				DisplayName: 鱼帽
 				Tooltip: "'女人想要我，鱼怕我'"
+			}
+
+			LegendaryChainmail: {
+				DisplayName: Legendary Chainmail
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LegendaryGreaves: {
+				DisplayName: Legendary Greaves
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LegendaryHelmet: {
+				DisplayName: Legendary Helmet
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonLeggings: {
+				DisplayName: Light Automaton Leggings
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonMask: {
+				DisplayName: Light Automaton Mask
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			LightAutomatonNuvaArmor: {
+				DisplayName: Light Automaton Nuva-Armor
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
 			}
 
 			GelatinousGreaves: {
@@ -18724,6 +18647,24 @@ Mods: {
 				Tooltip: "'动力！'"
 			}
 
+			MaroonMageHat: {
+				DisplayName: Maroon Mage Hat
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			MaroonMageRobe: {
+				DisplayName: Maroon Mage Robe
+				Tooltip:
+					'''
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
 			MeteorMask: {
 				DisplayName: 陨星面具
 				Tooltip: ""
@@ -18757,6 +18698,76 @@ Mods: {
 			SnarbolaxGreaves: {
 				DisplayName: Snarbolax护胫
 				Tooltip: ""
+			}
+
+			SpaceDwarfBeard: {
+				DisplayName: Space Dwarf Beard
+				Tooltip:
+					'''
+					'By the Beard!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfBoots: {
+				DisplayName: Space Dwarf Boots
+				Tooltip:
+					'''
+					'Leave no dwarf behind!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfHeadset: {
+				DisplayName: Space Dwarf Headset
+				Tooltip:
+					'''
+					'Galaxy's finest!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SpaceDwarfSuit: {
+				DisplayName: Space Dwarf Suit
+				Tooltip:
+					'''
+					'Rock and Stone!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			Sundress: {
+				DisplayName: Sundress
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			Sunhat: {
+				DisplayName: Sunhat
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
+			}
+
+			SunnySandals: {
+				DisplayName: Sunny Sandals
+				Tooltip:
+					'''
+					'Best worn on a nice, sunny day!'
+					Thorium Vanity Contest {0} Winner!
+					Set by: {1}
+					'''
 			}
 
 			BatScythe: {
@@ -19096,7 +19107,8 @@ Mods: {
 				Tooltip:
 					'''
 					'An object from an age long past...'
-					This item no longer exists in the game. If it's used by another mod in some way, contact the other mod's developer
+					This item no longer exists in the game. 
+					If it's used by another mod in some way, contact the other mod's developer
 					'''
 				DarksteelMace.DisplayName: Darksteel Mace
 				Firestormboots.DisplayName: Firestorm Boots
@@ -19107,6 +19119,10 @@ Mods: {
 				AstralBarrierWand.DisplayName: Astral Barrier Wand
 				Fertilizer.DisplayName: Fertilizer
 				ArcaneDust.DisplayName: Arcane Dust
+				FalconeerCane.DisplayName: Falconeer's Cane
+				SacrificialDagger.DisplayName: Sacrificial Dagger
+				HiveMind.DisplayName: Hive Mind
+				BloodFeasterStaff.DisplayName: Blood Feaster Staff
 			}
 
 			TrackPlayers: {
@@ -19341,11 +19357,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DeadwoodChest_Trapped: {
-				DisplayName: 机关枯木箱
-				Tooltip: ""
-			}
-
 			DeadwoodClock: {
 				DisplayName: 枯木钟
 				Tooltip: ""
@@ -19562,6 +19573,83 @@ Mods: {
 					+短暂无敌
 					'''
 			}
+
+			HemogoblinSharkToothNecklace: {
+				DisplayName: Hemogoblin Shark Tooth Necklace
+				Tooltip: Increases armor penetration by {0}
+			}
+
+			LargeCoralVase: {
+				DisplayName: Large Coral Vase
+				Tooltip: Right click to cycle styles
+			}
+
+			CurtainWall: {
+				DisplayName: Curtain Wall
+				Tooltip: "'Best used with deep paints!'"
+			}
+
+			EvergreenFence: {
+				DisplayName: Evergreen Wood Fence
+				Tooltip: ""
+			}
+
+			ChromaticFury: {
+				DisplayName: Chromatic Fury
+				Tooltip: Unleashes a barrage of chromatic energy
+			}
+
+			Thrombosis: {
+				DisplayName: Thrombosis
+				Tooltip:
+					'''
+					{$CommonItemTooltip.SummonTagDamage}
+					{$CommonItemTooltip.Whips}
+					Strike enemies to summon a friendly bloodling
+					'''
+			}
+
+			BloodCell: {
+				DisplayName: Blood Cell
+				Tooltip: "'A writhing mass of viscera'"
+			}
+
+			IncandescentAlacrity: {
+				DisplayName: Incandescent Alacrity
+				Tooltip:
+					'''
+					'An orb imbued with the swiftness of a fox spirit'
+					Increases movement acceleration & jump height, as well as fall speed when holding DOWN
+					Slowly generate up to {0} spirit flames which allow you to perform a dash towards your cursor
+					Press the '{$Keybinds.AccessoryAbility.DisplayName}' key to perform the dash
+					'''
+			}
+
+			RandomInstrument: {
+				DisplayName: Random Instrument
+				Tooltip: ""
+			}
+
+			ManaInjectionKit: {
+				DisplayName: Mana Injection Kit
+				Tooltip:
+					'''
+					'Not recommended for squeamish sorcerers'
+					Mana potions no longer recover mana and instead cost {0}% of their mana value to use
+					When drinking mana potions, you gain decaying magic damage instead of mana sickness
+					Duration and damage stack with potion uses, and scale with cost of the potion up to {1}%
+					'''
+				ManaPotionTooltip: Costs {0} mana to drink, but grants [c/{1}:{2}%] decaying magic damage
+			}
+
+			FrostPelter: {
+				DisplayName: Frost Pelter
+				Tooltip:
+					'''
+					Uses Snowballs as ammunition
+					Attacks might frostburn the target briefly
+					'''
+			}
 		}
 
 		NPCs: {
@@ -19666,6 +19754,30 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
+
+				Names: {
+					Albert: Albert
+					Brutus: Brutus
+					Byron: Byron
+					Clay: Clay
+					Dwayne: Dwayne
+					Flint: Flint
+					George: George
+					Gregory: Gregory
+					Hagan: Hagan
+					Hans: Hans
+					Hedrick: Hedrick
+					Kilbas: Kilbas
+					Lester: Lester
+					Mason: Mason
+					McDuff: McDuff
+					Paul: Paul
+					Smith: Smith
+					Tavernkeep: Tavernkeep
+					Vicktor: Vicktor
+					Wayland: Wayland
+					Kendall: Kendall
+				}
 			}
 
 			BlackWidowWall: {
@@ -19864,6 +19976,29 @@ Mods: {
 
 				Census.SpawnCondition: 在你的物品栏中有鞋子饰品([i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等.)
 				Button2: 擦亮鞋子
+
+				Names: {
+					Alfred: Alfred
+					Alphonse: Alphonse
+					Barney: Barney
+					Baxter: Baxter
+					Calvin: Calvin
+					Curtis: Curtis
+					Desmond: Desmond
+					Dimitri: Dimitri
+					Fred: Fred
+					Griswald: Griswald
+					Ike: Ike
+					Jonathan: Jonathan
+					Kenneth: Kenneth
+					Larry: Larry
+					Lawrence: Lawrence
+					Louis: Louis
+					Quinn: Quinn
+					Stanley: Stanley
+					Winston: Winston
+					Wyatt: Wyatt
+				}
 			}
 
 			CoinBagCopper: {
@@ -19909,6 +20044,36 @@ Mods: {
 
 				Census.SpawnCondition: 在血月期间击败[c/4dffb8:{$NPCs.PatchWerk.DisplayName}]
 				Button2: 敌怪趋避剂 ({^0:80 Silver;1 Gold})
+				NoMoney: Looks like you're a bit short on funds. Come back to me when you have a little more coin in your pocket!
+				DayNotOver: I'm afraid you'll have to give me some more time to prepare the next repellent. This stuff can get pretty complicated...
+				Repellent_0: I just whipped up the perfect recipe to deter bats from bothering you; no more tiny nibbles!
+				Repellent_1: If this turned out correctly, you'll smell just like a zombie. Hopefully your nights will be a tad more calm!
+				Repellent_2: Getting this stuff to work underwater was a huge hassle... Either way, hungry fish shouldn't attempt to eat you with this.
+				Repellent_3: I'll be honest, this is just a bottle of pure liquid calcium. Don't question it, the skeletons surely won't.
+				Repellent_4: With this nasty concoction, insects will associate your scent with their queen! Neat, huh?
+
+				Names: {
+					Bile: Bile
+					Bloat: Bloat
+					Carrion: Carrion
+					Deadbeat: Deadbeat
+					Fester: Fester
+					Gasbag: Gasbag
+					Grimm: Grimm
+					Grundy: Grundy
+					Lazarus: Lazarus
+					Leech: Leech
+					Mort: Mort
+					Ollie: Ollie
+					Pustule: Pustule
+					Richter: Richter
+					Rotgut: Rotgut
+					Salem: Salem
+					Stitch: Stitch
+					Vernon: Vernon
+					Victor: Victor
+					Yikes: Yikes
+				}
 			}
 
 			BlueHag: {
@@ -19955,6 +20120,30 @@ Mods: {
 
 				Census.SpawnCondition: 击败{$NPCName.KingSlime}
 				Button2: 供应原料
+				IngredientInterested: The cook might be interested in this: {0} / {1}
+
+				Names: {
+					Alain: Alain
+					Alexis: Alexis
+					Alfredo: Alfredo
+					Alton: Alton
+					Antoine: Antoine
+					Auguste: Auguste
+					Emeril: Emeril
+					Eric: Éric
+					Fernand: Fernand
+					Flay: Flay
+					Gordan: Gordan
+					Guillaume: Guillaume
+					Guy: Guy
+					Jacques: Jacques
+					Jamie: Jamie
+					Joel: Joel
+					Linguini: Linguini
+					Philip: Philip
+					Thomas: Thomas
+					Wolfgang: Wolfgang
+				}
 			}
 
 			Coolmera: {
@@ -20142,6 +20331,29 @@ Mods: {
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 				Button2: 沙尘暴 ({^0:80 Silver;1 Gold})
+
+				Names: {
+					Ahmad: Ahmad
+					Ahura: Ahura
+					Aladdin: Aladdin
+					BakiiKum: Ba'kii Kum
+					Banumusa: Banumusa
+					Biruni: Biruni
+					Garshasp: Garshasp
+					Ghazi: Ghazi
+					Jordan: Jordan
+					Kindi: Kindi
+					Khwarizmi: Khwarizmi
+					Kourosh: Kourosh
+					Maaz: Maaz
+					Mazdak: Mazdak
+					Marduk: Marduk
+					Pourya: Pourya
+					Sahir: Sahir
+					Sassan: Sassan
+					Yazata: Yazata
+					Zerzura: Zerzura
+				}
 			}
 
 			DissonanceSeer: {
@@ -20172,6 +20384,29 @@ Mods: {
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.QueenJellyfish.DisplayName}]
 				Button2: 紧急空气瓶
+
+				Names: {
+					Adin: Adin
+					Alexander: Alexander
+					Austin: Austin
+					Calder: Calder
+					Cameron: Cameron
+					Carlos: Carlos
+					Clyde: Clyde
+					Elijah: Elijah
+					Ethan: Ethan
+					Francis: Francis
+					Jesse: Jesse
+					Maxwell: Maxwell
+					Neil: Neil
+					Nolen: Nolen
+					Percy: Percy
+					Robert: Robert
+					Rodrigues: Rodrigues
+					Sam: Sam
+					Stephen: Stephen
+					Zane: Zane
+				}
 			}
 
 			Druid: {
@@ -20196,6 +20431,29 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 在骷髅王后的丛林击败[c/4dffb8:{$NPCs.CorpseBloom.DisplayName}]
+
+				Names: {
+					Alyssa: Alyssa
+					Camellia: Camellia
+					Ceres: Ceres
+					Cheryl: Cheryl
+					Clover: Clover
+					Erica: Erica
+					Fleur: Fleur
+					Folium: Folium
+					Forsythia: Forsythia
+					Hana: Hana
+					Ligna: Ligna
+					Lignum: Lignum
+					Lilac: Lilac
+					Lilly: Lilly
+					Magnolia: Magnolia
+					Primrose: Primrose
+					Rose: Rose
+					Viridis: Viridis
+					Yarrow: Yarrow
+					Zinnia: Zinnia
+				}
 			}
 
 			EarthenBat: {
@@ -20644,6 +20902,29 @@ Mods: {
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.BuriedChampion.DisplayName}]
 				Button2: 守护天使
+
+				Names: {
+					Algalon: Algalon
+					Balthasar: Balthasar
+					Bodhi: Bodhi
+					Caspar: Caspar
+					Dhruv: Dhruv
+					Dwight: Dwight
+					Dyeus: Dyeus
+					Keter: Keter
+					Malkuth: Malkuth
+					Melchior: Melchior
+					Nix: Nix
+					Ormazd: Ormazd
+					Pax: Pax
+					Psi: Psi
+					Solomon: Solomon
+					Titus: Titus
+					Yang: Yang
+					Yazata: Yazata
+					Yin: Yin
+					Zen: Zen
+				}
 			}
 
 			StrangeBulb: {
@@ -20712,6 +20993,29 @@ Mods: {
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
 				Button: 使用勋章
 				Button2: 合同
+
+				Names: {
+					Aaron: Aaron
+					Atlas: Atlas
+					Bernard: Bernard
+					Brendan: Brendan
+					Cliffton: Cliffton
+					Conrad: Conrad
+					Cyris: Cyris
+					Dalton: Dalton
+					Daston: Daston
+					Derrick: Derrick
+					Garm: Garm
+					Gustav: Gustav
+					Guts: Guts
+					Hunter: Hunter
+					Kwan: Kwan
+					Linus: Linus
+					Roy: Roy
+					Russell: Russell
+					Schneider: Schneider
+					Tristan: Tristan
+				}
 			}
 
 			UFO: {
@@ -20753,6 +21057,30 @@ Mods: {
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
 				Button2: 受雇恶魔 ({^0:80 Silver;1 Gold})
+
+				Names: {
+					Bruzo: Bruzo
+					Cratorburst: Cratorburst
+					Flatoom: Flatoom
+					Fuzgrom: Fuzgrom
+					Glibtok: Glib'tok
+					Gnokaer: Gno'kaer
+					Grethzek: Greth'zek
+					Hathgore: Hathgore
+					Hathlos: Hathlos
+					Helnos: Helnos
+					Hindarax: Hindarax
+					Hrograk: Hro'grak
+					Kadron: Kadron
+					Kontast: Kontast
+					Mezznar: Mezznar
+					Morgolon: Morgolon
+					Morrik: Morrik
+					Seranoth: Sera'noth
+					Targup: Targup
+					Viloth: Viloth
+					NoobMaher: Noob Ma'her
+				}
 			}
 
 			WindElemental: {
@@ -22678,7 +23006,6 @@ Mods: {
 				TheBlackItem: 造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
 				DevItem: "'非常适合模仿瑟银开发者！'"
 				ShoulderGuardianLimit: 仅能同时召唤一个守护者
-				BannerPlacement: 在地面上放置一面旗帜
 				BigInstrument:
 					'''
 					错失节拍会大幅降低这些加成并消耗5点灵感值
@@ -22705,6 +23032,7 @@ Mods: {
 			TreasureBag: 宝藏袋({0})
 			ThePrimordials: 始生灾灵
 			MusicBox: 音乐盒({0})
+			TrappedChest: Trapped {0}
 		}
 
 		DeathText: {
@@ -23150,6 +23478,133 @@ Mods: {
 						'''
 				}
 			}
+		}
+
+		BuilderToggles: {
+			BirdFeederSeedToggle: {
+				Name: "{$ItemName.Seed} collection for {$Items.BirdFeederGrounded.DisplayName}"
+				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name} on"
+				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name} off"
+			}
+		}
+
+		MusicDisplaySupport: {
+			ModName: Thorium Mod
+
+			AHeroNoMore: {
+				Title: A Hero No More
+				Author: SkippyZii
+			}
+
+			ASightToBehold: {
+				Title: A Sight To Behold
+				Author: Kaosu
+			}
+
+			Aqua: {
+				Title: Aqua
+				Author: Shiki Sakura, AdipemDragon
+			}
+
+			BatBallad: {
+				Title: Bat Ballad
+				Author: Salvati
+			}
+
+			BeneathTheDepths: {
+				Title: Beneath the Depths
+				Author: SkippyZii
+			}
+
+			EyeOfTheStorm: {
+				Title: Eye of the Storm
+				Author: SkippyZii
+			}
+
+			GrandThunderBird: {
+				Title: Grand Thunder Bird
+				Author: Smxfoxtrot
+			}
+
+			HarvestNight: {
+				Title: Harvest Night
+				Author: SkippyZii
+			}
+
+			InOverYourHead: {
+				Title: In Over Your Head
+				Author: SkippyZii
+			}
+
+			InterplanetaryHarbinger: {
+				Title: Interplanetary Harbinger
+				Author: SkippyZii
+			}
+
+			LostInTheBlizzard: {
+				Title: Lost in the Blizzard
+				Author: Smxfoxtrot
+			}
+
+			RealitysEnd: {
+				Title: Reality's End
+				Author: Smxfoxtrot
+			}
+
+			StrongerFoe: {
+				Title: Stronger Foe
+				Author: SkippyZii
+			}
+
+			WorldsEnd: {
+				Title: World's End
+				Author: Smxfoxtrot
+			}
+		}
+
+		NewBeginningsSupport: {
+			GraveRobber: {
+				DisplayName: Grave Robber
+				Flavor: To those with a keen eye, gold gleams like a dagger's point.
+				Description: Starts with a gravedigger set, a gravedigger's shovel, a glittering chalice, and a (stolen) ring with lower max life at a marked grave.
+			}
+
+			Medic: {
+				DisplayName: Medic
+				Flavor: A welcome sight for the wounded, they work to ensure their allies make it out of any fight alive.
+				Description: Starts with a partial set of novice cleric's armor, a medical bag, a bonesaw, and 300 syringes.
+			}
+
+			Minstrel: {
+				DisplayName: Minstrel
+				Flavor: A wandering vagabond, weaving magic through music to inspire allies and bring down foes.
+				Description: Starts with a full set of crier's armor, two random instruments, and additional starting inspiration in exchange for lower max life.
+			}
+
+			Occultist: {
+				DisplayName: Occultist
+				Flavor: A dissident scholar in communion with dark forces.
+				Description: Starts with a palm cross and leech bolt tome, and a hexing talisman, mysterious cape, and scowl, with additional mana but lower max life. Permanently empowers certain radiant attacks with dark energy.
+			}
+
+			Ronin: {
+				DisplayName: Ronin
+				Flavor: "'Today one must be better than yesterday, and tomorrow better than today. The pursuit of perfection is a lifelong quest that has no end.'"
+				Description: Starts with a wandering set, a katana, and a leather sheath. Sheath strikes charge twice as fast while standing still, but all non-sheath strike attacks deal no damage.
+			}
+		}
+
+		SpiritReforgedSupport: {
+			BatPot: {
+				DisplayName: Bat Pot
+				Description: A unique pot from the Blood Chamber with a variety of useful goodies.
+			}
+		}
+
+		CombatText: {
+			HealStreak: "{0} life heal streak"
+			CloseCall: Close call
+			Freebie: Freebie!
 		}
 	}
 }
