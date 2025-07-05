@@ -10,7 +10,9 @@
 
 [h1]=超链接=[/h1]
 [url=https://github.com/moonditch/ThoriumModzhcn]瑟银汉化的源码[/url]
-[url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银中文WIKI[/url]
+[url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银本体中文WIKI[/url]
+[url=https://terrariamods.wiki.gg/wiki/Thorium_Crossmod]瑟银附属：瑟银BOSS重置&非官方瑟银武器系列WIKI（制作中）[/url]
+[url=https://ragnarokmod.wiki.gg/]瑟银附属：诸神的黄昏WIKI（制作中）[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3446070012]SoloistsHatinfinite·灵感无限![/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
@@ -19,6 +21,7 @@
 
 [h1]=作者介绍=[/h1]
 瑟银wiki：Listentowind
+瑟银附属wiki：马达(创造), N0t_UNowen(英文)
 瑟银wiki转换可用翻译：Flandre Scarlet，令，Super_ego
 瑟银附属翻译：Flandre Scarlet，Super_ego，兹翼，终子星，Ivybless，虞悖，Yee苍棱
 台湾繁体汉化：白狐狸

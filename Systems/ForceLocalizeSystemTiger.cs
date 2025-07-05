@@ -1,8 +1,5 @@
 ﻿#nullable enable
-/**
- * 作者 Tigerzzz
- * https://github.com/TigerChenzzz
- */
+//根据tiger代码修改
 using log4net;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
