@@ -1634,12 +1634,12 @@ Mods: {
 			}
 
 			BannerDamage: {
-				DisplayName: Battle Banner
+				DisplayName: 战争令旗
 				Description: Taking {0}% more minion and sentry damage
 			}
 
 			BannerBounty: {
-				DisplayName: Bounty Banner
+				DisplayName: 赏金令旗
 				Description: Generates coins when hit by summon damage
 			}
 
@@ -1649,12 +1649,12 @@ Mods: {
 			}
 
 			BannerPrecision: {
-				DisplayName: Precision Banner
+				DisplayName: 精准令旗
 				Description: Chance to be critically struck by minion and sentry damage
 			}
 
 			BannerPower: {
-				DisplayName: Banner Power
+				DisplayName: 力量令旗
 				Description: Taking {0}% more whip damage
 			}
 
@@ -1841,12 +1841,9 @@ Mods: {
 				DisplayName: 深渊贝壳
 				Tooltip:
 					'''
-					Pressing the 'Encase' key will briefly place you in an impenetrable shell
-					While encased, you are immune to all damage but cannot hurt enemies for the duration
-					While encased, you can't move, use items, or drink healing potions（占位符）
 					按下“包裹”键会将你置于坚固的壳中
-					被包裹时无法使用物品或治疗药水，生命再生大幅减少且几乎不能造成伤害
-					离开壳会短暂大幅降低你的速度，伤害减免和伤害
+					被包裹时，你会免疫所有伤害，但无法对敌人造成伤害
+					被包裹时，你无法移动，无法使用物品和治疗药水（占位符）
 					离开壳后的 {0} 秒内无法再次使用壳
 					[c/70DB93:获取方式：击败遗忘之主(宝藏袋)获得]
 					'''
@@ -5294,9 +5291,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AceBreastplate.DisplayName: Ace Breastplate
-			AceGreaves.DisplayName: Ace Greaves
-			AceHelmet.DisplayName: Ace Helmet
+			AceBreastplate.DisplayName: Ace的胸甲
+			AceGreaves.DisplayName: Ace的护胫
+			AceHelmet.DisplayName: Ace的头盔
 			BlockyMask.DisplayName: 方块面具
 			BlockyPants.DisplayName: 方块裤子
 			BlockyShirt.DisplayName: 方块衣服
@@ -5308,7 +5305,7 @@ Mods: {
 			DannyLamentLeggings.DisplayName: 丹尼之叹护胫
 			DannyLamentMask.DisplayName: 丹尼之叹面具
 			DannyLamentSuit.DisplayName: 丹尼之叹上衣
-			HalcandranDeluxeApparel.DisplayName: Halcandran Deluxe Apparel
+			HalcandranDeluxeApparel.DisplayName: 哈坎德兰套装
 			GhastlyGarment.DisplayName: 恐怖皮衣
 			GhastlyHood.DisplayName: 恐怖兜帽
 			GhastlyLeggings.DisplayName: 恐怖护胫
@@ -5457,7 +5454,7 @@ Mods: {
 					在其中放入种子或水果以最终吸引鸟的注意
 					鸟会基于你放入的物品留下水果或药水
 					将其放置或在物品栏中可以收集种子
-					Seed collection can be toggled in the top left of the inventory once placed
+					收集种子的功能可以在物品栏左上角切换
 					仅能放置在地表
 					'''
 				ConvertTooltip: 右键循环样式或重新制作转化为{0}
@@ -6522,7 +6519,7 @@ Mods: {
 					'''
 					'非常适合龙的成长饮食……我想？'
 					召唤一只可骑乘的小龙
-					While mounted, the dragon will breathe fire on enemies in front of it
+					While mounted, the dragon will breathe fire on enemies in front of it骑乘时，小龙会向附近的敌怪喷吐火焰
 					'''
 			}
 
@@ -7161,7 +7158,7 @@ Mods: {
 					'''
 					“他告诉你……”
 					左键投掷夺魂枪的突刺回音，可以粘在敌怪身上
-					Right click to stab the soul reaver forward, stealing {0} life for each echo in the enemy
+					R右键将夺魂枪向前刺，从敌怪身上的每个回音偷取{0}生命
 					'''
 			}
 
@@ -8286,7 +8283,7 @@ Mods: {
 					'''
 					'任何东西中都能感受到节奏……'
 					允许你有节奏地敲击一套鼓组
-					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
+					成功在计时区域击中会不断增加它的伤害、咒音增幅等级与弹幕数量
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -9538,8 +9535,8 @@ Mods: {
 				Tooltip: 增加16%光辉伤害
 				SetBonus:
 					'''
-					Your luck is slightly increased
-					Radiant damage has a {0}% chance to flash, healing nearby allies for {1} life and confusing enemies
+					小幅提升你的运气
+					你的光辉伤害有{0}%概率释放一道致盲闪光，闪光会治疗所有附近队友{1}生命并困惑敌怪
 					'''
 			}
 
@@ -9578,7 +9575,7 @@ Mods: {
 
 			LeechBolt: {
 				DisplayName: 汲血牙（占位符，更新）
-				Tooltip: Sends out a blood bolt that steals life from the first enemy hit
+				Tooltip: 发射血牙，从第一个命中的敌人身上偷取生命
 			}
 
 			LethalInjection: {
@@ -9835,13 +9832,13 @@ Mods: {
 			}
 
 			NecroticStaff: {
-				DisplayName: Necrotic Staff（占位符，更新）
+				DisplayName: 死灵法杖（占位符，更新）
 				Tooltip:
 					'''
-					Heals ally life by 7.5% of their maximum life
-					Releases a player-homing necrotic surge
+					治疗目标队友7.5%最大生命值的生命
+					释放一束追踪队友的死灵能量
 					'''
-				LifeCost: Uses {0}% of your maximum life
+				LifeCost: 消耗你最大生命值{0}%的生命
 			}
 
 			NirvanaStatuette: {
@@ -10178,7 +10175,7 @@ Mods: {
 				DisplayName: 暗影杖
 				Tooltip:
 					'''
-					Rapidly spews forth erratic shadow energy based on how hurt you are（占位符）
+					发射不稳定的暗影能量，发射速度随着你的受伤程度增加（占位符）
 					消耗生命值的一半会给予到生命值最低的队友
 					'''
 			}
@@ -10406,7 +10403,7 @@ Mods: {
 					左键消耗魔力释放治疗能量球
 					右键消耗生命释放暗影能量球
 					'''
-				UsesManaAndLife: Uses {0} mana & {1} life
+				UsesManaAndLife: 消耗{0}魔力与{1}生命
 			}
 
 			Twinkle: {
@@ -10557,7 +10554,7 @@ Mods: {
 
 			ChampionsTrifectaShot: {
 				DisplayName: 英灵的三元圣弓（占位符，更新）
-				Tooltip: Turns wooden arrows into fluctuating elemental arrows
+				Tooltip: 将木箭转化为变化的元素之箭
 			}
 
 			ChampionSwiftBlade: {
@@ -10580,7 +10577,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Unleash a flurry of ice!'
-					Attacks frostburn the hit target briefly
+					攻击会给予目标短暂的霜冻减益
 					'''
 			}
 
@@ -10983,8 +10980,8 @@ Mods: {
 			}
 
 			AdamantiteStaff: {
-				DisplayName: 精金法杖（占位符，更新）
-				Tooltip: Casts an orb of magic, which pops into multiple bolts at your cursor
+				DisplayName: 精金法杖
+				Tooltip: 发射一个魔法球，会在光标处炸成多道弹幕
 			}
 
 			BlackholeCannon: {
@@ -10998,8 +10995,8 @@ Mods: {
 			}
 
 			CobaltStaff: {
-				DisplayName: 钴蓝法杖(占位符，更新)
-				Tooltip: Casts a duo of bouncing energy bolts
+				DisplayName: 钴蓝法杖
+				Tooltip: 射出两道弹性的能量矢
 			}
 
 			CryomancersCrown: {
@@ -11093,17 +11090,17 @@ Mods: {
 
 			MythrilStaff: {
 				DisplayName: 秘银法杖（占位符更新,下面三个）
-				Tooltip: Casts a barrage of homing bolts
+				Tooltip: 射出一波追踪敌人的弹幕
 			}
 
 			OrichalcumStaff: {
 				DisplayName: 山铜法杖
-				Tooltip: Casts a burst of powerful petals
+				Tooltip: 射出一波强力花瓣
 			}
 
 			PalladiumStaff: {
 				DisplayName: 钯金法杖
-				Tooltip: Casts a shattering energy bolt
+				Tooltip: 射出分裂成多个碎片的能量
 			}
 
 			SpectralBlade: {
@@ -11149,13 +11146,13 @@ Mods: {
 			}
 
 			TitaniumStaff: {
-				DisplayName: 钛金法杖（占位符，更新）
-				Tooltip: Casts a pulse of popping energy towards your cursor
+				DisplayName: 钛金法杖
+				Tooltip: 向你的光标位置释放爆裂能量脉
 			}
 
 			VesselBuster: {
 				DisplayName: 动脉破裂
-				Tooltip: S射出一道短程血流
+				Tooltip: 射出一道短程血流
 			}
 
 			WhiteKnightLeggings: {
@@ -12206,8 +12203,8 @@ Mods: {
 			}
 
 			CrawdadClaw: {
-				DisplayName: 龙虾爪（占位符更新）
-				Tooltip: While in combat, your armor penetration increases by 1 over time up to 2
+				DisplayName: 龙虾爪
+				Tooltip: 战斗中你的伤害会随时间增加1点，至多2点
 			}
 
 			DeathGazersGlass: {
@@ -12517,7 +12514,7 @@ Mods: {
 
 			SalamanderEye: {
 				DisplayName: 火蜥蜴之眼（占位符，更新）
-				Tooltip: While in combat for 5 seconds, your life recovery increases by 1
+				Tooltip: 战斗5秒后，你的生命恢复增加1点
 			}
 
 			Scalper: {
@@ -13211,12 +13208,12 @@ Mods: {
 
 
 			CoalBrick: {
-				DisplayName: Coal Brick（占位符更新*2）
+				DisplayName: 煤砖（占位符更新*2）
 				Tooltip: ""
 			}
 
 			CoalBrickWall: {
-				DisplayName: Coal Brick Wall
+				DisplayName: 煤砖墙
 				Tooltip: ""
 			}
 
@@ -16268,26 +16265,26 @@ Mods: {
 			}
 
 			BattleBanner: {
-				DisplayName: Battle Banner（占位符）
-				Tooltip: Summons a banner that increases the minion and sentry damage nearby enemies take by {0}%
+				DisplayName: 战争令旗（占位符）
+				Tooltip: 召唤一面旗帜，使仆从与哨兵对附近敌人的伤害增加{0}%
 			}
 
 			BountyBanner: {
-				DisplayName: Bounty Banner
-				Tooltip: Summons a banner that causes nearby enemies to generate coins when hit by summon damage
+				DisplayName: 赏金令旗
+				Tooltip: 召唤一面旗帜，使附近的敌人受到召唤伤害时掉落钱币
 			}
 
 			CombatBanner: {
-				DisplayName: Combat Banner
-				Tooltip: Summons a banner that periodically slows enemies within its radius
+				DisplayName: 好战令旗
+				Tooltip: 召唤一面旗帜，偶尔减缓范围内的敌人
 			}
 
 			MoraleBanner: {
-				DisplayName: Morale Banner
+				DisplayName: 振奋令旗
 				Tooltip:
 					'''
-					Summons a banner that slowly generates a single heart that heals {0} life
-					Only the banner's summoner may pick it up
+					召唤一面旗帜，缓慢生成红心，红心会治疗{0}生命
+					只有旗帜的召唤者才能拾起红心
 					'''
 			}
 
@@ -16297,25 +16294,25 @@ Mods: {
 			}
 
 			PowerBanner: {
-				DisplayName: Power Banner
-				Tooltip: Summons a banner that increases the whip damage nearby enemies take by {0}%
+				DisplayName: 力量令旗
+				Tooltip: 召唤一面旗帜，使附近敌人受到的鞭子伤害增加{0}%
 			}
 
 			PrecisionBanner: {
-				DisplayName: Precision Banner
+				DisplayName: 精准令旗
 				Tooltip:
 					'''
-					Summons a banner that causes nearby enemies to become vulnerable
-					Vulnerable enemies have a {0}% chance to receive critical strikes from minion and sentry damage
+					召唤一面旗帜，使附近敌人变得更加脆弱
+					仆从与哨兵攻击脆弱的敌人时有{0}%概率暴击
 					'''
 			}
 
 			ButterflyStaff: {
-				DisplayName: Butterfly Staff
+				DisplayName: 蝴蝶法杖
 				Tooltip:
 					'''
-					'The latest in butterfly technology'
-					Summons 3 random butterflies to attack your enemies
+					“蝴蝶技术中最新的”
+					召唤3只随机蝴蝶攻击你的敌人
 					'''
 			}
 
