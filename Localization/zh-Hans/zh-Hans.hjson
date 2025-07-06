@@ -5291,9 +5291,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AceBreastplate.DisplayName: Ace的胸甲
-			AceGreaves.DisplayName: Ace的护胫
-			AceHelmet.DisplayName: Ace的头盔
+			AceBreastplate.DisplayName: 王者胸甲
+			AceGreaves.DisplayName: 王者护胫
+			AceHelmet.DisplayName: 王者头盔
 			BlockyMask.DisplayName: 方块面具
 			BlockyPants.DisplayName: 方块裤子
 			BlockyShirt.DisplayName: 方块衣服
@@ -5319,9 +5319,9 @@ Mods: {
 			MrUniversePants.DisplayName: 宇宙先生的裤子
 			MrUniverseSuit.DisplayName: 宇宙先生的服饰
 			PhonicWings.DisplayName: 无声羽翼
-			ProspectorHeadgear.DisplayName: 探矿者头饰（占位符新）
-			ProspectorShorts.DisplayName: 探矿者短裤（占位符新）
-			ProspectorVest.DisplayName: 探矿者背心（占位符新）
+			ProspectorHeadgear.DisplayName: 勘探者头饰
+			ProspectorShorts.DisplayName: 勘探者短裤
+			ProspectorVest.DisplayName: 勘探者背心
 			ShinobiGi.DisplayName: 忍者束腰宽松服
 			ShinobiMask.DisplayName: 忍者面具
 			ShinobiTreads.DisplayName: 忍者靴
@@ -18576,7 +18576,7 @@ Mods: {
 			}
 
 			LightAutomatonLeggings: {
-				DisplayName: 轻质自动机紧身裤
+				DisplayName: 光能机械裤子
 				Tooltip:
 					'''
 					瑟银时装大赛 {0} 获胜者!
@@ -18585,7 +18585,7 @@ Mods: {
 			}
 
 			LightAutomatonMask: {
-				DisplayName: 轻质自动机面具
+				DisplayName: 光能机械面具
 				Tooltip:
 					'''
 					瑟银时装大赛 {0} 获胜者!
@@ -18594,7 +18594,7 @@ Mods: {
 			}
 
 			LightAutomatonNuvaArmor: {
-				DisplayName: 轻质自动机铠甲
+				DisplayName: 光能机械铠甲
 				Tooltip:
 					'''
 					瑟银时装大赛 {0} 获胜者!
@@ -18644,7 +18644,7 @@ Mods: {
 			}
 
 			MaroonMageHat: {
-				DisplayName: 褐红色巫师帽
+				DisplayName: 深红法师帽
 				Tooltip:
 					'''
 					瑟银时装大赛 {0} 获胜者!
@@ -18653,7 +18653,7 @@ Mods: {
 			}
 
 			MaroonMageRobe: {
-				DisplayName: 褐红色巫师长袍
+				DisplayName: 深红法师长袍
 				Tooltip:
 					'''
 					瑟银时装大赛 {0} 获胜者!
@@ -19591,7 +19591,7 @@ Mods: {
 			}
 
 			ChromaticFury: {
-				DisplayName: 彩色狂怒
+				DisplayName: 虹彩之怒
 				Tooltip:
 					'''
 					释放出一股绚烂的能量流
@@ -19600,7 +19600,7 @@ Mods: {
 			}
 
 			Thrombosis: {
-				DisplayName: 血栓
+				DisplayName: 栓塞血管
 				Tooltip:
 					'''
 					{$CommonItemTooltip.SummonTagDamage}
@@ -19615,7 +19615,7 @@ Mods: {
 			}
 
 			IncandescentAlacrity: {
-				DisplayName: 炽热敏捷
+				DisplayName: 炽光疾行
 				Tooltip:
 					'''
 					'这个宝玉灌注着狐妖的迅捷'
