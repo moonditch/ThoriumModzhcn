@@ -19605,7 +19605,7 @@ Mods: {
 					'''
 					{$CommonItemTooltip.SummonTagDamage}
 					{$CommonItemTooltip.Whips}
-					攻击敌人可召唤出一只友方血龙
+					攻击敌人可召唤出一只友方血腥僵尸
 					'''
 			}
 
@@ -23564,47 +23564,47 @@ Mods: {
 
 		NewBeginningsSupport: {
 			GraveRobber: {
-				DisplayName: Grave Robber
-				Flavor: To those with a keen eye, gold gleams like a dagger's point.
-				Description: Starts with a gravedigger set, a gravedigger's shovel, a glittering chalice, and a (stolen) ring with lower max life at a marked grave.
+				DisplayName: 盗墓贼
+				Flavor: 对于目光敏锐的人，金子细微的亮光就像刀尖一样显眼。
+				Description: 以掘墓者铲子，掘墓者套装,闪光圣杯,一个(偷来的)戒指，和较低的生命值在墓地开始，
 			}
 
 			Medic: {
-				DisplayName: Medic
-				Flavor: A welcome sight for the wounded, they work to ensure their allies make it out of any fight alive.
-				Description: Starts with a partial set of novice cleric's armor, a medical bag, a bonesaw, and 300 syringes.
+				DisplayName: 医疗兵
+				Flavor: 伤员中最受欢迎的景象，他们努力确保他们的队友在任何战斗中幸存下来。
+				Description: 以一部分牧师学徒套装，医疗包,骨锯和300个注射器开始。
 			}
 
 			Minstrel: {
-				DisplayName: Minstrel
-				Flavor: A wandering vagabond, weaving magic through music to inspire allies and bring down foes.
-				Description: Starts with a full set of crier's armor, two random instruments, and additional starting inspiration in exchange for lower max life.
+				DisplayName: 吟游诗人
+				Flavor: 一个漫游的漂泊者，通过音乐编织魔法来激励队友打倒敌人。
+				Description: 以传讯员套装,两个随机乐器开始,拥有更高的初始灵感值，生命值则较低。
 			}
 
 			Occultist: {
-				DisplayName: Occultist
-				Flavor: A dissident scholar in communion with dark forces.
-				Description: Starts with a palm cross and leech bolt tome, and a hexing talisman, mysterious cape, and scowl, with additional mana but lower max life. Permanently empowers certain radiant attacks with dark energy.
+				DisplayName: 神秘学家
+				Flavor: 与黑暗势力有联系的异端学者。
+				Description: 以棕榈十字架和汲血牙，巫咒护符，神秘披风和怒容开始，具有更高的的魔力值和更低的生命值。永久腐化你的光辉法术。
 			}
 
 			Ronin: {
-				DisplayName: Ronin
-				Flavor: "'Today one must be better than yesterday, and tomorrow better than today. The pursuit of perfection is a lifelong quest that has no end.'"
-				Description: Starts with a wandering set, a katana, and a leather sheath. Sheath strikes charge twice as fast while standing still, but all non-sheath strike attacks deal no damage.
+				DisplayName: 浪人
+				Flavor: "'今日之我比昨日之我技艺精进，而明日之我比今日之我再进一筹。一生日日上进，以道来说，则永无终止。'"
+				Description: 以浪人套装，武士刀和皮革剑鞘开始。站立不动时剑鞘准备速度翻倍，但剑鞘攻击之外的攻击无法造成伤害
 			}
 		}
 
 		SpiritReforgedSupport: {
 			BatPot: {
-				DisplayName: Bat Pot
-				Description: A unique pot from the Blood Chamber with a variety of useful goodies.
+				DisplayName: 蝙蝠罐
+				Description: 一个来自鲜血密室的独特罐子，里面有各种有用的东西。
 			}
 		}
 
 		CombatText: {
-			HealStreak: "{0} life heal streak"
-			CloseCall: Close call
-			Freebie: Freebie!
+			HealStreak: "{0}生命治疗量"
+			CloseCall: 死里逃生
+			Freebie: 赠品!
 		}
 	}
 }
