@@ -19610,44 +19610,44 @@ Mods: {
 			}
 
 			BloodCell: {
-				DisplayName: Blood Cell
-				Tooltip: "'A writhing mass of viscera'"
+				DisplayName: 血细胞
+				Tooltip: "'一大堆扭动的脏腑'"
 			}
 
 			IncandescentAlacrity: {
-				DisplayName: Incandescent Alacrity
+				DisplayName: 炽热敏捷
 				Tooltip:
 					'''
-					'An orb imbued with the swiftness of a fox spirit'
-					Increases movement acceleration & jump height, as well as fall speed when holding DOWN
-					Slowly generate up to {0} spirit flames which allow you to perform a dash towards your cursor
-					Press the '{$Keybinds.AccessoryAbility.DisplayName}' key to perform the dash
+					'这个宝玉灌注着狐妖的迅捷'
+					增加移动加速度和跳跃高度, 按住下键可以快速下落
+					缓慢生成最多{0}个灵焰，允许你消耗灵焰向光标处冲刺
+					按下'{$Keybinds.AccessoryAbility.DisplayName}'键进行冲刺
 					'''
 			}
 
 			RandomInstrument: {
-				DisplayName: Random Instrument
+				DisplayName: 随机乐器
 				Tooltip: ""
 			}
 
 			ManaInjectionKit: {
-				DisplayName: Mana Injection Kit
+				DisplayName: 魔力注射剂
 				Tooltip:
 					'''
-					'Not recommended for squeamish sorcerers'
-					Mana potions no longer recover mana and instead cost {0}% of their mana value to use
-					When drinking mana potions, you gain decaying magic damage instead of mana sickness
-					Duration and damage stack with potion uses, and scale with cost of the potion up to {1}%
+					'不建议神经脆弱的巫师使用'
+					魔力药水不再回复魔力，而是消耗{0}%原本回复的魔力
+					使用魔力药水时,获得逐渐衰减的魔法伤害提高效果，而不是魔力疾病减益
+					增益时间和伤害增幅可堆叠,随药水消耗的魔力量增加，增幅最高可达到{1}%
 					'''
-				ManaPotionTooltip: Costs {0} mana to drink, but grants [c/{1}:{2}%] decaying magic damage
+				ManaPotionTooltip: 饮用后消耗{0}魔力值,增加[c/{1}:{2}%]魔法伤害，增益效果随时间衰减
 			}
 
 			FrostPelter: {
-				DisplayName: Frost Pelter
+				DisplayName: 霜掷
 				Tooltip:
 					'''
-					Uses Snowballs as ammunition
-					Attacks might frostburn the target briefly
+					使用雪球作为弹药
+					攻击可能会短暂霜冻目标
 					'''
 			}
 		}
