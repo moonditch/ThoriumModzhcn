@@ -1629,47 +1629,47 @@ Mods: {
 			}
 
 			TwilightBoost: {
-				DisplayName: Twilight Boost
-				Description: An ally is augmenting your on-hit effects
+				DisplayName: 暮色绽放
+				Description: 一名队友强化了你的命中效果
 			}
 
 			BannerDamage: {
 				DisplayName: 战争令旗
-				Description: Taking {0}% more minion and sentry damage
+				Description: 仆从与哨兵对附近敌人的伤害增加{0}%
 			}
 
 			BannerBounty: {
 				DisplayName: 赏金令旗
-				Description: Generates coins when hit by summon damage
+				Description: 使附近的敌人受到召唤伤害时掉落钱币
 			}
 
 			Slowed: {
-				DisplayName: Slowed
+				DisplayName: Slowed（占位符新）
 				Description: Movement is slowed!
 			}
 
 			BannerPrecision: {
 				DisplayName: 精准令旗
-				Description: Chance to be critically struck by minion and sentry damage
+				Description: 仆从与哨兵攻击脆弱的敌人时有概率暴击
 			}
 
 			BannerPower: {
 				DisplayName: 力量令旗
-				Description: Taking {0}% more whip damage
+				Description: 敌人受到的鞭子伤害增加{0}%
 			}
 
 			ThrombosisBuff: {
-				DisplayName: Bloodling
+				DisplayName: Bloodling（占位符新）
 				Description: The bloodling will assist you
 			}
 
 			ThrombosisDebuff: {
-				DisplayName: Thrombosis
+				DisplayName: Thrombosis（占位符新）
 				Description: "{$CommonItemTooltip.SummonTagDamage}"
 			}
 
 			ManaInjectionKitBuff: {
-				DisplayName: Mana Injection
+				DisplayName: Mana Injection（占位符新）
 				Description: Magic damage increased
 				Damage: Magic damage increased by {0}%
 			}
@@ -1690,7 +1690,7 @@ Mods: {
 			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName}击败后"
 			DownedIllusionist: "{$NPCs.Illusionist.DisplayName}击败后"
 			DownedOgre: boss击败后
-			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!
+			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!（占位符新）
 			HasInspiration: 当玩家拥有{0}及以上的灵感值
 			CompletedCookRecipe: 当玩家提供了足够的原料给{$NPCs.Cook.DisplayName}
 			NotInBeachSnowDesert: 玩家不在海洋、雪或沙漠生物群落中
@@ -1701,8 +1701,8 @@ Mods: {
 			NotInMasterMode: 不在大师模式下
 			WorldHasBloodAltar: 这个世界有鲜血祭坛
 			WorldHasNoBloodAltarOrDownedViscount: 这个世界没有鲜血祭坛或{$Conditions.DownedViscount}
-			WorldIsCrimsonOrHardmode: World is Crimson or in Hardmode
-			WorldIsCorruptionOrHardmode: World is Corruption or in Hardmode
+			WorldIsCrimsonOrHardmode: 世界是猩红或进入困难模式
+			WorldIsCorruptionOrHardmode: 世界是腐化或进入困难模式
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -2610,7 +2610,7 @@ Mods: {
 				Tooltip:
 					'''
 					扔出一个穿透性黑檀铃鼓
-					右键掷出的铃鼓并伤害敌人（等待wiki）
+					右键掷出的铃鼓并伤害敌人
 					'''
 			}
 
@@ -5319,9 +5319,9 @@ Mods: {
 			MrUniversePants.DisplayName: 宇宙先生的裤子
 			MrUniverseSuit.DisplayName: 宇宙先生的服饰
 			PhonicWings.DisplayName: 无声羽翼
-			ProspectorHeadgear.DisplayName: Prospector's Headgear
-			ProspectorShorts.DisplayName: Prospector's Shorts
-			ProspectorVest.DisplayName: Prospector's Vest
+			ProspectorHeadgear.DisplayName: 探矿者头饰（占位符新）
+			ProspectorShorts.DisplayName: 探矿者短裤（占位符新）
+			ProspectorVest.DisplayName: 探矿者背心（占位符新）
 			ShinobiGi.DisplayName: 忍者束腰宽松服
 			ShinobiMask.DisplayName: 忍者面具
 			ShinobiTreads.DisplayName: 忍者靴
@@ -6048,7 +6048,7 @@ Mods: {
 				GeomancersBrushStage: {
 					Fire: 火
 					Earth: 土
-					Wind: 风（wiki）
+					Wind: 风
 				}
 			}
 
@@ -6493,7 +6493,7 @@ Mods: {
 					Ichor: 灵液
 					Crystal: 水晶
 					Shadow: 暗影
-					Death: 死亡（wiki）
+					Death: 死亡
 				}
 			}
 
@@ -6514,7 +6514,7 @@ Mods: {
 			}
 
 			MediumRareSteak: {
-				DisplayName: 三分熟牛排（占位符，更新）
+				DisplayName: 三分熟牛排（占位符新）
 				Tooltip:
 					'''
 					'非常适合龙的成长饮食……我想？'
@@ -7933,7 +7933,7 @@ Mods: {
 				SetBonus:
 					'''
 					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会将你包裹在密不透风发泡泡中
-					当泡泡存在时, 将所有受到的伤害转化为治疗（wiki）
+					当泡泡存在时, 将所有受到的伤害转化为治疗
 					'''
 			}
 
@@ -9370,7 +9370,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把由纯粹的黑暗制作的镰刀
-					造成伤害时会为附近队友的攻击注入暗夜能量（等待wiki）
+					造成伤害时会为附近队友的攻击注入暗夜能量
 					'''
 			}
 
@@ -9531,7 +9531,7 @@ Mods: {
 			}
 
 			IridescentHelmet: {
-				DisplayName: 光耀头盔（占位符，更新）
+				DisplayName: 光耀头盔（占位符新）
 				Tooltip: 增加16%光辉伤害
 				SetBonus:
 					'''
@@ -9574,7 +9574,7 @@ Mods: {
 			}
 
 			LeechBolt: {
-				DisplayName: 汲血牙（占位符，更新）
+				DisplayName: 汲血牙（占位符新）
 				Tooltip: 发射血牙，从第一个命中的敌人身上偷取生命
 			}
 
@@ -10175,13 +10175,13 @@ Mods: {
 				DisplayName: 暗影杖
 				Tooltip:
 					'''
-					发射不稳定的暗影能量，发射速度随着你的受伤程度增加（占位符）
+					发射不稳定的暗影能量，发射速度随着你的受伤程度增加
 					消耗生命值的一半会给予到生命值最低的队友
 					'''
 			}
 
 			ShieldDroneBeacon: {
-				DisplayName: 护盾无人机信标（中wiki无介绍翻译）
+				DisplayName: 护盾无人机信标
 				Tooltip:
 					'''
 					召唤一个护盾无人机快速为队友施加护盾
@@ -10368,7 +10368,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把血镰刀
 					释放吸血的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入生命偷取特性（等待wiki）
+					镰刀造成伤害时会为你附近队友的攻击注入生命偷取特性
 					'''
 			}
 
@@ -10378,7 +10378,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把带负面效果的镰刀
 					释放腐化火焰的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入暗夜能量（等待wiki）
+					镰刀造成伤害时会为你附近队友的攻击注入暗夜能量
 					'''
 			}
 
@@ -10397,7 +10397,7 @@ Mods: {
 			}
 
 			TwilightStaff: {
-				DisplayName: 黄昏法杖(占位符，更新)
+				DisplayName: 黄昏法杖
 				Tooltip:
 					'''
 					左键消耗魔力释放治疗能量球
@@ -10553,7 +10553,7 @@ Mods: {
 			}
 
 			ChampionsTrifectaShot: {
-				DisplayName: 英灵的三元圣弓（占位符，更新）
+				DisplayName: 英灵的三元圣弓
 				Tooltip: 将木箭转化为变化的元素之箭
 			}
 
@@ -10573,10 +10573,10 @@ Mods: {
 			}
 
 			Flurry: {
-				DisplayName: 暴风雪（占位符，更新）
+				DisplayName: 暴风雪
 				Tooltip:
 					'''
-					'Unleash a flurry of ice!'
+					'解放一场冰雨!'
 					攻击会给予目标短暂的霜冻减益
 					'''
 			}
@@ -11089,18 +11089,18 @@ Mods: {
 			}
 
 			MythrilStaff: {
-				DisplayName: 秘银法杖（占位符更新,下面三个）
-				Tooltip: 射出一波追踪敌人的弹幕
+				DisplayName: 秘银法杖
+				Tooltip: 射出追踪敌人的弹幕
 			}
 
 			OrichalcumStaff: {
 				DisplayName: 山铜法杖
-				Tooltip: 射出一波强力花瓣
+				Tooltip: 射出强力花瓣
 			}
 
 			PalladiumStaff: {
 				DisplayName: 钯金法杖
-				Tooltip: 射出分裂成多个碎片的能量
+				Tooltip: 射出分裂成多碎片的能量
 			}
 
 			SpectralBlade: {
@@ -13208,7 +13208,7 @@ Mods: {
 
 
 			CoalBrick: {
-				DisplayName: 煤砖（占位符更新*2）
+				DisplayName: 煤砖
 				Tooltip: ""
 			}
 
@@ -13846,7 +13846,7 @@ Mods: {
 				Tooltip:
 					'''
 					'不断渗漏….'
-					仅在下方有其他 {0} 块海洋块时才会漏水（等待wiki）
+					仅在下方有其他 {0} 块海洋块时才会漏水
 					'''
 			}
 
@@ -16265,7 +16265,7 @@ Mods: {
 			}
 
 			BattleBanner: {
-				DisplayName: 战争令旗（占位符）
+				DisplayName: 战争令旗
 				Tooltip: 召唤一面旗帜，使仆从与哨兵对附近敌人的伤害增加{0}%
 			}
 
@@ -16289,8 +16289,8 @@ Mods: {
 			}
 
 			PiousBanner: {
-				DisplayName: Pious Banner
-				Tooltip: Summons a banner that rapidly stuns enemies within its radius
+				DisplayName: 虔诚令旗
+				Tooltip: 召唤出一面旗帜，迅速使其范围内的敌人陷入昏迷状态。
 			}
 
 			PowerBanner: {
@@ -18234,7 +18234,6 @@ Mods: {
 					将你化形为一只金鱼
 					化形时，你变得更小并可以自由游泳
 					化形时无法使用常规物品
-
 					'''
 			}
 
@@ -18503,44 +18502,44 @@ Mods: {
 			}
 
 			CausticHeadgear: {
-				DisplayName: Caustic Headgear
+				DisplayName: 腐蚀头饰
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			CausticLeggings: {
-				DisplayName: Caustic Leggings
+				DisplayName: 腐蚀连裤
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			CausticRobe: {
-				DisplayName: Caustic Robe
+				DisplayName: 腐蚀长袍
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			ChunkyGreaves: {
-				DisplayName: Chunky Greaves
+				DisplayName: 厚重护胫
 				Tooltip: ""
 			}
 
 			ChunkyHelmet: {
-				DisplayName: Chunky Helmet
+				DisplayName: 厚重头盔
 				Tooltip: ""
 			}
 
 			ChunkyMail: {
-				DisplayName: Chunky Mail
+				DisplayName: 厚重铠甲
 				Tooltip: ""
 			}
 
@@ -18550,56 +18549,56 @@ Mods: {
 			}
 
 			LegendaryChainmail: {
-				DisplayName: Legendary Chainmail
+				DisplayName: 传奇锁甲
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			LegendaryGreaves: {
-				DisplayName: Legendary Greaves
+				DisplayName: 传奇护腿
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			LegendaryHelmet: {
-				DisplayName: Legendary Helmet
+				DisplayName: 传奇头盔
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			LightAutomatonLeggings: {
-				DisplayName: Light Automaton Leggings
+				DisplayName: 轻质自动机紧身裤
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			LightAutomatonMask: {
-				DisplayName: Light Automaton Mask
+				DisplayName: 轻质自动机面具
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			LightAutomatonNuvaArmor: {
-				DisplayName: Light Automaton Nuva-Armor
+				DisplayName: 轻质自动机铠甲
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
@@ -18645,20 +18644,20 @@ Mods: {
 			}
 
 			MaroonMageHat: {
-				DisplayName: Maroon Mage Hat
+				DisplayName: 褐红色巫师帽
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			MaroonMageRobe: {
-				DisplayName: Maroon Mage Robe
+				DisplayName: 褐红色巫师长袍
 				Tooltip:
 					'''
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
@@ -18698,72 +18697,72 @@ Mods: {
 			}
 
 			SpaceDwarfBeard: {
-				DisplayName: Space Dwarf Beard
+				DisplayName: 太空矮人胡须
 				Tooltip:
 					'''
-					'By the Beard!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'以胡须为界!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			SpaceDwarfBoots: {
-				DisplayName: Space Dwarf Boots
+				DisplayName: 太空矮人靴
 				Tooltip:
 					'''
-					'Leave no dwarf behind!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'别让任何一个矮人掉队!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			SpaceDwarfHeadset: {
-				DisplayName: Space Dwarf Headset
+				DisplayName: 太空矮人头戴式耳机
 				Tooltip:
 					'''
-					'Galaxy's finest!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'别让任何一个矮人掉队!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			SpaceDwarfSuit: {
-				DisplayName: Space Dwarf Suit
+				DisplayName: 太空矮人服装
 				Tooltip:
 					'''
-					'Rock and Stone!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'岩石与石头!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			Sundress: {
-				DisplayName: Sundress
+				DisplayName: 背心裙
 				Tooltip:
 					'''
-					'Best worn on a nice, sunny day!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'最适合在阳光明媚日子里穿着!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			Sunhat: {
-				DisplayName: Sunhat
+				DisplayName: 遮阳帽
 				Tooltip:
 					'''
-					'Best worn on a nice, sunny day!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'最适合在阳光明媚日子里穿着!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
 			SunnySandals: {
-				DisplayName: Sunny Sandals
+				DisplayName: 日光凉鞋
 				Tooltip:
 					'''
-					'Best worn on a nice, sunny day!'
-					Thorium Vanity Contest {0} Winner!
-					Set by: {1}
+					'最适合在阳光明媚日子里穿着!'
+					瑟银时装大赛 {0} 获胜者!
+					来自: {1}
 					'''
 			}
 
@@ -19484,7 +19483,7 @@ Mods: {
 			}
 
 			BuildingBlock: {
-				DisplayName: Building Block
+				DisplayName: 建筑方块
 				Tooltip: ""
 			}
 
@@ -19572,37 +19571,41 @@ Mods: {
 			}
 
 			HemogoblinSharkToothNecklace: {
-				DisplayName: Hemogoblin Shark Tooth Necklace
-				Tooltip: Increases armor penetration by {0}
+				DisplayName: 血浆哥布林鲨牙项链
+				Tooltip: 护甲穿透增加 {0}
 			}
 
 			LargeCoralVase: {
-				DisplayName: Large Coral Vase
-				Tooltip: Right click to cycle styles
+				DisplayName: 大型珊瑚花瓶
+				Tooltip: 右键点击可切换样式
 			}
 
 			CurtainWall: {
-				DisplayName: Curtain Wall
-				Tooltip: "'Best used with deep paints!'"
+				DisplayName: 幕墙
+				Tooltip: "'与深色颜料搭配使用效果最佳！'"
 			}
 
 			EvergreenFence: {
-				DisplayName: Evergreen Wood Fence
+				DisplayName: 常青木栅栏
 				Tooltip: ""
 			}
 
 			ChromaticFury: {
-				DisplayName: Chromatic Fury
-				Tooltip: Unleashes a barrage of chromatic energy
+				DisplayName: 彩色狂怒
+				Tooltip:
+					'''
+					释放出一股绚烂的能量流
+					[击败光之女王后公主售卖]
+					'''
 			}
 
 			Thrombosis: {
-				DisplayName: Thrombosis
+				DisplayName: 血栓
 				Tooltip:
 					'''
 					{$CommonItemTooltip.SummonTagDamage}
 					{$CommonItemTooltip.Whips}
-					Strike enemies to summon a friendly bloodling
+					攻击敌人可召唤出一只友方血龙
 					'''
 			}
 
