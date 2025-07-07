@@ -1653,7 +1653,7 @@ Mods: {
 				Description: 僕從與哨兵攻擊脆弱的敵人時有概率暴擊
 			}
 
-			BannerPower:　{
+			BannerPower: {
 				DisplayName: 力量令旗
 				Description: 敵人受到的鞭子傷害增加{0}%
 			}
@@ -1671,7 +1671,7 @@ Mods: {
 			ManaInjectionKitBuff: {
 				DisplayName: 魔力注入
 				Description: 魔法傷害提高
-				Damage: 魔法傷害提高　{0}%
+				Damage: 魔法傷害提高{0}%
 			}
 		}
 
