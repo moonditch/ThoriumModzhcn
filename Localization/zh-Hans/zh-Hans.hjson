@@ -1644,8 +1644,8 @@ Mods: {
 			}
 
 			Slowed: {
-				DisplayName: Slowed（占位符新）
-				Description: Movement is slowed!
+				DisplayName: 缓慢
+				Description: 行动迟缓！
 			}
 
 			BannerPrecision: {
@@ -1843,7 +1843,7 @@ Mods: {
 					'''
 					按下“包裹”键会将你置于坚固的壳中
 					被包裹时，你会免疫所有伤害，但无法对敌人造成伤害
-					被包裹时，你无法移动，无法使用物品和治疗药水（占位符）
+					被包裹时，你无法移动，无法使用物品和治疗药水
 					离开壳后的 {0} 秒内无法再次使用壳
 					[c/70DB93:获取方式：击败遗忘之主(宝藏袋)获得]
 					'''
@@ -8278,7 +8278,7 @@ Mods: {
 			}
 
 			TheSet: {
-				DisplayName: 大鼓套组（占位符，更新）
+				DisplayName: 大鼓套组
 				Tooltip:
 					'''
 					'任何东西中都能感受到节奏……'
@@ -9531,7 +9531,7 @@ Mods: {
 			}
 
 			IridescentHelmet: {
-				DisplayName: 光耀头盔（占位符新）
+				DisplayName: 光耀头盔
 				Tooltip: 增加16%光辉伤害
 				SetBonus:
 					'''
@@ -23483,13 +23483,13 @@ Mods: {
 		BuilderToggles: {
 			BirdFeederSeedToggle: {
 				Name: "{$ItemName.Seed} collection for {$Items.BirdFeederGrounded.DisplayName}"
-				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name} on"
-				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name} off"
+				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name} 开启"
+				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name} 关闭"
 			}
 		}
 
 		MusicDisplaySupport: {
-			ModName: Thorium Mod
+			ModName: 瑟银模组
 
 			AHeroNoMore: {
 				Title: A Hero No More

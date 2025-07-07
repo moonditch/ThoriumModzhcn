@@ -1,305 +1,305 @@
 ItemNameReplacements: {
 	ThoriumMod: {
 		Steel: {
-			Original: 钢
-			Replacement: 铁匠的钢
+			Original: 鋼
+			Replacement: 鐵匠的鋼
 		}
 	}
 }
 
 Items: {
 	ApolliumAxe: {
-		DisplayName: 阿波罗斧
+		DisplayName: 阿波羅斧
 		Tooltip: ""
 	}
 
 	ApolliumBar: {
-		DisplayName: 阿波罗锭
+		DisplayName: 阿波羅錠
 		Tooltip: ""
 	}
 
 	ApolliumChestplate: {
-		DisplayName: 阿波罗胸甲
+		DisplayName: 阿波羅胸甲
 		Tooltip:
 			'''
-			增加15%的音波伤害
-			咒音增幅持续时间延长3秒
+			增加15%的音波傷害
+			咒音增幅持續時間延長3秒
 			'''
 	}
 
 	ApolliumCloche: {
-		DisplayName: 阿波罗斗蓬
+		DisplayName: 阿波羅鬥蓬
 		Tooltip:
 			'''
-			增加10%音波暴击率
-			灵感值恢复速度提高15%
+			增加10%音波暴擊率
+			靈感值恢復速度提高15%
 			'''
 	}
 
 	ApolliumDrill: {
-		DisplayName: 阿波罗钻
+		DisplayName: 阿波羅鉆
 		Tooltip: ""
 	}
 
 	ApolliumHammer: {
-		DisplayName: 阿波罗锤
+		DisplayName: 阿波羅錘
 		Tooltip: ""
 	}
 
 	ApolliumHarp: {
-		DisplayName: 信差竖琴
-		Tooltip: 释放出一连串的阿波罗颗粒
+		DisplayName: 信差豎琴
+		Tooltip: 釋放出一連串的阿波羅顆粒
 	}
 
 	ApolliumHorn: {
-		DisplayName: 信使号角
-		Tooltip: 释放两束能量波
+		DisplayName: 信使號角
+		Tooltip: 釋放兩束能量波
 	}
 
 	ApolliumLeggings: {
-		DisplayName: 阿波罗紧身裤
+		DisplayName: 阿波羅緊身褲
 		Tooltip:
 			'''
 			增加15%音波演奏速度
-			增加10%移动速度
+			增加10%移動速度
 			'''
 	}
 
 	ApolliumPickaxe: {
-		DisplayName: 阿波罗镐
+		DisplayName: 阿波羅鎬
 		Tooltip: ""
 	}
 
 	AsclepiteAxe: {
-		DisplayName: 医神斧
+		DisplayName: 醫神斧
 		Tooltip: ""
 	}
 
 	AsclepiteBar: {
-		DisplayName: 医神锭
+		DisplayName: 醫神錠
 		Tooltip: ""
 	}
 
 	AsclepiteChestplate: {
-		DisplayName: 医神胸甲
+		DisplayName: 醫神胸甲
 		Tooltip:
 			'''
-			增加15%光辉伤害
-			减少25%非光辉伤害
-			治疗法术会额外治疗6点生命值
+			增加15%光輝傷害
+			減少25%非光輝傷害
+			治療法術會額外治療6點生命值
 			'''
 	}
 
 	AsclepiteDrill: {
-		DisplayName: 医神钻
+		DisplayName: 醫神鉆
 		Tooltip: ""
 	}
 
 	AsclepiteHammer: {
-		DisplayName: 医神锤
+		DisplayName: 醫神錘
 		Tooltip: ""
 	}
 
 	AsclepiteHelmet: {
-		DisplayName: 医神头盔
+		DisplayName: 醫神頭盔
 		Tooltip:
 			'''
-			增加20%光辉伤害
-			减少25%非光辉伤害
-			治疗法术会额外治疗4点生命值
+			增加20%光輝傷害
+			減少25%非光輝傷害
+			治療法術會額外治療4點生命值
 			'''
 	}
 
 	AsclepiteLeggings: {
-		DisplayName: 医神护腿
+		DisplayName: 醫神護腿
 		Tooltip:
 			'''
-			增加5%光辉伤害
-			减少25%非光辉伤害
-			增加10%移动速度
-			治疗法术会额外治疗2点生命值
+			增加5%光輝傷害
+			減少25%非光輝傷害
+			增加10%移動速度
+			治療法術會額外治療2點生命值
 			'''
 	}
 
 	AsclepiteOre: {
-		DisplayName: 医神矿
+		DisplayName: 醫神礦
 		Tooltip: ""
 	}
 
 	AsclepitePickaxe: {
-		DisplayName: 医神镐
+		DisplayName: 醫神鎬
 		Tooltip: ""
 	}
 
 	AsclepiteScythe: {
-		DisplayName: 医神镰刀
+		DisplayName: 醫神鐮刀
 		Tooltip:
 			'''
-			无视35点防御力
-			这把镰刀是定向挥舞而不是旋转
-			滞留医神碎片
+			無視35點防禦力
+			這把鐮刀是定向揮舞而不是旋轉
+			滯留醫神碎片
 			'''
 	}
 
 	AsclepiteStaff: {
-		DisplayName: 医神法杖
+		DisplayName: 醫神法杖
 		Tooltip:
 			'''
-			释放医神晶体蛇并攻击敌人
-			攻击敌人时会给予治疗球，治疗球可被其他玩家拾取
-			治疗球可追踪附近的队友，但不会回到施法者身上
+			釋放醫神晶體蛇並攻擊敵人
+			攻擊敵人時會給予治療球，治療球可被其他玩家拾取
+			治療球可追蹤附近的隊友，但不會回到施法者身上
 			'''
 	}
 
 	ApolliumOre: {
-		DisplayName: 阿波罗矿
+		DisplayName: 阿波羅礦
 		Tooltip: ""
 	}
 
 	TyphiumAxe: {
-		DisplayName: 堤丰斧
+		DisplayName: 堤豐斧
 		Tooltip: ""
 	}
 
 	TyphiumBar: {
-		DisplayName: 堤丰矿
+		DisplayName: 堤豐礦
 		Tooltip: ""
 	}
 
 	TyphiumChestplate: {
-		DisplayName: 堤丰胸甲
+		DisplayName: 堤豐胸甲
 		Tooltip:
 			'''
-			增加15%投掷伤害
+			增加15%投擲傷害
 			最大技巧值增加1
 			'''
 	}
 
 	TyphiumDrill: {
-		DisplayName: 堤丰钻
+		DisplayName: 堤豐鉆
 		Tooltip: ""
 	}
 
 	TyphiumHammer: {
-		DisplayName: 堤丰锤
+		DisplayName: 堤豐錘
 		Tooltip: ""
 	}
 
 	TyphiumHood: {
-		DisplayName: 堤丰防护罩
+		DisplayName: 堤豐防護罩
 		Tooltip:
 			'''
-			增加15%投掷暴击率
+			增加15%投擲暴擊率
 			最大技巧值增加1
 			'''
 	}
 
 	TyphiumJavelin: {
-		DisplayName: 堤丰枪
-		Tooltip: 留下狂风肆虐的痕迹
+		DisplayName: 堤豐槍
+		Tooltip: 留下狂風肆虐的痕跡
 	}
 
 	TyphiumLeggings: {
-		DisplayName: 堤丰护腿
+		DisplayName: 堤豐護腿
 		Tooltip:
 			'''
-			增加10%移动速度
+			增加10%移動速度
 			最大技巧值增加1
 			'''
 	}
 
 	TyphiumOre: {
-		DisplayName: 堤丰矿
+		DisplayName: 堤豐礦
 		Tooltip: ""
 	}
 
 	TyphiumPickaxe: {
-		DisplayName: 堤丰镐
+		DisplayName: 堤豐鎬
 		Tooltip: ""
 	}
 
 	TyphiumTop: {
-		DisplayName: 堤丰陀螺
+		DisplayName: 堤豐陀螺
 		Tooltip:
 			'''
-			抛出能形成强大龙卷风的旋转陀螺
-			可以同时拥有十个陀螺
+			拋出能形成強大龍卷風的旋轉陀螺
+			可以同時擁有十個陀螺
 			'''
 	}
 }
 
 Projectiles: {
-	ApolliumDrill.DisplayName: 阿波罗钻
-	ApolliumHarp.DisplayName: 阿波罗竖琴
-	ApolliumHorn.DisplayName: 信使号角
-	AsclepiteDrill.DisplayName: 医神钻
-	AsclepiteOrb.DisplayName: 医神矿
-	AsclepiteScythe.DisplayName: 医神镰刀
-	AsclepiteShard.DisplayName: 医神矿碎片
-	AsclepiteSnake.DisplayName: 医神之蛇
-	TyphiumDrill.DisplayName: 提丰钻
-	TyphiumJavelin.DisplayName: 提丰标枪
-	TyphiumTop.DisplayName: 提丰陀螺
-	TyphiumWinds.DisplayName: 提丰之风
+	ApolliumDrill.DisplayName: 阿波羅鉆
+	ApolliumHarp.DisplayName: 阿波羅豎琴
+	ApolliumHorn.DisplayName: 信使號角
+	AsclepiteDrill.DisplayName: 醫神鉆
+	AsclepiteOrb.DisplayName: 醫神礦
+	AsclepiteScythe.DisplayName: 醫神鐮刀
+	AsclepiteShard.DisplayName: 醫神礦碎片
+	AsclepiteSnake.DisplayName: 醫神之蛇
+	TyphiumDrill.DisplayName: 堤豐鉆
+	TyphiumJavelin.DisplayName: 堤豐標槍
+	TyphiumTop.DisplayName: 堤豐陀螺
+	TyphiumWinds.DisplayName: 堤豐之風
 }
 
 Tiles: {
-	ApolliumBar.MapEntry: 阿波罗矿锭
-	ApolliumOre.MapEntry: 阿波罗矿
-	AsclepiteBar.MapEntry: 医神矿锭
-	AsclepiteOre.MapEntry: 医神矿
-	TyphiumBar.MapEntry: 堤丰矿锭
-	TyphiumOre.MapEntry: 堤丰矿
+	ApolliumBar.MapEntry: 阿波羅礦錠
+	ApolliumOre.MapEntry: 阿波羅礦
+	AsclepiteBar.MapEntry: 醫神礦錠
+	AsclepiteOre.MapEntry: 醫神礦
+	TyphiumBar.MapEntry: 堤豐礦錠
+	TyphiumOre.MapEntry: 堤豐礦
 }
 
 Configs: {
 	BalanceConfig: {
-		DisplayName: 平衡设置
+		DisplayName: 平衡設置
 
 		thrower: {
-			Label: 投掷武器伤害倍率
+			Label: 投擲武器傷害倍率
 			Tooltip:
 				'''
-				投掷武器伤害倍率
-				(需要重新启动才能生效!)
+				投擲武器傷害倍率
+				(需要重新開機才能生效!)
 				'''
 		}
 
 		bard: {
-			Label: 吟游诗人武器伤害倍率
+			Label: 吟游詩人武器傷害倍率
 			Tooltip:
 				'''
-				吟游诗人武器伤害倍率
-				(需要重新启动才能生效!)
+				吟游詩人武器傷害倍率
+				(需要重新開機才能生效!)
 				'''
 		}
 
 		radiant: {
-			Label: 牧师武器伤害倍率
+			Label: 牧師武器傷害倍率
 			Tooltip:
 				'''
-				牧师武器伤害倍率
-				(需要重新启动才能生效!)
+				牧師武器傷害倍率
+				(需要重新開機才能生效!)
 				'''
 		}
 
 		soulEssence: {
-			Label: 灵魂精华倍率
+			Label: 靈魂精華倍率
 			Tooltip:
 				'''
-				牧师武器灵魂精华倍率
-				上限为5
-				(需要重新启动才能生效!）
+				牧師武器靈魂精華倍率
+				上限為5
+				(需要重新開機才能生效!)
 				'''
 		}
 
 		healing: {
-			Label: 治疗倍率
+			Label: 治療倍率
 			Tooltip:
 				'''
-				牧师治疗法术倍率
-				数值为0表示治疗法术只能治疗1点生命值
-				(需要重新启动才能生效!）
+				牧師治療法術倍率
+				數值為0表示它只能治療1點生命值
+				(需要重新開機才能生效!)
 				'''
 		}
 	}

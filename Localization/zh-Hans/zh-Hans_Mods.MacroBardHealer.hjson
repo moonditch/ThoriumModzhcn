@@ -237,10 +237,10 @@ Projectiles: {
 	AsclepiteScythe.DisplayName: 医神镰刀
 	AsclepiteShard.DisplayName: 医神矿碎片
 	AsclepiteSnake.DisplayName: 医神之蛇
-	TyphiumDrill.DisplayName: 提丰钻
-	TyphiumJavelin.DisplayName: 提丰标枪
-	TyphiumTop.DisplayName: 提丰陀螺
-	TyphiumWinds.DisplayName: 提丰之风
+	TyphiumDrill.DisplayName: 堤丰钻
+	TyphiumJavelin.DisplayName: 堤丰标枪
+	TyphiumTop.DisplayName: 堤丰陀螺
+	TyphiumWinds.DisplayName: 堤丰之风
 }
 
 Tiles: {
