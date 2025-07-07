@@ -115,6 +115,1565 @@ Mods: {
 			}
 		}
 
+		Buffs: {
+			AbyssalShadowBuff: {
+				CommonDisplayName: 深淵幻影
+				CommonDescription: 有什麼東西在黑暗中盯著你...
+			}
+
+			AbyssalShadowBuff3.Description: 水泛起漣漪……
+
+			AbyssalShellBuff: {
+				DisplayName: 深淵貝殼
+				Description: 深淵貝殼冷却！
+			}
+
+			AbyssalWeight: {
+				DisplayName: 深淵重壓
+				Description: 傷害、防禦和移動速度大幅度降低
+			}
+
+			AirStrikeShieldBuff: {
+				DisplayName: 空援衛盾
+				Description: 所受傷害減少15點
+			}
+
+			AquaAffinity: {
+				DisplayName: 親水性
+				Description: 在水中能以正常速度移動
+			}
+
+			Aquamancer: {
+				DisplayName: 深海法師
+				Description: 魔法傷害和施法速度大幅度增加
+			}
+
+			AquaticAptitude: {
+				DisplayName: 深海之護
+				Description: 四周的水賦予你力量！
+			}
+
+			ArcanePotionBuff: {
+				DisplayName: 奧術能量
+				Description: 魔法和光輝傷害會生成小星星
+			}
+
+			ArtilleryBuff: {
+				DisplayName: 炮兵部隊
+				Description: 增加最大哨兵數量
+			}
+
+			AssassinPotionBuff: {
+				DisplayName: 刺客
+				Description: 脫戰後的首次投擲攻擊必定暴擊並造成4倍傷害
+			}
+
+			AudioOverload: {
+				DisplayName: 音訊超載
+				Description: 音波傷害增加15%
+			}
+
+			ConductorsStandBuff: {
+				DisplayName: 指揮者
+				Description: 咒音增幅的持續時間和效應範圍增加
+			}
+
+			CreativeBlock: {
+				DisplayName: 創意阻塞
+				Description: 那無限的創意停止了.
+			}
+
+			CreativityPotionBuff: {
+				DisplayName: 創意
+				Description: 基礎靈感音符的掉落概率翻倍
+			}
+
+			EarwormPotionBuff: {
+				DisplayName: 耳蟲
+				Description: 咒音增幅持續時間延長25%
+			}
+
+			InspirationReachPotionBuff: {
+				DisplayName: 靈感之觸
+				Description: 靈感音符的拾取距離擴大
+			}
+
+			MaestroSetDebuff: {
+				DisplayName: 隕落合唱團
+				Description: 隕落合唱團正在重新充能
+			}
+
+			MetronomeBuff: {
+				DisplayName: 快節奏
+				Description: 音波傷害和演奏速度增加
+			}
+
+			MetronomeDebuff: {
+				DisplayName: 慢節奏
+				Description: 音波傷害和演奏速度降低
+			}
+
+			ShockAbsorberBuff: {
+				DisplayName: 動能轉化
+				Description: 全傷害增加15%
+			}
+
+			SoloistsHatSetBuff: {
+				DisplayName: 無限創想
+				Description: 你對音樂的把握已不在任何人之下
+			}
+
+			ZunpetBuff: {
+				DisplayName: ZUN號能量
+				Description: 音波傷害增加
+			}
+
+			BatRepellentBuff: {
+				DisplayName: 趨避劑: 蝙蝠
+				Description: 大多數蝙蝠對你而言變得友好了
+			}
+
+			BeetleCarapace: {
+				DisplayName: 甲蟲甲殼
+				Description: 增加傷害減免和反彈它們所造成傷害
+			}
+
+			BlightFever: {
+				DisplayName: 凋零狂熱
+				Description: 毀滅之靈獲得了這個生物的靈魂...
+			}
+
+			BloodHarvest: {
+				DisplayName: 鮮血豐收
+				Description: 目前無法儲存鮮血充能
+			}
+
+			BloodRush: {
+				DisplayName: 熱血沸騰
+				Description: 移動速度和挖掘速度增加15%
+			}
+
+			BloodyWandDebuff: {
+				DisplayName: 血腥
+				Description: 所受到的血矢傷害增加
+			}
+
+			BouncingFlamePotionBuff: {
+				DisplayName: 彈跳火焰
+				Description: 火焰類減益會在敵人之間擴散
+			}
+
+			Bubbled: {
+				DisplayName: 泡泡
+				Description: 你飄走了！
+			}
+
+			CactusFruitBuff: {
+				DisplayName: 美味又扎手
+				Description: 你現在免疫大多數屬性削弱類減益
+			}
+
+			ChaosState: {
+				DisplayName: 混沌狀態: 混沌傳送
+				Description: 你的身體在混沌傳送之後正在自我修復
+			}
+
+			Charmed: {
+				DisplayName: 魅惑
+				Description: 此敵人無法抵抗你的魅力！
+			}
+
+			Chill: {
+				DisplayName: 顫慄
+				Description: 此敵人無法抵抗你的魅力！
+			}
+
+			ChokingAura: {
+				DisplayName: 窒息光環
+				Description: 深海污染了附近的空氣並使其變得劇毒
+			}
+
+			CobblerBuff: {
+				DisplayName: 閃亮皮鞋
+				Description: 移動速度、奔跑加速度和跳躍高度增加
+			}
+
+			ConflagrationPotionBuff: {
+				DisplayName: 不羈放縱愛自由
+				Description: 燃燒的怒火占了上風
+			}
+
+			Corporeal: {
+				DisplayName: 靈魂分離
+				Description: 你的靈魂樞帶正在重新充能
+			}
+
+			Corrosion: {
+				DisplayName: 腐蝕
+				Description: 防禦降低且會持續受到傷害
+			}
+
+			CursedHurl: {
+				DisplayName: 詛咒之擲
+				Description: 你失控了
+			}
+
+			DarknessWithin: {
+				DisplayName: 暗流湧動
+				Description: 只有最強的敵人才能滿足你的欲望
+			}
+
+			DecayingFlesh: {
+				DisplayName: 血肉腐爛
+				Description: 此目標的血肉嚴重腐爛了
+			}
+
+			DeepFreezeCoatingBuff: {
+				DisplayName: 投擲武器灌注: 深度凍結
+				Description: 使用投擲武器攻擊敵人時有幾率大幅度降低其移動速度
+			}
+
+			DepthDiverAura: {
+				DisplayName: Depth Diver Aura
+				Description: You have received increased damage, speed, and underwater breathing
+			}
+
+			Destabilized: {
+				DisplayName: 穩定空間
+				Description: 你的存在正被逐漸抹去
+			}
+
+			DevilDaggerBuff: {
+				DisplayName: 惡魔之舞
+				Description: 額外造成20%魔法傷害
+			}
+
+			EmergencyAirTank: {
+				DisplayName: 緊急空氣瓶
+				Description: 如果到達臨界水準，你的呼吸會得到補充
+			}
+
+			EscapeRocketBuff: {
+				DisplayName: 逃生火箭
+				Description: 全速推進！
+			}
+
+			ExplosiveCoatingBuff: {
+				DisplayName: 投擲武器灌注: 爆炸
+				Description: 使用投擲武器攻擊敵人時有幾率造成爆炸, 點燃附近的敵人
+			}
+
+			FishRepellentBuff: {
+				DisplayName: 趨避劑：魚
+				Description: 大多數魚對你而言變得友好了
+			}
+
+			FlawlessChrysalisDebuff: {
+				DisplayName: 再生（中英wiki無，預留位置）
+				Description: 你的身體不習慣這種形式……
+			}
+
+			FlawlessChrysalisEndBuff: {
+				DisplayName: 釋放
+				Description: 攻擊速度和傷害增加30%
+			}
+
+			FlawlessChrysalisStartBuff: {
+				DisplayName: 幻形
+				Description: 你的力量正逐漸變強！
+			}
+
+			FleshFrenzy: {
+				DisplayName: 血肉狂怒
+				Description: 你的覺得很飽且傷害增加10%
+			}
+
+			Freezing: {
+				DisplayName: 凍結
+				Description: 此敵人的移動速度大幅度降低了
+			}
+
+			FrenzyPotionBuff: {
+				DisplayName: 狂怒
+				Description: 攻擊速度增加8%
+			}
+
+			FullStomach: {
+				DisplayName: 飽食
+				Description: 你吃不下了！
+			}
+
+			FungalGrowth: {
+				DisplayName: 真菌寄生
+				Description: 此目標被大量的真菌感染了
+			}
+
+			GhastlyCarapaceBuff: {
+				DisplayName: 恐懼靈魂
+				Description: 受到致死傷害時會將你光速送回快樂老家而非死亡
+			}
+
+			GorgonCoatingBuff: {
+				DisplayName: 投擲武器灌注: 石化果汁
+				Description: 使用投擲武器攻擊敵人時有幾率使其石化
+			}
+
+			Gouge: {
+				DisplayName: 穿刺
+				Description: 快速損失生命值
+			}
+
+			GraniteSurge: {
+				DisplayName: 能量超載
+				Description: 過度的能量正造成傷害並使防禦降低
+			}
+
+			GraveLimbDebuff: {
+				DisplayName: 血手之握
+				Description: 它在你臉上! 啊啊啊！
+			}
+
+			AltarBuff: {
+				DisplayName: 心靈連結
+				Description: 治療法術會額外治療生命值
+			}
+
+			AuraDamageReduction: {
+				DisplayName: 光環: 傷害減免
+				Description: 傷害減免增加12%
+			}
+
+			BeltoftheQuickResponseBuff: {
+				DisplayName: 速度爆發
+				Description: 在治療一名隊友後會增加你的移動速度和治療速度
+			}
+
+			BloodBoost: {
+				DisplayName: 鮮血渴望
+				Description: 一名隊友強化了你的命中效果
+			}
+
+			BloomBoost: {
+				DisplayName: 繁花
+				Description: 防禦和生命再生速度增加
+			}
+
+			BloomingSetBuff: {
+				DisplayName: 過度生長
+				Description: 生命恢復和生命恢復速率增加
+			}
+
+			BubbleBulwarkWandBuff: {
+				DisplayName: 泡泡壁壘
+				Description: 你所受到的下次攻擊的傷害變為0點
+			}
+
+			CelestialSetAllyBuff: {
+				DisplayName: 光環: 神聖之耀
+				Description: 進攻和防禦屬性大幅度增加
+			}
+
+			CelestialSetDebuff: {
+				DisplayName: 神聖光環
+				Description: 庇護光環環繞著你的游標
+			}
+
+			CosmicFluxStaffDamageBuff: {
+				DisplayName: 光輝新星
+				Description: 光輝傷害增加25%(wiki 30%)
+			}
+
+			CosmicFluxStaffHealBuff: {
+				DisplayName: 治療新星
+				Description: 治療法術會額外治療2點生命值
+			}
+
+			CrystalWishBuff: {
+				DisplayName: 水晶之願
+				Description: 傷害減免增加10%
+			}
+
+			Cured: {
+				DisplayName: 治癒
+				Description: 大多數傷害造成的減益都被消除了
+			}
+
+			DarkContagionDebuff: {
+				DisplayName: 黑暗瘟疫
+				Description: 被一種傳染性的黑暗瘟疫折磨著
+			}
+
+			DarkEffigyBuff: {
+				DisplayName: 雕像之環
+				Description: 受到暗影能量傷害的敵人會治療你
+			}
+
+			DistortedTimeBoost: {
+				DisplayName: 扭曲現實
+				Description: 時間的流動被嚴重的影響了
+			}
+
+			DistortedTimeEnemy: {
+				DisplayName: 扭曲時空
+				Description: 時間正減緩此敵人的速度
+			}
+
+			DragonHeartWandBuff: {
+				DisplayName: 巨龍之心
+				Description: 傷害增加15%
+			}
+
+			DreamCatcherBuff: {
+				DisplayName: 夢境捕捉器
+				Description: 受到致死傷害時會為你保留並回復至滿生命值而非死亡
+			}
+
+			DreamMegaphoneBuff: {
+				DisplayName: 夢想擴音器
+				Description: 傷害增加20%
+			}
+
+			DreamMegaphoneDebuff: {
+				DisplayName: 夢想擴音器
+				Description: 所受傷害增加40%
+			}
+
+			DreamWeaversHoodDebuff: {
+				DisplayName: 清醒
+				Description: 無法入夢...
+			}
+
+			DreamWeaversHoodDreamAllyBuff: {
+				DisplayName: 做夢
+				Description: 免疫大部分傷害和減益
+			}
+
+			DreamWeaversHoodDreamBuff: {
+				DisplayName: 夢
+				Description: 這個令人清醒的世界洗脫了污濁...
+			}
+
+			DreamWeaversMaskBuff: {
+				DisplayName: 扭曲現實
+				Description: 時間的流動被嚴重的影響了
+			}
+
+			DreamWeaversMaskDebuff: {
+				DisplayName: 回流
+				Description: 時間正嘗試追上自己
+			}
+
+			Enfeeble: {
+				DisplayName: 衰弱
+				Description: 所受到的光輝傷害增加10點
+			}
+
+			ForgottenCrossNecklaceBuff: {
+				DisplayName: 神聖之禦
+				Description: 防禦增加14點
+			}
+
+			GlowingPotionBuff: {
+				DisplayName: 光輝能量
+				Description: 光輝傷害增加10%
+			}
+
+			HolyGlare: {
+				DisplayName: 神聖之怒
+				Description: 聖光會淨化不潔的一切！
+			}
+
+			HolyPotionBuff: {
+				DisplayName: 神聖之力
+				Description: 治療法術會額外治療1點生命值
+			}
+
+			KarmicHolderBuff: {
+				DisplayName: 坩堝
+				Description: 光輝傷害增加
+			}
+
+			Liberated: {
+				DisplayName: 解脫
+				Description: 你現在免疫大多數傷害
+			}
+
+			LifeBinderSetBuff: {
+				DisplayName: 迷惑光盾
+				Description: 你的最大生命值增加50
+			}
+
+			LifeQuartzShieldBuff: {
+				DisplayName: 玫瑰色泡泡
+				Description: 一種神秘的力量正保護並治療著你
+			}
+
+			LifeQuartzShieldDebuff: {
+				DisplayName: 泡泡破裂
+				Description: 你的泡泡正在恢復...
+			}
+
+			LifeRecovery: {
+				DisplayName: 生命恢復
+				Description: 持續恢復生命值
+			}
+
+			LifeSpiritBuff: {
+				DisplayName: 生命之靈
+				Description: 過於明亮, 無法直視
+			}
+
+			LilCherubsWandBuff: {
+				DisplayName: 小天使
+				Description: 從你的肩膀飛向後方！
+			}
+
+			LilDevilsWandBuff: {
+				DisplayName: 小惡魔
+				Description: 從你的肩膀飛向前方！
+			}
+
+			MarrowScepterBuff: {
+				DisplayName: 骨質盔甲
+				Description: 傷害減免增加15%
+			}
+
+			Mortality: {
+				DisplayName: 凋零
+				Description: 傷害減免、傷害和移動速度降低20%
+			}
+
+			NullZoneBuff: {
+				DisplayName: 空之領域
+				Description: 彈幕對你造成的傷害降低20%
+			}
+
+			OutofTouch: {
+				DisplayName: 觸距之外
+				Description: 你的額外治療量僅有原先的33%
+			}
+
+			PhoenixStaffBuff: {
+				DisplayName: 費尼克斯
+				Description: 一隻威嚴的生物正盯著你和你的隊友
+			}
+
+			ProtectiveEnergy: {
+				DisplayName: 能量庇護
+				Description: 傷害減免增加5%
+			}
+
+			QuickRecovery: {
+				DisplayName: 迅速再生
+				Description: 生命恢復速率增加20%
+			}
+
+			SerpentsBubbleWandBuff: {
+				DisplayName: 海蛇泡泡
+				Description: 生命恢復速率增加, 傷害減免增加10%
+			}
+
+			ShieldDroneBeaconBuff: {
+				DisplayName: 護盾無人機
+				Description: 從你的肩膀飛向側方！
+			}
+
+			SmitingHammerDebuff: {
+				DisplayName: 烈火
+				Description: 持續受到傷害
+			}
+
+			SoulEssence: {
+				DisplayName: 靈魂精華
+				Description: 根據靈魂精華的層數恢復生命值和法力值
+				Stacks: 每獲得5點靈魂精華，恢復 {0} 生命和 {1} 魔力
+			}
+
+			SpiritualistBuff: {
+				DisplayName: 守護天使
+				Description: 牧師正保護你免受致命傷害
+			}
+
+			SpiritualistProtectionBuff: {
+				DisplayName: 庇護: 守護
+				Description: 傷害減免增加30%
+			}
+
+			SpiritualistRecoveryBuff: {
+				DisplayName: 庇護: 再生
+				Description: 生命再生大幅增加
+			}
+
+			SpiritualistRevengeBuff: {
+				DisplayName: 庇護: 復仇
+				Description: 所有傷害增加15%
+			}
+
+			SupportSashBuff: {
+				DisplayName: 速度爆發
+				Description: 在治療一名隊友後會增加你的移動速度和治療速度
+			}
+
+			TemplarSetBuff: {
+				DisplayName: 治療精通
+				Description: 魔力再生速度、額外治療量和治療速度增加
+			}
+
+			VerdantOrnamentBuff: {
+				DisplayName: 活性激發
+				Description: 生命再生速率增加
+			}
+
+			WhisperingDaggerBuff: {
+				DisplayName: 低語之噬
+				Description: 力量換來的, 是代價！
+			}
+
+			HoneyRecorderDebuff: {
+				DisplayName: 蜂蜜
+				Description: 蜜蜂的最愛...
+			}
+
+			HydrationBuff: {
+				DisplayName: 補水
+				Description: 疲憊狀態和技巧值恢復得更快
+			}
+
+			IlluminatedNPC: {
+				DisplayName: 螢光
+				Description: 此敵人會受到10%額外傷害
+			}
+
+			Insanity: {
+				DisplayName: 癲狂
+				Description: 對附近的敵人造成傷害
+			}
+
+			InsectRepellentBuff: {
+				DisplayName: 趨避劑: 昆蟲
+				Description: 大多數昆蟲對你而言變得友好了
+			}
+
+			JellyBuff: {
+				DisplayName: 美味果凍
+				Description: 生命再生速度增加
+			}
+
+			KineticPotionBuff: {
+				DisplayName: 動能儲存
+				Description: 按兩下方向鍵衝刺
+			}
+
+			LegacyDebuff: {
+				DisplayName: 遺贈之火
+				Description: 若此敵人死亡, 傷害性的能量會被釋放
+			}
+
+			LichSetBuff: {
+				DisplayName: 靈魂收割
+				Description: 移動速度和投擲速度大幅度增加
+			}
+
+			LifeTransfusion: {
+				DisplayName: 生命轉化
+				Description: 禁用生命再生
+			}
+
+			LifeWaterBuff: {
+				DisplayName: 生命之水的禮物
+				Description: 最大生命值和生命再生速度增加
+			}
+
+			LightCurse: {
+				DisplayName: 光之咒
+				Description: 純粹的黑暗溶解了此敵人
+			}
+
+			Liquefied: {
+				DisplayName: 液化
+				Description: 防禦和移動速度降低
+			}
+
+			MagickStaffDebuff: {
+				DisplayName: 元素衰變
+				Description: 被微量泰拉元素所撕裂
+			}
+
+			MasterMarksmansScouterDebuff: {
+				DisplayName: 全景視覺（預留位置）
+				Description: 這個敵人就在刺客的視線之內
+			}
+
+			MidnightOilBuff: {
+				DisplayName: 午夜之油
+				Description: 敵人不會優先以你為攻擊目標
+			}
+
+			MirroroftheBeholderDebuff: {
+				DisplayName: 弱點顯現
+				Description: 此敵人會受到15%額外傷害
+			}
+
+			MistletoeBuff: {
+				DisplayName: 節日問候
+				Description: 生命、魔力和靈感再生速度增加
+			}
+
+			AmphibianEggBuff: {
+				DisplayName: 青蛙
+				Description: 你化形成了一隻青蛙
+			}
+
+			ColeopteraKeepsakeBuff: {
+				DisplayName: 甲蟲
+				Description: 你化形成了一隻會飛的甲蟲
+			}
+
+			CrackedBattleHornBuff: {
+				DisplayName: 戰爭恐狼
+				Description: 騎在恐狼上向戰場衝鋒！
+			}
+
+			CyberneticSphereBuff: {
+				DisplayName: 遙控球
+				Description: 球!
+			}
+
+			DesecratedHeartBuff: {
+				DisplayName: 饑餓野獸
+				Description: 這頭野獸感到無盡的饑餓
+			}
+
+			FakeCoinBuff: {
+				DisplayName: 寶箱怪
+				Description: 你化形成了一隻寶箱怪
+			}
+
+			GoldenScaleBuff: {
+				DisplayName: 金魚
+				Description: 你有鰓和很棒的餅乾味道
+			}
+
+			HowToSpeakWhaleABiographyBuff: {
+				DisplayName: 鯨
+				Description: 這真的值得嗎?
+			}
+
+			MagmaCharmBuff: {
+				DisplayName: 熔岩緩步動物
+				Description: 你化形成了一隻全身冒著火焰的小緩步動物
+			}
+
+			MassiveCrabClawBuff: {
+				DisplayName: 巨蟹
+				Description: 深海生物要小心啦！
+			}
+
+			MediumRareSteakBuff: {
+				DisplayName: 憤怒之龍
+				Description: 請試著忽略煙味...
+			}
+
+			AquamarineMinecartBuff.DisplayName: 海藍寶石礦車
+
+			BathtubCartBuff: {
+				DisplayName: 浴缸礦車
+				Description: 在水中行駛地更快
+			}
+
+			OpalMinecartBuff.DisplayName: 歐珀礦車
+
+			RocketCartBuff: {
+				DisplayName: 火箭礦車
+				Description: 在礦車軌道上行駛地極快
+			}
+
+			MoltenCollarBuff: {
+				DisplayName: 地獄犬
+				Description: 帶著地獄的怒火狂奔吧！
+			}
+
+			NimbusBuff: {
+				DisplayName: 飛龍
+				Description: 感受拂過臉頰的狂風吧！
+			}
+
+			OldDebt: {
+				DisplayName: 熟悉的面孔（預留位置）
+				Description: 舊債正在償還……現在拯救世界!
+			}
+
+			OtherworldlyRuneBuff: {
+				DisplayName: 毀滅戰車
+				Description: 你為這個世界帶來了終焉...
+			}
+
+			SinisterAcornBuff: {
+				DisplayName: 松鼠
+				Description: 你化形成了一隻小松鼠
+			}
+
+			SpectralFangBuff: {
+				DisplayName: 幽冥虎
+				Description: 召喚一隻可騎乘的幽冥虎
+			}
+
+			SuperAnvilBuff: {
+				DisplayName: 超級鐵砧
+				Description: 比你肩上的責任還要重
+			}
+
+			TomeoftheVoidGazersChariotBuff: {
+				DisplayName: 虛空戰車
+				Description: 誰知道它是軟綿綿的?
+			}
+
+			VampireCatalystBuff: {
+				DisplayName: 吸血鬼之禮
+				Description: 你化形成了一隻蝙蝠！
+			}
+
+			MyceliumVeins: {
+				DisplayName: 真菌脈絡
+				Description: 投擲速度增加10%
+			}
+
+			NapalmDebuff: {
+				DisplayName: 汽油凝固
+				Description: 難以承受之溫...
+			}
+
+			NecroticSkullBuff: {
+				DisplayName: 暗蝕之顱
+				Description: 召喚物攻擊會額外造成2點傷害
+			}
+
+			NinjaBuff: {
+				DisplayName: 詭詐之手
+				Description: 投擲速度、投擲的彈幕速度和投擲暴擊率增加
+			}
+
+			EnragedBuff: {
+				DisplayName: 激怒
+				Description: 此敵人會額外造成15%接觸傷害
+			}
+
+			SeaShantySingerBuff: {
+				DisplayName: 快速射擊
+				Description: 此敵人的射擊速度比之前更快
+			}
+
+			SnowSingaBuff: {
+				DisplayName: 重生（預留位置）
+				Description: 敵人正在恢復生命
+			}
+
+			OceansBuffer: {
+				DisplayName: 海洋庇佑
+				Description: 將傷害轉化為治療
+			}
+
+			OceansBufferExhaust: {
+				DisplayName: 海洋庇佑冷卻
+				Description: 你的海洋庇護正在冷卻中
+			}
+
+			Oozed: {
+				DisplayName: 分泌物
+				Description: 移動速度顯著降低
+			}
+
+			Paralyzed: {
+				DisplayName: 麻痹
+				Description: 此敵人在短時間內無法移動！
+			}
+
+			PearlPikeBuff: {
+				DisplayName: 榮耀
+				Description: 你的機動性被強化了
+			}
+
+			AbyssalWhistleBuff: {
+				DisplayName: 深淵兔
+				Description: 這個可憐的小傢伙可能是最後一隻..
+			}
+
+			AlienResearchNotesBuff: {
+				DisplayName: 研究探機
+				Description: 小動物要當心...
+			}
+
+			AmnesiacBuff: {
+				DisplayName: 失憶女孩
+				Description: 別離她太遠！
+			}
+
+			AncientRatBuff: {
+				DisplayName: 遠古鼠
+				Description: 就連老鼠也是遠古的嗎? 是的！
+			}
+
+			AnglerBowlBuff: {
+				DisplayName: 小琵琶魚
+				Description: 這個小傢伙不喜歡黑暗
+			}
+
+			BalloonBallBuff: {
+				DisplayName: 浣熊女孩
+				Description: 別離她太遠！
+			}
+
+			BioFeederBuff: {
+				DisplayName: 生物吞食者
+				Description: 真是奇怪的生物...
+			}
+
+			BlisterBuff: {
+				DisplayName: 飛行皰蟲
+				Description: 它是不會離開你的！
+			}
+
+			BloodSausageBuff: {
+				DisplayName: 懶惰蝙蝠
+				Description: 看起來款待過於多了...
+			}
+
+			ChaoticMarbleBuff: {
+				DisplayName: 混沌生物
+				Description: 他真可愛, 但他是從哪來的...?
+			}
+
+			ClownfishPetBuff: {
+				DisplayName: 小丑魚
+				Description: 不要嘲笑他...
+			}
+
+			DavyJonesLockBoxBuff: {
+				DisplayName: 海神寶盒
+				Description: 金幣之海無窮無盡！
+			}
+
+			DemosGuidanceBuff: {
+				DisplayName: 再生心燈
+				Description: 它在持續釋放著令人心曠神怡的光環
+			}
+
+			DiscardedClothBuff: {
+				DisplayName: 靈智布匹
+				Description: 小小鬼魂. 小小南瓜.
+			}
+
+			DiverPlushieBuff: {
+				DisplayName: 水母公主
+				Description: 至少這個還沒法吃了你！
+			}
+
+			DoomSayersPennyBuff: {
+				DisplayName: 末日預言者的便士
+				Description: 至少已經結束了, 對吧t?
+			}
+
+			DrachmaBuff: {
+				DisplayName: 古怪鑄幣
+				Description: 德拉克馬現在用處不大...
+			}
+
+			EmptyWormholePotionBuff: {
+				DisplayName: 無用之友
+				Description: 額...他們甚至不會幫我打架！
+			}
+
+			EnergizedQuadCubeBuff: {
+				DisplayName: 盈能四立方
+				Description: 嘣, 花崗岩流能風暴的俄羅斯方塊！
+			}
+
+			ExoticMynaEggBuff: {
+				DisplayName: 異國八哥
+				Description: 這只特別的鳥寶寶喜歡你！
+			}
+
+			Experiment3Buff: {
+				DisplayName: 實驗體三號
+				Description: 慶倖它現在還不是成年體吧...
+			}
+
+			FerretBuff: {
+				DisplayName: 雪貂
+				Description: 這個小傢伙喜歡搖擺！
+			}
+
+			FrozenBalloonBuff: {
+				DisplayName: 霜凍氣球
+				Description: 對尖銳攻擊和飛鏢抗性很高
+			}
+
+			GlassShardBuff: {
+				DisplayName: 玻璃碎塊
+				Description: 你發誓你在玻璃裡看到了傻笑...
+			}
+
+			HolyGoatBuff: {
+				DisplayName: 神聖山羊
+				Description: 它有著金色的輝光, 所以它一定很棒！
+			}
+
+			LilMogBuff: {
+				DisplayName: 小貓
+				Description: 他真可愛, 不是嗎?
+			}
+
+			LittlePhylacteryBuff: {
+				DisplayName: 小死靈法師
+				Description: 這小玩意的強度遠大於它外表所展現...
+			}
+
+			MaidBuff: {
+				DisplayName: 小女僕
+				Description: 這裡似乎沒啥可清掃的...
+			}
+
+			ModelGunBuff: {
+				DisplayName: 抒情詩人
+				Description: 一位無聲的詩人正看著你的背後
+			}
+
+			OmegaBuff: {
+				DisplayName: 奧米茄
+				Description: 升騰矩陣: 啟動
+			}
+
+			PartridgeBuff: {
+				DisplayName: 鷓鴣
+				Description: 一隻鷓鴣正在跟著你
+			}
+
+			PickleBuff: {
+				DisplayName: 狗狗
+				Description: 或許是...先生?
+			}
+
+			PinkSlimeBuff: {
+				DisplayName: 粉紅史萊姆
+				Description: 它真漂亮！
+			}
+
+			RottenMeatBuff: {
+				DisplayName: 飛蟲
+				Description: 他喜歡屠殺！
+			}
+
+			SkunkBuff: {
+				DisplayName: 臭鼬
+				Description: 不要嚇到他, 否則你會後悔的...
+			}
+
+			SnowyOwlBuff: {
+				DisplayName: 迷失雪鴞
+				Description: 看樣子某些人永遠無法收到他們的信件了...
+			}
+
+			StormCloudBuff: {
+				DisplayName: 風暴雲
+				Description: 我們需要這場雨...
+			}
+
+			SubterraneanAnglerBuff: {
+				DisplayName: 深海琵琶魚
+				Description: 也許它看起來很噁心, 但它喜歡你！
+			}
+
+			SuspiciousMoisturizerBottleBuff: {
+				DisplayName: 活手
+				Description: 讓我們幫他們一手, 夥計！
+			}
+
+			SweetBeetBuff: {
+				DisplayName: 甜菜曲奇
+				Description: 無論你跑到哪裡, 它們始終會跟著你
+			}
+
+			SwordOfDestinyBuff: {
+				DisplayName: 命運之劍
+				Description: 不要向上看...
+			}
+
+			TentacleBallBuff: {
+				DisplayName: 觸手球
+				Description: 觸手的末端在哪? 軀體的前端在哪?
+			}
+
+			TortleScuteBuff: {
+				DisplayName: 龜仙人
+				Description: 他年事已高
+			}
+
+			WhisperingShellBuff: {
+				DisplayName: 低語之殼
+				Description: 似乎有人在看你...
+			}
+
+			WyvernPetBuff: {
+				DisplayName: 小飛龍
+				Description: 它雖然小, 但他奉獻了一切
+			}
+
+			Petrify: {
+				DisplayName: 石化
+				Description: 此敵人無法做出反應！
+			}
+
+			PhylacteryBuff: {
+				DisplayName: 巫妖援助
+				Description: 受到致死傷害時會為你保留並回復至25%生命值而非死亡
+			}
+
+			PotentExtractBuff: {
+				DisplayName: 幻覺
+				Description: 某些東西不對勁...
+			}
+
+			PurifiedWaters: {
+				DisplayName: 純淨之水
+				Description: .{$Biomes.DepthsBiome.DisplayName}已經被淨化，水在某種程度上可以呼吸了
+			}
+
+			RapierBadgeBuff: {
+				DisplayName: 反擊
+				Description: 反擊時間到！
+			}
+
+			RapierBuff: {
+				DisplayName: 防守姿態
+				Description: 所受傷害降低10%
+			}
+
+			RealityBearer: {
+				DisplayName: 現實守護者
+				Description: 這個世界已經在你的保護之下。不要讓任何人忘記…
+			}
+
+			RefreshingBubble: {
+				DisplayName: 乾淨的泡泡（預留位置）
+				Description: 吸入泡泡能讓你多呼吸幾口氣!
+			}
+
+			RevivalExhaustion: {
+				DisplayName: 復活冷卻
+				Description: 無法使用大多數的免死和復活技能
+			}
+
+			SandshroudPouchBuff: {
+				DisplayName: 悠悠庇護
+				Description: 你所受到的下次攻擊的傷害會降低
+			}
+
+			SandshroudPouchDebuff: {
+				DisplayName: 悠悠庇護冷卻
+				Description: 當前無法觸發悠悠庇護
+			}
+
+			SchmelzeDebuff: {
+				DisplayName: 熔岩之怒
+				Description: 正在損失生命值
+			}
+
+			SeedofHopeBuff: {
+				DisplayName: 希望之種
+				Description: 生命恢復和移動速度增加
+			}
+
+			ShambleBallDebuff: {
+				DisplayName: 束縛
+				Description: 你被附近的鎖鏈球銬住了
+			}
+
+			SheathBuff: {
+				DisplayName: 劍鞘
+				Description: 利刃, 準備出鞘
+			}
+
+			Singed: {
+				DisplayName: 燒焦
+				Description: 只是受到了嚴重的燒傷
+			}
+
+			SkeletonRepellentBuff: {
+				DisplayName: 趨避劑: 骷髏
+				Description: 大多數骷髏對你而言變得友好了
+			}
+
+			SpearmintDebuff: {
+				DisplayName: 蛇咬
+				Description: 正在損失生命值
+			}
+
+			SpectralBladeBuff: {
+				DisplayName: 附魔
+				Description: 你的魔法能力被大幅強化了
+			}
+
+			SpiritsGraceBuff: {
+				DisplayName: 魂靈恩典
+				Description: 從容面對那場失敗
+			}
+
+			SporeCoatingBuff: {
+				DisplayName: 投擲武器灌注: 孢子
+				Description: 使用投擲武器攻擊敵人時有幾率使其感染
+			}
+
+			Spored: {
+				DisplayName: 孢子
+				Description: 若此敵人死亡, 則釋放更多的孢子
+			}
+
+			Staggered: {
+				DisplayName: 頭暈眼花
+				Description: 你的頭暈導致你無法跳躍
+			}
+
+			StrangeSkullDebuff: {
+				DisplayName: 報應
+				Description: 蓋火鍋！
+			}
+
+			Stunned: {
+				DisplayName: 暈眩
+				Description: 此敵人被暈眩了, 無法移動
+			}
+
+			ArsenalStaffBuff: {
+				DisplayName: 軍械法杖
+				Description: 向敵人釋放你的武器
+			}
+
+			BeholderStaffBuff: {
+				DisplayName: 凝視
+				Description: 注視者會凝視並消滅你的敵人
+			}
+
+			BlobhornCoralStaffBuff: {
+				DisplayName: 水滴魚
+				Description: 可愛還是醜陋? 由你來決定...
+			}
+
+			BloodPact: {
+				DisplayName: 血契
+				Description: 與惡魔做了個神秘的交易...
+			}
+
+			BloodyPaganStaffBuff: {
+				DisplayName: 怪臉
+				Description: 將撕裂. 你的敵人. 粉碎吧！
+			}
+
+			ButterflyStaffBuff: {
+				DisplayName: 蝴蝶群
+				Description: 總的來說, 蝴蝶對敵人們是個巨大的威脅
+			}
+
+			CorrodlingStaffBuff: {
+				DisplayName: 侵蝕體
+				Description: 敵人面對這小傢伙將毫無還手之力！
+			}
+
+			CorruptlingStaffBuff: {
+				DisplayName: 噬魂者
+				Description: 不是所有的腐化生物都想吞噬靈魂...
+			}
+
+			CrimsonHoundStaffBuff: {
+				DisplayName: 血腥獵犬
+				Description: 儘管沒有嘴, 但獵犬始終能找到一種進食方式...
+			}
+
+			DraconicMagmaStaffBuff: {
+				DisplayName: 熔岩之龍
+				Description: 你的敵人將毫無機會
+			}
+
+			EmberStaffBuff: {
+				DisplayName: 熔渣
+				Description: 這玩意散發出的熱量快把你烤熟了...
+			}
+
+			EnchantedCaneBuff: {
+				DisplayName: 附魔屏障
+				Description: 魔法屏障保護著你
+			}
+
+			EyeofOdinBuff: {
+				DisplayName: 奧丁之眼
+				Description: 強大的眼球正準備電死你的敵人！
+			}
+
+			HailBomberBuff: {
+				DisplayName: 冰雹爆破者
+				Description: 它大概不會傷害它們, 別擔心...
+			}
+
+			IceFairyStaffBuff: {
+				DisplayName: 冰精靈
+				Description: 你的敵人最好穿了保暖大衣！
+			}
+
+			LadyLightBuff: {
+				DisplayName: 閃耀之星
+				Description: 召喚迷惑性的破壞性的亮粉色閃光
+			}
+
+			LivingWoodAcornBuff: {
+				DisplayName: 芽孢的忠誠
+				Description: 這個小東西為了保護世界奉獻了它的一切
+			}
+
+			MantisCaneBuff: {
+				DisplayName: 利刃螳螂
+				Description: 男性同胞小心了！
+			}
+
+			MastersLibramBuff: {
+				DisplayName: 注魔咒書
+				Description: 亂射法術的咒書幫助著你
+			}
+
+			MeteorHeadStaffBuff: {
+				DisplayName: 流星頭
+				Description: 流星頭決定與你一起工作
+			}
+
+			NebulaReflectionBuff: {
+				DisplayName: 鏡像
+				Description: 鏡像幫助著你
+			}
+
+			PrehistoricAmberStaffBuff: {
+				DisplayName: 橫衝直撞
+				Description: 這些恐龍瘋了！
+			}
+
+			RosySlimeStaffBuff: {
+				DisplayName: 玫瑰史萊姆
+				Description: 幾乎和小粉一樣殘忍
+			}
+
+			SeahorseWandBuff: {
+				DisplayName: 海馬
+				Description: 在路上有一堆泡泡！
+			}
+
+			SteamgunnerControllerBuff: {
+				DisplayName: 蒸汽無人機
+				Description: 無人機僅執行一個程式: 射擊東西
+			}
+
+			StormHatchlingStaffBuff: {
+				DisplayName: 小鷹
+				Description: 這小鳥管你叫媽媽！
+			}
+
+			TabooWandBuff: {
+				DisplayName: 崛起之陰
+				Description: 他準備好開啟一場骷髏盛宴！
+			}
+
+			TerrariumEnigmaStaffBuff: {
+				DisplayName: 謎團
+				Description: 無盡的光芒從這複雜的謎團中散發出來...
+			}
+
+			TheBlackCaneBuff: {
+				DisplayName: 李的武器
+				Description: 一些從墳墓裡挖出來的李最喜歡的武器...
+			}
+
+			ValkyrieBladeBuff: {
+				DisplayName: 瓦爾基裡聖刃
+				Description: 劍刃有其自己的意志...
+			}
+
+			ViscountCaneBuff: {
+				DisplayName: 飲血者
+				Description: 它對鮮血的渴望無法被填滿
+			}
+
+			YarnBallBuff: {
+				DisplayName: 小貓咪
+				Description: 啃咬和抓傷將成為他們的末日
+			}
+
+			Sundered: {
+				DisplayName: 剝離
+				Description: 受到的傷害增加 10%
+			}
+
+			TerrariumBacklash: {
+				DisplayName: 元素反擊
+				Description: 被泰拉元素所撕裂
+			}
+
+			TerrariumDefenderBuff: {
+				DisplayName: 元素之吻
+				Description: 泰拉瑞亞的力量整在治癒你
+			}
+
+			BloodLotus: {
+				DisplayName: 血蓮
+				Description: 釋放汲血洪流
+			}
+
+			LastStandBuff: {
+				DisplayName: 背水一戰
+				Description: 投擲速度和傷害增加30%, 但代價是什麼呢...
+			}
+
+			Sprint: {
+				DisplayName: 全速衝刺
+				Description: 你跑的更快了！
+			}
+
+			ThrowingSpeed: {
+				DisplayName: 急速爆發
+				Description: 投擲速度增加15%
+			}
+
+			ToxicCoatingBuff: {
+				DisplayName: 投擲武器灌注: 劇毒
+				Description: 使用投擲武器攻擊敵人時有幾率使其中毒
+			}
+
+			TrueStrike: {
+				DisplayName: 弱點打擊
+				Description: 你的攻擊必定造成暴擊
+			}
+
+			TrueStrikeTired: {
+				DisplayName: 極度疲憊
+				Description: 傷害降低10%
+			}
+
+			Tuned: {
+				DisplayName: 調諧
+				Description: 所受傷害增加10%
+			}
+
+			ValadiumSetBuff: {
+				DisplayName: 引力精通
+				Description: 遠程傷害增加15%
+			}
+
+			VampiresCurseBuff: {
+				DisplayName: 吸血鬼之咒
+				Description: 你被強行變成了一隻虛弱的蝙蝠！
+			}
+
+			WarmongerBuff: {
+				DisplayName: 好戰者
+				Description: 敵人的刷怪率增加
+			}
+
+			WidowsKiss: {
+				DisplayName: 黑寡婦之吻
+				Description: 一種致命的劇毒在你的身體裡流淌！
+			}
+
+			WindBurst: {
+				DisplayName: 狂風爆發
+				Description: 你的工具速度增加15%
+			}
+
+			Wither: {
+				DisplayName: 枯萎
+				Description: 枯 萎 吧 !!！
+			}
+
+			ZombieRepellentBuff: {
+				DisplayName: 趨避劑: 僵屍
+				Description: 大多數僵屍對你而言變得友好了
+			}
+
+			AmpedUp: {
+				Description: 暴擊率增加6%
+				DisplayName: 擴音
+			}
+
+			PurifiersRingBuff: {
+				DisplayName: 淨化者戒指
+				Description: 從現在起黑暗將不再擴散……
+			}
+
+			MoleCrateBuff: {
+				DisplayName: 骷髏貓
+				Description: 是時候進行一次超級動物大冒險了
+			}
+
+			ScytheofUndoingBuff: {
+				DisplayName: 滅世之鐮
+				Description: 被暗影能量染指…
+			}
+
+			FrozenTiaraBuff: {
+				Description: 它在這兒不感覺冷嗎……？
+				DisplayName: 冰凍皇冠
+			}
+
+			SorcerersDiceDebuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName}"
+				Description: 骰子正在重新充能……
+			}
+
+			SorcerersDiceBuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
+				Description: 無限魔力且施法速度增加{0}%
+			}
+
+			TwilightBoost: {
+				DisplayName: 暮色綻放
+				Description: 一名隊友強化了你的命中效果
+			}
+
+			BannerDamage: {
+				DisplayName: 戰爭令旗
+				Description: 僕從與哨兵對附近敵人的傷害增加{0}%
+			}
+
+			BannerBounty: {
+				DisplayName: 賞金令旗
+				Description: 使附近的敵人受到召喚傷害時掉落錢幣
+			}
+
+			Slowed: {
+				DisplayName: 緩慢
+				Description: 行動遲緩！
+			}
+
+			BannerPrecision: {
+				DisplayName: 精準令旗
+				Description: 僕從與哨兵攻擊脆弱的敵人時有概率暴擊
+			}
+
+			BannerPower:　{
+				DisplayName: 力量令旗
+				Description: 敵人受到的鞭子傷害增加{0}%
+			}
+
+			ThrombosisBuff: {
+				DisplayName: 血腥僵尸
+				Description: 血腥僵尸会帮助你的
+			}
+
+			ThrombosisDebuff: {
+				DisplayName: 栓塞血管
+				Description: "{$CommonItemTooltip.SummonTagDamage}"
+			}
+
+			ManaInjectionKitBuff: {
+				DisplayName: 魔力注入
+				Description: 魔法傷害提高
+				Damage: 魔法傷害提高　{0}%
+			}
+		}
 
 		Conditions: {
 			DonatorItemToggled: 在瑟銀的 {$Configs.ThoriumConfigServer.DisplayName} 中啟用
