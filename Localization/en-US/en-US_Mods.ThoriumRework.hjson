@@ -841,7 +841,11 @@ Configs: {
 
 		eternityModeOnly: {
 			Label: Eternity mode only
-			Tooltip: The reworks from this mod only applies when eternity mode is active
+			Tooltip:
+				'''
+				The boss reworks from this mod only applies when eternity mode is active
+				Also changes master weapon drops (if enabled) into eternity weapon drops
+				'''
 		}
 	}
 

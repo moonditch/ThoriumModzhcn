@@ -452,8 +452,8 @@ Items: {
 	}
 
 	DeathsingerPotion: {
-		DisplayName: Deathsinger Potion死亡歌者药水
-		Tooltip: 7% increased symphonic damage and playing speed增加7%音波伤害和音波演奏速度
+		DisplayName: 死亡歌者药水
+		Tooltip: 增加7%音波伤害和音波演奏速度
 	}
 
 	ExecutionersContract: {
@@ -489,8 +489,8 @@ Items: {
 	}
 
 	InspirationRegenerationPotion: {
-		DisplayName: Inspiration Regeneration Potion灵感恢复药水
-		Tooltip: Increased inspiration regeneration增加灵感恢复速度
+		DisplayName: 灵感恢复药水
+		Tooltip: 增加灵感恢复速度
 	}
 
 	JellyfishJam: {
@@ -540,6 +540,7 @@ Items: {
 			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
 			不使用武器时，生成幻影仆从为你而战
 			"对梦和噩梦的非理性恐惧的表现"
+			[c/ab40ff:-真实伤害-]
 			'''
 	}
 
@@ -660,7 +661,7 @@ Buffs: {
 	}
 
 	TerminalLucidity: {
-		DisplayName: *[c/FF7F00:混乱的现实]*
+		DisplayName: "[c/FF7F00:混乱的现实]"
 		Description:
 			'''
 			[c/FF7F00:-BOSS攻击方式-]
@@ -674,7 +675,7 @@ Buffs: {
 	}
 
 	LucidRetaliation: {
-		DisplayName: *[c/FF7F00:恢复的现实]*
+		DisplayName: "[c/FF7F00:恢复的现实]"
 		Description:
 			'''
 			[c/FF7F00:-BOSS攻击方式-]
@@ -840,7 +841,11 @@ Configs: {
 
 		eternityModeOnly: {
 			Label: 仅限永恒模式
-			Tooltip: 模组的内容重置只在永恒模式开启时生效
+			Tooltip:
+				'''
+				模组中BOSS的重制内容仅在永恒模式开启时生效
+				如果启用大师掉落的武器在永恒模式也会掉落
+				'''
 		}
 	}
 

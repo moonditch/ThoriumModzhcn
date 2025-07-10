@@ -840,7 +840,11 @@ Configs: {
 
 		eternityModeOnly: {
 			Label: 僅限永恆模式
-			Tooltip: 模組的內容重置只在永恆模式開啟時生效
+			Tooltip:
+				'''
+				模組中BOSS的重製內容僅在永恆模式開啓時生效
+				如果啓用大師掉落的武器在永恆模式也會掉落
+				'''
 		}
 	}
 
