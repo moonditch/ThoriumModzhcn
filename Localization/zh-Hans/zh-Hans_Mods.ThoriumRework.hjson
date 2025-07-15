@@ -241,6 +241,24 @@ NPCRenames: {
 	DreamEater: 泯灭现实·噬梦者
 }
 
+Toggler: {
+	BandofCratons: Power Surge
+	BannerofWar: Rally Banner
+	QueenJellyPin: Regal Tentacles
+	SierraChimera: Sierra Chimera
+	StarScoutReticle: Blink Dash
+	ValkyrienSkyStone: Valkyrien Sky Stone
+	VampireCape: Bat Swarm Transformation
+	ZephyrWings: Zephyr Synergy
+}
+
+ActiveSkills: {
+	VampireCape: {
+		DisplayName: Bat Swarm
+		Tooltip: Transform into a swarm of bats which follow your cursor
+	}
+}
+
 InfernumIntros: {
 	Aquaius:
 		'''
@@ -319,6 +337,8 @@ Projectiles: {
 	AquaiusBubble.DisplayName: 泡泡
 	AquaiusPunchAttack.DisplayName: 潮汐之手
 	AquaiusWhirlpool.DisplayName: 无尽涡流
+	BannerofWar.DisplayName: Banner of War
+	BandofCratons.DisplayName: Band of Cratons
 	BeamSaber.DisplayName: 激光剑
 	BeholderBlade.DisplayName: 注视者之刃
 	BiteyBaby.DisplayName: 贪食小蝙蝠
@@ -391,6 +411,7 @@ Projectiles: {
 	Paylode.DisplayName: 电磁载荷
 	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	QueenJellyPin.DisplayName: Queen Jelly-Pin
 	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
@@ -409,6 +430,7 @@ Projectiles: {
 	ValadiumRay.DisplayName: 虚空射线
 	ValadiumSlash.DisplayName: 虚空斩击
 	ValadiumSlicer.DisplayName: 虚金切割者
+	VampireCape.DisplayName: Vampire Bat
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
@@ -422,6 +444,40 @@ Projectiles: {
 }
 
 Items: {
+	BandofCratons: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Grants immunity to Overflowed and makes your attacks inflict it
+			Grants a passive 40 shield
+			Restores player resources based on the amount of shield lost
+			Losing more than 20 shield creates an electric shock that destroys 3 nearby projectiles
+			{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.Tooltip}
+			'''
+	}
+
+	BandofCratonsCosmetic: {
+		DisplayName: Band of Cratons
+		Tooltip: '''"Durable enough to withstand continental drift"'''
+	}
+
+	BannerofWar: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Damage and bonus healing slowly increases over time while in combat
+			These bonuses gradually fade when out of combat
+			While in combat, periodically emit a healing pulse that heals allies equal to bonus healing
+			The frequency of the pulses increases the longer you are in combat
+			Bard empowerment range affects the range of the healing pulse
+			'''
+	}
+
+	BannerofWarCosmetic: {
+		DisplayName: Banner of War
+		Tooltip: ""
+	}
+
 	BeholderBlade: {
 		DisplayName: 凝视者之刃
 		Tooltip:
@@ -525,25 +581,6 @@ Items: {
 		Tooltip: 取消牧师盔甲带来的非光辉伤害削减
 	}
 
-	Oneirophobia: {
-		DisplayName: 恐梦症
-		Tooltip:
-			'''
-			释放多种类的幻影武器
-			第一，二次攻击时，武器会变成一把幻影剑
-			第一次攻击会产生强烈的冲击波，第二次攻击会产生三个冲击波
-			第三次攻击时，武器的刀刃脱落并向前抛出
-			然后武器会变成一把幻影镰刀
-			第四次攻击时，镰刀旋转并释放追踪敌怪的光束
-			第五次攻击时，武器会变成幻影魔杖
-			释放不稳定的能量球，并在一段时间后爆炸
-			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
-			不使用武器时，生成幻影仆从为你而战
-			"对梦和噩梦的非理性恐惧的表现"
-			[c/ab40ff:-真实伤害-]
-			'''
-	}
-
 	RedCresent: {
 		DisplayName: 绯红新月
 		Tooltip:
@@ -563,6 +600,42 @@ Items: {
 	MagicalHarp: {
 		DisplayName: "{$ItemName.MagicalHarp}"
 		Tooltip: ""
+	}
+
+	Oneirophobia: {
+		DisplayName: 恐梦症
+		Tooltip:
+			'''
+			释放多种类的幻影武器
+			第一，二次攻击时，武器会变成一把幻影剑
+			第一次攻击会产生强烈的冲击波，第二次攻击会产生三个冲击波
+			第三次攻击时，武器的刀刃脱落并向前抛出
+			然后武器会变成一把幻影镰刀
+			第四次攻击时，镰刀旋转并释放追踪敌怪的光束
+			第五次攻击时，武器会变成幻影魔杖
+			释放不稳定的能量球，并在一段时间后爆炸
+			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
+			不使用武器时，生成幻影仆从为你而战
+			"对梦和噩梦的非理性恐惧的表现"
+			[c/ab40ff:-真实伤害-]
+			'''
+	}
+
+	QueenJellyPin: {
+		DisplayName: "{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Grants immunity to Bubbled
+			Summons tentacles around you that latches onto enemies
+			Tentacle damage increases based on defense
+			Tentacles boost life and resource regeneration on hit
+			{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.Tooltip}
+			'''
+	}
+
+	QueenJellyPinCosmetic: {
+		DisplayName: Queen Jelly-Pin
+		Tooltip: '''"Up and next to your head!"'''
 	}
 
 	PickShapedPebble: {
@@ -621,9 +694,63 @@ Items: {
 			'''
 	}
 
+	SierraChimera: {
+		DisplayName: Sierra Chimera
+		Tooltip:
+			'''
+			Grants immunity to [i:ThoriumRework/QueenJellyPin]Bubbled, [i:ThoriumRework/VampireCape]Bleeding and [i:ThoriumRework/VampireCape]Vampire's Curse
+			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit
+			[i:ThoriumRework/QueenJellyPin] Tentacle damage increases based on defense
+			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
+			[i:ThoriumRework/ZephyrWings] Grappling in the air with Zephyr's Grip's hatchling extends flight time
+			[i:ThoriumRework/ZephyrWings] Zephyr's Grip's hatchling can be summoned again after gliding for a bit, dealing damage replenishes it faster
+			'''
+	}
+
+	StarScoutReticle: {
+		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Allows breathing in space and grants night vision
+			Dashing teleports you a few blocks forward
+			Does not work on special dashes
+			Gives you a dash if you don't have one already
+			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
+			'''
+	}
+
+	StarScoutReticleCosmetic: {
+		DisplayName: Star Scout Reticle
+		Tooltip: '''"Afraid of the dark? Don't worry, you have me!"'''
+	}
+
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	ValkyrienSkyStone: {
+		DisplayName: Valkyrien Sky Stone
+		Tooltip:
+			'''
+			[i:ThoriumRework/StarScoutReticle] Allows breathing in space and grants night vision
+			[i:ThoriumRework/StarScoutReticle] Dashing teleports you a few blocks forward and gives you a dash if you don't have one yet
+			[i:ThoriumRework/BannerofWar] Damage and bonus healing increases over time while in combat but gradually fade when out of combat
+			[i:ThoriumRework/BannerofWar] While in combat, periodically emit a healing pulse that heals allies equal to bonus healing, bard empowerment range affects the range of the pulse
+			[i:ThoriumRework/BannerofWar] The frequency of the pulses increases the longer you are in combat
+			[i:ThoriumRework/BandofCratons] Grants a passive 40 shield, immunity to Overflowed and makes your attacks inflict it
+			[i:ThoriumRework/BandofCratons] Restores player resources based on the amount of shield lost, losing more than 20 shield creates an electric shock that destroys 3 projectiles
+			'''
+	}
+
+	VampireCape: {
+		DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
+		Tooltip: Grants immunity to bleeding and Vampire's Curse
+	}
+
+	VampireCapeCosmetic: {
+		DisplayName: Vampire Bat Cape
+		Tooltip: ""
 	}
 
 	ZephyrsRuin: {
@@ -635,6 +762,26 @@ Items: {
 			暴击会立即释放一次闪电
 			不会增加疲惫值
 			"人们说闪电不会在同一个地方击中两次"
+			'''
+	}
+
+	ZephyrWings: {
+		DisplayName: "{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.Tooltip}
+			Grappling in the air with Zephyr's Grip's hatchling extends flight duration
+			Zephyr's Grip's hatchling can be summoned again after gliding for a while
+			Dealing damage allows the hatchling to be resummonable much sooner
+			'''
+	}
+
+	ZephyrWingsCosmetic: {
+		DisplayName: Zephyr Wings
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			Same stats as {$ItemName.CreativeWings}
 			'''
 	}
 }
@@ -686,6 +833,11 @@ Buffs: {
 			[c/FF7F00:允许无限飞行]
 			[c/FF7F00:"等待命运..."]
 			'''
+	}
+
+	VampireCape: {
+		DisplayName: Vampire Bat Swarm
+		Description: You are a swarm of vampiric bats
 	}
 }
 
@@ -845,6 +997,7 @@ Configs: {
 				'''
 				模组中BOSS的重制内容仅在永恒模式开启时生效
 				如果启用大师掉落的武器在永恒模式也会掉落
+				此外，瑟银BOSS现在可以掉落永恒模式的饰品
 				'''
 		}
 	}

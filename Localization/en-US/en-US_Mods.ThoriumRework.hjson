@@ -241,6 +241,24 @@ NPCRenames: {
 	DreamEater: Dying Reality, The Ragnarök
 }
 
+Toggler: {
+	BandofCratons: Power Surge
+	BannerofWar: Rally Banner
+	QueenJellyPin: Regal Tentacles
+	SierraChimera: Sierra Chimera
+	StarScoutReticle: Blink Dash
+	ValkyrienSkyStone: Valkyrien Sky Stone
+	VampireCape: Bat Swarm Transformation
+	ZephyrWings: Zephyr Synergy
+}
+
+ActiveSkills: {
+	VampireCape: {
+		DisplayName: Bat Swarm
+		Tooltip: Transform into a swarm of bats which follow your cursor
+	}
+}
+
 InfernumIntros: {
 	Aquaius:
 		'''
@@ -319,6 +337,8 @@ Projectiles: {
 	AquaiusBubble.DisplayName: Bubble
 	AquaiusPunchAttack.DisplayName: Hands of Tide
 	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
+	BannerofWar.DisplayName: Banner of War
+	BandofCratons.DisplayName: Band of Cratons
 	BeamSaber.DisplayName: Beam Saber
 	BeholderBlade.DisplayName: Will of Coznix
 	BiteyBaby.DisplayName: Bitey Baby
@@ -331,7 +351,7 @@ Projectiles: {
 	ChampionSliceF.DisplayName: Buried Shock
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	ChampionWarHorn.DisplayName: Champion's War Horn
+	ChampionWarHorn.DisplayName: Champion's Warhorn
 	ConcussiveInstrument.DisplayName: Concussive Instrument
 	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
@@ -397,6 +417,7 @@ Projectiles: {
 	Paylode.DisplayName: Magnetic Payload
 	PrimesFury.DisplayName: Prime's Fury
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	QueenJellyPin.DisplayName: Queen Jelly-Pin
 	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
@@ -416,6 +437,7 @@ Projectiles: {
 	ValadiumRay.DisplayName: Void Ray
 	ValadiumSlash.DisplayName: Void Slash
 	ValadiumSlicer.DisplayName: Valadium Slicer
+	VampireCape.DisplayName: Vampire Bat
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
@@ -429,6 +451,40 @@ Projectiles: {
 }
 
 Items: {
+	BandofCratons: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Grants immunity to Overflowed and makes your attacks inflict it
+			Grants a passive 40 shield
+			Restores player resources based on the amount of shield lost
+			Losing more than 20 shield creates an electric shock that destroys 3 nearby projectiles
+			{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.Tooltip}
+			'''
+	}
+
+	BandofCratonsCosmetic: {
+		DisplayName: Band of Cratons
+		Tooltip: '''"Durable enough to withstand continental drift"'''
+	}
+
+	BannerofWar: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Damage and bonus healing slowly increases over time while in combat
+			These bonuses gradually fade when out of combat
+			While in combat, periodically emit a healing pulse that heals allies equal to bonus healing
+			The frequency of the pulses increases the longer you are in combat
+			Bard empowerment range affects the range of the healing pulse
+			'''
+	}
+
+	BannerofWarCosmetic: {
+		DisplayName: Banner of War
+		Tooltip: ""
+	}
+
 	BeholderBlade: {
 		DisplayName: Will of Coznix
 		Tooltip:
@@ -441,7 +497,7 @@ Items: {
 	}
 
 	ChampionWarHorn: {
-		DisplayName: Champion's War Horn
+		DisplayName: Champion's Warhorn
 		Tooltip:
 			'''
 			Shoots a homing war echo
@@ -528,24 +584,6 @@ Items: {
 		Tooltip: Negates non-radiant damage penalties caused by healer armor
 	}
 
-	Oneirophobia: {
-		DisplayName: Oneirophobia
-		Tooltip:
-			'''
-			Creates a lucid apparition that function like random weapons
-			On the first two attacks, the weapon transforms into a sword
-			The first swing creates a fierce shockwave, the second creates three 
-			On the third attack, the weapon's blade detaches and is thrown forward
-			The weapon then transforms into a scythe
-			On the fourth attack, the weapon is spun and releases homing bolts
-			On the fifth attack, the weapon transforms into a magic staff
-			It then shoots a ball of volatile energy that explodes some time later
-			On the sixth attack, the weapon transforms into a laser gun with aimbot
-			Turns into a sentient synthesizer minion when stowed, attacking enemies
-			"The manifestation of the irrational fear of dreams and nightmares"
-			'''
-	}
-
 	RedCresent: {
 		DisplayName: Red Crescent
 		Tooltip:
@@ -565,6 +603,41 @@ Items: {
 	MagicalHarp: {
 		DisplayName: "{$ItemName.MagicalHarp}"
 		Tooltip: ""
+	}
+
+	Oneirophobia: {
+		DisplayName: Oneirophobia
+		Tooltip:
+			'''
+			Creates a lucid apparition that function like random weapons
+			On the first two attacks, the weapon transforms into a sword
+			The first swing creates a fierce shockwave, the second creates three 
+			On the third attack, the weapon's blade detaches and is thrown forward
+			The weapon then transforms into a scythe
+			On the fourth attack, the weapon is spun and releases homing bolts
+			On the fifth attack, the weapon transforms into a magic staff
+			It then shoots a ball of volatile energy that explodes some time later
+			On the sixth attack, the weapon transforms into a laser gun with aimbot
+			Turns into a sentient synthesizer minion when stowed, attacking enemies
+			"The manifestation of the irrational fear of dreams and nightmares"
+			'''
+	}
+
+	QueenJellyPin: {
+		DisplayName: "{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Grants immunity to Bubbled
+			Summons tentacles around you that latches onto enemies
+			Tentacle damage increases based on defense
+			Tentacles boost life and resource regeneration on hit
+			{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.Tooltip}
+			'''
+	}
+
+	QueenJellyPinCosmetic: {
+		DisplayName: Queen Jelly-Pin
+		Tooltip: '''"Up and next to your head!"'''
 	}
 
 	PickShapedPebble: {
@@ -623,9 +696,63 @@ Items: {
 			'''
 	}
 
+	SierraChimera: {
+		DisplayName: Sierra Chimera
+		Tooltip:
+			'''
+			Grants immunity to [i:ThoriumRework/QueenJellyPin]Bubbled, [i:ThoriumRework/VampireCape]Bleeding and [i:ThoriumRework/VampireCape]Vampire's Curse
+			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit
+			[i:ThoriumRework/QueenJellyPin] Tentacle damage increases based on defense
+			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
+			[i:ThoriumRework/ZephyrWings] Grappling in the air with Zephyr's Grip's hatchling extends flight time
+			[i:ThoriumRework/ZephyrWings] Zephyr's Grip's hatchling can be summoned again after gliding for a bit, dealing damage replenishes it faster
+			'''
+	}
+
+	StarScoutReticle: {
+		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Allows breathing in space and grants night vision
+			Dashing teleports you a few blocks forward
+			Does not work on special dashes
+			Gives you a dash if you don't have one already
+			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
+			'''
+	}
+
+	StarScoutReticleCosmetic: {
+		DisplayName: Star Scout Reticle
+		Tooltip: '''"Afraid of the dark? Don't worry, you have me!"'''
+	}
+
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	ValkyrienSkyStone: {
+		DisplayName: Valkyrien Sky Stone
+		Tooltip:
+			'''
+			[i:ThoriumRework/StarScoutReticle] Allows breathing in space and grants night vision
+			[i:ThoriumRework/StarScoutReticle] Dashing teleports you a few blocks forward and gives you a dash if you don't have one yet
+			[i:ThoriumRework/BannerofWar] Damage and bonus healing increases over time while in combat but gradually fade when out of combat
+			[i:ThoriumRework/BannerofWar] While in combat, periodically emit a healing pulse that heals allies equal to bonus healing, bard empowerment range affects the range of the pulse
+			[i:ThoriumRework/BannerofWar] The frequency of the pulses increases the longer you are in combat
+			[i:ThoriumRework/BandofCratons] Grants a passive 40 shield, immunity to Overflowed and makes your attacks inflict it
+			[i:ThoriumRework/BandofCratons] Restores player resources based on the amount of shield lost, losing more than 20 shield creates an electric shock that destroys 3 projectiles
+			'''
+	}
+
+	VampireCape: {
+		DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
+		Tooltip: Grants immunity to bleeding and Vampire's Curse
+	}
+
+	VampireCapeCosmetic: {
+		DisplayName: Vampire Bat Cape
+		Tooltip: ""
 	}
 
 	ZephyrsRuin: {
@@ -637,6 +764,26 @@ Items: {
 			Critical strikes smite enemies on initial hit
 			Does not exhaust you
 			"They say lightning never strikes the same place twice"
+			'''
+	}
+
+	ZephyrWings: {
+		DisplayName: "{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.Tooltip}
+			Grappling in the air with Zephyr's Grip's hatchling extends flight duration
+			Zephyr's Grip's hatchling can be summoned again after gliding for a while
+			Dealing damage allows the hatchling to be resummonable much sooner
+			'''
+	}
+
+	ZephyrWingsCosmetic: {
+		DisplayName: Zephyr Wings
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			Same stats as {$ItemName.CreativeWings}
 			'''
 	}
 }
@@ -686,6 +833,11 @@ Buffs: {
 			Grants infinite flight
 			"Destiny arrives..."
 			'''
+	}
+
+	VampireCape: {
+		DisplayName: Vampire Bat Swarm
+		Description: You are a swarm of vampiric bats
 	}
 }
 
@@ -845,6 +997,7 @@ Configs: {
 				'''
 				The boss reworks from this mod only applies when eternity mode is active
 				Also changes master weapon drops (if enabled) into eternity weapon drops
+				Additionally, Thorium bosses can now drop eternity mode accessories
 				'''
 		}
 	}
