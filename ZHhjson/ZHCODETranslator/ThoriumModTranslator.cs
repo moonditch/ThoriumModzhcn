@@ -1,6 +1,8 @@
+#pragma warning disable CA2255
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
+using System.Runtime.CompilerServices;
 namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 {
 	public class ThoriumModTranslator
@@ -8,9 +10,10 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 		private class ThoriumMod{}
 		[ExtendsFromMod("ThoriumMod"), JITWhenModsEnabled("ThoriumMod")]
 		private class TranslatorLoad : ForceLocalizeSystem<ThoriumMod, TranslatorLoad>{}
+		[ModuleInitializer]
 		public static void LoadTranslator()
 		{
-			if(ModLoader.TryGetMod("ThoriumMod",out var mod))
+			if(LoadModAssembly.LoadModContext.TryGetValue("ThoriumMod", out _))
 			{
 				//物品需求
 				#region ThoriumMod.ThoriumPlayer
@@ -27,9 +30,9 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.171"," copper"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.172","0 coins"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.176","MoneyAmount"},
+					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.177","Money Generated: "},
 				});
 				#endregion ThoriumMod.ThoriumPlayer
-
 
 				#region ThoriumMod.UI.TrackerUI
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.UI.TrackerUI", "OnInitialize", new ()
@@ -39,6 +42,13 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.UI.TrackerUI.OnInitialize.477","Next"},
 				});
 				#endregion ThoriumMod.UI.TrackerUI
+
+				#region ThoriumMod.UI.ResourceBars.InformationalIcons
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.UI.ResourceBars.InformationalIcons", "DrawSelf", new ()
+				{
+					{"ThoriumMod.ThoriumMod.UI.ResourceBars.InformationalIcons.DrawSelf.536"," sec"},
+				});
+				#endregion ThoriumMod.UI.ResourceBars.InformationalIcons
 
 
 				#region ThoriumMod.Items.ThoriumGlobalItem
@@ -114,16 +124,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				});
 				#endregion ThoriumMod.Items.SummonItems.PrehistoricArachnid
 
-
-				#region ThoriumMod.Items.Misc.LilGuppy
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Misc.LilGuppy", "AnglerQuestChat", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Misc.LilGuppy.AnglerQuestChat.3117","Being out at sea for so long was pretty lonely... I made one friend though, a tiny little fish I named Lil' Guppy! He always manages to escape his fish bowl though! I miss him and I want him, go get my friend!"},
-					{"ThoriumMod.ThoriumMod.Items.Misc.LilGuppy.AnglerQuestChat.3118","Caught in the Ocean."},
-				});
-				#endregion ThoriumMod.Items.Misc.LilGuppy
-
-
 				#region ThoriumMod.Items.MeleeItems.WrithingSheath
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.MeleeItems.WrithingSheath", "SafeSetDefaults", new ()
 				{
@@ -156,7 +156,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.Items.HealerItems.GraniteIonStaff.ModifyTooltips.3164"," up to 50"},
 				});
 				#endregion ThoriumMod.Items.HealerItems.GraniteIonStaff
-
 
 				#region ThoriumMod.Items.HealerItems.LargePopcorn
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.LargePopcorn", "ModifyTooltips", new ()
@@ -229,6 +228,7 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#region ThoriumMod.Items.HealerItems.WarForger
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.WarForger", "ModifyTooltips", new ()
 				{
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.WarForger.ModifyTooltips.3225","Shields ally and player life by "},
 					{"ThoriumMod.ThoriumMod.Items.HealerItems.WarForger.ModifyTooltips.3226"," up to 25"},
 				});
 				#endregion ThoriumMod.Items.HealerItems.WarForger
@@ -332,6 +332,14 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.Items.Donate.SerpentShield.SetDefaults.3386","50 basic damage"},
 				});
 				#endregion ThoriumMod.Items.Donate.SerpentShield
+
+
+				#region ThoriumMod.Items.Donate.BlastShield
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.BlastShield", "ModifyTooltips", new ()
+				{
+					{"ThoriumMod.ThoriumMod.Items.Donate.BlastShield.ModifyTooltips.3258"," base damage"},
+				});
+				#endregion ThoriumMod.Items.Donate.BlastShield
 
 
 				#region ThoriumMod.Items.Donate.ShinobiSigil
