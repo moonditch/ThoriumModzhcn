@@ -1671,7 +1671,7 @@ Mods: {
 			ManaInjectionKitBuff: {
 				DisplayName: 魔力注入
 				Description: 魔法傷害提高
-				Damage: 魔法傷害提高{0}%
+				Damage: 魔法傷害提高　{0}%
 			}
 		}
 
@@ -5008,6 +5008,7 @@ Mods: {
 					'''
 					永久增加{0}%基礎移動速度
 					可以至多使用{1}次
+					獲取方式：困難模式下在深海收獲海洋水晶獲取
 					'''
 			}
 

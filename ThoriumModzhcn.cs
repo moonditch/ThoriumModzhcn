@@ -1,29 +1,33 @@
+using Microsoft.Xna.Framework;
+using System.Runtime.CompilerServices;
+using System;
 using System.Linq;
 using System.Reflection;
 using System.Threading;
 using Terraria;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
+using Terraria.ModLoader.Core;
 
 namespace ThoriumModzhcn
 {
-	public class ThoriumModzhcn : Mod
-	{
-		public override void Load()
-		{
-			Translator.ThoriumModTranslator.LoadTranslator();
-			Translator.ThoriumClassTagsConsistencyTranslator.LoadTranslator();
-			Translator.CalamityBardHealerTranslator.LoadTranslator();
-			Translator.SpookyBardHealerTranslator.LoadTranslator();
-			base.Load();
-		}
-	}
-	public class ThoriumModzhcnPlayer : ModPlayer
-	{
-		public override void OnEnterWorld()
-		{
-			Main.NewText("瑟银简中汉化完成98%，有bug或掉帧行为在评论区告诉我，禁止催更\n部分获取方法已标注，仅加载合成表和boss手册没有的。如不知道怎么获得的方式在评论区告诉我\n乐器种类在设置 -> ThoriumMod -> 客户端配置 -> 吟游诗人选项 -> 显示乐器类型标签选择项目打开", Color.Orange);
-		}
-	}
+    public class ThoriumModzhcn : Mod
+    {
+       [ModuleInitializer]
+        public static void LoadTranslator()
+        {
+            ZHhjson.ZHCODETranslator.ThoriumModTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.ThoriumClassTagsConsistencyTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.CalamityBardHealerTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.SpookyBardHealerTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.RagnarokModTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.ThoriumReworkTranslator.LoadTranslator();
+        }
+    }
+    public class ThoriumModzhcnPlayer : ModPlayer
+    {
+        public override void OnEnterWorld()
+        {
+            Main.NewText("乐器种类设置：ThoriumMod -> 客户端配置 -> 吟游诗人选项 -> 显示乐器类型标签选择项目打开\n切换语言：瑟银&更多附属汉化补丁 -> 语言切换 -> 滑块为台湾繁体打开无需重新加载", Color.Orange);
+        }
+    }
 }
-

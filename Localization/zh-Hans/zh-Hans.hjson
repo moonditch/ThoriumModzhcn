@@ -129,7 +129,7 @@ Mods: {
 			}
 
 			AbyssalShellDebuff: {
-				DisplayName: 深渊重压（占位符，新更新）
+				DisplayName: 深渊重压
 				Description: 深渊重压处于冷却状态
 			}
 
@@ -1659,19 +1659,19 @@ Mods: {
 			}
 
 			ThrombosisBuff: {
-				DisplayName: Bloodling（占位符新）
-				Description: The bloodling will assist you
+				DisplayName: 血腥僵尸
+				Description: 血腥僵尸会帮助你的
 			}
 
 			ThrombosisDebuff: {
-				DisplayName: Thrombosis（占位符新）
+				DisplayName: 栓塞血管
 				Description: "{$CommonItemTooltip.SummonTagDamage}"
 			}
 
 			ManaInjectionKitBuff: {
-				DisplayName: Mana Injection（占位符新）
-				Description: Magic damage increased
-				Damage: Magic damage increased by {0}%
+				DisplayName: 魔力注入
+				Description: 魔法伤害提高
+				Damage: 魔法伤害提高 {0}%
 			}
 		}
 
@@ -5007,6 +5007,7 @@ Mods: {
 					'''
 					永久增加{0}%基础移动速度
 					可以至多使用{1}次
+					获取方式：困难模式下在深海收获海洋水晶获取
 					'''
 			}
 
