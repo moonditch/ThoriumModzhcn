@@ -458,7 +458,7 @@ Items: {
 
 	BandofCratonsCosmetic: {
 		DisplayName: 古陆核之带
-		Tooltip: '''"Durable enough to withstand continental drift"'''
+		Tooltip: '''"非常耐用，甚至能承受大陆漂移的伟力"'''
 	}
 
 	BannerofWar: {
