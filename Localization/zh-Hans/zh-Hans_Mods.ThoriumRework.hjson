@@ -438,8 +438,8 @@ Projectiles: {
 	Void.DisplayName: 虚空
 	VoidEye.DisplayName: 注视者之眼
 	VoidEyeF.DisplayName: 注视者之刃
-	ZephyrFeather.DisplayName: 西风之羽
-	ZephyrsRuin.DisplayName: 西风残垣
+	ZephyrFeather.DisplayName: 疾风之羽
+	ZephyrsRuin.DisplayName: 疾风残垣
 	TerrariumPulseRay.DisplayName: 元素脉冲射线
 }
 
@@ -754,7 +754,7 @@ Items: {
 	}
 
 	ZephyrsRuin: {
-		DisplayName: 西风残垣
+		DisplayName: 疾风残垣
 		Tooltip:
 			'''
 			投矛会刺入敌人或物块
