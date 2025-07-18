@@ -40,7 +40,7 @@ ItemDescriptions: {
 		增加75%鞭子攻擊距離
 		最大召喚物數量增加2
 		'''
-	InspiratorsHelmet: 提高25%吟游詩人演奏速度
+	InspiratorsHelmet: 提高25%吟遊詩人演奏速度
 	RhapsodistChestWoofer: 音波傷害無視250點防禦力
 	RhapsodistBoots: 咒音增幅範圍加倍
 	SoloistHat: 最大靈感值增加8點
@@ -242,20 +242,20 @@ NPCRenames: {
 }
 
 Toggler: {
-	BandofCratons: 能量潮涌
-	BannerofWar: 旌旗云集
-	QueenJellyPin: 女皇之触
-	SierraChimera: 至高嵌合体
-	StarScoutReticle: 闪烁冲刺
-	ValkyrienSkyStone: 瓦尔基里天空之石
+	BandofCratons: 能量潮湧
+	BannerofWar: 旌旗雲集
+	QueenJellyPin: 女皇之觸
+	SierraChimera: 至高嵌合體
+	StarScoutReticle: 閃爍衝刺
+	ValkyrienSkyStone: 瓦爾基裡天空之石
 	VampireCape: 蝠群化形
-	ZephyrWings: 疾风助力
+	ZephyrWings: 疾風助力
 }
 
 ActiveSkills: {
 	VampireCape: {
 		DisplayName: 蝠群化形
-		Tooltip: 转化为一群蝙蝠，跟随鼠标移动
+		Tooltip: 轉化為一群蝙蝠，跟隨滑鼠移動
 	}
 }
 
@@ -448,33 +448,33 @@ Items: {
 		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			免疫能量过载，且使你的攻击施加能量过载
-			获得40点生命护盾
-			失去护盾时，根据失去的量回复玩家的资源
-			一次性失去超过20点护盾时，会制造电磁爆炸摧毁附近的3个弹幕
+			免疫能量超載，且使你的攻擊施加能量超載
+			獲得40點生命護盾
+			失去護盾時，根據失去的量回復玩家的資源
+			一次性失去超過20點護盾時，會製造電磁爆炸摧毀附近的3個彈幕
 			{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.Tooltip}
 			'''
 	}
 
 	BandofCratonsCosmetic: {
-		DisplayName: 古陆核之带
-		Tooltip: '''"非常耐用，甚至能承受大陆漂移的伟力"'''
+		DisplayName: 古陸核之帶
+		Tooltip: '''"非常耐用，甚至能承受大陸漂移的偉力"'''
 	}
 
 	BannerofWar: {
 		DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			战斗中，你的伤害与额外治疗量会随时间增加
-			这些增益在你脱战后会逐渐减少
-			战斗中会不断释放治疗脉冲，回复队友等同于额外治疗量的生命
-			脉冲的频率会随着战斗时间增加
-			咒音增幅范围也会影响治疗脉冲的范围
+			戰鬥中，你的傷害與額外治療量會隨時間增加
+			這些增益在你脫戰後會逐漸減少
+			戰鬥中會不斷釋放治療脈衝，回復隊友等同于額外治療量的生命
+			脈衝的頻率會隨著戰鬥時間增加
+			咒音增幅範圍也會影響治療脈衝的範圍
 			'''
 	}
 
 	BannerofWarCosmetic: {
-		DisplayName: 战争之旗
+		DisplayName: 戰爭之旗
 		Tooltip: ""
 	}
 
@@ -624,16 +624,16 @@ Items: {
 		Tooltip:
 			'''
 			免疫泡泡
-			在玩家身上召唤可以锁定敌人的触手
-			触手的伤害会随着玩家防御提升
-			触手击中敌人后可提升生命再生与资源再生
+			在玩家身上召喚可以鎖定敵人的觸手
+			觸手的傷害會隨著玩家防禦提升
+			觸手擊中敵人後可提升生命再生與資源再生
 			{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.Tooltip}
 			'''
 	}
 
 	QueenJellyPinCosmetic: {
-		DisplayName: 皇后饰针
-		Tooltip: '''"看！在你头旁边！"'''
+		DisplayName: 皇后飾針
+		Tooltip: '''"看！在你頭旁邊！"'''
 	}
 
 	PickShapedPebble: {
@@ -693,15 +693,15 @@ Items: {
 	}
 
 	SierraChimera: {
-		DisplayName: 至高嵌合体
+		DisplayName: 至高嵌合體
 		Tooltip:
 			'''
 			免疫[i:ThoriumRework/QueenJellyPin]泡泡，[i:ThoriumRework/VampireCape]流血和[i:ThoriumRework/VampireCape]吸血鬼之咒
-			[i:ThoriumRework/QueenJellyPin] 在玩家身上召唤可以锁定敌人的触手，触手击中敌人后可提升生命再生与资源再生
-			[i:ThoriumRework/QueenJellyPin] 触手的伤害会随着玩家防御提升
-			[i:ThoriumRework/VampireCape] 激活血蝠群舞时，受到的伤害大幅降低，敌人不太可能以你为目标
-			[i:ThoriumRework/ZephyrWings] 疾风钩的半空抓取效果可以延长飞行时间
-			[i:ThoriumRework/ZephyrWings] 滑翔一段时间后，可以再次使用疾风钩，造成伤害可以缩短其冷却时间
+			[i:ThoriumRework/QueenJellyPin] 在玩家身上召喚可以鎖定敵人的觸手，觸手擊中敵人後可提升生命再生與資源再生
+			[i:ThoriumRework/QueenJellyPin] 觸手的傷害會隨著玩家防禦提升
+			[i:ThoriumRework/VampireCape] 啟動血蝠群舞時，受到的傷害大幅降低，敵人不太可能以你為目標
+			[i:ThoriumRework/ZephyrWings] 疾風鉤的半空抓取效果可以延長飛行時間
+			[i:ThoriumRework/ZephyrWings] 滑翔一段時間後，可以再次使用疾風鉤，造成傷害可以縮短其冷卻時間
 			'''
 	}
 
@@ -709,16 +709,16 @@ Items: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			获得在太空呼吸的能力与夜视能力
-			使用冲刺会将你传送一段距离
-			对特殊冲刺无效
-			若你不能冲刺，则给予冲刺能力
+			獲得在太空呼吸的能力與夜視能力
+			使用衝刺會將你傳送一段距離
+			對特殊衝刺無效
+			若你不能衝刺，則給予衝刺能力
 			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
 			'''
 	}
 
 	StarScoutReticleCosmetic: {
-		DisplayName: 银河侦察护罩
+		DisplayName: 銀河偵察護罩
 		Tooltip: '''"怕黑？不用怕，有我在！"'''
 	}
 
@@ -728,26 +728,26 @@ Items: {
 	}
 
 	ValkyrienSkyStone: {
-		DisplayName: 瓦尔基里天空之石
+		DisplayName: 瓦爾基裡天空之石
 		Tooltip:
 			'''
-			[i:ThoriumRework/StarScoutReticle] 获得在太空呼吸的能力与夜视能力
-			[i:ThoriumRework/StarScoutReticle]使用冲刺会将你传送一段距离，若你不能冲刺，则给予冲刺能力
-			[i:ThoriumRework/BannerofWar] 战斗中，你的伤害与额外治疗量会随时间增加，这些增益在你脱战后会逐渐减少
-			[i:ThoriumRework/BannerofWar] 战斗中会不断释放治疗脉冲，回复队友等同于额外治疗量的生命，咒音增幅范围也会影响治疗脉冲的范围
-			[i:ThoriumRework/BannerofWar] 脉冲的频率会随着战斗时间增加
-			[i:ThoriumRework/BandofCratons] 获得40点生命护盾，免疫能量过载，且使你的攻击施加能量过载
-			[i:ThoriumRework/BandofCratons] 失去护盾时，根据失去的量回复玩家的资源，一次性失去超过20点护盾时，会制造电磁爆炸摧毁附近的3个弹幕
+			[i:ThoriumRework/StarScoutReticle] 獲得在太空呼吸的能力與夜視能力
+			[i:ThoriumRework/StarScoutReticle]使用衝刺會將你傳送一段距離，若你不能衝刺，則給予衝刺能力
+			[i:ThoriumRework/BannerofWar] 戰鬥中，你的傷害與額外治療量會隨時間增加，這些增益在你脫戰後會逐漸減少
+			[i:ThoriumRework/BannerofWar] 戰鬥中會不斷釋放治療脈衝，回復隊友等同于額外治療量的生命，咒音增幅範圍也會影響治療脈衝的範圍
+			[i:ThoriumRework/BannerofWar] 脈衝的頻率會隨著戰鬥時間增加
+			[i:ThoriumRework/BandofCratons] 獲得40點生命護盾，免疫能量超載，且使你的攻擊施加能量超載
+			[i:ThoriumRework/BandofCratons] 失去護盾時，根據失去的量回復玩家的資源，一次性失去超過20點護盾時，會製造電磁爆炸摧毀附近的3個彈幕
 			'''
 	}
 
 	VampireCape: {
 		DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
-		Tooltip: 免疫流血与吸血鬼之咒
+		Tooltip: 免疫流血與吸血鬼之咒
 	}
 
 	VampireCapeCosmetic: {
-		DisplayName: 吸血蝙蝠披风
+		DisplayName: 吸血蝙蝠披風
 		Tooltip: ""
 	}
 
@@ -768,18 +768,18 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.Tooltip}
-			疾风钩的半空抓取效果可以延长飞行时间
-			滑翔一段时间后，可以再次使用疾风钩
-			造成伤害可以缩短疾风钩的冷却时间
+			疾風鉤的半空抓取效果可以延長飛行時間
+			滑翔一段時間後，可以再次使用疾風鉤
+			造成傷害可以縮短疾風鉤的冷卻時間
 			'''
 	}
 
 	ZephyrWingsCosmetic: {
-		DisplayName: 疾风之翼
+		DisplayName: 疾風之翼
 		Tooltip:
 			'''
-			可飞行和缓慢坠落
-			与{$ItemName.CreativeWings}同级
+			可飛行和緩慢墜落
+			與{$ItemName.CreativeWings}同級
 			'''
 	}
 }
@@ -966,8 +966,8 @@ Configs: {
 		}
 
 		vanillaBard: {
-			Label: 讓星星吉他和魔法豎琴成為吟游詩人武器
-			Tooltip: 讓星星吉他和魔法豎琴成為吟游詩人武器並加入灌注附魔效果
+			Label: 讓星星吉他和魔法豎琴成為吟遊詩人武器
+			Tooltip: 讓星星吉他和魔法豎琴成為吟遊詩人武器並加入灌注附魔效果
 		}
 
 		DoD: {
