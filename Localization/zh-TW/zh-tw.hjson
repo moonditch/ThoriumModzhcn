@@ -57,7 +57,7 @@ Mods: {
 			ThoriumModTip5: 瑟銀模組：使用秘技卷軸來裝備它，然後在有足夠技巧值時按下“投擲卷軸”鍵可以觸發它的效果!
 			ThoriumModTip6: 瑟銀模組：作為一個牧師，你死了就無法幫助你的隊友，因此總要首先確保自身安全!
 			ThoriumModTip7: 瑟銀模組：最大靈感值可通過三種不同等級的靈感碎片來提升.
-			ThoriumModTip8: 瑟銀模組：某些吟游詩人的樂器需要基於計時器演奏以獲得最佳表現.
+			ThoriumModTip8: 瑟銀模組：某些吟遊詩人的樂器需要基於計時器演奏以獲得最佳表現.
 			ThoriumModTip9: 瑟銀模組：劍鞘可以讓你將多次劍擊濃縮為一次爆發。適時攻擊!
 			ThoriumModTip10: 瑟銀模組：當化形為另一種生物時，你無法使用除靈魂連結外的物品.
 			# Misc
@@ -125,7 +125,7 @@ Mods: {
 
 			AbyssalShellBuff: {
 				DisplayName: 深淵貝殼
-				Description: 深淵貝殼冷却！
+				Description: 深淵貝殼冷卻！
 			}
 
 			AbyssalWeight: {
@@ -475,7 +475,7 @@ Mods: {
 
 			CelestialSetDebuff: {
 				DisplayName: 神聖光環
-				Description: 庇護光環環繞著你的游標
+				Description: 庇護光環環繞著你的遊標
 			}
 
 			CosmicFluxStaffDamageBuff: {
@@ -550,7 +550,7 @@ Mods: {
 
 			DreamWeaversHoodDreamBuff: {
 				DisplayName: 夢
-				Description: 這個令人清醒的世界洗脫了污濁...
+				Description: 這個令人清醒的世界洗脫了汙濁...
 			}
 
 			DreamWeaversMaskBuff: {
@@ -995,7 +995,7 @@ Mods: {
 
 			AbyssalWhistleBuff: {
 				DisplayName: 深淵兔
-				Description: 這個可憐的小傢伙可能是最後一隻..
+				Description: 這個可憐的小傢夥可能是最後一隻..
 			}
 
 			AlienResearchNotesBuff: {
@@ -1015,7 +1015,7 @@ Mods: {
 
 			AnglerBowlBuff: {
 				DisplayName: 小琵琶魚
-				Description: 這個小傢伙不喜歡黑暗
+				Description: 這個小傢夥不喜歡黑暗
 			}
 
 			BalloonBallBuff: {
@@ -1100,7 +1100,7 @@ Mods: {
 
 			FerretBuff: {
 				DisplayName: 雪貂
-				Description: 這個小傢伙喜歡搖擺！
+				Description: 這個小傢夥喜歡搖擺！
 			}
 
 			FrozenBalloonBuff: {
@@ -1375,7 +1375,7 @@ Mods: {
 
 			CorrodlingStaffBuff: {
 				DisplayName: 侵蝕體
-				Description: 敵人面對這小傢伙將毫無還手之力！
+				Description: 敵人面對這小傢夥將毫無還手之力！
 			}
 
 			CorruptlingStaffBuff: {
@@ -1653,14 +1653,14 @@ Mods: {
 				Description: 僕從與哨兵攻擊脆弱的敵人時有概率暴擊
 			}
 
-			BannerPower: {
+			BannerPower:　{
 				DisplayName: 力量令旗
 				Description: 敵人受到的鞭子傷害增加{0}%
 			}
 
 			ThrombosisBuff: {
-				DisplayName: 血腥僵尸
-				Description: 血腥僵尸会帮助你的
+				DisplayName: 血腥僵屍
+				Description: 血腥僵屍會幫助你的
 			}
 
 			ThrombosisDebuff: {
@@ -1702,7 +1702,7 @@ Mods: {
 			WorldHasBloodAltar: 這個世界有鮮血祭壇
 			WorldHasNoBloodAltarOrDownedViscount: 這個世界沒有鮮血祭壇或{$Conditions.DownedViscount}
 			WorldIsCrimsonOrHardmode: 世界是猩紅或進入困難模式
-			WorldIsCorruptionOrHardmode: 世界是腐化或進入困難模式
+			WorldIsCorruptionOrHardmode: 世界是腐化或進入困難模式0}%
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1833,7 +1833,7 @@ Mods: {
 					'''
 					召喚一個被時間遺忘已久的存在
 					只能在深海使用
-					[c/70DB93:獲取方式：在深海擊殺虛影潛遊者有概率掉落]
+					[c/70DB93:獲取方式：在深海擊殺虛影潛遊者有概率掉落
 					'''
 			}
 
@@ -1888,7 +1888,7 @@ Mods: {
 				Tooltip:
 					'''
 					釋放一道強力的海妖慟哭
-					暴擊時會向游標釋放額外的海妖慟哭
+					暴擊時會向遊標釋放額外的海妖慟哭
 					[c/70DB93:獲取方式：擊敗遺忘之主/遺忘之主寶藏袋獲得]
 					'''
 			}
@@ -1939,7 +1939,7 @@ Mods: {
 					Skeletron: 仍不知道我們的目標……
 					GraniteEnergyStorm: 所有能量都會在適當的時候被消耗……
 					BuriedChampion: 清除那個東西後是那麼喜悅……
-					StarScouter: 他們的干擾沒什麼區別……
+					StarScouter: 他們的幹擾沒什麼區別……
 					WallofFlesh: 是的……繼續你的任務，“英雄”……
 					FallenBeholder: 悲哀……
 					BoreanStrider: 適應和克服是我們的特長……
@@ -2120,7 +2120,7 @@ Mods: {
 				DisplayName: 鳥群魔棒
 				Tooltip:
 					'''
-					命令至多3只鳥向游標位置攻擊
+					命令至多3只鳥向遊標位置攻擊
 					鳥會在飛行過程中為你拾取視線中的物品
 					'''
 			}
@@ -3043,7 +3043,7 @@ Mods: {
 
 			MidnightBassBooster: {
 				DisplayName: 午夜低音衝擊波
-				Tooltip: 釋放污穢的響亮音波脈衝
+				Tooltip: 釋放汙穢的響亮音波脈衝
 			}
 
 			MixTape: {
@@ -3135,8 +3135,9 @@ Mods: {
 				Tooltip:
 					'''
 					允許你富有節奏地演奏巨大的管風琴
-					成功在計時區域擊中會不斷增加它的傷害，咒音增幅等級
-					{$Common.Tooltips.BigInstrument}
+					成功在計時區域擊中會不斷增加它的傷害，咒音增幅等級和彈幕數量
+					錯失節拍會大幅降低這些加成並消耗5點靈感值
+					這些加成在切換武器後仍會保留，但若不是你啟動的武器，加成會逐漸消散
 					'''
 			}
 
@@ -3156,7 +3157,7 @@ Mods: {
 				SetBonus:
 					'''
 					音波暴擊會使隨機啟動的咒音增幅提升到 IV 級強度
-					此效果每 {0} {^0:秒;seconds}觸發一次
+					此效果每 {0} {^0:秒;seconds}觸發一次（等待wiki）
 					'''
 			}
 
@@ -3401,7 +3402,7 @@ Mods: {
 				DisplayName: 汽笛
 				Tooltip:
 					'''
-					右鍵在你游標位置產生一陣煙霧
+					右鍵在你遊標位置產生一陣煙霧
 					接觸煙霧的玩家會大幅降低他們的仇恨
 					'''
 			}
@@ -4144,7 +4145,7 @@ Mods: {
 				Tooltip:
 					'''
 					以弧形下落時多造成35%傷害並可能造成石化
-					游標位置離玩家越遠，飛的越遠
+					遊標位置離玩家越遠，飛的越遠
 					'''
 			}
 
@@ -4155,7 +4156,7 @@ Mods: {
 
 			GorgonGazeStaff: {
 				DisplayName: 蛇發女妖之凝
-				Tooltip: 快速傷害和石化游標下的敵怪
+				Tooltip: 快速傷害和石化遊標下的敵怪
 			}
 
 			GorgonsEye: {
@@ -5008,7 +5009,6 @@ Mods: {
 					'''
 					永久增加{0}%基礎移動速度
 					可以至多使用{1}次
-					獲取方式：困難模式下在深海收獲海洋水晶獲取
 					'''
 			}
 
@@ -5310,7 +5310,7 @@ Mods: {
 			DannyLamentLeggings.DisplayName: 丹尼之歎護脛
 			DannyLamentMask.DisplayName: 丹尼之歎面具
 			DannyLamentSuit.DisplayName: 丹尼之歎上衣
-			HalcandranDeluxeApparel.DisplayName: 哈坎德兰套装
+			HalcandranDeluxeApparel.DisplayName: 哈坎德蘭套裝
 			DeluxeHalcandranBow.DisplayName: 豪華哈坎德蘭蝴蝶結
 			DeluxeHalcandranHat.DisplayName: 豪華哈坎德蘭帽
 			GhastlyGarment.DisplayName: 恐怖皮衣
@@ -5326,9 +5326,9 @@ Mods: {
 			MrUniversePants.DisplayName: 宇宙先生的褲子
 			MrUniverseSuit.DisplayName: 宇宙先生的服飾
 			PhonicWings.DisplayName: 無聲羽翼
-			ProspectorHeadgear.DisplayName: 探矿者头饰（占位符新）
-			ProspectorShorts.DisplayName: 探矿者短裤（占位符新）
-			ProspectorVest.DisplayName: 探矿者背心（占位符新）
+			ProspectorHeadgear.DisplayName: 探礦者頭飾（預留位置新）
+			ProspectorShorts.DisplayName: 探礦者短褲（預留位置新）
+			ProspectorVest.DisplayName: 探礦者背心（預留位置新）
 			ShinobiGi.DisplayName: 忍者束腰寬鬆服
 			ShinobiMask.DisplayName: 忍者面具
 			ShinobiTreads.DisplayName: 忍者靴
@@ -5480,7 +5480,7 @@ Mods: {
 				DisplayName: 烏檀電琴
 				Tooltip:
 					'''
-					快速向你的游標位置釋放海洋雜訊
+					快速向你的遊標位置釋放海洋雜訊
 					黃色雜訊會治療使用者造成傷害10%的生命值
 					'''
 			}
@@ -5786,7 +5786,7 @@ Mods: {
 
 			DarkGrip: {
 				DisplayName: 暗影之握
-				Tooltip: 在你的游標位置持續召喚暗影手臂
+				Tooltip: 在你的遊標位置持續召喚暗影手臂
 			}
 
 			DarkNexusLeggings: {
@@ -5870,7 +5870,7 @@ Mods: {
 
 			EmperorsWill: {
 				DisplayName: 皇帝之意
-				Tooltip: 射出指向游標的一串子彈
+				Tooltip: 射出指向遊標的一串子彈
 			}
 
 			EmptyWormholePotion: {
@@ -5885,7 +5885,7 @@ Mods: {
 
 			EruptingFlare: {
 				DisplayName: 炸裂之炎
-				Tooltip: 向游標處釋放一陣火焰爆炸
+				Tooltip: 向遊標處釋放一陣火焰爆炸
 			}
 
 			EssenceofFlame: {
@@ -5955,7 +5955,7 @@ Mods: {
 				DisplayName: 水果布丁盤
 				Tooltip:
 					'''
-					在游標位置召喚一個空盤子用來放水果布丁
+					在遊標位置召喚一個空盤子用來放水果布丁
 					每過2秒，水果布丁盤會生長，增加它的治療效果
 					即使被消耗水果布丁盤也會再生
 					'''
@@ -6020,7 +6020,7 @@ Mods: {
 				Tooltip:
 					'''
 					手持且不使用3秒後用劍攻擊會暴擊造成1200%傷害
-					另外此次攻擊後你會傳送到游標位置並對附近造成傷害
+					另外此次攻擊後你會傳送到遊標位置並對附近造成傷害
 					'''
 			}
 
@@ -6640,7 +6640,7 @@ Mods: {
 				Tooltip:
 					'''
 					'這是你第一次見過嗎？北極光粉碎人類？'
-					在你的游標位置召喚當地語系化的北極光
+					在你的遊標位置召喚當地語系化的北極光
 					北極光會向下方的敵怪釋放光束風暴
 					'''
 			}
@@ -6704,7 +6704,7 @@ Mods: {
 				Tooltip:
 					'''
 					按左鍵充能並存儲更強的幽靈爆
-					右鍵向你的游標發射幻影火箭
+					右鍵向你的遊標發射幻影火箭
 					'''
 			}
 
@@ -6883,7 +6883,7 @@ Mods: {
 					'''
 					“天頂……天頂是真的！”
 					釋放振動拳頭，擊中敵怪後獲得能量
-					滿能量時，右鍵撕裂游標位置的現實結構
+					滿能量時，右鍵撕裂遊標位置的現實結構
 					'''
 			}
 
@@ -7081,7 +7081,7 @@ Mods: {
 				Tooltip:
 					'''
 					在目標位置召喚一個純粹暗影球
-					右鍵將所有召喚的暗影球釋放向游標位置
+					右鍵將所有召喚的暗影球釋放向遊標位置
 					你召喚的暗影球數量與你的最大僕從欄位相同
 					'''
 			}
@@ -7197,7 +7197,7 @@ Mods: {
 
 			StaticProd: {
 				DisplayName: 靜態電光杖
-				Tooltip: 在你的游標位置產生一場延遲的電流爆炸
+				Tooltip: 在你的遊標位置產生一場延遲的電流爆炸
 			}
 
 			StealthBandanna: {
@@ -7229,8 +7229,8 @@ Mods: {
 				DisplayName: 星辰魔棒
 				Tooltip:
 					'''
-					指令三顆星星朝你的游標位置攻擊
-					星星回歸前會在你的游標位置留下彩虹爆炸
+					指令三顆星星朝你的遊標位置攻擊
+					星星回歸前會在你的遊標位置留下彩虹爆炸
 					'''
 			}
 
@@ -7553,7 +7553,7 @@ Mods: {
 			}
 
 			YumasPendant: {
-				DisplayName: 游馬的皇之鍵
+				DisplayName: 遊馬的皇之鍵
 				Tooltip:
 					'''
 					增加10%召喚傷害
@@ -7983,7 +7983,7 @@ Mods: {
 				Tooltip:
 					'''
 					'為了抓住世界的希望並將其置於搖籃之中……'
-					在游標位置召喚至多一個夢境捕捉器
+					在遊標位置召喚至多一個夢境捕捉器
 					待在夢境捕捉器內會在受到致命傷害時完全治療自身
 					[c/BC1717:擁有災瑟聯動模組可灌注成獻祭誓言]
 					'''
@@ -8090,7 +8090,7 @@ Mods: {
 					'讓這把武器成為你戰勝一切困難的證明'
 					快速投擲傳奇雷神之錘的電能圖像
 					右鍵生成保護性電能護盾
-					[c/ab40ff:-真实伤害-]
+					[c/ab40ff:-真實傷害-]
 					'''
 			}
 
@@ -8309,7 +8309,7 @@ Mods: {
 				Tooltip:
 					'''
 					'盲目的熔岩之怒會摧毀弱者……'
-					在游標位置釋放無限高溫的斬切
+					在遊標位置釋放無限高溫的斬切
 					'''
 			}
 
@@ -8409,7 +8409,7 @@ Mods: {
 				DisplayName: 巨石監察者法杖
 				Tooltip:
 					'''
-					召喚一團漂浮的花崗岩能量持續打擊你的游標位置
+					召喚一團漂浮的花崗岩能量持續打擊你的遊標位置
 					右鍵取消召喚監察者
 					'''
 			}
@@ -8517,7 +8517,7 @@ Mods: {
 				Tooltip:
 					'''
 					'美畢竟是主觀的'
-					你可以看到當前游標位置的視野
+					你可以看到當前遊標位置的視野
 					游標周圍的敵怪會被短暫顯露並多受各種來源15%傷害
 					'''
 			}
@@ -8556,7 +8556,7 @@ Mods: {
 
 			VoidPlanter: {
 				DisplayName: 虛空散播者
-				Tooltip: 在游標處種植至多3個虛空種子
+				Tooltip: 在遊標處種植至多3個虛空種子
 			}
 
 			BloodBelcher: {
@@ -8779,7 +8779,7 @@ Mods: {
 				Tooltip:
 					'''
 					以弧形下落時多造成35%傷害並使花崗岩溢出
-					游標位置離玩家越遠，飛的越遠
+					遊標位置離玩家越遠，飛的越遠
 					'''
 			}
 
@@ -8847,7 +8847,7 @@ Mods: {
 				Tooltip:
 					'''
 					受到致命傷害會釋放你的內在靈魂
-					你的內在靈魂會持續向游標位置釋放治療能量光束
+					你的內在靈魂會持續向遊標位置釋放治療能量光束
 					'''
 			}
 
@@ -9160,7 +9160,7 @@ Mods: {
 				DisplayName: 治癒
 				Tooltip:
 					'''
-					治癒你游標下的隊友所有傷害性減益
+					治癒你遊標下的隊友所有傷害性減益
 					也會短暫提供隊友2點生命恢復
 					'''
 			}
@@ -9260,7 +9260,7 @@ Mods: {
 				DisplayName: 聖潔之蓮
 				Tooltip:
 					'''
-					在你的游標位置召喚一個大型可成長蓮花
+					在你的遊標位置召喚一個大型可成長蓮花
 					一段時間後蓮花需要成熟
 					完全成熟時，蓮花會向空中釋放治療的花朵能量
 					蓮花與敵對實體接觸後，它會凋零並死亡
@@ -9280,7 +9280,7 @@ Mods: {
 				DisplayName: 巨龍之心魔杖
 				Tooltip:
 					'''
-					在游標位置產生一個大型怒氣之域
+					在遊標位置產生一個大型怒氣之域
 					怒氣之域內的玩家造成的傷害增加15%
 					'''
 			}
@@ -9494,7 +9494,7 @@ Mods: {
 				DisplayName: 聖輝法杖
 				Tooltip:
 					'''
-					在游標位置召喚一個光井，會產生治療聖光
+					在遊標位置召喚一個光井，會產生治療聖光
 					召喚新的光井會移除所有滯留的聖光
 					'''
 			}
@@ -9598,7 +9598,7 @@ Mods: {
 				DisplayName: 驅散
 				Tooltip:
 					'''
-					驅散游標下目標隊友幾乎所有減益
+					驅散遊標下目標隊友幾乎所有減益
 					成功治癒他們會大幅增加他們的基礎移動速度並給予他們短暫無敵
 					'''
 			}
@@ -9683,7 +9683,7 @@ Mods: {
 				DisplayName: 生命波動
 				Tooltip:
 					'''
-					在游標位置召喚一個大型生命之域
+					在遊標位置召喚一個大型生命之域
 					生命之域內的玩家會定期被治療
 					'''
 			}
@@ -9789,8 +9789,8 @@ Mods: {
 				DisplayName: 午夜法杖
 				Tooltip:
 					'''
-					一個光環會環繞你的游標30秒
-					游標下的敵怪會被不潔詛咒傷害
+					一個光環會環繞你的遊標30秒
+					遊標下的敵怪會被不潔詛咒傷害
 					右鍵取消任何游標周圍的光環
 					'''
 			}
@@ -9799,7 +9799,7 @@ Mods: {
 				DisplayName: 心靈溶解者
 				Tooltip:
 					'''
-					將那些人的心靈融向游標
+					將那些人的心靈融向遊標
 					消耗生命值的一半會給予到生命值最低的隊友
 					'''
 			}
@@ -9839,7 +9839,7 @@ Mods: {
 			}
 
 			NecroticStaff: {
-				DisplayName: 死靈法杖（占位符，更新）
+				DisplayName: 死靈法杖（預留位置，更新）
 				Tooltip:
 					'''
 					治療目標隊友7.5%最大生命值的生命
@@ -9854,7 +9854,7 @@ Mods: {
 					'''
 					治療法術會額外治療1點生命值
 					受到致命傷害會釋放你的內在靈魂並且重生速度翻倍
-					你的內在靈魂會持續向游標位置釋放治療能量光束
+					你的內在靈魂會持續向遊標位置釋放治療能量光束
 					'''
 			}
 
@@ -9903,7 +9903,7 @@ Mods: {
 				DisplayName: 空域法杖
 				Tooltip:
 					'''
-					在游標位置召喚一個大型空域
+					在遊標位置召喚一個大型空域
 					空域內的玩家受到的彈幕傷害降低20%
 					'''
 			}
@@ -10141,7 +10141,7 @@ Mods: {
 				DisplayName: 輪回之蓮
 				Tooltip:
 					'''
-					在你的游標位置召喚一個大型可成長蓮花
+					在你的遊標位置召喚一個大型可成長蓮花
 					一段時間後蓮花需要成熟
 					完全成熟時，蓮花會向空中釋放惡毒的花朵能量
 					蓮花與敵對實體接觸後，它會凋零並死亡
@@ -10235,7 +10235,7 @@ Mods: {
 
 			StaffofSol: {
 				DisplayName: 太陽之環
-				Tooltip: 大幅治療你游標下的隊友
+				Tooltip: 大幅治療你遊標下的隊友
 			}
 
 			SunrayStaff: {
@@ -10441,7 +10441,7 @@ Mods: {
 				DisplayName: 戰爭鑄造者
 				Tooltip:
 					'''
-					右鍵在你的游標處產生一個魔法鐵砧
+					右鍵在你的遊標處產生一個魔法鐵砧
 					在鐵砧處揮舞會為隊友施加護盾
 					(鐵匠出售)
 					'''
@@ -10472,7 +10472,7 @@ Mods: {
 				SetBonus:
 					'''
 					光輝攻擊會生成至多 {0} 顆暗影微粒
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 鍵會向游標位置釋放所有存儲的暗影微粒
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 鍵會向遊標位置釋放所有存儲的暗影微粒
 					'''
 			}
 
@@ -10502,7 +10502,7 @@ Mods: {
 				DisplayName: 狂野本影
 				Tooltip:
 					'''
-					向你的游標釋放一陣饑餓暗影
+					向你的遊標釋放一陣饑餓暗影
 					消耗生命值的一半會給予到生命值最低的隊友
 					'''
 			}
@@ -10583,7 +10583,7 @@ Mods: {
 				DisplayName: 暴風雪
 				Tooltip:
 					'''
-					'解放一场冰雨!'
+					'解放一場冰雨!'
 					攻擊會給予目標短暫的霜凍減益
 					'''
 			}
@@ -10836,7 +10836,7 @@ Mods: {
 
 			PhantomWand: {
 				DisplayName: 幻影魔杖
-				Tooltip: 召喚一群飄忽不定的幻靈向你的游標釋放能量
+				Tooltip: 召喚一群飄忽不定的幻靈向你的遊標釋放能量
 			}
 
 			SoulBomb: {
@@ -10988,7 +10988,7 @@ Mods: {
 
 			AdamantiteStaff: {
 				DisplayName: 精金法杖
-				Tooltip: 發射一個魔法球，會在游標處炸成多道彈幕
+				Tooltip: 發射一個魔法球，會在遊標處炸成多道彈幕
 			}
 
 			BlackholeCannon: {
@@ -11063,7 +11063,7 @@ Mods: {
 
 			HallowedStaff: {
 				DisplayName: 神聖法杖
-				Tooltip: 在游標位置召喚一圈附魔劍
+				Tooltip: 在遊標位置召喚一圈附魔劍
 			}
 
 			HighTide: {
@@ -11154,7 +11154,7 @@ Mods: {
 
 			TitaniumStaff: {
 				DisplayName: 鈦金法杖
-				Tooltip: 向你的游標位置釋放爆裂能量脈衝
+				Tooltip: 向你的遊標位置釋放爆裂能量脈衝
 			}
 
 			VesselBuster: {
@@ -11306,7 +11306,7 @@ Mods: {
 				DisplayName: 觸手球
 				Tooltip:
 					'''
-					'這傢伙是個善於學習的觸手'
+					'這傢夥是個善於學習的觸手'
 					召喚一個好奇的虛空物質幫你尋找物品
 					'''
 			}
@@ -11530,7 +11530,7 @@ Mods: {
 
 			AdventurersLantern: {
 				DisplayName: 冒險者燃燈
-				Tooltip: 手持時略微點亮你的游標位置
+				Tooltip: 手持時略微點亮你的遊標位置
 			}
 
 			AncientHallowedChapeau: {
@@ -11809,7 +11809,7 @@ Mods: {
 			LilGuppy: {
 				DisplayName: 小虹鱂
 				Tooltip: "'在海洋生物群系捕捉'"
-				QuestDescription: 在海上呆這麽長時間是相當孤獨的。不過我交了個朋友，它是一條小魚，我叫它小虹鳉！不過他總是設法從魚缸裏逃出去！我想他，我想要他，快去找我的朋友！
+				QuestDescription: 在海上呆這麽長時間是相當孤獨的。不過我交了個朋友，它是一條小魚，我叫它小虹鱂！不過他總是設法從魚缸裏逃出去！我想他，我想要他，快去找我的朋友！
 				QuestCatchLocation: 在海洋生物群系捕捉.
 			}
 
@@ -13703,7 +13703,7 @@ Mods: {
 			}
 
 			GingerbreadClock: {
-				DisplayName: 姜餅鐘
+				DisplayName: 薑餅鐘
 				Tooltip: ""
 			}
 
@@ -16079,7 +16079,7 @@ Mods: {
 
 			StarRod: {
 				DisplayName: 星之杖
-				Tooltip: 召喚撞擊到游標位置的治癒星星
+				Tooltip: 召喚撞擊到遊標位置的治癒星星
 			}
 
 			StarScouterMask: {
@@ -16221,7 +16221,7 @@ Mods: {
 					'''
 					'由鐵匠專業鍛造'
 					弧形下落時造成的傷害增加25%
-					游標位置離玩家越遠，飛的越遠
+					遊標位置離玩家越遠，飛的越遠
 					'''
 			}
 
@@ -16271,7 +16271,7 @@ Mods: {
 
 			BattleBanner: {
 				DisplayName: 戰爭令旗
-				Tooltip: 召喚一面旗幟，使仆從與哨兵對附近敵人的傷害增加{0}%
+				Tooltip: 召喚一面旗幟，使僕從與哨兵對附近敵人的傷害增加{0}%
 			}
 
 			BountyBanner: {
@@ -16308,7 +16308,7 @@ Mods: {
 				Tooltip:
 					'''
 					召喚一面旗幟，使附近敵人變得更加脆弱
-					仆從與哨兵攻擊脆弱的敵人時有{0}%概率暴擊
+					僕從與哨兵攻擊脆弱的敵人時有{0}%概率暴擊
 					'''
 			}
 
@@ -16586,7 +16586,7 @@ Mods: {
 
 			VoidLance: {
 				DisplayName: 虛空之觸
-				Tooltip: 在你的游標處撕開一道進入其他維度的裂隙
+				Tooltip: 在你的遊標處撕開一道進入其他維度的裂隙
 			}
 
 			VoltModule: {
@@ -16709,7 +16709,7 @@ Mods: {
 					}
 
 					Bard: {
-						Name: 吟游詩人專注
+						Name: 吟遊詩人專注
 						Description: 咒音增幅持續時間延長 {0} {^0:秒;seconds}
 					}
 				}
@@ -17520,10 +17520,10 @@ Mods: {
 			}
 
 			SoftServeSunderer: {
-				DisplayName: 奶油冰淇淋
+				DisplayName: 奶油霜淇淋
 				Tooltip:
 					'''
-					一個敵怪身上粘有5個冰淇淋甜筒時會被永久降低防禦
+					一個敵怪身上粘有5個霜淇淋甜筒時會被永久降低防禦
 					扔出時有15%概率不被消耗
 					'''
 			}
@@ -18046,7 +18046,7 @@ Mods: {
 				DisplayName: 靈雲之氣
 				Tooltip:
 					'''
-					'和這個小傢伙在一起的快樂日子就在眼前'
+					'和這個小傢夥在一起的快樂日子就在眼前'
 					召喚一隻可騎乘的飛龍
 					'''
 			}
@@ -18155,7 +18155,7 @@ Mods: {
 				DisplayName: 喚騰魔杖
 				Tooltip:
 					'''
-					在游標位置召喚一個所選的圖騰哨兵
+					在遊標位置召喚一個所選的圖騰哨兵
 					右鍵在四個不同的圖騰元素間切換
 					'''
 
@@ -18279,7 +18279,7 @@ Mods: {
 				Tooltip:
 					'''
 					以弧形下落時多造成50%傷害以及光之咒減益
-					游標位置離玩家越遠，飛的越遠
+					遊標位置離玩家越遠，飛的越遠
 					'''
 			}
 
@@ -18348,7 +18348,7 @@ Mods: {
 				Tooltip:
 					'''
 					用次元能量傷害打擊敵人
-					右鍵可以將附近所有敵怪吸向游標
+					右鍵可以將附近所有敵怪吸向遊標
 					'''
 			}
 
@@ -18508,44 +18508,44 @@ Mods: {
 			}
 
 			CausticHeadgear: {
-				DisplayName: 腐蚀头饰
+				DisplayName: 腐蝕頭飾
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			CausticLeggings: {
-				DisplayName: 腐蚀连裤
+				DisplayName: 腐蝕連褲
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			CausticRobe: {
-				DisplayName: 腐蚀长袍
+				DisplayName: 腐蝕長袍
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			ChunkyGreaves: {
-				DisplayName: 厚重护胫
+				DisplayName: 厚重護脛
 				Tooltip: ""
 			}
 
 			ChunkyHelmet: {
-				DisplayName: 厚重头盔
+				DisplayName: 厚重頭盔
 				Tooltip: ""
 			}
 
 			ChunkyMail: {
-				DisplayName: 厚重铠甲
+				DisplayName: 厚重鎧甲
 				Tooltip: ""
 			}
 
@@ -18555,56 +18555,56 @@ Mods: {
 			}
 
 			LegendaryChainmail: {
-				DisplayName: 传奇锁甲
+				DisplayName: 傳奇鎖甲
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			LegendaryGreaves: {
-				DisplayName: 传奇护腿
+				DisplayName: 傳奇護腿
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			LegendaryHelmet: {
-				DisplayName: 传奇头盔
+				DisplayName: 傳奇頭盔
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			LightAutomatonLeggings: {
-				DisplayName: 光能机械裤子
+				DisplayName: 光能機械褲子
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			LightAutomatonMask: {
-				DisplayName: 光能机械面具
+				DisplayName: 光能機械面具
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			LightAutomatonNuvaArmor: {
-				DisplayName: 光能机械铠甲
+				DisplayName: 光能機械鎧甲
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
@@ -18650,20 +18650,20 @@ Mods: {
 			}
 
 			MaroonMageHat: {
-				DisplayName: 深红法师帽
+				DisplayName: 深紅法師帽
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			MaroonMageRobe: {
-				DisplayName: 深红法师长袍
+				DisplayName: 深紅法師長袍
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
@@ -18703,12 +18703,12 @@ Mods: {
 			}
 
 			SpaceDwarfBeard: {
-				DisplayName: 太空矮人胡须
+				DisplayName: 太空矮人鬍鬚
 				Tooltip:
 					'''
-					'以胡须为界!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'以鬍鬚為界!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
@@ -18716,29 +18716,29 @@ Mods: {
 				DisplayName: 太空矮人靴
 				Tooltip:
 					'''
-					'别让任何一个矮人掉队!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'別讓任何一個矮人掉隊!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			SpaceDwarfHeadset: {
-				DisplayName: 太空矮人头戴式耳机
+				DisplayName: 太空矮人頭戴式耳機
 				Tooltip:
 					'''
-					'别让任何一个矮人掉队!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'別讓任何一個矮人掉隊!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			SpaceDwarfSuit: {
-				DisplayName: 太空矮人服装
+				DisplayName: 太空矮人服裝
 				Tooltip:
 					'''
-					'岩石与石头!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'岩石與石頭!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
@@ -18746,29 +18746,29 @@ Mods: {
 				DisplayName: 背心裙
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'最適合在陽光明媚日子裡穿著!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			Sunhat: {
-				DisplayName: 遮阳帽
+				DisplayName: 遮陽帽
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'最適合在陽光明媚日子裡穿著!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
 			SunnySandals: {
-				DisplayName: 日光凉鞋
+				DisplayName: 日光涼鞋
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					'最適合在陽光明媚日子裡穿著!'
+					瑟銀時裝大賽 {0} 獲勝者!
+					來自: {1}
 					'''
 			}
 
@@ -18897,12 +18897,12 @@ Mods: {
 					'無限和不可思議地穿越了所有現實，只希望最終經歷死亡'
 					釋放將死現實的全部力量
 					對有防禦的敵怪造成的傷害增加
-					每8次射擊會向游標處發射光棱似的現實能量
+					每8次射擊會向遊標處發射光棱似的現實能量
 					擊殺敵怪時會在死亡地點釋放逐漸擴大的爆炸
 					每次造成傷害時增加5點生命護盾，上限50點
 					造成傷害時治療自身所造成傷害的1%
 					右鍵釋放一個魔法奇點
-					[c/ab40ff:-真实伤害-]
+					[c/ab40ff:-真實傷害-]
 					'''
 			}
 
@@ -18963,7 +18963,7 @@ Mods: {
 				DisplayName: 平平無奇的藍色石頭
 				Tooltip:
 					'''
-					將你傳送到游標位置
+					將你傳送到遊標位置
 					手持石頭時右鍵可以縮放視野
 					'''
 			}
@@ -19484,7 +19484,7 @@ Mods: {
 			}
 
 			BuildingBlock: {
-				DisplayName: 建筑方块
+				DisplayName: 建築方塊
 				Tooltip: ""
 			}
 
@@ -19569,25 +19569,25 @@ Mods: {
 					增加{1}%施法速度
 					+短暫無敵
 					'''
-			}
+}
 
 			HemogoblinSharkToothNecklace: {
-				DisplayName: 血浆哥布林鲨牙项链
-				Tooltip: 护甲穿透增加 {0}
+				DisplayName: 血漿哥布林鯊牙項鍊
+				Tooltip: 護甲穿透增加 {0}
 			}
 
 			LargeCoralVase: {
 				DisplayName: 大型珊瑚花瓶
-				Tooltip: 右键点击可切换样式
+				Tooltip: 右鍵點擊可切換樣式
 			}
 
 			CurtainWall: {
-				DisplayName: 幕墙
-				Tooltip: "'与深色颜料搭配使用效果最佳！'"
+				DisplayName: 幕牆
+				Tooltip: "'與深色顏料搭配使用效果最佳！'"
 			}
 
 			EvergreenFence: {
-				DisplayName: 常青木栅栏
+				DisplayName: 常青木柵欄
 				Tooltip: ""
 			}
 
@@ -19595,8 +19595,8 @@ Mods: {
 				DisplayName: 虹彩之怒
 				Tooltip:
 					'''
-					释放出一股绚烂的能量流
-					(击败光之女王后公主售卖）
+					釋放出一股絢爛的能量流
+					[擊敗光之女王後公主售賣]
 					'''
 			}
 
@@ -19606,49 +19606,49 @@ Mods: {
 					'''
 					{$CommonItemTooltip.SummonTagDamage}
 					{$CommonItemTooltip.Whips}
-					攻击敌人可召唤出一只友方血腥僵尸
+					攻擊敵人可召喚出一隻友方血腥僵屍
 					'''
 			}
 
 			BloodCell: {
-				DisplayName: 血细胞
-				Tooltip: "'一大堆扭动的脏腑'"
+				DisplayName: 血細胞
+				Tooltip: "'一大堆扭動的臟腑'"
 			}
 
 			IncandescentAlacrity: {
-				DisplayName: 炽光疾行
+				DisplayName: 熾光疾行
 				Tooltip:
 					'''
-					'这个宝玉灌注着狐妖的迅捷'
-					增加移动加速度和跳跃高度, 按住下键可以快速下落
-					缓慢生成最多{0}个灵焰，允许你消耗灵焰向光标处冲刺
-					按下'{$Keybinds.AccessoryAbility.DisplayName}'键进行冲刺
+					'這個寶玉灌注著狐妖的迅捷'
+					增加移動加速度和跳躍高度, 按住下鍵可以快速下落
+					緩慢生成最多{0}個靈焰，允許你消耗靈焰向游標處衝刺
+					按下'{$Keybinds.AccessoryAbility.DisplayName}'鍵進行衝刺
 					'''
 			}
 
 			RandomInstrument: {
-				DisplayName: 随机乐器
+				DisplayName: 隨機樂器
 				Tooltip: ""
 			}
 
 			ManaInjectionKit: {
-				DisplayName: 魔力注射剂
+				DisplayName: 魔力注射劑
 				Tooltip:
 					'''
-					'不建议神经脆弱的巫师使用'
-					魔力药水不再回复魔力，而是消耗{0}%原本回复的魔力
-					使用魔力药水时,获得逐渐衰减的魔法伤害提高效果，而不是魔力疾病减益
-					增益时间和伤害增幅可堆叠,随药水消耗的魔力量增加，增幅最高可达到{1}%
+					'不建議神經脆弱的巫師使用'
+					魔力藥水不再回復魔力，而是消耗{0}%原本回復的魔力
+					使用魔力藥水時,獲得逐漸衰減的魔法傷害提高效果，而不是魔力疾病減益
+					增益時間和傷害增幅可堆疊,隨藥水消耗的魔力量增加，增幅最高可達到{1}%
 					'''
-				ManaPotionTooltip: 饮用后消耗{0}魔力值,增加[c/{1}:{2}%]魔法伤害，增益效果随时间衰减
+				ManaPotionTooltip: 飲用後消耗{0}魔力值,增加[c/{1}:{2}%]魔法傷害，增益效果隨時間衰減
 			}
 
 			FrostPelter: {
-				DisplayName: 霜掷
+				DisplayName: 霜擲
 				Tooltip:
 					'''
-					使用雪球作为弹药
-					攻击可能会短暂霜冻目标
+					使用雪球作為彈藥
+					攻擊可能會短暫霜凍目標
 					'''
 			}
 		}
@@ -20145,7 +20145,7 @@ Mods: {
 
 			Hammerhead: {
 				DisplayName: 雙髻鯊
-				BestiaryFlavorText: 這個可憐的傢伙不知道如何在它的鯊魚朋友中脫穎而出……直到它決定使用它的腦袋.
+				BestiaryFlavorText: 這個可憐的傢夥不知道如何在它的鯊魚朋友中脫穎而出……直到它決定使用它的腦袋.
 			}
 
 			Kraken: {
@@ -20676,7 +20676,7 @@ Mods: {
 
 			SnowBall: {
 				DisplayName: 雪球怪
-				BestiaryFlavorText: 這些傢伙採取了打雪仗的想法並且滾得有點多了！
+				BestiaryFlavorText: 這些傢夥採取了打雪仗的想法並且滾得有點多了！
 			}
 
 			SnowEater: {
@@ -20790,7 +20790,7 @@ Mods: {
 					LikeBiome: 嗯.這裡有家的感覺，周圍都是雪。我的族人喜歡寒冷的北方.
 					DislikeBiome: 在這麼安全的地方開始追捕怪物是件痛苦的事.
 					HateBiome: 我想說“讓我們開始談正事吧”，但這裡太危險了…
-					LoveNPC: 如果鎮上有誰能在扳手腕比賽中與我一較高下, 那就是{NPCName}. 愛死這個傢伙了!
+					LoveNPC: 如果鎮上有誰能在扳手腕比賽中與我一較高下, 那就是{NPCName}. 愛死這個傢夥了!
 					LikeNPC: 如果這裡有我可以信賴的, 那就是 {NPCName}.
 					DislikeNPC: "{NPCName}只是不停地說不要弄髒他的長袍, 而不是完善工作。我不喜歡這樣的人。”."
 					HateNPC: "{NPCName}就是不明白聲望和戰鬥的重要性, 這讓我很煩躁."
@@ -21988,7 +21988,7 @@ Mods: {
 			WindyTotemPro.DisplayName: 風圖騰
 			YarnBallPro.DisplayName: 小貓咪
 			YarnBallProShoot.DisplayName: 小貓咪
-			YumaSpirit.DisplayName: 游馬之魂
+			YumaSpirit.DisplayName: 遊馬之魂
 			MjolnirPro.DisplayName: 雷神之錘
 			MjolnirPro2.DisplayName: 雷神之錘
 			MjolnirPro3.DisplayName: 雷神之錘3
@@ -22439,7 +22439,7 @@ Mods: {
 			ShinobiSlicerPro.DisplayName: 忍者飛匕
 			SleepingGiantPro.DisplayName: 吞星者
 			SmokeBomb.DisplayName: 煙霧彈
-			SoftServeSundererPro.DisplayName: 奶油冰淇淋
+			SoftServeSundererPro.DisplayName: 奶油霜淇淋
 			SoulBombPro.DisplayName: 靈魂炸彈
 			SoulCleaverPro.DisplayName: 靈魂屠刀
 			SoulslasherPro.DisplayName: 碎魂飛刀
@@ -22739,7 +22739,7 @@ Mods: {
 
 			RuneContract: {
 				Title: 符文的終結
-				Description: 隨著血肉牆的倒下而釋放出的那股能量使一些煩人的傢伙獲得了強大的力量.一具一直以來不斷騷擾著被封印的魂靈的骷髏流氓借此力量化為了符文巫師,在地底世界作威作福.他的力量過於不穩定且難以預測...我們不能讓他活著.
+				Description: 隨著血肉牆的倒下而釋放出的那股能量使一些煩人的傢夥獲得了強大的力量.一具一直以來不斷騷擾著被封印的魂靈的骷髏流氓借此力量化為了符文巫師,在地底世界作威作福.他的力量過於不穩定且難以預測...我們不能讓他活著.
 			}
 
 			SandContract: {
@@ -22754,7 +22754,7 @@ Mods: {
 
 			WyvernContract: {
 				Title: 九霄雲外
-				Description: 似乎風向的改變不是我們所能夠干預的.但至少現在這些風並不是我們想要的...有群惱人的飛龍正處在空島附近,那就在我們的頭頂正上方.我想宰掉它們中的一些對大家來說都是好事.
+				Description: 似乎風向的改變不是我們所能夠幹預的.但至少現在這些風並不是我們想要的...有群惱人的飛龍正處在空島附近,那就在我們的頭頂正上方.我想宰掉它們中的一些對大家來說都是好事.
 			}
 		}
 
@@ -22786,7 +22786,7 @@ Mods: {
 
 				Bard: {
 					InstrumentTag: -{0}樂器-
-					ClassTag: -吟游詩人職業-
+					ClassTag: -吟遊詩人職業-
 					InspirationCost: 使用 {0} 靈感值
 				}
 			}
@@ -22818,7 +22818,7 @@ Mods: {
 
 			AbsoluteZero: {
 				DisplayName: 絕對零度
-				Description: 短暫凍結游標附近的所有敵怪
+				Description: 短暫凍結遊標附近的所有敵怪
 			}
 
 			BlindingDash: {
@@ -22855,12 +22855,12 @@ Mods: {
 
 			GravityWell: {
 				DisplayName: 引力陷阱
-				Description: 在游標位置召喚引力井，吸引附近的敵怪
+				Description: 在遊標位置召喚引力井，吸引附近的敵怪
 			}
 
 			HiddenBlade: {
 				DisplayName: 隱匿之刃
-				Description: 向游標方向擲出一枚銳利的袖刃
+				Description: 向遊標方向擲出一枚銳利的袖刃
 			}
 
 			LastStand: {
@@ -22893,7 +22893,7 @@ Mods: {
 
 			ShadowDance: {
 				DisplayName: 暗影之舞
-				Description: 將你傳送至游標處
+				Description: 將你傳送至遊標處
 			}
 
 			SmokeBomb: {
@@ -22923,7 +22923,7 @@ Mods: {
 
 				Headers: {
 					GeneralOptions: 常規選項
-					BardOptions: 吟游詩人選項
+					BardOptions: 吟遊詩人選項
 					HealerOptions: 牧師選項
 					ThrowerOptions: 投手選項
 				}
@@ -22970,7 +22970,7 @@ Mods: {
 
 				ShowInstrumentTypeTags: {
 					Label: 顯示樂器類型標籤
-					Tooltip: 切換工具提示中吟游詩人樂器類型的顯示
+					Tooltip: 切換工具提示中吟遊詩人樂器類型的顯示
 				}
 
 				ShowEmpowermentOrbs: {
@@ -23014,13 +23014,13 @@ Mods: {
 				}
 
 				MoveInstrumentTimerToMouse: {
-					Label: 將樂器計時器移到游標
+					Label: 將樂器計時器移到遊標
 					Tooltip: 如果設定為是，大型樂器的計時器將移動到你的游標下方
 				}
 
 				HideInstrumentTimerMouse: {
 					Label: 隱藏樂器計時器指引
-					Tooltip: 如果設定為是，將會隱藏大型樂器計時器的指引（游標）
+					Tooltip: 如果設定為是，將會隱藏大型樂器計時器的指引（遊標）
 				}
 
 				toggleBigInstrumentMetronome: {
@@ -23035,21 +23035,21 @@ Mods: {
 
 				InstrumentSoundVolume: {
 					Label: 樂器音量
-					Tooltip: 設定玩家使用吟游詩人樂器時的音量大小
+					Tooltip: 設定玩家使用吟遊詩人樂器時的音量大小
 				}
 
 				OthersInstrumentSoundVolume: {
 					Label: 其他玩家樂器音量
-					Tooltip: 設定其他玩家使用吟游詩人樂器時的音量大小
+					Tooltip: 設定其他玩家使用吟遊詩人樂器時的音量大小
 				}
 
 				ShowBardIcon: {
-					Label: 顯示吟游詩人圖示
-					Tooltip: 切換吟游詩人圖示的顯示
+					Label: 顯示吟遊詩人圖示
+					Tooltip: 切換吟遊詩人圖示的顯示
 				}
 
 				BardIconOffsetY: {
-					Label: 吟游詩人圖示Y值偏移
+					Label: 吟遊詩人圖示Y值偏移
 					Tooltip: ""
 				}
 
@@ -23228,7 +23228,7 @@ Mods: {
 				}
 
 				Bard: {
-					Header: 吟游詩人屬性
+					Header: 吟遊詩人屬性
 					Text:
 						'''
 						咒音增幅持續時間: {0} {^0:秒;seconds}
@@ -23250,7 +23250,7 @@ Mods: {
 		}
 
 		MusicDisplaySupport: {
-			ModName: 瑟银模组
+			ModName: 瑟銀模組
 
 			AHeroNoMore: {
 				Title: A Hero No More
@@ -23325,47 +23325,47 @@ Mods: {
 
 		NewBeginningsSupport: {
 			GraveRobber: {
-				DisplayName: 盗墓贼
-				Flavor: 对于目光敏锐的人，金子细微的亮光就像刀尖一样显眼。
-				Description: 以掘墓者铲子，掘墓者套装,闪光圣杯,一个(偷来的)戒指，和较低的生命值在墓地开始，
+				DisplayName: 盜墓賊
+				Flavor: 對於目光敏銳的人，金子細微的亮光就像刀尖一樣顯眼。
+				Description: 以掘墓者鏟子，掘墓者套裝,閃光聖杯,一個(偷來的)戒指，和較低的生命值在墓地開始，
 			}
 
 			Medic: {
-				DisplayName: 医疗兵
-				Flavor: 伤员中最受欢迎的景象，他们努力确保他们的队友在任何战斗中幸存下来。
-				Description: 以一部分牧师学徒套装，医疗包,骨锯和300个注射器开始。
+				DisplayName: 醫療兵
+				Flavor: 傷患中最受歡迎的景象，他們努力確保他們的隊友在任何戰鬥中倖存下來。
+				Description: 以一部分牧師學徒套裝，醫療包,骨鋸和300個注射器開始。
 			}
 
 			Minstrel: {
-				DisplayName: 吟游诗人
-				Flavor: 一个漫游的漂泊者，通过音乐编织魔法来激励队友打倒敌人。
-				Description: 以传讯员套装,两个随机乐器开始,拥有更高的初始灵感值，生命值则较低。
+				DisplayName: 吟游詩人
+				Flavor: 一個漫遊的漂泊者，通過音樂編織魔法來激勵隊友打倒敵人。
+				Description: 以傳訊員套裝,兩個隨機樂器開始,擁有更高的初始靈感值，生命值則較低。
 			}
 
 			Occultist: {
-				DisplayName: 神秘学家
-				Flavor: 与黑暗势力有联系的异端学者。
-				Description: 以棕榈十字架和汲血牙，巫咒护符，神秘披风和怒容开始，具有更高的的魔力值和更低的生命值。永久腐化你的光辉法术。
+				DisplayName: 神秘學家
+				Flavor: 與黑暗勢力有聯繫的異端學者。
+				Description: 以棕櫚十字架和汲血牙，巫咒護符，神秘披風和怒容開始，具有更高的的魔力值和更低的生命值。永久腐化你的光輝法術。
 			}
 
 			Ronin: {
 				DisplayName: 浪人
-				Flavor: "'今日之我比昨日之我技艺精进，而明日之我比今日之我再进一筹。一生日日上进，以道来说，则永无终止。'"
-				Description: 以浪人套装，武士刀和皮革剑鞘开始。站立不动时剑鞘准备速度翻倍，但剑鞘攻击之外的攻击无法造成伤害
+				Flavor: "'今日之我比昨日之我技藝精進，而明日之我比今日之我再進一籌。一生日日上進，以道來說，則永無終止。'"
+				Description: 以浪人套裝，武士刀和皮革劍鞘開始。站立不動時劍鞘準備速度翻倍，但劍鞘攻擊之外的攻擊無法造成傷害
 			}
 		}
 
 		SpiritReforgedSupport: {
 			BatPot: {
 				DisplayName: 蝙蝠罐
-				Description: 一个来自鲜血密室的独特罐子，里面有各种有用的东西。
+				Description: 一個來自鮮血密室的獨特罐子，裡面有各種有用的東西。
 			}
 		}
 
 		CombatText: {
-			HealStreak: "{0}生命治疗量"
-			CloseCall: 死里逃生
-			Freebie: 赠品!
+			HealStreak: "{0}生命治療量"
+			CloseCall: 死裡逃生
+			Freebie: 贈品!
 		}
 	}
 }
