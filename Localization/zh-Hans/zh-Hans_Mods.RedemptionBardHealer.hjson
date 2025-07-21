@@ -187,13 +187,12 @@ Items: {
 		Tooltip: 发射出锋利的叶子
 	}
 
-
 	Milkomeda: {
-		DisplayName: 仙银星座
+		DisplayName: 仙彗星座
 		Tooltip:
 			'''
 			投掷两个宇宙星体偶尔会相互碰撞
-			每次碰撞都会产生小星体
+			每次碰撞都会产生星体
 			星体可以追踪敌人
 			"双星系跨越十亿年的绝美爱恋之舞"
 			'''
