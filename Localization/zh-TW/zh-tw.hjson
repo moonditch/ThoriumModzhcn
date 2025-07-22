@@ -1702,7 +1702,7 @@ Mods: {
 			WorldHasBloodAltar: 這個世界有鮮血祭壇
 			WorldHasNoBloodAltarOrDownedViscount: 這個世界沒有鮮血祭壇或{$Conditions.DownedViscount}
 			WorldIsCrimsonOrHardmode: 世界是猩紅或進入困難模式
-			WorldIsCorruptionOrHardmode: 世界是腐化或進入困難模式0}%
+			WorldIsCorruptionOrHardmode: 世界是腐化或進入困難模式
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
