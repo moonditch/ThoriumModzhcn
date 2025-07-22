@@ -20044,6 +20044,7 @@ Mods: {
 
 				Census.SpawnCondition: 擊敗{$NPCName.KingSlime}
 				Button2: 供應原料
+				IngredientInterested: 廚師可能會對這個感興趣: {0} / {1}
 			}
 
 			Coolmera: {

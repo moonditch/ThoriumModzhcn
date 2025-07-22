@@ -51,14 +51,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.UI.ResourceBars.InformationalIcons
 
 
-				#region ThoriumMod.Items.ThoriumGlobalItem
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.ThoriumGlobalItem", "AddCookText", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.ThoriumGlobalItem.AddCookText.2916","The cook might be interested in this: "},
-				});
-				#endregion ThoriumMod.Items.ThoriumGlobalItem
-
-
 				#region ThoriumMod.Items.ThoriumItem
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.ThoriumItem", "ModifyTooltips", new ()
 				{
@@ -665,6 +657,7 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 
 
 				//NPC需求
+
 				#region ThoriumMod.NPCs.HealingDummy
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.NPCs.HealingDummy", "AI", new ()
 				{

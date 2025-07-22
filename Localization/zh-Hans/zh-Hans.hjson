@@ -800,7 +800,7 @@ Mods: {
 			}
 
 			MasterMarksmansScouterDebuff: {
-				DisplayName: 全景视觉（占位符）
+				DisplayName: 全景视觉
 				Description: 这个敌人就在刺客的视线之内
 			}
 
@@ -899,7 +899,7 @@ Mods: {
 			}
 
 			OldDebt: {
-				DisplayName: 熟悉的面孔（占位符）
+				DisplayName: 熟悉的面孔
 				Description: 旧债正在偿还……现在拯救世界!
 			}
 
@@ -964,7 +964,7 @@ Mods: {
 			}
 
 			SnowSingaBuff: {
-				DisplayName: 重生（占位符）
+				DisplayName: 重生
 				Description: 敌人正在恢复生命
 			}
 
@@ -1254,7 +1254,7 @@ Mods: {
 			}
 
 			RefreshingBubble: {
-				DisplayName: 干净的泡泡（占位符）
+				DisplayName: 干净的泡泡
 				Description: 吸入泡泡能让你多呼吸几口气!
 			}
 
@@ -6515,7 +6515,7 @@ Mods: {
 			}
 
 			MediumRareSteak: {
-				DisplayName: 三分熟牛排（占位符新）
+				DisplayName: 三分熟牛排
 				Tooltip:
 					'''
 					'非常适合龙的成长饮食……我想？'
@@ -7154,7 +7154,7 @@ Mods: {
 			}
 
 			SoulReaver: {
-				DisplayName: 夺魂枪（占位符，更新）
+				DisplayName: 夺魂枪
 				Tooltip:
 					'''
 					“他告诉你……”
@@ -9575,7 +9575,7 @@ Mods: {
 			}
 
 			LeechBolt: {
-				DisplayName: 汲血牙（占位符新）
+				DisplayName: 汲血牙
 				Tooltip: 发射血牙，从第一个命中的敌人身上偷取生命
 			}
 
@@ -9833,7 +9833,7 @@ Mods: {
 			}
 
 			NecroticStaff: {
-				DisplayName: 死灵法杖（占位符，更新）
+				DisplayName: 死灵法杖
 				Tooltip:
 					'''
 					治疗目标队友7.5%最大生命值的生命
@@ -12514,7 +12514,7 @@ Mods: {
 			}
 
 			SalamanderEye: {
-				DisplayName: 火蜥蜴之眼（占位符，更新）
+				DisplayName: 火蜥蜴之眼
 				Tooltip: 战斗5秒后，你的生命恢复增加1点
 			}
 
@@ -20121,7 +20121,7 @@ Mods: {
 
 				Census.SpawnCondition: 击败{$NPCName.KingSlime}
 				Button2: 供应原料
-				IngredientInterested: The cook might be interested in this: {0} / {1}
+				IngredientInterested: 厨师可能对此感兴趣: {0} / {1}
 
 				Names: {
 					Alain: Alain
