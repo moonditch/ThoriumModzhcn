@@ -26,8 +26,7 @@ Mods: {
 			ThePrimordialsStart: 整個泰拉世界都在顫動……
 			DreamEaterAppear: 現實正在分崩離析！
 			DreamEaterDefeat: 現實恢復回了原先的寧靜……
-		//}    这里原本有一个括号，防止未来出现重大问题的报告
-		//当前删除此括号是因为繁体汉化加载就报错，报错格式括号多了，但排查没问题v2025.7.21.1的未知报错
+		}   
 
 		Bestiary.InfoElements.ExpertModeInfoElement: 僅限專家模式
 
@@ -1654,7 +1653,7 @@ Mods: {
 				Description: 僕從與哨兵攻擊脆弱的敵人時有概率暴擊
 			}
 
-			BannerPower:　{
+			BannerPower: {
 				DisplayName: 力量令旗
 				Description: 敵人受到的鞭子傷害增加{0}%
 			}
