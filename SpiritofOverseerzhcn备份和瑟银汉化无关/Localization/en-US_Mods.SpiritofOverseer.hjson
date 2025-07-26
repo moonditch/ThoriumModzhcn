@@ -1,0 +1,203 @@
+ItemDescriptions: {
+	DuskPendant:
+		'''
+		Ranged and magic attacks are occasionally accompanied by a homing shadow fireball
+		Shadow fireballs are shot more frequently at night
+		'''
+	ShadowflameSword:
+		'''
+		Creates a barrage of shadowflame beams on swing that deal a fraction of the blade's damage
+		Dealing direct damage to enemies afflicted with shadowflame has a chance to make them explode
+		'''
+	ShadowSphere: Summons a shadowflame circle rune that unleahes antumbral flames to chase after enemies
+	UmbraStaff: Shoots a barrage of antumbral skulls
+}
+
+Projectiles: {
+	AntumbralFlame.DisplayName: Antumbral Flame
+	AntumbralFlameF.DisplayName: Antumbral Flame
+	AntumbralSkull.DisplayName: Antumbral Skull
+	AntumbralSkullF.DisplayName: Antumbral Skull
+	DuskBeam.DisplayName: Dusk Beam
+	ShadowflameSword.DisplayName: Shadowflame Sword
+	ShadowPulseWave.DisplayName: Shadow Pulse Wave
+	VisualShockwave.DisplayName: Visual Shockwave
+	PrismaticFlame.DisplayName: Prismatic Flame
+}
+
+InfernumIntros: {
+	AncientFlyer:
+		'''
+		Living Fossil
+		Ancient Avian
+		'''
+	Atlas:
+		'''
+		Weight of the World
+		Atlas
+		'''
+	Dusking:
+		'''
+		Evening Spirit
+		Dusking
+		'''
+	Infernon:
+		'''
+		The Regretful
+		Infernon
+		'''
+	MoonWizard:
+		'''
+		Magus of the Blue Moon
+		Moon Jelly Wizard
+		'''
+	ReachBoss:
+		'''
+		Overgrown Protector
+		Vinewrath
+		'''
+	Scarabeus:
+		'''
+		Precious Beetle
+		Scarabeus
+		'''
+	SteamRaiderHead:
+		'''
+		Wandering Raider
+		Starplate Voyager
+		'''
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: Visual Settings
+
+		flash: {
+			Label: Flashing lights intensity
+			Tooltip: How bright or how dim flashes are
+		}
+
+		overlay: {
+			Label: Overlay intensity
+			Tooltip: How transparent screen overlays are
+		}
+
+		seizures: {
+			Label: Photosensitivity warning
+			Tooltip: Prompts a photosensitivity warning when joining a world
+		}
+
+		bossRenames: {
+			Label: boss Renames
+			Tooltip: ""
+		}
+	}
+
+	CompatConfig: {
+		DisplayName: Cross Mod Compatibility Settings
+
+		healthScale: {
+			Label: Health multiplier
+			Tooltip: Multiplies the health of Spirit's bosses by this amount
+		}
+
+		damageScale: {
+			Label: Damage multiplier
+			Tooltip: Multiplies the attack damage of Spirit's bosses by this amount
+		}
+
+		speedScale: {
+			Label: Speed multiplier
+			Tooltip:
+				'''
+				Multiplies the movement speed of Spirit's bosses by this amount
+				Limited to 2x speed as any higher breaks bosses
+				1.35x is recommended for Infernum
+				'''
+		}
+
+		extraItems: {
+			Label: Extra Item Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some unrelated items that are from this mod
+				'''
+		}
+
+		extraPotions: {
+			Label: Extra Potion Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some buff potions relating to Spirit's class that are from this mod
+				'''
+		}
+
+		extraPrefixes: {
+			Label: Extra Prefix Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some prefixes relating to Spirit's class items that are from this mod
+				'''
+		}
+
+		masterDrops: {
+			Label: Master Mode Drops
+			Tooltip:
+				'''
+				(Recommended!)
+				Spirit's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: Master weapon drops are expert drops
+			Tooltip:
+				'''
+				Master mode exclusive weapons drop in expert mode
+				Recommended if you don't like playing on master or other mods break master drops
+				(e.g. eternity mode becoming masochist mode or infernum not being useable in master mode)
+				'''
+		}
+
+		itemReworks: {
+			Label: Rework Some of Spirit's Items
+			Tooltip:
+				'''
+				(Recommended!)
+				Reworks some items from Spirit mod to be a lot better
+				'''
+		}
+
+		spiramityBR: {
+			Label: Spirit Bosses in Calamity Boss Rush
+			Tooltip: Spirit Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
+		}
+
+		defenseDamage: {
+			Label: Defense Damage Support
+			Tooltip: Allows some of Spirit's boss attacks to inflict defense damage if Calamity mod is enabled
+		}
+
+		eternityModeOnly: {
+			Label: Eternity mode only
+			Tooltip: The reworks from this mod only applies when eternity mode is active
+		}
+	}
+
+	ReworkTogglesConfig: {
+		DisplayName: Boss Rework Toggles
+
+		dusking: {
+			Label: "[i:SpiritMod/DuskingMask]Dusking"
+			Tooltip: Dusking rework
+		}
+
+		atlas: {
+			Label: "[i:SpiritMod/AtlasMask]Atlas"
+			Tooltip: Atlas rework
+		}
+	}
+}

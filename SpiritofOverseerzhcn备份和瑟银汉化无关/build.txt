@@ -1,0 +1,8 @@
+displayName = 困难模式的魂灵BOSS重置汉化补丁
+author = moon.ditch
+version = 0.11
+translationMod = true
+side = Client
+hideResources = true
+weakReferences = SpiritofOverseer, ThoriumClassTagsConsistency
+sortAfter = SpiritofOverseer, ThoriumClassTagsConsistency
