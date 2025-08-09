@@ -984,6 +984,11 @@ Configs: {
 			Tooltip: 瑟銀boss加入災厄bossrush，根據適當的階級排序
 		}
 
+		defenseDamage: {
+			Label: 防禦傷害支持
+			Tooltip: 若啓用災厄模組某些瑟銀BOSS攻擊會造成防禦傷害
+		}
+
 		eternityModeOnly: {
 			Label: 僅限永恆模式
 			Tooltip:

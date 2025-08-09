@@ -9,6 +9,15 @@ ItemDescriptions: {
 		飞行时间: 180
 		穿戴天界盔甲时，治疗法术会额外治疗4生命值
 		'''
+	ChampionWing:
+		'''
+		水平飞行速度: 3.0
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 120
+		提高10%的伤害
+		'''
+	CyanPhasesaber: 100%无视对方防御力
 	DemonshadeGreaves:
 		'''
 		最大技巧值增加2, 最大灵感值增加15, 额外治疗增加25
@@ -45,6 +54,14 @@ ItemDescriptions: {
 		飞行时间: 170
 		穿戴恐惧盔甲时，增加怒气模式的伤害倍增率
 		'''
+	DridersGrace:
+		'''
+		水平飞行速度: 3.0-7.0
+		加速倍率: 1.0-2.0
+		普通的垂直飞行速度
+		飞行时间: 60-360
+		穿戴蜘蛛盔甲时，仆从上限增加1
+		'''
 	FleshWings:
 		'''
 		水平飞行速度: 6.25
@@ -55,9 +72,11 @@ ItemDescriptions: {
 		'''
 	OmegaBlueSet:
 		'''
-		最大技巧值增加2
-		最大灵感值增加12和额外治疗增加7
+		最大技巧值增加2和最大灵感值增加12
+		治疗法术将额外恢复 7 点生命值
 		'''
+	OmegaBlueSetNoThrower: 最大灵感值增加12和额外治疗增加7
+	PinkPhasesaber: 100%无视对方防御力
 	ShootingStarTurboTuba:
 		'''
 		水平飞行速度: 9.00
@@ -65,6 +84,21 @@ ItemDescriptions: {
 		优异的垂直飞行速度
 		飞行时间: 180
 		穿戴流影掠星盔甲时，灵感值恢复速度提高15%
+		'''
+	SubspaceWings:
+		'''
+		水平飞行速度: 7.5
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 160
+		'''
+	TerrariumWings:
+		'''
+		水平飞行速度: 8.00
+		加速倍率: 2.0
+		普通的垂直飞行速度
+		飞行时间: 180
+		穿上元素盔甲时，飞行时间会翻倍。
 		'''
 	TitanWings:
 		'''
@@ -91,6 +125,7 @@ Items: {
 		Tooltip:
 			'''
 			增加7%光辉伤害和施法速度
+			减少15%的非光辉伤害
 			治疗法术会额外治疗2点生命值
 			'''
 		SetBonus:
@@ -112,10 +147,10 @@ Items: {
 	}
 
 	AnahitasArpeggio: {
-		DisplayName: 阿娜希塔琶音
+		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			发射缓慢移动的高音音斧诱惑敌人
+			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
 			基于作者DM Dokuro的竖琴演奏曲“Forbidden Lullaby”改编
 			'''
 	}
@@ -167,6 +202,7 @@ Items: {
 		Tooltip:
 			'''
 			增加15%光辉伤害
+			减少35%的非光辉伤害
 			增加10%光辉暴击率
 			减少45%魔力消耗
 			大幅增加生命值与魔力再生
@@ -210,6 +246,7 @@ Items: {
 		Tooltip:
 			'''
 			增加15%光辉伤害
+			减少35%的非光辉伤害
 			增加10%光辉暴击率
 			减少45%魔力消耗
 			大幅增加生命值与魔力再生
@@ -241,6 +278,7 @@ Items: {
 		Tooltip:
 			'''
 			增加15%光辉伤害和光辉暴击率
+			减少25%的非光辉伤害
 			增加80最大生命值
 			适中增加生命回复
 			治疗法术会额外治疗12点生命值
@@ -367,6 +405,7 @@ Items: {
 		Tooltip:
 			'''
 			增加10%光辉伤害
+			减少25%的非光辉伤害
 			增加5%光辉治愈速度
 			治疗法术会额外治疗3点生命值
 			'''
@@ -649,6 +688,7 @@ Items: {
 		Tooltip:
 			'''
 			增加12%光辉伤害
+			减少27%的非光辉伤害
 			增加6%光辉暴击率
 			治疗法术会额外治疗4点生命值
 			'''
@@ -680,6 +720,21 @@ Items: {
 			'''
 	}
 
+	HyphaeBaton: {
+		DisplayName: 菌丝杖
+		Tooltip: 每次获得灵魂精华都会生成孢子球
+	}
+
+	InfestedCastanet: {
+		DisplayName: 响板（保留的英文：C4$+@n3+）
+		Tooltip:
+			'''
+			手持一对螃蟹爪可以发出近距离攻击的打击声
+			每次攻击都会有三次打击
+			灵感来自作者DM Dokuro的"1nf3$+@+!0n"铃鼓曲
+			'''
+	}
+
 	IntergelacticCloche: {
 		DisplayName: 异宇星凝礼帽
 		Tooltip:
@@ -702,6 +757,7 @@ Items: {
 		Tooltip:
 			'''
 			增加11%的光辉伤害，暴击率和施法速度
+			减少33%的非光辉伤害
 			治疗法术会额外治疗4点生命值
 			'''
 		SetBonus:
@@ -904,6 +960,7 @@ Items: {
 		Tooltip:
 			'''
 			增加12%的光辉伤害和光辉暴击率
+			减少30%的非光辉伤害
 			中幅增加生命回复
 			最大生命值增加100
 			治疗法术会额外治疗15点生命值
@@ -1005,6 +1062,7 @@ Items: {
 		Tooltip:
 			'''
 			增加9%光辉伤害和施法速度
+			减少27%的非光辉伤害
 			治疗法术会额外治疗4点生命值
 			'''
 		SetBonus:
@@ -1062,6 +1120,7 @@ Items: {
 		Tooltip:
 			'''
 			增加10%光辉伤害
+			减少30%的非光辉伤害
 			增加5%光辉暴击率
 			增加5%伤害减免
 			最大生命值增加20

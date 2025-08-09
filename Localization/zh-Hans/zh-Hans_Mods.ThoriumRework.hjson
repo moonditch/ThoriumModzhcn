@@ -991,6 +991,11 @@ Configs: {
 			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
 		}
 
+		defenseDamage: {
+			Label: 防御伤害支持
+			Tooltip: 若启用灾厄模组某些瑟银BOSS攻击会造成防御伤害
+		}
+
 		eternityModeOnly: {
 			Label: 仅限永恒模式
 			Tooltip:

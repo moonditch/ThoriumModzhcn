@@ -334,8 +334,8 @@ Mods: {
 			}
 
 			DepthDiverAura: {
-				DisplayName: Depth Diver Aura
-				Description: You have received increased damage, speed, and underwater breathing
+				DisplayName: 深海潛游光環
+				Description: 你已獲得傷害提升，速度提升和水下呼吸能力
 			}
 
 			Destabilized: {

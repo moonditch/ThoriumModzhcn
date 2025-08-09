@@ -424,6 +424,7 @@ Projectiles: {
 	ShellxophoneStrike.DisplayName: Abyssal Strike
 	SoulBleed.DisplayName: Soul Bleed
 	SoulRender.DisplayName: Soul Render
+	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	StableRealityRift.DisplayName: Stable Reality Rift
 	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
@@ -989,6 +990,11 @@ Configs: {
 		thorlamityBR: {
 			Label: Thorium Bosses in Calamity Boss Rush
 			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
+		}
+
+		defenseDamage: {
+			Label: Defense Damage Support
+			Tooltip: Allows some of Thorium's boss attacks to inflict defense damage if Calamity mod is enabled
 		}
 
 		eternityModeOnly: {

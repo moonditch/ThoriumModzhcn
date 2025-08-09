@@ -9,6 +9,15 @@ ItemDescriptions: {
 		Flight time: 180
 		Healing spells will heal an additional 4 life while wearing Celestial Armor
 		'''
+	ChampionWing:
+		'''
+		Horizontal speed: 3.0
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 120
+		10% increased damage
+		'''
+	CyanPhasesaber: Ignores 100% of enemy defense
 	DemonshadeGreaves:
 		'''
 		Increases your maximum technique points by 2, maximum inspiration by 15, and bonus healing by 25 life
@@ -45,6 +54,14 @@ ItemDescriptions: {
 		Flight time: 170
 		Increased Rage mode damage multiplier while wearing Dread Armor
 		'''
+	DridersGrace:
+		'''
+		Horizontal speed: 3.0-7.0
+		Acceleration multiplier: 1.0-2.0
+		Average vertical speed
+		Flight time: 60-360
+		Increases max number of minions by 1 when wearing Spider Armor
+		'''
 	FleshWings:
 		'''
 		Horizontal speed: 6.25
@@ -55,9 +72,11 @@ ItemDescriptions: {
 		'''
 	OmegaBlueSet:
 		'''
-		Increases your maximum technique points by 2
-		Increases maximum inspiration by 12 and bonus healing by 7 life
+		Increases maximum technique points by 2 and inspiration by 12
+		Healing spells will heal an additional 7 life
 		'''
+	OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
+	PinkPhasesaber: Ignores 100% of enemy defense
 	ShootingStarTurboTuba:
 		'''
 		Horizontal speed: 9.00
@@ -65,6 +84,21 @@ ItemDescriptions: {
 		Great vertical speed
 		Flight time: 180
 		15% increased inspiration regeneration rate while wearing Shooting Star Armor
+		'''
+	SubspaceWings:
+		'''
+		Horizontal speed: 7.5
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 160
+		'''
+	TerrariumWings:
+		'''
+		Horizontal speed: 8.00
+		Acceleration multiplier: 2.0
+		Average vertical speed
+		Flight time: 180
+		Flight time is doubled when wearing Terrarium Armor
 		'''
 	TitanWings:
 		'''
@@ -91,6 +125,7 @@ Items: {
 		Tooltip:
 			'''
 			7% increased radiant damage and casting speed
+			15% decreased non-radiant damage
 			Healing spells will heal an additional 2 life
 			'''
 		SetBonus:
@@ -167,6 +202,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage
+			35% decreased non-radiant damage
 			10% increased radiant critical strike chance
 			45% decreased mana cost
 			Massively increased life and mana regeneration
@@ -210,6 +246,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage
+			35% decreased non-radiant damage
 			10% increased radiant critical strike chance
 			45% decreased mana cost
 			Massively increased life and mana regeneration
@@ -241,6 +278,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage and critical strike chance
+			25% decreased non-radiant damage
 			+80 max life
 			Moderately increased life regeneration
 			Healing spells will heal an additional 12 life
@@ -367,6 +405,7 @@ Items: {
 		Tooltip:
 			'''
 			10% increased radiant damage
+			25% decreased non-radiant damage
 			5% increased healing speed
 			Healing spells will heal an additional 3 life
 			'''
@@ -649,6 +688,7 @@ Items: {
 		Tooltip:
 			'''
 			12% increased radiant damage
+			27% decreased non-radiant damage
 			6% increased radiant critical strike chance
 			Healing spells will heal an additional 4 life
 			'''
@@ -680,6 +720,21 @@ Items: {
 			'''
 	}
 
+	HyphaeBaton: {
+		DisplayName: Hyphae Baton
+		Tooltip: Generate lingering spores everytime soul essence is gained
+	}
+
+	InfestedCastanet: {
+		DisplayName: C4$+@+n3+
+		Tooltip:
+			'''
+			Dual wield two crab claws that create short-ranged clacks
+			Clacks are shot in an even spread of three
+			Based off of the castanets from "1nf3$+@+!0n" by DM Dokuro
+			'''
+	}
+
 	IntergelacticCloche: {
 		DisplayName: Intergelactic Cloche
 		Tooltip:
@@ -702,6 +757,7 @@ Items: {
 		Tooltip:
 			'''
 			11% increased radiant damage, critical strike chance and casting speed
+			33% decreased non-radiant damage
 			Healing spells will heal an additional 4 life
 			'''
 		SetBonus:
@@ -904,6 +960,7 @@ Items: {
 		Tooltip:
 			'''
 			12% increased radiant damage and critical strike chance
+			30% decreased non-radiant damage
 			Moderately increased life regeneration
 			+100 max life
 			Healing spells will heal an additional 15 life
@@ -1005,6 +1062,7 @@ Items: {
 		Tooltip:
 			'''
 			9% increased radiant damage and casting speed
+			27% decreased non-radiant damage
 			Healing spells will heal an additional 4 life
 			'''
 		SetBonus:
@@ -1062,6 +1120,7 @@ Items: {
 		Tooltip:
 			'''
 			10% increased radiant damage
+			30% decreased non-radiant damage
 			5% increased radiant critical strike chance
 			5% increased damage reduction
 			+20 max life
@@ -1276,8 +1335,11 @@ Projectiles: {
 	HydrogenSulfideWave.DisplayName: Hydrogen Sulfide
 	HydrothermalEruption.DisplayName: Hydrothermal Eruption
 	HydrothermalOasis.DisplayName: Hydrothermal Oasis
+	HyphaeBaton.DisplayName: Hyphae Baton
+	HyphaeBatonSporeCloud.DisplayName: Hyphae Baton
 	IceCreamMachine.DisplayName: Ice Cream Machine
 	IceCube.DisplayName: Ice Cube
+	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: Interstellar Shredder
 	InterstellarShredder2.DisplayName: Interstellar Shredder
 	LostOasis.DisplayName: Lost Oasis
