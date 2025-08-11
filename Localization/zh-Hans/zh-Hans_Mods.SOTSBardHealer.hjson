@@ -65,18 +65,18 @@ Items: {
 	}
 
 	ChoirofOne: {
-		DisplayName: Choir of One
+		DisplayName: 圣咏归一
 		Tooltip:
 			'''
-			<left> to slowly fire a double helix that can home into enemies
-			<right> to rapidly fire fast beams of supersonic sound
-			Successfully timing hits will steadily increase its damage, homing range and empowerment level
-			Empowerments from this instrument start off at level 2 as supposed to level 1 like the rest
-			Mistiming hits will decrease these bonuses greatly and consume <VoidCost> void
-			This penalty is reduced based on successfully timed hits
-			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
-			Tunes enemies on hit, increasing the damage they take by 15%
-			"A voice. A choice. An invitation..."
+			左键发射追踪敌人的双螺旋
+			右键快速发射超音速声波
+			成功在计时区域击中会不断增加它的伤害，咒音增幅等级和追踪范围
+			与其他大型乐器不同，该武器的咒音增幅会从2级开始
+			错失节拍会大幅降低这些加成并消耗<VoidCost>点虚空值
+			错失节拍的惩罚可以被成功击拍抵消
+			这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+			命中敌怪时，使其受到的伤害增加15%
+			"孤音，抉择，神引..."
 			'''
 	}
 
@@ -166,12 +166,12 @@ Items: {
 	}
 
 	PromiseofDemise: {
-		DisplayName: Promise of Demise
+		DisplayName: 灭亡之契
 		Tooltip:
 			'''
-			Hold <left> to charge a beam of extinction
-			Release <left> to unleash it
-			Goes through walls
+			长按左键为湮灭射线充能
+			松开左键释放
+			射线可以穿墙
 			'''
 	}
 
@@ -400,3 +400,4 @@ Configs: {
 		}
 	}
 }
+
