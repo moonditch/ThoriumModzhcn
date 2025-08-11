@@ -28,6 +28,11 @@ ItemDescriptions: {
 	VoidRadiantWeapon: 消耗{0}虚空值&汲取{1}生命值
 }
 
+Toggler: {
+	SubspaceBootsDash: Subspace Dash
+	GildedBladeWingsFlight: Wings of Light
+}
+
 Items: {
 	AbsoLute: {
 		DisplayName: 绝响琴
@@ -56,6 +61,22 @@ Items: {
 			投掷飞雪刃锋，击中敌人后分裂出匕首
 			暴击会召唤额外的飞雪环绕玩家
 			额外的飞雪会在玩家使用其他武器时射出
+			'''
+	}
+
+	ChoirofOne: {
+		DisplayName: Choir of One
+		Tooltip:
+			'''
+			<left> to slowly fire a double helix that can home into enemies
+			<right> to rapidly fire fast beams of supersonic sound
+			Successfully timing hits will steadily increase its damage, homing range and empowerment level
+			Empowerments from this instrument start off at level 2 as supposed to level 1 like the rest
+			Mistiming hits will decrease these bonuses greatly and consume <VoidCost> void
+			This penalty is reduced based on successfully timed hits
+			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
+			Tunes enemies on hit, increasing the damage they take by 15%
+			"A voice. A choice. An invitation..."
 			'''
 	}
 
@@ -141,6 +162,16 @@ Items: {
 			旋转一把混沌鹰爪刀并发射出它的投影
 			投影会追踪附近的敌人
 			"可能会在某个社区卖很多"
+			'''
+	}
+
+	PromiseofDemise: {
+		DisplayName: Promise of Demise
+		Tooltip:
+			'''
+			Hold <left> to charge a beam of extinction
+			Release <left> to unleash it
+			Goes through walls
 			'''
 	}
 

@@ -28,6 +28,11 @@ ItemDescriptions: {
 	VoidRadiantWeapon: Consumes {0} void & drains {1} life
 }
 
+Toggler: {
+	SubspaceBootsDash: Subspace Dash
+	GildedBladeWingsFlight: Wings of Light
+}
+
 Items: {
 	AbsoLute: {
 		DisplayName: Abso-Lute
@@ -56,6 +61,22 @@ Items: {
 			Throw a bladed snowflake that splits into knives on hit
 			Critical strikes summon extra snowflakes to orbit the user
 			The extra snowflakes are shot when using another weapon
+			'''
+	}
+
+	ChoirofOne: {
+		DisplayName: Choir of One
+		Tooltip:
+			'''
+			<left> to slowly fire a double helix that can home into enemies
+			<right> to rapidly fire fast beams of supersonic sound
+			Successfully timing hits will steadily increase its damage, homing range and empowerment level
+			Empowerments from this instrument start off at level 2 as supposed to level 1 like the rest
+			Mistiming hits will decrease these bonuses greatly and consume <VoidCost> void
+			This penalty is reduced based on successfully timed hits
+			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
+			Tunes enemies on hit, increasing the damage they take by 15%
+			"A voice. A choice. An invitation..."
 			'''
 	}
 
@@ -141,6 +162,16 @@ Items: {
 			Spin a chaotic karambit that summons copies of itself
 			The copies will hurl toward the nearest enemy
 			"Might sell a lot in a certain community"
+			'''
+	}
+
+	PromiseofDemise: {
+		DisplayName: Promise of Demise
+		Tooltip:
+			'''
+			Hold <left> to charge a beam of extinction
+			Release <left> to unleash it
+			Goes through walls
 			'''
 	}
 
@@ -270,6 +301,7 @@ Projectiles: {
 	CharmedSerpent.DisplayName: Charmed Serpent of Sage
 	ChaosCircle.DisplayName: Chaos Ring
 	ChaosSphere.DisplayName: Chaos Ring
+	ChoirofOne.DisplayName: Choir of One
 	CursedAnkh.DisplayName: Cursed Ankh
 	DualStylophone.DisplayName: Dual Stylophone
 	DualStylophonePro.DisplayName: Dual Stylophone
@@ -280,6 +312,7 @@ Projectiles: {
 	GoopwoodWiggle.DisplayName: Goopwood Wiggle
 	InfrasonicTuner.DisplayName: Infrasonic Tuner
 	PhaseKarambit.DisplayName: Phase Karambit
+	PromiseofDemise.DisplayName: Promise of Demise
 	Serpentbite.DisplayName: Serpentbite
 	SerpentFangScythe.DisplayName: Serpent Fang Scythe
 	SerpentFangSlash.DisplayName: Serpent Fang Scythe

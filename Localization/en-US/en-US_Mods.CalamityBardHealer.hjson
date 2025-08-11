@@ -726,7 +726,7 @@ Items: {
 	}
 
 	InfestedCastanet: {
-		DisplayName: C4$+@+n3+
+		DisplayName: C4$+@n3+
 		Tooltip:
 			'''
 			Dual wield two crab claws that create short-ranged clacks
@@ -905,7 +905,7 @@ Items: {
 	}
 
 	SavingGrace: {
-		DisplayName: Saving Grace
+		DisplayName: Beyond Saving Grace
 		Tooltip:
 			'''
 			Rapidly shoots a healing helix of cosmic energy
@@ -1361,7 +1361,7 @@ Projectiles: {
 	PledgeofSelflessness.DisplayName: Pledge of Selflessness
 	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
-	SavingGrace.DisplayName: Saving Grace
+	SavingGrace.DisplayName: Beyond Saving Grace
 	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: Scrap Guitar
 	ScreamingClam.DisplayName: Screaming Clam
