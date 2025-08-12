@@ -20473,7 +20473,7 @@ Mods: {
 			Illusionist: {
 				DisplayName: 幻術師
 				BestiaryFlavorText: 一個先於地牢出現的騙子。它利用虛假對手的幻象，讓一個古代的暴君用可怕的詛咒毀滅了他的王國.
-				BossChecklistIntegration.SpawnInfo: 在地牢發現的迷你Boss（生命體分析機可以檢測到）。可以從迷途僵屍處購買[i:ThoriumMod/FreshBrain]再次進行召喚
+				BossChecklistIntegration.SpawnInfo: 在地牢發現的迷你Boss（生命體分析機可以檢測到）。可以從迷途僵屍處購買[i:ThoriumMod/IllusionaryGlass]再次進行召喚
 			}
 
 			IllusionistMirror.DisplayName: 幻象之鏡
