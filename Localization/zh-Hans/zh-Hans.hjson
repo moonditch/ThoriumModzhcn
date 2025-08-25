@@ -1,12 +1,12 @@
 Mods: {
 	ThoriumMod: {
 		Announcements: {
-			WorldEngineChange: 世界难度改为{0}.
+			WorldEngineChange: 世界难度已改为{0}。
 			LodestoneWarning1: 你的世界已散播地脉矿!
 			LodestoneWarning2: 你的世界已大量散播地脉矿!
 			ValadiumWarning1: 你的世界已散播虚金矿!
 			ValadiumWarning2: 你的世界已大量散播虚金矿!
-			LichWarning: 墓地中的灵魂苏醒了...
+			LichWarning: 墓地中的灵魂苏醒了……
 			GraniteMarbleWarning: 大理石和花岗岩洞穴传来震动……
 			IllumiteWarning: 世纪之花散发的光辉照耀着这片大地……
 			HMDepthsWarning: 深邃水域中的新生命如春笋般涌现！
@@ -32,64 +32,64 @@ Mods: {
 
 		GravestoneText: {
 			# Add new keys here, they will automatically work without any extra code
-			Beloved: 爱.
-			EverLoved: 曾经爱过.
-			InLovingMemory: 在爱的记忆里.
-			OnceMet: 一旦遇见，就永远不会忘记.
-			ForeverHearts: 永远在我们心中.
-			RIP: 安息.
-			LongLife: 长寿.
-			Sleep: 长眠至永恒.
-			Reunited: 终于团聚了.
-			HeEnded: 他结局很好.
-			SheEnded: 她结局很好.
-			WillSee: 我会再次遇见到你.
+			Beloved: 爱。
+			EverLoved: 曾经爱过。
+			InLovingMemory: 在爱的记忆里。
+			OnceMet: 一旦遇见，就永远不会忘记。
+			ForeverHearts: 永远在我们心中。
+			RIP: 安息。
+			LongLife: 长寿。
+			Sleep: 长眠至永恒。
+			Reunited: 终于团聚了。
+			HeEnded: 他结局很好。
+			SheEnded: 她结局很好。
+			WillSee: 我会再次遇见到你。
 		}
 
 		GameTips: {
 			# Biomes
-			ThoriumModTip0: 瑟银模组：其中一片海洋下是深海.基础的镐可能无法破环那里的海洋石.
-			ThoriumModTip1: 瑟银模组：不要尝试在深海中制造自己的空气洞穴，你会窒息而死的！
-			ThoriumModTip2: 瑟银模组：空气泡泡可以让你在水下呼吸一段时间。泡泡磁铁会将它们吸向你.
-			ThoriumModTip3: 瑟银模组：困难模式下水晶波痕会在深海生长；使用它们来增加你的移动速度！
+			ThoriumModTip0: 瑟银模组：其中一片海洋下是{$Biomes.DepthsBiome.DisplayName}。基础的镐可能无法破环那里的海洋石。
+			ThoriumModTip1: 瑟银模组：不要尝试在{$Biomes.DepthsBiome.DisplayName}中制造自己的空气洞穴，你会窒息而死的！
+			ThoriumModTip2: 瑟银模组：空气泡泡可以让你在水下呼吸一段时间。{$Items.BubbleMagnet.DisplayName}会将它们吸向你。
+			ThoriumModTip3: 瑟银模组：困难模式下水晶波痕会在{$Biomes.DepthsBiome.DisplayName}生长；使用它们来增加你的移动速度！
 			ThoriumModTip4: 瑟银模组：鲜血密室坐落于地下某处。可以在它的祭坛处提供5个不洁碎晶，但后果自负……
 			# Classes
-			ThoriumModTip5: 瑟银模组：使用秘技卷轴来装备它，然后在有足够技巧值时按下“投掷卷轴”键可以触发它的效果!
+			ThoriumModTip5: 瑟银模组：使用秘技卷轴来装备它，然后在有足够技巧值时按下“{$Keybinds.ThrowingTechnique.DisplayName}”键可以触发它的效果!
 			ThoriumModTip6: 瑟银模组：作为一个牧师，你死了就无法帮助你的队友，因此总要首先确保自身安全!
-			ThoriumModTip7: 瑟银模组：最大灵感值可通过三种不同等级的灵感碎片来提升.
-			ThoriumModTip8: 瑟银模组：某些吟游诗人的乐器需要基于计时器演奏以获得最佳表现.
+			ThoriumModTip7: 瑟银模组：最大灵感值可通过三种不同等级的灵感碎片来提升。
+			ThoriumModTip8: 瑟银模组：某些吟游诗人的乐器需要基于计时器演奏以获得最佳表现。
 			ThoriumModTip9: 瑟银模组：剑鞘可以让你将多次剑击浓缩为一次爆发。适时攻击!
-			ThoriumModTip10: 瑟银模组：当化形为另一种生物时，你无法使用除灵魂链接外的物品.
+			ThoriumModTip10: 瑟银模组：当化形为另一种生物时，你无法使用除{$Items.SoulLink.DisplayName}外的物品。
 			# Misc
-			ThoriumModTip11: 瑟银模组：一定要向向导展示任何和所有物品，这可以让你看看它们能制作什么新东西！
-			ThoriumModTip12: 瑟银模组：某些物品栏中的杂乱物品如蛛网和矿石可以放置在弹药栏.
+			ThoriumModTip11: 瑟银模组：一定要向{$NPCName.Guide}展示任何和所有物品，这可以让你看看它们能制作什么新东西！
+			ThoriumModTip12: 瑟银模组：某些物品栏中的杂乱物品如蛛网和矿石可以放置在弹药栏。
 			ThoriumModTip13: 瑟银模组：蓝绿色名字的物品是专属于瑟银模组捐赠者的!
 			# Bosses
-			ThoriumModTip14: 瑟银模组：一旦你找到一些铁，蚁狮上颚和坠落之星，你就可以挑战惊雷王鹰.
-			ThoriumModTip15: 瑟银模组：水母共振器会吸引各种水母……也包括巨大的突异体!
-			ThoriumModTip16: 瑟银模组：一定要准备好一些不洁碎晶，可以在洞穴的密室吸引蝙蝠子爵.
+			ThoriumModTip14: 瑟银模组：一旦你找到一些铁，蚁狮上颚和坠落之星，你就可以挑战{$NPCs.TheGrandThunderBird.DisplayName}。
+			ThoriumModTip15: 瑟银模组：{$Items.JellyfishResonator.DisplayName}会吸引各种水母……也包括巨大的突异体!
+			ThoriumModTip16: 瑟银模组：一定要准备好一些不洁碎晶，可以在洞穴的密室吸引蝙蝠子爵。
 			ThoriumModTip17: 瑟银模组：一旦地牢的诅咒解除，花岗岩洞将产生新的居民。留意任何看起来不稳定的能量露头……
 			ThoriumModTip18: 瑟银模组：一旦地牢的诅咒解除，大理石洞将产生新的居民。留意任何看起来可疑的石头组成物……
 			ThoriumModTip19: 瑟银模组：使用逆向工程外星科技可能会意外联系到宇宙星舰……
-			ThoriumModTip20: 瑟银模组：一旦古老的灵魂被释放，在苔原最冷的时候会偶尔听到叽叽喳喳的声音.
-			ThoriumModTip21: 瑟银模组：一个奇怪的异界生物在地狱潜行，肉眼无法看见。你需要虚空透镜来揭露它的真实形态.
-			ThoriumModTip22: 瑟银模组：如果你在巫妖出没的地方重新激活护身符，形容枯槁的巫妖将会向你的灵魂提出索赔.
+			ThoriumModTip20: 瑟银模组：一旦古老的灵魂被释放，在苔原最冷的时候会偶尔听到叽叽喳喳的声音。
+			ThoriumModTip21: 瑟银模组：一个奇怪的异界生物在{$Bestiary_Biomes.TheUnderworld}潜行，肉眼无法看见。你需要{$Items.VoidLens.DisplayName}来揭露它的真实形态。
+			ThoriumModTip22: 瑟银模组：如果你在{$NPCs.Lich.DisplayName}出没的地方重新激活护身符，形容枯槁的{$NPCs.Lich.DisplayName}将会向你的灵魂提出索赔。
 			ThoriumModTip23: 瑟银模组：深海最深处住着一些暗影实体。如果你去打扰它们的存在，谁知道会出现什么……
-			ThoriumModTip24: 瑟银模组：一旦你为最坏的情况做好了充分准备，在晚上使用末日预言者的硬币来预示结局.
-			ThoriumModTip25: 瑟银模组：在最血迹斑斑的晚上，肯定会有令人恶心的东西来找你的.
-			ThoriumModTip26: 瑟银模组：如果你在地下丛林闻到了恶臭，难以捉摸和危险的绝命花很可能就在你身边.
-			ThoriumModTip27: 瑟银模组：地牢里充满了神秘的文物，但有时候危险就藏在镜子这种无害的东西里.
+			ThoriumModTip24: 瑟银模组：一旦你为最坏的情况做好了充分准备，在晚上使用{$Items.DoomSayersCoin.DisplayName}来预示结局。
+			ThoriumModTip25: 瑟银模组：在最血迹斑斑的晚上，肯定会有令人恶心的东西来找你的。
+			ThoriumModTip26: 瑟银模组：如果你在{$Bestiary_Biomes.UndergroundJungle}闻到了恶臭，难以捉摸和危险的{$NPCs.CorpseBloom.DisplayName}很可能就在你身边。
+			ThoriumModTip27: 瑟银模组：{$Bestiary_Biomes.TheDungeon}里充满了神秘的文物，但有时候危险就藏在镜子这种无害的东西里。
 			# Town NPCs
-			ThoriumModTip28: 瑟银模组：鞋匠会卖鞋和擦鞋。如有需要可以检查下他的商品.
-			ThoriumModTip29: 瑟银模组：只需要一点费用，荒漠侍僧就会开启沙尘暴.
-			ThoriumModTip30: 瑟银模组：如果你杀了一只皇家史莱姆，它的优质美味凝胶可能会吸引厨师来这里.
-			ThoriumModTip31: 瑟银模组：迷途僵尸可能很奇怪，但他的各种生物趋避剂可不是闹着玩的.
-			ThoriumModTip32: 瑟银模组：需要一点额外装备吗？拜访下铁匠和他的货物!
-			ThoriumModTip33: 瑟银模组：成功猎杀一只长的过大的特殊眼睛会邀请赏金猎人来给你提供特殊的怪物合同.
-			ThoriumModTip34: 瑟银模组：潜水员为海而生……以至于他被一只变异水母整个吞下了!
-			ThoriumModTip35: 瑟银模组：对园艺感兴趣吗？德鲁伊非常乐意出售草药种子.
-			ThoriumModTip36: 瑟银模组：牧师渴望和谐高于一切。平息一个古老战士的灵魂应该会说服他帮助你.
-			ThoriumModTip37: 瑟银模组：一个被流放的恶魔，只要你花钱，武器大师就能被雇佣以在战斗中帮助你.
+			ThoriumModTip28: 瑟银模组：{$NPCs.Cobbler.DisplayName}会卖鞋和擦鞋。如有需要可以检查下他的商品。
+			ThoriumModTip29: 瑟银模组：只需要一点费用，{$NPCs.DesertAcolyte.DisplayName}就会开启沙尘暴。
+			ThoriumModTip30: 瑟银模组：如果你杀了一只皇家史莱姆，它的优质美味凝胶可能会吸引{$NPCs.Cook.DisplayName}来这里。
+			ThoriumModTip31: 瑟银模组：{$NPCs.ConfusedZombie.DisplayName}可能很奇怪，但他的各种生物趋避剂可不是闹着玩的。
+			ThoriumModTip32: 瑟银模组：需要一点额外装备吗？拜访下{$NPCs.Blacksmith.DisplayName}和他的货物!
+			ThoriumModTip33: 瑟银模组：成功猎杀一只长的过大的特殊眼睛会邀请{$NPCs.Tracker.DisplayName}来给你提供特殊的怪物合同。
+			ThoriumModTip34: 瑟银模组：{$NPCs.Diverman.DisplayName}为海而生……以至于他被一只变异水母整个吞下了!
+			ThoriumModTip35: 瑟银模组：对园艺感兴趣吗？{$NPCs.Druid.DisplayName}非常乐意出售草药种子。
+			ThoriumModTip36: 瑟银模组：{$NPCs.Spiritualist.DisplayName}渴望和谐高于一切。平息一个古老战士的灵魂应该会说服他帮助你。
+			ThoriumModTip37: 瑟银模组：一个被流放的恶魔，只要你花钱，{$NPCs.WeaponMaster.DisplayName}就能被雇佣以在战斗中帮助你。
 		}
 
 		DamageClasses: {
@@ -118,19 +118,19 @@ Mods: {
 		Buffs: {
 			AbyssalShadowBuff: {
 				CommonDisplayName: 深渊幻影
-				CommonDescription: 有什么东西在黑暗中盯着你...
+				CommonDescription: 有什么东西在黑暗中盯着你……
 			}
 
 			AbyssalShadowBuff3.Description: 水泛起涟漪……
 
 			AbyssalShellBuff: {
 				DisplayName: 深渊贝壳
-				Description: 绝对防御, 无物可伤！
+				Description: 绝对防御，无物可伤！
 			}
 
 			AbyssalShellDebuff: {
 				DisplayName: 深渊重压
-				Description: 深渊重压处于冷却状态
+				Description: 深渊贝壳正处于冷却
 			}
 
 			AirStrikeShieldBuff: {
@@ -140,7 +140,7 @@ Mods: {
 
 			AquaAffinity: {
 				DisplayName: 亲水性
-				Description: 在水中能以正常速度移动
+				Description: 潮湿时移动速度增加
 			}
 
 			Aquamancer: {
@@ -180,7 +180,7 @@ Mods: {
 
 			CreativeBlock: {
 				DisplayName: 创意阻塞
-				Description: 那无限的创意停止了.
+				Description: 那无限的创意停止了
 			}
 
 			CreativityPotionBuff: {
@@ -215,7 +215,7 @@ Mods: {
 
 			ShockAbsorberBuff: {
 				DisplayName: 动能转化
-				Description: 全伤害增加15%
+				Description: 所有伤害增加15%
 			}
 
 			SoloistsHatSetBuff: {
@@ -235,12 +235,12 @@ Mods: {
 
 			BeetleCarapace: {
 				DisplayName: 甲虫甲壳
-				Description: 增加伤害减免和反弹它们所造成伤害
+				Description: 增加伤害减免并可以反弹伤害
 			}
 
 			BlightFever: {
 				DisplayName: 凋零狂热
-				Description: 毁灭之灵获得了这个生物的灵魂...
+				Description: 毁灭之灵获得了这个生物的灵魂……
 			}
 
 			BloodHarvest: {
@@ -285,12 +285,12 @@ Mods: {
 
 			Chill: {
 				DisplayName: 颤栗
-				Description: 此敌人无法抵抗你的魅力！
+				Description: 开始颤抖
 			}
 
 			ChokingAura: {
 				DisplayName: 窒息光环
-				Description: 深海污染了附近的空气并使其变得剧毒
+				Description: 肮脏存在污染并毒化了附近的所有空气
 			}
 
 			CobblerBuff: {
@@ -300,7 +300,7 @@ Mods: {
 
 			ConflagrationPotionBuff: {
 				DisplayName: 不羁放纵爱自由
-				Description: 燃烧的怒火占了上风
+				Description: 燃烧的怒火占了上风，但你造成更多伤害
 			}
 
 			Corporeal: {
@@ -310,7 +310,7 @@ Mods: {
 
 			Corrosion: {
 				DisplayName: 腐蚀
-				Description: 防御降低且会持续受到伤害
+				Description: 多受5%伤害且会持续受到伤害
 			}
 
 			CursedHurl: {
@@ -330,7 +330,7 @@ Mods: {
 
 			DeepFreezeCoatingBuff: {
 				DisplayName: 投掷武器灌注: 深度冻结
-				Description: 使用投掷武器攻击敌人时有几率大幅度降低其移动速度
+				Description: 使用投掷武器攻击敌人时有概率大幅度降低其移动速度
 			}
 
 			DepthDiverAura: {
@@ -360,7 +360,7 @@ Mods: {
 
 			ExplosiveCoatingBuff: {
 				DisplayName: 投掷武器灌注: 爆炸
-				Description: 使用投掷武器攻击敌人时有几率造成爆炸, 点燃附近的敌人
+				Description: 使用投掷武器攻击敌人时有概率造成爆炸，点燃附近的敌人
 			}
 
 			FishRepellentBuff: {
@@ -369,7 +369,7 @@ Mods: {
 			}
 
 			FlawlessChrysalisDebuff: {
-				DisplayName: 再生（中英wiki无，占位符）
+				DisplayName: 恢复
 				Description: 你的身体不习惯这种形式……
 			}
 
@@ -385,7 +385,7 @@ Mods: {
 
 			FleshFrenzy: {
 				DisplayName: 血肉狂怒
-				Description: 你的觉得很饱且伤害增加10%
+				Description: 互利消费让你的伤害增加10%
 			}
 
 			Freezing: {
@@ -415,7 +415,7 @@ Mods: {
 
 			GorgonCoatingBuff: {
 				DisplayName: 投掷武器灌注: 石化果汁
-				Description: 使用投掷武器攻击敌人时有几率使其石化
+				Description: 使用投掷武器攻击敌人时有概率使其石化
 			}
 
 			Gouge: {
@@ -425,7 +425,7 @@ Mods: {
 
 			GraniteSurge: {
 				DisplayName: 能量过载
-				Description: 过度的能量正造成伤害并使防御降低
+				Description: 多受5%伤害且会持续受到伤害
 			}
 
 			GraveLimbDebuff: {
@@ -480,7 +480,7 @@ Mods: {
 
 			CosmicFluxStaffDamageBuff: {
 				DisplayName: 光辉新星
-				Description: 光辉伤害增加25%(wiki 30%)
+				Description: 光辉伤害增加25%
 			}
 
 			CosmicFluxStaffHealBuff: {
@@ -495,12 +495,12 @@ Mods: {
 
 			Cured: {
 				DisplayName: 治愈
-				Description: 大多数伤害造成的减益都被消除了
+				Description: 获得对伤害性减益的免疫和生命恢复
 			}
 
 			DarkContagionDebuff: {
 				DisplayName: 黑暗瘟疫
-				Description: 被一种传染性的黑暗瘟疫折磨着
+				Description: 被一种传染性的黑暗诅咒折磨着
 			}
 
 			DarkEffigyBuff: {
@@ -540,7 +540,7 @@ Mods: {
 
 			DreamWeaversHoodDebuff: {
 				DisplayName: 清醒
-				Description: 无法入梦...
+				Description: 无法入梦……
 			}
 
 			DreamWeaversHoodDreamAllyBuff: {
@@ -550,7 +550,7 @@ Mods: {
 
 			DreamWeaversHoodDreamBuff: {
 				DisplayName: 梦
-				Description: 这个令人清醒的世界洗脱了污浊...
+				Description: 这个令人清醒的世界洗脱了污浊……
 			}
 
 			DreamWeaversMaskBuff: {
@@ -595,7 +595,7 @@ Mods: {
 
 			Liberated: {
 				DisplayName: 解脱
-				Description: 你现在免疫大多数伤害
+				Description: 免疫大部分伤害和减益
 			}
 
 			LifeBinderSetBuff: {
@@ -610,7 +610,7 @@ Mods: {
 
 			LifeQuartzShieldDebuff: {
 				DisplayName: 泡泡破裂
-				Description: 你的泡泡正在恢复...
+				Description: 你的泡泡正在恢复……
 			}
 
 			LifeRecovery: {
@@ -620,7 +620,7 @@ Mods: {
 
 			LifeSpiritBuff: {
 				DisplayName: 生命之灵
-				Description: 过于明亮, 无法直视
+				Description: 过于明亮，无法直视
 			}
 
 			LilCherubsWandBuff: {
@@ -640,7 +640,7 @@ Mods: {
 
 			Mortality: {
 				DisplayName: 凋零
-				Description: 伤害减免、伤害和移动速度降低20%
+				Description: 伤害减免、伤害和移动速度降低
 			}
 
 			NullZoneBuff: {
@@ -670,7 +670,7 @@ Mods: {
 
 			SerpentsBubbleWandBuff: {
 				DisplayName: 海蛇泡泡
-				Description: 生命恢复速率增加, 伤害减免增加10%
+				Description: 生命恢复速率增加，伤害减免增加10%
 			}
 
 			ShieldDroneBeaconBuff: {
@@ -685,8 +685,8 @@ Mods: {
 
 			SoulEssence: {
 				DisplayName: 灵魂精华
-				Description: 根据灵魂精华的层数恢复生命值和法力值
-				Stacks: 每获得5点灵魂精华，恢复 {0} 生命和 {1} 魔力
+				Description: 根据灵魂精华的层数恢复生命值和魔力值
+				Stacks: 每获得5层灵魂精华，恢复{0}生命和{1}魔力
 			}
 
 			SpiritualistBuff: {
@@ -706,17 +706,17 @@ Mods: {
 
 			SpiritualistRevengeBuff: {
 				DisplayName: 庇护: 复仇
-				Description: 所有伤害增加15%
+				Description: 伤害增加15%
 			}
 
 			SupportSashBuff: {
-				DisplayName: 速度爆发
-				Description: 在治疗一名队友后会增加你的移动速度和治疗速度
+				DisplayName: 支援腰带
+				Description: 治疗法术会额外治疗1点生命值
 			}
 
 			TemplarSetBuff: {
 				DisplayName: 治疗精通
-				Description: 魔力再生速度、额外治疗量和治疗速度增加
+				Description: 魔力再生、额外治疗量和治疗速度增加
 			}
 
 			VerdantOrnamentBuff: {
@@ -726,12 +726,12 @@ Mods: {
 
 			WhisperingDaggerBuff: {
 				DisplayName: 低语之噬
-				Description: 力量换来的, 是代价！
+				Description: 力量换来的，是代价！
 			}
 
 			HoneyRecorderDebuff: {
 				DisplayName: 蜂蜜
-				Description: 蜜蜂的最爱...
+				Description: 蜜蜂的最爱……
 			}
 
 			HydrationBuff: {
@@ -756,17 +756,17 @@ Mods: {
 
 			JellyBuff: {
 				DisplayName: 美味果冻
-				Description: 生命再生速度增加
+				Description: 生命再生速度大幅增加
 			}
 
 			KineticPotionBuff: {
 				DisplayName: 动能储存
-				Description: 双击方向键冲刺
+				Description: 可以双击方向键冲刺
 			}
 
 			LegacyDebuff: {
 				DisplayName: 遗赠之火
-				Description: 若此敌人死亡, 伤害性的能量会被释放
+				Description: 若此敌人死亡，伤害性的能量会被释放
 			}
 
 			LichSetBuff: {
@@ -781,7 +781,7 @@ Mods: {
 
 			LifeWaterBuff: {
 				DisplayName: 生命之水的礼物
-				Description: 最大生命值和生命再生速度增加
+				Description: 最大生命值和生命再生增加
 			}
 
 			LightCurse: {
@@ -816,12 +816,12 @@ Mods: {
 
 			MistletoeBuff: {
 				DisplayName: 节日问候
-				Description: 生命、魔力和灵感再生速度增加
+				Description: 生命、魔力和灵感再生增加
 			}
 
 			AmphibianEggBuff: {
 				DisplayName: 青蛙
-				Description: 你化形成了一只青蛙
+				Description: 你化形成了一只跳动的青蛙
 			}
 
 			ColeopteraKeepsakeBuff: {
@@ -836,7 +836,7 @@ Mods: {
 
 			CyberneticSphereBuff: {
 				DisplayName: 遥控球
-				Description: 球!
+				Description: 球！
 			}
 
 			DesecratedHeartBuff: {
@@ -856,7 +856,7 @@ Mods: {
 
 			HowToSpeakWhaleABiographyBuff: {
 				DisplayName: 鲸
-				Description: 这真的值得吗?
+				Description: 这真的值得吗？
 			}
 
 			MagmaCharmBuff: {
@@ -871,21 +871,21 @@ Mods: {
 
 			MediumRareSteakBuff: {
 				DisplayName: 愤怒之龙
-				Description: 请试着忽略烟味...
+				Description: 请试着忽略烟味……
 			}
 
 			AquamarineMinecartBuff.DisplayName: 海蓝宝石矿车
 
 			BathtubCartBuff: {
 				DisplayName: 浴缸矿车
-				Description: 在水中行驶地更快
+				Description: 移动时清洗自身
 			}
 
 			OpalMinecartBuff.DisplayName: 欧珀矿车
 
 			RocketCartBuff: {
 				DisplayName: 火箭矿车
-				Description: 在矿车轨道上行驶地极快
+				Description: 这东西绝对不安全……
 			}
 
 			MoltenCollarBuff: {
@@ -905,7 +905,7 @@ Mods: {
 
 			OtherworldlyRuneBuff: {
 				DisplayName: 毁灭战车
-				Description: 你为这个世界带来了终焉...
+				Description: 你为这个世界带来了终焉……
 			}
 
 			SinisterAcornBuff: {
@@ -915,7 +915,7 @@ Mods: {
 
 			SpectralFangBuff: {
 				DisplayName: 幽冥虎
-				Description: 召唤一只可骑乘的幽冥虎
+				Description: 纵使死亡，依旧是忠诚的伙伴
 			}
 
 			SuperAnvilBuff: {
@@ -925,7 +925,7 @@ Mods: {
 
 			TomeoftheVoidGazersChariotBuff: {
 				DisplayName: 虚空战车
-				Description: 谁知道它是软绵绵的?
+				Description: 谁知道它是软绵绵的？
 			}
 
 			VampireCatalystBuff: {
@@ -940,7 +940,7 @@ Mods: {
 
 			NapalmDebuff: {
 				DisplayName: 汽油凝固
-				Description: 难以承受之温...
+				Description: 难以承受之温……
 			}
 
 			NecroticSkullBuff: {
@@ -960,17 +960,17 @@ Mods: {
 
 			SeaShantySingerBuff: {
 				DisplayName: 快速射击
-				Description: 此敌人的射击速度比之前更快
+				Description: 此敌人的射击速度比正常情况下更快
 			}
 
 			SnowSingaBuff: {
-				DisplayName: 重生
+				DisplayName: 再生
 				Description: 敌人正在恢复生命
 			}
 
 			OceansBuffer: {
 				DisplayName: 海洋庇佑
-				Description: 将伤害转化为治疗
+				Description: 将所有伤害转化为治疗
 			}
 
 			OceansBufferExhaust: {
@@ -995,12 +995,12 @@ Mods: {
 
 			AbyssalWhistleBuff: {
 				DisplayName: 深渊兔
-				Description: 这个可怜的小家伙可能是最后一只..
+				Description: 这个可怜的小家伙可能是最后一只……
 			}
 
 			AlienResearchNotesBuff: {
 				DisplayName: 研究探机
-				Description: 小动物要当心...
+				Description: 小动物要当心……
 			}
 
 			AmnesiacBuff: {
@@ -1010,7 +1010,7 @@ Mods: {
 
 			AncientRatBuff: {
 				DisplayName: 远古鼠
-				Description: 就连老鼠也是远古的吗? 是的！
+				Description: 就连老鼠也是远古的吗？是的！
 			}
 
 			AnglerBowlBuff: {
@@ -1025,7 +1025,7 @@ Mods: {
 
 			BioFeederBuff: {
 				DisplayName: 生物吞食者
-				Description: 真是奇怪的生物...
+				Description: 真是奇怪的生物……
 			}
 
 			BlisterBuff: {
@@ -1034,18 +1034,18 @@ Mods: {
 			}
 
 			BloodSausageBuff: {
-				DisplayName: 懒惰蝙蝠
-				Description: 看起来款待过于多了...
+				DisplayName: 血肠
+				Description: 看起来款待过于多了……
 			}
 
 			ChaoticMarbleBuff: {
 				DisplayName: 混沌生物
-				Description: 他真可爱, 但他是从哪来的...?
+				Description: 他真可爱，但他是从哪来的……？
 			}
 
 			ClownfishPetBuff: {
 				DisplayName: 小丑鱼
-				Description: 不要嘲笑他...
+				Description: 不要嘲笑他……
 			}
 
 			DavyJonesLockBoxBuff: {
@@ -1060,7 +1060,7 @@ Mods: {
 
 			DiscardedClothBuff: {
 				DisplayName: 灵智布匹
-				Description: 小小鬼魂. 小小南瓜.
+				Description: 小小鬼魂。小小南瓜。
 			}
 
 			DiverPlushieBuff: {
@@ -1070,22 +1070,22 @@ Mods: {
 
 			DoomSayersPennyBuff: {
 				DisplayName: 末日预言者的便士
-				Description: 至少已经结束了, 对吧t?
+				Description: 至少已经结束了，对吧？
 			}
 
 			DrachmaBuff: {
 				DisplayName: 古怪铸币
-				Description: 德拉克马现在用处不大...
+				Description: 德拉克马现在用处不大……
 			}
 
 			EmptyWormholePotionBuff: {
 				DisplayName: 无用之友
-				Description: 额...他们甚至不会帮我打架！
+				Description: 额……他们甚至不会帮我打架！
 			}
 
 			EnergizedQuadCubeBuff: {
 				DisplayName: 盈能四立方
-				Description: 嘣, 花岗岩流能风暴的俄罗斯方块！
+				Description: 嘣，花岗岩流能风暴的俄罗斯方块！
 			}
 
 			ExoticMynaEggBuff: {
@@ -1095,7 +1095,7 @@ Mods: {
 
 			Experiment3Buff: {
 				DisplayName: 实验体三号
-				Description: 庆幸它现在还不是成年体吧...
+				Description: 庆幸它现在还不是成年体吧……
 			}
 
 			FerretBuff: {
@@ -1110,27 +1110,27 @@ Mods: {
 
 			GlassShardBuff: {
 				DisplayName: 玻璃碎块
-				Description: 你发誓你在玻璃里看到了傻笑...
+				Description: 你发誓你在玻璃里看到了傻笑……
 			}
 
 			HolyGoatBuff: {
 				DisplayName: 神圣山羊
-				Description: 它有着金色的辉光, 所以它一定很棒！
+				Description: 它有着金色的辉光，所以它一定很棒！
 			}
 
 			LilMogBuff: {
 				DisplayName: 小猫
-				Description: 他真可爱, 不是吗?
+				Description: 他真可爱，不是吗？
 			}
 
 			LittlePhylacteryBuff: {
 				DisplayName: 小死灵法师
-				Description: 这小玩意的强度远大于它外表所展现...
+				Description: 这小玩意的强度远大于它外表所展现……
 			}
 
 			MaidBuff: {
 				DisplayName: 小女仆
-				Description: 这里似乎没啥可清扫的...
+				Description: 这里似乎没啥可清扫的……
 			}
 
 			ModelGunBuff: {
@@ -1150,7 +1150,7 @@ Mods: {
 
 			PickleBuff: {
 				DisplayName: 狗狗
-				Description: 或许是...先生?
+				Description: 或许是……先生？
 			}
 
 			PinkSlimeBuff: {
@@ -1165,77 +1165,77 @@ Mods: {
 
 			SkunkBuff: {
 				DisplayName: 臭鼬
-				Description: 不要吓到他, 否则你会后悔的...
+				Description: 不要吓到他，否则你会后悔的……
 			}
 
 			SnowyOwlBuff: {
 				DisplayName: 迷失雪鸮
-				Description: 看样子某些人永远无法收到他们的信件了...
+				Description: 看样子某些人永远无法收到他们的信件了……
 			}
 
 			StormCloudBuff: {
 				DisplayName: 风暴云
-				Description: 我们需要这场雨...
+				Description: 我们需要这场雨……
 			}
 
 			SubterraneanAnglerBuff: {
 				DisplayName: 深海琵琶鱼
-				Description: 也许它看起来很恶心, 但它喜欢你！
+				Description: 也许它看起来很恶心，但它喜欢你！
 			}
 
 			SuspiciousMoisturizerBottleBuff: {
 				DisplayName: 活手
-				Description: 让我们帮他们一手, 伙计！
+				Description: 让我们帮他们一手，伙计！
 			}
 
 			SweetBeetBuff: {
 				DisplayName: 甜菜曲奇
-				Description: 无论你跑到哪里, 它们始终会跟着你
+				Description: 无论你跑到哪里，它们始终会跟着你
 			}
 
 			SwordOfDestinyBuff: {
 				DisplayName: 命运之剑
-				Description: 不要向上看...
+				Description: 不要向上看……
 			}
 
 			TentacleBallBuff: {
 				DisplayName: 触手球
-				Description: 触手的末端在哪? 躯体的前端在哪?
+				Description: 触手的末端在哪？躯体的前端在哪？
 			}
 
 			TortleScuteBuff: {
 				DisplayName: 龟仙人
-				Description: 他年事已高
+				Description: 他的智慧远超年龄
 			}
 
 			WhisperingShellBuff: {
 				DisplayName: 低语之壳
-				Description: 似乎有人在看你...
+				Description: 似乎有人在看你……
 			}
 
 			WyvernPetBuff: {
 				DisplayName: 小飞龙
-				Description: 它虽然小, 但他奉献了一切
+				Description: 它虽然小，但他奉献了一切
 			}
 
 			Petrify: {
 				DisplayName: 石化
-				Description: 此敌人无法做出反应！
+				Description: 此敌人已被石化！
 			}
 
 			PhylacteryBuff: {
 				DisplayName: 巫妖援助
-				Description: 受到致死伤害时会为你保留并回复至25%生命值而非死亡
+				Description: 受到致死伤害时会回复至25%生命值而非死亡
 			}
 
 			PotentExtractBuff: {
 				DisplayName: 幻觉
-				Description: 某些东西不对劲...
+				Description: 某些东西不对劲……
 			}
 
 			PurifiedWaters: {
 				DisplayName: 纯净之水
-				Description: .{$Biomes.DepthsBiome.DisplayName}已经被净化，水在某种程度上可以呼吸了
+				Description: "{$Biomes.DepthsBiome.DisplayName}已经被净化，可以在水下呼吸了"
 			}
 
 			RapierBadgeBuff: {
@@ -1250,11 +1250,11 @@ Mods: {
 
 			RealityBearer: {
 				DisplayName: 现实守护者
-				Description: 这个世界已经在你的保护之下。不要让任何人忘记…
+				Description: 这个世界已经在你的保护之下。不要让任何人忘记……
 			}
 
 			RefreshingBubble: {
-				DisplayName: 干净的泡泡
+				DisplayName: 清新泡泡
 				Description: 吸入泡泡能让你多呼吸几口气!
 			}
 
@@ -1290,7 +1290,7 @@ Mods: {
 
 			SheathBuff: {
 				DisplayName: 剑鞘
-				Description: 利刃, 准备出鞘
+				Description: 利刃，准备出鞘
 			}
 
 			Singed: {
@@ -1320,12 +1320,12 @@ Mods: {
 
 			SporeCoatingBuff: {
 				DisplayName: 投掷武器灌注: 孢子
-				Description: 使用投掷武器攻击敌人时有几率使其感染
+				Description: 使用投掷武器攻击敌人时有概率使其感染真菌
 			}
 
 			Spored: {
 				DisplayName: 孢子
-				Description: 若此敌人死亡, 则释放更多的孢子
+				Description: 若此敌人死亡，则释放更多的孢子
 			}
 
 			Staggered: {
@@ -1340,7 +1340,7 @@ Mods: {
 
 			Stunned: {
 				DisplayName: 晕眩
-				Description: 此敌人被晕眩了, 无法移动
+				Description: 此敌人被晕眩了，无法移动
 			}
 
 			ArsenalStaffBuff: {
@@ -1355,22 +1355,22 @@ Mods: {
 
 			BlobhornCoralStaffBuff: {
 				DisplayName: 水滴鱼
-				Description: 可爱还是丑陋? 由你来决定...
+				Description: 可爱还是丑陋？由你来决定……
 			}
 
 			BloodPact: {
 				DisplayName: 血契
-				Description: 与恶魔做了个神秘的交易...
+				Description: 与恶魔做了个交易……
 			}
 
 			BloodyPaganStaffBuff: {
 				DisplayName: 怪脸
-				Description: 将撕裂. 你的敌人. 粉碎吧！
+				Description: 将撕裂你的敌人粉！碎！吧！
 			}
 
 			ButterflyStaffBuff: {
 				DisplayName: 蝴蝶群
-				Description: 总的来说, 蝴蝶对敌人们是个巨大的威胁
+				Description: 总的来说，蝴蝶对敌人们是个巨大的威胁
 			}
 
 			CorrodlingStaffBuff: {
@@ -1380,12 +1380,12 @@ Mods: {
 
 			CorruptlingStaffBuff: {
 				DisplayName: 噬魂者
-				Description: 不是所有的腐化生物都想吞噬灵魂...
+				Description: 不是所有的腐化生物都想吞噬灵魂……
 			}
 
 			CrimsonHoundStaffBuff: {
 				DisplayName: 血腥猎犬
-				Description: 尽管没有嘴, 但猎犬始终能找到一种进食方式...
+				Description: 尽管没有嘴，但猎犬始终能找到一种进食方式……
 			}
 
 			DraconicMagmaStaffBuff: {
@@ -1395,7 +1395,7 @@ Mods: {
 
 			EmberStaffBuff: {
 				DisplayName: 熔渣
-				Description: 这玩意散发出的热量快把你烤熟了...
+				Description: 这玩意散发出的热量快把你烤熟了……
 			}
 
 			EnchantedCaneBuff: {
@@ -1410,7 +1410,7 @@ Mods: {
 
 			HailBomberBuff: {
 				DisplayName: 冰雹爆破者
-				Description: 它大概不会伤害它们, 别担心...
+				Description: 它大概不会伤害它们，别担心……
 			}
 
 			IceFairyStaffBuff: {
@@ -1480,17 +1480,17 @@ Mods: {
 
 			TerrariumEnigmaStaffBuff: {
 				DisplayName: 谜团
-				Description: 无尽的光芒从这复杂的谜团中散发出来...
+				Description: 无尽的光芒从这复杂的谜团中散发出来……
 			}
 
 			TheBlackCaneBuff: {
 				DisplayName: 李的武器
-				Description: 一些从坟墓里挖出来的李最喜欢的武器...
+				Description: 一些从坟墓里挖出来的李最喜欢的武器……
 			}
 
 			ValkyrieBladeBuff: {
 				DisplayName: 瓦尔基里圣刃
-				Description: 剑刃有其自己的意志...
+				Description: 剑刃有其自己的意志……
 			}
 
 			ViscountCaneBuff: {
@@ -1505,7 +1505,7 @@ Mods: {
 
 			Sundered: {
 				DisplayName: 剥离
-				Description: 受到的伤害增加 10%
+				Description: 受到的伤害增加10%
 			}
 
 			TerrariumBacklash: {
@@ -1525,7 +1525,7 @@ Mods: {
 
 			LastStandBuff: {
 				DisplayName: 背水一战
-				Description: 投掷速度和伤害增加30%, 但代价是什么呢...
+				Description: 投掷速度和伤害增加30%，但代价是什么呢……
 			}
 
 			Sprint: {
@@ -1540,7 +1540,7 @@ Mods: {
 
 			ToxicCoatingBuff: {
 				DisplayName: 投掷武器灌注: 剧毒
-				Description: 使用投掷武器攻击敌人时有几率使其中毒
+				Description: 使用投掷武器攻击敌人时有概率使其中毒
 			}
 
 			TrueStrike: {
@@ -1570,7 +1570,7 @@ Mods: {
 
 			WarmongerBuff: {
 				DisplayName: 好战者
-				Description: 敌人的刷怪率增加
+				Description: 敌人的生成率增加
 			}
 
 			WidowsKiss: {
@@ -1580,12 +1580,12 @@ Mods: {
 
 			WindBurst: {
 				DisplayName: 狂风爆发
-				Description: 你的工具速度增加15%
+				Description: 工具速度增加15%
 			}
 
 			Wither: {
 				DisplayName: 枯萎
-				Description: 枯 萎 吧 !!！
+				Description: 枯！萎！吧！
 			}
 
 			ZombieRepellentBuff: {
@@ -1610,7 +1610,7 @@ Mods: {
 
 			ScytheofUndoingBuff: {
 				DisplayName: 灭世之镰
-				Description: 被暗影能量染指…
+				Description: 被暗影能量染指……
 			}
 
 			FrozenTiaraBuff: {
@@ -1624,7 +1624,7 @@ Mods: {
 			}
 
 			SorcerersDiceBuff: {
-				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
+				DisplayName: "{$Items.SorcerersDice.DisplayName}的恩惠"
 				Description: 无限魔力且施法速度增加{0}%
 			}
 
@@ -1635,12 +1635,12 @@ Mods: {
 
 			BannerDamage: {
 				DisplayName: 战争令旗
-				Description: 仆从与哨兵对附近敌人的伤害增加{0}%
+				Description: 受仆从和哨兵的伤害增加{0}%
 			}
 
 			BannerBounty: {
 				DisplayName: 赏金令旗
-				Description: 使附近的敌人受到召唤伤害时掉落钱币
+				Description: 被召唤伤害击中时生成钱币
 			}
 
 			Slowed: {
@@ -1650,17 +1650,17 @@ Mods: {
 
 			BannerPrecision: {
 				DisplayName: 精准令旗
-				Description: 仆从与哨兵攻击脆弱的敌人时有概率暴击
+				Description: 仆从和哨兵伤害有概率暴击
 			}
 
 			BannerPower: {
 				DisplayName: 力量令旗
-				Description: 敌人受到的鞭子伤害增加{0}%
+				Description: 受鞭的伤害增加{0}%
 			}
 
 			ThrombosisBuff: {
-				DisplayName: 血腥僵尸
-				Description: 血腥僵尸会帮助你的
+				DisplayName: 血婴
+				Description: 血婴会协助你
 			}
 
 			ThrombosisDebuff: {
@@ -1669,38 +1669,38 @@ Mods: {
 			}
 
 			ManaInjectionKitBuff: {
-				DisplayName: 魔力注入
-				Description: 魔法伤害提高
-				Damage: 魔法伤害提高 {0}%
+				DisplayName: 魔力注射
+				Description: 魔法伤害增加
+				Damage: 魔法伤害增加{0}%
 			}
 		}
 
 		Conditions: {
-			DonatorItemToggled: 在瑟银的 {$Configs.ThoriumConfigServer.DisplayName} 中启用
-			DonatorItemToggledSteamBattery: 启用与{$Items.SteamBattery.DisplayName}相关的任何项目，在 {$Configs.ThoriumConfigServer.DisplayName}
-			DownedQueenJellyfish: "{$NPCs.QueenJellyfish.DisplayName}击败后"
-			DownedViscount: "{$NPCs.Viscount.DisplayName}击败后"
-			DownedBuriedChampion: "{$NPCs.BuriedChampion.DisplayName}击败后"
-			DownedStarScouter: "{$NPCs.StarScouter.DisplayName}击败后"
-			DownedBoreanStrider: "{$NPCs.BoreanStrider.DisplayName}击败后"
-			DownedFallenBeholder: "{$NPCs.FallenBeholder.DisplayName}击败后"
-			DownedLich: "{$NPCs.Lich.DisplayName}击败后"
-			DownedForgottenOne: "{$NPCs.ForgottenOne.DisplayName}击败后"
-			DownedPatchWerk: "{$NPCs.PatchWerk.DisplayName}击败后"
-			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName}击败后"
-			DownedIllusionist: "{$NPCs.Illusionist.DisplayName}击败后"
-			DownedOgre: boss击败后
-			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!（占位符新）
+			DonatorItemToggled: 在瑟银的{$Configs.ThoriumConfigServer.DisplayName}中启用
+			DonatorItemToggledSteamBattery: 在{$Configs.ThoriumConfigServer.DisplayName}中启用与{$Items.SteamBattery.DisplayName}相关的任何物品
+			DownedQueenJellyfish: "{$NPCs.QueenJellyfish.DisplayName}被击败后"
+			DownedViscount: "{$NPCs.Viscount.DisplayName}被击败后"
+			DownedBuriedChampion: "{$NPCs.BuriedChampion.DisplayName}被击败后"
+			DownedStarScouter: "{$NPCs.StarScouter.DisplayName}被击败后"
+			DownedBoreanStrider: "{$NPCs.BoreanStrider.DisplayName}被击败后"
+			DownedFallenBeholder: "{$NPCs.FallenBeholder.DisplayName}被击败后"
+			DownedLich: "{$NPCs.Lich.DisplayName}被击败后"
+			DownedForgottenOne: "{$NPCs.ForgottenOne.DisplayName}被击败后"
+			DownedPatchWerk: "{$NPCs.PatchWerk.DisplayName}被击败后"
+			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName}被击败后"
+			DownedIllusionist: "{$NPCs.Illusionist.DisplayName}被击败后"
+			DownedOgre: 一只食人魔被击败后
+			DummyRecipeCondition: 用于特定微光分解的配方！
 			HasInspiration: 当玩家拥有{0}及以上的灵感值
 			CompletedCookRecipe: 当玩家提供了足够的原料给{$NPCs.Cook.DisplayName}
-			NotInBeachSnowDesert: 玩家不在海洋、雪或沙漠生物群落中
+			NotInBeachSnowDesert: 玩家不在海洋、雪原或沙漠生物群落中
 			CrawdadCannotSpawn: 龙虾无法生成的世界
 			SalamanderCannotSpawn: 蝾螈无法生成的世界
 			GiantShellyCannotSpawn: 巨型卷壳怪无法生成的世界
-			CompletedMonsterContract: 完成{0} {$NPCs.Tracker.DisplayName}协议
+			CompletedMonsterContract: 完成{0}个{$NPCs.Tracker.DisplayName}合同
 			NotInMasterMode: 不在大师模式下
-			WorldHasBloodAltar: 这个世界有鲜血祭坛
-			WorldHasNoBloodAltarOrDownedViscount: 这个世界没有鲜血祭坛或{$Conditions.DownedViscount}
+			WorldHasBloodAltar: 世界中有鲜血祭坛
+			WorldHasNoBloodAltarOrDownedViscount: 世界中没有鲜血祭坛或{$Conditions.DownedViscount}
 			WorldIsCrimsonOrHardmode: 世界是猩红或进入困难模式
 			WorldIsCorruptionOrHardmode: 世界是腐化或进入困难模式
 		}
@@ -1713,7 +1713,7 @@ Mods: {
 			UnholyShardsCondition.Description: 在血月期间掉落
 			PharaohsBreathCondition.Description: 在沙漠中掉落
 			DownedSkeletronCondition.Description: 击败{$NPCName.SkeletronHead}后掉落
-			CookIsNotSellingEtherianGrogCondition.Description: 如果{$NPCs.Cook.DisplayName}还未售卖，则需要{$Items.EtherianGrog.DisplayName}才会掉落
+			CookIsNotSellingEtherianGrogCondition.Description: "{$NPCs.Cook.DisplayName}还未出售{$Items.EtherianGrog.DisplayName}时掉落"
 			DownedFallenBeholderCondition.Description: 击败{$NPCs.FallenBeholder.DisplayName}后掉落
 			DownedQueenJellyfishCondition.Description: 击败{$NPCs.QueenJellyfish.DisplayName}后掉落
 		}
@@ -1726,7 +1726,7 @@ Mods: {
 
 			AttackSpeed: {
 				DisplayName: 攻速
-				Tooltip: 近战，开火，施法，投掷，治疗和演奏速度增加{0}%
+				Tooltip: 攻速增加{0}%
 			}
 
 			CriticalStrikeChance: {
@@ -1751,7 +1751,7 @@ Mods: {
 
 			EmpowermentProlongation: {
 				DisplayName: 赋能时长提升
-				Tooltip: 现存咒音增幅持续时间延长{0} {^0:秒;seconds}
+				Tooltip: 现存咒音增幅持续时间延长{0}秒
 			}
 
 			FlatDamage: {
@@ -1761,7 +1761,7 @@ Mods: {
 
 			FlightTime: {
 				DisplayName: 飞行时间
-				Tooltip: 飞行时间增加 {0}%
+				Tooltip: 飞行时间增加{0}%
 			}
 
 			InvincibilityFrames: {
@@ -1771,7 +1771,7 @@ Mods: {
 
 			JumpHeight: {
 				DisplayName: 跳跃高度
-				Tooltip: 跳跃高度增加{0}{^0:格;blocks}
+				Tooltip: 跳跃高度增加{0}格
 			}
 
 			LifeRegeneration: {
@@ -1781,7 +1781,7 @@ Mods: {
 
 			MovementSpeed: {
 				DisplayName: 移动速度
-				Tooltip: 增加 {0}%移动速度
+				Tooltip: 增加{0}%移动速度
 			}
 
 			NotImplemented: {
@@ -1796,7 +1796,7 @@ Mods: {
 
 			ResourceGrabRange: {
 				DisplayName: 资源拾取范围
-				Tooltip: 增加 {0}资源物品的收集范围
+				Tooltip: 增加{0}资源物品的收集范围
 			}
 
 			ResourceMaximum: {
@@ -1817,7 +1817,7 @@ Mods: {
 		InfoDisplays: {
 			HPSInfoDisplay: {
 				DisplayName: 每秒生命恢复值
-				DisplayValue: "{0}每秒生命恢复值"
+				DisplayValue: 每秒{0}生命恢复值
 			}
 		}
 
@@ -1841,11 +1841,11 @@ Mods: {
 				DisplayName: 深渊贝壳
 				Tooltip:
 					'''
-					按下“包裹”键会将你置于坚固的壳中
-					被包裹时，你会免疫所有伤害，但无法对敌人造成伤害
-					被包裹时，你无法移动，无法使用物品和治疗药水
-					离开壳后的 {0} 秒内无法再次使用壳
-					[c/70DB93:获取方式：击败遗忘之主(宝藏袋)获得]
+					按下“包裹”键会短暂将你置于坚固的壳中
+					被包裹期间你免疫所有伤害，但也不能伤害敌人
+					被包裹时你无法移动，使用物品或饮用治疗药水
+					离开壳后的{0}秒内无法再次使用壳
+					[c/70DB93:获取方式：遗忘之主宝藏袋获得]
 					'''
 			}
 
@@ -1863,7 +1863,7 @@ Mods: {
 				DisplayName: 螳螂虾之拳
 				Tooltip:
 					'''
-					'打破音障'
+					“打破音障”
 					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
 					'''
 			}
@@ -1927,7 +1927,7 @@ Mods: {
 					'''
 
 				SetBonusQuotes: {
-					TheGrandThunderBird: 为什么要怜悯弱者...?
+					TheGrandThunderBird: 为什么要怜悯弱者……？
 					KingSlime: 宇宙游戏中的小卒……
 					EyeofCthulhu: 许多船中的一艘……
 					EaterofWorlds: 我们的影响广泛传播……
@@ -1967,7 +1967,7 @@ Mods: {
 				SetBonus:
 					'''
 					你会偶尔产生一根深渊能量触手攻击附近敌怪
-					你可以拥有至多6根触手且它们的伤害会从被击中的敌怪吸取 {0} 点生命和 {1} 魔力
+					你可以拥有至多6根触手且它们的伤害会从被击中的敌怪吸取{0}生命和{1}魔力
 					'''
 			}
 
@@ -2049,7 +2049,7 @@ Mods: {
 				DisplayName: 飞羽鞋
 				Tooltip:
 					'''
-					'天空是你的飞行场地'
+					“天空是你的飞行场地”
 					增加10%移动速度
 					'''
 			}
@@ -2058,7 +2058,7 @@ Mods: {
 				DisplayName: 飞羽胸甲
 				Tooltip:
 					'''
-					'天空是你的飞行场地'
+					“天空是你的飞行场地”
 					增加10%投掷伤害
 					'''
 			}
@@ -2067,7 +2067,7 @@ Mods: {
 				DisplayName: 飞羽帽子
 				Tooltip:
 					'''
-					'天空是你的飞行场地'
+					“天空是你的飞行场地”
 					增加5%投掷伤害
 					增加6%投掷暴击率
 					'''
@@ -2078,7 +2078,7 @@ Mods: {
 				Tooltip:
 					'''
 					手持时远程暴击会释放木弹片
-					20%概率节省弹药
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
 
@@ -2111,8 +2111,8 @@ Mods: {
 				DisplayName: 花瓣
 				Tooltip:
 					'''
-					'拥有令人惊讶的甜味'
-					[c/70DB93:获取方式：植物: 丛林花, 敌怪: 奇怪花苞/红木树人掉落]
+					“拥有令人惊讶的甜味”
+					[c/70DB93:获取方式：植物: 丛林花，敌怪: 奇怪花苞/红木树人掉落]
 					'''
 			}
 
@@ -2143,7 +2143,7 @@ Mods: {
 				DisplayName: 紫衫木
 				Tooltip:
 					'''
-					'这种奇特的木材来自于一片遥远的土地'
+					“这种奇特的木材来自于一片遥远的土地”
 					[c/70DB93:获取方式：哥布林军队事件/紫衫树(需要橡木种子和人造沼泽草皮{哥布林军队后德鲁伊出售})掉落]
 					'''
 			}
@@ -2169,7 +2169,7 @@ Mods: {
 				SetBonus:
 					'''
 					4次非暴击攻击后下次远程攻击会是造成{0}%伤害的小暴击
-					在相关效果中，小暴击算作暴击（等待wiki）
+					在相关效果中，小暴击算作暴击
 					'''
 			}
 
@@ -2236,7 +2236,7 @@ Mods: {
 
 			HallucinationBanner: {
 				DisplayName: 神秘旗（虚影潜游者）
-				NPCNameText: ???
+				NPCNameText: ？？？
 			}
 
 			HammerHeadBanner.DisplayName: 双髻鲨旗
@@ -2294,7 +2294,7 @@ Mods: {
 
 			AcousticGuitar: {
 				DisplayName: 原声吉他
-				Tooltip: '释放令人印象深刻的吉他独奏'
+				Tooltip: 释放令人印象深刻的吉他独奏
 			}
 
 			Alphorn: {
@@ -2330,7 +2330,6 @@ Mods: {
 					允许你富有节奏地演奏巨大的风笛
 					成功在计时区域击中会不断增加它的伤害和咒音增幅等级
 					{$Common.Tooltips.BigInstrument}
-					[c/70DB93:获取方式：困难模式血月事件一些敌怪掉落]
 					'''
 			}
 
@@ -2380,7 +2379,7 @@ Mods: {
 				DisplayName: 繁花布
 				Tooltip:
 					'''
-					'这块布的质量不像你见过的任何东西'
+					“这块布的质量不像你见过的任何东西”
 					[c/70DB93:获取方式：世纪之花/世纪之花宝藏袋掉落]
 					'''
 			}
@@ -2490,8 +2489,8 @@ Mods: {
 
 			CriersCap: {
 				DisplayName: 传讯员帽
-				Tooltip: 基础灵感音符的掉落概率翻倍
-				SetBonus: 你的音波咒音增幅会额外持续 {0} {^0:秒;seconds}
+				Tooltip: 增加4%灵感值再生速率
+				SetBonus: 你的音波咒音增幅会额外持续{0}秒
 			}
 
 			CriersLeggings: {
@@ -2514,11 +2513,11 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会在 4 种状态间切换:
-					红：玩家和附近队友获得固定伤害 {0} 和伤害 {0}
-					绿：玩家和附近队友获得移动速度 {0} 和飞行时间 {0}
-					紫：玩家和附近队友获得资源上限 {0} 和资源再生 {0}
-					蓝：玩家和附近队友获得防御 {0} 和伤害减免 {0}
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会在4种状态间切换:
+					红：玩家和附近队友获得固定伤害{0}和伤害{0}
+					绿：玩家和附近队友获得移动速度{0}和飞行时间{0}
+					紫：玩家和附近队友获得资源上限{0}和资源再生{0}
+					蓝：玩家和附近队友获得防御{0}和伤害减免{0}
 					'''
 			}
 
@@ -2639,7 +2638,7 @@ Mods: {
 				DisplayName: 粉丝的信函
 				Tooltip:
 					'''
-					'充满了插入性赞美……但出乎意料地激励人心'
+					“充满了插入性赞美……但出乎意料地激励人心”
 					最大灵感值增加3点
 					[c/70DB93:获取方式：破坏猩红之心掉落]
 					'''
@@ -2649,7 +2648,7 @@ Mods: {
 				DisplayName: 粉丝的信函
 				Tooltip:
 					'''
-					'充满了插入性赞美……但出乎意料地激励人心'
+					“充满了插入性赞美……但出乎意料地激励人心”
 					最大灵感值增加3点
 					[c/70DB93:获取方式：破坏暗影珠掉落]
 					'''
@@ -2715,7 +2714,7 @@ Mods: {
 
 			GhastlyFrenchHorn: {
 				DisplayName: 法式恐惧圆号
-				Tooltip: 释放可怕的吸引敌怪的音波爆发，然后在击中敌怪后爆炸（等待wiki）
+				Tooltip: 释放可怕的吸引敌怪的音波爆发，然后在击中敌怪后爆炸
 			}
 
 			GoldBugleHorn: {
@@ -2729,8 +2728,7 @@ Mods: {
 					'''
 					允许你富有节奏地演奏巨大的钢琴
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和反弹次数
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -2835,7 +2833,7 @@ Mods: {
 					'''
 					最大灵感值永久增加{0}至多{1}点
 					永久增加{2}%灵感音符的掉落概率
-					永久增加{3}%乐器使用的最大灵感值”咒音增幅的持续时间
+					永久增加{3}%乐器使用的“最大灵感值”咒音增幅的持续时间
 					'''
 				InspirationRequirement: 需要至少{0}点灵感值
 			}
@@ -2845,8 +2843,12 @@ Mods: {
 			InspirationShard.DisplayName: 灵感碎块
 
 			InspirationGem: {
-				DisplayName: 灵感宝石（微光转化）
-				Tooltip: 永久增加灵感值再生速率
+				DisplayName: 灵感宝石
+				Tooltip:
+					'''
+					永久增加灵感值再生速率
+					[c/70DB93:获取方式：灵感水晶/碎片/碎块微光转化]
+					'''
 			}
 
 			InspirationHairDye: {
@@ -2865,7 +2867,7 @@ Mods: {
 				DisplayName: 蛋黄酱
 				Tooltip:
 					'''
-					一个古老的问题终于被解决了
+					“一个古老的问题终于被解决了”
 					[c/70DB93:获取方式：击败世界吞噬怪或克苏鲁之脑后厨师出售]
 					'''
 			}
@@ -2883,13 +2885,12 @@ Mods: {
 			JestersMask: {
 				DisplayName: 弄臣面具
 				Tooltip: 增加11%音波暴击率
-				SetBonus: 音波暴击会在你头顶响起一个铃铛, 短暂减速附近所有敌怪
+				SetBonus: 音波暴击会在你头顶响起一个铃铛，短暂减速附近所有敌怪
 			}
 
 			JestersMask2: {
 				DisplayName: 弄臣面具
 				Tooltip: 增加11%音波暴击率
-				SetBonus: 音波暴击会在你头顶响起一个铃铛, 短暂减速附近所有敌怪
 			}
 
 			JestersShirt: {
@@ -2936,7 +2937,7 @@ Mods: {
 				Tooltip:
 					'''
 					释放一些滞留的静态火花
-					[c/70DB93:获取方式：沙漠生物群系地下沙岩箱或者绿洲匣/幻想匣获得]
+					[c/70DB93:获取方式：沙漠生物群系地下沙岩箱或者绿洲匣/幻象匣获得]
 					'''
 			}
 
@@ -2971,8 +2972,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键时召唤一群鬼魂演奏音乐
-					鬼魂使用铜管乐器，管乐器，弦乐器和打击乐器自动向附近敌怪发射弹幕。（等待wiki）
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键时召唤一群鬼魂演奏音乐
+					鬼魂会快速用铜管，管，弦和打击乐器造成伤害
 					'''
 			}
 
@@ -2980,7 +2981,7 @@ Mods: {
 				DisplayName: 仪仗队军帽
 				Tooltip:
 					'''
-					增加 2% 音波暴击率
+					增加2%音波暴击率
 					增加10%灵感值再生速率
 					'''
 				SetBonus: 战斗中，一个伤害性的彩虹音波符号会跟随你的移动并晕眩敌怪
@@ -2999,8 +3000,8 @@ Mods: {
 				DisplayName: 仪仗队制服
 				Tooltip:
 					'''
-					增加16%音波伤害
 					增加3%音波暴击率
+					增加16%音波伤害
 					'''
 			}
 
@@ -3018,7 +3019,7 @@ Mods: {
 				Tooltip:
 					'''
 					释放一只火焰耳虫感染受击敌怪
-					受影响的敌怪会持续释放伤害性星辉云
+					受影响的敌怪会持续释放伤害性星辉爆炸
 					'''
 			}
 
@@ -3070,12 +3071,12 @@ Mods: {
 				DisplayName: 乐师手册
 				Tooltip:
 					'''
-					'适合那些真正对演奏音乐感兴趣的'
+					“适合那些真正对演奏音乐感兴趣的”
 					你的乐器不会消耗灵感值，不造成伤害也不会错过节拍
 					你的音波演奏速度加成基于手册所在的饰品栏位：
 					[c/70DB93:获取方式：困难模式商人出售]
 					'''
-				InstrumentPlaySpeed: 你的乐器演奏速度快 {0}%
+				InstrumentPlaySpeed: 你的乐器演奏速度快{0}%
 			}
 
 			MusicNotes: {
@@ -3155,8 +3156,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					音波暴击会使随机激活的咒音增幅提升到 IV 级强度
-					此效果每 {0} {^0:秒;seconds}触发一次（等待wiki）
+					音波暴击会使随机激活的咒音增幅提升到IV级强度
+					此效果每{0}秒触发一次
 					'''
 			}
 
@@ -3263,7 +3264,7 @@ Mods: {
 				Tooltip:
 					'''
 					扔出一个穿透性暗影铃鼓
-					右键掷出的铃鼓并伤害敌人（等待wiki）
+					右键掷出的铃鼓并伤害敌人
 					'''
 			}
 
@@ -3304,7 +3305,7 @@ Mods: {
 				DisplayName: 流影掠星碎片
 				Tooltip:
 					'''
-					'一首宇宙交响曲在此碎片中回响'
+					“一首宇宙交响曲在此碎片中回响”
 					[c/70DB93:获取方式：四柱掉落]
 					'''
 			}
@@ -3319,9 +3320,9 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					使咒音增幅持续时间延长 {0} {^0:秒;seconds}
-					玩家拥有的每个独特的咒音增幅会增加 {1}%音波伤害
-					你所拥有的每一种独特的能力都可以让灵感回复率提高{2}%（等待wiki）
+					使咒音增幅持续时间延长{0}秒
+					玩家拥有的每个独特的咒音增幅会增加{1}%音波伤害
+					你所拥有的每一种独特的能力都可以让灵感回复率提高{2}%
 					'''
 			}
 
@@ -3338,15 +3339,12 @@ Mods: {
 
 			ShootingStarTurboTuba: {
 				DisplayName: 流影掠星涡轮号
-				Tooltip: 按住up时快速上升
+				Tooltip: 允许飞行和缓慢下降
 			}
 
 			Sitar: {
 				DisplayName: 西塔琴
-				Tooltip:
-					'''
-					释放神秘的音波
-					'''
+				Tooltip: 释放神秘的音波
 			}
 
 			SkywareLute: {
@@ -3373,8 +3371,7 @@ Mods: {
 					'''
 					允许你富有节奏地演奏巨大的管乐器
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕速度
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -3411,8 +3408,7 @@ Mods: {
 					'''
 					允许你富有节奏地演奏巨大的钢鼓
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和范围
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					{$Common.Tooltips.BigInstrument}
 					[c/70DB93:获取方式：深海箱或渊海/深渊匣内获取]
 					'''
 			}
@@ -3555,7 +3551,7 @@ Mods: {
 			}
 
 			VuvuzelaBlue: {
-				DisplayName: 呜呜祖拉（蓝色）
+				DisplayName: 呜呜祖拉·蓝
 				Tooltip:
 					'''
 					释放痛苦的音爆
@@ -3564,7 +3560,7 @@ Mods: {
 			}
 
 			VuvuzelaGreen: {
-				DisplayName: 呜呜祖拉（绿色）
+				DisplayName: 呜呜祖拉·绿
 				Tooltip:
 					'''
 					释放痛苦的音爆
@@ -3573,7 +3569,7 @@ Mods: {
 			}
 
 			VuvuzelaRed: {
-				DisplayName: 呜呜祖拉（红色）
+				DisplayName: 呜呜祖拉·红
 				Tooltip:
 					'''
 					释放痛苦的音爆
@@ -3582,7 +3578,7 @@ Mods: {
 			}
 
 			VuvuzelaYellow: {
-				DisplayName: 呜呜祖拉（黄色）
+				DisplayName: 呜呜祖拉·黄
 				Tooltip:
 					'''
 					释放痛苦的音爆
@@ -3619,8 +3615,7 @@ Mods: {
 					'''
 					允许你富有节奏地演奏巨大的木琴
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和爆炸范围
-					错失节拍会大幅降低这些加成并消耗5点灵感值
-					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					{$Common.Tooltips.BigInstrument}
 					'''
 			}
 
@@ -3640,24 +3635,24 @@ Mods: {
 
 			AmberRing: {
 				DisplayName: 琥珀戒指
-				Tooltip: 增加1点召唤伤害
+				Tooltip: 增加{0}点召唤伤害
 			}
 
 			AmethystRing: {
 				DisplayName: 紫晶戒指
-				Tooltip: 增加1点盔甲穿透
+				Tooltip: 增加{0}点盔甲穿透
 			}
 
 			AquamarineRing: {
 				DisplayName: 海蓝宝石戒指
-				Tooltip: 增加1点光辉伤害
+				Tooltip: 增加{0}点光辉伤害
 			}
 
 			ArtificersFocus: {
 				DisplayName: 工匠的聚焦项链
 				Tooltip:
 					'''
-					持续按住 '{$Keybinds.AccessoryAbility.DisplayName}' 键会消耗玩家的匠能
+					持续按住“{$Keybinds.AccessoryAbility.DisplayName}”键会消耗玩家的匠能
 					接下来的每次按住会增加下次攻击伤害20点，至多100点
 					'''
 			}
@@ -3681,7 +3676,7 @@ Mods: {
 				DisplayName: 蜜蜂靴
 				Tooltip:
 					'''
-					'最好不要去考虑它们是如何运作的……'
+					“最好不要去考虑它们是如何运作的……”
 					穿戴者可以跑得飞快
 					奔跑时你会定期生成蜜蜂
 					'''
@@ -3722,7 +3717,7 @@ Mods: {
 
 			DiamondRing: {
 				DisplayName: 钻石戒指
-				Tooltip: 增加2%暴击率
+				Tooltip: 增加{0}%暴击率
 			}
 
 			DriftBoots: {
@@ -3736,7 +3731,7 @@ Mods: {
 
 			EmeraldRing: {
 				DisplayName: 翡翠戒指
-				Tooltip: 增加1点远程伤害
+				Tooltip: 增加{0}点远程伤害
 			}
 
 			FearMonger: {
@@ -3761,7 +3756,7 @@ Mods: {
 				DisplayName: 贪欲高脚杯
 				Tooltip:
 					'''
-					'你的贪欲和耐心是无止境的...'
+					“你的贪欲和耐心是无止境的……”
 					增加钱币拾取范围并降低20%商店价格
 					击中敌怪有时会额外掉落钱币
 					击中敌怪会使它们死亡时掉落更多钱
@@ -3876,7 +3871,7 @@ Mods: {
 
 			OpalRing: {
 				DisplayName: 欧珀戒指
-				Tooltip: 增加1点音波伤害
+				Tooltip: 增加{0}点音波伤害
 			}
 
 			PlatinumAegis: {
@@ -3890,12 +3885,12 @@ Mods: {
 
 			RubyRing: {
 				DisplayName: 红玉戒指
-				Tooltip: 增加1点近战伤害
+				Tooltip: 增加{0}点近战伤害
 			}
 
 			SapphireRing: {
 				DisplayName: 蓝玉戒指
-				Tooltip: 增加1点魔法伤害
+				Tooltip: 增加{0}点魔法伤害
 			}
 
 			SilverBulwark: {
@@ -3948,9 +3943,9 @@ Mods: {
 				DisplayName: 魔戒
 				Tooltip:
 					'''
-					增加2点所有伤害
-					增加2点盔甲穿透
-					增加4%暴击率
+					增加{0}点所有伤害
+					增加{1}点盔甲穿透
+					增加{2}%暴击率
 					'''
 			}
 
@@ -3965,7 +3960,7 @@ Mods: {
 
 			TopazRing: {
 				DisplayName: 黄玉戒指
-				Tooltip: 增加1点投掷伤害
+				Tooltip: 增加{0}点投掷伤害
 			}
 
 			TravelersBoots: {
@@ -4039,7 +4034,7 @@ Mods: {
 
 			ForgottenLetter: {
 				DisplayName: 失落之信
-				Tooltip: 看样子某些人永远无法收到他们的信件了...
+				Tooltip: 召唤一只雪鸮来照看你
 			}
 
 			FreezeRay: {
@@ -4069,7 +4064,7 @@ Mods: {
 				DisplayName: 遁蛛冰皮
 				Tooltip:
 					'''
-					'很少有东西能在泰拉大地的暴风雪核心地带存活'
+					“很少有东西能在泰拉大地的暴风雪核心地带存活”
 					对减速目标造成的伤害增加15%
 					对减速目标造成的伤害有概率略微治疗你
 					'''
@@ -4102,7 +4097,7 @@ Mods: {
 
 			BronzeAlloyFragments: {
 				DisplayName: 青铜合金碎片
-				Tooltip: "'它的惊人质量并没有随时间遗失'"
+				Tooltip: “它的惊人质量并没有随时间遗失”
 			}
 
 			BronzeBreastplate: {
@@ -4172,7 +4167,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性小幅提升
-					'它有一种L的感觉'
+					“它有一种L的感觉”
 					'''
 			}
 
@@ -4205,7 +4200,7 @@ Mods: {
 				Tooltip:
 					'''
 					心的拾取范围增加且所有属性小幅提升
-					'用当地蓝莓放在黄油般酥脆的糕点上制成的！'
+					“用当地蓝莓放在黄油般酥脆的糕点上制成的！”
 					'''
 			}
 
@@ -4214,7 +4209,7 @@ Mods: {
 				Tooltip:
 					'''
 					获得发光能力且所有属性小幅提升
-					'蓝色是对的……这东西差不多发这种光！'
+					“蓝色是对的……这东西差不多发这种光！”
 					'''
 			}
 
@@ -4228,7 +4223,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性中幅提升
-					'Tapiooooca! Tapiooooca!'
+					“Tapiooooca! Tapiooooca!”
 					'''
 			}
 
@@ -4237,7 +4232,7 @@ Mods: {
 				Tooltip:
 					'''
 					视野增加且所有属性小幅提升
-					'像胡萝卜蛋糕，但更小！'
+					“像胡萝卜蛋糕，但更小！”
 					'''
 			}
 
@@ -4246,7 +4241,7 @@ Mods: {
 				Tooltip:
 					'''
 					生命再生增加且所有属性小幅提升
-					'用精选樱桃自制！'
+					“用精选樱桃自制！”
 					'''
 			}
 
@@ -4255,7 +4250,7 @@ Mods: {
 				Tooltip:
 					'''
 					敌怪生成率降低且所有属性小幅提升
-					'非常适合独自一人的日子'
+					“非常适合独自一人的日子”
 					'''
 			}
 
@@ -4269,7 +4264,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性大幅提升
-					'现在我们只需要烤鸟'
+					“现在我们只需要烤鸟”
 					'''
 			}
 
@@ -4283,7 +4278,7 @@ Mods: {
 				Tooltip:
 					'''
 					伤害增加并让你有点踉跄
-					'这东西有点卑鄙'
+					“这东西有点卑鄙”
 					'''
 			}
 
@@ -4307,7 +4302,7 @@ Mods: {
 				Tooltip:
 					'''
 					仆从上限增加且所有属性小幅提升
-					'一点热量和一点脂肪可以忍耐很久'
+					“一点热量和一点脂肪可以忍耐很久”
 					'''
 			}
 
@@ -4316,7 +4311,7 @@ Mods: {
 				Tooltip:
 					'''
 					水中移动力增加且所有属性小幅提升
-					'最好用手指吃'
+					“最好用手指吃”
 					'''
 			}
 
@@ -4325,7 +4320,7 @@ Mods: {
 				Tooltip:
 					'''
 					击退增加且所有属性小幅提升
-					'烤得完美'
+					“烤得完美”
 					'''
 			}
 
@@ -4339,7 +4334,7 @@ Mods: {
 				Tooltip:
 					'''
 					受到的冷系伤害降低且所有属性小幅提升
-					'没有什么比这个可口的饮料更好地抵御寒冷'
+					“没有什么比这个可口的饮料更好地抵御寒冷”
 					'''
 			}
 
@@ -4348,7 +4343,7 @@ Mods: {
 				Tooltip:
 					'''
 					魔法伤害增加且所有属性小幅提升
-					'又冷又甜的美食！'
+					“又冷又甜的美食！”
 					'''
 			}
 
@@ -4361,7 +4356,7 @@ Mods: {
 				DisplayName: 果酱
 				Tooltip:
 					'''
-					'你真的应该吃这种东西吗?'
+					“你真的应该吃这种东西吗？”
 					之后会额外回复一些生命值
 					'''
 			}
@@ -4371,7 +4366,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性中幅提升
-					'我最喜欢的搞笑词'
+					“我最喜欢的搞笑词”
 					'''
 			}
 
@@ -4379,7 +4374,7 @@ Mods: {
 				DisplayName: 生命之水
 				Tooltip:
 					'''
-					'充满强烈的生命给予特性'
+					“充满强烈的生命给予特性”
 					获得生命再生和最大生命值加成
 					'''
 			}
@@ -4389,19 +4384,23 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性小幅提升
-					'我看到的是个荔枝吗？'
+					“我看到的是个荔枝吗？”
 					'''
 			}
 
 			ManaBerry: {
 				DisplayName: 魔力浆果
-				Tooltip: "'无法描述的甜'"
+				Tooltip: “无法描述的甜”
 			}
 
 			ManaDelight: {
 				DisplayName: 魔力欢腾
-				Tooltip: 每次咬都能品尝到能量
-				ManaTooltip: 恢复你最大法力值的{0}%
+				Tooltip:
+					'''
+					“每次咬都能品尝到能量”
+					不造成魔力疾病
+					'''
+				ManaTooltip: 恢复你最大魔力值的{0}%
 			}
 
 			Mangosteen: {
@@ -4409,7 +4408,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性大幅提升
-					'最好适量食用……如果有的话'
+					“最好适量食用……如果有的话”
 					'''
 			}
 
@@ -4418,7 +4417,7 @@ Mods: {
 				Tooltip:
 					'''
 					快乐增加且所有属性小幅提升
-					'茶。万寿菊。冷.'
+					“茶。万寿菊。冷。”
 					'''
 			}
 
@@ -4427,7 +4426,7 @@ Mods: {
 				Tooltip:
 					'''
 					提供火焰光环且所有属性小幅提升
-					'在地狱炸锅中准备好'
+					“在地狱炸锅中准备好”
 					'''
 			}
 
@@ -4436,7 +4435,7 @@ Mods: {
 				Tooltip:
 					'''
 					暴击率增加且所有属性小幅提升
-					'碗里有多种绿色的东西，你咋了？'
+					“碗里有多种绿色的东西，你咋了？”
 					'''
 			}
 
@@ -4455,7 +4454,7 @@ Mods: {
 				Tooltip:
 					'''
 					敌怪生成率增加且所有属性小幅提升
-					'你不知道厨师是怎么把它做成可食用的'
+					“你不知道厨师是怎么把它做成可食用的”
 					'''
 			}
 
@@ -4464,7 +4463,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性中幅提升
-					'我能吃这个吗？'
+					“我能吃这个吗？”
 					'''
 			}
 
@@ -4473,7 +4472,7 @@ Mods: {
 				Tooltip:
 					'''
 					伤害会反弹且所有属性小幅提升
-					'如果准备得当，粉梨不会产生幻觉！'
+					“如果准备得当，粉梨不会产生幻觉！”
 					'''
 			}
 
@@ -4482,7 +4481,7 @@ Mods: {
 				Tooltip:
 					'''
 					敌怪生成率增加且所有属性小幅提升
-					'这菜本身没问题，但吃了它……'
+					“这菜本身没问题，但吃了它……”
 					'''
 			}
 
@@ -4491,7 +4490,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性大幅提升
-					'仍在寻找难得一见的蓝色变种'
+					“仍在寻找难得一见的蓝色变种”
 					'''
 			}
 
@@ -4505,7 +4504,7 @@ Mods: {
 				Tooltip:
 					'''
 					下落速度降低且所有属性小幅提升
-					'亮蓝色的花朵是这杯饮料的完美之处！'
+					“亮蓝色的花朵是这杯饮料的完美之处！”
 					'''
 			}
 
@@ -4514,7 +4513,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性大幅提升
-					'太好了，它会让你大吃一惊'
+					“太好了，它会让你大吃一惊”
 					'''
 			}
 
@@ -4528,7 +4527,7 @@ Mods: {
 				Tooltip:
 					'''
 					移动速度增加且所有属性小幅提升
-					'软，甜，如此蓬松'
+					“软，甜，如此蓬松”
 					'''
 			}
 
@@ -4537,7 +4536,7 @@ Mods: {
 				Tooltip:
 					'''
 					最大生命值增加且所有属性小幅提升
-					'看起来它是用生命水晶酿的……？'
+					“看起来它是用生命水晶酿的……？”
 					'''
 			}
 
@@ -4546,7 +4545,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性中幅提升
-					'旅商最爱的点心'
+					“旅商最爱的点心”
 					'''
 			}
 
@@ -4555,7 +4554,7 @@ Mods: {
 				Tooltip:
 					'''
 					防御增加且所有属性小幅提升
-					'事实上，你能咀嚼这个已经证明你很坚强了'
+					“事实上，你能咀嚼这个已经证明你很坚强了”
 					'''
 			}
 
@@ -4624,7 +4623,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					光辉伤害会建立至多 {0} 点生命护盾且你的生命护盾不会随时间衰减
+					光辉伤害会建立至多{0}点生命护盾且你的生命护盾不会随时间衰减
 					治疗队友会将生命护盾转移到他们身上
 					'''
 			}
@@ -4675,7 +4674,7 @@ Mods: {
 
 			aDarksteelAlloy: {
 				DisplayName: 暗钢锭
-				Tooltip: 地牢中的堕落骑士使用的材料
+				Tooltip: ""
 			}
 
 			bDarksteelPickaxe: {
@@ -4692,7 +4691,7 @@ Mods: {
 				DisplayName: 暗钢胸甲
 				Tooltip:
 					'''
-					'轻盈耐用'
+					“轻盈耐用”
 					增加10%移动速度
 					增加2点盔甲穿透
 					'''
@@ -4702,7 +4701,7 @@ Mods: {
 				DisplayName: 暗钢面盔
 				Tooltip:
 					'''
-					'轻盈耐用'
+					“轻盈耐用”
 					增加10%移动速度
 					增加1点盔甲穿透
 					'''
@@ -4713,7 +4712,7 @@ Mods: {
 				DisplayName: 暗钢护胫
 				Tooltip:
 					'''
-					'轻盈耐用'
+					“轻盈耐用”
 					增加10%移动速度
 					增加2点盔甲穿透
 					'''
@@ -4746,7 +4745,7 @@ Mods: {
 
 			BrewBlueprint: {
 				DisplayName: 酿酒食谱
-				Tooltip: "'练习正确酿造的复杂指南'"
+				Tooltip: “练习正确酿造的复杂指南”
 			}
 
 			DarkMageStaff: {
@@ -4801,7 +4800,7 @@ Mods: {
 				DisplayName: 魔血胸甲
 				Tooltip:
 					'''
-					'注入永恒的血液'
+					“注入永恒的血液”
 					敌怪更有可能以你为目标
 					20%概率完全抵消到来的伤害
 					'''
@@ -4830,7 +4829,7 @@ Mods: {
 				DisplayName: 魔血护胫
 				Tooltip:
 					'''
-					'注入永恒的血液'
+					“注入永恒的血液”
 					增加15%移动速度
 					'''
 			}
@@ -4844,10 +4843,10 @@ Mods: {
 				DisplayName: 魔血头盔
 				Tooltip:
 					'''
-					'注入永恒的血液'
+					“注入永恒的血液”
 					增加10%伤害减免
 					'''
-				SetBonus: 最大生命值增加 {0}
+				SetBonus: 最大生命值增加{0}
 			}
 
 			DemonBloodJackhammer: {
@@ -4872,7 +4871,7 @@ Mods: {
 
 			DemonBloodShard: {
 				DisplayName: 魔血碎晶
-				Tooltip: "'生命之血与黑暗的复杂融合物'"
+				Tooltip: “生命之血与黑暗的复杂融合物”
 			}
 
 			DemonBloodSpear: {
@@ -4910,7 +4909,7 @@ Mods: {
 
 			AbyssalChitin: {
 				DisplayName: 深渊角质鳞
-				Tooltip: "'形成于比深海还要深暗的环境……'"
+				Tooltip: “形成于比深海还要深暗的环境……”
 			}
 
 			AbyssalCrate: {
@@ -4923,18 +4922,18 @@ Mods: {
 				Tooltip:
 					'''
 					释放一只友好的琵琶鱼来照亮黑暗
-					(在深海箱或渊海/深渊匣内获得)
+					（在深海箱或渊海/深渊匣内获得）
 					'''
 			}
 
 			Aquaite: {
 				DisplayName: 海洋矿
-				Tooltip: "'原始海洋的碎片'"
+				Tooltip: “原始海洋的碎片”
 			}
 
 			AquaiteBar: {
 				DisplayName: 海洋锭
-				Tooltip: "'冷凝水附着于锭上'"
+				Tooltip: “冷凝水附着于锭上”
 			}
 
 			AquaiteKnife: {
@@ -4968,8 +4967,12 @@ Mods: {
 			}
 
 			AstralWave: {
-				DisplayName: 星辉波痕（可微光嬗变）
-				Tooltip: 永久增加跳跃速度
+				DisplayName: 星辉波痕
+				Tooltip:
+					'''
+					永久增加跳跃速度
+					（获取方式：水晶波痕微光转化）
+					'''
 			}
 
 			BlobhornCoralStaff: {
@@ -4992,7 +4995,7 @@ Mods: {
 				Tooltip:
 					'''
 					吸引所有深海附近的空气泡泡
-					手持时“清新泡泡”持续时间翻倍
+					手持时“{$Buffs.RefreshingBubble.DisplayName}”的持续时间翻倍
 					'''
 			}
 
@@ -5007,7 +5010,7 @@ Mods: {
 					'''
 					永久增加{0}%基础移动速度
 					可以至多使用{1}次
-					获取方式：困难模式下在深海收获海洋水晶获取
+					（获取方式：困难模式下在深海收获海洋水晶获取）
 					'''
 			}
 
@@ -5023,27 +5026,27 @@ Mods: {
 
 			DepthDiverChestplate: {
 				DisplayName: 深海潜游者胸甲
-				Tooltip: "'成为无私的保护者'"
+				Tooltip: “成为无私的保护者”
 			}
 
 			DepthDiverGreaves: {
 				DisplayName: 深海潜游者护胫
-				Tooltip: "'成为无私的保护者'"
+				Tooltip: “成为无私的保护者”
 			}
 
 			DepthDiverHelmet: {
 				DisplayName: 深海潜游者头盔
 				Tooltip:
 					'''
-					'成为无私的保护者'
+					“成为无私的保护者”
 					增加6%暴击率
 					'''
-				SetBonus: 你和你队友的伤害提高{0}%，移动速度提高{1}%，并且可以在水下呼吸（等待wiki）
+				SetBonus: 你和你队友的伤害提高{0}%，移动速度提高{1}%，并且可以在水下呼吸
 			}
 
 			DepthScale: {
 				DisplayName: 深海之鳞
-				Tooltip: "'进化为深海设计了这个……'"
+				Tooltip: “进化为深海设计了这个……”
 			}
 
 			DrenchedDirk: {
@@ -5116,7 +5119,7 @@ Mods: {
 				Tooltip:
 					'''
 					产生一阵上升的泡泡
-					(在深海箱或渊海/深渊匣内获得)
+					（在深海箱或渊海/深渊匣内获得）
 					'''
 			}
 
@@ -5149,18 +5152,18 @@ Mods: {
 				DisplayName: 娜迦面具
 				Tooltip:
 					'''
-					'原始海洋法师的装束'
+					“原始海洋法师的装束”
 					最大魔力值增加60
 					允许你水下呼吸
 					'''
-				SetBonus: 每消耗 {0} 魔力会短暂地大幅增加你的魔法伤害和施法速度
+				SetBonus: 每消耗{0}魔力会短暂地大幅增加你的魔法伤害和施法速度
 			}
 
 			NagaSkinSuit: {
 				DisplayName: 娜迦服
 				Tooltip:
 					'''
-					'原始海洋法师的装束'
+					“原始海洋法师的装束”
 					增加10%魔法伤害
 					增加魔力再生
 					'''
@@ -5170,7 +5173,7 @@ Mods: {
 				DisplayName: 娜迦尾
 				Tooltip:
 					'''
-					'原始海洋法师的装束'
+					“原始海洋法师的装束”
 					增加8%魔法伤害
 					潮湿时你移动地更快
 					'''
@@ -5206,9 +5209,9 @@ Mods: {
 				DisplayName: 雨石
 				Tooltip:
 					'''
-					'据说这块奇怪的石头是从可以掌控海洋的实体身上撕下来的……'
+					“传说这块奇怪的石头是从可以掌控潮汐的实体身上撕下来的……”
 					激活或取消暴雨
-					(在深海箱或渊海/深渊匣内获得)
+					（在深海箱或渊海/深渊匣内获得）
 					'''
 			}
 
@@ -5228,13 +5231,13 @@ Mods: {
 					'''
 					防御增加2点
 					受伤害会释放可触摸的微粒，回复所受伤害25%的生命值
-					(在深海箱或渊海/深渊匣内获得)
+					（在深海箱或渊海/深渊匣内获得）
 					'''
 			}
 
 			SharkStorm: {
 				DisplayName: 鲨鱼风暴
-				Tooltip: 33%概率节省弹药
+				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
 			}
 
 			SpinyShell: {
@@ -5251,7 +5254,7 @@ Mods: {
 				DisplayName: 猎潮者帽
 				Tooltip:
 					'''
-					'不只是为了捕鱼'
+					“不只是为了捕鱼”
 					增加4%远程暴击率
 					允许你水下呼吸
 					'''
@@ -5262,7 +5265,7 @@ Mods: {
 				DisplayName: 猎潮者胸甲
 				Tooltip:
 					'''
-					'不只是为了捕鱼'
+					“不只是为了捕鱼”
 					增加10%远程伤害
 					'''
 			}
@@ -5271,9 +5274,8 @@ Mods: {
 				DisplayName: 猎潮者护胫
 				Tooltip:
 					'''
-					'不只是为了捕鱼'
+					“不只是为了捕鱼”
 					增加10%远程暴击率
-
 					'''
 			}
 
@@ -5292,9 +5294,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AceBreastplate.DisplayName: 王者胸甲
-			AceGreaves.DisplayName: 王者护胫
-			AceHelmet.DisplayName: 王者头盔
+			AceBreastplate.DisplayName: 王牌胸甲
+			AceGreaves.DisplayName: 王牌护胫
+			AceHelmet.DisplayName: 王牌头盔
 			BlockyMask.DisplayName: 方块面具
 			BlockyPants.DisplayName: 方块裤子
 			BlockyShirt.DisplayName: 方块衣服
@@ -5306,7 +5308,7 @@ Mods: {
 			DannyLamentLeggings.DisplayName: 丹尼之叹护胫
 			DannyLamentMask.DisplayName: 丹尼之叹面具
 			DannyLamentSuit.DisplayName: 丹尼之叹上衣
-			HalcandranDeluxeApparel.DisplayName: 哈坎德兰套装
+			HalcandranDeluxeApparel.DisplayName: 哈坎德兰豪华服饰
 			GhastlyGarment.DisplayName: 恐怖皮衣
 			GhastlyHood.DisplayName: 恐怖兜帽
 			GhastlyLeggings.DisplayName: 恐怖护胫
@@ -5461,14 +5463,14 @@ Mods: {
 				ConvertTooltip: 右键循环样式或重新制作转化为{0}
 				Grounded: 地面式
 				Hanging: 悬挂式
-				PylonRestriction: 每有一个晶塔可放置 {0} 个喂鸟器 (当前限制: {1})
+				PylonRestriction: 每有一个晶塔可放置{0}个喂鸟器（当前限制: {1}）
 				SeedTooltipReplacement: 用于吹管和喂鸟器
 				SeedTooltipFallback: 供喂鸟器使用
 				TileMouseover: 稍后再来看看……
 			}
 
-			BirdFeederGrounded.DisplayName: 喂鸟器 (地面式)
-			BirdFeederHanging.DisplayName: 喂鸟器 (悬挂式)
+			BirdFeederGrounded.DisplayName: 喂鸟器
+			BirdFeederHanging.DisplayName: 悬挂式喂鸟器
 
 			BlackMIDI: {
 				DisplayName: 乌檀电琴
@@ -5486,7 +5488,7 @@ Mods: {
 					所受伤害降低10%
 					免疫敌怪击退且敌怪更有可能攻击你
 					每3秒，受到伤害会在你周围释放一场不稳定的爆炸
-					爆炸伤害受你的防御影响
+					爆炸伤害与你的防御相关
 					'''
 			}
 
@@ -5506,18 +5508,18 @@ Mods: {
 			}
 
 			BloodAstronautBoots: {
-				DisplayName: 圣血宇航靴（wiki名鲜血宇航员鞋子）
+				DisplayName: 圣血宇航靴
 				Tooltip: ""
 			}
 
 			BloodAstronautHelmet: {
-				DisplayName: 圣血宇航头盔（wiki名鲜血宇航员头盔）
+				DisplayName: 圣血宇航头盔
 				Tooltip: ""
-				VanityConfigName: 圣血宇航套装（wiki名鲜血宇航员套装）
+				VanityConfigName: 圣血宇航套装
 			}
 
 			BloodAstronautSuit: {
-				DisplayName: 圣血宇航服（wiki名鲜血宇航员西服）
+				DisplayName: 圣血宇航服
 				Tooltip: ""
 			}
 
@@ -5525,7 +5527,7 @@ Mods: {
 				DisplayName: 饮血者
 				Tooltip:
 					'''
-					近战攻击会储存至多 {0} 道鲜血精华
+					近战攻击会储存至多{0}道鲜血精华
 					右键使用精华发射一道伤害性血流，治疗你和你的队友
 					'''
 			}
@@ -5543,7 +5545,7 @@ Mods: {
 				DisplayName: 血腥巨爪
 				Tooltip:
 					'''
-					'为我流血……'
+					“为我流血……”
 					暴击会穿刺击中的目标
 					'''
 			}
@@ -5608,7 +5610,7 @@ Mods: {
 				DisplayName: 生存者披风
 				Tooltip:
 					'''
-					'这款披风的结构旨在引导你度过艰难的日子'
+					“这款披风的结构旨在引导你度过艰难的日子”
 					你随时间快速地获取至多20%伤害减免
 					受击时会短暂地将此加成变为-10%伤害减免
 					当此加成高于0%时，你会获得至多2点生命恢复并能阻挡1次伤害性攻击
@@ -5677,7 +5679,7 @@ Mods: {
 
 			CharonsBeacon: {
 				DisplayName: 卡戎之信标
-				Tooltip: "'曾属于一位流浪的保护者的饱经风霜的魔法灯笼'"
+				Tooltip: “曾属于一位流浪的保护者的饱经风霜的魔法灯笼”
 			}
 
 			ChiLantern: {
@@ -5693,7 +5695,7 @@ Mods: {
 				DisplayName: 圣诞中枢
 				Tooltip:
 					'''
-					'礼物将从天而降'
+					“礼物将从天而降”
 					与之交互时开启圣诞节
 					在真实季节期间无法停用
 					'''
@@ -5717,8 +5719,8 @@ Mods: {
 				DisplayName: 震荡弹头
 				Tooltip:
 					'''
-					增加 {0}% 火箭伤害且远程伤害会短暂晕眩敌怪
-					降低 {1}% 开火速度
+					增加{0}%火箭伤害且远程伤害会短暂晕眩敌怪
+					降低{1}%开火速度
 					'''
 			}
 
@@ -5731,7 +5733,7 @@ Mods: {
 				DisplayName: 星宇飞刃
 				Tooltip:
 					'''
-					'大家好，我是Mary Poppins'
+					“大家好，我是Mary Poppins”
 					发出哨声后产生不稳定且不可控的能量束
 					能量束可被引导并快速追踪附近敌怪
 					能量束会优先考虑击中最近未被它击中的敌怪
@@ -5808,7 +5810,7 @@ Mods: {
 				DisplayName: 欢愉坚果
 				Tooltip:
 					'''
-					'Kupo! Kupo!'
+					“Kupo! Kupo!”
 					召唤一个带翅膀的小朋友
 					'''
 			}
@@ -5836,24 +5838,24 @@ Mods: {
 				DisplayName: 梦想扩音器
 				Tooltip:
 					'''
-					'这东西OOONNN!?~'
+					“这东西OOONNN!?~”
 					相反，它会增加40%你所受的伤害，持续30秒
 					'''
 			}
 
 			DriedMask: {
 				DisplayName: 干尸面具
-				Tooltip: "'有人需要一杯水…'"
+				Tooltip: “有人需要一杯水……”
 			}
 
 			DrownedDoubloon: {
 				DisplayName: 沉没的金币
 				Tooltip:
 					'''
-					'钱币正面有条华贵的鱼尾'
+					“钱币正面有条华贵的鱼尾”
 					对于装备效果，你总是被认为“潮湿”
 					另外，你会获得不受限的水中移动力
-					(在奇特匣或奇妙匣内获得)
+					（在奇特匣或奇妙匣内获得）
 					'''
 			}
 
@@ -5920,26 +5922,26 @@ Mods: {
 
 			FeralFurChest: {
 				DisplayName: 兽皮胸甲
-				Tooltip: "'激发你内心的兽性'"
+				Tooltip: “激发你内心的兽性”
 			}
 
 			FeralFurHead: {
 				DisplayName: 兽皮头套
-				Tooltip: "'激发你内心的兽性'"
+				Tooltip: “激发你内心的兽性”
 				VanityConfigName: 兽皮套装
 				SetBonus: 看起来不错!
 			}
 
 			FeralFurLegs: {
 				DisplayName: 兽皮腿甲
-				Tooltip: "'激发你内心的兽性'"
+				Tooltip: “激发你内心的兽性”
 			}
 
 			FireAxe: {
 				DisplayName: 消防斧
 				Tooltip:
 					'''
-					'最好用这个东西来避免裂隙……'
+					“最好用这个东西来避免裂隙……”
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
 					'''
@@ -6003,7 +6005,7 @@ Mods: {
 				DisplayName: 霜冻袋
 				Tooltip:
 					'''
-					'直接撒在悠悠球上效果最佳'
+					“直接撒在悠悠球上效果最佳”
 					你的悠悠球伤害会短暂对击中的敌怪造成冻伤
 					此效果每5秒重新充能
 					'''
@@ -6013,7 +6015,7 @@ Mods: {
 				DisplayName: 园丁的剑鞘
 				Tooltip:
 					'''
-					手持且不使用3秒后用剑攻击会暴击造成1200%伤害
+					{$Common.Tooltips.Sheath}
 					另外此次攻击后你会传送到光标位置并对附近造成伤害
 					'''
 			}
@@ -6023,7 +6025,7 @@ Mods: {
 				Tooltip:
 					'''
 					所有属性大幅提升
-					'Boss们很酷且都……但你们吃过蒜蓉面包吗？'
+					“Boss们很酷且都……但你们吃过蒜蓉面包吗？”
 					'''
 			}
 
@@ -6057,7 +6059,7 @@ Mods: {
 				DisplayName: 惊魂甲壳
 				Tooltip:
 					'''
-					'你完全掌控着你的灵魂……'
+					“你完全掌控着你的灵魂……”
 					每两分钟，受到致命伤害时会立刻传送回家
 					'''
 			}
@@ -6141,7 +6143,7 @@ Mods: {
 
 			GrimFlayer: {
 				DisplayName: 冷酷劫掠者
-				Tooltip: 攻击会恢复 2 点生命值
+				Tooltip: 攻击会治疗你2点生命值
 			}
 
 			GuardiansBoots: {
@@ -6203,7 +6205,7 @@ Mods: {
 				DisplayName: 万圣中枢
 				Tooltip:
 					'''
-					'南瓜将从天而降'
+					“南瓜将从天而降”
 					与之交互时开启万圣节
 					在真实季节期间无法停用
 					'''
@@ -6232,10 +6234,10 @@ Mods: {
 				DisplayName: 碎心者
 				Tooltip:
 					'''
-					'来自遥远，远，远的星系……'
+					“来自遥远，远，远的星系……”
 					鞭出能产生蛇毒的剧毒泡泡
 					右键向前刺，对中毒敌怪造成额外伤害
-					(在丛林生物群系钓鱼获得)
+					（在丛林生物群系钓鱼获得）
 					'''
 			}
 
@@ -6269,7 +6271,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射一支弩箭，随行进增加治疗量和伤害
-					(在专家模式且困难模式食人魔的宝藏袋获得)
+					（在专家模式且困难模式食人魔的宝藏袋获得）
 					'''
 			}
 
@@ -6288,7 +6290,7 @@ Mods: {
 				DisplayName: 空洞戒指
 				Tooltip:
 					'''
-					'仅有疯了的泰拉人才会戴这个'
+					“仅有疯了的泰拉人才会戴这个”
 					此戒指不提供任何增益效果
 					'''
 			}
@@ -6302,9 +6304,9 @@ Mods: {
 				DisplayName: 饮魔玫瑰
 				Tooltip:
 					'''
-					失去80%最大魔力后，你会立刻恢复50%最大魔力并叠加10“挥发能量”
-					挥发能量会增加0.2%攻速，缓慢伤害你，每半秒衰减
-					挥发能量叠加到100会立刻杀死你
+					失去80%最大魔力后，你会立刻恢复50%最大魔力并叠加10层“挥发能量”
+					挥发能量会增加0.2%攻速，缓慢伤害你，每秒衰减
+					挥发能量叠加到100层会立刻杀死你
 					'''
 			}
 
@@ -6312,7 +6314,7 @@ Mods: {
 				DisplayName: 高压水泵
 				Tooltip:
 					'''
-					'目标被高压之下的大量水击中'
+					“目标被高压之下的大量水击中”
 					使用瓶装水作为弹药
 					'''
 			}
@@ -6338,7 +6340,7 @@ Mods: {
 
 			JetstreamSheath: {
 				DisplayName: 激流剑鞘
-				Tooltip: 如果手持且不使用{0} {^0:秒;second}后剑击会向附近敌怪释放5道斩切
+				Tooltip: 如果手持且不使用{1}秒后剑击会向附近敌怪释放{0}道斩切
 			}
 
 			JewellersWallGrip: {
@@ -6414,7 +6416,7 @@ Mods: {
 				DisplayName: 不灭遗念
 				Tooltip:
 					'''
-					'内心的力量会带你穿过最艰难的考验……'
+					“内心的力量会带你穿过最艰难的考验……”
 					进行一次以魔法前刺为结束的三连挥舞
 					'''
 			}
@@ -6433,7 +6435,7 @@ Mods: {
 				DisplayName: 幸运兔脚
 				Tooltip:
 					'''
-					'用真的假皮毛制作！'
+					“用真的假皮毛制作！”
 					你的运气略微增加
 					装备时，击杀的敌怪有100%概率掉落更多的钱币
 					'''
@@ -6441,18 +6443,18 @@ Mods: {
 
 			LunaticsHood: {
 				DisplayName: 教徒兜帽
-				Tooltip: "'适合真正狂热分子的一部分'"
+				Tooltip: “适合真正狂热分子的一部分”
 				VanityConfigName: 教徒套装
 			}
 
 			LunaticsLeggings: {
 				DisplayName: 教徒裤
-				Tooltip: "'适合真正狂热分子的一部分'"
+				Tooltip: “适合真正狂热分子的一部分”
 			}
 
 			LunaticsRobe: {
 				DisplayName: 教徒法袍
-				Tooltip: "'适合真正狂热分子的一部分'"
+				Tooltip: “适合真正狂热分子的一部分”
 			}
 
 			ManHacker: {
@@ -6473,7 +6475,7 @@ Mods: {
 				DisplayName: 守护者斗篷
 				Tooltip:
 					'''
-					'荣誉，谦逊和意志……这些才是真正的护盾'
+					“荣誉，谦逊和意志……这些才是真正的护盾”
 					增加6点防御
 					延长受伤后的无敌帧时间
 					每6秒驱散你身上一种伤害性减益
@@ -6518,9 +6520,9 @@ Mods: {
 				DisplayName: 三分熟牛排
 				Tooltip:
 					'''
-					'非常适合龙的成长饮食……我想？'
+					“非常适合龙的成长饮食……我想？”
 					召唤一只可骑乘的小龙
-					While mounted, the dragon will breathe fire on enemies in front of it骑乘时，小龙会向附近的敌怪喷吐火焰
+					骑乘时，小龙会向前方敌怪喷吐火焰
 					'''
 			}
 
@@ -6528,8 +6530,8 @@ Mods: {
 				DisplayName: 代谢药
 				Tooltip:
 					'''
-					食用厨师食物后的'饱食'时间缩短20%
-					'饱食'时你的生命恢复增加
+					食用厨师食物后的“饱食”时间缩短20%
+					“饱食”时你的生命恢复增加
 					'''
 			}
 
@@ -6552,7 +6554,7 @@ Mods: {
 				DisplayName: 摩尔匣
 				Tooltip:
 					'''
-					'来自动物公园的纪念品朋友'
+					“来自动物公园的纪念品朋友”
 					释放一只奇怪的猫跟随在你周围
 					'''
 			}
@@ -6561,25 +6563,25 @@ Mods: {
 				DisplayName: 月光
 				Tooltip:
 					'''
-					'我的引导月光……'
+					“我的引导月光……”
 					每3秒，伤害敌怪会增幅矛的下次使用
 					'''
 			}
 
 			MyrmidonBoots: {
 				DisplayName: 剑士靴
-				Tooltip: "'流浪贵族的服装'"
+				Tooltip: “流浪贵族的服装”
 			}
 
 			MyrmidonCap: {
 				DisplayName: 剑士帽
-				Tooltip: "'流浪贵族的服装'"
-				VanityConfigName: 流浪贵族套装
+				Tooltip: “流浪贵族的服装”
+				VanityConfigName: 剑士套装
 			}
 
 			MyrmidonTunic: {
 				DisplayName: 剑士长袍
-				Tooltip: "'流浪贵族的服装'"
+				Tooltip: “流浪贵族的服装”
 			}
 
 			NebulaReflection: {
@@ -6632,7 +6634,7 @@ Mods: {
 				DisplayName: 极北天光
 				Tooltip:
 					'''
-					'这是你第一次见过吗？北极光粉碎人类？'
+					“这是你第一次见过北极光粉碎人类吗？”
 					在你的光标位置召唤本地化的北极光
 					北极光会向下方的敌怪释放光束风暴
 					'''
@@ -6656,7 +6658,7 @@ Mods: {
 				DisplayName: 奥米茄爆破枪
 				Tooltip:
 					'''
-					'为特殊系列的战斗机器人设计'
+					“为特殊系列的战斗机器人设计”
 					将你锁定在原地并充能一次大型能量爆，击中敌怪时产生能量
 					满能量时右键会短暂增幅左键攻击
 					'''
@@ -6687,7 +6689,7 @@ Mods: {
 				DisplayName: 异界符咒
 				Tooltip:
 					'''
-					'莫名其妙的声音回响着：Zerath! Milogop! Tz'rok!'
+					“莫名其妙的声音回响着：Zerath! Milogop! Tz'rok!”
 					召唤一辆毁灭战车
 					'''
 			}
@@ -6776,7 +6778,7 @@ Mods: {
 
 			PlasmaStaff: {
 				DisplayName: 等离子法杖
-				Tooltip: 按住左键和右键或上键产生摩擦，增强你的攻击
+				Tooltip: 按住左键，右键或上键产生摩擦，增强你的攻击
 			}
 
 			PLG: {
@@ -6788,9 +6790,9 @@ Mods: {
 				DisplayName: 小型聚变发生器
 				Tooltip:
 					'''
-					'吐出了太多的物质'
+					“吐出了太多的物质”
 					你周围会缓慢地生成星云，随它的发展你会获得至多6点防御
-					按下 '{$Keybinds.AccessoryAbility.DisplayName}' 键会使其坍缩为攻击敌怪的星星
+					按下“{$Keybinds.AccessoryAbility.DisplayName}”键会使其坍缩为攻击敌怪的星星
 					'''
 			}
 
@@ -6798,7 +6800,7 @@ Mods: {
 				DisplayName: 花粉矛
 				Tooltip:
 					'''
-					'甜刺是由蜜蜂做的'
+					“甜刺是由蜜蜂做的”
 					左键向前刺，击中时短暂将你用蜂蜜覆盖
 					右键释放一些蜜蜂追捕附近敌怪
 					'''
@@ -6808,7 +6810,7 @@ Mods: {
 				DisplayName: 便携式弹珠音乐机
 				Tooltip:
 					'''
-					'弹珠使音乐的旋律成为可能'
+					“弹珠使音乐的旋律成为可能”
 					发射短暂停留在地面的滚动弹珠
 					'''
 			}
@@ -6817,7 +6819,7 @@ Mods: {
 				DisplayName: 史前琥珀法杖
 				Tooltip:
 					'''
-					'生命总能找到出路'
+					“生命总能找到出路”
 					召唤一些愤怒的恐龙攻击你的敌人
 					'''
 			}
@@ -6826,7 +6828,7 @@ Mods: {
 				DisplayName: 贪婪之证
 				Tooltip:
 					'''
-					'一个人应当小心内心的贪婪'
+					“一个人应当小心内心的贪婪”
 					所有攻击使敌怪掉落更多金
 					击中的敌怪会掉落额外钱币
 					受到的伤害增加10%
@@ -6851,23 +6853,23 @@ Mods: {
 
 			PurifiersCap: {
 				DisplayName: 净化者帽
-				Tooltip: "'正在进行净化……'"
+				Tooltip: “正在进行净化……”
 				VanityConfigName: 净化者套装
 			}
 
 			PurifiersCleats: {
 				DisplayName: 净化者鞋
-				Tooltip: "'正在进行净化……'"
+				Tooltip: “正在进行净化……”
 			}
 
 			PurifiersUniform: {
 				DisplayName: 净化者制服
-				Tooltip: "'正在进行净化……'"
+				Tooltip: “正在进行净化……”
 			}
 
 			PurifiersRing: {
 				DisplayName: 净化者戒指
-				Tooltip: "'正在进行净化……'"
+				Tooltip: “正在进行净化……”
 			}
 
 			QuakeGauntlet: {
@@ -6924,7 +6926,7 @@ Mods: {
 				DisplayName: 华贵之叶
 				Tooltip:
 					'''
-					'力量和风味都很丰富'
+					“力量和风味都很丰富”
 					召唤一只充满光芒的山羊照亮你的道路
 					'''
 			}
@@ -6933,7 +6935,7 @@ Mods: {
 				DisplayName: 来复矛
 				Tooltip:
 					'''
-					左键向前刺，获得最多 {0} 个鲜血精华
+					左键向前刺，获得最多{0}个鲜血精华
 					右键使用精华斩切并释放一阵血流
 					'''
 			}
@@ -6966,7 +6968,6 @@ Mods: {
 					召唤浮空图腾攻击敌怪
 					右键在四种不同的图腾攻击间切换
 					'''
-
 
 				RudeWandStage: {
 					Pulse: 脉冲
@@ -7123,6 +7124,7 @@ Mods: {
 					'''
 					扔出一个发光的锤子，用火焰惩罚敌怪
 					敌怪每被火焰灼烧1秒，你获得2道神圣充能
+					右键消耗所有神圣充能对被灼烧的敌怪造成伤害
 					'''
 			}
 
@@ -7139,7 +7141,7 @@ Mods: {
 					Normal: 普通
 					Fire: 火
 					Ice: 冰
-					Electricity: 闪电
+					Electricity: 电
 				}
 			}
 
@@ -7159,7 +7161,7 @@ Mods: {
 					'''
 					“他告诉你……”
 					左键投掷夺魂枪的突刺回音，可以粘在敌怪身上
-					R右键将夺魂枪向前刺，从敌怪身上的每个回音偷取{0}生命
+					右键将夺魂枪向前刺，每道回音偷取敌怪{0}点生命值
 					'''
 			}
 
@@ -7184,7 +7186,7 @@ Mods: {
 					'''
 					发射暴击时偷取生命的灵魂火焰
 					使用凝胶作为弹药
-					无视{0}点防御力
+					无视敌怪{0}点防御力
 					'''
 			}
 
@@ -7246,7 +7248,7 @@ Mods: {
 				DisplayName: 亚空间飞翼
 				Tooltip:
 					'''
-					'敌人最好还是逃跑……'
+					“敌人最好还是逃跑……”
 					允许飞行和缓慢下降
 					'''
 			}
@@ -7379,7 +7381,7 @@ Mods: {
 					右键消耗20点灵感值将扩音器掉在地上
 					扩音器半径内的玩家会获得6%暴击率加成
 					在扩音器半径内充能会释放需要冷却的强力闪电爆
-					(在雷雨期间且困难模式下由武器大师出售)
+					（在雷雨期间且困难模式下由武器大师出售）
 					'''
 			}
 
@@ -7502,11 +7504,11 @@ Mods: {
 				DisplayName: 愿望魔镜
 				Tooltip:
 					'''
-					'一面可以感知凝视它的人的愿望的魔镜'
+					“一面可以感知凝视它的人的愿望的魔镜”
 					显示一切并允许你传送到各种位置
 					手持时右键会调出可选择的目的地
 					'''
-				SelectedDestination: 选择目的地: {0}
+				SelectedDestination: 选择目的地：{0}
 			}
 
 			WondrousWand: {
@@ -7530,7 +7532,7 @@ Mods: {
 				DisplayName: 屠龙者
 				Tooltip:
 					'''
-					'作为一把剑太大了，它更像一堆铁'
+					“作为一把剑太大了，它更像一堆铁”
 					左键释放被增幅的冲击波
 					右键以极大的力量将剑前刺
 					'''
@@ -7540,7 +7542,7 @@ Mods: {
 				DisplayName: 毛线球
 				Tooltip:
 					'''
-					'属于一位永远不会忘记的伙伴'
+					“属于一位永远不会忘记的伙伴”
 					召唤一只凶猛的小猫攻击敌怪
 					'''
 			}
@@ -7569,7 +7571,7 @@ Mods: {
 				DisplayName: 绿龙胸甲
 				Tooltip:
 					'''
-					'由神话般的鳞片制成'
+					“由神话般的鳞片制成”
 					增加10%伤害
 
 					'''
@@ -7589,9 +7591,8 @@ Mods: {
 				DisplayName: 绿龙护胫
 				Tooltip:
 					'''
-					'由神话般的鳞片制成'
+					“由神话般的鳞片制成”
 					增加12%移动速度
-
 					'''
 			}
 
@@ -7599,7 +7600,7 @@ Mods: {
 				DisplayName: 绿龙面具
 				Tooltip:
 					'''
-					'由神话般的鳞片制成'
+					“由神话般的鳞片制成”
 					增加7%暴击率
 					'''
 				SetBonus: 攻击有概率释放龙焰爆炸
@@ -7656,7 +7657,7 @@ Mods: {
 
 			GreenDragonScale: {
 				DisplayName: 苍绿龙鳞
-				Tooltip: "'远古巨龙力量的碎片'"
+				Tooltip: “远古巨龙力量的碎片”
 			}
 
 			DreadBlaster: {
@@ -7677,7 +7678,7 @@ Mods: {
 				DisplayName: 恐惧胸甲
 				Tooltip:
 					'''
-					'充满该死的灵魂'
+					“充满该死的灵魂”
 					增加20%近战伤害
 					增加10%近战攻速
 					'''
@@ -7697,7 +7698,7 @@ Mods: {
 				DisplayName: 恐惧护胫
 				Tooltip:
 					'''
-					'充满该死的灵魂'
+					“充满该死的灵魂”
 					增加20%移动速度
 					增加10%近战攻速
 					'''
@@ -7736,7 +7737,7 @@ Mods: {
 				DisplayName: 恐惧颅骨
 				Tooltip:
 					'''
-					'充满该死的灵魂'
+					“充满该死的灵魂”
 					增加10%近战暴击率
 					增加10%近战攻速
 					'''
@@ -7749,7 +7750,7 @@ Mods: {
 
 			DreadSoul: {
 				DisplayName: 恐惧之灵
-				Tooltip: "'此世界和下个世界结合处的裂隙'"
+				Tooltip: “此世界和下个世界结合处的裂隙”
 			}
 
 			DreadTearer: {
@@ -7800,7 +7801,7 @@ Mods: {
 				DisplayName: 法力球
 				Tooltip:
 					'''
-					'结合神奇能量的球'
+					“结合神奇能量的球”
 					最大魔力值增加10
 					'''
 			}
@@ -7822,7 +7823,7 @@ Mods: {
 					最大魔力值增加20
 					略微增加魔力再生
 					'''
-				SetBonus: "高于{1}%魔力时增加{0}%魔法伤害"
+				SetBonus: 高于{1}%魔力时增加{0}%魔法伤害
 			}
 
 			SilkLeggings: {
@@ -7857,7 +7858,7 @@ Mods: {
 				DisplayName: 命运三叉戟
 				Tooltip:
 					'''
-					'刺穿那些可能会伤害无辜的人……'
+					“刺穿那些可能会伤害无辜的人……”
 					快速扔出一个水之三叉戟，击中时释放水爆
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
@@ -7866,14 +7867,14 @@ Mods: {
 
 			OceanEssence: {
 				DisplayName: 海洋精华
-				Tooltip: "'永不停歇的潮汐火花'"
+				Tooltip: “永不停歇的潮汐火花”
 			}
 
 			OceansJudgement: {
 				DisplayName: 海之审判
 				Tooltip:
 					'''
-					'站在大海的力量面前忏悔……'
+					“站在大海的力量面前忏悔……”
 					扔出一个超级密集的水槌，击中敌怪时降下雨滴
 					雨滴会为你施加3点生命护盾，上限25点
 					'''
@@ -7883,7 +7884,7 @@ Mods: {
 				DisplayName: 七海搅碎者
 				Tooltip:
 					'''
-					'水带来的生死是相等的'
+					“水带来的生死是相等的”
 					释放一个召唤追踪泡泡的冷凝水球
 					泡泡会为你施加1点生命护盾，上限25点
 					'''
@@ -7893,7 +7894,7 @@ Mods: {
 				DisplayName: 海潮波
 				Tooltip:
 					'''
-					'以潮汐之怒扫除你的敌人……'
+					“以潮汐之怒扫除你的敌人……”
 					扔出一个大型水之手里剑，会释放微型海波
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
@@ -7924,17 +7925,17 @@ Mods: {
 				DisplayName: 洪流逆潮者头盔
 				Tooltip:
 					'''
-					'变得像潮汐一样势不可挡'
+					“变得像潮汐一样势不可挡”
 					增加{0}%近战伤害
 					所受伤害降低{1}%
 					生命再生增加{2}
-					每{3} {^3:秒;seconds}产生一个漂浮球
-					每颗球会增加 {4}%防御
+					每{3}秒产生一个漂浮球
+					每颗球会增加{4}%防御
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会将你包裹在密不透风发泡泡中
-					当泡泡存在时, 将所有受到的伤害转化为治疗
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会将你包裹在密不透风发泡泡中
+					当泡泡存在时，将所有受到的伤害转化为治疗
 					'''
 			}
 
@@ -7942,7 +7943,7 @@ Mods: {
 				DisplayName: 洪流逆潮者王冠
 				Tooltip:
 					'''
-					'向你的敌人释放海洋之怒'
+					“向你的敌人释放海洋之怒”
 					增加40%投掷伤害
 					50%概率不消耗投掷物品
 					最大技巧值增加2
@@ -7954,28 +7955,28 @@ Mods: {
 
 			AquaMask: {
 				DisplayName: 永劫狂潮面具
-				Tooltip: "'保持警惕...'"
+				Tooltip: “保持警惕……”
 			}
 
 			DoomSayersCoin: {
 				DisplayName: 末日预言者的硬币
 				Tooltip:
 					'''
-					'预知一场即将降临泰拉瑞亚的大灾难……'
+					“预知一场即将降临泰拉瑞亚的大灾难……”
 					在晚上释放始生灾灵
 					'''
 			}
 
 			DormantHammer: {
 				DisplayName: 休眠之锤
-				Tooltip: "'锤头中心似乎有个空的插孔……'"
+				Tooltip: “锤头中心似乎有个空的插孔……”
 			}
 
 			DreamCatcher: {
 				DisplayName: 梦境捕捉器
 				Tooltip:
 					'''
-					'为了抓住世界的希望并将其置于摇篮之中……'
+					“为了抓住世界的希望并将其置于摇篮之中……”
 					在光标位置召唤至多一个梦境捕捉器
 					待在梦境捕捉器内会在受到致命伤害时完全治疗自身
 					[c/BC1717:拥有灾瑟联动模组可灌注成献祭誓言]
@@ -7986,7 +7987,7 @@ Mods: {
 				DisplayName: 梦境编织者头盔
 				Tooltip:
 					'''
-					'用暂时的苦痛捆绑住你未来的敌人'
+					“用暂时的苦痛捆绑住你未来的敌人”
 					污染你的光辉力量
 					降低45%非光辉伤害
 					增加45%光辉伤害
@@ -7995,8 +7996,8 @@ Mods: {
 					'''
 					SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力并扭曲现实结构
-					敌怪会被大幅减速且受到所有来源的伤害增加 {1}%
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会消耗{0}魔力并扭曲现实结构
+					敌怪会被大幅减速且受到所有来源的伤害增加{1}%
 					队友会大幅增加移动速度和攻击速度
 					'''
 			}
@@ -8005,7 +8006,7 @@ Mods: {
 				DisplayName: 梦境编织者兜帽
 				Tooltip:
 					'''
-					'通过你的队友表明你最由衷的梦想'
+					“通过你的队友表明你最由衷的梦想”
 					降低25%非光辉伤害
 					降低35%魔力消耗
 					大幅增加魔力再生
@@ -8014,7 +8015,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力并将你放置在梦中
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会消耗{0}魔力并将你放置在梦中
 					在梦中时，被治疗的队友会变得短暂无敌且所有减益都会被治愈
 					'''
 			}
@@ -8048,7 +8049,7 @@ Mods: {
 				DisplayName: 洞察之月
 				Tooltip:
 					'''
-					'现实不总是看起来那么严格……'
+					“现实不总是看起来那么严格……”
 					释放撕裂现实的新月
 					消耗生命值的一半会给予到生命值最低的队友
 					'''
@@ -8058,8 +8059,7 @@ Mods: {
 				DisplayName: 真实碾碎者
 				Tooltip:
 					'''
-					'在世界上留下你的印记……'
-					直接击中会获得3层灵魂精华
+					“在世界上留下你的印记……”
 					快速在你周围旋转一把切割现实的镰刀
 					附近敌怪会快速被现实撕裂
 					'''
@@ -8069,7 +8069,7 @@ Mods: {
 				DisplayName: 无羁幻想
 				Tooltip:
 					'''
-					'一切结束时的那种和谐……'
+					“一切结束时的那种和谐……”
 					治疗玩家10%最大生命值，每级增幅再额外治疗20%
 					持续使用时会产生无法解释的能量球，每秒都会增幅自身
 					能量球可以增幅自身两次并治疗所有附近玩家
@@ -8080,7 +8080,7 @@ Mods: {
 				DisplayName: 雷神之锤
 				Tooltip:
 					'''
-					'让这把武器成为你战胜一切困难的证明'
+					“让这把武器成为你战胜一切困难的证明”
 					快速投掷传奇雷神之锤的电能图像
 					右键生成保护性电能护盾
 					[c/ab40ff:-真实伤害-]
@@ -8110,45 +8110,45 @@ Mods: {
 
 			DeathEssence: {
 				DisplayName: 死亡精华
-				Tooltip: "'来生的微粒'"
+				Tooltip: “来生的微粒”
 			}
 
 			MasterArbalestHood: {
 				DisplayName: 弓弩大师兜帽
 				Tooltip:
 					'''
-					'用你的弹幕风暴让天空变黑'
+					“用你的弹幕风暴让天空变黑”
 					增加12%箭伤害
 					增加12%特殊远程武器伤害
 					这些包括发射器，飞镖枪以及不发射箭/子弹的武器
 					箭暴击时会变为死亡箭并反弹
 					你的远程伤害会对敌怪施加灵液
 					'''
-				SetBonus: 你的伤害有 {0}% 概率完全复制自身并多造成 {1}% 伤害
+				SetBonus: 你的远程伤害有{0}%概率完全复制自身并多造成{1}%伤害
 			}
 
 			MasterMarksmansScouter: {
 				DisplayName: 狙击之王目镜
 				Tooltip:
 					'''
-					'火药会淘汰弱者'
+					“火药会淘汰弱者”
 					增加24%箭和子弹伤害
 					最近的敌怪会被狙击并多受各种来源10%伤害
 					你的远程伤害会对敌怪施加诅咒火焰
 					'''
 				SetBonus:
 					'''
-					你的远程伤害有 {0}% 概率完全湮灭击中的目标
-					此效果只能在Boss生命值低于 {1}%时生效
+					你的远程伤害有{0}%概率完全湮灭击中的目标
+					此效果只能在Boss生命值低于{1}%时生效
 					'''
-				Eradicated: ERADICATED
+				Eradicated: 湮！灭！
 			}
 
 			OmniBow: {
 				DisplayName: 全能之弓
 				Tooltip:
 					'''
-					'千斩之死……'
+					“千斩之死……”
 					释放一波死亡之箭
 					'''
 			}
@@ -8157,7 +8157,7 @@ Mods: {
 				DisplayName: 全能加农炮
 				Tooltip:
 					'''
-					'湮灭不配之人……'
+					“湮灭不配之人……”
 					发射三道高速能量脉冲
 					右键释放强力能量爆
 					'''
@@ -8167,7 +8167,7 @@ Mods: {
 				DisplayName: “标枪”火箭发射器
 				Tooltip:
 					'''
-					'你变成了死神……'
+					“你变成了死神……”
 					发射一枚由死神自身作为燃料的追踪导弹
 					20%概率节省弹药
 					'''
@@ -8177,9 +8177,9 @@ Mods: {
 				DisplayName: 屠龙者之息
 				Tooltip:
 					'''
-					'把你的怒气发泄在那些不配活着的人身上……'
+					“把你的怒气发泄在那些不配活着的人身上……”
 					使用凝胶作为弹药
-					无视{0}点防御力
+					无视敌怪{0}点防御力
 					{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 					释放腐蚀性的龙息洪流
 					'''
@@ -8187,14 +8187,14 @@ Mods: {
 
 			OmniMask: {
 				DisplayName: 噬元凶灾面具
-				Tooltip: "'带着混乱的面具...'"
+				Tooltip: “带着混乱的面具……”
 			}
 
 			EdgeofImagination: {
 				DisplayName: 幻象边际
 				Tooltip:
 					'''
-					'摆脱你认为的限制……'
+					“摆脱你认为的限制……”
 					演奏一把神话吉他，释放多个超级复段
 					每次反弹后伤害会增加
 					'''
@@ -8204,7 +8204,7 @@ Mods: {
 				DisplayName: 全息情感笛
 				Tooltip:
 					'''
-					'用纯粹的想象环绕你的观众……'
+					“用纯粹的想象环绕你的观众……”
 					快速释放和谐的音波
 					右键产生至多5个心灵符文复制你的攻击
 					'''
@@ -8214,7 +8214,7 @@ Mods: {
 				DisplayName: 狂想启迪盔
 				Tooltip:
 					'''
-					'让你的歌声激励一支军队'
+					“让你的歌声激励一支军队”
 					增加25%灵感值再生速率
 					打击乐器暴击会多造成15%伤害
 					最大灵感值增加5点
@@ -8223,8 +8223,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会用每种 {0} 级咒音增幅过载所有附近队友 {1} {^1:秒;seconds}
-					使用此能力需要 {2} 点灵感值且必须重新充能 {3} {^3:分钟;minutes}
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会用每种{0}级咒音增幅过载所有附近队友{1}秒
+					使用此能力需要{2}点灵感值且必须重新充{3}分钟
 					'''
 			}
 
@@ -8254,7 +8254,7 @@ Mods: {
 				DisplayName: 狂想独奏帽
 				Tooltip:
 					'''
-					'向所有人证明你的天赋已不在任何人之下'
+					“向所有人证明你的天赋已不在任何人之下”
 					增加{0}%音波演奏速度
 					增加{1}%音波暴击率
 					增加{2}%灵感值再生速率
@@ -8263,8 +8263,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会让你获得无限的灵感值，大幅增加音波伤害和演奏速度
-					此效果持续 {0} {^0:秒;seconds} 并需要重新充能 {1} {^1:分钟;minutes}
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会让你获得无限的灵感值，大幅增加音波伤害和演奏速度
+					此效果持续{0}秒并需要重新充能{1}分钟
 					'''
 			}
 
@@ -8272,7 +8272,7 @@ Mods: {
 				DisplayName: 苏萨号
 				Tooltip:
 					'''
-					'振动的破坏平息了憎恶的噪音……'
+					“振动的破坏平息了憎恶的噪音……”
 					释放调谐敌怪的振动光束
 					被调谐的敌怪多受10%伤害
 					'''
@@ -8282,7 +8282,7 @@ Mods: {
 				DisplayName: 大鼓套组
 				Tooltip:
 					'''
-					'任何东西中都能感受到节奏……'
+					“任何东西中都能感受到节奏……”
 					允许你有节奏地敲击一套鼓组
 					成功在计时区域击中会不断增加它的伤害、咒音增幅等级与弹幕数量
 					{$Common.Tooltips.BigInstrument}
@@ -8293,7 +8293,7 @@ Mods: {
 				DisplayName: 苦痛年鉴
 				Tooltip:
 					'''
-					'痛苦喜欢陪伴……'
+					“痛苦喜欢陪伴……”
 					快速释放燃烧的追踪头骨
 					'''
 			}
@@ -8302,7 +8302,7 @@ Mods: {
 				DisplayName: 邪魔之爪
 				Tooltip:
 					'''
-					'盲目的熔岩之怒会摧毁弱者……'
+					“盲目的熔岩之怒会摧毁弱者……”
 					在光标位置释放无限高温的斩切
 					'''
 			}
@@ -8311,7 +8311,7 @@ Mods: {
 				DisplayName: 余烬法杖
 				Tooltip:
 					'''
-					'你的愤怒会不计代价地爆发……'
+					“你的愤怒会不计代价地爆发……”
 					召唤原初烈火的余烬，会向敌怪释放熔岩破坏
 					占据两个仆从栏位
 					'''
@@ -8319,27 +8319,27 @@ Mods: {
 
 			InfernoEssence: {
 				DisplayName: 狱火精华
-				Tooltip: "'原初烈火的碎片'"
+				Tooltip: “原初烈火的碎片”
 			}
 
 			MagmaSeersMask: {
 				DisplayName: 熔岩占卜者面具
 				Tooltip:
 					'''
-					'指挥一支经熔岩强化的军队'
+					“指挥一支经熔岩强化的军队”
 					增加50%召唤伤害
 					最大仆从数量增加6
 					最大哨兵数量增加2
 					增加仆从击退
 					'''
-				SetBonus: 所有仆从伤害会滞留下造成大量伤害的灼烧
+				SetBonus: 所有召唤伤害会滞留下造成大量伤害的灼烧
 			}
 
 			PrometheanStaff: {
 				DisplayName: 万世初火
 				Tooltip:
 					'''
-					'他是如此的愤怒，以至于死后依然还存在……'
+					“他是如此的愤怒，以至于死后依然还存在……”
 					召唤原初烈火力量的回音熔化你的敌人
 					'''
 			}
@@ -8348,7 +8348,7 @@ Mods: {
 				DisplayName: 炎法头巾
 				Tooltip:
 					'''
-					'你的熔岩凝视应该让人害怕'
+					“你的熔岩凝视应该让人害怕”
 					增加20%魔法伤害
 					最大魔力值增加60并大幅增加魔力再生
 					附近每个燃烧的敌怪会增加你0.5%魔法伤害
@@ -8362,7 +8362,7 @@ Mods: {
 				DisplayName: 炎法护胫
 				Tooltip:
 					'''
-					'你克服了熔岩之怒'
+					“你克服了熔岩之怒”
 					增加14%魔法和召唤伤害
 					最大魔力值增加20
 					增加15%移动速度
@@ -8373,7 +8373,7 @@ Mods: {
 				DisplayName: 炎法战袍
 				Tooltip:
 					'''
-					'你克服了熔岩之怒'
+					“你克服了熔岩之怒”
 					增加18%魔法和召唤伤害
 					最大魔力值增加20
 					增加16%魔法暴击率
@@ -8382,14 +8382,14 @@ Mods: {
 
 			SlagMask: {
 				DisplayName: 原初烈火面具
-				Tooltip: "'Wear a visage of Aggression...'"
+				Tooltip: “带着侵略性的面具……”
 			}
 
 			TheOmegaCore: {
 				DisplayName: 欧米伽核心
 				Tooltip:
 					'''
-					'充满了终结现实的噬梦者的力量'
+					“充满了终结现实的噬梦者的力量”
 					无法理解地增加移动速度
 					'''
 			}
@@ -8444,7 +8444,7 @@ Mods: {
 					'''
 					增加10%灵感值再生速率
 					可以存储1000点所造成的音波伤害
-					按下 '{$Keybinds.AccessoryAbility.DisplayName}' 键会增加附近队友15%伤害
+					按下“{$Keybinds.AccessoryAbility.DisplayName}”键会增加附近队友15%伤害
 					每存储100点伤害效果的持续时间增加3秒
 					'''
 			}
@@ -8462,7 +8462,7 @@ Mods: {
 				DisplayName: 注视者之凝
 				Tooltip:
 					'''
-					按下 '{$Keybinds.AccessoryAbility.DisplayName}' 键会让你10秒内必定暴击
+					按下“{$Keybinds.AccessoryAbility.DisplayName}”键会让你10秒内必定暴击
 					之后1分钟你造成的伤害降低10%
 					'''
 			}
@@ -8478,7 +8478,7 @@ Mods: {
 
 			FallenBeholderMask: {
 				DisplayName: 堕落注视者面具
-				Tooltip: "'凝视深渊'"
+				Tooltip: “凝视深渊”
 			}
 
 			FallenBeholderTrophy: {
@@ -8510,7 +8510,7 @@ Mods: {
 				DisplayName: 注视者之镜
 				Tooltip:
 					'''
-					'美毕竟是主观的'
+					“美毕竟是主观的”
 					你可以看到当前光标位置的视野
 					光标周围的敌怪会被短暂显露并多受各种来源15%伤害
 					'''
@@ -8534,7 +8534,7 @@ Mods: {
 				DisplayName: 凝视者战车之书
 				Tooltip:
 					'''
-					'成为虚空的预兆'
+					“成为虚空的预兆”
 					召唤一个可骑乘的注视者
 					'''
 			}
@@ -8580,7 +8580,7 @@ Mods: {
 				DisplayName: 血肉之躯
 				Tooltip:
 					'''
-					'与你的身体共生'
+					“与你的身体共生”
 					增加{0}%伤害
 					生命再生增加{1}点
 					'''
@@ -8615,7 +8615,7 @@ Mods: {
 				DisplayName: 血肉之腿
 				Tooltip:
 					'''
-					'与你的身体共生'
+					“与你的身体共生”
 					增加{0}%移动速度
 					'''
 			}
@@ -8629,12 +8629,12 @@ Mods: {
 				DisplayName: 血肉面具
 				Tooltip:
 					'''
-					'与你的身体共生'
+					“与你的身体共生”
 					增加{0}%暴击率
 					'''
 				SetBonus:
 					'''
-					受伤时伤害敌怪有 {0}%概率掉落肉
+					受伤时伤害敌怪有{0}%概率掉落肉
 					收集肉会恢复生命并获得伤害加成
 					'''
 			}
@@ -8670,7 +8670,7 @@ Mods: {
 
 			UnfathomableFlesh: {
 				DisplayName: 不明肉块
-				Tooltip: "'它扭动着，试图附着到你身上'"
+				Tooltip: “它扭动着，试图附着到你身上”
 			}
 
 			CrystalArrow: {
@@ -8680,7 +8680,7 @@ Mods: {
 
 			CrystalGeode: {
 				DisplayName: 水晶晶簇
-				Tooltip: "'它在黑暗中闪烁...'"
+				Tooltip: “它在黑暗中闪烁……”
 			}
 
 			GeodeChestplate: {
@@ -8690,7 +8690,7 @@ Mods: {
 
 			GeodeGatherer: {
 				DisplayName: 晶体收集者
-				Tooltip: 有 10% 概率钓到晶洞
+				Tooltip: 有10%概率钓到晶洞
 			}
 
 			GeodeGreaves: {
@@ -8716,7 +8716,7 @@ Mods: {
 
 			GraniteChestGuard: {
 				DisplayName: 花岗岩胸甲
-				Tooltip: 防御性能量
+				Tooltip: “防御性能量”
 			}
 
 			GraniteControlRod: {
@@ -8735,12 +8735,12 @@ Mods: {
 
 			GraniteEnergyCore: {
 				DisplayName: 花岗岩能源核心
-				Tooltip: "'这种奇怪的，刻有符文的核心给予了矿物感知'"
+				Tooltip: “这种奇怪的，刻有符文的核心给予了矿物感知”
 			}
 
 			GraniteGreaves: {
 				DisplayName: 花岗岩护胫
-				Tooltip: 防御性能量
+				Tooltip: “防御性能量”
 			}
 
 			GraniteHamaxe: {
@@ -8750,7 +8750,7 @@ Mods: {
 
 			GraniteHelmet: {
 				DisplayName: 花岗岩头盔
-				Tooltip: 防御性能量
+				Tooltip: “防御性能量”
 				SetBonus: 免疫高温和敌怪击退，但你的移动速度大幅降低
 			}
 
@@ -8788,13 +8788,13 @@ Mods: {
 			}
 
 			Revivify: {
-				DisplayName: 复生（原复活古书）
+				DisplayName: 回生术
 				Tooltip:
 					'''
 					允许你复活最近被击杀的玩家
 					在物品栏中时，附近死亡的玩家会留下一道灵魂
-					对灵魂持续使用{0} {^0:秒;seconds}会复活玩家并拥有 {1}%生命值
-					复活后 {2} {^2:秒;seconds}内玩家会被"削弱"
+					对灵魂持续使用{0}秒会复活玩家并拥有{1}%生命值
+					复活后{2}秒内玩家会被“削弱”
 					'''
 			}
 
@@ -8916,7 +8916,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把由饥渴鲜血制成的镰刀
-					造成伤害时会为你附近队友的攻击注入生命偷取特性(等待wiki)
+					直接造成伤害时会让你附近队友的攻击有概率偷取生命
 					'''
 			}
 
@@ -9002,7 +9002,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加目标周围额外队友的生命恢复
-					(猩红生物群系钓鱼获得)
+					（猩红生物群系钓鱼获得）
 					'''
 			}
 
@@ -9017,7 +9017,7 @@ Mods: {
 
 			CelestialCarrier: {
 				DisplayName: 天界圣翼
-				Tooltip: 滑翔时，水平速度增加，按住up时下落速度降低的更多
+				Tooltip: 允许飞行和缓慢下降
 			}
 
 			CelestialCrown: {
@@ -9033,9 +9033,9 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力在你的光标周围召唤一个大型光环
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会消耗{0}魔力在你的光标周围召唤一个大型光环
 					光环接触的队友会获得伤害，伤害减免，防御和生命恢复的提升
-					光环接触的敌怪会受到神圣之怒且受到所有来源的伤害增加 {1}%
+					光环接触的敌怪会受到神圣之怒且受到所有来源的伤害增加{1}%
 					'''
 			}
 
@@ -9048,7 +9048,7 @@ Mods: {
 				DisplayName: 天界碎片
 				Tooltip:
 					'''
-					'和谐的能量围绕着此碎片发光'
+					“和谐的能量围绕着此碎片发光”
 					[c/70DB93:获取方式：四柱掉落]
 					'''
 			}
@@ -9143,7 +9143,7 @@ Mods: {
 				DisplayName: 蜂蜜水晶
 				Tooltip:
 					'''
-					'蜂蜜的奇怪特性不容易被提取'
+					“蜂蜜的奇怪特性不容易被提取”
 					最大生命值增加20
 					增加10%光辉伤害
 					增加5%光辉暴击率
@@ -9182,7 +9182,7 @@ Mods: {
 				DisplayName: 暗元液
 				Tooltip:
 					'''
-					'甜蜜至极'
+					“甜蜜至极”
 					用暗能量增幅一些光辉攻击
 					最大生命值增加20
 					增加15%光辉伤害
@@ -9218,7 +9218,7 @@ Mods: {
 					消耗生命值释放一道暗黑魔法矢
 					击中的敌怪会短暂被暗影能量灼烧
 					消耗生命值的一半会给予到生命值最低的队友
-					(在绯红箱或不详匣/绯红匣中获得)
+					（在绯红箱或不详匣/绯红匣中获得）
 					'''
 			}
 
@@ -9305,7 +9305,7 @@ Mods: {
 					增加2%光辉暴击率
 					最大魔力值增加10
 					'''
-				SetBonus: 腐化你的光辉能量，使它们呈现黑暗形态并造成额外效果
+				SetBonus: 用暗能量增幅你的一些光辉攻击，使它们呈现黑暗形态并造成额外效果
 			}
 
 			EbonLeggings: {
@@ -9350,7 +9350,7 @@ Mods: {
 					增加3%光辉暴击率
 					生命再生速率增加
 					'''
-				SetBonus: 受到伤害会治疗附近队友所受伤害 {0}%的生命值
+				SetBonus: 受到伤害会治疗附近队友所受伤害{0}%的生命值
 			}
 
 			FallenPaladinGreaves: {
@@ -9371,7 +9371,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把由纯粹的黑暗制作的镰刀
-					造成伤害时会为附近队友的攻击注入暗夜能量
+					直接造成伤害时会为附近队友的攻击注入暗影焰
 					'''
 			}
 
@@ -9388,7 +9388,7 @@ Mods: {
 				DisplayName: 追忆十字项链
 				Tooltip:
 					'''
-					'让你想起一位老朋友……'
+					“让你想起一位老朋友……”
 					治疗法术会增加被治疗目标14点防御，持续15秒
 					延长受伤后的无敌帧时间
 					'''
@@ -9481,7 +9481,7 @@ Mods: {
 
 			HolyKnightsAlloy: {
 				DisplayName: 圣骑士合金
-				Tooltip: "'它们静静地走在地牢大厅内'"
+				Tooltip: “它们静静地走在地牢大厅内”
 			}
 
 			HolyStaff: {
@@ -9584,7 +9584,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速向队友和敌怪发射注射器针管
-					(困难模式下机械侠出售)
+					（困难模式下机械侠出售）
 					'''
 			}
 
@@ -9601,7 +9601,7 @@ Mods: {
 				DisplayName: 生死轮转
 				Tooltip:
 					'''
-					'泰拉瑞亚中二者的界限非常薄'
+					“泰拉瑞亚中二者的界限非常薄”
 					释放追踪的治疗和伤害能量
 					'''
 			}
@@ -9670,7 +9670,7 @@ Mods: {
 
 			LifePoweredEnergyCell: {
 				DisplayName: 生命能源晶电池
-				Tooltip: "'没有这些玩意，伟大的机械造物就只是简单的螺母和螺栓……'"
+				Tooltip: “没有这些玩意，伟大的机械造物就只是简单的螺母和螺栓……”
 			}
 
 			LifePulseStaff: {
@@ -9721,7 +9721,7 @@ Mods: {
 				Tooltip:
 					'''
 					削弱击中的敌怪，使它们受到所有光辉攻击的伤害增加10点
-					(暗影箱内获得)
+					（暗影箱内获得）
 					'''
 			}
 
@@ -9730,7 +9730,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一只小天使定期治疗受伤队友
-					仅能同时召唤一个守护者
+					{$Common.Tooltips.ShoulderGuardianLimit}
 					'''
 			}
 
@@ -9739,7 +9739,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一只小恶魔攻击敌怪
-					仅能同时召唤一个守护者
+					{$Common.Tooltips.ShoulderGuardianLimit}
 					'''
 			}
 
@@ -9764,9 +9764,9 @@ Mods: {
 
 			MartyrChalice: {
 				DisplayName: 殉道者圣杯
-				Tooltip: 被治疗的队友会获得 {0} {^0:秒;seconds} 无敌
+				Tooltip: 被治疗的队友会获得{0}秒无敌
 				HealAmount: 牺牲自身生命治疗世界中所有队友[c/5aff5a:{0}]点生命值
-				RespawnTime: 多人模式下如果玩家不在当前存在的 Boss 附近会被施加 Boss 重生时间惩罚
+				RespawnTime: 多人模式下如果玩家不在当前存在的Boss附近会被施加Boss重生时间惩罚
 			}
 
 			MedicalBag: {
@@ -9836,14 +9836,14 @@ Mods: {
 				DisplayName: 死灵法杖
 				Tooltip:
 					'''
-					治疗目标队友7.5%最大生命值的生命
+					治疗目标队友最大生命值的7.5%
 					释放一束追踪队友的死灵能量
 					'''
-				LifeCost: 消耗你最大生命值{0}%的生命
+				LifeCost: 消耗你最大生命值的{0}%
 			}
 
 			NirvanaStatuette: {
-				DisplayName: 涅盘雕像
+				DisplayName: 湼盘雕像
 				Tooltip:
 					'''
 					治疗法术会额外治疗1点生命值
@@ -9864,7 +9864,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					每 {0} {^0:秒;seconds} 你会生成至多 {1} 个神圣十字架
+					每{0}秒你会生成至多{1}个神圣十字架
 					在使用治疗法术时会消耗1个十字架而不是魔力
 					'''
 			}
@@ -9922,7 +9922,7 @@ Mods: {
 
 			PacifistNecklace: {
 				DisplayName: 和平主义者项链
-				Tooltip: 脱战时,治疗法术会额外治疗2点生命值
+				Tooltip: 脱战时，治疗法术会额外治疗2点生命值
 			}
 
 			PaganGrasp: {
@@ -9947,7 +9947,7 @@ Mods: {
 
 			PhoenixStaff: {
 				DisplayName: 菲尼克斯法杖
-				Tooltip: 仅能同时召唤一个守护者
+				Tooltip: "{$Common.Tooltips.ShoulderGuardianLimit}"
 				RespawnTime: 召唤一只神话的菲尼克斯，会减少附近队友[c/5aff5a:{0}%]重生时间
 				RespawnLife: 附近队友重生时会多[c/5aff5a:{0}%]生命值
 			}
@@ -10005,7 +10005,7 @@ Mods: {
 
 			PurifiedShards: {
 				DisplayName: 净化碎片
-				Tooltip: "'净化所有邪恶'"
+				Tooltip: “净化所有邪恶”
 			}
 
 			RasWhisper: {
@@ -10051,7 +10051,7 @@ Mods: {
 				DisplayName: 新生
 				Tooltip:
 					'''
-					'治疗自身微创'
+					“治疗自身微创”
 					使用后大幅削弱你的力量
 					'''
 			}
@@ -10072,7 +10072,7 @@ Mods: {
 					'''
 					挥舞一把肮脏的链锤，首次击中时会释放停留的治疗能量
 					最多可同时存在3道治疗能量
-					(腐化生物群系钓鱼获得)
+					（腐化生物群系钓鱼获得）
 					'''
 			}
 
@@ -10116,7 +10116,7 @@ Mods: {
 					降低7%魔力消耗
 					治疗法术会额外治疗1点生命值
 					'''
-				SetBonus: 治疗法术会额外治疗 {0} 点生命值
+				SetBonus: 治疗法术会额外治疗{0}点生命值
 			}
 
 			SacredLeggings: {
@@ -10186,11 +10186,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一个护盾无人机快速为队友施加护盾
-					仅能同时召唤一个守护者
+					{$Common.Tooltips.ShoulderGuardianLimit}
 					'''
-				ShieldAmountNone: 生命护盾等于你的加成治疗上限 {0}
+				ShieldAmountNone: 生命护盾等于你的加成治疗上限{0}
 				ShieldAmount: 使队友的生命值增加{0}到{1}
-				ShieldAmountMax: 使队友的生命值增加{0}到{1} (Max)
+				ShieldAmountMax: 使队友的生命值增加{0}到{1}（最大）
 			}
 
 			SnackLantern: {
@@ -10316,7 +10316,7 @@ Mods: {
 				DisplayName: 特斯拉除颤器
 				Tooltip:
 					'''
-					'它还活着！'
+					“它还活着！”
 					释放一道稳定心脏的电光束
 					目标队友每失去25%生命值会额外治疗5点生命值
 					'''
@@ -10335,7 +10335,7 @@ Mods: {
 				DisplayName: 巨大针管
 				Tooltip:
 					'''
-					'不推荐神经脆弱的人使用'
+					“不推荐神经脆弱的人使用”
 					用大型治疗针管戳队友
 					'''
 			}
@@ -10369,7 +10369,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把血镰刀
 					释放吸血的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入生命偷取特性
+					直接造成伤害时会为你附近队友的攻击注入生命偷取特性
 					'''
 			}
 
@@ -10379,7 +10379,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把带负面效果的镰刀
 					释放腐化火焰的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入暗夜能量
+					直接造成伤害时会为你附近队友的攻击注入暗夜能量
 					'''
 			}
 
@@ -10419,7 +10419,7 @@ Mods: {
 
 			UnholyShards: {
 				DisplayName: 不洁碎晶
-				Tooltip: "'血月的眼泪'"
+				Tooltip: “血月的眼泪”
 			}
 
 			VerdantOrnament: {
@@ -10437,7 +10437,7 @@ Mods: {
 					'''
 					右键在你的光标处产生一个魔法铁砧
 					在铁砧处挥舞会为队友施加护盾
-					(铁匠出售)
+					（铁匠出售）
 					'''
 			}
 
@@ -10465,8 +10465,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					光辉攻击会生成至多 {0} 颗暗影微粒
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会向光标位置释放所有存储的暗影微粒
+					光辉攻击会生成至多{0}颗暗影微粒
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会向光标位置释放所有存储的暗影微粒
 					'''
 			}
 
@@ -10577,7 +10577,7 @@ Mods: {
 				DisplayName: 暴风雪
 				Tooltip:
 					'''
-					'解放一场冰雨!'
+					“解放一场冰雨！”
 					攻击会给予目标短暂的霜冻减益
 					'''
 			}
@@ -10639,7 +10639,7 @@ Mods: {
 
 			IcyShard: {
 				DisplayName: 冰碎片
-				Tooltip: "'摸起来很冷'"
+				Tooltip: “摸起来很冷”
 			}
 
 			IcyTomahawk: {
@@ -10690,13 +10690,13 @@ Mods: {
 					'''
 					增加10%远程伤害
 					增加5%开火速度
-					20%概率节省弹药
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
 
 			IllumiteChunk: {
 				DisplayName: 荧光石
-				Tooltip: "'击败世纪之花将这种奇怪的矿物释放到了世界中'"
+				Tooltip: “击败世纪之花将这种奇怪的矿物释放到了世界中”
 			}
 
 			IllumiteDrill: {
@@ -10721,7 +10721,7 @@ Mods: {
 
 			IllumiteIngot: {
 				DisplayName: 荧光锭
-				Tooltip: "'发出柔和的粉光并且几乎没有重量……'"
+				Tooltip: “发出柔和的粉光并且几乎没有重量……”
 			}
 
 			IllumiteJackhammer: {
@@ -10748,7 +10748,6 @@ Mods: {
 				DisplayName: 荧光镰刀
 				Tooltip:
 					'''
-					直接击中会获得2层灵魂精华
 					快速在你周围旋转一把发光镰刀
 					被击中的敌怪会被点亮并多受到10%伤害
 					'''
@@ -10784,14 +10783,14 @@ Mods: {
 
 			CursedCloth: {
 				DisplayName: 诅咒布匹
-				Tooltip: "'这片简单的布匹中所含有的暗能量是无法想象的……'"
+				Tooltip: “这片简单的布匹中所含有的暗能量是无法想象的……”
 			}
 
 			LichCarapace: {
 				DisplayName: 巫妖皮甲
 				Tooltip:
 					'''
-					'拥抱死亡……'
+					“拥抱死亡……”
 					增加20%投掷伤害
 					增加30%投掷弹幕速度
 					'''
@@ -10801,7 +10800,7 @@ Mods: {
 				DisplayName: 巫妖头套
 				Tooltip:
 					'''
-					'拥抱死亡……'
+					“拥抱死亡……”
 					增加10%投掷伤害
 					33%概率不消耗投掷物品
 					最大技巧值增加2
@@ -10810,14 +10809,14 @@ Mods: {
 
 			LichMask: {
 				DisplayName: 巫妖面具
-				Tooltip: "'比斗篷稍微可怕一点'"
+				Tooltip: “比斗篷稍微可怕一点”
 			}
 
 			LichTalon: {
 				DisplayName: 巫妖之爪
 				Tooltip:
 					'''
-					'拥抱死亡……'
+					“拥抱死亡……”
 					增加15%投掷伤害
 					增加15%投掷暴击率
 					'''
@@ -10857,9 +10856,9 @@ Mods: {
 				DisplayName: 魂灵手环
 				Tooltip:
 					'''
-					'你的身体已经变得无形……'
+					“你的身体已经变得无形……”
 					激活时，所受伤害不会超过150
-					此效果只能每10秒出现一次
+					此效果只能每10秒激活一次
 					'''
 			}
 
@@ -10867,7 +10866,7 @@ Mods: {
 				DisplayName: 遗失十字架
 				Tooltip:
 					'''
-					'让你想起一位老朋友……'
+					“让你想起一位老朋友……”
 					治疗法术会增加被治疗目标14点防御，持续15秒
 					'''
 			}
@@ -10904,7 +10903,7 @@ Mods: {
 
 			LodeStoneChunk: {
 				DisplayName: 地脉矿
-				Tooltip: "'被你的泰拉世界核心所强迫'"
+				Tooltip: “被你的泰拉世界核心所强迫”
 			}
 
 			LodeStoneClaymore: {
@@ -10943,7 +10942,7 @@ Mods: {
 
 			LodeStoneIngot: {
 				DisplayName: 地脉锭
-				Tooltip: "'不管你怎么努力，这东西已经变得无法打破了！'"
+				Tooltip: “不管你怎么努力，这东西已经变得无法打破了！”
 			}
 
 			LodestoneJavelin: {
@@ -11052,7 +11051,7 @@ Mods: {
 
 			HallowedCharm: {
 				DisplayName: 神圣护符
-				Tooltip: "'它闪烁着令人舒适的力量'"
+				Tooltip: “它闪烁着令人舒适的力量”
 			}
 
 			HallowedStaff: {
@@ -11091,17 +11090,17 @@ Mods: {
 
 			MythrilStaff: {
 				DisplayName: 秘银法杖
-				Tooltip: 射出追踪敌人的弹幕
+				Tooltip: 射出一阵追踪弹幕
 			}
 
 			OrichalcumStaff: {
 				DisplayName: 山铜法杖
-				Tooltip: 射出强力花瓣
+				Tooltip: 射出一群强力花瓣
 			}
 
 			PalladiumStaff: {
 				DisplayName: 钯金法杖
-				Tooltip: 射出分裂成多碎片的能量
+				Tooltip: 射出一道分裂性能量
 			}
 
 			SpectralBlade: {
@@ -11174,8 +11173,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					你消耗魔力的{0}% 会存储为能量，上限 {1}
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗存储的能量回复至多 {2} 魔力和 {3} 生命
+					你消耗魔力的{0}%会存储为能量，上限{1}
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键会消耗存储的能量回复至多{2}魔力和{3}生命
 					'''
 			}
 
@@ -11192,7 +11191,7 @@ Mods: {
 				DisplayName: 外星人研究笔记
 				Tooltip:
 					'''
-					'这件东西上到处都提到了奶牛'
+					“这件东西上到处都提到了奶牛”
 					召唤一个好奇的外星探测器
 					'''
 			}
@@ -11201,7 +11200,7 @@ Mods: {
 				DisplayName: 血肠
 				Tooltip:
 					'''
-					'这就是那只蝙蝠为什么变得这么大的原因吗?'
+					“这就是那只蝙蝠为什么变得这么大的原因吗？”
 					召唤一只懒惰蝙蝠跟随在你周围
 					'''
 			}
@@ -11210,7 +11209,7 @@ Mods: {
 				DisplayName: 废弃的布料
 				Tooltip:
 					'''
-					'这最好是覆盖在布上的灵气……'
+					“这最好是覆盖在布上的灵气……”
 					召唤可以点亮黑暗的灵智布匹
 					'''
 			}
@@ -11219,7 +11218,7 @@ Mods: {
 				DisplayName: 潜水员毛绒玩具
 				Tooltip:
 					'''
-					'我猜就像妈妈喜欢女儿一样……'
+					“我猜就像妈妈喜欢女儿一样……”
 					召唤一只水母公主
 					'''
 			}
@@ -11228,7 +11227,7 @@ Mods: {
 				DisplayName: 末日预言者的便士
 				Tooltip:
 					'''
-					'预言你的牛奶将遭遇一场大灾难'
+					“预言你的牛奶将遭遇一场大灾难”
 					召唤三只始生灾灵意志
 					'''
 			}
@@ -11237,7 +11236,7 @@ Mods: {
 				DisplayName: 盈能四立方
 				Tooltip:
 					'''
-					'老旧方块的核芯'
+					“老旧方块的核芯”
 					召唤一场几何式花岗岩风暴
 					'''
 			}
@@ -11246,7 +11245,7 @@ Mods: {
 				DisplayName: 霜冻气球
 				Tooltip:
 					'''
-					'移除它喷吐致命冰块的能力并且它们真的很可爱！'
+					“移除它喷吐致命冰块的能力并且它们真的很可爱！”
 					召唤一个绑在线上的霜冻气球
 					'''
 			}
@@ -11255,8 +11254,8 @@ Mods: {
 				DisplayName: 玻璃碎块
 				Tooltip:
 					'''
-					'那个幻术师以搞恶作剧而闻名'
-					召唤一块调皮的镜子跟随在你周围
+					“那个幻术师以搞恶作剧而闻名”
+					召唤一面调皮的镜子跟随在你周围
 					'''
 			}
 
@@ -11264,7 +11263,7 @@ Mods: {
 				DisplayName: 腐烂肉块
 				Tooltip:
 					'''
-					'它们不是白叫它绝命花的'
+					“它们不是白叫它绝命花的”
 					召唤一只简单的飞虫
 					'''
 			}
@@ -11273,7 +11272,7 @@ Mods: {
 				DisplayName: 风暴云
 				Tooltip:
 					'''
-					'不包含大型雷电'
+					“不包含大型雷电”
 					召唤一朵宠物云跟随在你周围
 					'''
 			}
@@ -11282,7 +11281,7 @@ Mods: {
 				DisplayName: 可疑的润肤膏瓶
 				Tooltip:
 					'''
-					'使你的手又好又裂'
+					“使你的手又好又裂”
 					召唤一只腐烂的手跟你一起闲逛
 					'''
 			}
@@ -11291,7 +11290,7 @@ Mods: {
 				DisplayName: 命运之剑
 				Tooltip:
 					'''
-					'权力越大，危险就越大'
+					“权力越大，危险就越大”
 					召唤一把悬浮在你头顶的剑
 					'''
 			}
@@ -11300,7 +11299,7 @@ Mods: {
 				DisplayName: 触手球
 				Tooltip:
 					'''
-					'这家伙是个善于学习的触手'
+					“这家伙是个善于学习的触手”
 					召唤一个好奇的虚空物质帮你寻找物品
 					'''
 			}
@@ -11309,7 +11308,7 @@ Mods: {
 				DisplayName: 低语之壳
 				Tooltip:
 					'''
-					'那是海的声音还是其他的……?'
+					“那是海的声音还是其他的……？”
 					不会召唤一个生物跟随在你周围
 					'''
 			}
@@ -11335,8 +11334,8 @@ Mods: {
 				DisplayName: 水蛭剑鞘
 				Tooltip:
 					'''
-					手持且不使用3秒后用剑攻击会暴击造成1000%伤害
-					此攻击会额外恢复你失去生命值的10%
+					{$Common.Tooltips.Sheath}
+					此攻击会额外恢复你失去生命值的{2}%
 					'''
 			}
 
@@ -11367,12 +11366,12 @@ Mods: {
 
 			TitanSlayerSheath: {
 				DisplayName: 泰坦杀手剑鞘
-				Tooltip: 如果手持且不使用{1}{^1:秒;seconds}后剑击会对Boss暴击并造成{0}%伤害
+				Tooltip: 如果手持且不使用{1}秒后剑击会对Boss暴击并造成{0}%伤害
 			}
 
 			WrithingSheath: {
 				DisplayName: 扭曲剑鞘
-				Tooltip: 如果手持且不使用{0}{^0:秒;seconds}后剑击会召唤一群虚空剑刃
+				Tooltip: 如果手持且不使用{0}秒后剑击会召唤一群虚空剑刃
 			}
 
 			SeethingCharge: {
@@ -11440,17 +11439,17 @@ Mods: {
 
 			KeyofFungus: {
 				DisplayName: 真菌钥匙
-				Tooltip: "'充满许多孢子的精华'"
+				Tooltip: “充满许多孢子的精华”
 			}
 
 			KeyofPlight: {
 				DisplayName: 困境钥匙
-				Tooltip: "'充满许多灵魂的精华'"
+				Tooltip: “充满许多灵魂的精华”
 			}
 
 			KeyofTides: {
 				DisplayName: 波涛钥匙
-				Tooltip: "'充满许多洋流的精华'"
+				Tooltip: “充满许多洋流的精华”
 			}
 
 			MyceliumWhip: {
@@ -11509,7 +11508,7 @@ Mods: {
 
 			StrangePlating: {
 				DisplayName: 奇异电镀
-				Tooltip: "'似乎是从伟大机械造物中的一个身上掉下来的'"
+				Tooltip: “似乎是从伟大机械造物中的一个身上掉下来的”
 			}
 
 			TheJuggernaut: {
@@ -11634,7 +11633,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					不断移动会生成至多 {0} 个静态环，每个都会为你添加生命护盾
+					不断移动会生成至多{0}个静态环，每个都会为你添加生命护盾
 					满充能时，一个能量泡泡会保护你免受一次攻击
 					'''
 			}
@@ -11681,7 +11680,7 @@ Mods: {
 
 			FamilyHeirloom: {
 				DisplayName: 家传项链
-				Tooltip: "'这件珠宝已经在你的家族传下来好几代了'"
+				Tooltip: “这件珠宝已经在你的家族传下来好几代了”
 			}
 
 			FishEgg: {
@@ -11705,22 +11704,22 @@ Mods: {
 			}
 
 			GuidetoOvercomingGrief: {
-				DisplayName: 克服悲伤指南（启用状态）
+				DisplayName: 克服悲伤指南
 				Tooltip:
 					'''
 					防止队友影响你的移动或位置
 					右键点击停用效果
-					(迷途僵尸处购买)
+					（迷途僵尸处购买）
 					'''
 			}
 
 			GuidetoOvercomingGriefInactive: {
-				DisplayName: 克服悲伤指南（停用状态）
+				DisplayName: 克服悲伤指南（停用）
 				Tooltip:
 					'''
 					防止队友影响你的移动或位置
 					效果目前处于停用状态，右键点击重新激活
-					(迷途僵尸处购买)
+					（迷途僵尸处购买）
 					'''
 			}
 
@@ -11734,7 +11733,7 @@ Mods: {
 				SetBonus:
 					'''
 					击中敌怪后进入免疫状态
-					增加 {0} {^0:秒;seconds}音波咒音增幅的持续时间
+					增加{0}秒音波咒音增幅的持续时间
 					'''
 			}
 
@@ -11749,7 +11748,7 @@ Mods: {
 				SetBonus:
 					'''
 					击中敌怪后进入免疫状态
-					治疗法术会额外治疗 {0} 点生命值
+					治疗法术会额外治疗{0}点生命值
 					'''
 			}
 
@@ -11766,7 +11765,7 @@ Mods: {
 				DisplayName: 巫咒护符
 				Tooltip:
 					'''
-					'从内向外吞噬你的敌怪'
+					“从内向外吞噬你的敌怪”
 					你击中的敌怪受到随时间的减益的伤害增加50%
 					'''
 			}
@@ -11776,7 +11775,7 @@ Mods: {
 				Tooltip:
 					'''
 					允许你看到咬钩的东西
-					(在奇特匣或奇妙匣内获得)
+					（在奇特匣或奇妙匣内获得）
 					'''
 			}
 
@@ -11797,12 +11796,12 @@ Mods: {
 
 			LifeQuartz: {
 				DisplayName: 生命石英
-				Tooltip: "'它会随你的心跳一起脉动...'"
+				Tooltip: “它会随你的心跳一起脉动……”
 			}
 
 			LilGuppy: {
 				DisplayName: 小虹鳉
-				Tooltip: "'在海洋生物群系捕捉'"
+				Tooltip: “在海洋生物群系捕捉”
 				QuestDescription: 在海上呆这么长时间是相当孤独的。不过我交了个朋友，它是一条小鱼，我叫它小虹鳉！不过他总是设法从鱼缸里逃出去！我想他，我想要他，快去找我的朋友！
 				QuestCatchLocation: 在海洋生物群系捕捉
 			}
@@ -11812,7 +11811,7 @@ Mods: {
 				Tooltip:
 					'''
 					从远处拾取物品并晕眩敌怪
-					(在绯红箱或不详匣/绯红匣中获得)
+					（在绯红箱或不详匣/绯红匣中获得）
 					'''
 			}
 
@@ -11849,9 +11848,9 @@ Mods: {
 				DisplayName: 熔岩锁盒
 				Tooltip:
 					'''
-					'似乎是用一种熟悉的材料制作的'
+					“似乎是用一种熟悉的材料制作的”
 					你击中的敌怪受到的随时间的火焰减益的伤害增加50%
-					(在绯红箱或不详匣/绯红匣中获得)
+					（在绯红箱或不详匣/绯红匣中获得）
 					'''
 			}
 
@@ -11911,7 +11910,7 @@ Mods: {
 
 			PharaohsBreath: {
 				DisplayName: 法老之息
-				Tooltip: "'一瓶远古的沙漠魔法'"
+				Tooltip: “一瓶远古的沙漠魔法”
 			}
 
 			PixelDye: {
@@ -11967,7 +11966,7 @@ Mods: {
 				DisplayName: 希望之种
 				Tooltip:
 					'''
-					'除非……'
+					“除非……”
 					种植橡实会增加你的移动速度和生命恢复
 					'''
 			}
@@ -11999,24 +11998,24 @@ Mods: {
 
 			SolarPebble: {
 				DisplayName: 太阳石砾
-				Tooltip: "'丛林蜥蜴们带着这些是对太阳的崇敬'"
+				Tooltip: “丛林蜥蜴们带着这些是对太阳的崇敬”
 			}
 
 			SoulofPlight: {
 				DisplayName: 困境之魂
-				Tooltip: "'可恶生物的精华'"
+				Tooltip: “可恶生物的精华”
 			}
 
 			SpiritDroplet: {
 				DisplayName: 末灵
-				Tooltip: "'带不死能量的小珠子'"
+				Tooltip: “带不死能量的小珠子”
 			}
 
 			SpiritsGrace: {
 				DisplayName: 魂灵恩典
 				Tooltip:
 					'''
-					'别让它把你击垮……'
+					“别让它把你击垮……”
 					你的重生速度加快33%并获得多15%的生命值
 					你重生时也会增加无敌时间和移动速度
 					'''
@@ -12027,7 +12026,7 @@ Mods: {
 				Tooltip:
 					'''
 					将你送向钩爪的反方向
-					(在绯红箱或不详/绯红匣内获得)
+					（在绯红箱或不详/绯红匣内获得）
 					'''
 			}
 
@@ -12037,7 +12036,7 @@ Mods: {
 					'''
 					允许你进行一次三段超级跳跃
 					增加摔落抗性并允许你自动跳跃
-					(在绯红箱或不详/绯红匣内获得)
+					（在绯红箱或不详/绯红匣内获得）
 					'''
 			}
 
@@ -12080,8 +12079,8 @@ Mods: {
 				DisplayName: 世界引擎
 				Tooltip:
 					'''
-					你无法在旅行模式使用它，请使用旅行模式的难度滑块
-					(铁匠出售)
+					允许你消耗坠落之星改变世界难度
+					（铁匠出售）
 					'''
 			}
 
@@ -12094,7 +12093,7 @@ Mods: {
 				DisplayName: 远古奶酪
 				Tooltip:
 					'''
-					'我们都从某个地方开始'
+					“我们都从某个地方开始”
 					召唤一只宠物大鼠跟随在你周围
 					'''
 			}
@@ -12131,7 +12130,7 @@ Mods: {
 				DisplayName: 链球
 				Tooltip:
 					'''
-					'它很重'
+					“它很重”
 					受到的伤害降低10%
 					移动速度和跳跃高度略微降低
 					免疫蹒跚者的链球
@@ -12140,12 +12139,12 @@ Mods: {
 
 			BentZombieArm: {
 				DisplayName: 僵尸曲臂
-				Tooltip: "'迷途僵尸最喜欢的手臂……他的左手'"
+				Tooltip: “迷途僵尸最喜欢的手臂……他的左手”
 			}
 
 			BlacksmithApron: {
 				DisplayName: 铁匠围裙
-				Tooltip: "'锻造之力增加15%！……不是真的'"
+				Tooltip: “锻造之力增加15%！……不是真的”
 			}
 
 			BlisterSack: {
@@ -12172,30 +12171,30 @@ Mods: {
 				DisplayName: 仙人掌果
 				Tooltip:
 					'''
-					'尽管有刺，但它看起来有点美味……'
+					“尽管有刺，但它看起来有点美味……”
 					消耗后免疫状态效果减益
-					(荒漠侍僧购买）
+					（荒漠侍僧购买）
 					'''
 			}
 
 			Chum: {
 				DisplayName: 鱼饵
-				Tooltip: "'这个鱼饵肯定会吸引一些饥饿的海洋生物'"
+				Tooltip: “这个鱼饵肯定会吸引一些饥饿的海洋生物”
 			}
 
 			CloudyChewToy: {
 				DisplayName: 玩具小云
-				Tooltip: 召唤一只幼年的……飞龙?
+				Tooltip: 召唤一只幼年的……飞龙？
 			}
 
 			CooksApron: {
 				DisplayName: 厨师围裙
-				Tooltip: "'食神对你没什么影响'"
+				Tooltip: “食神对你没什么影响”
 			}
 
 			CooksHat: {
 				DisplayName: 厨师帽
-				Tooltip: "'食神对你没什么影响'"
+				Tooltip: “食神对你没什么影响”
 			}
 
 			CrackedBattleHorn: {
@@ -12205,14 +12204,14 @@ Mods: {
 
 			CrawdadClaw: {
 				DisplayName: 龙虾爪
-				Tooltip: 战斗中你的伤害会随时间增加1点，至多2点
+				Tooltip: 战斗中你的盔甲穿透会随时间增加1点，至多2点
 			}
 
 			DeathGazersGlass: {
 				DisplayName: 死亡凝视之镜
 				Tooltip:
 					'''
-					'那些经常在死后凝视的人很快就会变疯……'
+					“那些经常在死后凝视的人很快就会变疯……”
 					将你传送到最后死亡的位置
 					'''
 			}
@@ -12305,7 +12304,7 @@ Mods: {
 				DisplayName: 放逐者头盔
 				Tooltip:
 					'''
-					'当他们背弃泰拉瑞亚时，他背弃了他们……'
+					“当他们背弃泰拉瑞亚时，他背弃了他们……”
 					降低8%所受伤害
 					增加12%伤害
 					增加6%暴击率
@@ -12450,7 +12449,7 @@ Mods: {
 				DisplayName: 怪物护符
 				Tooltip:
 					'''
-					'让我们变得危险……'
+					“让我们变得危险……”
 					战斗中你的盔甲穿透，防御和生命再生会随时间增加
 					'''
 			}
@@ -12459,7 +12458,7 @@ Mods: {
 				DisplayName: 死灵法师之心
 				Tooltip:
 					'''
-					'一种黑暗的液体在心中流淌'
+					“一种黑暗的液体在心中流淌”
 					最大哨兵数量增加1
 					生命再生速率降低20%
 					'''
@@ -12470,7 +12469,7 @@ Mods: {
 				Tooltip:
 					'''
 					你击中的敌怪所受到的中毒和酸性毒液减益的持续伤害增加50%
-					(克苏鲁之眼后，荒漠侍僧出售）
+					（克苏鲁之眼后，荒漠侍僧出售）
 					'''
 			}
 
@@ -12483,8 +12482,8 @@ Mods: {
 				DisplayName: 强效提取物
 				Tooltip:
 					'''
-					'别吸毒，孩子们
-					(荒漠侍僧购买）
+					“别吸毒，孩子们”
+					（荒漠侍僧购买）
 					'''
 			}
 
@@ -12514,7 +12513,7 @@ Mods: {
 			}
 
 			SalamanderEye: {
-				DisplayName: 火蜥蜴之眼
+				DisplayName: 蝾螈之眼
 				Tooltip: 战斗5秒后，你的生命恢复增加1点
 			}
 
@@ -12530,7 +12529,7 @@ Mods: {
 
 			SeveredHand: {
 				DisplayName: 鬼手
-				Tooltip: "'你必须要会随机应变'"
+				Tooltip: “你必须要会随机应变”
 			}
 
 			SmotheringBand: {
@@ -12580,7 +12579,7 @@ Mods: {
 				DisplayName: 土豆雷
 				Tooltip:
 					'''
-					'我想厨师是个不错的手艺人'
+					“我想厨师是个不错的手艺人”
 					使用土豆作为弹药
 					'''
 			}
@@ -12589,7 +12588,7 @@ Mods: {
 				DisplayName: 蒸汽连枷
 				Tooltip:
 					'''
-					'当你将风扇的速度设定为最大时要小心！'
+					“当你将风扇的速度设定为最大时要小心！”
 					当在地面上时，它会吸引附近的敌怪并切碎它们
 					'''
 			}
@@ -12598,8 +12597,8 @@ Mods: {
 				DisplayName: 奇怪的外星人科技
 				Tooltip:
 					'''
-					'你几乎不了解这个复杂的机器'
-					(陨石地形掉落自U.F.O.或火星哨兵)
+					“你几乎不了解这个复杂的机器”
+					（陨石地形掉落自U.F.O.或火星哨兵）
 					'''
 			}
 
@@ -12612,14 +12611,14 @@ Mods: {
 				DisplayName: 水雷
 				Tooltip:
 					'''
-					'你一定是个疯子才会手持绑有爆炸装置的链条'
+					“你一定是个疯子才会手持绑有爆炸装置的链条”
 					被旋转时，每4次击中会释放一次火焰爆炸
 					'''
 			}
 
 			ThoriumCube: {
 				DisplayName: 瑟银方块
-				Tooltip: "'把这个矿物放到你的脸上，然后故作镇定……'"
+				Tooltip: “把这个矿物放到你的脸上，然后故作镇定……”
 			}
 
 			TommyGun: {
@@ -12643,7 +12642,7 @@ Mods: {
 
 			VoidHeart: {
 				DisplayName: 虚空之心
-				Tooltip: "'这个奇怪的物体似乎起源于堕落注视者的家园维度'"
+				Tooltip: “这个奇怪的物体似乎起源于堕落注视者的家园维度”
 			}
 
 			WhirlpoolSaber: {
@@ -12653,233 +12652,233 @@ Mods: {
 
 			AdorationoftheGoldBunnyPaint: {
 				DisplayName: 金兔的崇拜
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			AquaticParadisePaint: {
 				DisplayName: 水上乐园
-				Tooltip: "'C. Sonds'"
+				Tooltip: “C. Sonds”
 			}
 
 			AToastPaint: {
 				DisplayName: 吐司面包
-				Tooltip: "'M. S. Kim'"
+				Tooltip: “M. S. Kim”
 			}
 
 			BackwardsPaint: {
 				DisplayName: 背后
-				Tooltip: "'D. Craig'"
+				Tooltip: “D. Craig”
 			}
 
 			BlankPainting: {
 				DisplayName: 空白画作
-				Tooltip: "'你可以画任何东西！'"
+				Tooltip: “你可以画任何东西！”
 			}
 
 			ChorusofAndrewPaint: {
 				DisplayName: Andrew合唱团
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			ChorusofEvviePaint: {
 				DisplayName: Evvie合唱团
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			CuriousSeaLifePaint: {
 				DisplayName: 奇妙的海洋生物
-				Tooltip: "'N. Blu'"
+				Tooltip: “N. Blu”
 			}
 
 			CursedHarvestPaint: {
 				DisplayName: 收获的诅咒
-				Tooltip: "'S. Day'"
+				Tooltip: “S. Day”
 			}
 
 			EarthenEnergyPaint: {
 				DisplayName: 大地的能量
-				Tooltip: "'B. Mitts'"
+				Tooltip: “B. Mitts”
 			}
 
 			EmpireofNightPaint: {
 				DisplayName: 夜之帝国
-				Tooltip: "'M. B. Nana'"
+				Tooltip: “M. B. Nana”
 			}
 
 			EntirelyHerePaint: {
 				DisplayName: 完全在这里
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			FinalMomentsPaint: {
 				DisplayName: 最后时刻
 				Tooltip:
 					'''
-					'D. Man'
-					'这幅画是为了纪念那些因保护世界免受瑟
+					“D. Man”
+					“这幅画是为了纪念那些因保护世界免受瑟
 					银威胁而献出生命的泰拉人
-					以免我们忘记……'
+					以免我们忘记……”
 					'''
 			}
 
 			FirstContactPaint: {
 				DisplayName: 首次接触
-				Tooltip: "'C. Sonds'"
+				Tooltip: “C. Sonds”
 			}
 
 			FlightHat64Paint: {
 				DisplayName: 飞羽帽64
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			GreatForImpersonatingDevsPaint: {
 				DisplayName: 非常适合模仿开发者！
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			InconspicuousTunnelPaint: {
 				DisplayName: 不起眼的隧道
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			JellyintheWaterPaint: {
-				DisplayName: 水母（画作）
-				Tooltip: "'G. Son'"
+				DisplayName: 水母
+				Tooltip: “G. Son”
 			}
 
 			JollyRogerPaint: {
-				DisplayName: 海盗（画作）
-				Tooltip: "'B. Mitts'"
+				DisplayName: 海盗
+				Tooltip: “B. Mitts”
 			}
 
 			KnightsofHallowPaint: {
 				DisplayName: 神圣骑士
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			LastSupperPaint: {
 				DisplayName: 最后的晚餐
-				Tooltip: "'L. Vinc'"
+				Tooltip: “L. Vinc”
 			}
 
 			LivingIslandPaint: {
 				DisplayName: 生命岛
-				Tooltip: "'S. Cratch'"
+				Tooltip: “S. Cratch”
 			}
 
 			LoudFootstepsPaint: {
 				DisplayName: 大踏步
-				Tooltip: "'M. Earl'"
+				Tooltip: “M. Earl”
 			}
 
 			MoonSlayerPaint: {
 				DisplayName: 戮月者
-				Tooltip: "'T. Flat'"
+				Tooltip: “T. Flat”
 			}
 
 			PaintedPiratePaint: {
 				DisplayName: 彩绘海盗
-				Tooltip: "'H. Carter'"
+				Tooltip: “H. Carter”
 			}
 
 			PumpkinPaint: {
 				DisplayName: 巫妖研究学
-				Tooltip: "'G. Anna'"
+				Tooltip: “G. Anna”
 			}
 
 			RedMistPaint: {
 				DisplayName: 深红迷雾
-				Tooltip: "'B. Mitts'"
+				Tooltip: “B. Mitts”
 			}
 
 			RitualPaint: {
 				DisplayName: 仪式
-				Tooltip: "'H. Carter'"
+				Tooltip: “H. Carter”
 			}
 
 			ShroudedbytheStormPaint: {
 				DisplayName: 风暴降临
-				Tooltip: "'B. Mitts'"
+				Tooltip: “B. Mitts”
 			}
 
 			SpectralSymphonyPaint: {
 				DisplayName: 谱写交响乐
-				Tooltip: "'M. B. Nana'"
+				Tooltip: “M. B. Nana”
 			}
 
 			StudyofMetallurgyPaint: {
 				DisplayName: 冶金学研究
-				Tooltip: "'S. B. Bee'"
+				Tooltip: “S. B. Bee”
 			}
 
 			TeatimePaint: {
 				DisplayName: 茶点
-				Tooltip: "'D. Craig'"
+				Tooltip: “D. Craig”
 			}
 
 			TerrarianThePrincessAndTheSpiritualistPaint: {
 				DisplayName: 泰拉人，公主和牧师
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			TheFoggyFiferPaint: {
 				DisplayName: 雾气缭绕
-				Tooltip: "'B. Mitts'"
+				Tooltip: “B. Mitts”
 			}
 
 			TheOneWhoCooksPaint: {
 				DisplayName: 做饭的那个人
-				Tooltip: "'T. Flat'"
+				Tooltip: “T. Flat”
 			}
 
 			ThinkingAboutBallsPaint: {
 				DisplayName: 魔法球冥想
-				Tooltip: "'N. Blu'"
+				Tooltip: “N. Blu”
 			}
 
 			ThunderbirdPaint: {
 				DisplayName: 雷鸟
-				Tooltip: "'S. Dew'"
+				Tooltip: “S. Dew”
 			}
 
 			ThunderOverDesertSkiesPaint: {
 				DisplayName: 沙漠天空中的雷声
-				Tooltip: "'C. Sonds'"
+				Tooltip: “C. Sonds”
 			}
 
 			TitanicTrioPaint: {
 				DisplayName: 末日乐章
-				Tooltip: "'S. Day'"
+				Tooltip: “S. Day”
 			}
 
 			TrackerandHermitsPaint: {
 				DisplayName: 赏金猎人和隐士
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			UnderseaBountyPaint: {
 				DisplayName: 深海宝藏
-				Tooltip: "'N. Ominous'"
+				Tooltip: “N. Ominous”
 			}
 
 			UnspokenPain: {
 				DisplayName: 无言苦痛
-				Tooltip: "'B. Mitts'"
+				Tooltip: “B. Mitts”
 			}
 
 			WarmVisitPaint: {
 				DisplayName: 温暖的访问
-				Tooltip: "'D. Moore'"
+				Tooltip: “D. Moore”
 			}
 
 			WebbedOverPaint: {
 				DisplayName: 织网
-				Tooltip: "'S. Dew'"
+				Tooltip: “S. Dew”
 			}
 
 			WonderAcornPaint: {
 				DisplayName: 神奇橡实
-				Tooltip: "'H. Sixfore'"
+				Tooltip: “H. Sixfore”
 			}
 
 			AmberMarineBlock: {
@@ -12934,7 +12933,7 @@ Mods: {
 
 			ArenaMastersBrazier: {
 				DisplayName: 竞技场大师的火盆
-				Tooltip: "'让你觉得自己可以挑战世界'"
+				Tooltip: “让你觉得自己可以挑战世界”
 			}
 
 			BloodstainedBathtub: {
@@ -13184,12 +13183,12 @@ Mods: {
 
 			CheckeredBrick: {
 				DisplayName: 方格砖
-				Tooltip: "'有人来下象棋吗？'"
+				Tooltip: “有人来下象棋吗？”
 			}
 
 			CheckeredBrickWall: {
 				DisplayName: 方格砖墙
-				Tooltip: "'有人来下象棋吗？'"
+				Tooltip: “有人来下象棋吗？”
 			}
 
 			CherryAstroturf: {
@@ -13474,7 +13473,6 @@ Mods: {
 
 			EvergreenCup: {
 				DisplayName: 常青木杯
-
 				Tooltip: ""
 			}
 
@@ -13832,22 +13830,22 @@ Mods: {
 				DisplayName: 渗漏海洋块
 				Tooltip:
 					'''
-					'不断渗漏…'
-					仅在下方有其他 {0} 块海洋块时才会漏水
+					“不断渗漏……”
+					仅在下方{0}格内有其他深海物块时才会渗水
 					'''
 			}
 
 			LeakyMarineWall: {
 				DisplayName: 渗漏海洋墙
-				Tooltip: "'不断渗漏…'"
+				Tooltip: “不断渗漏……”
 			}
 
 			LeakyMossyMarineBlock: {
 				DisplayName: 渗漏多苔海洋块
 				Tooltip:
 					'''
-					'不断渗漏….'
-					仅在下方有其他 {0} 块海洋块时才会漏水
+					“不断渗漏……”
+					仅在下方{0}格内有其他深海物块时才会渗水
 					'''
 			}
 
@@ -14211,7 +14209,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			MiniBossMusicBox.MiniBoss: 迷你boss
+			MiniBossMusicBox.MiniBoss: 迷你Boss
 
 			MinotaurStatue: {
 				DisplayName: 米诺陶雕像
@@ -14220,7 +14218,7 @@ Mods: {
 
 			Mistletoe: {
 				DisplayName: 槲叶挂饰
-				Tooltip: "'最好和那个特别的人分享……或者一只怪物'"
+				Tooltip: “最好和那个特别的人分享……或者一只怪物”
 			}
 
 			MossyGoldOre: {
@@ -15220,7 +15218,7 @@ Mods: {
 
 			SpookyAstroturf: {
 				DisplayName: 人造阴森草皮
-				Tooltip: 可种植秋天杂草和阴森树
+				Tooltip: 可种植秋季杂草和阴森树
 			}
 
 			StaffofMycelium: {
@@ -15233,7 +15231,7 @@ Mods: {
 				Tooltip:
 					'''
 					在泥块上产生丛林草
-					(困难模式德鲁伊出售）
+					（困难模式德鲁伊出售）
 					'''
 			}
 
@@ -15386,7 +15384,7 @@ Mods: {
 
 			TrueArenaMastersBrazier: {
 				DisplayName: 真·竞技场大师的火盆
-				Tooltip: "'让你觉得自己可以挑战宇宙'"
+				Tooltip: “让你觉得自己可以挑战宇宙”
 			}
 
 			ValadiumBathtub: {
@@ -15765,7 +15763,7 @@ Mods: {
 
 			QueenJellyfishMask: {
 				DisplayName: 水母皇后面具
-				Tooltip: "'Those jellyfish won't suspect a thing...'"
+				Tooltip: “那些水母不会怀疑的……”
 			}
 
 			QueenJellyfishTrophy: {
@@ -15782,7 +15780,7 @@ Mods: {
 				DisplayName: 海风垂饰
 				Tooltip:
 					'''
-					'此垂饰的穿戴者不应害怕深渊……'
+					“此垂饰的穿戴者不应害怕深渊……”
 					你的呼吸时间延长50%并获得游泳能力
 					潮湿时增加10%伤害
 					'''
@@ -15837,7 +15835,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射后会攻击附近目标
-					(暗影箱内获得）
+					（暗影箱内获得）
 					'''
 			}
 
@@ -15862,7 +15860,7 @@ Mods: {
 
 			MyceliumGattlingGun: {
 				DisplayName: 真菌加特林
-				Tooltip: 20%概率节省弹药
+				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
 			}
 
 			MythrilPelter: {
@@ -15931,16 +15929,16 @@ Mods: {
 
 			Trapper: {
 				DisplayName: 飞索捕猎者
-				Tooltip: "'让他们尝尝自己的药'"
+				Tooltip: “让他们尝尝自己的药”
 			}
 
 			Trigun: {
 				DisplayName: 枪神
 				Tooltip:
 					'''
-					'释放史坦毕特'
+					“释放史坦毕特”
 					一次发射三发子弹
-					20%概率节省弹药
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
 
@@ -15949,7 +15947,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射一颗粘性的湿蛛网
-					(蛛丝箱内获得)
+					（蛛丝箱内获得）
 					'''
 			}
 
@@ -15992,7 +15990,7 @@ Mods: {
 				DisplayName: 砂石护胫
 				Tooltip:
 					'''
-					'被沙漠的狂风笼罩'
+					“被沙漠的狂风笼罩”
 					增加3%移动速度
 					增加5%投掷伤害
 					'''
@@ -16002,7 +16000,7 @@ Mods: {
 				DisplayName: 砂石头盔
 				Tooltip:
 					'''
-					'被沙漠的狂风笼罩'
+					“被沙漠的狂风笼罩”
 					增加2%移动速度
 					增加5%投掷伤害
 					'''
@@ -16010,14 +16008,14 @@ Mods: {
 
 			SandstoneIngot: {
 				DisplayName: 砂石锭
-				Tooltip: "'没有任何水分且很温暖'"
+				Tooltip: “没有任何水分且很温暖”
 			}
 
 			SandStoneMail: {
 				DisplayName: 砂石胸甲
 				Tooltip:
 					'''
-					'被沙漠的狂风笼罩'
+					“被沙漠的狂风笼罩”
 					增加5%移动速度
 					增加5%投掷伤害
 					'''
@@ -16067,7 +16065,7 @@ Mods: {
 				DisplayName: 星空召唤器
 				Tooltip:
 					'''
-					'接触未知事物前应该采取适当的预防措施……'
+					“接触未知事物前应该采取适当的预防措施……”
 					向外太空发送信号
 					只能在高空使用
 					'''
@@ -16080,7 +16078,7 @@ Mods: {
 
 			StarScouterMask: {
 				DisplayName: 星际监察者面具
-				Tooltip: "'Who's up for some star gazing?'"
+				Tooltip: “谁想去看星星？”
 			}
 
 			StarScouterTrophy: {
@@ -16098,7 +16096,7 @@ Mods: {
 				Tooltip:
 					'''
 					降低你受击时获得的击退
-					(铁匠出售)
+					（铁匠出售）
 					'''
 			}
 
@@ -16109,33 +16107,33 @@ Mods: {
 
 			DurasteelBlade: {
 				DisplayName: 耐钢剑
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			DurasteelChainsaw: {
 				DisplayName: 耐钢链锯
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			DurasteelChestplate: {
 				DisplayName: 耐钢胸甲
 				Tooltip:
 					'''
-					'由铁匠专业锻造'
+					“由铁匠精湛锻造”
 					增加8%伤害
 					'''
 			}
 
 			DurasteelDrill: {
 				DisplayName: 耐钢钻
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			DurasteelGreaves: {
 				DisplayName: 耐钢护胫
 				Tooltip:
 					'''
-					'由铁匠专业锻造'
+					“由铁匠精湛锻造”
 					增加8%移动速度
 					'''
 			}
@@ -16144,25 +16142,25 @@ Mods: {
 				DisplayName: 耐钢头盔
 				Tooltip:
 					'''
-					'由铁匠专业锻造'
+					“由铁匠精湛锻造”
 					增加5%暴击率
 					'''
-				SetBonus: 受到的伤害降低 {0}%
+				SetBonus: 受到的伤害降低{0}%
 			}
 
 			DurasteelJackhammer: {
 				DisplayName: 耐钢钻锤
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			DurasteelRepeater: {
 				DisplayName: 耐钢连弩
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			DurasteelThrowingSpear: {
 				DisplayName: 耐钢投矛
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠精湛锻造”
 			}
 
 			SteelArrow: {
@@ -16172,50 +16170,50 @@ Mods: {
 
 			SteelAxe: {
 				DisplayName: 钢斧
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelBlade: {
 				DisplayName: 钢剑
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelBow: {
 				DisplayName: 钢弓
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelChestplate: {
 				DisplayName: 钢胸甲
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelGreaves: {
 				DisplayName: 钢护胫
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelHammer: {
 				DisplayName: 钢锤
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelHelmet: {
 				DisplayName: 钢盔
-				Tooltip: "'由铁匠专业锻造'"
-				SetBonus: 增加 {0}%伤害减免
+				Tooltip: “由铁匠专业锻造”
+				SetBonus: 受到的伤害降低{0}%
 			}
 
 			SteelPickaxe: {
 				DisplayName: 钢镐
-				Tooltip: "'由铁匠专业锻造'"
+				Tooltip: “由铁匠专业锻造”
 			}
 
 			SteelThrowingAxe: {
 				DisplayName: 钢投斧
 				Tooltip:
 					'''
-					'由铁匠专业锻造'
+					“由铁匠专业锻造”
 					弧形下落时造成的伤害增加25%
 					光标位置离玩家越远，飞的越远
 					'''
@@ -16234,7 +16232,7 @@ Mods: {
 			AstroHelmet: {
 				DisplayName: 宇航盔
 				Tooltip: 增加1点召唤伤害
-				SetBonus: 仆从伤害击中时有概率释放一场魔法脉冲爆发
+				SetBonus: 召唤伤害击中时有概率释放一场魔法脉冲爆发
 			}
 
 			AstroSuit: {
@@ -16248,7 +16246,7 @@ Mods: {
 
 			BioMatter: {
 				DisplayName: 生物物质
-				Tooltip: "'一大团扭动的叶绿素'"
+				Tooltip: “一大团扭动的叶绿素”
 			}
 
 			BleedingHeartStaff: {
@@ -16260,11 +16258,6 @@ Mods: {
 					'''
 			}
 
-			BloodFeasterStaff: {
-				DisplayName: 宴血者法杖
-				Tooltip: 召唤一只吞食血肉的血腥僵尸
-			}
-
 			BattleBanner: {
 				DisplayName: 战争令旗
 				Tooltip: 召唤一面旗帜，使仆从与哨兵对附近敌人的伤害增加{0}%
@@ -16272,38 +16265,38 @@ Mods: {
 
 			BountyBanner: {
 				DisplayName: 赏金令旗
-				Tooltip: 召唤一面旗帜，使附近的敌人受到召唤伤害时掉落钱币
+				Tooltip: 召唤一面旗帜，使附近的敌人被召唤伤害命中时生成钱币
 			}
 
 			CombatBanner: {
 				DisplayName: 好战令旗
-				Tooltip: 召唤一面旗帜，偶尔减缓范围内的敌人
+				Tooltip: 召唤一面旗帜，定期减缓范围内的敌人
 			}
 
 			MoraleBanner: {
 				DisplayName: 振奋令旗
 				Tooltip:
 					'''
-					召唤一面旗帜，缓慢生成红心，红心会治疗{0}生命
+					召唤一面旗帜，缓慢生成一个治疗{0}生命值的红心
 					只有旗帜的召唤者才能拾起红心
 					'''
 			}
 
 			PiousBanner: {
 				DisplayName: 虔诚令旗
-				Tooltip: 召唤出一面旗帜，迅速使其范围内的敌人陷入昏迷状态。
+				Tooltip: 召唤出一面旗帜，快速晕眩范围内的敌怪
 			}
 
 			PowerBanner: {
 				DisplayName: 力量令旗
-				Tooltip: 召唤一面旗帜，使附近敌人受到的鞭子伤害增加{0}%
+				Tooltip: 召唤一面旗帜，使附近敌人受到的鞭伤害增加{0}%
 			}
 
 			PrecisionBanner: {
 				DisplayName: 精准令旗
 				Tooltip:
 					'''
-					召唤一面旗帜，使附近敌人变得更加脆弱
+					召唤一面旗帜，使附近敌人变得脆弱
 					仆从与哨兵攻击脆弱的敌人时有{0}%概率暴击
 					'''
 			}
@@ -16336,7 +16329,7 @@ Mods: {
 				DisplayName: 水晶蝎
 				Tooltip:
 					'''
-					'即便是被困在水晶中，毒刺依旧拥有致命力量'
+					“即便是被困在水晶中，毒刺依旧拥有致命力量”
 					仆从攻击有15%概率产生一只水晶蝎
 					水晶蝎存在时仆从攻击多造成3点伤害
 					'''
@@ -16366,7 +16359,7 @@ Mods: {
 				Tooltip:
 					'''
 					在地面上放置一个魔法大脑
-					在附近时，使用者的仆从攻击有概率困惑击中的敌怪
+					在附近时，使用者的仆从和哨兵攻击有概率困惑击中的敌怪
 					'''
 			}
 
@@ -16374,8 +16367,8 @@ Mods: {
 				DisplayName: 孵育蛛卵
 				Tooltip:
 					'''
-					'可怕的孵化发生了'
-					仆从攻击有10%概率生成一群蜘蛛
+					“可怕的孵化发生了”
+					仆从和哨兵攻击有10%概率生成一群蜘蛛
 					'''
 			}
 
@@ -16383,7 +16376,7 @@ Mods: {
 				DisplayName: 生命绽放护胫
 				Tooltip:
 					'''
-					'你与自然融为一体'
+					“你与自然融为一体”
 					最大仆从数量增加
 					增加8%召唤伤害
 					增加15%移动速度
@@ -16394,7 +16387,7 @@ Mods: {
 				DisplayName: 生命绽放胸甲
 				Tooltip:
 					'''
-					'你与自然融为一体'
+					“你与自然融为一体”
 					最大仆从数量增加
 					增加10%召唤伤害
 					增加仆从击退
@@ -16405,14 +16398,14 @@ Mods: {
 				DisplayName: 生命绽放面具
 				Tooltip:
 					'''
-					'你与自然融为一体'
+					“你与自然融为一体”
 					最大仆从数量增加
 					增加8%召唤伤害
 					'''
 				SetBonus:
 					'''
-					仆从攻击击中时有 {0}% 概率治疗你
-					 {2} {^2:秒;seconds}内你无法治疗超过{1}点生命值
+					仆从和哨兵攻击击中时有{0}%概率治疗你
+					"{2}秒内你无法治疗超过{1}点生命值"
 					'''
 			}
 
@@ -16482,7 +16475,7 @@ Mods: {
 					增加10%召唤伤害
 					最大仆从数量增加
 					最大哨兵数量增加
-					击杀敌怪后召唤物攻击短暂多造成2点伤害
+					击杀敌怪后仆从和哨兵攻击短暂多造成2点伤害
 					'''
 			}
 
@@ -16490,8 +16483,8 @@ Mods: {
 				DisplayName: 魂匣
 				Tooltip:
 					'''
-					'死亡不是你的尽头……'
-					每四分钟，受到致命伤害时会将你恢复到25%生命值时
+					“死亡不是你的尽头……”
+					每四分钟，受到致命伤害时会将你恢复到25%生命值
 					魂匣未处于冷却期间生命恢复增加
 					'''
 			}
@@ -16500,7 +16493,7 @@ Mods: {
 				DisplayName: 史前蜘蛛化石
 				Tooltip:
 					'''
-					'蛛形纲动物称霸时的化石'
+					“蛛形纲动物称霸时的化石”
 					仆从攻击有10%概率产生一只琥珀蜘蛛
 					琥珀蜘蛛存在时仆从攻击多造成2点伤害
 					'''
@@ -16511,7 +16504,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加你的最大哨兵数量
-					按下 '{$Keybinds.AccessoryAbility.DisplayName}' 键可以开启/关闭增大视野范围的效果
+					按下“{$Keybinds.AccessoryAbility.DisplayName}”键可以开启/关闭增大视野范围的效果
 					'''
 			}
 
@@ -16519,7 +16512,7 @@ Mods: {
 				DisplayName: 灵魂石
 				Tooltip:
 					'''
-					'石头在慢慢地吞噬你的灵魂'
+					“石头在慢慢地吞噬你的灵魂”
 					增加10%召唤伤害
 					最大生命值降低20
 					'''
@@ -16571,7 +16564,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加{0}%召唤伤害
-					你的哨兵可以永久存在并在{2} {^2:分钟;minutes}内获得至多{1}%伤害提升
+					你的哨兵可以永久存在并在{2}分钟内获得至多{1}%伤害提升
 					'''
 			}
 
@@ -16600,7 +16593,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速发射彩色导弹
-					20%概率节省弹药
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
 
@@ -16608,7 +16601,7 @@ Mods: {
 				DisplayName: 元素之灵胸甲
 				Tooltip:
 					'''
-					'一切都会在你的力量面前倒下……'
+					“一切都会在你的力量面前倒下……”
 					最大生命值增加{0}，生命再生增加{1}
 					增加{2}%伤害
 					增加{3}%暴击率
@@ -16622,7 +16615,7 @@ Mods: {
 
 			TerrariumCore: {
 				DisplayName: 元素核心
-				Tooltip: "'无法想象的能量存在其中……'"
+				Tooltip: “无法想象的能量存在其中……”
 			}
 
 			TerrariumDefender: {
@@ -16646,10 +16639,10 @@ Mods: {
 				DisplayName: 元素之灵护胫
 				Tooltip:
 					'''
-					'一切都会在你的力量面前倒下……'
-					最大生命值增加 {0} ，生命再生增加 {1} 
-					增加 {2} %伤害
-					增加 {3} %移动速度
+					“一切都会在你的力量面前倒下……”
+					最大生命值增加{0}，生命再生增加{1} 
+					增加{2}%伤害
+					增加{3}%移动速度
 					'''
 			}
 
@@ -16657,56 +16650,56 @@ Mods: {
 				DisplayName: 元素之灵头盔
 				Tooltip:
 					'''
-					'一切都会在你的力量面前倒下……'
-					最大生命值增加 {0} ，生命再生增加 {1} 
-					增加 {2} %伤害
+					“一切都会在你的力量面前倒下……”
+					最大生命值增加{0}，生命再生增加{1} 
+					增加{2}%伤害
 					黑暗中的视野提升
 					'''
 				SetBonus:
 					'''
 					当你在战斗中时泰拉瑞亚的能量会追寻并保护你
-					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键可以切换职业专注
+					按下“{$Keybinds.ArmorAbility.DisplayName}”键可以切换职业专注
 					'''
 
 				Focus: {
 					Generic: {
 						Name: 没有专注
-						Description: "增加{0}%伤害"
+						Description: 增加{0}%伤害
 					}
 
 					Melee: {
 						Name: 近战专注
-						Description: "增加{0}% 伤害减免"
+						Description: 增加{0}%伤害减免
 					}
 
 					Ranged: {
 						Name: 远程专注
-						Description: "增加{0}% 射速"
+						Description: 增加{0}%射速
 					}
 
 					Magic: {
 						Name: 魔法专注
-						Description: 最大魔力值增加 {0}
+						Description: 最大魔力值增加{0}
 					}
 
 					Summon: {
 						Name: 召唤专注
-						Description: 最大仆从数量增加 {0} 非召唤伤害降低{1}%
+						Description: 最大仆从数量增加{0}，非召唤伤害降低{1}%
 					}
 
 					Throwing: {
 						Name: 投手专注
-						Description: 最大技巧值增加 {0}
+						Description: 最大技巧值增加{0}
 					}
 
 					Healer: {
 						Name: 牧师专注
-						Description: 治疗法术会额外治疗 {0} 生命值
+						Description: 治疗法术会额外治疗{0}生命值
 					}
 
 					Bard: {
 						Name: 吟游诗人专注
-						Description: 咒音增幅持续时间延长 {0} {^0:秒;seconds}
+						Description: 咒音增幅持续时间延长{0}秒
 					}
 				}
 			}
@@ -16743,7 +16736,7 @@ Mods: {
 
 			TerrariumPulseRifle: {
 				DisplayName: 元素脉冲步枪
-				Tooltip: 20%概率节省弹药
+				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
 			}
 
 			TerrariumRippleKnife: {
@@ -16778,7 +16771,7 @@ Mods: {
 
 			TerrariumWhaleCatcher: {
 				DisplayName: 元灵捕鲸者
-				Tooltip: 一次发射 3 个浮标
+				Tooltip: 一次发射3个浮标
 			}
 
 			TerrariumWings: {
@@ -16786,7 +16779,7 @@ Mods: {
 				Tooltip:
 					'''
 					允许飞的更高，增加跳跃高度和缓慢下降
-					散发彩虹粒子和光芒.
+					散发彩虹粒子和光芒
 					'''
 			}
 
@@ -16801,7 +16794,7 @@ Mods: {
 
 			ConcentratedThorium: {
 				DisplayName: 浓缩瑟银
-				Tooltip: "'远比简单的锭要强大'"
+				Tooltip: “远比简单的锭要强大”
 			}
 
 			Crietz: {
@@ -16825,7 +16818,7 @@ Mods: {
 
 			Purify: {
 				DisplayName: 净化术
-				Tooltip: "'净化腐化和猩红物块'"
+				Tooltip: “净化腐化和猩红物块”
 			}
 
 			RangedThorHammer: {
@@ -16845,7 +16838,7 @@ Mods: {
 
 			ThoriumBar: {
 				DisplayName: 瑟银锭
-				Tooltip: "'它充满能量'"
+				Tooltip: “它充满能量”
 			}
 
 			ThoriumBlade: {
@@ -16872,7 +16865,7 @@ Mods: {
 				DisplayName: 瑟银护胫
 				Tooltip:
 					'''
-					'它充满能量'
+					“它充满能量”
 					增加2%暴击率
 					'''
 			}
@@ -16881,24 +16874,24 @@ Mods: {
 				DisplayName: 瑟银头盔
 				Tooltip:
 					'''
-					'它充满能量'
+					“它充满能量”
 					增加2%暴击率
 					'''
-				SetBonus: 造成的伤害增加 {0}%
+				SetBonus: 造成的伤害增加{0}%
 			}
 
 			ThoriumMail: {
 				DisplayName: 瑟银胸甲
 				Tooltip:
 					'''
-					'它充满能量'
+					“它充满能量”
 					增加2%暴击率
 					'''
 			}
 
 			ThoriumOre: {
 				DisplayName: 瑟银矿
-				Tooltip: "'这真是一种非自然的矿石'"
+				Tooltip: “这真是一种非自然的矿石”
 			}
 
 			ThoriumPax: {
@@ -16989,7 +16982,7 @@ Mods: {
 
 			BenignBalloon: {
 				DisplayName: 优质气球束
-				Tooltip: "'看起来像一束悲伤的，略微泄气的气球'"
+				Tooltip: “看起来像一束悲伤的，略微泄气的气球”
 			}
 
 			BloomingShuriken: {
@@ -17035,7 +17028,7 @@ Mods: {
 				Tooltip:
 					'''
 					非消耗性投掷武器到达疲惫的时间延长40%
-					(骷髅王后由荒漠侍僧出售)
+					（骷髅王后由荒漠侍僧出售）
 					'''
 			}
 
@@ -17056,7 +17049,7 @@ Mods: {
 
 			CeruleanMorel: {
 				DisplayName: 蔚蓝真菌
-				Tooltip: "'古老的灵魂使这些蘑菇疯狂的生长'"
+				Tooltip: “古老的灵魂使这些蘑菇疯狂的生长”
 			}
 
 			ChlorophyteTomahawk: {
@@ -17121,7 +17114,7 @@ Mods: {
 
 			DarkMatter: {
 				DisplayName: 暗物质
-				Tooltip: "'狂怒的黑暗之核'"
+				Tooltip: “狂怒的黑暗之核”
 			}
 
 			DeadEyePatch: {
@@ -17169,7 +17162,7 @@ Mods: {
 
 			EnchantedKnife: {
 				DisplayName: 附魔飞刀
-				Tooltip: (在地下金箱或者铁/金匣中获得)
+				Tooltip: （在地下金箱或者铁/金匣中获得）
 			}
 
 			EvisceratingClaw: {
@@ -17349,7 +17342,7 @@ Mods: {
 					'''
 					拾取投掷物品时有25%概率复制它
 					此效果只能在脱战时每半秒触发一次
-					(荒漠侍僧出售）
+					（荒漠侍僧出售）
 					'''
 			}
 
@@ -17386,7 +17379,7 @@ Mods: {
 				DisplayName: 瘟疫医生外衣
 				Tooltip:
 					'''
-					'你在酿什么恶心的混合物？'
+					“你在酿什么恶心的混合物？”
 					增加14%投掷伤害
 					增加10%投掷弹幕速度
 					'''
@@ -17396,7 +17389,7 @@ Mods: {
 				DisplayName: 瘟疫医生裤
 				Tooltip:
 					'''
-					'你在酿什么恶心的混合物？'
+					“你在酿什么恶心的混合物？”
 					增加14%投掷伤害
 					增加10%投掷暴击率
 					'''
@@ -17406,7 +17399,7 @@ Mods: {
 				DisplayName: 瘟疫医生面具
 				Tooltip:
 					'''
-					'你在酿什么恶心的混合物？'
+					“你在酿什么恶心的混合物？”
 					增加12%投掷伤害
 					33%概率不消耗投掷物品
 					最大技巧值增加1
@@ -17441,7 +17434,7 @@ Mods: {
 				DisplayName: 火箭拳
 				Tooltip:
 					'''
-					'非常适合将人击退到一英里外'
+					“非常适合将人击退到一英里外”
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
 					'''
@@ -17471,7 +17464,7 @@ Mods: {
 				DisplayName: 暗影大师装束
 				Tooltip:
 					'''
-					'生活在暗影中并精确打击'
+					“生活在暗影中并精确打击”
 					增加15%投掷伤害
 					增加10%投掷速度
 					增加30%投掷弹幕速度
@@ -17482,7 +17475,7 @@ Mods: {
 				DisplayName: 暗影大师面具
 				Tooltip:
 					'''
-					'生活在暗影中并精确打击'
+					“生活在暗影中并精确打击”
 					增加20%投掷伤害
 					33%概率不消耗投掷物品
 					最大技巧值增加2
@@ -17493,7 +17486,7 @@ Mods: {
 				DisplayName: 暗影大师足具
 				Tooltip:
 					'''
-					'生活在暗影中并精确打击'
+					“生活在暗影中并精确打击”
 					增加20%投掷伤害
 					增加20%投掷暴击率
 					增加15%移动速度
@@ -17587,11 +17580,11 @@ Mods: {
 				DisplayName: 空白秘技卷轴
 				Tooltip:
 					'''
-					'用于制作各种独特的秘技能力'
+					“用于制作各种独特的秘技能力”
 					激活秘技后造成投掷伤害可以充能技巧值
 					如果未持续造成伤害技巧值会随时间衰减
-					按下“{$Keybinds.ThrowingTechnique.DisplayName}”键 使用你的秘技卷轴
-					(荒漠侍僧出售）
+					按下“{$Keybinds.ThrowingTechnique.DisplayName}”键使用你的秘技卷轴
+					（荒漠侍僧出售）
 					'''
 			}
 
@@ -17600,7 +17593,7 @@ Mods: {
 				Tooltip:
 					'''
 					左键快速扔出泰拉飞刀
-					右键扔出一把穿刺泰拉飞刀，持续伤害选中的目标过度使用这把武器会
+					右键扔出一把穿刺泰拉飞刀，持续伤害选中的目标
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
 					'''
@@ -17611,7 +17604,7 @@ Mods: {
 				Tooltip:
 					'''
 					被投掷伤害击杀的敌怪最多可以额外掉落2银币
-					(荒漠侍僧出售）
+					（荒漠侍僧出售）
 					'''
 			}
 
@@ -17620,7 +17613,7 @@ Mods: {
 				Tooltip:
 					'''
 					复制15%的投掷伤害
-					(克苏鲁之眼后，荒漠侍僧出售）
+					（克苏鲁之眼后，荒漠侍僧出售）
 					'''
 			}
 
@@ -17709,7 +17702,7 @@ Mods: {
 				DisplayName: 白矮星碎片
 				Tooltip:
 					'''
-					'沉睡巨人的毁灭能量在此碎片中休整'
+					“沉睡巨人的毁灭能量在此碎片中休整”
 					[c/70DB93:获取方式：四柱掉落]
 					'''
 			}
@@ -17791,9 +17784,9 @@ Mods: {
 				DisplayName: 辉耀信号枪
 				Tooltip:
 					'''
-					'瞄准天空！'
+					“瞄准天空！”
 					需要风暴信号弹才能发挥作用
-					仅能在白天的沙漠召唤 {$NPCs.TheGrandThunderBird.DisplayName}。
+					仅能在白天的沙漠召唤{$NPCs.TheGrandThunderBird.DisplayName}
 					'''
 			}
 
@@ -17831,7 +17824,7 @@ Mods: {
 				DisplayName: 疾风钩
 				Tooltip:
 					'''
-					'即使在年轻的时候，惊雷王鹰们也是难以置信的强大……'
+					“即使在年轻的时候，惊雷王鹰们也是难以置信的强大……”
 					向上瞄准时小鹰会抓取完全延伸的钩爪
 					小鹰会提供半空中的抓取效果，短暂使你缓降
 					按住up进一步减缓你的下落，而按住down下可取消缓降
@@ -17858,7 +17851,7 @@ Mods: {
 				DisplayName: 泰坦胸甲
 				Tooltip:
 					'''
-					'充满始源能量'
+					“充满始源能量”
 					增加8%暴击率
 					'''
 			}
@@ -17867,7 +17860,7 @@ Mods: {
 				DisplayName: 泰坦护胫
 				Tooltip:
 					'''
-					'充满始源能量'
+					“充满始源能量”
 					增加15%移动速度
 					'''
 			}
@@ -17881,7 +17874,7 @@ Mods: {
 				DisplayName: 泰坦头饰
 				Tooltip:
 					'''
-					'充满始源能量'
+					“充满始源能量”
 					最大魔力值增加80
 					降低15%魔力消耗
 					当前魔力值低于75时使用法术书会造成额外伤害
@@ -17893,7 +17886,7 @@ Mods: {
 				DisplayName: 泰坦头盔
 				Tooltip:
 					'''
-					'充满始源能量'
+					“充满始源能量”
 					增加12%近战攻速
 					延长受伤后的无敌帧时间
 					免疫击退
@@ -17903,7 +17896,7 @@ Mods: {
 
 			TitanicBar: {
 				DisplayName: 泰坦锭
-				Tooltip: "'过去的能量流淌其中'"
+				Tooltip: “过去的能量流淌其中”
 			}
 
 			TitanJavelin: {
@@ -17919,7 +17912,7 @@ Mods: {
 				DisplayName: 泰坦面具
 				Tooltip:
 					'''
-					'充满始源能量'
+					“充满始源能量”
 					你的远程攻击被附魔了
 					消耗弹药的概率降低25%
 					可以看到敌怪的位置
@@ -17959,7 +17952,7 @@ Mods: {
 				DisplayName: 诅咒之锤
 				Tooltip:
 					'''
-					'持有者并不是被诅咒的对象……'
+					“持有者并不是被诅咒的对象……”
 					对队友挥舞会将他们推向前方并短暂增加他们的伤害减免
 					被推的队友会对他们碰撞的敌怪造成大量伤害
 					'''
@@ -17970,7 +17963,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一个喷吐金币的宝藏箱
-					每造成100，1000和10,000点伤害时会吐出对应的钱币
+					每造成100，1000和10000点伤害时会吐出对应的钱币
 					'''
 			}
 
@@ -17979,7 +17972,7 @@ Mods: {
 				Tooltip:
 					'''
 					允许飞行和缓慢下降
-					在墙前飞行时间变为 8 倍
+					在墙前飞行时间变为8倍
 					'''
 			}
 
@@ -18010,7 +18003,7 @@ Mods: {
 			}
 
 			GrimPedestalCrimson: {
-				DisplayName: 死神基座（绯红）
+				DisplayName: 阴森祭坛（猩红）
 				Tooltip: 可作为恶魔祭坛使用
 			}
 
@@ -18018,7 +18011,7 @@ Mods: {
 				DisplayName: 寒冰之凝
 				Tooltip:
 					'''
-					'这东西让你不寒而栗！'
+					“这东西让你不寒而栗！”
 					释放一道霜冻激光，击中时显著阻碍非Boss敌怪的移动
 					'''
 			}
@@ -18042,7 +18035,7 @@ Mods: {
 				DisplayName: 灵云之气
 				Tooltip:
 					'''
-					'和这个小家伙在一起的快乐日子就在眼前'
+					“和这个小家伙在一起的快乐日子就在眼前”
 					召唤一只可骑乘的飞龙
 					'''
 			}
@@ -18068,12 +18061,12 @@ Mods: {
 
 			SuspiciousGoldenKey: {
 				DisplayName: 可疑金钥匙
-				Tooltip: "'最好不要把它单独放在一个箱子里'"
+				Tooltip: “最好不要把它单独放在一个箱子里”
 			}
 
 			TheAlmightyRecipe: {
 				DisplayName: 全能菜单
-				Tooltip: "'几乎被时间遗忘……'"
+				Tooltip: “几乎被时间遗忘……”
 			}
 
 			TheBlackBlade: {
@@ -18081,7 +18074,7 @@ Mods: {
 				Tooltip:
 					'''
 					释放一道暗风薄片
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					'''
 			}
 
@@ -18090,7 +18083,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射多支箭
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					'''
 			}
 
@@ -18108,7 +18101,7 @@ Mods: {
 				Tooltip:
 					'''
 					右键可以扔出粘在敌怪身上的飞刀
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
 					'''
@@ -18120,7 +18113,7 @@ Mods: {
 					'''
 					产生至多两只相互用噪音攻击的蝌蚪
 					两只蝌蚪必须在一个设定的范围内才能工作
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					'''
 			}
 
@@ -18129,7 +18122,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把暗影镰刀
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					'''
 			}
 
@@ -18138,7 +18131,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射一道缓慢移动的暗影魔法脉冲
-					造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
+					{$Common.Tooltips.TheBlackItem}
 					'''
 			}
 
@@ -18169,7 +18162,7 @@ Mods: {
 			}
 
 			TrackersSkinningBlade: {
-				DisplayName: 赏金猎人之闪亮之刃
+				DisplayName: 赏金猎人的闪亮之刃
 				Tooltip: 击中时生成敌怪2%价值的钱币
 			}
 
@@ -18245,7 +18238,7 @@ Mods: {
 					将你化形为熔岩缓步动物
 					化形时，你可以穿过1格高的缝隙并免疫高温
 					化形时无法使用常规物品
-					(在绯红箱或绯红匣内获得)
+					（在绯红箱或绯红匣内获得）
 					'''
 			}
 
@@ -18295,7 +18288,7 @@ Mods: {
 
 			ValadiumChunk: {
 				DisplayName: 虚金矿
-				Tooltip: "'来自另一个存在的平面'"
+				Tooltip: “来自另一个存在的平面”
 			}
 
 			ValadiumFoeBlaster: {
@@ -18325,12 +18318,12 @@ Mods: {
 					增加6%远程暴击率
 					增加5%远程伤害
 					'''
-				SetBonus: 按下up翻转重力。翻转时，远程伤害增加 {0}%
+				SetBonus: 按下up翻转重力。翻转时，远程伤害增加{0}%
 			}
 
 			ValadiumIngot: {
 				DisplayName: 虚金锭
-				Tooltip: "'掌控引力'"
+				Tooltip: “掌控引力”
 			}
 
 			ValadiumPickaxe: {
@@ -18506,17 +18499,17 @@ Mods: {
 				DisplayName: 腐蚀头饰
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			CausticLeggings: {
-				DisplayName: 腐蚀连裤
+				DisplayName: 腐蚀护胫
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18524,8 +18517,8 @@ Mods: {
 				DisplayName: 腐蚀长袍
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18546,24 +18539,24 @@ Mods: {
 
 			FishHat: {
 				DisplayName: 鱼帽
-				Tooltip: "'女人想要我，鱼怕我'"
+				Tooltip: “女人想要我，鱼怕我”
 			}
 
 			LegendaryChainmail: {
-				DisplayName: 传奇锁甲
+				DisplayName: 传奇链甲
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			LegendaryGreaves: {
-				DisplayName: 传奇护腿
+				DisplayName: 传奇护胫
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18571,17 +18564,17 @@ Mods: {
 				DisplayName: 传奇头盔
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			LightAutomatonLeggings: {
-				DisplayName: 光能机械裤子
+				DisplayName: 光能机械护胫
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18589,17 +18582,17 @@ Mods: {
 				DisplayName: 光能机械面具
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			LightAutomatonNuvaArmor: {
-				DisplayName: 光能机械铠甲
+				DisplayName: 光能机械努瓦胸甲
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18636,20 +18629,20 @@ Mods: {
 
 			HatFish: {
 				DisplayName: 帽鱼
-				Tooltip: "'鱼想要我，女人怕我'"
+				Tooltip: “鱼想要我，女人怕我”
 			}
 
 			LootLurer: {
 				DisplayName: 金钱的诱惑
-				Tooltip: "'动力！'"
+				Tooltip: “动力！”
 			}
 
 			MaroonMageHat: {
 				DisplayName: 深红法师帽
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18657,8 +18650,8 @@ Mods: {
 				DisplayName: 深红法师长袍
 				Tooltip:
 					'''
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18674,12 +18667,12 @@ Mods: {
 
 			ShadowPants: {
 				DisplayName: 暗影裤
-				Tooltip: "'非常适合在光下隐藏你的身体'"
+				Tooltip: “非常适合在光下隐藏你的身体”
 			}
 
 			ShadowShirt: {
 				DisplayName: 暗影衣
-				Tooltip: "'非常适合在光下隐藏你的身体'"
+				Tooltip: “非常适合在光下隐藏你的身体”
 			}
 
 			SnarbolaxCap: {
@@ -18698,12 +18691,12 @@ Mods: {
 			}
 
 			SpaceDwarfBeard: {
-				DisplayName: 太空矮人胡须
+				DisplayName: 太空矮人胡子
 				Tooltip:
 					'''
-					'以胡须为界!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“以胡子之名！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18711,29 +18704,29 @@ Mods: {
 				DisplayName: 太空矮人靴
 				Tooltip:
 					'''
-					'别让任何一个矮人掉队!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“绝不抛弃任何矮人！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			SpaceDwarfHeadset: {
-				DisplayName: 太空矮人头戴式耳机
+				DisplayName: 太空矮人耳机
 				Tooltip:
 					'''
-					'别让任何一个矮人掉队!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“银河精锐！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
 			SpaceDwarfSuit: {
-				DisplayName: 太空矮人服装
+				DisplayName: 太空矮人服
 				Tooltip:
 					'''
-					'岩石与石头!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“碎石与金石！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18741,9 +18734,9 @@ Mods: {
 				DisplayName: 背心裙
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“最适合在阳光明媚的日子穿！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18751,9 +18744,9 @@ Mods: {
 				DisplayName: 遮阳帽
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“最适合在阳光明媚的日子穿！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18761,9 +18754,9 @@ Mods: {
 				DisplayName: 日光凉鞋
 				Tooltip:
 					'''
-					'最适合在阳光明媚日子里穿着!'
-					瑟银时装大赛 {0} 获胜者!
-					来自: {1}
+					“最适合在阳光明媚的日子穿！”
+					瑟银时装大赛{0}获胜者!
+					设计者：{1}
 					'''
 			}
 
@@ -18861,7 +18854,7 @@ Mods: {
 				DisplayName: 愤怒雕像
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					被激活时产生一个“仇恨假人”
 					'''
 			}
@@ -18870,7 +18863,7 @@ Mods: {
 				DisplayName: 奥术之刺
 				Tooltip:
 					'''
-					'气球们要注意了！'
+					“气球们要注意了！”
 					释放魔法的奥术能量
 					'''
 			}
@@ -18882,14 +18875,14 @@ Mods: {
 
 			BasicPickaxe: {
 				DisplayName: 基础镐
-				Tooltip: "'用于测试'"
+				Tooltip: “用于测试”
 			}
 
 			DestinyWeaver: {
 				DisplayName: 命运编织者
 				Tooltip:
 					'''
-					'无限和不可思议地穿越了所有现实，只希望最终经历死亡'
+					“无限和不可思议地穿越了所有现实，只希望最终经历死亡”
 					释放将死现实的全部力量
 					对有防御的敌怪造成的伤害增加
 					每8次射击会向光标处发射光棱似的现实能量
@@ -18903,14 +18896,14 @@ Mods: {
 
 			DreamPotion: {
 				DisplayName: 迷梦药水
-				Tooltip: "'用于测试'"
+				Tooltip: “用于测试”
 			}
 
 			GodMode: {
 				DisplayName: 天堂碎片
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					免疫近乎所有伤害
 					'''
 			}
@@ -18949,7 +18942,7 @@ Mods: {
 				DisplayName: 企鹅杖
 				Tooltip:
 					'''
-					'可以让月亮领主跪下……'
+					“可以让月亮领主跪下……”
 					使用时会产生一些灾难性的事情
 					'''
 			}
@@ -19006,7 +18999,7 @@ Mods: {
 				DisplayName: 咒音增幅测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					提供你实验性咒音增幅
 					'''
 			}
@@ -19015,7 +19008,7 @@ Mods: {
 				DisplayName: 血污测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					生成一个实验性血污材质
 					'''
 			}
@@ -19024,7 +19017,7 @@ Mods: {
 				DisplayName: 弹幕测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					射出实验性弹幕
 					'''
 			}
@@ -19033,7 +19026,7 @@ Mods: {
 				DisplayName: 纯净测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					试图净化玩家周围的大片区域
 					'''
 			}
@@ -19042,7 +19035,7 @@ Mods: {
 				DisplayName: 属性测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					移除任何灵感值和水晶波痕加成
 					'''
 			}
@@ -19051,7 +19044,7 @@ Mods: {
 				DisplayName: 文本测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					显示一条实验性文本：多mod可能会显示错误
 					[i:5340]|[i:5387]|[i:5393]|[i:5352]
 					'''
@@ -19061,33 +19054,33 @@ Mods: {
 				DisplayName: 物块测试仪
 				Tooltip:
 					'''
-					'用于测试'
+					“用于测试”
 					放置一个实验性物块
 					'''
 			}
 
 			TheBareGauntlet: {
 				DisplayName: 手套
-				Tooltip: "'似乎什么都不能做'"
+				Tooltip: “似乎什么都不能做”
 			}
 
 			TheGauntlet: {
 				DisplayName: 无限手套
-				Tooltip: "'试图根除半数生命体……也包括自己'"
+				Tooltip: “试图根除半数生命体……也包括自己”
 			}
 
 			TheTruePenguinWand: {
 				DisplayName: 真·企鹅杖
 				Tooltip:
 					'''
-					'即使是终结现实的噬梦者也会输给这个……'
+					“即使是终结现实的噬梦者也会输给这个……”
 					使用时会打破现实结构，建议谨慎使用
 					'''
 			}
 
 			ThoriumPartyHat: {
 				DisplayName: 瑟银派对帽
-				Tooltip: "'感谢每个人的持续支持！'"
+				Tooltip: “感谢每个人的持续支持！”
 			}
 
 			ViscountRequirement: {
@@ -19097,7 +19090,7 @@ Mods: {
 
 			AnnoyingMud: {
 				DisplayName: 恼人的泥巴
-				Tooltip: "'别再这样了……'"
+				Tooltip: “别再这样了……”
 			}
 
 			RemovedItems: {
@@ -19140,7 +19133,7 @@ Mods: {
 					DisplayName: "{0}音乐播放器"
 					Tooltip:
 						'''
-						增加咒音增幅的持续时间{0} {^0:秒;seconds}
+						增加咒音增幅的持续时间{0}秒
 						装备时，你和附近队友的{1}咒音增幅的等级提升{2}
 						'''
 				}
@@ -19152,7 +19145,7 @@ Mods: {
 			}
 
 			BirdFeederRequirement: {
-				DisplayName: 鸟食器需求
+				DisplayName: 喂鸟器需求
 				Tooltip: ""
 			}
 
@@ -19192,15 +19185,15 @@ Mods: {
 				Messages: {
 					Idle: {
 						TheRage: 怒火就在你的手中。释放出来吧！
-						NoToy: 我不是个玩具…
+						NoToy: 我不是个玩具……
 						NotWorthy: 你够资格吗，也许不够
-						GiveIn: 臣服于我…
-						WillToLive: 我嗅到了你的求生欲…有趣。
+						GiveIn: 臣服于我……
+						WillToLive: 我嗅到了你的求生欲……有趣。
 					}
 
 					Attacking: {
 						KillThem: 片甲不留！
-						Yes: 就是这样…
+						Yes: 就是这样……
 						More: 更多，我要更多！
 						TimeToReap: 收割开始了！
 						KeepCutting: 继续砍！
@@ -19230,8 +19223,8 @@ Mods: {
 
 					BossDefeat: {
 						TheUndoing: 我即是灭世者！
-						NeverThere: 仿佛他们从未存在过...
-						TheReaping: 怒火焚身…我即是死亡！
+						NeverThere: 仿佛他们从未存在过……
+						TheReaping: 怒火焚身……我即是死亡！
 					}
 
 					BuyItem.NotFirstChoice: 不是我最想要的，不过也行。
@@ -19249,8 +19242,8 @@ Mods: {
 					}
 
 					ThrownItem: {
-						ALittleHelp: 帮个小忙…有人吗？
-						ComeBack: 你会回来的…迫不及待。
+						ALittleHelp: 帮个小忙……有人吗？
+						ComeBack: 你会回来的……迫不及待。
 					}
 
 					Storage: {
@@ -19550,7 +19543,7 @@ Mods: {
 					'''
 					以当前魔力为代价掷一颗六面魔法骰子
 					你掷出的面会产生不同的基于魔力的效果，有好有坏
-					骰子使用后必须重新充能{0} {^0:分钟;minutes}
+					骰子使用后必须重新充能{0}分钟
 					'''
 				Choice1: (1) 施加{0}秒耐魔性减益
 				Choice2: (2) 施加{0}秒耐魔性减益
@@ -19573,17 +19566,17 @@ Mods: {
 
 			HemogoblinSharkToothNecklace: {
 				DisplayName: 血浆哥布林鲨牙项链
-				Tooltip: 护甲穿透增加 {0}
+				Tooltip: 盔甲穿透增加{0}
 			}
 
 			LargeCoralVase: {
-				DisplayName: 大型珊瑚花瓶
+				DisplayName: 大珊瑚花瓶
 				Tooltip: 右键点击可切换样式
 			}
 
 			CurtainWall: {
 				DisplayName: 幕墙
-				Tooltip: "'与深色颜料搭配使用效果最佳！'"
+				Tooltip: “与深色颜料搭配使用效果最佳！”
 			}
 
 			EvergreenFence: {
@@ -19596,7 +19589,7 @@ Mods: {
 				Tooltip:
 					'''
 					释放出一股绚烂的能量流
-					[击败光之女王后公主售卖]
+					[击败光之女皇后公主售卖]
 					'''
 			}
 
@@ -19606,23 +19599,23 @@ Mods: {
 					'''
 					{$CommonItemTooltip.SummonTagDamage}
 					{$CommonItemTooltip.Whips}
-					攻击敌人可召唤出一只友方血腥僵尸
+					打击敌人以召唤友好的血婴
 					'''
 			}
 
 			BloodCell: {
 				DisplayName: 血细胞
-				Tooltip: "'一大堆扭动的脏腑'"
+				Tooltip: “一大堆扭动的脏腑”
 			}
 
 			IncandescentAlacrity: {
 				DisplayName: 炽光疾行
 				Tooltip:
 					'''
-					'这个宝玉灌注着狐妖的迅捷'
-					增加移动加速度和跳跃高度, 按住下键可以快速下落
+					“一颗注入了妖狐迅捷之力的灵珠”
+					增加移动加速度和跳跃高度，按住下键可以快速下落
 					缓慢生成最多{0}个灵焰，允许你消耗灵焰向光标处冲刺
-					按下'{$Keybinds.AccessoryAbility.DisplayName}'键进行冲刺
+					按下“{$Keybinds.AccessoryAbility.DisplayName}”键进行冲刺
 					'''
 			}
 
@@ -19635,12 +19628,12 @@ Mods: {
 				DisplayName: 魔力注射剂
 				Tooltip:
 					'''
-					'不建议神经脆弱的巫师使用'
+					“不建议神经脆弱的巫师使用”
 					魔力药水不再回复魔力，而是消耗{0}%原本回复的魔力
-					使用魔力药水时,获得逐渐衰减的魔法伤害提高效果，而不是魔力疾病减益
-					增益时间和伤害增幅可堆叠,随药水消耗的魔力量增加，增幅最高可达到{1}%
+					使用魔力药水时，获得逐渐衰减的魔法伤害加成，而不是魔力疾病减益
+					增益时间和伤害增幅可堆叠，随药水消耗的魔力量增加，增幅最高可达到{1}%
 					'''
-				ManaPotionTooltip: 饮用后消耗{0}魔力值,增加[c/{1}:{2}%]魔法伤害，增益效果随时间衰减
+				ManaPotionTooltip: 饮用后消耗{0}魔力值，增加[c/{1}:{2}%]魔法伤害，增益效果随时间衰减
 			}
 
 			FrostPelter: {
@@ -19658,17 +19651,17 @@ Mods: {
 
 			AncientArcher: {
 				DisplayName: 远古弓箭手
-				BestiaryFlavorText: 来自古代文明的精确单位，他们使用强力的青铜弓从远处攻击敌人.
+				BestiaryFlavorText: 来自古代文明的精确单位，他们使用强力的青铜弓从远处攻击敌人。
 			}
 
 			AncientCharger: {
 				DisplayName: 远古突击者
-				BestiaryFlavorText: 古代文明的敏捷战士，他们持续战斗，希望他们所拥护的人能够回归.
+				BestiaryFlavorText: 古代文明的敏捷战士，他们持续战斗，希望他们所拥护的人能够回归。
 			}
 
 			AncientPhalanx: {
 				DisplayName: 远古盾兵
-				BestiaryFlavorText: 古代文明的巨大守护者，他们现在除了自身外没什么可保护的了.
+				BestiaryFlavorText: 古代文明的巨大守护者，他们现在除了自身外没什么可保护的了。
 			}
 
 			AquamarineBunny: {
@@ -19688,55 +19681,55 @@ Mods: {
 
 			AstroBeetle: {
 				DisplayName: 太空甲虫
-				BestiaryFlavorText: 一种笨重的外星生物，喜欢搭乘经过的宇宙飞船和陨石.
+				BestiaryFlavorText: 一种笨重的外星生物，喜欢搭乘经过的宇宙飞船和陨石。
 			}
 
 			BabySpiderWall: {
 				DisplayName: 小蜘蛛
-				BestiaryFlavorText: 尽管只有几秒大，但庞大的数量可以在仅仅几秒内撕碎一个泰拉人.
+				BestiaryFlavorText: 尽管只有几秒大，但庞大的数量可以在仅仅几秒内撕碎一个泰拉人。
 			}
 
 			BiteyBaby: {
 				DisplayName: 贪食小蝙蝠
-				BestiaryFlavorText: 蝙蝠子爵的仆从。经常被派出去寻找新的血液来源，偶尔找点心.
+				BestiaryFlavorText: 蝙蝠子爵的仆从。经常被派出去寻找新的血液来源，偶尔找点心。
 			}
 
 			Viscount: {
 				DisplayName: 蝙蝠子爵
-				BestiaryFlavorText: 体型和自身都很巨大的蝙蝠子爵无疑是洞穴领主.
-				BossChecklistIntegration.SpawnInfo: 不会自然生成，需要玩家在鲜血祭坛使用[i/s{0}:{1}]召唤，[i:{2}]可以指示鲜血密室的位置.
+				BestiaryFlavorText: 体型和自身都很巨大的蝙蝠子爵无疑是洞穴领主。
+				BossChecklistIntegration.SpawnInfo: 不会自然生成，需要玩家在鲜血祭坛使用[i/s{0}:{1}]召唤，[i:{2}]可以指示鲜血密室的位置。
 			}
 
 			BatOutaHell.DisplayName: 迅火狱蝠
 
 			Beholder: {
 				DisplayName: 注视者
-				BestiaryFlavorText: 来自另一个维度的较弱实体，会试图学习并蒸发它所能蒸发的一切.
+				BestiaryFlavorText: 来自另一个维度的较弱实体，会试图学习并蒸发它所能蒸发的一切。
 			}
 
 			FallenBeholder: {
 				DisplayName: 堕落注视者
-				BestiaryFlavorText: 对虚空以外东西的一瞥。长时间停留在泰拉世界使得它比处在自身维度时更弱.
+				BestiaryFlavorText: 对虚空以外东西的一瞥。长时间停留在泰拉世界使得它比处在自身维度时更弱。
 
 				BossChecklistIntegration: {
-					SpawnInfo: 不会自然生成，需要玩家在地狱使用[i:ThoriumMod/VoidLens]召唤.
+					SpawnInfo: 不会自然生成，需要玩家在地狱使用[i:ThoriumMod/VoidLens]召唤。
 					EntryName: "{$NPCs.FallenBeholder.DisplayName}"
 				}
 			}
 
 			BigBone: {
 				DisplayName: 大骷髅
-				BestiaryFlavorText: 这种坚硬的骷髅将术语“巨骨化”提升到了新的水平.
+				BestiaryFlavorText: 这种坚硬的骷髅将术语“巨骨化”提升到了新的水平。
 			}
 
 			Biter: {
 				DisplayName: 咬噬者
-				BestiaryFlavorText: 僵尸化的过程中可能会导致一些奇特的结果。此变种只会大量出血.
+				BestiaryFlavorText: 僵尸化的过程中可能会导致一些奇特的结果。此变种只会大量出血。
 			}
 
 			Blacksmith: {
 				DisplayName: 铁匠
-				BestiaryFlavorText: 铁匠是个脾气暴躁的老人，有着无与伦比的冶炼技术。他制作的装备会引起任何泰拉人的兴趣.
+				BestiaryFlavorText: 铁匠是个脾气暴躁的老人，有着无与伦比的冶炼技术。他制作的装备会引起任何泰拉人的兴趣。
 
 				TownNPCMood: {
 					Content: 我当然很好，你个蠢蛋！你为什么还要问？
@@ -19748,9 +19741,9 @@ Mods: {
 					LikeBiome: 直接在我需要的材料旁开始锻造，上哪能找到这么棒锻造地点
 					HateBiome: 虽然不知道我怎么落入了如此危险的境地，小子，但你最好带我逃出这里！
 					LoveNPC: 尽管我时不时会和{NPCName}闹些小矛盾，但他始终是我的酒友。
-					LikeNPC: 安静，隐忍，知晓何时该付出行动，我喜欢{NPCName}.
-					DislikeNPC: "{NPCName}有时真叫我热血沸腾。他应当是一位大客户！但并不，他只想修好他的斧头……”"
-					LikeNPC_Princess: 小孩就是小孩，但是{NPCName}在我心里有一个柔软的地方.
+					LikeNPC: 安静，隐忍，知晓何时该付出行动，我喜欢{NPCName}。
+					DislikeNPC: "{NPCName}有时真叫我热血沸腾。他应当是一位大客户！但并不，他只想修好他的斧头……"
+					LikeNPC_Princess: 小孩就是小孩，但是{NPCName}在我心里有一个柔软的地方。
 					Princess_LovesNPC: "{NPCName}帮我修头盔，我很感激!"
 				}
 
@@ -19793,27 +19786,27 @@ Mods: {
 
 			BlisterPod: {
 				DisplayName: 裂荚疱虫
-				BestiaryFlavorText: 猩红内脏产生的奇怪伤口。孵化并产生危险的后代.
+				BestiaryFlavorText: 猩红内脏产生的奇怪伤口。孵化并产生危险的后代。
 			}
 
 			BlizzardBat: {
 				DisplayName: 暴雪蝙蝠
-				BestiaryFlavorText: 充满了所有寒冷的东西，这只蝙蝠外出寻找血味的雪糕.
+				BestiaryFlavorText: 充满了所有寒冷的东西，这只蝙蝠外出寻找血味的雪糕。
 			}
 
 			BoreanHopper: {
 				DisplayName: 极地跃行者
-				BestiaryFlavorText: 一只刚出生的遁蛛，跟它的母亲一样饥饿和寒冷.
+				BestiaryFlavorText: 一只刚出生的遁蛛，跟它的母亲一样饥饿和寒冷。
 			}
 
 			BoreanMyte: {
 				DisplayName: 极地浮虫
-				BestiaryFlavorText: 一只突变的小遁蛛，无论走到哪里都会泄露冰冻的噩运.
+				BestiaryFlavorText: 一只突变的小遁蛛，无论走到哪里都会泄露冰冻的噩运。
 			}
 
 			BoreanStrider: {
 				DisplayName: 极地遁蛛
-				BestiaryFlavorText: 一种蛛形纲物种，不顾一切地想在泰拉人的严酷暴风雪期间生存下来。如此固执的东西对每个人来说都是危险的.
+				BestiaryFlavorText: 一种蛛形纲物种，不顾一切地想在泰拉人的严酷暴风雪期间生存下来。如此固执的东西对每个人来说都是危险的。
 
 				BossChecklistIntegration: {
 					SpawnInfo: 极地遁蛛可以在困难模式暴雪期间自然生成，也可以使用[i:ThoriumMod/StriderTear]召唤。
@@ -19823,22 +19816,22 @@ Mods: {
 
 			FrostBurnt: {
 				DisplayName: 冰焰行者
-				BestiaryFlavorText: 一种冰冻的外壳，它们的血肉早已被暴风雪期间恶劣的狂风从身体上刮下.
+				BestiaryFlavorText: 一种冰冻的外壳，它们的血肉早已被暴风雪期间恶劣的狂风从身体上刮下。
 			}
 
 			FrostBurntFlayer: {
 				DisplayName: "{$NPCs.FrostBurnt.DisplayName}"
-				BestiaryFlavorText: 一种退化的冰冻外壳，在战斗中成功地握着一道大冰柱。它们的舌头被冰柱末端明显地卡住了.
+				BestiaryFlavorText: 一种退化的冰冻外壳，在战斗中成功地握着一道大冰柱。它们的舌头被冰柱末端明显地卡住了。
 			}
 
 			SnowElemental: {
 				DisplayName: 雪元素
-				BestiaryFlavorText: 一种被雪填满的冰冻元素。喜欢爆炸成一场美丽的雪……并死亡.
+				BestiaryFlavorText: 一种被雪填满的冰冻元素。喜欢爆炸成一场美丽的雪……并死亡。
 			}
 
 			SnowyOwl: {
 				DisplayName: 雪鸮
-				BestiaryFlavorText: 一种耐寒的猫头鹰物种，大部分的狩猎都是在暴风雪来临阻挡视线时进行的.
+				BestiaryFlavorText: 一种耐寒的猫头鹰物种，大部分的狩猎都是在暴风雪来临阻挡视线时进行的。
 			}
 
 			Abomination: {
@@ -19848,29 +19841,29 @@ Mods: {
 
 			BloodDrop: {
 				DisplayName: 滴血史莱姆
-				BestiaryFlavorText: 动态的血行为非常类似于泰拉瑞亚的史莱姆.
+				BestiaryFlavorText: 动态的血行为非常类似于泰拉瑞亚的史莱姆。
 			}
 
 			BloodMage: {
 				DisplayName: 血法师
-				BestiaryFlavorText: 血腥僵尸的一种不常见变异体，保留了施放暗黑血魔法的能力.
+				BestiaryFlavorText: 血腥僵尸的一种不常见变异体，保留了施放暗黑血魔法的能力。
 			}
 
 			BloodyWarg: {
 				DisplayName: 嗜血恐狼
-				BestiaryFlavorText: 一头被神秘的血月光辉逼疯的狂暴野兽.
+				BestiaryFlavorText: 一头被神秘的血月光辉逼疯的狂暴野兽。
 			}
 
 			BurstingMaggot.DisplayName: 爆裂蛆虫
 
 			EngorgedEye: {
 				DisplayName: 充血之眼
-				BestiaryFlavorText: 这种恶魔眼吞噬了血月的光环，获得了独特的外观.
+				BestiaryFlavorText: 这种恶魔眼吞噬了血月的光环，获得了独特的外观。
 			}
 
 			FamishedMaggot: {
 				DisplayName: 饥饿蛆虫
-				BestiaryFlavorText: 以其集体攻击习性而出名的一种恶毒蠕虫.
+				BestiaryFlavorText: 以其集体攻击习性而出名的一种恶毒蠕虫。
 			}
 
 			GraveLimb: {
@@ -19880,23 +19873,23 @@ Mods: {
 
 			PatchWerk: {
 				DisplayName: 缝合人
-				BestiaryFlavorText: 一种由蛆虫填满和泰拉人遗骸组成的可怕生物。它会向任何在听的人呼唤，乞求被镇压.
+				BestiaryFlavorText: 一种由蛆虫填满和泰拉人遗骸组成的可怕生物。它会向任何在听的人呼唤，乞求被镇压。
 				BossChecklistIntegration.SpawnInfo: 缝合人会生成在血月期间，可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤，击败缝合人是迷途僵尸NPC入住的需求。
 			}
 
 			SeveredLegs: {
 				DisplayName: 恐怖断腿
-				BestiaryFlavorText: 这些腿是为走路而生的，且这就是它们将要做的……好吧，这就是它们所能做的
+				BestiaryFlavorText: 这些腿是为走路而生的，且这就是它们将要做的……好吧，这就是它们所能做的。
 			}
 
 			SmotheringShade: {
 				DisplayName: 窒息暗影
-				BestiaryFlavorText: 这些腿是为走路而生的，且这就是它们将要做的……好吧，这就是它们所能做的.
+				BestiaryFlavorText: 无法解释的生物诞生于血月的邪恶光环。远古巨著暗示了它们悠久的历史。
 			}
 
 			CorpseBloom: {
 				DisplayName: 绝命花
-				BestiaryFlavorText: 尚不清楚这种变异的花朵得名是由于它的臭味还是它在苏醒的时候通常会留给泰拉人什么.
+				BestiaryFlavorText: 尚不清楚这种变异的花朵得名是由于它的臭味还是它在苏醒的时候通常会留给泰拉人什么。
 				BossChecklistIntegration.SpawnInfo: 在克苏鲁之脑/世界吞噬怪被击败后它会生成在地下丛林附近，可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤。
 			}
 
@@ -19909,12 +19902,12 @@ Mods: {
 
 			BloomMahoganyEnt: {
 				DisplayName: 红木树人
-				BestiaryFlavorText: 一群有知觉的红木，寻求通过致命手段保护丛林植物群.
+				BestiaryFlavorText: 一群有知觉的红木，寻求通过致命手段保护丛林植物群。
 			}
 
 			BoneFlayer: {
 				DisplayName: 骨翼劫掠者
-				BestiaryFlavorText: 复活的恶魔遗骸。它的火焰能力会糟蹋地狱中的大部分怪物.
+				BestiaryFlavorText: 复活的恶魔遗骸。它的火焰能力会糟蹋地狱中的大部分怪物。
 			}
 
 			BossDummy.DisplayName: Boss假人
@@ -19922,7 +19915,7 @@ Mods: {
 
 			BrownRecluseWall: {
 				DisplayName: 棕色遁蛛
-				BestiaryFlavorText: 有了一群保护性婴儿和酸性唾液，这种罕见的蜘蛛品种会让任何人产生蜘蛛恐惧症.
+				BestiaryFlavorText: 有了一群保护性婴儿和酸性唾液，这种罕见的蜘蛛品种会让任何人产生蜘蛛恐惧症。
 			}
 
 			BizarreRockFormation: {
@@ -19934,28 +19927,28 @@ Mods: {
 
 			BuriedChampion: {
 				DisplayName: 英灵遗骸
-				BestiaryFlavorText: 曾经的传奇英雄，时间已经遗忘了它的名字。它试图挑战打破地牢诅咒的泰拉人.
-				BossChecklistIntegration.SpawnInfo: 大理石洞内使用[i:ThoriumMod/AncientBlade]召唤boss或者打死埋葬石像（骷髅王后生成）.（如果区域内有埋葬石像，上古之剑不会生效）
+				BestiaryFlavorText: 曾经的传奇英雄，时间已经遗忘了它的名字。它试图挑战打破地牢诅咒的泰拉人。
+				BossChecklistIntegration.SpawnInfo: 大理石洞内使用[i:ThoriumMod/AncientBlade]召唤Boss或者打死埋葬石像（骷髅王后生成）。（如果区域内有埋葬石像，上古之剑不会生效）
 			}
 
 			FallenChampion2: {
 				DisplayName: 英灵遗魂
-				BestiaryFlavorText: 英灵遗骸武器专长的致命回响。无法通过正常方式伤害.
+				BestiaryFlavorText: 英灵遗骸武器专长的致命回响。无法通过正常方式伤害。
 			}
 
 			ChilledSpitter: {
 				DisplayName: 霜颤蚀雨者
-				BestiaryFlavorText: 在冰冻的废土上游荡的许多腐化怪物之一。不建议用它们的唾液来保持你饮料的清凉.
+				BestiaryFlavorText: 在冰冻的废土上游荡的许多腐化怪物之一。不建议用它们的唾液来保持你饮料的清凉。
 			}
 
 			Clot: {
 				DisplayName: 鲜血凝块
-				BestiaryFlavorText: 正如我们所说，不会轻易倒下.
+				BestiaryFlavorText: 正如我们所说，不会轻易倒下。
 			}
 
 			Cobbler: {
 				DisplayName: 鞋匠
-				BestiaryFlavorText: 鞋匠早已从他的英雄时代退休，但他为下一代提供了优质的鞋子.
+				BestiaryFlavorText: 鞋匠早已从他的英雄时代退休，但他为下一代提供了优质的鞋子。
 
 				TownNPCMood: {
 					Content: 我的步伐铿锵有力，不要担心！
@@ -19967,15 +19960,15 @@ Mods: {
 					LikeBiome: 森林是最适合散步的地方。没有烦人的沙子，没有烦人的雪，也没有烦人的砾石。你明白我的意思吧。
 					DislikeBiome: 我年纪大了，没办法细心处理我鞋子里的沙子和水了……
 					HateBiome: 要是年轻的时候，我能应对这样的地方，但现在我老了！
-					LoveNPC: 现在，如果这里还有人能明白一双好鞋的重要性，那肯定就是{NPCName}了。他们的鞋子确实做工精良。.
+					LoveNPC: 现在，如果这里还有人能明白一双好鞋的重要性，那肯定就是{NPCName}了。他们的鞋子确实做工精良。
 					LikeNPC: 和{NPCName}的交谈总是能让我安心。就算是我，有时也需要安慰。
 					DislikeNPC: "{NPCName}最好在他们失足跌倒前穿上鞋子。"
 					HateNPC: 我不喜欢{NPCName}总是去帮助那些穿高跟鞋的伤员。你们这些年轻人真是完全不顾危险……
 					LikeNPC_Princess: "{NPCName}真是那种让你忍不住去宠爱的人。"
-					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋子从来没有擦得那么干净过!"
+					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋子从来没有擦得那么干净过！"
 				}
 
-				Census.SpawnCondition: 在你的物品栏中有鞋子饰品([i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等.)
+				Census.SpawnCondition: 在你的物品栏中有鞋子饰品（[i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等）
 				Button2: 擦亮鞋子
 
 				Names: {
@@ -20004,22 +19997,22 @@ Mods: {
 
 			CoinBagCopper: {
 				DisplayName: 铜币袋
-				BestiaryFlavorText: 这堆附魔硬币最近才有的知觉，但它会尽最大努力将财富保留给自己.
+				BestiaryFlavorText: 这堆附魔硬币最近才有的知觉，但它会尽最大努力将财富保留给自己。
 			}
 
 			CoinBagGold: {
 				DisplayName: 金币袋
-				BestiaryFlavorText: 你可能会认为金币会将这袋贪婪的硬币压得无法行动，但这仅加强了它逃离泰拉人的决心.
+				BestiaryFlavorText: 你可能会认为金币会将这袋贪婪的硬币压得无法行动，但这仅加强了它逃离泰拉人的决心。
 			}
 
 			CoinBagSilver: {
 				DisplayName: 银币袋
-				BestiaryFlavorText: 一个贪婪的泰拉人在洞穴周围出现，这袋硬币就会立马离开现场.
+				BestiaryFlavorText: 一个贪婪的泰拉人在洞穴周围出现，这袋硬币就会立马离开现场。
 			}
 
 			Coldling: {
 				DisplayName: 冰冻棘虫
-				BestiaryFlavorText: 在雪地里迷失这么长时间后，这只蹦蹦兽的皮肤被严重的冰冻了。但它的饥饿并没有.
+				BestiaryFlavorText: 在雪地里迷失这么长时间后，这只蹦蹦兽的皮肤被严重的冰冻了。但它的饥饿并没有。
 			}
 
 			ConfusedZombie: {
@@ -20027,24 +20020,24 @@ Mods: {
 				BestiaryFlavorText: 迷途僵尸是个化学家变成的僵尸。虽然他试图保持大部分正常思维，但他仍有点奇怪……
 
 				TownNPCMood: {
-					Content: 我很好，谢谢.
-					NoHome: 啊，我好像忘了我的家在哪里。你能帮我一下吗?
-					FarFromHome: 走十步，四处看看，如果我不在家，那么…那个怎么样?
-					LoveSpace: 给我留点空间，让我在做趋避剂的时候不用担心别人
+					Content: 我很好，谢谢。
+					NoHome: 啊，我好像忘了我的家在哪里。你能帮我一下吗？
+					FarFromHome: 走十步，四处看看，如果我不在家，那么……那个怎么样？
+					LoveSpace: 给我留点空间，让我在做趋避剂的时候不用担心别人。
 					DislikeCrowded: 我的邻居对我很粗鲁，只是因为我是那样的人，这太可悲了……
-					HateCrowded: 这么多人在这里……丰盛的自助餐……你什么都没听到，对吧?
-					LikeBiome: 森林只是…让我很开心，就像我属于这里一样.
-					DislikeBiome: 移动这些关节已经是相当大的挑战，寒冷真的没有帮助!
-					HateBiome: 我喜欢这里吗?我是否担心我的生命…我喜欢-不喜欢.不.出.
-					LoveNPC: .{NPCName}总是帮我开门，他太体贴了!
-					LikeNPC: 我觉得与{NPCName}有一种奇怪但很好的联系。不知道为什么，但我就是感觉到了.
+					HateCrowded: 这么多人在这里……丰盛的自助餐……你什么都没听到，对吧？
+					LikeBiome: 森林只是……让我很开心，就像我属于这里一样。
+					DislikeBiome: 移动这些关节已经是相当大的挑战，寒冷真的没有帮助！
+					HateBiome: 我喜欢这里吗？我是否担心我的生命……我喜欢-不喜欢。不。出。
+					LoveNPC: "{NPCName}总是帮我开门，他太体贴了！"
+					LikeNPC: 我觉得与{NPCName}有一种奇怪但很好的联系。不知道为什么，但我就是感觉到了。
 					DislikeNPC: 几乎看不到它的身体的内部结构，但是我认为{NPCName}总是给我很奇怪的表情……
-					LikeNPC_Princess: .{NPCName}看起来像草莓味的…啊，我刚才在喃喃自语!
-					Princess_LovesNPC: 嘿嘿, {NPCName}做鬼脸!
+					LikeNPC_Princess: "{NPCName}看起来像草莓味的……啊，我刚才在喃喃自语！"
+					Princess_LovesNPC: 嘿嘿，{NPCName}做鬼脸！
 				}
 
 				Census.SpawnCondition: 在血月期间击败[c/4dffb8:{$NPCs.PatchWerk.DisplayName}]
-				Button2: 敌怪趋避剂 ({^0:80 Silver;1 Gold})
+				Button2: 敌怪趋避剂（{^0:80银;1金}）
 				NoMoney: Looks like you're a bit short on funds. Come back to me when you have a little more coin in your pocket!
 				DayNotOver: I'm afraid you'll have to give me some more time to prepare the next repellent. This stuff can get pretty complicated...
 				Repellent_0: I just whipped up the perfect recipe to deter bats from bothering you; no more tiny nibbles!
@@ -20079,49 +20072,49 @@ Mods: {
 
 			BlueHag: {
 				DisplayName: 巫婆（盈风）
-				BestiaryFlavorText: 用青春换取掌控风的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功.
+				BestiaryFlavorText: 用青春换取掌控风的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功。
 			}
 
 			CyanHag: {
 				DisplayName: 巫婆（雾萦）
-				BestiaryFlavorText: 用青春换取掌控海浪的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功.
+				BestiaryFlavorText: 用青春换取掌控海浪的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功。
 			}
 
 			GreenHag: {
 				DisplayName: 巫婆（缚地）
-				BestiaryFlavorText: 用青春换取掌控大地的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功.
+				BestiaryFlavorText: 用青春换取掌控大地的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功。
 			}
 
 			RedHag: {
 				DisplayName: 巫婆（火焰）
-				BestiaryFlavorText: 用青春换取掌控火焰的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功.
+				BestiaryFlavorText: 用青春换取掌控火焰的憔悴女巫。很明显，考虑到它们尝试谋杀你，这场交易并不成功。
 			}
 
 			Cook: {
 				DisplayName: 厨师
-				BestiaryFlavorText: "厨师是烹饪艺术大师。他总是用这片大地上的材料尝试新的食谱. "
+				BestiaryFlavorText: 厨师是烹饪艺术大师。他总是用这片大地上的材料尝试新的食谱。
 
 				TownNPCMood: {
-					Content: 我很好，我在想我下一个食谱
-					NoHome: 你不会刚好有空厨房可以让我用吧?
-					FarFromHome: 我想既然我在外面，我还是找些食材吧.
-					LoveSpace: 有试吃员是件好事，但能坐下来放松一下就更好了.
-					DislikeCrowded: 他们想要加奶酪还是不加奶酪?我需要少接受点命令.
-					HateCrowded: 这里要养活的人太多了，哪怕是我也需要休息一下!
-					LikeBiome: 这才是我喜欢的地方.数以吨计的独特蘑菇和动物群形成食谱!
-					DislikeBiome: 在地下没什么可做的.除了苔藓……
-					HateBiome: 快把我弄出去，免得我成为这些怪物的下一顿食物!
-					LoveNPC: 现在{NPCName}是一个真正的美食家。他是我最好的试吃员!
-					LikeNPC: 我以前不怎么用蘑菇做饭，但住在{NPCName}附近让我对它们有了新的看法.
-					DislikeNPC: 啊…{NPCName}真是个挑食的人。除了炸鱼条，他什么都不吃!
-					HateNPC: 这不是针对个人的，但是因为{NPCName}不能吃东西，我发现他的存在真的…让人心烦。
-					LikeNPC_Princess: 在我做饭的时候听{NPCName}说话是一种享受!
-					Princess_LovesNPC: "{NPCName}是最神奇的美食!"
+					Content: 我很好，我在想我下一个食谱。
+					NoHome: 你不会刚好有空厨房可以让我用吧？
+					FarFromHome: 我想既然我在外面，我还是找些食材吧。
+					LoveSpace: 有试吃员是件好事，但能坐下来放松一下就更好了。
+					DislikeCrowded: 他们想要加奶酪还是不加奶酪？我需要少接受点命令。
+					HateCrowded: 这里要养活的人太多了，哪怕是我也需要休息一下！
+					LikeBiome: 这才是我喜欢的地方。数以吨计的独特蘑菇和动物群形成食谱！
+					DislikeBiome: 在地下没什么可做的。除了苔藓……
+					HateBiome: 快把我弄出去，免得我成为这些怪物的下一顿食物！
+					LoveNPC: 现在{NPCName}是一个真正的美食家。他是我最好的试吃员！
+					LikeNPC: 我以前不怎么用蘑菇做饭，但住在{NPCName}附近让我对它们有了新的看法。
+					DislikeNPC: 啊……{NPCName}真是个挑食的人。除了炸鱼条，他什么都不吃！
+					HateNPC: 这不是针对个人的，但是因为{NPCName}不能吃东西，我发现他的存在真的……让人心烦。
+					LikeNPC_Princess: 在我做饭的时候听{NPCName}说话是一种享受！
+					Princess_LovesNPC: "{NPCName}是最神奇的美食！"
 				}
 
 				Census.SpawnCondition: 击败{$NPCName.KingSlime}
 				Button2: 供应原料
-				IngredientInterested: 厨师可能对此感兴趣: {0} / {1}
+				IngredientInterested: 厨师可能会对此感兴趣：{0}/{1}
 
 				Names: {
 					Alain: Alain
@@ -20149,15 +20142,15 @@ Mods: {
 
 			Coolmera: {
 				DisplayName: 冰冻飞虫
-				BestiaryFlavorText: 无尽的饥饿使它一直在寻找食物，即便是在寒冷的苔原.
+				BestiaryFlavorText: 无尽的饥饿使它一直在寻找食物，即便是在寒冷的苔原。
 			}
 
 			DarksteelKnight: {
 				DisplayName: 暗钢骑士
-				BestiaryFlavorText: 无尽的饥饿使它一直在寻找食物，即便是在寒冷的苔原.
+				BestiaryFlavorText: 在曾经的辉煌岁月里效忠于地牢的精英守卫。虽然肉体已经泯灭，但他们的忠诚永存。
 			}
 
-			AbyssalAngler.DisplayName: 金钱?
+			AbyssalAngler.DisplayName: 金钱？
 
 			AbyssalAngler2: {
 				DisplayName: 深渊琵琶鱼
@@ -20166,15 +20159,15 @@ Mods: {
 
 			AbyssalSpawn: {
 				DisplayName: 深渊鱼
-				BestiaryFlavorText: 遗忘之主产生的贪婪年轻生命，会亵渎和污染世界中新鲜的水.
+				BestiaryFlavorText: 遗忘之主产生的贪婪年轻生命，会亵渎和污染世界中新鲜的水。
 			}
 
 			ForgottenOne: {
 				DisplayName: 遗忘之主
-				BestiaryFlavorText: 即便是最年长的泰拉人也遗忘很久的生物。几个世纪前的一场血腥战争中，它和它的同类被封印了起来.
+				BestiaryFlavorText: 即便是最年长的泰拉人也遗忘很久的生物。几个世纪前的一场血腥战争中，它和它的同类被封印了起来。
 
 				BossChecklistIntegration: {
-					SpawnInfo: 虚影潜游者会掉落[i:ThoriumMod/AbyssalShadow2]，拾取物品时，它会造成深渊幻影减益,深渊幻影减益叠加3次后，boss生成（在深海）
+					SpawnInfo: 虚影潜游者会掉落[i:ThoriumMod/AbyssalShadow2]，拾取物品时，它会造成深渊幻影减益，深渊幻影减益叠加3次后，Boss生成（在深海）
 					EntryName: "{$NPCs.ForgottenOne.DisplayName}"
 				}
 			}
@@ -20186,7 +20179,7 @@ Mods: {
 
 			Barracuda: {
 				DisplayName: 梭鱼
-				BestiaryFlavorText: 这种迅捷的鱼以任何方式捕食猎物而出名。连墙都不能挡住它们的胃口.
+				BestiaryFlavorText: 这种迅捷的鱼以任何方式捕食猎物而出名。连墙都不能挡住它们的胃口。
 			}
 
 			Blobfish: {
@@ -20201,37 +20194,37 @@ Mods: {
 
 			BlueLobster: {
 				DisplayName: 蓝龙虾
-				BestiaryFlavorText: 一种十分稀有的深海龙虾变种，将曾经见过它的第一个泰拉人吓得魂不附体.
+				BestiaryFlavorText: 一种十分稀有的深海龙虾变种，将曾经见过它的第一个泰拉人吓得魂不附体。
 			}
 
 			CrownofThorns: {
 				DisplayName: 铁海棠
-				BestiaryFlavorText: 栖息在深海底部，这些海星的第一次蛰伤会给很多人带来厄运.
+				BestiaryFlavorText: 栖息在深海底部，这些海星的第一次蛰伤会给很多人带来厄运。
 			}
 
 			DumboOctopus: {
 				DisplayName: 小飞象章鱼
-				BestiaryFlavorText: 海洋深处发现的一种无害的章鱼物种。像花生一样.
+				BestiaryFlavorText: 海洋深处发现的一种无害的章鱼物种。像花生一样。
 			}
 
 			FeedingFrenzy: {
 				DisplayName: 饥饿怒鱼
-				BestiaryFlavorText: 一种贪婪的鱼类物种，会快速召唤一群同样贪婪的兄弟姐妹.
+				BestiaryFlavorText: 一种贪婪的鱼类物种，会快速召唤一群同样贪婪的兄弟姐妹。
 			}
 
 			GiantIsopod: {
 				DisplayName: 巨型等足虫
-				BestiaryFlavorText: 数千年以来，这些平静的生物一直在深海令人颤栗。地表的居民可以学到一点东西.
+				BestiaryFlavorText: 数千年以来，这些平静的生物一直在深海令人颤栗。地表的居民可以学到一点东西。
 			}
 
 			GigaClam: {
 				DisplayName: 巨蛤
-				BestiaryFlavorText: 长期以来泰拉人一直在争论这种蛤的大小应该被归为“巨”还是“大”。巨现在赢了.
+				BestiaryFlavorText: 长期以来泰拉人一直在争论这种蛤的大小应该被归为“巨”还是“大”。巨现在赢了。
 			}
 
 			Globee: {
 				DisplayName: 渊光水母
-				BestiaryFlavorText: 一种可以产生生物发光物质的无害生物，即使在海底深处也能点亮周围.
+				BestiaryFlavorText: 一种可以产生生物发光物质的无害生物，即使在海底深处也能点亮周围。
 			}
 
 			GoldDumboOctopus: {
@@ -20246,62 +20239,62 @@ Mods: {
 
 			Hammerhead: {
 				DisplayName: 双髻鲨
-				BestiaryFlavorText: 这个可怜的家伙不知道如何在它的鲨鱼朋友中脱颖而出……直到它决定使用它的脑袋.
+				BestiaryFlavorText: 这个可怜的家伙不知道如何在它的鲨鱼朋友中脱颖而出……直到它决定使用它的脑袋。
 			}
 
 			Kraken: {
 				DisplayName: 海妖
-				BestiaryFlavorText: 一种潜伏在海洋表面以下的强大生物，用8根手臂和8道怨恨对抗着世界表面.
+				BestiaryFlavorText: 一种潜伏在海洋表面以下的强大生物，用8根手臂和8道怨恨对抗着世界表面。
 			}
 
 			Lobster: {
 				DisplayName: 龙虾
-				BestiaryFlavorText: 一种喜欢夹的深海甲壳纲动物.
+				BestiaryFlavorText: 一种喜欢夹的深海甲壳纲动物。
 			}
 
 			ManofWar: {
 				DisplayName: 僧帽水母
-				BestiaryFlavorText: 这是一只坚硬的水母，有着无敌的刺，以及莫名其妙进入无敌状态的爱好.
+				BestiaryFlavorText: 这是一只坚硬的水母，有着无敌的刺，以及莫名其妙进入无敌状态的爱好。
 			}
 
 			MorayHead: {
 				DisplayName: 海鳗
-				BestiaryFlavorText: 在深海安家的一种鳗鱼物种。喜欢在自己挖掘的角落和缝隙里闲逛.
+				BestiaryFlavorText: 在深海安家的一种鳗鱼物种。喜欢在自己挖掘的角落和缝隙里闲逛。
 			}
 
 			Octopus: {
 				DisplayName: 章鱼
-				BestiaryFlavorText: 一种圆胀的水生居民，会伸长手臂抓取并撕碎猎物，有时候甚至能穿墙.
+				BestiaryFlavorText: 一种圆胀的水生居民，会伸长手臂抓取并撕碎猎物，有时候甚至能穿墙。
 			}
 
 			PurpleDumboOctopus: {
 				DisplayName: 紫小飞象章鱼
-				BestiaryFlavorText: 海底深处小飞象章鱼的不常见变种。仍然像花生.
+				BestiaryFlavorText: 海底深处小飞象章鱼的不常见变种。仍然像花生。
 			}
 
 			PutridSerpent: {
 				DisplayName: 腐毒海蟒
-				BestiaryFlavorText: 一种可恶的喷吐酸液的海蟒，会在深海的岩石中钻洞。带有一种熟悉的，肮脏的腐败.
+				BestiaryFlavorText: 一种可恶的喷吐酸液的海蟒，会在深海的岩石中钻洞。带有一种熟悉的，肮脏的腐败。
 			}
 
 			Sharptooth: {
 				DisplayName: 利牙鱼
-				BestiaryFlavorText: 顾名思义，它只咬了一口泰拉人的手就得到了这个称号.
+				BestiaryFlavorText: 顾名思义，它只咬了一口泰拉人的手就得到了这个称号。
 			}
 
 			SubmergedMimic: {
 				DisplayName: 深海宝箱怪
-				BestiaryFlavorText: 迷失在压迫深海中的宝箱怪具有不详的特性。它们可以通过外部力量从普通的宝箱中诞生.
+				BestiaryFlavorText: 迷失在压迫深海中的宝箱怪具有不详的特性。它们可以通过外部力量从普通的宝箱中诞生。
 			}
 
 			VampireSquid: {
 				DisplayName: 吸血鱿鱼
-				BestiaryFlavorText: 咬一口鲜血直流并大幅治疗它们，这些鱿鱼肯定不是在玩游戏.
+				BestiaryFlavorText: 咬一口鲜血直流并大幅治疗它们，这些鱿鱼肯定不是在玩游戏。
 			}
 
 			VoltEelHead: {
 				DisplayName: 伏特鳗
-				BestiaryFlavorText: 这些鳗鱼使用特殊器官，利用电能实现任何目的，从追踪重伤猎物到对朋友恶作剧.
+				BestiaryFlavorText: 这些鳗鱼使用特殊器官，利用电能实现任何目的，从追踪重伤猎物到对朋友恶作剧。
 			}
 
 			Whale: {
@@ -20311,27 +20304,27 @@ Mods: {
 
 			DesertAcolyte: {
 				DisplayName: 荒漠侍僧
-				BestiaryFlavorText: 荒漠侍僧十分紧张，但会向那些对向怪物投掷东西很感兴趣的人出售各种装备.
+				BestiaryFlavorText: 荒漠侍僧十分紧张，但会向那些对向怪物投掷东西很感兴趣的人出售各种装备。
 
 				TownNPCMood: {
 					Content: 我在这周围看不到什么危险，所以我感觉很好。
-					NoHome: 我希望你能帮我找到一个安全的地方去休息。越快找到一个庇护所越好…
-					FarFromHome: 喔，我是怎么一路来到这里的…
+					NoHome: 我希望你能帮我找到一个安全的地方去休息。越快找到一个庇护所越好……
+					FarFromHome: 喔，我是怎么一路来到这里的……
 					LoveSpace: 人少点总是好的，我不需要在家里太担心。
 					DislikeCrowded: 虽然抱团绝对是安全的，但是这么多人还是让我感到不安。
 					HateCrowded: 这里太拥挤了！我感觉我被包围了。
-					LikeBiome: 啊，我感到很自在…在这样植被稀疏的地方，任何威胁都能在数英里外看到。
+					LikeBiome: 啊，我感到很自在……在这样植被稀疏的地方，任何威胁都能在数英里外看到。
 					DislikeBiome: 那是什么声音？我离沙漠好远，到处都是讨厌的虫子和烂泥！
-					HateBiome: 完全不对…不要…帮我离开这里！
+					HateBiome: 完全不对……不要……帮我离开这里！
 					LikeNPC: 啊，有{NPCName}在我旁边让我感觉安全多了！
-					DislikeNPC: 让{NPCName}在这里完全就是找麻烦…
-					HateNPC: 我知道它们没有恶意，但是我实在是受不了{NPCName}.在我旁边。我和他们的同类之间有过一些不好的回忆。
-					LikeNPC_Princess: 这种奇怪的感觉…我保护{NPCName}的欲望竟然胜过保护自己！
+					DislikeNPC: 让{NPCName}在这里完全就是找麻烦……
+					HateNPC: 我知道它们没有恶意，但是我实在是受不了{NPCName}。在我旁边。我和他们的同类之间有过一些不好的回忆。
+					LikeNPC_Princess: 这种奇怪的感觉……我保护{NPCName}的欲望竟然胜过保护自己！
 					Princess_LovesNPC: "{NPCName}是镇上玩捉迷藏最好的人!"
 				}
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
-				Button2: 沙尘暴 ({^0:80 Silver;1 Gold})
+				Button2: 沙尘暴（{^0:80银;1金}）
 
 				Names: {
 					Ahmad: Ahmad
@@ -20359,28 +20352,28 @@ Mods: {
 
 			DissonanceSeer: {
 				DisplayName: 混沌预言者
-				BestiaryFlavorText: 被祝福的狂热法师们，他们追捕并攻击任何擅自进入神圣之地的人.
+				BestiaryFlavorText: 被祝福的狂热法师们，他们追捕并攻击任何擅自进入神圣之地的人。
 			}
 
 			Diverman: {
 				DisplayName: 潜水员
-				BestiaryFlavorText: 潜水员是个好奇的探险家，正在探索难以捉摸的深海。他愿意向你出售一些沉沦宝藏.
+				BestiaryFlavorText: 潜水员是个好奇的探险家，正在探索难以捉摸的深海。他愿意向你出售一些沉沦宝藏。
 
 				TownNPCMood: {
-					Content: 我很好，你呢?
+					Content: 我很好，你呢？
 					NoHome: 上次我没有家的时候，我和一个粉红色的胶状水母相处得很糟糕……
-					FarFromHome: 不用介意我，有了这个潜水装备，我在回家的路上应该没问题
-					LoveSpace: 我们可以多来几个熟悉的人，你不觉得吗?
+					FarFromHome: 不用介意我，有了这个潜水装备，我在回家的路上应该没问题。
+					LoveSpace: 我们可以多来几个熟悉的人，你不觉得吗？
 					DislikeCrowded: 虽然我和其他人一样喜欢这个人，但这里的人太多了？
-					HateCrowded: 周围这么吵，我没法好好思考。我需要自己的空间!
-					LikeBiome: 美丽的沙，美丽的水;一个潜水员还想要什么?
-					DislikeBiome: 沙漠? !这地方最糟了!蚁狮卵，仙人球，墓穴爬虫。让我说这个地方一开始腐蚀就好了…
-					HateBiome: 这个地方很邪恶，不是吗?
-					LoveNPC: 在深海被孤立这么长时间真的会让人心情不好。但{NPCName}总能给我带来微笑…
-					LikeNPC: 你可能不会相信，但是{NPCName}和我是老交情了。但他并不是一直都是在海水里, yunno'.
-					DislikeNPC: 那个蠢货，以为{NPCName}对海洋了解得那么多知识....
-					LikeNPC_Princess: 每个人似乎都喜欢{NPCName}…我不知道为什么.
-					Princess_LovesNPC: "{NPCName}讲述了海底的奇妙故事!"
+					HateCrowded: 周围这么吵，我没法好好思考。我需要自己的空间！
+					LikeBiome: 美丽的沙，美丽的水；一个潜水员还想要什么？
+					DislikeBiome: 沙漠？！这地方最糟了!蚁狮卵，仙人球，墓穴爬虫。让我说这个地方一开始腐蚀就好了……
+					HateBiome: 这个地方很邪恶，不是吗？
+					LoveNPC: 在深海被孤立这么长时间真的会让人心情不好。但{NPCName}总能给我带来微笑……
+					LikeNPC: 你可能不会相信，但是{NPCName}和我是老交情了。但他并不是一直都是在海水里，yunno'。
+					DislikeNPC: 那个蠢货，以为{NPCName}对海洋了解得那么多知识……
+					LikeNPC_Princess: 每个人似乎都喜欢{NPCName}……我不知道为什么。
+					Princess_LovesNPC: "{NPCName}讲述了海底的奇妙故事！"
 				}
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.QueenJellyfish.DisplayName}]
@@ -20412,23 +20405,23 @@ Mods: {
 
 			Druid: {
 				DisplayName: 德鲁伊
-				BestiaryFlavorText: 德鲁伊喜欢各种形状大小的植物。她会出售种子和其他自然物品来满足你的需要.
+				BestiaryFlavorText: 德鲁伊喜欢各种形状大小的植物。她会出售种子和其他自然物品来满足你的需要。
 
 				TownNPCMood: {
 					Content: 我精神很好，谢谢关心！
-					NoHome: 户外运动很棒...
-					FarFromHome: 哦,你好!我只是在这附近采些草药。远离家乡去探索总是很有趣的!
-					LoveSpace: 感觉就像一棵孤零零的树屹立在山顶上!
-					DislikeCrowded: 和植物交谈是件好事，但即使是它们也需要一些安静的时间.
-					HateCrowded: 这地方人太多了，每天都有人践踏我的草药!
-					LikeBiome: 嗯，你真的不应该感到惊讶我喜欢丛林，我几乎是在这里长大的
-					DislikeBiome: 这片雪地不适合种我的花! ...好吧，我想其中一个可以在这里生长，但这不是重点!
-					HateBiome: 我想在这样一个邪恶的地方有多少能开花
-					LikeNPC: 我还是个孩子的时候，我就一直想见树精。在这里找到{NPCName}是多么幸运啊!
-					DislikeNPC: 那个该死的{NPCName}总是用他的炸药把草点燃了.
-					HateNPC: *咳* *咳* .{NPCName}那些气体和烟雾装置让我头疼...
-					LikeNPC_Princess: "{NPCName}真是一朵小向日葵.来吧，你不能讨厌一个一唱歌就能让森林小动物蜂拥而至的小女孩！"
-					Princess_LovesNPC: "{NPCName}组装的花束最可爱了"
+					NoHome: 户外运动很棒……
+					FarFromHome: 哦，你好！我只是在这附近采些草药。远离家乡去探索总是很有趣的！
+					LoveSpace: 感觉就像一棵孤零零的树屹立在山顶上！
+					DislikeCrowded: 和植物交谈是件好事，但即使是它们也需要一些安静的时间。
+					HateCrowded: 这地方人太多了，每天都有人践踏我的草药！
+					LikeBiome: 嗯，你真的不应该感到惊讶我喜欢丛林，我几乎是在这里长大的。
+					DislikeBiome: 这片雪地不适合种我的花！……好吧，我想其中一个可以在这里生长，但这不是重点！
+					HateBiome: 我想在这样一个邪恶的地方有多少能开花。
+					LikeNPC: 我还是个孩子的时候，我就一直想见树精。在这里找到{NPCName}是多么幸运啊！
+					DislikeNPC: 那个该死的{NPCName}总是用他的炸药把草点燃了。
+					HateNPC: *咳**咳*。{NPCName}那些气体和烟雾装置让我头疼……
+					LikeNPC_Princess: "{NPCName}真是一朵小向日葵。来吧，你不能讨厌一个一唱歌就能让森林小动物蜂拥而至的小女孩！"
+					Princess_LovesNPC: "{NPCName}组装的花束最可爱了。"
 				}
 
 				Census.SpawnCondition: 在骷髅王后的丛林击败[c/4dffb8:{$NPCs.CorpseBloom.DisplayName}]
@@ -20459,17 +20452,17 @@ Mods: {
 
 			EarthenBat: {
 				DisplayName: 大地蝙蝠
-				BestiaryFlavorText: 一种被大地自身增幅的不常见的蝙蝠物种。它喜欢坐在天花板上等待下一顿饭的到来.
+				BestiaryFlavorText: 一种被大地自身增幅的不常见的蝙蝠物种。它喜欢坐在天花板上等待下一顿饭的到来。
 			}
 
 			EarthenGolem: {
 				DisplayName: 大地魔像
-				BestiaryFlavorText: "这堆有感知的石头可以释放沿洞穴墙壁移动的地震猛击，将石头雨点般地砸向受害者的头. "
+				BestiaryFlavorText: 这堆有感知的石头可以释放沿洞穴墙壁移动的地震猛击，将石头雨点般地砸向受害者的头。
 			}
 
 			EpiDermon: {
 				DisplayName: 鲜血恶魔
-				BestiaryFlavorText: 猩红之地阴险影响的证明。没有什么在它传播后是安全的，即便是恶魔.
+				BestiaryFlavorText: 猩红之地阴险影响的证明。没有什么在它传播后是安全的，即便是恶魔。
 			}
 
 			FireAnt: {
@@ -20479,22 +20472,22 @@ Mods: {
 
 			FlamekinCaster: {
 				DisplayName: 爆炎投手
-				BestiaryFlavorText: 一种奇异的生物，利用洞穴深处熔岩池的力量召唤爆炸性的火蝙蝠.
+				BestiaryFlavorText: 一种奇异的生物，利用洞穴深处熔岩池的力量召唤爆炸性的火蝙蝠。
 			}
 
 			Freezer: {
 				DisplayName: 冰冻噬魂者
-				BestiaryFlavorText: 腐化雪地的居民使用强劲的冷酸狩猎，它会让你内部灼烧而外部寒冷.
+				BestiaryFlavorText: 腐化雪地的居民使用强劲的冷酸狩猎，它会让你内部灼烧而外部寒冷。
 			}
 
 			FrostFangWall: {
 				DisplayName: 寒牙蛛
-				BestiaryFlavorText: 一种发射冰而不是网的冰冻蜘蛛。不是因为它不能，而是寻找一个主题，你知道吗?
+				BestiaryFlavorText: 一种发射冰而不是网的冰冻蜘蛛。不是因为它不能，而是寻找一个主题，你知道吗？
 			}
 
 			FrostWurmHead: {
 				DisplayName: 冰冻腐虫
-				BestiaryFlavorText: 虽然在冰雪中挖掘比黑檀石块中更容易，但这些寒冷的吞噬者的杀人效率并没有降低.
+				BestiaryFlavorText: 虽然在冰雪中挖掘比黑檀石块中更容易，但这些寒冷的吞噬者的杀人效率并没有降低。
 			}
 
 			FrozenFace: {
@@ -20504,57 +20497,57 @@ Mods: {
 
 			FrozenGross: {
 				DisplayName: 冻霜幽魂
-				BestiaryFlavorText: 毫无疑问，这些冰冻猩红之地深处的颤栗恐怖之物是既冰冻又恶心的.
+				BestiaryFlavorText: 毫无疑问，这些冰冻猩红之地深处的颤栗恐怖之物是既冰冻又恶心的。
 			}
 
 			GelatinousCube: {
 				DisplayName: 凝胶块
-				BestiaryFlavorText: 由地牢潮湿光环形成的大量贪吃的史莱姆。由于罪恶很重而失去了跳跃的能力.
+				BestiaryFlavorText: 由地牢潮湿光环形成的大量贪吃的史莱姆。由于罪恶很重而失去了跳跃的能力。
 			}
 
 			GelatinousSludge: {
 				DisplayName: 胶泥史莱姆
-				BestiaryFlavorText: 从凝胶块中分裂出的后代。无视父亲的罪恶而重新获得了跳跃的能力.
+				BestiaryFlavorText: 从凝胶块中分裂出的后代。无视父亲的罪恶而重新获得了跳跃的能力。
 			}
 
 			GildedBat: {
 				DisplayName: 镀金蝙蝠
-				BestiaryFlavorText: 这种稀有的蝙蝠物种又大又强壮，可以在翅膀上带着密度大的宝贵金属飞行也能撕碎猎捕它们的莽撞探险家.
+				BestiaryFlavorText: 这种稀有的蝙蝠物种又大又强壮，可以在翅膀上带着密度大的宝贵金属飞行也能撕碎猎捕它们的莽撞探险家。
 			}
 
 			GildedLycan: {
 				DisplayName: 镀金狼人
-				BestiaryFlavorText: "尽管据说狼人对银很弱，但考虑到这些盲目兽人的存在，对金这样显然不成立. "
+				BestiaryFlavorText: 尽管据说狼人对银很弱，但考虑到这些盲目兽人的存在，对金这样显然不成立。
 			}
 
 			GildedSlime: {
 				DisplayName: 镀金史莱姆
-				BestiaryFlavorText: 一种伪装成更加难以捉摸的金史莱姆的史莱姆，会整个吞噬那些贪婪的寻宝人.
+				BestiaryFlavorText: 一种伪装成更加难以捉摸的金史莱姆的史莱姆，会整个吞噬那些贪婪的寻宝人。
 			}
 
 			GildedSlimeling: {
 				DisplayName: 镀金史莱姆丁
-				BestiaryFlavorText: 在摄入大量生金以达到闪光伪装状态后，镀金史莱姆的幼崽也携带了一些剩余矿石也就不足为奇了.
+				BestiaryFlavorText: 在摄入大量生金以达到闪光伪装状态后，镀金史莱姆的幼崽也携带了一些剩余矿石也就不足为奇了。
 			}
 
 			GlitteringGolem: {
 				DisplayName: 闪光魔像
-				BestiaryFlavorText: 一个巨大的充满祝福发大地元素。它的大水晶给神圣之地带来了额外的小闪光.
+				BestiaryFlavorText: 一个巨大的充满祝福发大地元素。它的大水晶给神圣之地带来了额外的小闪光。
 			}
 
 			GoblinDrummer: {
 				DisplayName: 哥布林鼓手
-				BestiaryFlavorText: 这些鼓手用恶毒的节拍预示着哥布林军队的到来，并增强它们哥布林同伴的活力.
+				BestiaryFlavorText: 这些鼓手用恶毒的节拍预示着哥布林军队的到来，并增强它们哥布林同伴的活力。
 			}
 
 			GoblinSpiritGuide: {
 				DisplayName: 哥布林灵魂导师
-				BestiaryFlavorText: 有了神秘的巫术，这些高等级萨满可以召唤最近死去的哥布林以继续它们的掠夺.
+				BestiaryFlavorText: 有了神秘的巫术，这些高等级萨满可以召唤最近死去的哥布林以继续它们的掠夺。
 			}
 
 			GoblinTrapper: {
 				DisplayName: 哥布林布陷者
-				BestiaryFlavorText: 世界上为数不多的真正选择使用它们同类携带的尖球的哥布林.
+				BestiaryFlavorText: 世界上为数不多的真正选择使用它们同类携带的尖球的哥布林。
 			}
 
 			GoldDuck: {
@@ -20564,7 +20557,7 @@ Mods: {
 
 			CoalescedEnergy: {
 				DisplayName: 流能嵌合体
-				BestiaryFlavorText: 一个充满能量的屏障，试图转移朝向释放的能量风暴核心的攻击.
+				BestiaryFlavorText: 一个充满能量的屏障，试图转移朝向释放的能量风暴核心的攻击。
 			}
 
 			EncroachingEnergy.DisplayName: 流能扰蚀体
@@ -20574,51 +20567,51 @@ Mods: {
 			GraniteEnergyStorm: {
 				DisplayName: 花岗岩流能风暴
 				BestiaryFlavorText: 花岗岩洞中无法控制的能量涌动中心。受到了骷髅王诅咒消失的影响.
-				BossChecklistIntegration.SpawnInfo: 在花岗岩洞使用[i:ThoriumMod/UnstableCore]召唤 Boss，如果区域内有不稳定的反常流能，不稳定核心不会生效。
+				BossChecklistIntegration.SpawnInfo: 在花岗岩洞使用[i:ThoriumMod/UnstableCore]召唤Boss，如果区域内有不稳定的反常流能，不稳定核心不会生效。
 			}
 
 			UnstableEnergyAnomaly: {
 				DisplayName: 不稳定的反常流能
-				BestiaryFlavorText: 一团从地面裂开的能量；看起来如果搅动它，它会爆炸.
+				BestiaryFlavorText: 一团从地面裂开的能量；看起来如果搅动它，它会爆炸。
 			}
 
 			GraniteEradicator: {
 				DisplayName: 花岗岩根除者
-				BestiaryFlavorText: 这个疯狂的元素狂野地挥舞着它的两对能量手臂。7年来从未输过一场掰手腕.
+				BestiaryFlavorText: 这个疯狂的元素狂野地挥舞着它的两对能量手臂。7年来从未输过一场掰手腕。
 			}
 
 			GraniteFusedSlime: {
 				DisplayName: 融岩史莱姆
-				BestiaryFlavorText: 一种充满了花岗岩洞不稳定能量的史莱姆。配备一套很酷的岩石盔甲.
+				BestiaryFlavorText: 一种充满了花岗岩洞不稳定能量的史莱姆。配备一套很酷的岩石盔甲。
 			}
 
 			GraniteSurger: {
 				DisplayName: 花岗岩奔涌者
-				BestiaryFlavorText: 一种不受控制的大地元素，会将花岗岩的磁性碎片推向那些打搅花岗岩洞的人.
+				BestiaryFlavorText: 一种不受控制的大地元素，会将花岗岩的磁性碎片推向那些打搅花岗岩洞的人。
 			}
 
 			HealingDummy.DisplayName: 治疗假人
 
 			HellBringerMimic: {
 				DisplayName: 地狱宝箱怪
-				BestiaryFlavorText: 被该死的灵魂包裹的宝箱怪获得了难以置信的力量。它们可以通过外部力量从普通的宝箱中诞生.
+				BestiaryFlavorText: 被该死的灵魂包裹的宝箱怪获得了难以置信的力量。它们可以通过外部力量从普通的宝箱中诞生。
 			}
 
 			HoppingSpider: {
 				DisplayName: 跃行蛛
-				BestiaryFlavorText: 这小东西喜欢大快朵颐那些误闯它们巢穴附近的洞穴探险者.
+				BestiaryFlavorText: 这小东西喜欢大快朵颐那些误闯它们巢穴附近的洞穴探险者。
 			}
 
 			HorrificCharger: {
 				DisplayName: 恐怖突袭者
-				BestiaryFlavorText: 腐化之地的小型狩猎者擅长快速加速，它们一看到可能的猎物的那一刻就会不计后果不放弃地冲刺.
+				BestiaryFlavorText: 腐化之地的小型狩猎者擅长快速加速，它们一看到可能的猎物的那一刻就会不计后果不放弃地冲刺。
 			}
 
 			IllusionGlass.DisplayName: 幻象玻璃块
 
 			Illusionist: {
 				DisplayName: 幻术师
-				BestiaryFlavorText: 一个先于地牢出现的骗子。它利用虚假对手的幻象，让一个古代的暴君用可怕的诅咒毁灭了他的王国.
+				BestiaryFlavorText: 一个先于地牢出现的骗子。它利用虚假对手的幻象，让一个古代的暴君用可怕的诅咒毁灭了他的王国。
 				BossChecklistIntegration.SpawnInfo: 在地牢发现的迷你Boss（生命体分析机可以检测到）。可以从迷途僵尸处购买[i:ThoriumMod/IllusionaryGlass]再次进行召唤
 			}
 
@@ -20626,17 +20619,17 @@ Mods: {
 
 			InfernalHound: {
 				DisplayName: 地狱犬
-				BestiaryFlavorText: 喜欢给每一个它看到的人一个熔岩般的亲吻。真是该死的人类的最好朋友.
+				BestiaryFlavorText: 喜欢给每一个它看到的人一个熔岩般的亲吻。真是该死的人类的最好朋友。
 			}
 
 			LeFantome: {
 				DisplayName: 幽灵
-				BestiaryFlavorText: 这位戴面具的音乐家因外表被泰拉人拒之门外，它用一首迷人的歌曲增幅了与他结盟的食尸鬼.
+				BestiaryFlavorText: 这位戴面具的音乐家因外表被泰拉人拒之门外，它用一首迷人的歌曲增幅了与他结盟的食尸鬼。
 			}
 
 			Lich: {
 				DisplayName: 巫妖
-				BestiaryFlavorText: 生命亵渎者的尸体门徒，总是在狩猎更多的灵魂加入收藏.
+				BestiaryFlavorText: 生命亵渎者的尸体门徒，总是在狩猎更多的灵魂加入收藏。
 
 				BossChecklistIntegration: {
 					SpawnInfo: 使用[i/s{0}:{1}]在自然墓地的远古护身符召唤.（三王后的夜晚）
@@ -20646,13 +20639,13 @@ Mods: {
 
 			PhylacteryofaThousandSouls: {
 				DisplayName: 万魂匣
-				BestiaryNameOverride: 1000 Soul Phylactery
-				BestiaryFlavorText: 巫妖的永生之源。里面肯定不止一千个灵魂，但巫妖已经记不清这点了.
+				BestiaryNameOverride: 千魂匣
+				BestiaryFlavorText: 巫妖的永生之源。里面肯定不止一千个灵魂，但巫妖已经记不清这点了。
 			}
 
 			LifeCrystalMimic: {
 				DisplayName: 生命水晶宝箱怪
-				BestiaryFlavorText: 泰拉瑞亚的力量有着一种病态的幽默感.
+				BestiaryFlavorText: 泰拉瑞亚的力量有着一种病态的幽默感。
 			}
 
 			LihzardMimic: {
@@ -20662,22 +20655,22 @@ Mods: {
 
 			LihzardPotMimic1: {
 				DisplayName: 神庙罐
-				BestiaryFlavorText: 神秘的神庙对可能的潜入者设置的误导性陷阱.
+				BestiaryFlavorText: 神秘的神庙对可能的潜入者设置的误导性陷阱。
 			}
 
 			LivingHemorrhage: {
 				DisplayName: 活体血溢怪
-				BestiaryFlavorText: 由猩红之地的血肉形成的可怕肿瘤。看起来不会轻易倒下.
+				BestiaryFlavorText: 由猩红之地的血肉形成的可怕肿瘤。看起来不会轻易倒下。
 			}
 
 			Lycan: {
 				DisplayName: 狼人
-				BestiaryFlavorText: 一种体型更大的狼人，在接近死亡时会变得更愤怒。被咬之前可能是个健美运动员.
+				BestiaryFlavorText: 一种体型更大的狼人，在接近死亡时会变得更愤怒。被咬之前可能是个健美运动员。
 			}
 
 			MahoganyEnt: {
 				DisplayName: 红木树人
-				BestiaryFlavorText: 一群有知觉的红木，寻求通过致命手段保护丛林植物群.
+				BestiaryFlavorText: 一群有知觉的红木，寻求通过致命手段保护丛林植物群。
 			}
 
 			MartianScout: {
@@ -20687,42 +20680,42 @@ Mods: {
 
 			MartianSentry: {
 				DisplayName: 火星哨兵
-				BestiaryFlavorText: 台陪伴来访的火星监察者的防御性机器.
+				BestiaryFlavorText: 台陪伴来访的火星监察者的防御性机器。
 			}
 
 			MoltenMortar: {
 				DisplayName: 狱炎炮龟
-				BestiaryFlavorText: 一种高度变异的熔岩蜗牛，获得了向猎物发射燃烧碎块的能力.
+				BestiaryFlavorText: 一种高度变异的熔岩蜗牛，获得了向猎物发射燃烧碎块的能力。
 			}
 
 			MossWasp: {
 				DisplayName: 苔藓黄蜂
-				BestiaryFlavorText: 这只黄蜂充满了过量的花粉能量，导致攻击性和速度大幅增加.
+				BestiaryFlavorText: 这只黄蜂充满了过量的花粉能量，导致攻击性和速度大幅增加。
 			}
 
 			MudMan: {
 				DisplayName: 泥人
-				BestiaryFlavorText: 一个从丛林的泥中诞生的初级生命体，只知道保卫家园.
+				BestiaryFlavorText: 一个从丛林的泥中诞生的初级生命体，只知道保卫家园。
 			}
 
 			MyceliumMimic: {
 				DisplayName: 真菌宝箱怪
-				BestiaryFlavorText: 由发光蘑菇的营养物质喂食的宝箱怪获得了增强的能力。它们可以通过外部力量从普通的宝箱中诞生.
+				BestiaryFlavorText: 由发光蘑菇的营养物质喂食的宝箱怪获得了增强的能力。它们可以通过外部力量从普通的宝箱中诞生。
 			}
 
 			Myna: {
 				DisplayName: 八哥
-				BestiaryFlavorText: 一只无辜且稀有的鸟，如果你能抓住他，它可能会跟着你.
+				BestiaryFlavorText: 一只无辜且稀有的鸟，如果你能抓住他，它可能会跟着你。
 			}
 
 			NecroPot: {
 				DisplayName: 死灵魂罐
-				BestiaryFlavorText: 地牢内蕴藏着极大数量的精神能量。一些能量决定拥有一两个罐子，这不足为奇.
+				BestiaryFlavorText: 地牢内蕴藏着极大数量的精神能量。一些能量决定拥有一两个罐子，这不足为奇。
 			}
 
 			Nestling: {
 				DisplayName: 雏鸟
-				BestiaryFlavorText: 一种喜欢与鸟妖同居的鸟类，照顾幼鸟并向好奇的泰拉人攻击.
+				BestiaryFlavorText: 一种喜欢与鸟妖同居的鸟类，照顾幼鸟并向好奇的泰拉人攻击。
 			}
 
 			OpalBunny: {
@@ -20737,7 +20730,7 @@ Mods: {
 
 			PeculiarMirror: {
 				DisplayName: 怪异镜子
-				BestiaryFlavorText: 地牢里一面看起来平常的镜子。如果你离它更近一点肯定不会发生什么坏事，对吧?
+				BestiaryFlavorText: 地牢里一面看起来平常的镜子。如果你离它更近一点肯定不会发生什么坏事，对吧？
 				Button: 触摸
 				WarningFallback: 有什么东西要来了！
 			}
@@ -20745,7 +20738,7 @@ Mods: {
 			Aquaius: {
 				DisplayName: 永劫狂潮·潮汐之灵
 				BestiaryNameOverride: 潮汐之灵
-				BestiaryFlavorText: 作为无尽的现实浪潮，潮汐之灵代表了宇宙中所有的推拉运动。它会审判那些它认为值得注意的人.
+				BestiaryFlavorText: 作为无尽的现实浪潮，潮汐之灵代表了宇宙中所有的推拉运动。它会审判那些它认为值得注意的人。
 			}
 
 			AquaiusBubble.DisplayName: 海洋泡泡
@@ -20756,7 +20749,7 @@ Mods: {
 			Omnicide: {
 				DisplayName: 噬元凶灾·毁灭之灵
 				BestiaryNameOverride: 毁灭之灵
-				BestiaryFlavorText: 作为现实的生命亵渎者，毁灭之灵代表了宇宙中的所有转变。它会审判那些它认为值得注意的人.
+				BestiaryFlavorText: 作为现实的生命亵渎者，毁灭之灵代表了宇宙中的所有转变。它会审判那些它认为值得注意的人。
 			}
 
 			DreamEater: {
@@ -20772,35 +20765,35 @@ Mods: {
 			SlagFury: {
 				DisplayName: 原初烈火·戮焰之灵
 				BestiaryNameOverride: 戮焰之灵
-				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人.	
+				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人。
 			}
 
 			UnstableAnger.DisplayName: 动荡之怒火
 
 			DistractingJellyfish: {
 				DisplayName: 迷乱水母
-				BestiaryFlavorText: 一只蓝色的水母，喜欢替它的皇后受击.
+				BestiaryFlavorText: 一只蓝色的水母，喜欢替它的皇后受击。
 			}
 
 			QueenJellyfish: {
 				DisplayName: 水母皇后
-				BestiaryFlavorText: 曾经是一只正常的水母，黑暗最深处的某些东西使它的大小，力量和攻击性膨胀了.
-				BossChecklistIntegration.SpawnInfo: 在白天靠近海洋时，使用[i:ThoriumMod/JellyfishResonator]召唤.
+				BestiaryFlavorText: 曾经是一只正常的水母，黑暗最深处的某些东西使它的大小，力量和攻击性膨胀了。
+				BossChecklistIntegration.SpawnInfo: 在白天靠近海洋时，使用[i:ThoriumMod/JellyfishResonator]召唤。
 			}
 
 			SpittingJellyfish: {
 				DisplayName: 唾沫水母
-				BestiaryFlavorText: 一只黄色的水母，喜欢替它的皇后向敌怪吐泡泡.
+				BestiaryFlavorText: 一只黄色的水母，喜欢替它的皇后向敌怪吐泡泡。
 			}
 
 			ZealousJellyfish: {
 				DisplayName: 狂热水母
-				BestiaryFlavorText: 一只红色的水母，喜欢为它的皇后冲撞敌怪.
+				BestiaryFlavorText: 一只红色的水母，喜欢为它的皇后冲撞敌怪。
 			}
 
 			RagingMinotaur: {
 				DisplayName: 暴走米诺陶
-				BestiaryFlavorText: 这些公牛在迷宫般的地牢大厅内游荡，带着足够的力量冲向他们并让那些不幸受击的人踉跄.
+				BestiaryFlavorText: 这些公牛在迷宫般的地牢大厅内游荡，带着足够的力量冲向他们并让那些不幸受击的人踉跄。
 			}
 
 			ScissorStalker: {
@@ -20810,7 +20803,7 @@ Mods: {
 
 			BioCore: {
 				DisplayName: 生命核心
-				BestiaryFlavorText: 一种保护性探测器，旨在消灭所有分散旗舰注意力的存在.
+				BestiaryFlavorText: 一种保护性探测器，旨在消灭所有分散旗舰注意力的存在。
 			}
 
 			CryoCore: {
@@ -20825,8 +20818,8 @@ Mods: {
 
 			StarScouter: {
 				DisplayName: 星际监察者
-				BestiaryFlavorText: 来自遥远星球的观测船。它的基本防御措施对这个世界的标准来说是难以置信的高科技.
-				BossChecklistIntegration.SpawnInfo: 在天空使用[i:ThoriumMod/StarCaller]召唤.
+				BestiaryFlavorText: 来自遥远星球的观测船。它的基本防御措施对这个世界的标准来说是难以置信的高科技。
+				BossChecklistIntegration.SpawnInfo: 在天空使用[i:ThoriumMod/StarCaller]召唤。
 			}
 
 			SeaShantySinger: {
@@ -20836,12 +20829,12 @@ Mods: {
 
 			ShadowflameRevenant: {
 				DisplayName: 影炎归行者
-				BestiaryFlavorText: 死亡哥布林被复活后的战斗意志。看起来它们对战利品的需求在死后仍存在.
+				BestiaryFlavorText: 死亡哥布林被复活后的战斗意志。看起来它们对战利品的需求在死后仍存在。
 			}
 
 			Shambler: {
 				DisplayName: 蹒跚者
-				BestiaryFlavorText: 过去被践踏的囚犯，这些带着镣铐的骷髅会很乐意将它们的负担强加给最终的征服者.
+				BestiaryFlavorText: 过去被践踏的囚犯，这些带着镣铐的骷髅会很乐意将它们的负担强加给最终的征服者。
 			}
 
 			SnowBall: {
@@ -20851,53 +20844,53 @@ Mods: {
 
 			SnowEater: {
 				DisplayName: 冰雪吞噬者
-				BestiaryFlavorText: 即使是寒冷无比也无法阻止这些恶毒的东西对弱者的盛宴.
+				BestiaryFlavorText: 即使是寒冷无比也无法阻止这些恶毒的东西对弱者的盛宴。
 			}
 
 			SnowFlinxMatriarch: {
 				DisplayName: 雪怪族长
-				BestiaryFlavorText: 奇怪生物的奇怪领导者。它们倾向于将它们的幼崽以及各种东西放进它们的皮毛。奇怪.
+				BestiaryFlavorText: 奇怪生物的奇怪领导者。它们倾向于将它们的幼崽以及各种东西放进它们的皮毛。奇怪。
 			}
 
 			SnowSinga: {
 				DisplayName: 雪人歌王
-				BestiaryFlavorText: 乍一看，这个黑手党似乎在庆祝。实际上，它正在激励它的同伙把你放在冰上.
+				BestiaryFlavorText: 乍一看，这个黑手党似乎在庆祝。实际上，它正在激励它的同伙把你放在冰上。
 			}
 
 			SoulCorrupter: {
 				DisplayName: 灵魂腐蚀者
-				BestiaryFlavorText: 腐化之地阴险影响的证明。没有什么在它传播后是安全的，即便是恶魔.
+				BestiaryFlavorText: 腐化之地阴险影响的证明。没有什么在它传播后是安全的，即便是恶魔。
 			}
 
 			SpaceSlime: {
 				DisplayName: 太空史莱姆
-				BestiaryFlavorText: 显然其他行星上也存在史莱姆。谁知道呢?
+				BestiaryFlavorText: 显然其他行星上也存在史莱姆。谁知道呢？
 			}
 
 			Spectrumite: {
 				DisplayName: 魂晶
-				BestiaryFlavorText: 一个过度生长的水晶碎片变成了哨兵，负责处理那些游手好闲的进入神圣之地的泰拉人.
+				BestiaryFlavorText: 一个过度生长的水晶碎片变成了哨兵，负责处理那些游手好闲的进入神圣之地的泰拉人。
 			}
 
 			Spiritualist: {
 				DisplayName: 牧师
-				BestiaryFlavorText: 牧师相信内心宁静的力量。对治疗队友感兴趣的泰拉人会从他那里学到很多.
+				BestiaryFlavorText: 牧师相信内心宁静的力量。对治疗队友感兴趣的泰拉人会从他那里学到很多。
 
 				TownNPCMood: {
-					Content: 我的灵魂是平衡的，朋友.
+					Content: 我的灵魂是平衡的，朋友。
 					NoHome: 对于像我这样的人来说，房子是一种奢侈品，但如果你能给我一个，我非常感激
 					FarFromHome: 不是所有的流浪者都迷路了，我的朋友
 					LoveSpace: 这里很好，很平静，我的朋友。
 					DislikeCrowded: 我觉得其他人有点不舒服。我认为他们需要更多的空间
 					HateCrowded: 这里感到很拥挤，但我们都需要自己的空间来成长。
-					LikeBiome: 啊，现在这是一个充满灵魂能量的地方.
-					DislikeBiome: 我越深入地下，越能感受到来自地下的黑暗能量...我不喜欢这种感觉.
-					HateBiome: 这里的灵魂怎么了...
-					LoveNPC: .{NPCName}给我剪了最好的发型。她真的会帮助我表达！.
-					LikeNPC: .{NPCName}昨晚整晚都在讨论问题。他聪明的脑袋。
-					DislikeNPC: 虽然他决定和我同盟，但{NPCName}仍然是个恶魔。恶魔以说谎为名，我的朋友....
-					HateNPC: .{NPCName}只是一个自以为是的人...我们永远不能好好相处.
-					LikeNPC_Princess: "{NPCName}开朗的纯真让每个人都精神振奋."
+					LikeBiome: 啊，现在这是一个充满灵魂能量的地方。
+					DislikeBiome: 我越深入地下，越能感受到来自地下的黑暗能量……我不喜欢这种感觉。
+					HateBiome: 这里的灵魂怎么了……
+					LoveNPC: "{NPCName}给我剪了最好的发型。她真的会帮助我表达！"
+					LikeNPC: "{NPCName}昨晚整晚都在讨论问题。他聪明的脑袋。"
+					DislikeNPC: 虽然他决定和我同盟，但{NPCName}仍然是个恶魔。恶魔以说谎为名，我的朋友……
+					HateNPC: "{NPCName}只是一个自以为是的人……我们永远不能好好相处"
+					LikeNPC_Princess: "{NPCName}开朗的纯真让每个人都精神振奋。"
 					Princess_LovesNPC: "{NPCName}身上有一种温和的气息"
 				}
 
@@ -20935,22 +20928,22 @@ Mods: {
 
 			SunPriestess: {
 				DisplayName: 太阳祭司
-				BestiaryFlavorText: 一只充满了太阳能量的丛林蜥蜴。在黑暗的神庙大厅内是一盏很好的夜灯.
+				BestiaryFlavorText: 一只充满了太阳能量的丛林蜥蜴。在黑暗的神庙大厅内是一盏很好的夜灯。
 			}
 
 			TarantulaWall: {
 				DisplayName: 狼蛛
-				BestiaryFlavorText: 一种高度防御的蛛形纲物种，受到威胁时会释放尖刺。可能有豪猪的DNA.
+				BestiaryFlavorText: 一种高度防御的蛛形纲物种，受到威胁时会释放尖刺。可能有豪猪的DNA。
 			}
 
 			TempleGuardian: {
 				DisplayName: 神庙守卫
-				BestiaryFlavorText: 一种太阳能自动机器，被设计来以极端的偏见监视和保护神秘的神庙大厅.
+				BestiaryFlavorText: 一种太阳能自动机器，被设计来以极端的偏见监视和保护神秘的神庙大厅。
 			}
 
 			TheInnocent: {
 				DisplayName: 污魂兔
-				BestiaryFlavorText: 在腐化之地的黑暗蔓延到它之前，这只无辜的生物曾在泰拉瑞亚的森林里漫游.
+				BestiaryFlavorText: 在腐化之地的黑暗蔓延到它之前，这只无辜的生物曾在泰拉瑞亚的森林里漫游。
 			}
 
 			TheStarved: {
@@ -20960,7 +20953,7 @@ Mods: {
 
 			StormHatchling: {
 				DisplayName: 小雷鹰
-				BestiaryFlavorText: 青年雷鹰的带电幻影.
+				BestiaryFlavorText: 青年雷鹰的带电幻影。
 			}
 
 			TheGrandThunderBird: {
@@ -20971,29 +20964,29 @@ Mods: {
 
 			Tracker: {
 				DisplayName: 赏金猎人
-				BestiaryFlavorText: 赏金猎人属于一个致力于寻找和处理稀有生物的战士团。你们可以互帮互助.
+				BestiaryFlavorText: 赏金猎人属于一个致力于寻找和处理稀有生物的战士团。你们可以互帮互助。
 
 				TownNPCMood: {
-					Content: 孩子，我现在不能抱怨太多，不是吗?
-					NoHome: 有了一个家，我们就可以开始开始狩猎一些稀有怪物。.
-					FarFromHome: 嘿，孩子。你在这里安全吗?
+					Content: 孩子，我现在不能抱怨太多，不是吗？
+					NoHome: 有了一个家，我们就可以开始开始狩猎一些稀有怪物。
+					FarFromHome: 嘿，孩子。你在这里安全吗？
 					LoveSpace: 现在我有足够的空间来使用这把斧头，再不用担心打到其他人，太棒了！
-					DislikeCrowded: 我开始觉得有点幽闭恐惧症了…
-					HateCrowded: 以我的体型在这个地方行走已经很艰难的了，这里人太多了!
-					LikeBiome: 嗯.这里有家的感觉，周围都是雪。我的族人喜欢寒冷的北方.
-					DislikeBiome: 在这么安全的地方开始追捕怪物是件痛苦的事.
-					HateBiome: 我想说“让我们开始谈正事吧”，但这里太危险了…
-					LoveNPC: 如果镇上有谁能在扳手腕比赛中与我一较高下, 那就是{NPCName}. 爱死这个家伙了!
-					LikeNPC: 如果这里有我可以信赖的, 那就是 {NPCName}.
-					DislikeNPC: "{NPCName}只是不停地说不要弄脏他的长袍, 而不是完善工作。我不喜欢这样的人。”."
-					HateNPC: "{NPCName}就是不明白声望和战斗的重要性, 这让我很烦躁."
-					LikeNPC_Princess: 这就是我做这些的原因. 保护像{NPCName}这样的无辜儿童.
-					Princess_LovesNPC: 让{NPCName}骑在我背上时, 我感觉自己很高大!
+					DislikeCrowded: 我开始觉得有点幽闭恐惧症了……
+					HateCrowded: 以我的体型在这个地方行走已经很艰难的了，这里人太多了！
+					LikeBiome: 嗯.这里有家的感觉，周围都是雪。我的族人喜欢寒冷的北方。
+					DislikeBiome: 在这么安全的地方开始追捕怪物是件痛苦的事。
+					HateBiome: 我想说“让我们开始谈正事吧”，但这里太危险了……
+					LoveNPC: 如果镇上有谁能在扳手腕比赛中与我一较高下，那就是{NPCName}。爱死这个家伙了！
+					LikeNPC: 如果这里有我可以信赖的，那就是{NPCName}。
+					DislikeNPC: "{NPCName}只是不停地说不要弄脏他的长袍，而不是完善工作。我不喜欢这样的人。"
+					HateNPC: "{NPCName}就是不明白声望和战斗的重要性，这让我很烦躁。"
+					LikeNPC_Princess: 这就是我做这些的原因。保护像{NPCName}这样的无辜儿童。
+					Princess_LovesNPC: 让{NPCName}骑在我背上时，我感觉自己很高大！
 				}
 
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
 				Button: 使用勋章
-				Button2: 合同
+				Button2: 可用合同
 
 				Names: {
 					Aaron: Aaron
@@ -21021,43 +21014,43 @@ Mods: {
 
 			UFO: {
 				DisplayName: U.F.O.
-				BestiaryFlavorText: 外星势力派出的小型探测器，探索它们认为值得征服的行星的表面.
+				BestiaryFlavorText: 外星势力派出的小型探测器，探索它们认为值得征服的行星的表面。
 			}
 
 			UnderworldPot1: {
 				DisplayName: 地狱罐
-				BestiaryFlavorText: 这只宝箱怪认为曾经的地狱是多么的荒芜和空荡，它能获得一些和平和安静。现在它只是很生气.
+				BestiaryFlavorText: 这只宝箱怪认为曾经的地狱是多么的荒芜和空荡，它能获得一些和平和安静。现在它只是很生气。
 			}
 
 			VileFloater: {
 				DisplayName: 邪恶浮灵
-				BestiaryFlavorText: 癌变从黑魔法中获得知觉，它们会将毒性唾液降落到那些做出错误外出选择的人头上.
+				BestiaryFlavorText: 癌变从黑魔法中获得知觉，它们会将毒性唾液降落到那些做出错误外出选择的人头上。
 			}
 
 			WeaponMaster: {
 				DisplayName: 武器大师
-				BestiaryFlavorText: 武器大师是个站在正义力量一边的恶魔流放者。别被他坚韧的举止骗了，他真的很软弱.
+				BestiaryFlavorText: 武器大师是个站在正义力量一边的恶魔流放者。别被他坚韧的举止骗了，他真的很软弱。
 
 				TownNPCMood: {
-					Content: ...我很好.
-					NoHome: 我会没事的，尽管我更想有个地方住...
-					FarFromHome: 不用担心我...
+					Content: ……我很好。
+					NoHome: 我会没事的，尽管我更想有个地方住……
+					FarFromHome: 不用担心我……
 					LoveSpace: 没有伤害其他人的意思，我确实喜欢我的房间。这样感觉好。
-					DislikeCrowded: 这里人太多了...
-					HateCrowded: 请告诉我你还有别的地方可以让我去…
+					DislikeCrowded: 这里人太多了……
+					HateCrowded: 请告诉我你还有别的地方可以让我去……
 					LikeBiome: 我很清楚，我不能去地狱……但这并没有阻止我
-					DislikeBiome: 这个地方让我想起了糟糕的记忆和我希望忘记的记忆.
-					HateBiome: 恶劣的地方。你最好有一把好武器...
-					LoveNPC: 熟悉的面孔总是受欢迎的。告诉{NPCName}我和她打过招呼.
-					LikeNPC: 和{NPCName}在一起我感到很自在. 感觉我们很相似...
-					DislikeNPC: .{NPCName}向其他人隐藏了真实的自己。我不喜欢这种缺乏诚实的行为...
-					HateNPC: 仅仅靠近{NPCName}就已经让我的灼烧身体了.
-					LikeNPC_Princess: "{NPCName}是如此乐观的，她可以让我的脸上露出笑容."
-					Princess_LovesNPC: "{NPCName}是一个可爱的人。在我冷的时候，他会为我生火!"
+					DislikeBiome: 这个地方让我想起了糟糕的记忆和我希望忘记的记忆。
+					HateBiome: 恶劣的地方。你最好有一把好武器……
+					LoveNPC: 熟悉的面孔总是受欢迎的。告诉{NPCName}我和她打过招呼。
+					LikeNPC: 和{NPCName}在一起我感到很自在。感觉我们很相似……
+					DislikeNPC: "{NPCName}向其他人隐藏了真实的自己。我不喜欢这种缺乏诚实的行为……"
+					HateNPC: 仅仅靠近{NPCName}就已经让我的灼烧身体了。
+					LikeNPC_Princess: "{NPCName}是如此乐观的，她可以让我的脸上露出笑容。"
+					Princess_LovesNPC: "{NPCName}是一个可爱的人。在我冷的时候，他会为我生火！"
 				}
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
-				Button2: 受雇恶魔 ({^0:80 Silver;1 Gold})
+				Button2: 受雇恶魔 ({^0:8金;10金})
 
 				Names: {
 					Bruzo: Bruzo
@@ -21086,7 +21079,7 @@ Mods: {
 
 			WindElemental: {
 				DisplayName: 风元素
-				BestiaryFlavorText: 漂浮在高空中的松散魔法偶尔会在这些激动的东西身上显现出来。它们能对不知情的泰拉人严重打击.
+				BestiaryFlavorText: 漂浮在高空中的松散魔法偶尔会在这些激动的东西身上显现出来。它们能对不知情的泰拉人严重打击。
 			}
 		}
 
@@ -21321,10 +21314,10 @@ Mods: {
 			UkulelePro.DisplayName: 尤克里里
 			ViciousMockeryPro.DisplayName: 恶意嘲讽
 			ViolinPro.DisplayName: 小提琴
-			VuvuzelaBluePro.DisplayName: 呜呜祖拉（蓝色）
-			VuvuzelaGreenPro.DisplayName: 呜呜祖拉（绿色）
-			VuvuzelaRedPro.DisplayName: 呜呜祖拉（红色）
-			VuvuzelaYellowPro.DisplayName: 呜呜祖拉（黄色）
+			VuvuzelaBluePro.DisplayName: 呜呜祖拉·蓝
+			VuvuzelaGreenPro.DisplayName: 呜呜祖拉·绿
+			VuvuzelaRedPro.DisplayName: 呜呜祖拉·红
+			VuvuzelaYellowPro.DisplayName: 呜呜祖拉·黄
 			WhistlePro.DisplayName: 木哨子
 			WindChimesPro.DisplayName: 风铃
 			WindChimesPro2.DisplayName: 风铃2
@@ -22867,13 +22860,13 @@ Mods: {
 			WorldEngineTile: {
 				MapEntry: 世界引擎
 				NoJourneyMode: 你无法在旅行模式使用它，请使用旅行模式的难度滑块
-				Consume: 消耗[i/s{0}:{1}] 来改变世界的难度
-				ChangeMode: 切换到 {0} 模式
+				Consume: 消耗[i/s{0}:{1}]来改变世界的难度
+				ChangeMode: 切换到{0}模式
 			}
 
 			AncientPhylactery: {
-				NightRequirement: 它似乎在等待夜幕降临…
-				MechBossRequirement: 它似乎在沉睡…
+				NightRequirement: 它似乎在等待夜幕降临……
+				MechBossRequirement: 它似乎在沉睡……
 			}
 		}
 
@@ -22886,115 +22879,115 @@ Mods: {
 
 		MonsterContracts: {
 			AlmostContract: {
-				Title: 未完待续...
-				Description: 完成其他合同以继续...
+				Title: 未完待续……
+				Description: 完成其他合同以继续……
 			}
 
 			BoneLeeContract: {
 				Title: 赏金猎人的终点
-				Description: 小子,我这有个私人合同给你...我一般不会请你做这种事,但听我说完。多年以前,我和我的搭档李小龙一起出去闯荡江湖.我俩当年可是所向披靡,直到我们在一次异常困难的任务里犯下了致命的错误。为了救我,他被困在了地牢里,现在早已化作了一具枯骨.至今我都没能原谅当时我独自苟活...求你了,进入地牢,让他饱受折磨的灵魂安息吧...
-				DescriptionCompleted: 你帮了我个大忙,我永生难忘。哎,我多么希望我能面对面地向他道歉...我相当肯定你已经拥有了超越了我们当年的实力。时代变了，小子，被你这样的后起之秀超过还真是发人深省.作为报酬,这些是李小龙当年用过的武器...你在战斗中使用它们,他的在天之灵大概也会感到欣慰吧。多保重!
+				Description: 小子，我这有个私人合同给你……我一般不会请你做这种事，但听我说完。多年以前，我和我的搭档李小龙一起出去闯荡江湖。我俩当年可是所向披靡，直到我们在一次异常困难的任务里犯下了致命的错误。为了救我，他被困在了地牢里，现在早已化作了一具枯骨。至今我都没能原谅当时我独自苟活……求你了，进入地牢，让他饱受折磨的灵魂安息吧……
+				DescriptionCompleted: 你帮了我个大忙，我永生难忘。哎，我多么希望我能面对面地向他道歉……我相当肯定你已经拥有了超越了我们当年的实力。时代变了，小子，被你这样的后起之秀超过还真是发人深省。作为报酬，这些是李小龙当年用过的武器……你在战斗中使用它们，他的在天之灵大概也会感到欣慰吧。多保重！
 			}
 
 			CursedContract: {
 				Title: 魔化差事
-				Description: 我非常确定你明白不受控制的魔力附于物体上会发生什么,看看那些魔化的武器和盔甲就能明白。光是想想就令人毛骨悚然,尤其是更为强力的器具被魔化时,事情就会变得相当棘手...眼睛放尖点,地底深处那些险恶的附魔武器,一把也别放过。
+				Description: 我非常确定你明白不受控制的魔力附于物体上会发生什么，看看那些魔化的武器和盔甲就能明白。光是想想就令人毛骨悚然，尤其是更为强力的器具被魔化时，事情就会变得相当棘手……眼睛放尖点，地底深处那些险恶的附魔武器，一把也别放过。
 			}
 
 			DangerContract: {
 				Title: 菜鸟入门
-				Description: 好了小子,我觉得我们应该先从简单的开始...我追踪了一些地下的野生生物.在你的探险途中,你可能会遇到些难缠的龙虾、蝾螈和巨型卷壳怪。干掉他们能使这个世界变得更安全,这样我晚上也能睡得更安稳。
-				DescriptionCompleted: 不错小子,干得不错.希望你狩猎的时候没遇上太多困难。你可能注意到了它们掉落了一枚'{$Items.VanquisherMedal.DisplayName}'。用这个可以从我这儿兑换些道具。大多是和合同怪物相关的道具,每次合同完成后别忘了来看看..
+				Description: 好了小子，我觉得我们应该先从简单的开始……我追踪了一些地下的野生生物。在你的探险途中，你可能会遇到些难缠的龙虾、蝾螈和巨型卷壳怪。干掉他们能使这个世界变得更安全，这样我晚上也能睡得更安稳。
+				DescriptionCompleted: 不错小子，干得不错。希望你狩猎的时候没遇上太多困难。你可能注意到了它们掉落了一枚“{$Items.VanquisherMedal.DisplayName}”。用这个可以从我这儿兑换些道具。大多是和合同怪物相关的道具，每次合同完成后别忘了来看看……
 			}
 
 			DoctorContract: {
 				Title: 夺宝奇兵
-				Description: 很多探险者在茂密的雨林中闯荡,能回来的不过寥寥几位。好一阵子前我为一位探险家朋友{$NPCName.DoctorBones}送行,可是他现在还没有回来...你能在晚上去丛林地表找找关于他的线索吗?
+				Description: 很多探险者在茂密的雨林中闯荡，能回来的不过寥寥几位。好一阵子前我为一位探险家朋友{$NPCName.DoctorBones}送行，可是他现在还没有回来……你能在晚上去丛林地表找找关于他的线索吗？
 			}
 
 			GildedContract: {
 				Title: 收获日
-				Description: 发光的野兽在泰拉大陆的地底梭巡,把沿途搅得一团糟。{$NPCs.GildedBat.DisplayName},{$NPCs.GildedLycan.DisplayName}和{$NPCs.GildedSlime.DisplayName}会发光,它们看着相当显眼。这些生物的数量应该尽可能少,能少一点是一点。
+				Description: 发光的野兽在泰拉大陆的地底梭巡，把沿途搅得一团糟。{$NPCs.GildedBat.DisplayName}，{$NPCs.GildedLycan.DisplayName}和{$NPCs.GildedSlime.DisplayName}会发光，它们看着相当显眼。这些生物的数量应该尽可能少，能少一点是一点。
 			}
 
 			HagContract: {
 				Title: 枯槁的还价者
-				Description: 许多人在追求力量的道路上企图一蹴而就,召唤元素之灵以祈求恩泽.然而元素灵虽然能够给予他们所需的力量,却也同时从他们身上索取沉重的代价。那些被称作巫婆的存在在世界各个角落漫游,企图从别人身上偷回她们那作为代价被抽走的青春。地狱、丛林、海洋和天空,任由你去哪,总之你需要去干掉她们其中的一位。
+				Description: 许多人在追求力量的道路上企图一蹴而就，召唤元素之灵以祈求恩泽。然而元素灵虽然能够给予他们所需的力量，却也同时从他们身上索取沉重的代价。那些被称作巫婆的存在在世界各个角落漫游，企图从别人身上偷回她们那作为代价被抽走的青春。地狱、丛林、海洋和天空，任由你去哪，总之你需要去干掉她们其中的一位。
 			}
 
 			HardmodeContract: {
-				Title: 未完待续...
-				Description: 击败恐怖的{$NPCName.WallofFlesh}以继续...
+				Title: 未完待续……
+				Description: 击败恐怖的{$NPCName.WallofFlesh}以继续……
 			}
 
 			IceContract: {
 				Title: 破冰者
-				Description: 你最好为此行多备点保暖衣裳,小子。这台自动机由极寒冰晶铸造,且只在最为凌冽的暴风雪中现身。如果你不小心的话,它的冰霜射线会将当场你冻成一尊冰雕,所以记得保持移动并寻找掩体。
+				Description: 你最好为此行多备点保暖衣裳，小子。这台自动机由极寒冰晶铸造，且只在最为凌冽的暴风雪中现身。如果你不小心的话，它的冰霜射线会将当场你冻成一尊冰雕，所以记得保持移动并寻找掩体。
 			}
 
 			MimicContract: {
 				Title: 愚人之黄金
-				Description: 我不知道你做了什么,小子,但看起来我们的差事多起来了。随着光与暗的能量被释放到这个世界,你现在不能相信任何东西!更糟的是,地底下似乎有些贪婪的精灵附身于宝箱上化作了宝箱怪.下次看到宝箱的时候得好好注意了,它们可能没看上去那么安全...
+				Description: 我不知道你做了什么，小子，但看起来我们的差事多起来了。随着光与暗的能量被释放到这个世界，你现在不能相信任何东西!更糟的是，地底下似乎有些贪婪的精灵附身于宝箱上化作了宝箱怪。下次看到宝箱的时候得好好注意了，它们可能没看上去那么安全……
 			}
 
 			MinotaurContract: {
 				Title: 迷宫中的野兽
-				Description: "{$Bestiary_Biomes.TheDungeon}里面那些游走的骷髅和史莱姆已经够糟的了,不是吗?现在又有一头{$NPCs.RagingMinotaur.DisplayName}使场面变得更加混乱.那头野兽能以极高的速度冲锋和突袭那些走神的探险者,等到他们想逃跑时早已经来不及了.注意别被它的角刺到,小子."
+				Description: "{$Bestiary_Biomes.TheDungeon}里面那些游走的骷髅和史莱姆已经够糟的了，不是吗？现在又有一头{$NPCs.RagingMinotaur.DisplayName}使场面变得更加混乱。那头野兽能以极高的速度冲锋和突袭那些走神的探险者，等到他们想逃跑时早已经来不及了。注意别被它的角刺到，小子。"
 			}
 
 			MothContract: {
 				Title: 需要一盏更大的灯
-				Description: 你可别被表象所欺骗了,小子,那个在丛林中潜伏的怪物是纯粹恐怖的化身,和美丽沾不上半点边.它的存在既是对我们赏金猎人的挑衅!说的就是...那只蛾子!
+				Description: 你可别被表象所欺骗了，小子，那个在丛林中潜伏的怪物是纯粹恐怖的化身，和美丽沾不上半点边。它的存在既是对我们赏金猎人的挑衅!说的就是……那只蛾子！
 			}
 
 			MothronContract: {
 				Title: 杀光所有怪物
-				Description: 当月影完全遮蔽了日光,世界深处的恐惧就会被释放到这片大地之上.我最害怕的事情还是发生了.但是我们的字典中没有恐惧二字,小子...
+				Description: 当月影完全遮蔽了日光，世界深处的恐惧就会被释放到这片大地之上。我最害怕的事情还是发生了。但是我们的字典中没有恐惧二字，小子……
 			}
 
 			NymphContract: {
 				Title: 落难佳丽
-				Description: 你心地善良,小子.但别让这成为你的弱点...冰雪洞穴的深处隐藏着伪装成无助少女的生物.一旦接近,你就会看到她真正的面貌.一旦发现你发现了她,那就立刻干掉她.
+				Description: 你心地善良，小子。但别让这成为你的弱点……冰雪洞穴的深处隐藏着伪装成无助少女的生物。一旦接近，你就会看到她真正的面貌。一旦发现你发现了她，那就立刻干掉她。
 			}
 
 			PigronContract: {
 				Title: 杀死猪龙
-				Description: 猪龙真的是一种奇怪的杂交生物.一半猪,一半龙，合起来是整一个邪恶生物.你可能在冰雪洞穴和世界邪恶地形交界处看到它们.可得小心,它们空荡的肚子发出的咕噜声老远就能听到.
+				Description: 猪龙真的是一种奇怪的杂交生物。一半猪，一半龙，合起来是整一个邪恶生物。你可能在冰雪洞穴和世界邪恶地形交界处看到它们。可得小心，它们空荡的肚子发出的咕噜声老远就能听到。
 			}
 
 			PinkyContract: {
 				Title: 小粉，永远的神
-				Description: 我从未见过有具有如此恐怖气势的生物...它是粉色的,超级凶,它所到之处都会掀起强烈的史莱姆风暴.快去摧毁它.
+				Description: 我从未见过有具有如此恐怖气势的生物……它是粉色的，超级凶，它所到之处都会掀起强烈的史莱姆风暴。快去摧毁它。
 			}
 
 			PirateShipContract: {
 				Title: 醉水手的疑惑
-				Description: 你听说过那些贪得无厌的海盗的故事吗?他们能从数英里之外嗅到一枚铜币的气味然后蜂拥而来,哦,看来你口袋里有不少钱.他们来袭的时候,我会保持警惕的.去摧毁一艘他们的{$NPCName.PirateShip},让他们为这次入侵付出代价. .
+				Description: 你听说过那些贪得无厌的海盗的故事吗？他们能从数英里之外嗅到一枚铜币的气味然后蜂拥而来，哦，看来你口袋里有不少钱。他们来袭的时候，我会保持警惕的。去摧毁一艘他们的{$NPCName.PirateShip}，让他们为这次入侵付出代价……
 			}
 
 			RecluseContract: {
 				Title: 这蜘蛛一点也不小
-				Description: 听好了小子,我这次有一份双重合约给你.看起来镇子里的许多居民都有严重的蜘蛛恐惧症...谣传说最近蜘蛛洞穴中出现了一些带有剧毒的蜘蛛,而据我所知把它们逼出来的唯一方法就是干掉某只'{$NPCs.BrownRecluseWall.DisplayName}',而符合条件的这种巨蛛只在飘飞着暴风雪的冰原上出现.如果你把这两种蜘蛛都干掉了,镇子里的居民肯定会感觉安全不少.
+				Description: 听好了小子，我这次有一份双重合约给你。看起来镇子里的许多居民都有严重的蜘蛛恐惧症……谣传说最近蜘蛛洞穴中出现了一些带有剧毒的蜘蛛，而据我所知把它们逼出来的唯一方法就是干掉某只“{$NPCs.BrownRecluseWall.DisplayName}”，而符合条件的这种巨蛛只在飘飞着暴风雪的冰原上出现。如果你把这两种蜘蛛都干掉了，镇子里的居民肯定会感觉安全不少。
 			}
 
 			RuneContract: {
 				Title: 符文的终结
-				Description: 随着血肉墙的倒下而释放出的那股能量使一些烦人的家伙获得了强大的力量.一具一直以来不断骚扰着被封印的魂灵的骷髅流氓借此力量化为了符文巫师,在地底世界作威作福.他的力量过于不稳定且难以预测...我们不能让他活着.
+				Description: 随着血肉墙的倒下而释放出的那股能量使一些烦人的家伙获得了强大的力量。一具一直以来不断骚扰着被封印的魂灵的骷髅流氓借此力量化为了符文巫师，在地底世界作威作福。他的力量过于不稳定且难以预测……我们不能让他活着。
 			}
 
 			SandContract: {
 				Title: 沙中之线
-				Description: 一个元素灵的特性很大程度上是由她对应的环境所决定的.沙暴象征着粗野与危险,正因如此你应该去击败一些沙尘精.保持警惕,别让那些盯着你的怪物得手,小子.
+				Description: 一个元素灵的特性很大程度上是由她对应的环境所决定的。沙暴象征着粗野与危险，正因如此你应该去击败一些沙尘精。保持警惕，别让那些盯着你的怪物得手，小子。
 			}
 
 			TimContract: {
 				Title: 暗影施法者
-				Description: 我在地底成功追踪到了一位行踪诡秘的黑暗法师,他自称是...{$NPCName.Tim}.名字先不提,他好像真的有点来头,但有一个致命的弱点.他对自己的打扮似乎十分自豪,认为自己比任何人都更懂穿搭.或许你可以穿一件宝石长袍吸引他出来切磋一下时尚知识?
+				Description: 我在地底成功追踪到了一位行踪诡秘的黑暗法师，他自称是……{$NPCName.Tim}。名字先不提，他好像真的有点来头，但有一个致命的弱点。他对自己的打扮似乎十分自豪，认为自己比任何人都更懂穿搭。或许你可以穿一件宝石长袍吸引他出来切磋一下时尚知识？
 			}
 
 			WyvernContract: {
 				Title: 九霄云外
-				Description: 似乎风向的改变不是我们所能够干预的.但至少现在这些风并不是我们想要的...有群恼人的飞龙正处在空岛附近,那就在我们的头顶正上方.我想宰掉它们中的一些对大家来说都是好事.
+				Description: 似乎风向的改变不是我们所能够干预的。但至少现在这些风并不是我们想要的……有群恼人的飞龙正处在空岛附近，那就在我们的头顶正上方。我想宰掉它们中的一些对大家来说都是好事。
 			}
 		}
 
@@ -23005,7 +22998,7 @@ Mods: {
 
 			Tooltips: {
 				TheBlackItem: 造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
-				DevItem: "'非常适合模仿瑟银开发者！'"
+				DevItem: “非常适合模仿瑟银开发者！”
 				ShoulderGuardianLimit: 仅能同时召唤一个守护者
 				BigInstrument:
 					'''
@@ -23020,41 +23013,41 @@ Mods: {
 					EatWhileFull: 你在饱腹时不能食用{$NPCs.Cook.DisplayName}的食物
 				}
 
-				Sheath: 手持且不使用{1}{^1:秒;seconds}后用剑攻击会暴击造成{0}%伤害
+				Sheath: 手持且不使用{1}秒后用剑攻击会暴击造成{0}%伤害
 				InvalidMeleeItemForSheath: 此武器和剑鞘不兼容
 
 				Bard: {
 					InstrumentTag: -{0}乐器-
 					ClassTag: -吟游诗人职业-
-					InspirationCost: 使用 {0} 灵感值
+					InspirationCost: 使用{0}灵感值
 				}
 			}
 
-			TreasureBag: 宝藏袋({0})
+			TreasureBag: 宝藏袋（{0}）
 			ThePrimordials: 始生灾灵
-			MusicBox: 音乐盒({0})
-			TrappedChest: Trapped {0}
+			MusicBox: 音乐盒（{0}）
+			TrappedChest: 机关{0}
 		}
 
 		DeathText: {
-			MartyrChalice: "{0}为了更大的利益而牺牲自己."
-			TheGauntlet: "{0} 消失了..."
-			AmmutsebaSash: "{0} 被黑暗吞噬了..."
-			ShadeMasterMaskSet: "{0} 尽他们所能地维持生命."
-			LastStand: "{0} 给了它他们的全部..."
-			HungeringBlossom: "{0} 被黑暗吞噬了..."
-			Destabilized: "{0} 被彻底消灭了."
-			GraveLimb: "{0} 无法“掌握”局势."
-			Liquefied: "{0} 液化了."
-			GravitySurge: "{0} 无法抑制花岗岩能量."
+			MartyrChalice: "{0}为了更大的利益而牺牲自己。"
+			TheGauntlet: "{0}消失了……"
+			AmmutsebaSash: "{0}被黑暗吞噬了……"
+			ShadeMasterMaskSet: "{0}尽他们所能地维持生命。"
+			LastStand: "{0}给了它他们的全部……"
+			HungeringBlossom: "{0}被黑暗吞噬了……"
+			Destabilized: "{0}被彻底消灭了。"
+			GraveLimb: "{0}无法“掌握”局势。"
+			Liquefied: "{0}液化了。"
+			GravitySurge: "{0}无法抑制花岗岩能量。"
 		}
 
 		ThrowerTechniques: {
 			DisplayName: 秘技卷轴：{0}
-			TooltipBase: 按下 '{$Keybinds.ThrowingTechnique.DisplayName}' 键：{0}
-			CostTooltip: 消耗{0}{^0:点技巧值;technique points}
-			UseToEnable: 点击使用秘技卷轴 | 造成投掷伤害，增加秘技点
-			UseToDisable: 秘技卷轴启用 | 再次点击禁用 | 造成投掷伤害，增加秘技点
+			TooltipBase: 按下“{$Keybinds.ThrowingTechnique.DisplayName}”键：{0}
+			CostTooltip: 消耗{0}技巧值
+			UseToEnable: 点击使用秘技卷轴 | 造成投掷伤害，增加技巧值
+			UseToDisable: 秘技卷轴启用 | 再次点击禁用 | 造成投掷伤害，增加技巧值
 
 			AbsoluteZero: {
 				DisplayName: 绝对零度
@@ -23107,7 +23100,7 @@ Mods: {
 				DisplayName: 背水一战
 				Description:
 					'''
-					受到致命伤害时自动激活，获得{0}{^0:秒;seconds}的无敌
+					受到致命伤害时自动激活，获得{0}秒的无敌
 					无敌期间会提升自身{1}%投掷速度和伤害但结束时会死亡
 					'''
 			}
@@ -23175,17 +23168,17 @@ Mods: {
 
 				ShowDonatorItemColor: {
 					Label: 显示捐赠物品稀有度
-					Tooltip: 切换'捐赠物品'识别颜色的显示 （需要重新加载模组生效）
+					Tooltip: 切换“捐赠物品”识别颜色的显示（需要重新加载模组生效）
 				}
 
 				ShowAccessoryDamage: {
 					Label: 显示饰品伤害
-					Tooltip: 切换瑟银模组饰品工具提示中的'饰品伤害'的显示
+					Tooltip: 切换瑟银模组饰品工具提示中的“饰品伤害”的显示
 				}
 
 				ShowLifeShield: {
 					Label: 显示生命护盾
-					Tooltip: 切换玩家生命条上“生命护盾”上显示
+					Tooltip: 切换玩家生命条上“生命护盾”的显示
 				}
 
 				ShowCombatStatusIcon: {
@@ -23315,7 +23308,7 @@ Mods: {
 
 				ShowFullEmpowermentTooltip: {
 					Label: 显示完整的咒音增幅工具提示
-					Tooltip: 切换"{$Empowerments.ItemTopTooltipHoldShift}"为直接显示完整的工具描述
+					Tooltip: 切换"{$Empowerments.ItemTopTooltipHoldShift@0}"为直接显示完整的工具描述
 				}
 
 				ShowEmpowermentOrbsInTooltip: {
@@ -23329,7 +23322,7 @@ Mods: {
 				Outline.Label: 轮廓
 				Corner.Label: 角落
 				Right.Label: 右侧
-				Bottom.Label: 下面
+				Bottom.Label: 底部
 			}
 
 			ThoriumConfigServer: {
@@ -23385,12 +23378,12 @@ Mods: {
 
 		AccessoryType: {
 			Normal: 普通
-			HibernationCharm: 深渊贝壳
+			HibernationCharm: 休眠护符
 			SoundDevice: 音箱
 			OmniShield: 全能护盾
 			SpearTip: 矛尖
-			SoulStorage: Soul Storage
-			LifeGuard: Life Guard
+			SoulStorage: 灵魂储存
+			LifeGuard: 生命护卫
 			SwordSheath: 剑鞘
 		}
 
@@ -23403,11 +23396,11 @@ Mods: {
 		}
 
 		WishingGlassChoice: {
-			Spawn: 生成
+			Spawn: 生成点
 			Home: 家
 			DeathLocation: 死亡地点
 			Random: 随机
-			Underworld: 地下世界
+			Underworld: 地狱
 			Beach: 海滩
 			Dungeon: 地牢
 			Temple: 神庙
@@ -23416,13 +23409,13 @@ Mods: {
 
 		WorldGen: {
 			Progress: {
-				PlacingTempleStatues: 放置神庙雕像
-				GeneratingExtraLoot: 生成额外的战利品
+				PlacingTempleStatues: 正在放置神庙雕像
+				GeneratingExtraLoot: 正在生成额外的战利品
 				BiomeChests: 生物群落宝箱
 				ShrinesAndLoot: 神殿和战利品
 				Graveyard: 埋葬死者
 				GraveyardCleanup: 看守者的职责
-				BloodChamber: 掩埋血室
+				BloodChamber: 正在掩埋鲜血密室
 			}
 		}
 
@@ -23436,22 +23429,22 @@ Mods: {
 
 		UI: {
 			InCombatGauge: {
-				InCombat: 加入战斗
+				InCombat: 战斗中
 				OutOfCombat: 脱离战斗
 			}
 
 			ExhaustionBar.Exhausted: 一些投手物品现在更弱了
-			HellfireMinigunGauge.Overloaded: 热力极限！
+			HellfireMinigunGauge.Overloaded: 太烫了！
 
 			InformationalIcons: {
 				Endurance: {
 					Text:
 						'''
-						合计: {0}% 伤害减免
+						合计: {0}%伤害减免
 						原版: {1}%
 						瑟银: {2}%
 						'''
-					Extra: ({0}% before cap)
+					Extra: （到达上限前{0}%）
 				}
 
 				Healer: {
@@ -23471,7 +23464,7 @@ Mods: {
 					Header: 吟游诗人属性
 					Text:
 						'''
-						咒音增幅持续时间: {0} {^0:秒;seconds}
+						咒音增幅持续时间: {0}秒
 						最大使用时间: {1}%
 						基础灵感值: {2}
 						额外灵感值: {3}
@@ -23483,9 +23476,9 @@ Mods: {
 
 		BuilderToggles: {
 			BirdFeederSeedToggle: {
-				Name: "{$ItemName.Seed} collection for {$Items.BirdFeederGrounded.DisplayName}"
-				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name} 开启"
-				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name} 关闭"
+				Name: "{$Items.BirdFeederGrounded.DisplayName}的{$ItemName.Seed}收集"
+				HoverOn: "{$BuilderToggles.BirdFeederSeedToggle.Name}已开启"
+				HoverOff: "{$BuilderToggles.BirdFeederSeedToggle.Name}已关闭"
 			}
 		}
 
@@ -23567,19 +23560,19 @@ Mods: {
 			GraveRobber: {
 				DisplayName: 盗墓贼
 				Flavor: 对于目光敏锐的人，金子细微的亮光就像刀尖一样显眼。
-				Description: 以掘墓者铲子，掘墓者套装,闪光圣杯,一个(偷来的)戒指，和较低的生命值在墓地开始，
+				Description: 以掘墓者铲子，掘墓者套装，闪光圣杯，一个（偷来的）戒指，和较低的生命值在墓地开始。
 			}
 
 			Medic: {
 				DisplayName: 医疗兵
 				Flavor: 伤员中最受欢迎的景象，他们努力确保他们的队友在任何战斗中幸存下来。
-				Description: 以一部分牧师学徒套装，医疗包,骨锯和300个注射器开始。
+				Description: 以一部分牧师学徒套装，医疗包，骨锯和300个注射器开始。
 			}
 
 			Minstrel: {
 				DisplayName: 吟游诗人
 				Flavor: 一个漫游的漂泊者，通过音乐编织魔法来激励队友打倒敌人。
-				Description: 以传讯员套装,两个随机乐器开始,拥有更高的初始灵感值，生命值则较低。
+				Description: 以传讯员套装，两个随机乐器开始，拥有更高的初始灵感值，生命值则较低。
 			}
 
 			Occultist: {
@@ -23590,14 +23583,14 @@ Mods: {
 
 			Ronin: {
 				DisplayName: 浪人
-				Flavor: "'今日之我比昨日之我技艺精进，而明日之我比今日之我再进一筹。一生日日上进，以道来说，则永无终止。'"
-				Description: 以浪人套装，武士刀和皮革剑鞘开始。站立不动时剑鞘准备速度翻倍，但剑鞘攻击之外的攻击无法造成伤害
+				Flavor: 今日之我比昨日之我技艺精进，而明日之我比今日之我再进一筹。一生日日上进，以道来说，则永无终止。
+				Description: 以浪人套装，武士刀和皮革剑鞘开始。站立不动时剑鞘准备速度翻倍，但剑鞘攻击之外的攻击无法造成伤害。
 			}
 		}
 
 		SpiritReforgedSupport: {
 			BatPot: {
-				DisplayName: 蝙蝠罐
+				DisplayName: 蝙蝠罐子
 				Description: 一个来自鲜血密室的独特罐子，里面有各种有用的东西。
 			}
 		}
