@@ -2,10 +2,10 @@ Mods: {
 	ThoriumMod: {
 		Announcements: {
 			WorldEngineChange: 世界难度已改为{0}。
-			LodestoneWarning1: 你的世界已散播地脉矿!
-			LodestoneWarning2: 你的世界已大量散播地脉矿!
-			ValadiumWarning1: 你的世界已散播虚金矿!
-			ValadiumWarning2: 你的世界已大量散播虚金矿!
+			LodestoneWarning1: 你的世界已散播地脉矿！
+			LodestoneWarning2: 你的世界已大量散播地脉矿！
+			ValadiumWarning1: 你的世界已散播虚金矿！
+			ValadiumWarning2: 你的世界已大量散播虚金矿！
 			LichWarning: 墓地中的灵魂苏醒了……
 			GraniteMarbleWarning: 大理石和花岗岩洞穴传来震动……
 			IllumiteWarning: 世纪之花散发的光辉照耀着这片大地……
@@ -54,19 +54,19 @@ Mods: {
 			ThoriumModTip3: 瑟银模组：困难模式下水晶波痕会在{$Biomes.DepthsBiome.DisplayName}生长；使用它们来增加你的移动速度！
 			ThoriumModTip4: 瑟银模组：鲜血密室坐落于地下某处。可以在它的祭坛处提供5个不洁碎晶，但后果自负……
 			# Classes
-			ThoriumModTip5: 瑟银模组：使用秘技卷轴来装备它，然后在有足够技巧值时按下“{$Keybinds.ThrowingTechnique.DisplayName}”键可以触发它的效果!
-			ThoriumModTip6: 瑟银模组：作为一个牧师，你死了就无法帮助你的队友，因此总要首先确保自身安全!
+			ThoriumModTip5: 瑟银模组：使用秘技卷轴来装备它，然后在有足够技巧值时按下“{$Keybinds.ThrowingTechnique.DisplayName}”键可以触发它的效果！
+			ThoriumModTip6: 瑟银模组：作为一个牧师，你死了就无法帮助你的队友，因此总要首先确保自身安全！
 			ThoriumModTip7: 瑟银模组：最大灵感值可通过三种不同等级的灵感碎片来提升。
 			ThoriumModTip8: 瑟银模组：某些吟游诗人的乐器需要基于计时器演奏以获得最佳表现。
-			ThoriumModTip9: 瑟银模组：剑鞘可以让你将多次剑击浓缩为一次爆发。适时攻击!
+			ThoriumModTip9: 瑟银模组：剑鞘可以让你将多次剑击浓缩为一次爆发。适时攻击！
 			ThoriumModTip10: 瑟银模组：当化形为另一种生物时，你无法使用除{$Items.SoulLink.DisplayName}外的物品。
 			# Misc
 			ThoriumModTip11: 瑟银模组：一定要向{$NPCName.Guide}展示任何和所有物品，这可以让你看看它们能制作什么新东西！
 			ThoriumModTip12: 瑟银模组：某些物品栏中的杂乱物品如蛛网和矿石可以放置在弹药栏。
-			ThoriumModTip13: 瑟银模组：蓝绿色名字的物品是专属于瑟银模组捐赠者的!
+			ThoriumModTip13: 瑟银模组：蓝绿色名字的物品是专属于瑟银模组捐赠者的！
 			# Bosses
 			ThoriumModTip14: 瑟银模组：一旦你找到一些铁，蚁狮上颚和坠落之星，你就可以挑战{$NPCs.TheGrandThunderBird.DisplayName}。
-			ThoriumModTip15: 瑟银模组：{$Items.JellyfishResonator.DisplayName}会吸引各种水母……也包括巨大的突异体!
+			ThoriumModTip15: 瑟银模组：{$Items.JellyfishResonator.DisplayName}会吸引各种水母……也包括巨大的突异体！
 			ThoriumModTip16: 瑟银模组：一定要准备好一些不洁碎晶，可以在洞穴的密室吸引蝙蝠子爵。
 			ThoriumModTip17: 瑟银模组：一旦地牢的诅咒解除，花岗岩洞将产生新的居民。留意任何看起来不稳定的能量露头……
 			ThoriumModTip18: 瑟银模组：一旦地牢的诅咒解除，大理石洞将产生新的居民。留意任何看起来可疑的石头组成物……
@@ -84,9 +84,9 @@ Mods: {
 			ThoriumModTip29: 瑟银模组：只需要一点费用，{$NPCs.DesertAcolyte.DisplayName}就会开启沙尘暴。
 			ThoriumModTip30: 瑟银模组：如果你杀了一只皇家史莱姆，它的优质美味凝胶可能会吸引{$NPCs.Cook.DisplayName}来这里。
 			ThoriumModTip31: 瑟银模组：{$NPCs.ConfusedZombie.DisplayName}可能很奇怪，但他的各种生物趋避剂可不是闹着玩的。
-			ThoriumModTip32: 瑟银模组：需要一点额外装备吗？拜访下{$NPCs.Blacksmith.DisplayName}和他的货物!
+			ThoriumModTip32: 瑟银模组：需要一点额外装备吗？拜访下{$NPCs.Blacksmith.DisplayName}和他的货物！
 			ThoriumModTip33: 瑟银模组：成功猎杀一只长的过大的特殊眼睛会邀请{$NPCs.Tracker.DisplayName}来给你提供特殊的怪物合同。
-			ThoriumModTip34: 瑟银模组：{$NPCs.Diverman.DisplayName}为海而生……以至于他被一只变异水母整个吞下了!
+			ThoriumModTip34: 瑟银模组：{$NPCs.Diverman.DisplayName}为海而生……以至于他被一只变异水母整个吞下了！
 			ThoriumModTip35: 瑟银模组：对园艺感兴趣吗？{$NPCs.Druid.DisplayName}非常乐意出售草药种子。
 			ThoriumModTip36: 瑟银模组：{$NPCs.Spiritualist.DisplayName}渴望和谐高于一切。平息一个古老战士的灵魂应该会说服他帮助你。
 			ThoriumModTip37: 瑟银模组：一个被流放的恶魔，只要你花钱，{$NPCs.WeaponMaster.DisplayName}就能被雇佣以在战斗中帮助你。
@@ -430,7 +430,7 @@ Mods: {
 
 			GraveLimbDebuff: {
 				DisplayName: 血手之握
-				Description: 它在你脸上! 啊啊啊！
+				Description: 它在你脸上！啊啊啊！
 			}
 
 			AltarBuff: {
@@ -900,7 +900,7 @@ Mods: {
 
 			OldDebt: {
 				DisplayName: 熟悉的面孔
-				Description: 旧债正在偿还……现在拯救世界!
+				Description: 旧债正在偿还……现在拯救世界！
 			}
 
 			OtherworldlyRuneBuff: {
@@ -1255,7 +1255,7 @@ Mods: {
 
 			RefreshingBubble: {
 				DisplayName: 清新泡泡
-				Description: 吸入泡泡能让你多呼吸几口气!
+				Description: 吸入泡泡能让你多呼吸几口气！
 			}
 
 			RevivalExhaustion: {
@@ -5929,7 +5929,7 @@ Mods: {
 				DisplayName: 兽皮头套
 				Tooltip: “激发你内心的兽性”
 				VanityConfigName: 兽皮套装
-				SetBonus: 看起来不错!
+				SetBonus: 看起来不错！
 			}
 
 			FeralFurLegs: {
@@ -7114,7 +7114,7 @@ Mods: {
 			}
 
 			Skadoosh: {
-				DisplayName: 走你!
+				DisplayName: 走你！
 				Tooltip: “找寻内在的平静……”
 			}
 
@@ -18457,7 +18457,7 @@ Mods: {
 			BlueKnightHelmet: {
 				DisplayName: 蓝色骑士头盔
 				Tooltip: ""
-				SetBonus: 看起来不错!
+				SetBonus: 看起来不错！
 			}
 
 			BombSquadGreaves: {
@@ -18499,7 +18499,7 @@ Mods: {
 				DisplayName: 腐蚀头饰
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18508,7 +18508,7 @@ Mods: {
 				DisplayName: 腐蚀护胫
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18517,7 +18517,7 @@ Mods: {
 				DisplayName: 腐蚀长袍
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18546,7 +18546,7 @@ Mods: {
 				DisplayName: 传奇链甲
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18555,7 +18555,7 @@ Mods: {
 				DisplayName: 传奇护胫
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18564,7 +18564,7 @@ Mods: {
 				DisplayName: 传奇头盔
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18573,7 +18573,7 @@ Mods: {
 				DisplayName: 光能机械护胫
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18582,7 +18582,7 @@ Mods: {
 				DisplayName: 光能机械面具
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18591,7 +18591,7 @@ Mods: {
 				DisplayName: 光能机械努瓦胸甲
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18624,7 +18624,7 @@ Mods: {
 			GlitteringHelmet: {
 				DisplayName: 辉耀头盔
 				Tooltip: ""
-				SetBonus: 看起来不错!
+				SetBonus: 看起来不错！
 			}
 
 			HatFish: {
@@ -18641,7 +18641,7 @@ Mods: {
 				DisplayName: 深红法师帽
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18650,7 +18650,7 @@ Mods: {
 				DisplayName: 深红法师长袍
 				Tooltip:
 					'''
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18695,7 +18695,7 @@ Mods: {
 				Tooltip:
 					'''
 					“以胡子之名！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18705,7 +18705,7 @@ Mods: {
 				Tooltip:
 					'''
 					“绝不抛弃任何矮人！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18715,7 +18715,7 @@ Mods: {
 				Tooltip:
 					'''
 					“银河精锐！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18725,7 +18725,7 @@ Mods: {
 				Tooltip:
 					'''
 					“碎石与金石！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18735,7 +18735,7 @@ Mods: {
 				Tooltip:
 					'''
 					“最适合在阳光明媚的日子穿！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18745,7 +18745,7 @@ Mods: {
 				Tooltip:
 					'''
 					“最适合在阳光明媚的日子穿！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -18755,7 +18755,7 @@ Mods: {
 				Tooltip:
 					'''
 					“最适合在阳光明媚的日子穿！”
-					瑟银时装大赛{0}获胜者!
+					瑟银时装大赛{0}获胜者！
 					设计者：{1}
 					'''
 			}
@@ -19548,7 +19548,7 @@ Mods: {
 				Choice1: (1) 施加{0}秒耐魔性减益
 				Choice2: (2) 施加{0}秒耐魔性减益
 				Choice3: (3) 返还本次使用花费的魔力
-				Choice4: (4) 完全恢复玩家的魔力!
+				Choice4: (4) 完全恢复玩家的魔力！
 				Choice5:
 					'''
 					(5)
@@ -19744,7 +19744,7 @@ Mods: {
 					LikeNPC: 安静，隐忍，知晓何时该付出行动，我喜欢{NPCName}。
 					DislikeNPC: "{NPCName}有时真叫我热血沸腾。他应当是一位大客户！但并不，他只想修好他的斧头……"
 					LikeNPC_Princess: 小孩就是小孩，但是{NPCName}在我心里有一个柔软的地方。
-					Princess_LovesNPC: "{NPCName}帮我修头盔，我很感激!"
+					Princess_LovesNPC: "{NPCName}帮我修头盔，我很感激！"
 				}
 
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
@@ -19965,7 +19965,7 @@ Mods: {
 					DislikeNPC: "{NPCName}最好在他们失足跌倒前穿上鞋子。"
 					HateNPC: 我不喜欢{NPCName}总是去帮助那些穿高跟鞋的伤员。你们这些年轻人真是完全不顾危险……
 					LikeNPC_Princess: "{NPCName}真是那种让你忍不住去宠爱的人。"
-					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋子从来没有擦得那么干净过！"
+					Princess_LovesNPC: "{NPCName}超级熟练！我的鞋子从来没有擦得那么干净过！"
 				}
 
 				Census.SpawnCondition: 在你的物品栏中有鞋子饰品（[i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等）
@@ -20320,7 +20320,7 @@ Mods: {
 					DislikeNPC: 让{NPCName}在这里完全就是找麻烦……
 					HateNPC: 我知道它们没有恶意，但是我实在是受不了{NPCName}。在我旁边。我和他们的同类之间有过一些不好的回忆。
 					LikeNPC_Princess: 这种奇怪的感觉……我保护{NPCName}的欲望竟然胜过保护自己！
-					Princess_LovesNPC: "{NPCName}是镇上玩捉迷藏最好的人!"
+					Princess_LovesNPC: "{NPCName}是镇上玩捉迷藏最好的人！"
 				}
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
@@ -20367,7 +20367,7 @@ Mods: {
 					DislikeCrowded: 虽然我和其他人一样喜欢这个人，但这里的人太多了？
 					HateCrowded: 周围这么吵，我没法好好思考。我需要自己的空间！
 					LikeBiome: 美丽的沙，美丽的水；一个潜水员还想要什么？
-					DislikeBiome: 沙漠？！这地方最糟了!蚁狮卵，仙人球，墓穴爬虫。让我说这个地方一开始腐蚀就好了……
+					DislikeBiome: 沙漠？！这地方最糟了！蚁狮卵，仙人球，墓穴爬虫。让我说这个地方一开始腐蚀就好了……
 					HateBiome: 这个地方很邪恶，不是吗？
 					LoveNPC: 在深海被孤立这么长时间真的会让人心情不好。但{NPCName}总能给我带来微笑……
 					LikeNPC: 你可能不会相信，但是{NPCName}和我是老交情了。但他并不是一直都是在海水里，yunno'。
@@ -22450,8 +22450,8 @@ Mods: {
 			ShusSandstorm.DisplayName: 苏之沙尘暴
 			SilverBlast.DisplayName: 白银爆弹
 			SiphonPro.DisplayName: 虹吸
-			SkadooshPro.DisplayName: 走你!
-			SkadooshPro2.DisplayName: 走你!2
+			SkadooshPro.DisplayName: 走你！
+			SkadooshPro2.DisplayName: 走你！2
 			SlagPro.DisplayName: 焦土
 			SleekRocketPro.DisplayName: 光滑导弹
 			SluggerCloud.DisplayName: 重炮枪之云
@@ -22927,7 +22927,7 @@ Mods: {
 
 			MimicContract: {
 				Title: 愚人之黄金
-				Description: 我不知道你做了什么，小子，但看起来我们的差事多起来了。随着光与暗的能量被释放到这个世界，你现在不能相信任何东西!更糟的是，地底下似乎有些贪婪的精灵附身于宝箱上化作了宝箱怪。下次看到宝箱的时候得好好注意了，它们可能没看上去那么安全……
+				Description: 我不知道你做了什么，小子，但看起来我们的差事多起来了。随着光与暗的能量被释放到这个世界，你现在不能相信任何东西！更糟的是，地底下似乎有些贪婪的精灵附身于宝箱上化作了宝箱怪。下次看到宝箱的时候得好好注意了，它们可能没看上去那么安全……
 			}
 
 			MinotaurContract: {
@@ -22937,7 +22937,7 @@ Mods: {
 
 			MothContract: {
 				Title: 需要一盏更大的灯
-				Description: 你可别被表象所欺骗了，小子，那个在丛林中潜伏的怪物是纯粹恐怖的化身，和美丽沾不上半点边。它的存在既是对我们赏金猎人的挑衅!说的就是……那只蛾子！
+				Description: 你可别被表象所欺骗了，小子，那个在丛林中潜伏的怪物是纯粹恐怖的化身，和美丽沾不上半点边。它的存在既是对我们赏金猎人的挑衅！说的就是……那只蛾子！
 			}
 
 			MothronContract: {
@@ -23598,7 +23598,7 @@ Mods: {
 		CombatText: {
 			HealStreak: "{0}生命治疗量"
 			CloseCall: 死里逃生
-			Freebie: 赠品!
+			Freebie: 赠品！
 		}
 	}
 }
