@@ -227,6 +227,11 @@ ItemDescriptions: {
 		将合适的弹药转换成脉冲射线，继承子弹的命中效果
 		15%概率节省弹药
 		'''
+	DoomSayersCoinNoLucidity:
+		'''
+		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
+		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		'''
 }
 
 NPCRenames: {
@@ -532,6 +537,21 @@ Items: {
 			电子乐器的弹幕速度大幅提升
 			最大灵感增加5点
 			"卖得并不好，但至少有人好心地提供了帮助…"
+			'''
+	}
+
+	HeadHunter: {
+		DisplayName: Head Hunter
+		Tooltip:
+			'''
+			This scythe is swung directionally and is spun twice every 2 swings
+			Gaining soul essence or landing crits with this weapon creates an ice shard that follows you
+			Being in combat for an extended duration will also generate ice shards, but they are weaker
+			Ice shards give the user +10 defense each
+			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
+			Ice shards deal 3x more damage on hit, weaker ice shards only deal 1x 
+			You can only have up to 4 ice shards at once
+			"Belongs to a certain demon who allegedly runs a coffee shop..."
 			'''
 	}
 
@@ -881,6 +901,16 @@ Configs: {
 			Label: BOSS名称重命名
 			Tooltip: 启用时，为瑟银模组的boss进行重新重命名
 		}
+
+		lichOutline: {
+			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
+			Tooltip:
+				'''
+				Controls the intensity of the faint red glow around the Lich
+				Only works on reworked Lich, the unreworked version is unaffected by this setting
+				Use this if you want visual parity with the original design or if you're having troubles seeing him
+				'''
+		}
 	}
 
 	CompatConfig: {
@@ -1003,6 +1033,16 @@ Configs: {
 				模组中BOSS的重制内容仅在永恒模式开启时生效
 				如果启用大师掉落的武器在永恒模式也会掉落
 				此外，瑟银BOSS现在可以掉落永恒模式的饰品
+				This setting does nothing if Fargo's Souls is not installed
+				'''
+		}
+
+		infernumModeOnly: {
+			Label: Infernum mode only
+			Tooltip:
+				'''
+				The boss reworks from this mod only applies when infernum mode is active
+				This setting does nothing if Infernum is not installed
 				'''
 		}
 	}
@@ -1045,6 +1085,11 @@ Configs: {
 			Tooltip: 堕落注视者重置
 		}
 
+		strider: {
+			Label: "[i:ThoriumMod/BoreanStriderMask]极地遁蛛"
+			Tooltip: 极地遁蛛重置
+		}
+
 		lich: {
 			Label: "[i:ThoriumMod/LichMask]巫妖"
 			Tooltip: 巫妖重置
@@ -1058,6 +1103,19 @@ Configs: {
 		rag: {
 			Label: "[i:ThoriumMod/TheOmegaCore]始生灾灵"
 			Tooltip: 始生灾灵重置
+		}
+
+		terminalLucidity: {
+			Label: "[i:ThoriumMod/TheOmegaCore]Terminal Lucidity Minimum Difficulty"
+			Tooltip:
+				'''
+				The lowest difficulty Terminal Lucidity can appear in
+				0 - Boss rush only
+				1 - Enabled for all
+				2 - Master or Revengeance
+				3 - Legendary, Death or Eternity
+				4 - GFB, Infernum, Masochist or Eternity-Death
+				'''
 		}
 	}
 }

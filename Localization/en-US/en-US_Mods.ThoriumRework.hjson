@@ -227,6 +227,11 @@ ItemDescriptions: {
 		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
 		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
 		'''
+	DoomSayersCoinNoLucidity:
+		'''
+		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
+		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		'''
 }
 
 NPCRenames: {
@@ -267,7 +272,7 @@ InfernumIntros: {
 		'''
 	BoreanStrider:
 		'''
-		Cold Blooded Arachnid
+		Cold-Blooded Arthropod
 		Borean Strider
 		'''
 	BuriedChampion:
@@ -334,6 +339,8 @@ InfernumIntros: {
 
 Projectiles: {
 	AbyssalApparition.DisplayName: Abyssal Apparition
+	AbyssBubble.DisplayName: Toxic Bubble
+	AbyssBubble2.DisplayName: Toxic Bubble
 	AquaiusBubble.DisplayName: Bubble
 	AquaiusPunchAttack.DisplayName: Hands of Tide
 	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
@@ -343,6 +350,8 @@ Projectiles: {
 	BeholderBlade.DisplayName: Will of Coznix
 	BiteyBaby.DisplayName: Bitey Baby
 	BlackHole.DisplayName: Black Hole
+	BubbleBomb.DisplayName: Big Bubble Bomb
+	BubbleColumn.DisplayName: Bubble Column
 	ChampionBomber.DisplayName: Magical Burst
 	ChampionBomberF.DisplayName: Magical Burst
 	ChampionShield.DisplayName: Champion's Rebuttal
@@ -374,14 +383,19 @@ Projectiles: {
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
+	Glacier.DisplayName: Glacier
+	Glacier2.DisplayName: Glacier
 	GrandThunder.DisplayName: Grand Thunder
 	GrandThunderF.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
+	HeadHunter.DisplayName: Head Hunter
+	HeadHunterShard.DisplayName: Head Hunter
 	HighTide.DisplayName: High Tide
 	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
 	HitScanner.DisplayName: Hit Scanner
 	HitScannerTelegraph.DisplayName: Hit Scanner
+	IceShard.DisplayName: Ice Shard
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
 	ImpendingDread.DisplayName: Impending Dread
@@ -390,6 +404,7 @@ Projectiles: {
 	InfernalRayTelegraph.DisplayName: Infernal Ray
 	JammingJellyfish.DisplayName: Jamming Jellyfish
 	JellyfishJam.DisplayName: Jamming Jellyfish
+	JellyfishShock.DisplayName: Jellyfish Shock
 	LichLantern.DisplayName: Volatile Lantern
 	LichWhip.DisplayName: Instrument of Torment
 	LodeStoneClaymore.DisplayName: Lodestone Claymore
@@ -540,6 +555,21 @@ Items: {
 			Electronic instrument projectiles are significantly faster
 			Increases max inspiration by 5
 			"Does not sell much, unfortunately. At least someone is kind enough to provide..."
+			'''
+	}
+
+	HeadHunter: {
+		DisplayName: Head Hunter
+		Tooltip:
+			'''
+			This scythe is swung directionally and is spun twice every 2 swings
+			Gaining soul essence or landing crits with this weapon creates an ice shard that follows you
+			Being in combat for an extended duration will also generate ice shards, but they are weaker
+			Ice shards give the user +10 defense each
+			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
+			Ice shards deal 3x more damage on hit, weaker ice shards only deal 1x 
+			You can only have up to 4 ice shards at once
+			"Belongs to a certain demon who allegedly runs a coffee shop..."
 			'''
 	}
 
@@ -882,6 +912,16 @@ Configs: {
 			Label: Boss renames
 			Tooltip: Enables boss renames added by this mod
 		}
+
+		lichOutline: {
+			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
+			Tooltip:
+				'''
+				Controls the intensity of the faint red glow around the Lich
+				Only works on reworked Lich, the unreworked version is unaffected by this setting
+				Use this if you want visual parity with the original design or if you're having troubles seeing him
+				'''
+		}
 	}
 
 	CompatConfig: {
@@ -1004,6 +1044,16 @@ Configs: {
 				The boss reworks from this mod only applies when eternity mode is active
 				Also changes master weapon drops (if enabled) into eternity weapon drops
 				Additionally, Thorium bosses can now drop eternity mode accessories
+				This setting does nothing if Fargo's Souls is not installed
+				'''
+		}
+
+		infernumModeOnly: {
+			Label: Infernum mode only
+			Tooltip:
+				'''
+				The boss reworks from this mod only applies when infernum mode is active
+				This setting does nothing if Infernum is not installed
 				'''
 		}
 	}
@@ -1023,7 +1073,7 @@ Configs: {
 
 		bat: {
 			Label: "[i:ThoriumMod/ViscountMask]Viscount"
-			Tooltip: Viscout rework
+			Tooltip: Viscount rework
 		}
 
 		champ: {
@@ -1046,6 +1096,11 @@ Configs: {
 			Tooltip: Fallen Beholder rework
 		}
 
+		strider: {
+			Label: "[i:ThoriumMod/BoreanStriderMask]Borean Strider"
+			Tooltip: Borean Strider rework
+		}
+
 		lich: {
 			Label: "[i:ThoriumMod/LichMask]Lich"
 			Tooltip: Lich rework
@@ -1059,6 +1114,19 @@ Configs: {
 		rag: {
 			Label: "[i:ThoriumMod/TheOmegaCore]Ragnarök"
 			Tooltip: Primordials and Dream Eater rework
+		}
+
+		terminalLucidity: {
+			Label: "[i:ThoriumMod/TheOmegaCore]Terminal Lucidity Minimum Difficulty"
+			Tooltip:
+				'''
+				The lowest difficulty Terminal Lucidity can appear in
+				0 - Boss rush only
+				1 - Enabled for all
+				2 - Master or Revengeance
+				3 - Legendary, Death or Eternity
+				4 - GFB, Infernum, Masochist or Eternity-Death
+				'''
 		}
 	}
 }
