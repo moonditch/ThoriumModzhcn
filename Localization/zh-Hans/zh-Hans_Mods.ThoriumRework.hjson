@@ -229,8 +229,8 @@ ItemDescriptions: {
 		'''
 	DoomSayersCoinNoLucidity:
 		'''
-		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
-		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		[c/DB7093:如果噬梦者已被击败，右键可以直接召唤噬梦者]
+		[c/DB7093:此外，始生灾灵在场时，右键会使其消失]
 		'''
 }
 
@@ -541,17 +541,17 @@ Items: {
 	}
 
 	HeadHunter: {
-		DisplayName: Head Hunter
+		DisplayName: 猎头者
 		Tooltip:
 			'''
-			This scythe is swung directionally and is spun twice every 2 swings
-			Gaining soul essence or landing crits with this weapon creates an ice shard that follows you
-			Being in combat for an extended duration will also generate ice shards, but they are weaker
-			Ice shards give the user +10 defense each
-			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
-			Ice shards deal 3x more damage on hit, weaker ice shards only deal 1x 
-			You can only have up to 4 ice shards at once
-			"Belongs to a certain demon who allegedly runs a coffee shop..."
+			镰刀定向挥舞然后旋转两圈
+			此武器获得灵魂精华或暴击时生成冰碎片跟随你
+			长期处于战斗状态也会生成冰碎片但是伤害较弱
+			冰碎片给予玩家10点防御力
+			右键或者更换武器时会向光标附近的敌人释放所有冰碎片
+			冰碎片命中时会造成3倍伤害，较弱的冰碎片造成1倍伤害
+			最多可以拥有四片冰碎片
+			"属于经营着咖啡店的恶魔......"
 			'''
 	}
 
@@ -903,12 +903,12 @@ Configs: {
 		}
 
 		lichOutline: {
-			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
+			Label: "[i:ThoriumMod/LichMask]巫妖氛围强度"
 			Tooltip:
 				'''
-				Controls the intensity of the faint red glow around the Lich
-				Only works on reworked Lich, the unreworked version is unaffected by this setting
-				Use this if you want visual parity with the original design or if you're having troubles seeing him
+				控制巫妖身边的红光强度
+				仅限改变过的有影响，未经过改变的没有影响
+				如果希望适用原始设计或者难以看清情况下使用此设置
 				'''
 		}
 	}
@@ -1033,16 +1033,16 @@ Configs: {
 				模组中BOSS的重制内容仅在永恒模式开启时生效
 				如果启用大师掉落的武器在永恒模式也会掉落
 				此外，瑟银BOSS现在可以掉落永恒模式的饰品
-				This setting does nothing if Fargo's Souls is not installed
+				如果未安装fargo魂石模组此设置无用
 				'''
 		}
 
 		infernumModeOnly: {
-			Label: Infernum mode only
+			Label: 只有炼狱模式
 			Tooltip:
 				'''
-				The boss reworks from this mod only applies when infernum mode is active
-				This setting does nothing if Infernum is not installed
+				只有在炼狱开启时BOSS重置会生效
+				如果未安装炼狱模组此设置无用
 				'''
 		}
 	}
@@ -1106,15 +1106,15 @@ Configs: {
 		}
 
 		terminalLucidity: {
-			Label: "[i:ThoriumMod/TheOmegaCore]Terminal Lucidity Minimum Difficulty"
+			Label: "[i:ThoriumMod/TheOmegaCore]混乱的现实最低难度"
 			Tooltip:
 				'''
-				The lowest difficulty Terminal Lucidity can appear in
-				0 - Boss rush only
-				1 - Enabled for all
-				2 - Master or Revengeance
-				3 - Legendary, Death or Eternity
-				4 - GFB, Infernum, Masochist or Eternity-Death
+				最低难度的"混乱的现实"可出现在
+				0 - 只有Boss rush
+				1 - 适用所有
+				2 - 大师，复仇
+				3 - 传奇，死亡，永恒
+				4 - 天顶，炼狱，受虐，永恒死亡
 				'''
 		}
 	}
