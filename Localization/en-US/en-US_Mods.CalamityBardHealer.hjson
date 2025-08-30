@@ -189,6 +189,7 @@ Items: {
 		SetBonus:
 			'''
 			Bard Intergelactic, Bloodflare and God Slayer armor effects
+			Press {0} to make the asteroids more transparent
 			God Slayer dash uses Calamity's armor ability keybind
 			Alluring Song uses Thorium's armor ability keybind
 			Increases empowerment duration by 5 seconds
@@ -213,6 +214,7 @@ Items: {
 		SetBonus:
 			'''
 			Healer Intergelactic, Bloodflare and Silva armor effects
+			Press {0} to make the asteroids more transparent
 			40% increased radiant damage
 			20% increased radiant critical strike chance
 			16% increased healing and radiant casting speed
@@ -888,7 +890,12 @@ Items: {
 
 	ReturntoSludge: {
 		DisplayName: Return to Sludge
-		Tooltip: Charge to build up a goo bomb then release to shoot it
+		Tooltip:
+			'''
+			Hold <left> to build up a goo bomb then release to shoot it
+			The goo bomb deals more damage the longer it is charged
+			The goo bomb can deal up to 10x more damage maximum
+			'''
 	}
 
 	SARS: {
@@ -1044,6 +1051,17 @@ Items: {
 			Summons an expanding nebula that heals every one-third of a second
 			Stars form in the nebula which homes in to players but heal half as much
 			Though, these homing stars cannot heal the caster
+			'''
+	}
+
+	StarCluster: {
+		DisplayName: Star Cluster
+		Tooltip:
+			'''
+			Hold <left> to slowly accumulate a cluster of stars
+			Release <left> to unleash them all at once in a barrage
+			Stars pierce infinitely but can only hit the same enemy once
+			The maximum amount of stars that can accumulate is the same as maximum inspiration
 			'''
 	}
 
@@ -1207,6 +1225,17 @@ Items: {
 			'''
 	}
 
+	Trinity: {
+		DisplayName: Trinity
+		Tooltip:
+			'''
+			Spin a very fast triple scythe that hit targets more frequently
+			Hits with this weapon occasionally spawn three curving beams of astral fire
+			<right> to throw the scythe, which will curve on its way back
+			The scythe deals 30% more damage when thrown
+			'''
+	}
+
 	VictideAmmoniteHat: {
 		DisplayName: Victide Ammonite Hat
 		Tooltip: 5% increased symphonic damage and inspiration regeneration rate
@@ -1261,6 +1290,39 @@ Items: {
 			'''
 	}
 
+	VoidFaquirBiretta: {
+		DisplayName: Void Faquir Warpriest Biretta
+		Tooltip:
+			'''
+			+30% Radiant Damage
+			-35% Non-Radiant Damage
+			+15% Healing Speed
+			+8 Bonus Healing
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated shortly after healing an ally or gaining soul essence
+			Void energy gained from healing allies slowly diminishes the longer you heal them
+			'''
+	}
+
+	VoidFaquirChapeau: {
+		DisplayName: Void Faquir Deathsinger Chapeau
+		Tooltip:
+			'''
+			+25% Symphonic Damage
+			+15% Symphonic Playing Speed
+			+15% Inspiration Regeneration Rate
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated for each active empowerment
+			Increased even further the higher each empowerment level is
+			'''
+	}
+
 	YharimsJam: {
 		DisplayName: Yharim's Jam
 		Tooltip:
@@ -1283,6 +1345,7 @@ Projectiles: {
 	AquaiusAdvice.DisplayName: Aquaius' Advice
 	ArcticReinforcement.DisplayName: Arctic Reinforcement
 	ArcticReinforcement2.DisplayName: Arctic Reinforcement
+	AstralFlames.DisplayName: Astral Flames
 	BloodflareRitual.DisplayName: Bloodflare Ritual
 	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
 	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
@@ -1375,6 +1438,7 @@ Projectiles: {
 	SpookyMonth.DisplayName: Spooky Month
 	StarBirth.DisplayName: Nebula
 	StarBirthStar.DisplayName: Newly Born Star
+	StarCluster.DisplayName: Star Cluster
 	Supercluster.DisplayName: Supercluster
 	SuperclusterStar.DisplayName: Supercluster
 	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
@@ -1393,6 +1457,7 @@ Projectiles: {
 	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
 	Transfiguration.DisplayName: Transfiguration
+	Trinity.DisplayName: Trinity
 	Violince.DisplayName: Violince
 	ViolinceBow.DisplayName: Violince
 	Whirlwind.DisplayName: Whirlwind
