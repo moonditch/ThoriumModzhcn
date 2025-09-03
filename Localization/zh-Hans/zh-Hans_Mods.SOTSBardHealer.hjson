@@ -83,11 +83,11 @@ Items: {
 	}
 
 	DeathThroesThrows: {
-		DisplayName: Death Throes Throws
+		DisplayName: 垂死狂击
 		Tooltip:
 			'''
-			Throw rapid punches toward the cursor
-			"You better learn how to catch 'em"
+			光标快速投掷拳击
+			"你最好学会如何抓住他们"
 			'''
 	}
 
@@ -247,21 +247,21 @@ Items: {
 	}
 
 	TesseractTuner: {
-		DisplayName: 4-Dimensional Tuner四维调谐器
+		DisplayName: 四维调谐器
 		Tooltip:
 			'''
-			Adds all inspiration to maximum void
-			All bard weapons use void instead of inspiration
-			Inspiration regeneration bonuses are converted to void regeneration speed
-			Picking up inspiration notes heal void instead
-			However, inspiration notes no longer grant their armor-related effects
-			Resource-boosting empowerments are much stronger on void stats
-			All bard weapons create a shockwave on enemy hits
-			String instrument attacks trigger their tile hit effects on enemy hits
-			String instrument projectiles increase in speed by 20% every pierce
-			Percussive instrument attacks summon a falling hammer on enemy hits
-			Electronic instrument projectiles are significantly much faster
-			"Sound that can create wormholes to other worlds"
+			将最大灵感值转化为最大虚空值
+			吟游诗人武器使用虚空值而不是灵感值
+			灵感值回复速度转化为虚空恢复速度
+			灵感音符可以再生虚空值
+			然而，灵感音符不再受到盔甲增益的影响
+			资源类咒音增幅会大幅增强虚空属性
+			所有乐器击中敌人会产生震荡波
+			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
+			穿透性弦乐器攻击每次击中后速度增加20%
+			打击乐器攻击时，会在敌人身上掷出一个锤子
+			电子乐器的弹幕速度大幅提升
+			"声波的力量足以创造通往异世的虫洞"
 			'''
 	}
 
@@ -421,4 +421,5 @@ Configs: {
 		}
 	}
 }
+
 
