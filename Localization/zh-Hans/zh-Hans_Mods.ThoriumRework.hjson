@@ -1120,371 +1120,371 @@ Configs: {
 	}
 
 	ItemReworksConfig: {
-		DisplayName: Item Rework/Buff Toggles
+		DisplayName: 物品重置/增益转换
 
 		HitScanner: {
-			Label: "[i:ThoriumMod/HitScanner]Hit Scanner"
+			Label: "[i:ThoriumMod/HitScanner] {$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
 			Tooltip: ""
 		}
 
 		ParticleWhip: {
-			Label: "[i:ThoriumMod/ParticleWhip]Particle Whip"
+			Label: "[i:ThoriumMod/ParticleWhip] {$Mods.ThoriumMod.Items.ParticleWhip.DisplayName}"
 			Tooltip: ""
 		}
 
 		ChampionBomberStaff: {
-			Label: "[i:ThoriumMod/ChampionBomberStaff]Champion Bomber Staff"
+			Label: "[i:ThoriumMod/ChampionBomberStaff] {$Mods.ThoriumMod.Items.ChampionBomberStaff.DisplayName}"
 			Tooltip: ""
 		}
 
 		ChampionSwiftBlade: {
-			Label: "[i:ThoriumMod/ChampionSwiftBlade]Champion's Swift Blade"
+			Label: "[i:ThoriumMod/ChampionSwiftBlade] {$Mods.ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
 			Tooltip: ""
 		}
 
 		GraniteCrossbow: {
-			Label: "[i:ThoriumMod/GraniteCrossbow]Granite Crossbow"
+			Label: "[i:ThoriumMod/GraniteCrossbow] {$Mods.ThoriumMod.Items.GraniteCrossbow.DisplayName}"
 			Tooltip: ""
 		}
 
 		GraniteReflector: {
-			Label: "[i:ThoriumMod/GraniteReflector]Granite Reflector"
+			Label: "[i:ThoriumMod/GraniteReflector] {$Mods.ThoriumMod.Items.GraniteReflector.DisplayName}"
 			Tooltip: ""
 		}
 
 		EnergyStormPartisan: {
-			Label: "[i:ThoriumMod/EnergyStormPartisan]Energy Storm Partisan"
+			Label: "[i:ThoriumMod/EnergyStormPartisan] {$Mods.ThoriumMod.Items.EnergyStormPartisan.DisplayName}"
 			Tooltip: ""
 		}
 
 		CobaltPopper: {
-			Label: "[i:ThoriumMod/CobaltPopper]Cobalt Popper"
+			Label: "[i:ThoriumMod/CobaltPopper] {$Mods.ThoriumMod.Items.CobaltPopper.DisplayName}"
 			Tooltip: ""
 		}
 
 		PalladiumSubmachineGun: {
-			Label: "[i:ThoriumMod/PalladiumSubmachineGun]Palladium Submachine Gun"
+			Label: "[i:ThoriumMod/PalladiumSubmachineGun] {$Mods.ThoriumMod.Items.PalladiumSubmachineGun.DisplayName}"
 			Tooltip: ""
 		}
 
 		MythrilPelter: {
-			Label: "[i:ThoriumMod/MythrilPelter]Mythril Pelter"
+			Label: "[i:ThoriumMod/MythrilPelter] {$Mods.ThoriumMod.Items.MythrilPelter.DisplayName}"
 			Tooltip: ""
 		}
 
 		OrichalcumPelter: {
-			Label: "[i:ThoriumMod/OrichalcumPelter]Orichalcum Pelter"
+			Label: "[i:ThoriumMod/OrichalcumPelter] {$Mods.ThoriumMod.Items.OrichalcumPelter.DisplayName}"
 			Tooltip: ""
 		}
 
 		AdamantiteCarbine: {
-			Label: "[i:ThoriumMod/AdamantiteCarbine]Adamantite Carbine"
+			Label: "[i:ThoriumMod/AdamantiteCarbine] {$Mods.ThoriumMod.Items.AdamantiteCarbine.DisplayName}"
 			Tooltip: ""
 		}
 
 		TitaniumRifle: {
-			Label: "[i:ThoriumMod/TitaniumRifle]Titanium Rifle"
+			Label: "[i:ThoriumMod/TitaniumRifle] {$Mods.ThoriumMod.Items.TitaniumRifle.DisplayName}"
 			Tooltip: ""
 		}
 
 		Obliterator: {
-			Label: "[i:ThoriumMod/Obliterator]Obliterator"
+			Label: "[i:ThoriumMod/Obliterator] {$Mods.ThoriumMod.Items.Obliterator.DisplayName}"
 			Tooltip: ""
 		}
 
 		PyroclastStaff: {
-			Label: "[i:ThoriumMod/PyroclastStaff]Pyroclast Staff"
+			Label: "[i:ThoriumMod/PyroclastStaff] {$Mods.ThoriumMod.Items.PyroclastStaff.DisplayName}"
 			Tooltip: ""
 		}
 
 		OmegaBlaster: {
-			Label: "[i:ThoriumMod/OmegaBlaster]Omega Blaster"
+			Label: "[i:ThoriumMod/OmegaBlaster] {$Mods.ThoriumMod.Items.OmegaBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
 		LodeStoneBow: {
-			Label: "[i:ThoriumMod/LodeStoneBow]Lodestone Bow"
+			Label: "[i:ThoriumMod/LodeStoneBow] {$Mods.ThoriumMod.Items.LodeStoneBow.DisplayName}"
 			Tooltip: ""
 		}
 
 		LodeStoneQuickDraw: {
-			Label: "[i:ThoriumMod/LodeStoneQuickDraw]Lodestone Quickdraw"
+			Label: "[i:ThoriumMod/LodeStoneQuickDraw] {$Mods.ThoriumMod.Items.LodeStoneQuickDraw.DisplayName}"
 			Tooltip: ""
 		}
 
 		LodeStoneClaymore: {
-			Label: "[i:ThoriumMod/LodeStoneClaymore]Lodestone Claymore"
+			Label: "[i:ThoriumMod/LodeStoneClaymore] {$Mods.ThoriumMod.Items.LodeStoneClaymore.DisplayName}"
 			Tooltip: ""
 		}
 
 		ValadiumBow: {
-			Label: "[i:ThoriumMod/ValadiumBow]Valadium Bow"
+			Label: "[i:ThoriumMod/ValadiumBow] {$Mods.ThoriumMod.Items.ValadiumBow.DisplayName}"
 			Tooltip: ""
 		}
 
 		ValadiumFoeBlaster: {
-			Label: "[i:ThoriumMod/ValadiumFoeBlaster]Valadium Foe Blaster"
+			Label: "[i:ThoriumMod/ValadiumFoeBlaster] {$Mods.ThoriumMod.Items.ValadiumFoeBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
 		ValadiumSpear: {
-			Label: "[i:ThoriumMod/ValadiumSpear]Valadium Spear"
+			Label: "[i:ThoriumMod/ValadiumSpear] {$Mods.ThoriumMod.Items.ValadiumSpear.DisplayName}"
 			Tooltip: ""
 		}
 
 		ValadiumSlicer: {
-			Label: "[i:ThoriumMod/ValadiumSlicer]Valadium Slicer"
+			Label: "[i:ThoriumMod/ValadiumSlicer] {$Mods.ThoriumMod.Items.ValadiumSlicer.DisplayName}"
 			Tooltip: ""
 		}
 
 		PrimesFury: {
-			Label: "[i:ThoriumMod/PrimesFury]Prime's Fury"
+			Label: "[i:ThoriumMod/PrimesFury] {$Mods.ThoriumMod.Items.PrimesFury.DisplayName}"
 			Tooltip: ""
 		}
 
 		EnergyCatalyst: {
-			Label: "[i:ThoriumMod/EnergyCatalyst]Energy Catalyst"
+			Label: "[i:ThoriumMod/EnergyCatalyst] {$Mods.ThoriumMod.Items.EnergyCatalyst.DisplayName}"
 			Tooltip: ""
 		}
 
 		SoulRender: {
-			Label: "[i:ThoriumMod/SoulRender]Soul Render"
+			Label: "[i:ThoriumMod/SoulRender] {$Mods.ThoriumMod.Items.SoulRender.DisplayName}"
 			Tooltip: ""
 		}
 
 		SoulCleaver: {
-			Label: "[i:ThoriumMod/SoulCleaver]Soul Cleaver"
+			Label: "[i:ThoriumMod/SoulCleaver] {$Mods.ThoriumMod.Items.SoulCleaver.DisplayName}"
 			Tooltip: ""
 		}
 
 		FleshSkewer: {
-			Label: "[i:ThoriumMod/FleshSkewer]Flesh Skewer"
+			Label: "[i:ThoriumMod/FleshSkewer] {$Mods.ThoriumMod.Items.FleshSkewer.DisplayName}"
 			Tooltip: ""
 		}
 
 		FleshHorn: {
-			Label: "[i:ThoriumMod/FleshHorn]Flesh Horn"
+			Label: "[i:ThoriumMod/FleshHorn] {$Mods.ThoriumMod.Items.FleshHorn.DisplayName}"
 			Tooltip: ""
 		}
 
 		ToothOfTheConsumer: {
-			Label: "[i:ThoriumMod/ToothOfTheConsumer]Tooth Of The Consumer"
+			Label: "[i:ThoriumMod/ToothOfTheConsumer] {$Mods.ThoriumMod.Items.ToothOfTheConsumer.DisplayName}"
 			Tooltip: ""
 		}
 
 		DragonTooth: {
-			Label: "[i:ThoriumMod/DragonTooth]Dragon Tooth"
+			Label: "[i:ThoriumMod/DragonTooth] {$Mods.ThoriumMod.Items.DragonTooth.DisplayName}"
 			Tooltip: ""
 		}
 
 		DragonTalon: {
-			Label: "[i:ThoriumMod/DragonTalon]Dragon's Talon"
+			Label: "[i:ThoriumMod/DragonTalon] {$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
 			Tooltip: ""
 		}
 
 		TitanSword: {
-			Label: "[i:ThoriumMod/TitanSword]Titan Sword"
+			Label: "[i:ThoriumMod/TitanSword] {$Mods.ThoriumMod.Items.TitanSword.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteBarrage: {
-			Label: "[i:ThoriumMod/IllumiteBarrage]Illumite Barrage"
+			Label: "[i:ThoriumMod/IllumiteBarrage] {$Mods.ThoriumMod.Items.IllumiteBarrage.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteBlaster: {
-			Label: "[i:ThoriumMod/IllumiteBlaster]Illumite Blaster"
+			Label: "[i:ThoriumMod/IllumiteBlaster] {$Mods.ThoriumMod.Items.IllumiteBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteShotbow: {
-			Label: "[i:ThoriumMod/IllumiteShotbow]Illumite Shotbow"
+			Label: "[i:ThoriumMod/IllumiteShotbow] {$Mods.ThoriumMod.Items.IllumiteShotbow.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteBlade: {
-			Label: "[i:ThoriumMod/IllumiteBlade]Illumite Blade"
+			Label: "[i:ThoriumMod/IllumiteBlade] {$Mods.ThoriumMod.Items.IllumiteBlade.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteSpear: {
-			Label: "[i:ThoriumMod/IllumiteSpear]Illumite Spear"
+			Label: "[i:ThoriumMod/IllumiteSpear] {$Mods.ThoriumMod.Items.IllumiteSpear.DisplayName}"
 			Tooltip: ""
 		}
 
 		IllumiteScythe: {
-			Label: "[i:ThoriumMod/IllumiteScythe]Illumite Scythe"
+			Label: "[i:ThoriumMod/IllumiteScythe] {$Mods.ThoriumMod.Items.IllumiteScythe.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumHolyScythe: {
-			Label: "[i:ThoriumMod/TerrariumHolyScythe]Terrarium Holy Scythe"
+			Label: "[i:ThoriumMod/TerrariumHolyScythe] {$Mods.ThoriumMod.Items.TerrariumHolyScythe.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumSaber: {
-			Label: "[i:ThoriumMod/TerrariumSaber]Terrarium Saber"
+			Label: "[i:ThoriumMod/TerrariumSaber] {$Mods.ThoriumMod.Items.TerrariumSaber.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumRippleKnife: {
-			Label: "[i:ThoriumMod/TerrariumRippleKnife]Terrarium Ripple Knife"
+			Label: "[i:ThoriumMod/TerrariumRippleKnife] {$Mods.ThoriumMod.Items.TerrariumRippleKnife.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumBomber: {
-			Label: "[i:ThoriumMod/TerrariumBomber]Terrarium Bomber"
+			Label: "[i:ThoriumMod/TerrariumBomber] {$Mods.ThoriumMod.Items.TerrariumBomber.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumPulseRifle: {
-			Label: "[i:ThoriumMod/TerrariumPulseRifle]Terrarium Pulse Rifle"
+			Label: "[i:ThoriumMod/TerrariumPulseRifle] {$Mods.ThoriumMod.Items.TerrariumPulseRifle.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerrariumAutoharp: {
-			Label: "[i:ThoriumMod/TerrariumAutoharp]Terrarium Autoharp"
+			Label: "[i:ThoriumMod/TerrariumAutoharp] {$Mods.ThoriumMod.Items.TerrariumAutoharp.DisplayName}"
 			Tooltip: ""
 		}
 
 		RealitySlasher: {
-			Label: "[i:ThoriumMod/RealitySlasher]Reality Slasher"
+			Label: "[i:ThoriumMod/RealitySlasher] {$Mods.ThoriumMod.Items.RealitySlasher.DisplayName}"
 			Tooltip: ""
 		}
 
 		Lucidity: {
-			Label: "[i:ThoriumMod/Lucidity]Lucidity"
+			Label: "[i:ThoriumMod/Lucidity] {$Mods.ThoriumMod.Items.Lucidity.DisplayName}"
 			Tooltip: ""
 		}
 
 		BlackMIDI: {
-			Label: "[i:ThoriumMod/BlackMIDI]Black M.I.D.I."
+			Label: "[i:ThoriumMod/BlackMIDI] {$Mods.ThoriumMod.Items.BlackMIDI.DisplayName}"
 			Tooltip: ""
 		}
 
 		TheJavelin: {
-			Label: "[i:ThoriumMod/TheJavelin]The Javelin"
+			Label: "[i:ThoriumMod/TheJavelin] {$Mods.ThoriumMod.Items.TheJavelin.DisplayName}"
 			Tooltip: ""
 		}
 
 		OmniCannon: {
-			Label: "[i:ThoriumMod/OmniCannon]Omni-Cannon"
+			Label: "[i:ThoriumMod/OmniCannon] {$Mods.ThoriumMod.Items.OmniCannon.DisplayName}"
 			Tooltip: ""
 		}
 
 		OmniBow: {
-			Label: "[i:ThoriumMod/OmniBow]Omni-Bow"
+			Label: "[i:ThoriumMod/OmniBow] {$Mods.ThoriumMod.Items.OmniBow.DisplayName}"
 			Tooltip: ""
 		}
 
 		WyrmDecimator: {
-			Label: "[i:ThoriumMod/WyrmDecimator]Wyrm Decimator"
+			Label: "[i:ThoriumMod/WyrmDecimator] {$Mods.ThoriumMod.Items.WyrmDecimator.DisplayName}"
 			Tooltip: ""
 		}
 
 		SevenSeasDevastator: {
-			Label: "[i:ThoriumMod/SevenSeasDevastator]Seven Seas Devastator"
+			Label: "[i:ThoriumMod/SevenSeasDevastator] {$Mods.ThoriumMod.Items.SevenSeasDevastator.DisplayName}"
 			Tooltip: ""
 		}
 
 		DevilsClaw: {
-			Label: "[i:ThoriumMod/DevilsClaw]Devil's Claw"
+			Label: "[i:ThoriumMod/DevilsClaw] {$Mods.ThoriumMod.Items.DevilsClaw.DisplayName}"
 			Tooltip: ""
 		}
 
 		AlmanacofAgony: {
-			Label: "[i:ThoriumMod/AlmanacofAgony]Almanac of Agony"
+			Label: "[i:ThoriumMod/AlmanacofAgony] {$Mods.ThoriumMod.Items.AlmanacofAgony.DisplayName}"
 			Tooltip: ""
 		}
 
 		TidalWave: {
-			Label: "[i:ThoriumMod/TidalWave]Tidal Wave"
+			Label: "[i:ThoriumMod/TidalWave] {$Mods.ThoriumMod.Items.TidalWave.DisplayName}"
 			Tooltip: ""
 		}
 
 		DeitysTrefork: {
-			Label: "[i:ThoriumMod/DeitysTrefork]Deity's Trefork"
+			Label: "[i:ThoriumMod/DeitysTrefork] {$Mods.ThoriumMod.Items.DeitysTrefork.DisplayName}"
 			Tooltip: ""
 		}
 
 		EdgeofImagination: {
-			Label: "[i:ThoriumMod/EdgeofImagination]Edge of Imagination"
+			Label: "[i:ThoriumMod/EdgeofImagination] {$Mods.ThoriumMod.Items.EdgeofImagination.DisplayName}"
 			Tooltip: ""
 		}
 
 		Holophonor: {
-			Label: "[i:ThoriumMod/Holophonor]Holophonor"
+			Label: "[i:ThoriumMod/Holophonor] {$Mods.ThoriumMod.Items.Holophonor.DisplayName}"
 			Tooltip: ""
 		}
 
 		Sousaphone: {
-			Label: "[i:ThoriumMod/Sousaphone]Sousaphone"
+			Label: "[i:ThoriumMod/Sousaphone] {$Mods.ThoriumMod.Items.Sousaphone.DisplayName}"
 			Tooltip: ""
 		}
 
 		TheSet: {
-			Label: "[i:ThoriumMod/TheSet]The Set"
+			Label: "[i:ThoriumMod/TheSet] {$Mods.ThoriumMod.Items.TheSet.DisplayName}"
 			Tooltip: ""
 		}
 
 		Mjolnir: {
-			Label: "[i:ThoriumMod/Mjolnir]Mjölnir"
+			Label: "[i:ThoriumMod/Mjolnir] {$Mods.ThoriumMod.Items.Mjolnir.DisplayName}"
 			Tooltip: ""
 		}
 
 		DreadRazor: {
-			Label: "[i:ThoriumMod/DreadRazor]Dread Razor"
+			Label: "[i:ThoriumMod/DreadRazor] {$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"
 			Tooltip: ""
 		}
 
 		DemonBloodSword: {
-			Label: "[i:ThoriumMod/DemonBloodSword]Demon Blood Sword"
+			Label: "[i:ThoriumMod/DemonBloodSword] {$Mods.ThoriumMod.Items.DemonBloodSword.DisplayName}"
 			Tooltip: ""
 		}
 
 		DreadTearer: {
-			Label: "[i:ThoriumMod/DreadTearer]Dread Tearer"
+			Label: "[i:ThoriumMod/DreadTearer] {$Mods.ThoriumMod.Items.DreadTearer.DisplayName}"
 			Tooltip: ""
 		}
 
 		DemonBloodRipper: {
-			Label: "[i:ThoriumMod/DemonBloodRipper]Demon Blood Ripper"
+			Label: "[i:ThoriumMod/DemonBloodRipper] {$Mods.ThoriumMod.Items.DemonBloodRipper.DisplayName}"
 			Tooltip: ""
 		}
 
 		DreadFork: {
-			Label: "[i:ThoriumMod/DreadFork]Dread Fork"
+			Label: "[i:ThoriumMod/DreadFork] {$Mods.ThoriumMod.Items.DreadFork.DisplayName}"
 			Tooltip: ""
 		}
 
 		DemonBloodSpear: {
-			Label: "[i:ThoriumMod/DemonBloodSpear]Demon Blood Spear"
+			Label: "[i:ThoriumMod/DemonBloodSpear] {$Mods.ThoriumMod.Items.DemonBloodSpear.DisplayName}"
 			Tooltip: ""
 		}
 
 		HallowedScythe: {
-			Label: "[i:ThoriumMod/HallowedScythe]Hallowed Scythe"
+			Label: "[i:ThoriumMod/HallowedScythe] {$Mods.ThoriumMod.Items.HallowedScythe.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerraScythe: {
-			Label: "[i:ThoriumMod/TerraScythe]Terra Scythe"
+			Label: "[i:ThoriumMod/TerraScythe] {$Mods.ThoriumMod.Items.TerraScythe.DisplayName}"
 			Tooltip: ""
 		}
 
 		TerraKnife: {
-			Label: "[i:ThoriumMod/TerraKnife]Terra Knife"
+			Label: "[i:ThoriumMod/TerraKnife] {$Mods.ThoriumMod.Items.TerraKnife.DisplayName}"
 			Tooltip: ""
 		}
 
 		OnemanQuartet: {
-			Label: "[i:ThoriumMod/OnemanQuartet]Oneman Quartet"
+			Label: "[i:ThoriumMod/OnemanQuartet] {$Mods.ThoriumMod.Items.OnemanQuartet.DisplayName}"
 			Tooltip: ""
 		}
 
 		IncandescentAlacrity: {
-			Label: "[i:ThoriumMod/IncandescentAlacrity]Incandescent Alacrity"
-			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
+			Label: "[i:ThoriumMod/IncandescentAlacrity] {$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
+			Tooltip: 不会对此物品进行任何更改，只是让他继续运行 {$ItemName.EmpressFlightBooster}。
 		}
 	}
 }
