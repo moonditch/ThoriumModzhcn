@@ -7,14 +7,6 @@ ItemDescriptions: {
 		Soul essence from radiant scythes will also recover some void
 		Soul essence from void-radiant scythes recover even more void
 		'''
-	HypersonicTunerExtras:
-		'''
-		All bard weapons create a shockwave on enemy hits
-		String instrument attacks trigger their tile hit effects on enemy hits
-		String instrument projectiles increase in speed by 20% every pierce
-		Percussive instrument attacks summon a falling hammer on enemy hits
-		Electronic instrument projectiles are significantly much faster
-		'''
 	InfrasonicTunerExtras:
 		'''
 		Additionally, summon a dark spirit that shoots cursed notes at enemies
@@ -87,6 +79,15 @@ Items: {
 			Summons a cursed ankh that follows the cursor
 			The ankh attacks nearby enemies with tendrils
 			Upon dealing damage, nearby allies are healed
+			'''
+	}
+
+	DeathThroesThrows: {
+		DisplayName: Death Throes Throws
+		Tooltip:
+			'''
+			Throw rapid punches toward the cursor
+			"You better learn how to catch 'em"
 			'''
 	}
 
@@ -172,6 +173,7 @@ Items: {
 			Hold <left> to charge a beam of extinction
 			Release <left> to unleash it
 			Goes through walls
+			"Powered by the voices of a thousand souls"
 			'''
 	}
 
@@ -244,6 +246,25 @@ Items: {
 			'''
 	}
 
+	TesseractTuner: {
+		DisplayName: 4-Dimensional Tuner
+		Tooltip:
+			'''
+			Adds all inspiration to maximum void
+			All bard weapons use void instead of inspiration
+			Inspiration regeneration bonuses are converted to void regeneration speed
+			Picking up inspiration notes heal void instead
+			However, inspiration notes no longer grant their armor-related effects
+			Resource-boosting empowerments are much stronger on void stats
+			All bard weapons create a shockwave on enemy hits
+			String instrument attacks trigger their tile hit effects on enemy hits
+			String instrument projectiles increase in speed by 20% every pierce
+			Percussive instrument attacks summon a falling hammer on enemy hits
+			Electronic instrument projectiles are significantly much faster
+			"Sound that can create wormholes to other worlds"
+			'''
+	}
+
 	TurboSlicer: {
 		DisplayName: Turbo Slicer
 		Tooltip:
@@ -303,6 +324,8 @@ Projectiles: {
 	ChaosSphere.DisplayName: Chaos Ring
 	ChoirofOne.DisplayName: Choir of One
 	CursedAnkh.DisplayName: Cursed Ankh
+	DeathThroesThrow.DisplayName: Death Throes Throw
+	DeathThroesThrows.DisplayName: Death Throes Throws
 	DualStylophone.DisplayName: Dual Stylophone
 	DualStylophonePro.DisplayName: Dual Stylophone
 	ForbiddenMaelstrom.DisplayName: Forbidden Maelstrom

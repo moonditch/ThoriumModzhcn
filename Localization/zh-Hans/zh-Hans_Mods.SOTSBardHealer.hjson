@@ -7,14 +7,6 @@ ItemDescriptions: {
 		光辉镰刀的灵魂精华也会回复虚空值
 		虚空镰刀的灵魂精华回复更多虚空值
 		'''
-	HypersonicTunerExtras:
-		'''
-		所有乐器击中敌人会产生冲击波
-		弦乐器命中敌人时触发实体方块碰撞产生的效果
-		弦乐器弹幕每穿透一次速度提高20%
-		打击乐器命中敌人会在敌人身上掷出锤子
-		电子乐器的弹幕速度大幅提升
-		'''
 	InfrasonicTunerExtras:
 		'''
 		召唤暗黑灵魂向敌人发射诅咒音符
@@ -29,8 +21,8 @@ ItemDescriptions: {
 }
 
 Toggler: {
-	SubspaceBootsDash: Subspace Dash
-	GildedBladeWingsFlight: Wings of Light
+	SubspaceBootsDash: 亚空冲刺
+	GildedBladeWingsFlight: 闪耀之翼
 }
 
 Items: {
@@ -87,6 +79,15 @@ Items: {
 			召唤一个受诅咒的十字架跟随光标
 			十字架会用触须攻击附近的敌人
 			在造成伤害时，治疗附近的队友
+			'''
+	}
+
+	DeathThroesThrows: {
+		DisplayName: Death Throes Throws
+		Tooltip:
+			'''
+			Throw rapid punches toward the cursor
+			"You better learn how to catch 'em"
 			'''
 	}
 
@@ -172,6 +173,7 @@ Items: {
 			长按左键为湮灭射线充能
 			松开左键释放
 			射线可以穿墙
+			"Powered by the voices of a thousand souls"
 			'''
 	}
 
@@ -241,6 +243,25 @@ Items: {
 			手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
 			灵感值耗尽后，会消耗50点虚空值将其填满
 			"那么，究竟是什么启发了你的灵感?" "是虚空"
+			'''
+	}
+
+	TesseractTuner: {
+		DisplayName: 4-Dimensional Tuner四维调谐器
+		Tooltip:
+			'''
+			Adds all inspiration to maximum void
+			All bard weapons use void instead of inspiration
+			Inspiration regeneration bonuses are converted to void regeneration speed
+			Picking up inspiration notes heal void instead
+			However, inspiration notes no longer grant their armor-related effects
+			Resource-boosting empowerments are much stronger on void stats
+			All bard weapons create a shockwave on enemy hits
+			String instrument attacks trigger their tile hit effects on enemy hits
+			String instrument projectiles increase in speed by 20% every pierce
+			Percussive instrument attacks summon a falling hammer on enemy hits
+			Electronic instrument projectiles are significantly much faster
+			"Sound that can create wormholes to other worlds"
 			'''
 	}
 
