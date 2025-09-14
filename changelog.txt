@@ -1,16 +1,30 @@
 适配以下版本
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]Thorium Mod：瑟银本体-----V: 1.7.2.4[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]Thorium Bosses Reworked：瑟银BOSS重置-----V: 1.1.1[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]Unofficial Calamity Bard & Healer：非灾厄官方瑟银武器-----V: 0.10.1[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]Unofficial Redemption Bard, Thrower & Healer：非救赎官方瑟银武器-----V: 0.3.2[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]Unofficial Spirit Bard, Thrower & Healer：非魂灵官方瑟银武器-----V: 0.4.2[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]Unofficial Spooky Bard, Thrower & Healer：非惊惧官方瑟银武器-----V: 0.3[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]Unofficial SOTS Bard, Thrower and Healer：非暗影奥秘官方瑟银武器---- V: 0.2.5[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]Unofficial Macrocosm Bard, Thrower and Healer：非群星外域官方瑟银武器----- V: 0.1.1[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677][THORIUM ADDON] Terrarium Hamaxe：元素锤斧-----V: 1.1.0.1[/url]
-上面是链接
+[h3] [/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]Thorium Bosses Reworked：瑟银BOSS重置-----V: 1.1.2[/url]
+[h3]目前内容向联动：瑟银（主体）+灾厄，fargo魂，炼狱模组文字
+兼容适配向：救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]Unofficial Calamity Bard & Healer：非灾厄官方瑟银武器-----V: 0.10.1[/url]
+[h3]目前内容向联动：瑟银（主体）+灾厄，灾劫，旧神之猎，灾嫡
+兼容适配向：救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]Unofficial Redemption Bard, Thrower & Healer：非救赎官方瑟银武器-----V: 0.3.2[/url]
+[h3]目前内容向联动：瑟银（主体）+救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]Unofficial Spirit Bard, Thrower & Healer：非魂灵官方瑟银武器-----V: 0.4.2[/url]
+[h3]目前内容向联动：瑟银（主体）+旧魂灵
+兼容适配向：救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]Unofficial Spooky Bard, Thrower & Healer：非惊惧官方瑟银武器-----V: 0.3[/url]
+[h3]目前内容向联动：瑟银（主体）+惊惧
+兼容适配向：救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]Unofficial SOTS Bard, Thrower and Healer：非暗影奥秘官方瑟银武器---- V: 0.2.4[/url]
+[h3]目前内容向联动：瑟银（主体）+暗影奥秘
+兼容适配向：救赎[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]Unofficial Macrocosm Bard, Thrower and Healer：非群星外域官方瑟银武器----- V: 0.1.1[/url]
+[h3]目前内容向联动：瑟银（主体）+群星外域
+兼容适配向：救赎[/h3]
 
 本汉化版本&更新内容
-#Version：2025.9.x.0
-2025.9（378)
-适配灾厄联动v0.10.1+瑟银BOSS重置1.1.1+暗影奥秘联动0.2.5(近期可能有修复bug错误，括号内仅限github显示)
+#Version：2025.9.13.0
+2025.9（379）
+适配瑟银BOSS重置1.1.2
+由于诸神的黄昏作者太忙，暂时让诸神的黄昏汉化回归瑟银汉化内适配版本1.4.x（1.4.4.3）
