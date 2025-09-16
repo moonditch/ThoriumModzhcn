@@ -19,6 +19,7 @@ ps：如果对某个汉化不满意去github提交野生的pr，我会有概率�
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2024.12.25.0版本分离）
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223] 瑟银职业标签修正 [/url]
 附属超链接查看[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3055383223] 改动说明 [/url]
 
 [h1]=作者介绍=[/h1]
