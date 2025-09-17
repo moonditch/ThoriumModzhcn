@@ -2,8 +2,21 @@
 感谢：由灾厄维基出品的中文瑟银WIKI 和 灾厄维基汉化组部分成员+令+世纪小花+末泠+苍棱+南亭帮我制作的部分翻译及部分代码
 ps：汉化为客户端模组，不在服务端加载，联机方自行加载汉化
 ps：如果对某个汉化不满意去github提交野生的pr，我会有概率可以看到
-此汉化包含 瑟银BOSS重置 & 非灾厄 / 救赎 / 魂灵 / 惊惧 / 暗影奥秘 / 群星外域官方瑟银武器 & 元素锤斧不包括以这八个模组为前置，以瑟银为前置
-诸神的黄昏追加汉化补充，以及机械BOSS重置文案重叠的部分
+此汉化包含：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]，即本汉化前置模组
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄乐师&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎乐师、投手&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非官方魂灵乐师、投手&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非官方惊惧乐师、投手&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非官方暗影奥秘乐师、投手&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域乐师、投手&牧师武器[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223]瑟银职业标签修正[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]补充汉化
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173]机械BOSS重置[/url]的部分重叠文案
+[/list]
 
 [h1]=问题解决=[/h1]
 如果需要帮助 / BUG 加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
@@ -19,7 +32,6 @@ ps：如果对某个汉化不满意去github提交野生的pr，我会有概率�
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2024.12.25.0版本分离）
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223] 瑟银职业标签修正 [/url]
 附属超链接查看[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3055383223] 改动说明 [/url]
 
 [h1]=作者介绍=[/h1]
