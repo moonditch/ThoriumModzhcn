@@ -13,7 +13,6 @@ ps：如果对某个汉化不满意去github提交野生的pr，我会有概率�
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非官方暗影奥秘乐师、投手&牧师武器[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域乐师、投手&牧师武器[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055383223]瑟银职业标签修正[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]补充汉化
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173]机械BOSS重置[/url]的部分重叠文案
 [/list]
