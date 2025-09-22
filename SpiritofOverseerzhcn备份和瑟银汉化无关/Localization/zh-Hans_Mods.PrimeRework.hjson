@@ -1,0 +1,1109 @@
+BossThreats: {
+	TwinsDay: 这将是可怕的一天...
+	Terminator: 你感觉自己被追捕了…
+	Caretaker: 你听到空气中奇怪的嗡嗡声...
+	Mechclops: 你听到远处传来很响的叮当声…
+}
+
+ItemDescriptions: {
+	AdamantiteArmor:
+		'''
+		攻击时会在你周围生成精金制黑桃
+		最多可以生成三个黑桃
+		黑桃最终会变成可拾取物品（红心/星星）
+		'''
+	BeamSword: 光束攻击敌怪时可以产生另一个光束
+	CobaltArmor:
+		'''
+		生命值越低，防御和伤害减免越高
+		上限为25点防御和20%伤害减免
+		效果在{0}生命值以下激活
+		'''
+	Excalibur: 暴击会暂时增加攻击速度
+	HallowedSummonerArmor:
+		'''
+		鞭子距离增加15%
+		召唤一把附魔剑为你而战
+		'''
+	MythrilArmor:
+		'''
+		一段时间不攻击会极大的提高攻速
+		有五秒的冷却时间和停止攻击3秒后才可以新开始攒攻速
+		'''
+	Megashark: 有概率发射一个鱼导弹
+	MagicDagger: 最终分裂成六把匕首
+	Phasesabers:
+		'''
+		完全无视敌人的护甲
+		定向挥舞可反弹敌怪弹幕，造成1000%的伤害
+		'''
+}
+
+SpawnConditions: {
+	Generic: 使用 [i:{0}] 召唤
+	Mechdusa: 使用 [i:{0}] 在天顶世界或石巨人后召唤
+	SiegeEngine: 使用 [i:{0}] 在地狱的尽头召唤
+}
+
+Tiles: {
+	SoulofDightinaBottle.MapEntry: 瓶中抚爱之魂
+	SoulofFreightinaBottle.MapEntry: 瓶中承载之魂
+	SoulofPlightinaBottle.MapEntry: 瓶中窘境之魂
+	SoulofTightinaBottle.MapEntry: 瓶中束缚之魂
+}
+
+Buffs: {
+	AdamantiteSpades: {
+		DisplayName: 精金制黑桃
+		Description: 黑桃在你周围旋转
+	}
+
+	ExcaliburRage: {
+		DisplayName: 亚瑟王的愤怒
+		Description: 增加33%的近战攻速
+	}
+
+	ElectromagneticFlux: {
+		DisplayName: 电磁通量
+		Description:
+			'''
+			你充满了力量！
+			增加10%攻击伤害和速度，无限飞行
+			'''
+	}
+
+	Flinxcopter: {
+		DisplayName: 小雪怪空军
+		Description: 投炸弹，中士!
+	}
+
+	MarkedforNegationNegative: {
+		DisplayName: 标记为否定(负电荷)
+		Description:
+			'''
+			快，触摸红色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
+			'''
+	}
+
+	MarkedforNegationNeutral: {
+		DisplayName: 标记为否定(中性电荷)
+		Description:
+			'''
+			快, 触摸黄色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
+			'''
+	}
+
+	MarkedforNegationPositive: {
+		DisplayName: 标记为否定(正电荷)
+		Description:
+			'''
+			快, 触摸青色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
+			'''
+	}
+
+	MechanicalJet: {
+		DisplayName: 机械喷气式飞机
+		Description: 神速!
+	}
+
+	MissileBattery: {
+		DisplayName: 导弹电池
+		Description: 泄露敌人的IP地址
+	}
+
+	Nanny: {
+		DisplayName: B-33 "守卫"
+		Description: 帮你睡个好觉
+	}
+
+	RockCancer: {
+		DisplayName: 岩痘
+		Description: 你的血液结晶…
+	}
+
+	Safesys: {
+		DisplayName: S4f3-sys
+		Description: 肚子好像里面更大!
+	}
+
+	Termini: {
+		DisplayName: 迷你终结者
+		Description: 呃……我是说，它不会伤害比飞虫大!
+	}
+}
+
+Items: {
+	AbominationRemote: {
+		DisplayName: 可疑的窥盒
+		Tooltip:
+			'''
+			在窥盒上有一张便条，上面写着奇怪的韵文，还有用颜色标记的词语:
+			"不管从这个盒子里出来了什么，他的实力和现在的你不 [c/00FFFF:匹配] 。"
+			"你将会为你的行为承担 [c/FFFF00:那些] 后果!"
+			"愿夜空的黑暗完全吞没你梦境的 [c/FF00FF:颜色] ......"
+			"愿可憎之物 [c/FF0000:消灭] 你的意志!"
+			"因此, 暗影的造物会 [c/00FF00:尾随] 你前往深渊。" 
+			"最后, 你存在的每一 [c/0000FF:部分] 都会消失化为没有生机的岩石。"
+			这张便条可能暗示了让你如何与盒子里的可憎之物搏斗.......
+			'''
+	}
+
+	AdvancedCombinationLock: {
+		DisplayName: 高级密码锁
+		Tooltip:
+			'''
+			召唤迷你机械鹿来携带东西和冷却饮料
+			点击机械鹿时可以打开保险箱，它有无限的范围，因为机械鹿是的跟随你!
+			"它很小，很难破译，但至少它有面部识别功能!"
+			'''
+	}
+
+	Anemoscepter: {
+		DisplayName: 风力计
+		Tooltip: 蓄力释放小而强大的风龙卷
+	}
+
+	ArtificialStinger: {
+		DisplayName: 人造蛰刺
+		Tooltip:
+			'''
+			使用飞镖和箭作为弹药
+			超载弹药，使他们更强大!
+			攻击敌怪时留下等离子电圈
+			右键装填磁性飞镖并锁定目标
+			带电束的箭攻击被磁化的敌人
+			"设计用来模拟一千次刺痛"
+			'''
+	}
+
+	Avalanche: {
+		DisplayName: 雪崩
+		Tooltip:
+			'''
+			使用雪球作为弹药
+			蓄力增加雪球数量
+			最大蓄力下, 雪球碰撞到物体会产生雪片
+			"不，它不能用来做冰淇淋。"
+			'''
+	}
+
+	BeeController: {
+		DisplayName: 蜜蜂控制器
+		Tooltip:
+			'''
+			召唤B-33单元跟随你
+			使用者睡觉时会帮忙放风
+			"这是照顾时间!"
+			'''
+	}
+
+	BeeRemote: {
+		DisplayName: 机械蜂
+		Tooltip:
+			'''
+			召唤看守者
+			听到空中有奇怪的嗡嗡声……
+			'''
+	}
+
+	Beforeshock: {
+		DisplayName: 前震
+		Tooltip:
+			'''
+			一次性发射5个子弹，每个子弹发射3次
+			第一次攻击释放冲力波
+			"它是在地震发生之前发生的余震"
+			'''
+	}
+
+	Bloodshed: {
+		DisplayName: 杀戮之刃
+		Tooltip: ""
+	}
+
+	BloodStainedPocketWatch: {
+		DisplayName: 血渍怀表
+		Tooltip: 召唤血染银刀向光标射击
+	}
+
+	BrainRemote: {
+		DisplayName: 机械大脑
+		Tooltip:
+			'''
+			召唤终结者
+			感觉自己被追杀了……
+			'''
+	}
+
+	BreachCutter: {
+		DisplayName: 等离子切割器
+		Tooltip:
+			'''
+			释放一束用闪电链接的等离子电圈
+			无视一些防御力
+			'''
+	}
+
+	CaretakerBossBag: {
+		DisplayName: 宝藏袋 (MK-22看守者)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	CaretakerMask: {
+		DisplayName: 看守者面具
+		Tooltip: ""
+	}
+
+	CaretakerRelic: {
+		DisplayName: 看守者圣物
+		Tooltip: ""
+	}
+
+	CaretakerTrophy: {
+		DisplayName: 看守者纪念章
+		Tooltip: ""
+	}
+
+	ClockworkWrench: {
+		DisplayName: 机械扳手
+		Tooltip: 召唤能发射高速子弹的机械炮塔为你战斗
+	}
+
+	DeerRemote: {
+		DisplayName: 机械鹿
+		Tooltip:
+			'''
+			召唤St4-sys
+			听到响亮的轰轰声朝你走来……
+			'''
+	}
+
+	DoubleTrouble: {
+		DisplayName: 双重危机
+		Tooltip:
+			'''
+			召唤激光眼或魔焰眼在玩家周围摆动
+			激光眼发射激光，魔焰眼释放诅咒焰
+			算作鞭子，但不受鞭子距离加成的影响
+			'''
+	}
+
+	EnergyHilt: {
+		DisplayName: 能量刀柄
+		Tooltip:
+			'''
+			近战无视10点防御
+			晶光刃会释放短距离的光波
+			'''
+	}
+
+	Exitium: {
+		DisplayName: 救世主长矛
+		Tooltip:
+			'''
+			挥舞可以释放闪电和导弹的长矛
+			导弹瞄准距离光标最近的敌怪
+			右键可以提前引爆导弹
+			矛可以穿透物块攻击敌怪
+			"搜索与歼灭"
+			'''
+	}
+
+	EyeRemote: {
+		DisplayName: 机械魔眼
+		Tooltip:
+			'''
+			召唤双子魔眼
+			这将是一个可怕的夜晚……
+			'''
+	}
+
+	Finis: {
+		DisplayName: 终章
+		Tooltip:
+			'''
+			每两次挥舞让镰刀抛出去一次
+			生成环绕在使用者身边的弹幕（手持时也会累积）
+			在攻击时右键使用镰刀自动锁定玩家最近的敌人
+			抛出镰刀时，会让环绕在身边的弹幕发射给敌怪
+			'''
+	}
+
+	FlinxForceWalkieTalkie: {
+		DisplayName: 机械雪怪空军呼叫器
+		Tooltip: 召唤雪怪直升机向敌人投掷雪炸弹
+	}
+
+	HandPrime: {
+		DisplayName: 统帅之臂
+		Tooltip:
+			'''
+			右键切换四种模式
+			激光模式:发射红色激光
+			大炮模式:发射红色火箭，瞄准敌人
+			链锯模式:变成一把链锯，把敌人切成两半
+			切换模式或锯发射出去
+			链锯模式不可使用，直到发射的锯消失
+			钳模式:释放一个锁住敌人的钳子
+			右键收回钳子
+			'''
+	}
+
+	HarmonicWeaponCatalyst: {
+		DisplayName: 谐鸣乐共振质
+		Tooltip:
+			'''
+			根据当前持有武器的类型增加攻击伤害，速度和暴击率增加15%，护甲穿透增加15点
+			当持有某些武器类型时，根据其伤害等级获得加成：
+			近战:受到的伤害降低15%，但敌人更有可能瞄准你
+			远程:弹药消耗减少15%和箭的射速
+			魔法:法力消耗减少15%，法力回复保持不变
+			召唤:最大仆从和哨兵增加2，敌人不太可能瞄准你
+			投掷:投掷速度增加15%
+			盗贼: 增加15%的潜行值恢复和攻击速度
+			吟游诗人:咒音增幅的持续时间增加5秒和效应范围增加15格
+			牧师:法力消耗减少15%，缩短0.2s治疗冷却时间并治疗队友5点生命
+			'''
+	}
+
+	Jumboshark: {
+		DisplayName: 惧兽鲨
+		Tooltip:
+			'''
+			小鲨鱼来自另一个世界的表亲
+			三枪齐发
+			'''
+	}
+
+	Killswitch: {
+		DisplayName: 杀戮时刻
+		Tooltip:
+			'''
+			召唤迷你终结者跟随你
+			"连苍蝇的不会受伤!"
+			'''
+	}
+
+	KineticTremors: {
+		DisplayName: 震荡之锤
+		Tooltip:
+			'''
+			蓄力攻击物块或敌怪时产生冲击波
+			可以攻击多次，允许多个冲击波产生
+			"火箭推进地震!"
+			'''
+	}
+
+	HydraulicPressManual: {
+		DisplayName: 液压机手册
+		Tooltip:
+			'''
+			点击敌人，用液压机碾压他们
+			"液压机粉碎ASMR"
+			'''
+	}
+
+	LaserStar: {
+		DisplayName: 激光之星
+		Tooltip: 击中敌怪会产生持续时间较短的激光束
+	}
+
+	MechanicalCockpitPiece: {
+		DisplayName: 机械驾驶舱部件
+		Tooltip: ""
+	}
+
+	MechanicalJet: {
+		DisplayName: 机械喷气式飞机
+		Tooltip:
+			'''
+			召唤一架快速飞行的飞机
+			速度提升到最大时会造成接触伤害
+			攻击召唤一系列导弹，根据武器的攻速造成伤害
+			"至少燃油在泰拉瑞亚很容易弄到"
+			'''
+	}
+
+	MechanicalWings: {
+		DisplayName: 机械翅膀
+		Tooltip:
+			'''
+			允许飞行和缓慢下降
+			飞行状态时按下键切换悬停状态
+			飞行状态时按上键取消悬停状态
+			飞行状态时按上键加速上升!
+			不是飞行状态按住下键会下落的更快!
+			"做得更多，成本更低"
+			'''
+	}
+
+	MechclopsBossBag: {
+		DisplayName: 宝藏袋 (St4-sys)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MechclopsMask: {
+		DisplayName: St4-sys面具
+		Tooltip: ""
+	}
+
+	MechclopsRelic: {
+		DisplayName: St4-sys圣物
+		Tooltip: ""
+	}
+
+	MechclopsTrophy: {
+		DisplayName: St4-sys纪念章
+		Tooltip: ""
+	}
+
+	RepurposedBeeRemote: {
+		DisplayName: 导弹发射箱子
+		Tooltip:
+			'''
+			召唤留在玩家身后的导弹炮台（实测只有原版的上限不包含模组的上限）
+			每轮发射的导弹会随着召唤栏的增多而增多
+			"洲际弹道导弹的策略，他们从来没有预料到"
+			'''
+	}
+
+	RepurposedBrainRemote: {
+		DisplayName: 终结序列
+		Tooltip:
+			'''
+			连续发射三发子弹
+			枪本身拥有接触伤害
+			攻击敌怪时有概率生成迷你探索者机器人为你而战
+			不消耗弹药
+			"我没时间解释了"
+			'''
+	}
+
+	RepurposedDeerRemote: {
+		DisplayName: 尖锐爆鸣声
+		Tooltip:
+			'''
+			发出放大且高音调的音波
+			"在听力范围之外发送死亡威胁 B)"
+			'''
+	}
+
+	RepurposedEyeRemote: {
+		DisplayName: 视目睛旋
+		Tooltip: 召唤迷你激光眼发射器发射激光
+	}
+
+	RepurposedSkullRemote: {
+		DisplayName: 惧骨颅械
+		Tooltip: 召唤机械骷髅王外骨骼为你而战
+	}
+
+	RepurposedWormRemote: {
+		DisplayName: 力鞭脊挞
+		Tooltip:
+			'''
+			毁灭者，但是鞭子
+			命中敌怪时有25%产生探针
+			'''
+	}
+
+	PlasmaPistol: {
+		DisplayName: 等离子手枪
+		Tooltip:
+			'''
+			射出浓缩的等离子团
+			蓄力增加等离子的浓度
+			蓄力的浓缩的等离子团在移动过程中释放出更多的小等离子团
+			'''
+	}
+
+	PortableEnergyConverter: {
+		DisplayName: 便携式能量转换器
+		Tooltip:
+			'''
+			增加10%施法速度
+			一些需要能量的枪不使用魔力值
+			'''
+	}
+
+	SelfCoolingPitcher: {
+		DisplayName: 冷藏罐
+		Tooltip:
+			'''
+			手持药水右键点击冷藏罐储存
+			放入冷藏罐中的增益药剂的持续时间是原本药水的两倍
+			重复的药剂效果加起来会进一步延长持续时间
+			重复使用的药剂不会翻倍持续时间
+			最多可以储藏20份药水，重新制作冷藏罐依旧会受到该限制
+			"现在你可以享用冰凉的铁皮药水了!"
+			<empty>
+			'''
+		Full: 可以使用以下增益:
+		Empty: 无
+	}
+
+	SiegeDowner: {
+		DisplayName: 困绝守御
+		Tooltip:
+			'''
+			召唤4个尖刺护盾，保护你免受大多数远程攻击
+			击中时，盾牌会被击退且混乱
+			混乱中的盾牌旋转不受控制，不能阻挡攻击
+			"我 是 无 敌 的!"
+			'''
+	}
+
+	SiegeEngineBossBag: {
+		DisplayName: 宝藏袋 (狱擎围城·愤怒机械墙)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SiegeEngineRelic: {
+		DisplayName: 狱擎围城圣物
+		Tooltip: ""
+	}
+
+	SiegeEngineTrophy: {
+		DisplayName: 狱擎围城纪念章
+		Tooltip: ""
+	}
+
+	SkullRemote: {
+		DisplayName: 机械骷髅头
+		Tooltip:
+			'''
+			召唤机械骷髅王
+			你周围的空气越来越冷……
+			'''
+	}
+
+	SoulofDight: {
+		DisplayName: 抚爱之魂
+		Tooltip: "'看守者的精华'"
+	}
+
+	SoulofDightinaBottle: {
+		DisplayName: 瓶中抚爱之魂
+		Tooltip: ""
+	}
+
+	SoulofFreight: {
+		DisplayName: 承载之魂
+		Tooltip: "'纯粹承载的精华'"
+	}
+
+	SoulofFreightinaBottle: {
+		DisplayName: 瓶中承载之魂
+		Tooltip: ""
+	}
+
+	SoulofPlight: {
+		DisplayName: 窘境之魂
+		Tooltip: "'终结者的精华'"
+	}
+
+	SoulofPlightinaBottle: {
+		DisplayName: 瓶中窘境之魂
+		Tooltip: ""
+	}
+
+	SoulofTight: {
+		DisplayName: 束缚之魂
+		Tooltip: "'碾压力量的精华'"
+	}
+
+	SoulofTightinaBottle: {
+		DisplayName: 瓶中束缚之魂
+		Tooltip: ""
+	}
+
+	StuffStuffer: {
+		DisplayName: 物块填充物
+		Tooltip:
+			'''
+			发射各种随机的物品
+			"尽你所能"
+			'''
+	}
+
+	SublimeStellarSling: {
+		DisplayName: 恢宏恒星炮
+		Tooltip: 发射6颗恒星锁定最近的目标
+	}
+
+	SwarmGrenade: {
+		DisplayName: 昆虫烟雾弹
+		Tooltip: '''"像蜂群一样，永无止境"'''
+	}
+
+	TaserAttachment: {
+		DisplayName: 泰瑟枪零件
+		Tooltip: 被召唤标记的敌怪会受到持续伤害
+	}
+
+	TerminatorBossBag: {
+		DisplayName: 宝藏袋 (终结者)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	TerminatorMask: {
+		DisplayName: 终结者面具
+		Tooltip: ""
+	}
+
+	TerminatorRelic: {
+		DisplayName: 终结者圣物
+		Tooltip: ""
+	}
+
+	TerminatorTrophy: {
+		DisplayName: 终结者纪念章
+		Tooltip: ""
+	}
+
+	TheSnake: {
+		DisplayName: 蛇枪
+		Tooltip:
+			'''
+			发射一个S形状完全的能量球
+			发射速度和你手速挂钩
+			也可以自动开火
+			"由迷宫商店的茶羽制作"
+			'''
+	}
+
+	TheSpur: {
+		DisplayName: 突波
+		Tooltip:
+			'''
+			释放缓慢而集中的激光束
+			蓄力时间越长，激光束就越强
+			"真正的男人不会拿北极星换机关枪!"
+			'''
+	}
+
+	TrueBloodshed: {
+		DisplayName: 真杀戮之刃
+		Tooltip: ""
+	}
+
+	WallRemote: {
+		DisplayName: 机械支撑柱
+		Tooltip: 在地狱的尽头唤醒机械墙
+	}
+
+	WormRemote: {
+		DisplayName: 机械蠕虫
+		Tooltip:
+			'''
+			召唤毁灭者
+			你感受到地下深处的震动……
+			'''
+	}
+}
+
+NPCs: {
+	Caretaker: {
+		DisplayName: MK-22看守者
+		Bestiary: 这个机械是未完成作品之一，但在哥布林工匠的帮助下。原本是一种对抗天界入侵的超级武器，但尽管多次尝试，看守人也利用蜜蜂的力量但依然以失败告终。你可能会问为什么?哥布林的科学研究发现了大地丛林中蜜蜂的非凡力量。哥布林其背后的想法是培育和孵化专门用于战斗的转基因蜜蜂，但在哥布林的科学领域缺乏研究导致了灾难，导致该项目被放弃。
+	}
+
+	DestroyerBody.DisplayName: 毁灭者
+	DestroyerHead.DisplayName: 毁灭者
+
+	MechaBee: {
+		DisplayName: B-33 "机械雏蜂"
+		Bestiary: 战斗中看守人的仆从。内置高精度跟踪摄像头和人工智能稳定的陀螺仪激光枪，这些东西可以狙击飞虫的翅膀!
+	}
+
+	Mechclops: {
+		DisplayName: St4-sys
+		Bestiary: 查理留下的没用过的装置，现在被重新激活了，目的是收集世界上的资源，希望它能回到它的家。然而，你通过使用遥控器打乱了它预先设定的程序，导致它失效并触发了它的自卫机制，而它现在显然不擅长使用这个机制。
+	}
+
+	Mechdusa.DisplayName: M3CH-DUS4机械美杜莎
+	MechdusaTail.DisplayName: M3CH-DUS4机械美杜莎
+	MutantBee.DisplayName: 突变蜂
+	Probe.DisplayName: 探针
+
+	SeekerDroid: {
+		DisplayName: 引导机器人
+		Bestiary: 终结者在战斗中的仆从。每个单位可以使用强大的磁场来阻挡攻击，从而保护主人免受任何伤害。尽管如此，这些东西不仅局限于它们的主人，它们还可以保护自己并把攻击反射回主人的敌人。
+	}
+
+	SiegeEngine: {
+		DisplayName: 狱擎围城·愤怒机械墙
+		Bestiary: 火星人为了捕捉光明和黑暗的灵魂而制造的强大机械。据说，神灵赋予的力量是他们拥有先进设备的原因。然而，他们怎么也不满足，还想要更多。
+	}
+
+	SiegeShield.DisplayName: 围城盾
+	SkeletronPrime.DisplayName: "{$NPCName.SkeletronPrime}"
+	SkeletronPrimeArmHitbox.DisplayName: 机械骷髅王手臂
+
+	TheTerminator: {
+		DisplayName: 终结者
+		InfernumIntro:
+			'''
+			战争思维雏形
+			终结者
+			'''
+		Bestiary: 这个机械是未完成作品之一。本应是一个具有机器学习能力的智能暖心机械，但一个错误的程序引导了敌意。机械师试图关闭这个东西，可喜的是成功了，然后取消了这个项目，没有和任何人说过。直到有一天，有什么东西扰乱了它的沉睡，它带着愤怒重新醒来，脑子里只有一个念头:结束。大脑在世界上四处寻找扰乱他醒来的人，但与此同时，它也在学习生命是如何工作的，以及用什么来对付它们是最好的武器。大脑用它的智慧在自己体内制造武器。它在寻找，它在狩猎，它在向你走来!
+	}
+}
+
+Projectiles: {
+	AdamantiteSpade.DisplayName: Adamantite Spade
+	Anemoscepter.DisplayName: Anemoscepter
+	ArtificialStinger.DisplayName: Artificial Stinger
+	Avalanche.DisplayName: Avalanche
+	AvalancheShrapnel.DisplayName: Icy Shrapnel
+	AvalancheSnowball.DisplayName: Snowball
+	Beforeshock.DisplayName: Beforeshock
+	Blizzard.DisplayName: Blizzard
+	BloodBeam.DisplayName: Blood Beam
+	BloodLash.DisplayName: Blood Lash
+	BloodStainedSilverKnife.DisplayName: Blood Stained Silver Knife
+	BouncyCursedFlames.DisplayName: Bouncy Cursed Flames
+	BrainLaser.DisplayName: Brain Laser
+	BrainWave.DisplayName: Brain Wave
+	BreachCutter.DisplayName: Breach Cutter
+	CartMissile.DisplayName: Cart Missile
+	ChargedExplosion.DisplayName: Charged Explosion
+	ClockworkTurret.DisplayName: Clockwork Turret
+	ControlledPrimeCannon.DisplayName: Controlled Prime Cannon
+	ControlledPrimeLaser.DisplayName: Controlled Prime Laser
+	ControlledPrimeSaw.DisplayName: Controlled Prime Saw
+	ControlledPrimeVice.DisplayName: Controlled Prime Vice
+	ControlledRetinazer.DisplayName: Controlled Retinazer
+	DiffractionLaser.DisplayName: Diffraction Laser
+	DoubleTrouble.DisplayName: Double Trouble
+	ElectromagneticGrenade.DisplayName: Electromagnetic Grenade
+	ElectronClone.DisplayName: Electron Clone
+	EnergyBeam.DisplayName: Energy Beam
+	Excalibur.DisplayName: Excalibur
+	Exitium.DisplayName: Exitium
+	ExitiumMissile.DisplayName: Exitium Missile
+	ExitiumZap.DisplayName: Exitium Zap
+	ExplosionHostile.DisplayName: Explosion Hostile
+	EyeFire.DisplayName: Eye Fire
+	Finis.DisplayName: Finis
+	FinisLaser.DisplayName: Finis Laser
+	FinisThrown.DisplayName: Finis
+	FinisWave.DisplayName: Finis Wave
+	Fishile.DisplayName: Fishile
+	FlinxBomb.DisplayName: Flinx Bomb
+	Flinxcopter.DisplayName: Flinxcopter
+	FlinxcopterHostile.DisplayName: Flinxcopter
+	FlinxGrenade.DisplayName: Flinx Grenade
+	FreezeCloud.DisplayName: Freeze Cloud
+	FreezeWave.DisplayName: Freeze Wave
+	FreezingRoar.DisplayName: Freezing Roar
+	HandHook.DisplayName: Hand Hook
+	HandLaser.DisplayName: Hand Laser
+	HandPrime.DisplayName: Hand Prime
+	HandSaw.DisplayName: Hand Saw
+	HomingCursedFlames.DisplayName: Cursed Flames
+	IceScream.DisplayName: Ice Scream
+	KineticShockwave.DisplayName: Kinetic Tremors
+	KineticTremors.DisplayName: Kinetic Tremors
+	LaserBlade.DisplayName: Laser Blade
+	LaserPrime.DisplayName: Laser
+	LaserStar.DisplayName: Laser Star
+	LaserStarLaser.DisplayName: Laser
+	LaserTelegraph.DisplayName: Laser
+	LightSlash.DisplayName: Slash of Light
+	LightningBall.DisplayName: Lightning Ball
+	MagneticDart.DisplayName: Magnetic Dart
+	MagneticGrenade.DisplayName: Magnetic Grenade
+	MiniProbe.DisplayName: Mini Probe
+	MiniRetinaLaser.DisplayName: Mini Retina Laser
+	MiniSeekerDroid.DisplayName: Mini Seeker Droid
+	MiniSpazmFire.DisplayName: Mini Spazm Fire
+	MissileBattery.DisplayName: Missile Battery
+	MutantBee.DisplayName: Mutant Bee
+	Nanny.DisplayName: B-33 "Nanny"
+	NeutronClone.DisplayName: Neutron Clone
+	NullificationRay.DisplayName: Nullification Ray
+	NullifiedClone.DisplayName: Nullified Clone
+	NullifiedShot.DisplayName: Nullified Shot
+	NullifierBeam.DisplayName: Nullifier Beam
+	OverchargedLightningBall.DisplayName: Overcharged Lightning Ball
+	PetrifyingClone.DisplayName: Petrifying Clone
+	PhaseBomb.DisplayName: Phase Bomb
+	Phasesaber.DisplayName: Phasesaber
+	PhaseWave.DisplayName: Phase Wave
+	PlasmaBall.DisplayName: Plasma Ball
+	PlasmaPistol.DisplayName: Plasma Pistol
+	PortableBlizzard.DisplayName: Portable Blizzard
+	PrimeDeathray.DisplayName: Prime Deathray
+	PrimeSaw.DisplayName: Circular Saw
+	PrimeSpike.DisplayName: Prime Spike
+	ProtonClone.DisplayName: Proton Clone
+	PulseLaser.DisplayName: Pulse Laser
+	RainbowLaser.DisplayName: Rainbow Laser
+	RetinaSpark.DisplayName: Retina Spark
+	Safesys.DisplayName: S4f3-sys
+	Sclerocket.DisplayName: Sclerocket
+	SeekerBolt.DisplayName: Seeker Bolt
+	SeekerDroidNet.DisplayName: Seeker Droid Net
+	ShockLaser.DisplayName: Shock Laser
+	ShrapnelFilledSnowball.DisplayName: Shrapnel-Filled Snowball
+	SiegeBall.DisplayName: Siege Ball
+	SiegeDowner.DisplayName: Siege Shield
+	SiegeFlames.DisplayName: Siege Flames
+	SiegePress.DisplayName: Siege Press
+	SiegeSaw.DisplayName: Siege Saw
+	SiegeWall.DisplayName: Siege Wall
+	SkullBomb.DisplayName: Skull Bomb
+	SkullMissile.DisplayName: Skull Missile
+	SnakeShot.DisplayName: Snake Shot
+	SpurLaser.DisplayName: Spur Laser
+	StunDart.DisplayName: Stun Dart
+	SublimeStar.DisplayName: Sublime Star
+	SwarmerMissile.DisplayName: Swarm Missile
+	SwarmGrenade.DisplayName: Swarm Grenade
+	SwarmMissile.DisplayName: Swarm Missile
+	Termini.DisplayName: Termini
+	TurretBullet.DisplayName: Bullet
+	UndeadDroid.DisplayName: Undead Droid
+	WormMissile.DisplayName: Worm Missile
+	WormNuke.DisplayName: Worm Nuke
+	WormWhip.DisplayName: Iron Annelid
+	WormZap.DisplayName: Worm Zap
+	ZapTrap.DisplayName: Zap Trap
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: 重置设置
+
+		twins: {
+			Label: "[i/s1:544]双子魔眼重置"
+			Tooltip:
+				'''
+				启用双子魔眼的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
+				'''
+		}
+
+		destroyer: {
+			Label: "[i/s1:556]毁灭者重置"
+			Tooltip:
+				'''
+				启用毁灭者的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
+				'''
+		}
+
+		prime: {
+			Label: "[i/s1:557]机械骷髅王重置"
+			Tooltip:
+				'''
+				启用机械骷髅王的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
+				'''
+		}
+
+		oldAI: {
+			Label: 旧AI重置
+			Tooltip:
+				'''
+				旧版本的BOSS重置
+				只有毁灭者有旧的AI
+				'''
+		}
+
+		Death: {
+			Label: 死亡动画
+			Tooltip: 激活死亡动画
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: 专家模式下掉落大师模式专属武器
+			Tooltip:
+				'''
+				专家模式下掉落大师模式专属武器
+				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
+				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
+				'''
+		}
+
+		dayMechs: {
+			Label: "[i/s1:3064] 机械BOSS可在白天战斗"
+			Tooltip: 机械BOSS可在白天战斗!
+		}
+
+		unlimitedMechs: {
+			Label: 无限制召唤机械BOSS
+			Tooltip: 所有机械BOSS无限制召唤!
+		}
+
+		MechSpawnRework: {
+			Label: 机械BOSS自然生成重置
+			Tooltip: 启用重置机械BOSS自然生成
+		}
+
+		MechSpawnDelay: {
+			Label: 机械BOSS自然生成延迟
+			Tooltip: 让机械BOSS在提示文本显示后自然生成的时间延迟
+		}
+
+		MechSpawnCooldown: {
+			Label: 机械BOSS自然生成冷却时间
+			Tooltip: 让机械BOSS自然生成前的冷却时间
+		}
+
+		MechSpawnChance: {
+			Label: 机械BOSS自然刷新概率 (分母)
+			Tooltip: 自然生成机械BOSS的生成分母值
+		}
+
+		DestroyerScreenShake: {
+			Label: "[i/s1:556] 毁灭者摇晃屏幕"
+			Tooltip: 启动允许毁灭者挖掘时摇晃屏幕
+		}
+
+		DestroyerResprite: {
+			Label: "[i/s1:556] 毁灭者重新绘图"
+			Tooltip:
+				'''
+				为毁灭者重新绘图
+				(对有蜈蚣恐惧症的人有触发警告!)
+				注意:由于BOSS有更大的贴图，不再适用于新版本的战斗!
+				毛骨悚然的腿效果，现在设置可以删除腿效果!
+				'''
+		}
+
+		DestroyerLegs: {
+			Label: "[i/s1:556] 毁灭者毛骨悚然的腿效果"
+			Tooltip:
+				'''
+				允许毁灭者的腿在移动时具有蜈蚣般的动作
+				((需要毁灭者重新绘图被启用!!)
+				'''
+		}
+
+		PrimeResprite: {
+			Label: "[i/s1:557] 机械骷髅王重新绘图"
+			Tooltip: 启用为机械骷髅王重新绘图
+		}
+
+		BombsBreak: {
+			Label: "[i/s1:557] 机械骷髅王的炸弹破坏物块"
+			Tooltip: 允许机械骷髅王破坏物块, 覆盖传奇模式
+		}
+
+		TwinsResprite: {
+			Label: "[i/s1:544] 双子魔眼重新绘图"
+			Tooltip: 为双子魔眼重新绘图
+		}
+
+		Overheat: {
+			Label: "[i/s1:2701] 过热效果"
+			Tooltip: 当机械boss的生命值低于10%时，会产生过热的视觉效果(boss会变成橙色并冒烟)
+		}
+
+		Frostbrand: {
+			Label: "[i/s1:676] 寒霜剑重置"
+			Tooltip: 启用寒霜剑重置
+		}
+
+		BeamSword: {
+			Label: "[i/s1:723] 光束剑重置"
+			Tooltip: 启用光束剑重置
+		}
+
+		Megashark: {
+			Label: "[i/s1:533] 巨兽鲨重置"
+			Tooltip: 启用巨兽鲨重置
+		}
+
+		MagicDagger: {
+			Label: "[i/s1:517] 魔法飞刀重置"
+			Tooltip: 启用魔法飞刀重置
+		}
+
+		LightDisc: {
+			Label: "[i/s1:561] 光辉飞盘重置"
+			Tooltip: 启用光辉飞盘重置
+		}
+
+		OpticStaff: {
+			Label: "[i/s1:2535] 魔眼法杖重置"
+			Tooltip: 启用魔眼法杖重置 (为防止游戏崩溃，先取消召唤魔眼法杖再更改该设置)
+		}
+
+		HallowedHood: {
+			Label: "[i/s1:4873] 神圣召唤套装效果重置"
+			Tooltip: 启用神圣召唤套装效果重置
+		}
+
+		AdamantiteArmor: {
+			Label: "[i/s1:403] 精金套装效果重置"
+			Tooltip: 启用精金套装效果重置
+		}
+
+		MythrilArmor: {
+			Label: "[i/s1:379] 秘银套装效果重置"
+			Tooltip: 启用秘银套装效果重置
+		}
+
+		CobaltArmor: {
+			Label: "[i/s1:374] 钴套装效果重置"
+			Tooltip: 启用钴套装效果重置
+		}
+
+		MechanicalCart: {
+			Label: "[i/s1:3353] 机械矿车重置"
+			Tooltip: 启用机械矿车重置
+		}
+
+		Sabers: {
+			Label: "[i/s1:3768] 晶光刃重置"
+			Tooltip:
+				'''
+				启用晶光刃重置
+				(注意:这也适用于瑟银添加的晶光刃)
+				'''
+		}
+
+		SaberReflect: {
+			Label: "[i/s1:3768] 晶光刃反射射弹"
+			Tooltip:
+				'''
+				允许晶光刃反弹弹幕
+				(注意:反射需要你把握好摆动的时间!此外，按住攻击是行不通的!)
+				'''
+		}
+	}
+
+	ToggleConfig: {
+		DisplayName: 内容切换
+
+		terminator: {
+			Label: 终结者
+			Tooltip: ""
+		}
+
+		caretaker: {
+			Label: MK-22看守者
+			Tooltip: ""
+		}
+
+		mechclops: {
+			Label: St4-sys
+			Tooltip: ""
+		}
+
+		siege: {
+			Label: 狱擎围城·愤怒机械墙
+			Tooltip: ""
+		}
+	}
+}

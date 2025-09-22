@@ -1,0 +1,135 @@
+ItemDescriptions: {
+	BloodButcherer: Struck enemies gain a stacking bleed effect
+	DemonBow: Converts wooden arrows into unholy arrows
+	LightsBane: Slashes of darkness appear while this sword is swung
+	TendonBow: Converts wooden arrows into ligament arrows
+	TheRottedFork: Creates traces of crimson energy at the tip of the spear
+	TheUndertaker: Emits a frontal shockwave every shot
+}
+
+Items: {
+	ArmorMeltingArrow: {
+		DisplayName: Armor-Melting Arrow
+		Tooltip:
+			'''
+			Ignores a small portion of enemy defense
+			Inflicts ichor on hit, reducing enemy defense
+			'''
+	}
+
+	DevilsRifle: {
+		DisplayName: Devil's Rifle
+		Tooltip: Unleashes a shadowflame tentacle every shot
+	}
+
+	DiggerofHoles: {
+		DisplayName: Digger of Holes
+		Tooltip:
+			'''
+			Able to mine Hellstone
+			"With a hard R"
+			'''
+	}
+
+	GemChewer: {
+		DisplayName: Gem Chewer
+		Tooltip:
+			'''
+			Able to mine Hellstone
+			"You shouldn't eat precious minerals, it'll get you killed"
+			'''
+	}
+
+	LigamentArrow: {
+		DisplayName: Ligament Arrow
+		Tooltip: Ignores a small portion of enemy defense
+	}
+
+	SpoonfulofDarkness: {
+		DisplayName: Spoonful of Darkness
+		Tooltip: The head of this spoon leaves behind a damaging trail of darkness
+	}
+
+	WormbaneArrow: {
+		DisplayName: Wormbane Arrow
+		Tooltip:
+			'''
+			Pierces indefinitely
+			Inflicts cursed flames on hit
+			'''
+	}
+}
+
+Projectiles: {
+	ArmorMeltingArrow.DisplayName: Armor-Melting Arrow
+	BrainofCthulhu.DisplayName: "{$NPCName.BrainofCthulhu}"
+	DevilsRifle.DisplayName: Devil's Rifle
+	DiggerofHoles.DisplayName: Digger of Holes
+	GemChewer.DisplayName: Gem Chewer
+	LigamentArrow.DisplayName: Ligament Arrow
+	SpoonfulofDarkness.DisplayName: Spoonful of Darkness
+	TheUndertaker.DisplayName: The Undertaker
+	WormbaneArrow.DisplayName: Wormbane Arrow
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: Rework Config
+
+		eow: {
+			Label: Eater of Worlds Rework
+			Tooltip: ""
+		}
+
+		boc: {
+			Label: Brain of Cthulhu Rework
+			Tooltip: ""
+		}
+
+		devilsrifle: {
+			Label: Devil's Rifle
+			Tooltip:
+				'''
+				Enables the Devil's rifle item which replaces the musket in the shadow orb loot table
+				Moves the musket to the Arms Dealer's inventory
+				'''
+		}
+
+		darkspoon: {
+			Label: Spoonful of Darkness
+			Tooltip:
+				'''
+				Enables the Spoonful of Darkness item, which serves as the corruption's Rotted Fork
+				Also adjusts the Rotted Fork's stats for parity purposes
+				'''
+		}
+
+		ligamentarrow: {
+			Label: Ligament Arrow
+			Tooltip:
+				'''
+				Enables the Ligament arrow, which serves as the crimson's Unholy arrow
+				Also modifies loot tables that can drop Unholy arrows
+				'''
+		}
+
+		evildrills: {
+			Label: Evil Ore Drills
+			Tooltip: Enables Digger of Holes and Gem Chewer, which serve as drill versions of the Nightmare and Deathbringer pickaxe respectively
+		}
+
+		evilbows: {
+			Label: Evil Ore Bows Rebalancing
+			Tooltip:
+				'''
+				Mildly adjusts the stats of Demon and Tendon bow for parity purposes
+				Also makes them convert wooden arrows into Unholy and Ligament arrows respectively
+				'''
+		}
+
+		evilswords: {
+			Label: Evil Ore Swords Rebalancing
+			Tooltip: Mildly adjusts the stats of Light's Bane and Blood Butcherer for parity purposes
+		}
+	}
+}
