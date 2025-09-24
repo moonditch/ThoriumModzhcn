@@ -1,135 +1,136 @@
 ItemDescriptions: {
-	BloodButcherer: Struck enemies gain a stacking bleed effect
-	DemonBow: Converts wooden arrows into unholy arrows
-	LightsBane: Slashes of darkness appear while this sword is swung
-	TendonBow: Converts wooden arrows into ligament arrows
-	TheRottedFork: Creates traces of crimson energy at the tip of the spear
-	TheUndertaker: Emits a frontal shockwave every shot
+	BloodButcherer: 被击中敌人会叠加出血效果
+	DemonBow: 将木箭转化为邪箭
+	LightsBane: 挥砍时释放黑暗斩切
+	TendonBow: 将木箭转化为韧带箭
+	TheRottedFork: 戳刺时在矛尖产生猩红斩痕
+	TheUndertaker: 射击时释放震荡波
 }
 
 Items: {
 	ArmorMeltingArrow: {
-		DisplayName: Armor-Melting Arrow
+		DisplayName: 穿甲箭
 		Tooltip:
 			'''
-			Ignores a small portion of enemy defense
-			Inflicts ichor on hit, reducing enemy defense
+			无视少量防御
+			命中时施加灵液减益，降低敌人的防御
 			'''
 	}
 
 	DevilsRifle: {
-		DisplayName: Devil's Rifle
-		Tooltip: Unleashes a shadowflame tentacle every shot
+		DisplayName: 恶魔步枪
+		Tooltip: 射击时释放暗影焰触手
 	}
 
 	DiggerofHoles: {
-		DisplayName: Digger of Holes
+		DisplayName: 掘洞怪
 		Tooltip:
 			'''
-			Able to mine Hellstone
-			"With a hard R"
+			能够开采狱石
+			"带个硬核的R"
 			'''
 	}
 
 	GemChewer: {
-		DisplayName: Gem Chewer
+		DisplayName: 噬晶者
 		Tooltip:
 			'''
-			Able to mine Hellstone
-			"You shouldn't eat precious minerals, it'll get you killed"
+			能够开采狱石
+			"你不该吃宝贵的矿物的，那会害死你的"
 			'''
 	}
 
 	LigamentArrow: {
-		DisplayName: Ligament Arrow
-		Tooltip: Ignores a small portion of enemy defense
+		DisplayName: 韧带箭
+		Tooltip: 无视少量防御
 	}
 
 	SpoonfulofDarkness: {
-		DisplayName: Spoonful of Darkness
-		Tooltip: The head of this spoon leaves behind a damaging trail of darkness
+		DisplayName: 黑暗一匙
+		Tooltip: 挥舞时在汤匙末端产生伤害尾迹
 	}
 
 	WormbaneArrow: {
-		DisplayName: Wormbane Arrow
+		DisplayName: 戮虫箭
 		Tooltip:
 			'''
-			Pierces indefinitely
-			Inflicts cursed flames on hit
+			无限穿透
+			命中时施加诅咒狱火
 			'''
 	}
 }
 
 Projectiles: {
-	ArmorMeltingArrow.DisplayName: Armor-Melting Arrow
+	ArmorMeltingArrow.DisplayName: 穿甲箭
 	BrainofCthulhu.DisplayName: "{$NPCName.BrainofCthulhu}"
-	DevilsRifle.DisplayName: Devil's Rifle
-	DiggerofHoles.DisplayName: Digger of Holes
-	GemChewer.DisplayName: Gem Chewer
-	LigamentArrow.DisplayName: Ligament Arrow
-	SpoonfulofDarkness.DisplayName: Spoonful of Darkness
-	TheUndertaker.DisplayName: The Undertaker
-	WormbaneArrow.DisplayName: Wormbane Arrow
+	DevilsRifle.DisplayName: 恶魔步枪
+	DiggerofHoles.DisplayName: 掘洞怪
+	GemChewer.DisplayName: 噬晶者
+	LigamentArrow.DisplayName: 韧带箭
+	SpoonfulofDarkness.DisplayName: 黑暗一匙
+	TheUndertaker.DisplayName: 夺命枪
+	WormbaneArrow.DisplayName: 戮虫箭
 }
 
 Configs: {
 	ReworkConfig: {
-		DisplayName: Rework Config
+		DisplayName: 重置配置
 
 		eow: {
-			Label: Eater of Worlds Rework
+			Label: 世界吞噬怪重置
 			Tooltip: ""
 		}
 
 		boc: {
-			Label: Brain of Cthulhu Rework
+			Label: 克苏鲁之脑重置
 			Tooltip: ""
 		}
 
 		devilsrifle: {
-			Label: Devil's Rifle
+			Label: 恶魔步枪
 			Tooltip:
 				'''
-				Enables the Devil's rifle item which replaces the musket in the shadow orb loot table
-				Moves the musket to the Arms Dealer's inventory
+				添加恶魔步枪，替换暗影珠奖池中的火枪
+				将火枪移入军火商的商店
 				'''
 		}
 
 		darkspoon: {
-			Label: Spoonful of Darkness
+			Label: 黑暗一匙
 			Tooltip:
 				'''
-				Enables the Spoonful of Darkness item, which serves as the corruption's Rotted Fork
-				Also adjusts the Rotted Fork's stats for parity purposes
+				添加黑暗一匙，与猩红之地的腐叉相对应
+				调整腐叉的数值与暗黑一匙对应
 				'''
 		}
 
 		ligamentarrow: {
-			Label: Ligament Arrow
+			Label: 韧带箭
 			Tooltip:
 				'''
-				Enables the Ligament arrow, which serves as the crimson's Unholy arrow
-				Also modifies loot tables that can drop Unholy arrows
+				添加韧带箭，与腐化之地的邪箭相对应
+				修改了掉落邪箭的奖池
 				'''
 		}
 
 		evildrills: {
-			Label: Evil Ore Drills
-			Tooltip: Enables Digger of Holes and Gem Chewer, which serve as drill versions of the Nightmare and Deathbringer pickaxe respectively
+			Label: 邪恶矿钻头
+			Tooltip: 添加掘洞怪与噬晶者，作为与邪恶矿镐对应的钻头
 		}
 
 		evilbows: {
-			Label: Evil Ore Bows Rebalancing
+			Label: 邪恶矿弓平衡调整
 			Tooltip:
 				'''
-				Mildly adjusts the stats of Demon and Tendon bow for parity purposes
-				Also makes them convert wooden arrows into Unholy and Ligament arrows respectively
+				略微调整了恶魔弓与肌腱弓的数值
+				也给它们添加了转化木箭的能力
 				'''
 		}
 
 		evilswords: {
-			Label: Evil Ore Swords Rebalancing
-			Tooltip: Mildly adjusts the stats of Light's Bane and Blood Butcherer for parity purposes
+			Label: 邪恶矿剑平衡调整
+			Tooltip: 略微调整了魔光剑与血型屠刀的数值
 		}
 	}
 }
+
