@@ -131,5 +131,18 @@ Configs: {
 			Label: Evil Ore Swords Rebalancing
 			Tooltip: Mildly adjusts the stats of Light's Bane and Blood Butcherer for parity purposes
 		}
+
+		mobs: {
+			Label: Evil Biome Enemies Rework
+			Tooltip:
+				'''
+				Currently only reworks:
+				-Crimera
+				-Eater of Souls
+				-Corruptor
+				-Ichor Sticker
+				This setting also toggles the stat changes for evil biome enemies
+				'''
+		}
 	}
 }
