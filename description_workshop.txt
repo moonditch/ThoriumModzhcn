@@ -1,51 +1,59 @@
-[h1]=模组介绍=[/h1]
-感谢：由灾厄维基出品的中文瑟银WIKI 和 灾厄维基汉化组部分成员+令+世纪小花+末泠+苍棱+南亭帮我制作的部分翻译及部分代码
-ps：汉化为客户端模组，不在服务端加载，联机方自行加载汉化
-ps：如果对某个汉化不满意去github提交野生的pr，我会有概率可以看到
-此汉化包含：
+[h1]=感谢=[/h1]
 [list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url] (此汉化前置模组)
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄乐师&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎乐师、投手&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非官方魂灵乐师、投手&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非官方惊惧乐师、投手&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非官方暗影奥秘乐师、投手&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域乐师、投手&牧师武器[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧[/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]瑟银职业标签[/url] (暂时存在)
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏补充汉化[/url] (暂时存在)
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173]机械BOSS重置的部分重叠文案[/url]
+[*] 灾厄维基出品的中文瑟银Wiki
+[*] 令/ 水星 / 三月 / 末泠：旧汉化支持
+[*] 末泠 / 马达 / furgo / plantare：旧代码支持
+[*] Super_ego / 兹翼 / 终子星：瑟银联动救赎附属汉化
+[*] Yee苍棱：瑟银联动暗影奥秘附属汉化
+[*] 虞悖：诸神的黄昏汉化
+[*] QQ告知&视频说明&报告bug&修改意见&小黑盒帖子&B站帖子&百度帖子：幻尘，克总来了，紫色节制...等等 (太多了，记不住awa，感谢所有朋友们的支持)
+[*] 狐萝卜：精神支持
+[/list]
+
+[h1]=模组介绍=[/h1]
+本模组是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]及其附属模组的汉化
+汉化内容包括：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.4），即此汉化的前置模组
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置[/url]（v1.1.3）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.10.1）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎吟游诗人、投手&牧师武器[/url]（v0.3.2）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非官方魂灵吟游诗人、投手&牧师武器[/url]（v0.4.4）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非官方惊惧吟游诗人、投手&牧师武器[/url]（v0.4）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非官方暗影奥秘吟游诗人、投手&牧师武器[/url]（v0.2.6）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域吟游诗人、投手&牧师武器[/url]（v0.1.1）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧[/url]（v1.1.0.1）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏汉化[/url]（v1.4.4.3） (暂时存在)
 [/list]
 
 [h1]=问题解决=[/h1]
-如果需要帮助 / BUG 加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
-也可以在评论区告诉我，如果无法进行评论区留言。加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]steam的聊天室[/url]
-不接受任何以问题性和奇怪目的加steam好友 / qq好友信息
+[list]
+[*] 本汉化为客户端模组，不在服务端加载，联机方需要自行加载汉化
+[*] 如果需要帮助/反馈BUG，请加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
+[*] 也可以在评论区告诉我，如果无法进行评论区留言，请加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]Steam聊天室[/url]
+[*] 我们暂不接受以咨询或反馈汉化为目的的Steam/QQ好友申请，请见谅
+[*] 如果对某个汉化不满意，欢迎来[url=https://github.com/moonditch/ThoriumModzhcn]GitHub[/url]提交pr，我们大概率会看到
+[/list]
 
 [h1]=超链接=[/h1]
-[url=https://github.com/moonditch/ThoriumModzhcn]瑟银汉化的源码[/url]
-[url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银本体中文WIKI[/url]
-[url=https://terrariamods.wiki.gg/wiki/Thorium_Crossmod]瑟银附属：瑟银BOSS重置&非官方瑟银武器系列WIKI（制作中）[/url]
-[url=https://ragnarokmod.wiki.gg/]瑟银附属：诸神的黄昏WIKI（制作中）[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3446070012]SoloistsHatinfinite·灵感无限![/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2024.12.25.0版本分离，在2025.9.13.0版本暂时回归）
+[list]
+[*] [url=https://github.com/moonditch/ThoriumModzhcn]瑟银汉化的源码仓库[/url]
+[*] [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]官方中文瑟银模组Wiki[/url]
+[*] [url=https://terrariamods.wiki.gg/wiki/Thorium_Crossmod]瑟银BOSS重置&非官方瑟银武器系列Wiki（制作中）[/url]
+[*] [url=https://ragnarokmod.wiki.gg/]诸神的黄昏Wiki（制作中）[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3446070012]SoloistsHatinfinite·灵感无限![/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2025.9.13.0版本暂时回归）
+[/list]
 
 [h1]=作者介绍=[/h1]
-Listentowind：瑟银本体WIKI维护
-moon.ditch / Super_ego / 白狐狸(繁体) /  Listentowind(偶尔帮忙)：现瑟银汉化本体汉化&所有瑟银附属维护（简体+繁体）+诸神的黄昏的内置汉化
-Pudd1ng：未来的维护支持
-moon.ditch / 南亭: 现代码支持
-Ivybless：现校对支持(几乎没时间)
+[list]
+[*] Listentowind：官方中文瑟银模组Wiki维护
+[*] moon.ditch / Super_ego / 白狐狸 /  Listentowind：现瑟银本体&附属简繁体汉化维护+诸神的黄昏汉化
+[*] Pudd1ng：未来的维护支持
+[*] moon.ditch / 南亭: 现代码支持
+[*] Ivybless：现校对支持
+[/list]
 
-感谢以下
-令(参与过此汉化) / 水星(参与过此汉化) / 三月(未参与但是1.4.3的瑟银汉化已删除) / 末泠(参与过此汉化+1.4.3的瑟银汉化已删除)：旧汉化支持
-末泠 / 马达 / furgo / plantare: 旧代码支持
-Super_ego / 兹翼 / 终子星：瑟银联动救赎附属汉化
-Yee苍棱：瑟银联动暗影奥秘汉化
-虞悖：诸神的黄昏汉化
-QQ告知&视频说明&报告bug&修改意见&小黑盒帖子&B站帖子&百度帖子：幻尘，克总来了，紫色节制...等等 (太多了，记不住awa)
-狐萝卜：精神支持[quote=tModLoader ThoriumModzhcn]
-Developed By Flandre Scarlet & @马达达马达 & 令 & 末泠 & Super_ego & 兹翼 & 终子星 & Ivybless & plantare & furgo & 狐萝卜 & 虞悖 & Yee苍棱 & 白狐狸 & 南亭  & 水星 & Listentowind[/quote]
+[quote=tModLoader ThoriumModzhcn]Developed By Flandre Scarlet & @马达达马达 & 令 & 末泠 & Super_ego & 兹翼 & 终子星 & Ivybless & plantare & furgo & 狐萝卜 & 虞悖 & Yee苍棱 & 白狐狸 & 南亭  & 水星 & Listentowind & Pudd1ng[/quote]
