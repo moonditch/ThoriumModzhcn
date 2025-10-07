@@ -1,3 +1,10 @@
+PhotosensitivityWarning:
+	'''
+	光敏警告：瑟银BOSS重置含有大量光闪烁特效，尤其是在与Boss战斗时！
+	如果你对闪光敏感，请前往设置 -> 模组配置 -> Thorium Helheim -> 视觉设置，并将所有滑块调至0
+	若你不想每次都看到此提示，也可在模组配置中关闭此警告
+	'''
+
 ItemDescriptions: {
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
@@ -44,6 +51,11 @@ ItemDescriptions: {
 	RhapsodistChestWoofer: 音波伤害无视250点防御力
 	RhapsodistBoots: 咒音增幅范围加倍
 	SoloistHat: 最大灵感值增加8点
+	ThoriumArmor:
+		'''
+		暴击会累积能量槽，当能量槽充满时，你的攻击会在短暂延迟后造成一次电击。
+		若使用由瑟银锭为主要材料打造的物品，则任何命中都会累积能量槽，而不仅限于暴击。
+		'''
 	ChampionBomberStaff:
 		'''
 		发射一枚神奇的导弹重复攻击敌人
@@ -100,8 +112,9 @@ ItemDescriptions: {
 	Obliterator:
 		'''
 		左键射出非穿透激光
-		右键释放光球，向附近的目标发射子弹并造成60%的伤害
-		用激光攻击光球，让激光反弹到附近的敌怪并造成500%的伤害
+		右键发射一个火球，爆炸后会向四周散射子弹，造成50%伤害
+		用激光击中火球会使它反弹到附近的目标或其他火球
+		每次反弹都会使其伤害提高初始伤害的100%，最高可提升至1000%
 		'''
 	OmegaBlaster:
 		'''
@@ -168,14 +181,46 @@ ItemDescriptions: {
 		'''
 	DragonTooth:
 		'''
-		每次挥舞4次会释放诅咒焰
-		对敌人攻击产生暴击时，从敌人身上释放多束诅咒焰
+		每挥舞4次会释放一道诅咒龙魂
+		对敌怪攻击产生暴击时，从敌人身上释放多束诅咒焰
 		'''
 	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
+	DreadBlaster:
+		'''
+		左键发射恐惧脉冲
+		长按左键可持续释放密集的恐惧脉冲
+		击中敌怪会释放攻击性恐惧能量
+		'''
+	DemonBloodStaff:
+		'''
+		释放一阵追踪的魔血之魂，每攻击四次时额外释放灵液之魂
+		造成伤害会提供鲜血充能
+		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
+		'''
 	DreadRazor:
 		'''
+		每挥舞第3次与第4次时会释放一道诅咒龙魂
 		右键释放一股恐惧能量
 		攻击会自动累积恐惧能量
+		'''
+	DreadTearer:
+		'''
+		快速在你周围旋转一把高度污染的镰刀
+		使用此武器获得灵魂精华后，接下来的5次挥舞将会生成恐惧能量
+		造成伤害时会释放攻击性恐惧能量
+		'''
+	DemonBloodSword:
+		'''
+		当鲜血丰收处于冷却中时，此武器会发射追踪的血之心
+		造成伤害会提供鲜血充能
+		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
+		'''
+	DemonBloodRipper:
+		'''
+		快速在你周围旋转一把充满恶魔的镰刀
+		使用此武器获得灵魂精华后，接下来的5次挥舞将会召唤追踪的血之心
+		造成伤害会提供鲜血充能
+		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
 		'''
 	DemonBloodSpear:
 		'''
@@ -189,9 +234,25 @@ ItemDescriptions: {
 		右键释放一连串攻击并造成一半伤害
 		"我们家里有一把至尊之怒"
 		'''
+	TitanArmor:
+		'''
+		暴击时为玩家提供2点护盾
+		根据当前护盾总量提升暴击几率
+		'''
+	TitanBoomerang:
+		'''
+		投掷高速旋转的巨型圆盘，在返回前会形成一个漩涡
+		暴击会造成额外伤害
+		'''
 	TitanSword:
 		'''
 		挥舞两把泰坦剑
+		暴击会造成额外伤害
+		'''
+	TitanScythe:
+		'''
+		快速在自身周围旋转一把泰坦双镰
+		使用此武器获得灵魂精华后，会生成一个不断扩大的漩涡。
 		暴击会造成额外伤害
 		'''
 	TerrariumSaber:
@@ -360,9 +421,11 @@ Projectiles: {
 	DancingJellyfish.DisplayName: 跳舞水母
 	Darkness.DisplayName: 黑暗
 	DeathRain.DisplayName: 死亡之雨
-	DemonBloodSword.DisplayName: Demon Blood Sword
+	DemonBloodSword.DisplayName: 魔血长剑
 	DragonTooth.DisplayName: 龙牙
-	DreadRazor.DisplayName: Dread Razor
+	DragonToothDragon.DisplayName: 龙牙
+	DreadRazor.DisplayName: 恐惧之锋
+	DreadPulse.DisplayName: 恐惧脉冲
 	DyingReality.DisplayName: 垂死现实
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
 	EnergySurge.DisplayName: 能量脉搏
@@ -380,7 +443,7 @@ Projectiles: {
 	GraniteCharge.DisplayName: 花岗岩充能
 	HitScan.DisplayName: 冲击射线
 	HitScanner.DisplayName: 冲击扫描仪
-	HitScannerTelegraph.DisplayName: Hit Scanner
+	HitScannerTelegraph.DisplayName: 冲击扫描仪
 	IllumiteBlade.DisplayName: 荧光刃
 	IllumitePortal.DisplayName: 荧光传送门
 	ImpendingDread.DisplayName: 迫近之惧
@@ -406,39 +469,41 @@ Projectiles: {
 	OmniBurst.DisplayName: 原子爆发
 	OmniSlash.DisplayName: 死亡斩击
 	OmnicidePunchAttack.DisplayName: 毁灭之拳
-	Oneirophobia.DisplayName: Oneirophobia
-	OneirophobiaBlade.DisplayName: Lucid Edge
-	OneirophobiaBolt.DisplayName: Lucid Missile
-	OneirophobiaLaser.DisplayName: Lucid Ray
-	OneirophobiaMinion.DisplayName: Lucid Instrument
-	OneirophobiaNuke.DisplayName: Lucid Blast
-	OneirophobiaSlice.DisplayName: Lucid Slash
+	Oneirophobia.DisplayName: 恐梦症
+	OneirophobiaBlade.DisplayName: 清梦刃光
+	OneirophobiaBolt.DisplayName: 清梦飞弹
+	OneirophobiaLaser.DisplayName: 清梦光束
+	OneirophobiaMinion.DisplayName: 清梦乐器
+	OneirophobiaNuke.DisplayName: 清梦爆破
+	OneirophobiaSlice.DisplayName: 清梦斩击
 	Paylode.DisplayName: 电磁载荷
 	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
 	QueenJellyPin.DisplayName: 皇后饰针
 	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
-	ShellxophoneHealing.DisplayName: Tidal Restoration
-	ShellxophoneRipple.DisplayName: Aquatic Ripple
-	ShellxophoneStrike.DisplayName: Abyssal Strike
-	SoulBleed.DisplayName: Soul Bleed
+	ShellxophoneHealing.DisplayName: 潮汐回涌
+	ShellxophoneRipple.DisplayName: 渊洋涟漪
+	ShellxophoneStrike.DisplayName: 深渊冲击
+	SoulBleed.DisplayName: 灵魂流血
 	SoulRender.DisplayName: 灵魂镰刃
 	StableRealityRift.DisplayName: 稳定的现实裂隙
-	StarCore.DisplayName: Star Core
+	StarCore.DisplayName: 星核
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
 	TerrariumSaber.DisplayName: 元素圣剑
+	ThoriumHeavyScythe.DisplayName: 瑟银重镰
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
 	TitanSword.DisplayName: 泰坦剑
+	TitanWhirlpool.DisplayName: 泰坦漩涡
 	ToothOfTheConsumer.DisplayName: 肉食者之牙
 	ValadiumRay.DisplayName: 虚空射线
 	ValadiumSlash.DisplayName: 虚空斩击
 	ValadiumSlicer.DisplayName: 虚金切割者
 	VampireCape.DisplayName: 吸血蝙蝠
-	VaporizingFlames.DisplayName: Vaporizing Flames
-	VaporizingFreeze.DisplayName: Vaporizing Freeze
-	VaporizingPoison.DisplayName: Vaporizing Poison
+	VaporizingFlames.DisplayName: 汽化灼焰
+	VaporizingFreeze.DisplayName: 汽化寒霜
+	VaporizingPoison.DisplayName: 汽化剧毒
 	VisualShockwave.DisplayName: 冲击波
 	Void.DisplayName: 虚空
 	VoidEye.DisplayName: 注视者之眼
@@ -521,7 +586,8 @@ Items: {
 		DisplayName: 刽子手协议
 		Tooltip:
 			'''
-			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
+			使用光辉镰刀获得灵魂精华时，会获得一层充能
+			牧师镰刀的弹幕或非镰刀类武器造成的光辉伤害会消耗充能，以获得灵魂精华
 			"把他们的灵魂带给我…"
 			'''
 	}
@@ -545,12 +611,9 @@ Items: {
 		Tooltip:
 			'''
 			镰刀定向挥舞然后旋转两圈
-			此武器获得灵魂精华或暴击时生成冰碎片跟随你
-			长期处于战斗状态也会生成冰碎片但是伤害较弱
-			冰碎片给予玩家10点防御力
+			此武器获得灵魂精华，暴击或处于战斗状态会生成跟随你的冰碎片
+			每个冰碎片给予玩家10点防御力，最多存在四个
 			右键或者更换武器时会向光标附近的敌人释放所有冰碎片
-			冰碎片命中时会造成3倍伤害，较弱的冰碎片造成1倍伤害
-			最多可以拥有四片冰碎片
 			"属于经营着咖啡店的恶魔......"
 			'''
 	}
@@ -605,14 +668,11 @@ Items: {
 		DisplayName: 绯红新月
 		Tooltip:
 			'''
-			释放蝙蝠攻击敌人，蝙蝠会回到你身边
-			蝙蝠造成的1/3伤害用来恢复吸血值
-			右键释放蝙蝠，蝙蝠会追踪并治愈其他玩家
-			每次消耗10点吸血值
-			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
-			但是，治疗队友会退还一些法力值给予治疗者
-			吸血值: <bloodSiphon>
+			释放蝙蝠攻击敌人，蝙蝠会回到你身边，并恢复吸血值
+			右键消耗吸血值，释放蝙蝠
+			蝙蝠会追踪并治愈其他玩家<healAmount>点生命值
 			<legendaryModeOnly>在传奇模式下使用需要生命值
+			吸血值: <bloodSiphon>
 			"蝙蝠的美妙歌谣"
 			'''
 	}
@@ -671,11 +731,9 @@ Items: {
 		DisplayName: 便携式能量风暴
 		Tooltip:
 			'''
-			投掷一个不稳定的能量球，将花岗岩能量溢向目标
+			投掷最多20不稳定的能量球，将花岗岩能量溢向目标
 			被溢散的敌怪多受5%伤害
-			按住左键让能量球在你身边环绕
-			松开左键将你身边所有的能量球向你鼠标位置发射
-			一次最多20个能量球
+			松开左键以一次性释放所有的能量球
 			不会增加疲惫值
 			"赐予能量球新的意义"
 			'''
@@ -697,8 +755,9 @@ Items: {
 			'''
 			最大生命增加60
 			治疗法术会额外治疗5点生命值
-			牧师镰刀的弹幕击中敌人时也能获得灵魂精华
 			取消牧师盔甲带来的非光辉伤害削减
+			使用光辉镰刀获得灵魂精华时，会获得一层充能
+			牧师镰刀的弹幕或非镰刀类武器造成的光辉伤害会消耗充能，以获得灵魂精华
 			"正式达成协议!"
 			'''
 	}
@@ -747,6 +806,56 @@ Items: {
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TitanHat: {
+		DisplayName: 泰坦风帽
+		Tooltip:
+			'''
+			“充满始源能量”
+			增加音波演奏速度和15%灵感值再生速率
+			增加3秒咒音增幅的持续时间
+			大幅增加咒音增幅的作用范围
+			'''
+	}
+
+	TitanHood: {
+		DisplayName: 泰坦兜帽
+		Tooltip:
+			'''
+			“充满始源能量”
+			增加15%投掷速度
+			最大技巧值增加3
+			非消耗性投掷武器到达疲惫的时间延长40%
+			'''
+	}
+
+	TitanVisage: {
+		DisplayName: 泰坦面铠
+		Tooltip:
+			'''
+			“充满始源能量”
+			增加15%光辉伤害和施法速度
+			治疗法术会额外治疗6点生命值
+			你的治疗法术可以暴击，造成双倍治疗量
+			'''
+	}
+
+	TitanVisor: {
+		DisplayName: 泰坦面甲
+		Tooltip:
+			'''
+			“充满始源能量”
+			最大仆从数量增加3，最大哨兵数量增加1
+			鞭子攻击范围扩大15%
+			增加6%仆从暴击率
+			你的仆从和哨兵可以暴击
+			'''
+	}
+
+	ThoriumHeavyScythe: {
+		DisplayName: 泰坦重镰
+		Tooltip: 这把镰刀是定向挥舞而不是旋转
 	}
 
 	ValkyrienSkyStone: {
@@ -1121,6 +1230,21 @@ Configs: {
 
 	ItemReworksConfig: {
 		DisplayName: 物品重置/增益转换
+		
+		showItemReworks: {
+			Label: 显示重置物品
+			Tooltip:
+				'''
+				在物品描述中显示本模组改动过的物品
+				已知问题：当模组加载顺序混乱时，可能无法正常运行
+				此外，对部分盔甲与吟游诗人武器的支持也不太稳定
+				'''
+		}
+
+		ThoriumArmor: {
+			Label: "[i:ThoriumMod/ThoriumMail]瑟银盔甲"
+			Tooltip: Note: 被改动的是套装效果，而不是护甲本身
+		}
 
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner] {$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
@@ -1272,6 +1396,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		DragonsGaze: {
+			Label: "[i:ThoriumMod/DragonsGaze]绿龙之凝"
+			Tooltip: ""
+		}
+
 		DragonTooth: {
 			Label: "[i:ThoriumMod/DragonTooth] {$Mods.ThoriumMod.Items.DragonTooth.DisplayName}"
 			Tooltip: ""
@@ -1281,9 +1410,32 @@ Configs: {
 			Label: "[i:ThoriumMod/DragonTalon] {$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
 			Tooltip: ""
 		}
+		DragonsWail: {
+			Label: "[i:ThoriumMod/DragonsWail]绿龙哀歌"
+			Tooltip: ""
+		}
+
+		TitanArmor: {
+			Label: "[i:ThoriumMod/TitanBreastplate]泰坦盔甲"
+			Tooltip:
+				'''
+				被改动的是套装加成，而不是护甲本身
+				另外，新增的头盔需通过额外物品设置进行启/禁用，而非此选项
+				'''
+		}
+
+		TitanBoomerang: {
+			Label: "[i:ThoriumMod/TitanBoomerang]泰坦回旋镖"
+			Tooltip: ""
+		}
 
 		TitanSword: {
 			Label: "[i:ThoriumMod/TitanSword] {$Mods.ThoriumMod.Items.TitanSword.DisplayName}"
+			Tooltip: ""
+		}
+
+		TitanScythe: {
+			Label: "[i:ThoriumMod/TitanScythe]泰坦镰刀"
 			Tooltip: ""
 		}
 
@@ -1431,6 +1583,17 @@ Configs: {
 			Label: "[i:ThoriumMod/Mjolnir] {$Mods.ThoriumMod.Items.Mjolnir.DisplayName}"
 			Tooltip: ""
 		}
+
+		DreadBlaster: {
+			Label: "[i:ThoriumMod/DreadBlaster]恐惧冲击波"
+			Tooltip: ""
+		}
+
+		DemonBloodStaff: {
+			Label: "[i:ThoriumMod/DemonBloodStaff]魔血法杖"
+			Tooltip: ""
+		}
+
 
 		DreadRazor: {
 			Label: "[i:ThoriumMod/DreadRazor] {$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"
