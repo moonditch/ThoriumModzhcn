@@ -1,3 +1,10 @@
+PhotosensitivityWarning:
+	'''
+	PHOTOSENSITIVITY WARNING: Thorium Helheim adds a lot of flashy effects! Especially in boss fights!
+	If you are photosensitive, go to Settings -> Mod Configuration -> Thorium Helheim -> Visual Settings and set all the sliders to 0
+	You can turn off this warning in the config as well if you do not want to keep seeing it
+	'''
+
 ItemDescriptions: {
 	DreamWeaversHelmet: Maximum life increased by 60
 	DreamWeaversHood: Maximum life increased by 100
@@ -44,6 +51,11 @@ ItemDescriptions: {
 	RhapsodistChestWoofer: Symphonic damage ignores 250 defense
 	RhapsodistBoots: Symphonic empowerment range is doubled
 	SoloistHat: Increases maximum inspiration by 8
+	ThoriumArmor:
+		'''
+		Critical strikes build up a meter that when full, causes attacks to create delayed electric shocks
+		Using items made with mostly Thorium bars builds this meter up on any hit instead of just crits
+		'''
 	ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that repeatedly attacks hit targets
@@ -105,8 +117,9 @@ ItemDescriptions: {
 	Obliterator:
 		'''
 		Left Click to shoot a non-piercing laser beam
-		Right Click to shoot a ball that shoots bullets at neaby targets that deal 60% damage
-		Shooting the ball with the laser will cause it to bounce towards nearby targets and deal 500% damage
+		Right Click to shoot a fireball that explodes into a circular spread of bullets that deal 50% damage
+		Shooting the fireball with the laser will cause it to bounce towards nearby targets or other fireballs
+		Each bounce increases its damage by 100% of its initial damage, eventually capping out at 1000%
 		'''
 	OmegaBlaster:
 		'''
@@ -173,14 +186,46 @@ ItemDescriptions: {
 		'''
 	DragonTooth:
 		'''
-		Every 4th attack releases a breath of cursed inferno
+		Every 4th attack releases a cursed dragon spirit
 		Critical strikes create a ring of cursed inferno
 		'''
 	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
+	DreadBlaster:
+		'''
+		Tap left click to fire a burst of dread pulses
+		Hold left click to unleash a barrage of dread pulses
+		Hitting enemies expel offensive dread energy
+		'''
+	DemonBloodStaff:
+		'''
+		Unleash a barrage of homing demon blood souls and as well as ichor souls every fourth attack
+		Dealing damage will grant you a blood charge
+		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		'''
 	DreadRazor:
 		'''
+		Every 3rd and 4th attack unleashes a cursed dragon spirit
 		Right click to release a stream of dread energy
 		Attacking automatically accumulates dread energy
+		'''
+	DreadTearer:
+		'''
+		Rapidly spins a highly corrupted scythe around you
+		Gaining soul essence with this weapon causes its next five swings to generate dread energy
+		Hitting enemies expel offensive dread energy
+		'''
+	DemonBloodSword:
+		'''
+		When blood harvest is on cooldown, this weapon shoots homing blood hearts
+		Dealing damage will grant you a blood charge
+		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		'''
+	DemonBloodRipper:
+		'''
+		Rapidly spins a demon-fueled scythe around you
+		Gaining soul essence with this weapon causes your next five swings to summon homing blood hearts
+		Dealing damage will grant you a blood charge
+		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
 		'''
 	DemonBloodSpear:
 		'''
@@ -194,9 +239,25 @@ ItemDescriptions: {
 		Right Click to unleash a flurry of attacks that deal half damage
 		"We have a chainsaw sword at home"
 		'''
+	TitanArmor:
+		'''
+		Critical strikes give the player +2 shield
+		Increases critical strike chance based on total shield
+		'''
+	TitanBoomerang:
+		'''
+		Throw fast titanic disks that form a whirlpool before returning
+		Critical strikes will deal additional damage
+		'''
 	TitanSword:
 		'''
 		Dual wield two, titanic blades
+		Critical strikes will deal additional damage
+		'''
+	TitanScythe:
+		'''
+		Rapidly spin a titanic dual scythe
+		Gaining soul essence with this weapon creates an expanding whirlpool
 		Critical strikes will deal additional damage
 		'''
 	TerrariumBomber:
@@ -367,7 +428,9 @@ Projectiles: {
 	DeathRain.DisplayName: Death Rain
 	DemonBloodSword.DisplayName: Demon Blood Sword
 	DragonTooth.DisplayName: Dragon Tooth
+	DragonToothDragon.DisplayName: Dragon Tooth
 	DreadRazor.DisplayName: Dread Razor
+	DreadPulse.DisplayName: Dread Pulse
 	DyingReality.DisplayName: Dying Reality
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
 	EnergyBurst.DisplayName: Granite Energy Burst
@@ -446,9 +509,11 @@ Projectiles: {
 	Stuff.DisplayName: Stuff
 	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 	TerrariumSaber.DisplayName: Terrarium Saber
+	ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
 	TitanSword.DisplayName: Titan Sword
+	TitanWhirlpool.DisplayName: Titan Whirlpool
 	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
 	ValadiumRay.DisplayName: Void Ray
 	ValadiumSlash.DisplayName: Void Slash
@@ -539,7 +604,8 @@ Items: {
 		DisplayName: Executioner's Contract
 		Tooltip:
 			'''
-			Radiant scythes grant soul essence on projectile hits
+			Gaining soul essence with radiant scythes grant a stack of aggregate charge
+			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
 			"Fetch me their souls..."
 			'''
 	}
@@ -563,12 +629,9 @@ Items: {
 		Tooltip:
 			'''
 			This scythe is swung directionally and is spun twice every 2 swings
-			Gaining soul essence or landing crits with this weapon creates an ice shard that follows you
-			Being in combat for an extended duration will also generate ice shards, but they are weaker
-			Ice shards give the user +10 defense each
+			Gaining soul essence, landing crits or being in combat creates ice shards that follow you
+			Ice shards give the user +10 defense each but there can only be 4 at once
 			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
-			Ice shards deal 3x more damage on hit, weaker ice shards only deal 1x 
-			You can only have up to 4 ice shards at once
 			"Belongs to a certain demon who allegedly runs a coffee shop..."
 			'''
 	}
@@ -619,14 +682,10 @@ Items: {
 		DisplayName: Red Crescent
 		Tooltip:
 			'''
-			Shoots bats that return to you upon hitting enemies
-			Upon returning, they fill up your blood siphon by a third of the damage dealt
-			<right> to shoot bats that will home in to other players and heal them
-			This consumes 10 blood siphon points
-			Bats heal for <healAmount> life but does not trigger on-heal effects
-			Though, healing allies return some of the healer's mana
-			Blood Siphon: <bloodSiphon>
+			Shoots bats that return on hit, giving blood
+			<right> to consume blood and release bats that heal allies for <healAmount> life
 			<legendaryModeOnly>Costs life to use in Legendary mode
+			Blood Siphon: <bloodSiphon>
 			"A wonderful ballad of the bats"
 			'''
 	}
@@ -684,11 +743,9 @@ Items: {
 		DisplayName: Pocket Energy Storm
 		Tooltip:
 			'''
-			Throws an unstable energy ball that overflows targets
+			Throws up to 20 unstable energy balls that overflows targets
 			Overflowed enemies take 5% more damage
-			Hold <left> to accumulate balls that will orbit you
-			Release <left> to shoot all the balls to your cursor
-			You can only have 20 energy balls at a time
+			Release <left> to unleash all of those balls at once
 			Does not exhaust you
 			"Gives a new meaning to blue balled"
 			'''
@@ -710,8 +767,9 @@ Items: {
 			'''
 			Maximum life increased by 60
 			Healing spells grant an additional 5 life
-			Healer scythes grant soul essence on projectile hits
 			Negates non-radiant damage penalties caused by healer armor
+			Gaining soul essence with radiant scythes grant a stack of aggregate charge
+			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
 			"Seal the deal!"
 			'''
 	}
@@ -760,6 +818,56 @@ Items: {
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TitanHat: {
+		DisplayName: Titan Hat
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			Increases symphonic playing speed and inspiration regeneration rate by 15%
+			Increases empowerment duration by 3 seconds
+			Greatly increases empowerment range
+			'''
+	}
+
+	TitanHood: {
+		DisplayName: Titan Hood
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			Increases throwing speed by 15%
+			Increases maximum technique points by 3
+			Non-consumable throwing weapons take 40% longer to exhaust you
+			'''
+	}
+
+	TitanVisage: {
+		DisplayName: Titan Visage
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			Increases radiant damage and casting speed by 15%
+			Healing spells will heal an additional 6 life
+			Your healing spells can critically strike, doubling its healing
+			'''
+	}
+
+	TitanVisor: {
+		DisplayName: Titan Visor
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			Increases max minions by 3 and sentries by 1
+			Increases whip range by 15%
+			Increases summon critical strike chance by 6%
+			Minions and sentries can critically strike
+			'''
+	}
+
+	ThoriumHeavyScythe: {
+		DisplayName: Thorium Heavy Scythe
+		Tooltip: This scythe is swung directionally instead of spun
 	}
 
 	ValkyrienSkyStone: {
@@ -1133,6 +1241,21 @@ Configs: {
 	ItemReworksConfig: {
 		DisplayName: Item Rework/Buff Toggles
 
+		showItemReworks: {
+			Label: Show Item Reworks
+			Tooltip:
+				'''
+				Display which items are reworked by this mod in its description
+				KNOWN ISSUE: Does not work correctly when mod load order is messed up
+				Also low-key kinda not works on certain armors and bard weapons
+				'''
+		}
+
+		ThoriumArmor: {
+			Label: "[i:ThoriumMod/ThoriumMail]Thorium Armor"
+			Tooltip: Note: The set bonus is what's reworked, not the armor itself
+		}
+
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner]Hit Scanner"
 			Tooltip: ""
@@ -1283,6 +1406,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		DragonsGaze: {
+			Label: "[i:ThoriumMod/DragonsGaze]Dragon's Gaze"
+			Tooltip: ""
+		}
+
 		DragonTooth: {
 			Label: "[i:ThoriumMod/DragonTooth]Dragon Tooth"
 			Tooltip: ""
@@ -1293,8 +1421,32 @@ Configs: {
 			Tooltip: ""
 		}
 
+		DragonsWail: {
+			Label: "[i:ThoriumMod/DragonsWail]Dragon's Wail"
+			Tooltip: ""
+		}
+
+		TitanArmor: {
+			Label: "[i:ThoriumMod/TitanBreastplate]Titan Armor"
+			Tooltip:
+				'''
+				Note: The set bonus is what's reworked, not the armor itself
+				Also, the added helmets are toggled via Extra Items, not this
+				'''
+		}
+
+		TitanBoomerang: {
+			Label: "[i:ThoriumMod/TitanBoomerang]Titan Boomerang"
+			Tooltip: ""
+		}
+
 		TitanSword: {
 			Label: "[i:ThoriumMod/TitanSword]Titan Sword"
+			Tooltip: ""
+		}
+
+		TitanScythe: {
+			Label: "[i:ThoriumMod/TitanScythe]Titan Scythe"
 			Tooltip: ""
 		}
 
@@ -1440,6 +1592,16 @@ Configs: {
 
 		Mjolnir: {
 			Label: "[i:ThoriumMod/Mjolnir]Mjölnir"
+			Tooltip: ""
+		}
+
+		DreadBlaster: {
+			Label: "[i:ThoriumMod/DreadBlaster]Dread Blaster"
+			Tooltip: ""
+		}
+
+		DemonBloodStaff: {
+			Label: "[i:ThoriumMod/DemonBloodStaff]Demon Blood Staff"
 			Tooltip: ""
 		}
 
