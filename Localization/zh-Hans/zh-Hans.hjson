@@ -49,7 +49,7 @@ Mods: {
 		GameTips: {
 			# Biomes
 			ThoriumModTip0: 瑟银模组：其中一片海洋下是{$Biomes.DepthsBiome.DisplayName}。基础的镐可能无法破环那里的海洋石。
-			ThoriumModTip1: 瑟银模组：就在地牢对面，有一片神秘的墓地…更神秘的是，墓地中心还有一台大型机器…
+			ThoriumModTip1: 瑟银模组：刚过地牢就有一片神秘的墓地……更神秘的是墓地中央的大型造物……
 			ThoriumModTip2: 瑟银模组：空气泡泡可以让你在水下呼吸一段时间。{$Items.BubbleMagnet.DisplayName}会将它们吸向你。
 			ThoriumModTip3: 瑟银模组：困难模式下水晶波痕会在{$Biomes.DepthsBiome.DisplayName}生长；使用它们来增加你的移动速度！
 			ThoriumModTip4: 瑟银模组：鲜血密室坐落于地下某处。可以在它的祭坛处提供5个不洁碎晶，但后果自负……
@@ -4033,7 +4033,7 @@ Mods: {
 
 			GlacialSting: {
 				DisplayName: 冰蛰
-				Tooltip: 将木箭转化为冰河箭，冰河箭可能会显著阻碍敌怪移动
+				Tooltip: 将木箭转化为显著减速敌怪的冰河箭
 			}
 
 			Glacier: {
@@ -4157,7 +4157,7 @@ Mods: {
 				Tooltip:
 					'''
 					哨兵数量上限增加1
-					效果不能与'{$ItemName.SummoningPotion}'叠加
+					效果不能与“{$ItemName.SummoningPotion}”叠加
 					'''
 			}
 
@@ -4605,7 +4605,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-                    增加{0}点光辉伤害
+					增加{0}点光辉伤害
 					光辉伤害会建立至多{1}点生命护盾且你的生命护盾不会随时间衰减
 					治疗队友会将生命护盾转移到他们身上
 					'''
@@ -9267,7 +9267,7 @@ Mods: {
 				Tooltip:
 					'''
 					降低10%非光辉伤害
-                    增加1点光辉伤害
+					增加1点光辉伤害
 					最大魔力值增加5
 					治疗法术会额外治疗1点生命值
 					'''
@@ -18243,7 +18243,7 @@ Mods: {
 
 			ValadiumBow: {
 				DisplayName: 虚金弓
-				Tooltip: 这把弓射出的箭会短暂用次元能量打击敌人
+				Tooltip: 次元能量随时间灼烧伤害敌怪
 			}
 
 			ValadiumBreastPlate: {
@@ -18263,7 +18263,7 @@ Mods: {
 
 			ValadiumFoeBlaster: {
 				DisplayName: 虚金破敌枪
-				Tooltip: 这把枪射出的子弹会短暂用次元能量打击敌人
+				Tooltip: 次元能量随时间灼烧伤害敌怪
 			}
 
 			ValadiumGreaves: {
@@ -19559,7 +19559,7 @@ Mods: {
 					增加移动加速度和跳跃高度，按住下键可以快速下落
 					缓慢生成最多{0}个灵焰，允许你消耗灵焰向光标处冲刺
 					按下“{$Keybinds.AccessoryAbility.DisplayName}”键进行冲刺
-                    装备时视为翅膀
+					装备时视为翅膀
 					'''
 			}
 
