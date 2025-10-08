@@ -49,7 +49,7 @@ Mods: {
 		GameTips: {
 			# Biomes
 			ThoriumModTip0: Thorium Mod: Under one of the oceans rests the {$Biomes.DepthsBiome.DisplayName}. Basic pickaxes won't be able to break the marine rock there.
-			ThoriumModTip1: Thorium Mod: Don't try to make your own air pockets in the {$Biomes.DepthsBiome.DisplayName}, you'll choke to death!
+			ThoriumModTip1: Thorium Mod: Just past the Dungeon lies a mysterious graveyard... Even more mysterious is the large artifact that lies in the center...
 			ThoriumModTip2: Thorium Mod: Air bubbles will allow you to breathe underwater for a while. A {$Items.BubbleMagnet.DisplayName} will attract them over to you.
 			ThoriumModTip3: Thorium Mod: Crystal Waves grow in the {$Biomes.DepthsBiome.DisplayName} in Hardmode; use them to boost your movement speed!
 			ThoriumModTip4: Thorium Mod: The Blood Chamber lies somewhere underground. Offer five Unholy Shards at its altar at your own risk...
@@ -160,7 +160,7 @@ Mods: {
 
 			ArtilleryBuff: {
 				DisplayName: Artillery
-				Description: Increases your max number of sentries
+				Description: Increased max number of sentries
 			}
 
 			AssassinPotionBuff: {
@@ -286,11 +286,6 @@ Mods: {
 			Chill: {
 				DisplayName: Chill
 				Description: Getting chilly
-			}
-
-			ChokingAura: {
-				DisplayName: Choking Aura
-				Description: A presence most foul pollutes and poisons all nearby air
 			}
 
 			CobblerBuff: {
@@ -1616,16 +1611,6 @@ Mods: {
 			FrozenTiaraBuff: {
 				Description: Does it feel chilly in here...?
 				DisplayName: Frozen Tiara
-			}
-
-			SorcerersDiceDebuff: {
-				DisplayName: "{$Items.SorcerersDice.DisplayName}"
-				Description: The dice are recharging...
-			}
-
-			SorcerersDiceBuff: {
-				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
-				Description: Infinite mana and {0}% increased casting speed
 			}
 
 			TwilightBoost: {
@@ -3937,11 +3922,7 @@ Mods: {
 
 			GlacialSting: {
 				DisplayName: Glacial Sting
-				Tooltip:
-					'''
-					Turns wooden arrows into glacial arrows
-					Glacial arrows may significantly hinder enemy movement
-					'''
+				Tooltip: Turns wooden arrows into glacial arrows, which slow enemies heavily
 			}
 
 			Glacier: {
@@ -4062,7 +4043,11 @@ Mods: {
 
 			ArtilleryPotion: {
 				DisplayName: Artillery Potion
-				Tooltip: Increases your max number of sentries
+				Tooltip:
+					'''
+					Increases your max number of sentries by 1
+					Does not stack with '{$ItemName.SummoningPotion}'
+					'''
 			}
 
 			BatRepellent: {
@@ -4472,7 +4457,6 @@ Mods: {
 				Tooltip:
 					'''
 					11% decreased non-radiant damage
-					Increases radiant damage by 1
 					Healing spells will heal an additional 1 life
 					'''
 			}
@@ -4492,7 +4476,6 @@ Mods: {
 				Tooltip:
 					'''
 					11% decreased non-radiant damage
-					Increases radiant damage by 1
 					Healing spells will heal an additional 1 life
 					'''
 			}
@@ -4507,12 +4490,12 @@ Mods: {
 				Tooltip:
 					'''
 					11% decreased non-radiant damage
-					Increases radiant damage by 1
 					Increases your breath by 50%
 					'''
 				SetBonus:
 					'''
-					Radiant damage builds up to {0} life shield and life shielding no longer decays on you
+					Increases radiant damage by {0}
+					Radiant damage builds up to {1} life shield and life shielding no longer decays on you
 					Healing an ally transfers the life shield to them
 					'''
 			}
@@ -4994,8 +4977,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			MagicConch: {
-				DisplayName: Magic Conch
+			BubbleConch: {
+				DisplayName: Bubble Conch
 				Tooltip: Creates a barrage of rising bubbles
 			}
 
@@ -6086,11 +6069,7 @@ Mods: {
 
 			HappyHomeToken: {
 				DisplayName: Happy Home Token
-				Tooltip:
-					'''
-					Places an invisible, wall mounted token
-					Counts as a chair, table and light source
-					'''
+				Tooltip: Places an invisible, wall-mounted token which counts as a chair, table, and light source
 			}
 
 			HeartOfStone: {
@@ -6344,9 +6323,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Honor, Humility, and Will... Those are the true shields'
-					Increases defense by 6
 					Increases length of invincibility after taking damage
-					Dispels up to one damaging debuff off of you every 6 seconds
+					Dispels up to one damaging debuff off of you every {0} seconds
 					'''
 			}
 
@@ -9144,8 +9122,7 @@ Mods: {
 				Tooltip:
 					'''
 					10% decreased non-radiant damage
-					8% increased radiant damage
-					2% increased radiant critical strike chance
+					Increases radiant damage by 1
 					Maximum mana increased by 5
 					Healing spells will heal an additional 1 life
 					'''
@@ -9156,8 +9133,7 @@ Mods: {
 				Tooltip:
 					'''
 					10% decreased non-radiant damage
-					5% increased radiant damage
-					2% increased radiant critical strike chance
+					Increases radiant damage by 1
 					Maximum mana increased by 10
 					'''
 				SetBonus: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
@@ -9168,8 +9144,7 @@ Mods: {
 				Tooltip:
 					'''
 					10% decreased non-radiant damage
-					7% increased radiant damage
-					2% increased radiant critical strike chance
+					Increases radiant damage by 1
 					Maximum mana increased by 5
 					'''
 			}
@@ -10198,11 +10173,6 @@ Mods: {
 					Swings a gruesome mace that releases lingering healing energy on its first hit
 					Up to 3 healing energy can exist at once
 					'''
-			}
-
-			TranquilLyre: {
-				DisplayName: Tranquil Lyre
-				Tooltip: Releases hymns that can heal allies and damage enemies
 			}
 
 			TrueBloodHarvest: {
@@ -11500,12 +11470,12 @@ Mods: {
 			}
 
 			DesertBiomeChest: {
-				DisplayName: Desert Chest
+				DisplayName: (Thorium) Desert Chest
 				Tooltip: ""
 			}
 
 			DesertBiomeKey: {
-				DisplayName: Desert Key
+				DisplayName: (Thorium) Desert Key
 				Tooltip: Unlocks a {$Items.DesertBiomeChest.DisplayName} in the dungeon
 			}
 
@@ -12434,7 +12404,7 @@ Mods: {
 				Tooltip:
 					'''
 					Turns musket balls into a spread of energy strikes
-					Has a chance to discharge, releasing an unstable beam
+					Every {0} shots discharges a piercing beam
 					'''
 			}
 
@@ -18040,7 +18010,7 @@ Mods: {
 
 			ValadiumBow: {
 				DisplayName: Valadium Bow
-				Tooltip: Arrows shot from this bow will temporarily blast enemies with interdimensional energy
+				Tooltip: Damage burns enemies with interdimensional energy over time
 			}
 
 			ValadiumBreastPlate: {
@@ -18060,7 +18030,7 @@ Mods: {
 
 			ValadiumFoeBlaster: {
 				DisplayName: Valadium Foe Blaster
-				Tooltip: Bullets shot from this gun will temporarily blast enemies with interdimensional energy
+				Tooltip: Damage burns enemies with interdimensional energy over time
 			}
 
 			ValadiumGreaves: {
@@ -19303,33 +19273,6 @@ Mods: {
 					'''
 			}
 
-			SorcerersDice: {
-				DisplayName: Sorcerer's Dice
-				Tooltip:
-					'''
-					Gamble by rolling a six-sided magical die at the cost of your current mana
-					The face you roll results in different mana-based effect, which can be beneficial or detrimental
-					The die must recharge for {0} {^0:minute;minutes} minute after use
-					'''
-				Choice1: (1) {0} seconds of Mana Sickness
-				Choice2: (2) {0} seconds of Mana Sickness
-				Choice3: (3) Mana cost refunded
-				Choice4: (4) Mana fully recovered!
-				Choice5:
-					'''
-					(5)
-					{0} seconds of infinite mana
-					+{1}% casting speed
-					'''
-				Choice6:
-					'''
-					(6)
-					{0} seconds of infinite mana
-					+{1}% casting speed
-					+Brief invincibility
-					'''
-			}
-
 			HemogoblinSharkToothNecklace: {
 				DisplayName: Hemogoblin Shark Tooth Necklace
 				Tooltip: Increases armor penetration by {0}
@@ -19378,6 +19321,7 @@ Mods: {
 					Increases movement acceleration & jump height, as well as fall speed when holding DOWN
 					Slowly generate up to {0} spirit flames which allow you to perform a dash towards your cursor
 					Press the '{$Keybinds.AccessoryAbility.DisplayName}' key to perform the dash
+					Counts as a pair of wings when equipped
 					'''
 			}
 
@@ -19405,6 +19349,11 @@ Mods: {
 					Uses Snowballs as ammunition
 					Attacks might frostburn the target briefly
 					'''
+			}
+
+			SacredLyre: {
+				DisplayName: Sacred Lyre
+				Tooltip: Releases hymns that can heal one ally and damage one enemy before dissipating
 			}
 		}
 
@@ -22502,8 +22451,6 @@ Mods: {
 			VampireGlandPro.DisplayName: Vampire Gland Pro
 			VampireScepterPro.DisplayName: Vampire Scepter Pro
 			VampireScepterPro2.DisplayName: Vampire Scepter Pro2
-			VegaBeam.DisplayName: Vega Phaser
-			VegaBolt.DisplayName: Vega Phaser
 			VeinBusterPro.DisplayName: Vein Buster Pro
 			VesselPro.DisplayName: Vessel Pro
 			VileBolt.DisplayName: Vile Bolt
@@ -22593,6 +22540,7 @@ Mods: {
 			ChromaticFuryPro.DisplayName: Chromatic Fury
 			ThrombosisPro.DisplayName: Thrombosis
 			ThrombosisPro2.DisplayName: Thrombosis
+			ThrombosisPro3.DisplayName: Thrombosis
 			FrostPelterPro.DisplayName: Frost Pelter
 			GorgonGazeStaffPro.DisplayName: Gorgon Gaze Staff
 			GorgonGazeStaffPro2.DisplayName: Gorgon Gaze Staff
@@ -22600,6 +22548,9 @@ Mods: {
 			PalladiumStaffPro2.DisplayName: Palladium Staff Pro2
 			MythrilStaffPro.DisplayName: Mythril Staff Pro
 			CobaltStaffPro.DisplayName: Cobalt Staff Pro
+			VegaPhaserPro.DisplayName: Vega Phaser Pro
+			VegaPhaserPro2.DisplayName: Vega Phaser Pro2
+			SacredLyrePro.DisplayName: Sacred Lyre Pro
 		}
 
 		Tiles: {
@@ -22788,6 +22739,8 @@ Mods: {
 					ClassTag: -Bard Class-
 					InspirationCost: Uses {0} inspiration
 				}
+
+				SummoningPotionArtilleryPotionStacking: Does not stack with {$Items.ArtilleryPotion.DisplayName}
 			}
 
 			TreasureBag: Treasure Bag ({0})
