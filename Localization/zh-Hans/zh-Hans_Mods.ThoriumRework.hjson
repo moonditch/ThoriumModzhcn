@@ -470,12 +470,12 @@ Projectiles: {
 	OmniSlash.DisplayName: 死亡斩击
 	OmnicidePunchAttack.DisplayName: 毁灭之拳
 	Oneirophobia.DisplayName: 恐梦症
-	OneirophobiaBlade.DisplayName: 清梦刃光
-	OneirophobiaBolt.DisplayName: 清梦飞弹
-	OneirophobiaLaser.DisplayName: 清梦光束
-	OneirophobiaMinion.DisplayName: 清梦乐器
-	OneirophobiaNuke.DisplayName: 清梦爆破
-	OneirophobiaSlice.DisplayName: 清梦斩击
+	OneirophobiaBlade.DisplayName: 残梦刃光
+	OneirophobiaBolt.DisplayName: 残梦飞弹
+	OneirophobiaLaser.DisplayName: 残梦光束
+	OneirophobiaMinion.DisplayName: 残梦乐器
+	OneirophobiaNuke.DisplayName: 残梦爆破
+	OneirophobiaSlice.DisplayName: 残梦斩击
 	Paylode.DisplayName: 电磁载荷
 	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
@@ -1242,7 +1242,7 @@ Configs: {
 		}
 
 		ThoriumArmor: {
-			Label: "[i:ThoriumMod/ThoriumMail]瑟银盔甲"
+			Label: "[i:ThoriumMod/ThoriumMail] {$Mods.ThoriumMod.Items.ThoriumMail.DisplayName}"
 			Tooltip: Note: 被改动的是套装效果，而不是护甲本身
 		}
 
@@ -1397,7 +1397,7 @@ Configs: {
 		}
 
 		DragonsGaze: {
-			Label: "[i:ThoriumMod/DragonsGaze]绿龙之凝"
+			Label: "[i:ThoriumMod/DragonsGaze] {$Mods.ThoriumMod.Items.DragonsGaze.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1411,7 +1411,7 @@ Configs: {
 			Tooltip: ""
 		}
 		DragonsWail: {
-			Label: "[i:ThoriumMod/DragonsWail]绿龙哀歌"
+			Label: "[i:ThoriumMod/DragonsWail] {$Mods.ThoriumMod.Items.DragonsWail.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1425,7 +1425,7 @@ Configs: {
 		}
 
 		TitanBoomerang: {
-			Label: "[i:ThoriumMod/TitanBoomerang]泰坦回旋镖"
+			Label: "[i:ThoriumMod/TitanBoomerang] {$Mods.ThoriumMod.Items.TitanBoomerang.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1435,7 +1435,7 @@ Configs: {
 		}
 
 		TitanScythe: {
-			Label: "[i:ThoriumMod/TitanScythe]泰坦镰刀"
+			Label: "[i:ThoriumMod/TitanScythe] {$Mods.ThoriumMod.Items.TitanScythe.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1585,12 +1585,12 @@ Configs: {
 		}
 
 		DreadBlaster: {
-			Label: "[i:ThoriumMod/DreadBlaster]恐惧冲击波"
+			Label: "[i:ThoriumMod/DreadBlaster] {$Mods.ThoriumMod.Items.DreadBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
 		DemonBloodStaff: {
-			Label: "[i:ThoriumMod/DemonBloodStaff]魔血法杖"
+			Label: "[i:ThoriumMod/DemonBloodStaff] {$Mods.ThoriumMod.Items.DemonBloodStaff.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1651,3 +1651,4 @@ Configs: {
 		}
 	}
 }
+
