@@ -1242,7 +1242,7 @@ Configs: {
 		}
 
 		ThoriumArmor: {
-			Label: "[i:ThoriumMod/ThoriumMail] {$Mods.ThoriumMod.Items.ThoriumMail.DisplayName}"
+			Label: "[i:ThoriumMod/ThoriumMail] 瑟银盔甲"
 			Tooltip: Note: 被改动的是套装效果，而不是护甲本身
 		}
 

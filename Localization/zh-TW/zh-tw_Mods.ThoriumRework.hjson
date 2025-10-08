@@ -1,3 +1,10 @@
+PhotosensitivityWarning:
+	'''
+	光敏警告：瑟銀BOSS重置含有大量光閃爍特效，尤其是在與Boss戰鬥時！
+	如果你對閃光敏感，請前往設置 -> 模組配置 -> Thorium Helheim -> 視覺設置，並將所有滑塊調至0
+	若你不想每次都看到此提示，也可在模組配置中關閉此警告
+	'''
+
 ItemDescriptions: {
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
@@ -44,6 +51,11 @@ ItemDescriptions: {
 	RhapsodistChestWoofer: 音波傷害無視250點防禦力
 	RhapsodistBoots: 咒音增幅範圍加倍
 	SoloistHat: 最大靈感值增加8點
+	ThoriumArmor:
+		'''
+		暴擊會累積能量槽，當能量槽充滿時，你的攻擊會在短暫延遲後造成一次電擊。
+		若使用由瑟銀錠爲主要材料打造的物品，則任何命中都會累積能量槽，而不僅限於暴擊。
+		'''
 	ChampionBomberStaff:
 		'''
 		發射一枚神奇的導彈重複攻擊敵人
@@ -100,8 +112,9 @@ ItemDescriptions: {
 	Obliterator:
 		'''
 		左鍵射出非穿透鐳射
-		右鍵釋放光球，向附近的目標發射子彈並造成60%的傷害
-		用鐳射攻擊光球，讓鐳射反彈到附近的敵怪並造成500%的傷害
+		右鍵發射一個火球，爆炸後會向四周散射子彈，造成50%傷害
+		用激光擊中火球會使它反彈到附近的目標或其他火球
+		每次反彈都會使其傷害提高初始傷害的100%，最高可提升至1000%
 		'''
 	OmegaBlaster:
 		'''
@@ -168,14 +181,46 @@ ItemDescriptions: {
 		'''
 	DragonTooth:
 		'''
-		每次揮舞4次會釋放詛咒焰
+		每揮舞4次會釋放一道詛咒龍魂
 		對敵人攻擊產生暴擊時，從敵人身上釋放多束詛咒焰
 		'''
 	DragonTalon: 攻擊用詛咒焰束點燃受擊敵怪
+	DreadBlaster:
+		'''
+		左鍵發射恐懼脈衝
+		長按左鍵可持續釋放密集的恐懼脈衝
+		擊中敵怪會釋放攻擊性恐懼能量
+		'''
+	DemonBloodStaff:
+		'''
+		釋放一陣追蹤的魔血之魂，每攻擊四次時額外釋放靈液之魂
+		造成傷害會提供鮮血充能
+		處於最大充能時，你的下次攻擊會造成兩倍傷害並治療你造成傷害的20%
+		'''
 	DreadRazor:
 		'''
+		每揮舞第3次與第4次時會釋放一道詛咒龍魂
 		右鍵釋放一股恐懼能量
 		攻擊會自動累積恐懼能量
+		'''
+	DreadTearer:
+		'''
+		快速在你周圍旋轉一把高度污染的鐮刀
+		使用此武器獲得靈魂精華後，接下來的5次揮舞將會生成恐懼能量
+		造成傷害時會釋放攻擊性恐懼能量
+		'''
+	DemonBloodSword:
+		'''
+		當鮮血豐收處於冷卻中時，此武器會發射追蹤的血之心
+		造成傷害會提供鮮血充能
+		處於最大充能時，你的下次攻擊會造成兩倍傷害並治療你造成傷害的20%
+		'''
+	DemonBloodRipper:
+		'''
+		快速在你周圍旋轉一把充滿惡魔的鐮刀
+		使用此武器獲得靈魂精華後，接下來的5次揮舞將會召喚追蹤的血之心
+		造成傷害會提供鮮血充能
+		處於最大充能時，你的下次攻擊會造成兩倍傷害並治療你造成傷害的20%
 		'''
 	DemonBloodSpear:
 		'''
@@ -189,9 +234,25 @@ ItemDescriptions: {
 		右鍵釋放一連串攻擊並造成一半傷害
 		"我們家裡有一把至尊之怒"
 		'''
+	TitanArmor:
+		'''
+		暴擊時爲玩家提供2點護盾
+		根據當前護盾總量提升暴擊機率
+		'''
+	TitanBoomerang:
+		'''
+		投擲高速旋轉的巨型圓盤，在返回前會形成一個漩渦
+		暴擊會造成額外傷害
+		'''
 	TitanSword:
 		'''
 		揮舞兩把泰坦劍
+		暴擊會造成額外傷害
+		'''
+	TitanScythe:
+		'''
+		快速在自身周圍旋轉一把泰坦雙鐮
+		使用此武器獲得靈魂精華後，會生成一個不斷擴大的漩渦。
 		暴擊會造成額外傷害
 		'''
 	TerrariumSaber:
@@ -521,7 +582,8 @@ Items: {
 		DisplayName: 劊子手協議
 		Tooltip:
 			'''
-			牧師鐮刀的彈幕擊中敵人時也能獲得靈魂精華
+			使用光輝鐮刀獲得靈魂精華時，會獲得一層充能
+			牧師鐮刀的彈幕或非鐮刀類武器造成的光輝傷害會消耗充能，以獲得靈魂精華
 			"把他們的靈魂帶給我…"
 			'''
 	}
@@ -545,12 +607,9 @@ Items: {
 		Tooltip:
 			'''
 			鐮刀定向揮舞然後旋轉兩圈
-			此武器獲得靈魂精華或暴擊時生成冰碎片跟隨妳
-			長期處於戰鬥狀態也會生成冰碎片但是傷害較弱
-			冰碎片給予玩家10點防禦力
+			此武器獲得靈魂精華，暴擊或處於戰鬥狀態會生成跟隨你的冰碎片
+			每個冰碎片給予玩家10點防禦力，最多存在四個
 			右鍵或者更換武器時會向光標附近的敵人釋放所有冰碎片
-			冰碎片命中時會造成3倍傷害，較弱的冰碎片造成1倍傷害
-			最多可以擁有四片冰碎片
 			"屬於經營著咖啡店的惡魔......"
 			'''
 	}
@@ -604,14 +663,11 @@ Items: {
 		DisplayName: 緋紅新月
 		Tooltip:
 			'''
-			釋放蝙蝠攻擊敵人，蝙蝠會回到你身邊
-			蝙蝠造成的1/3傷害用來恢復吸血值
-			右鍵釋放蝙蝠，蝙蝠會追蹤並治癒其他玩家
-			每次消耗10點吸血值
-			蝙蝠治癒<healAmount>點生命值，不會觸發治療效果
-			但是，治療隊友會退還一些法力值給予治療者
-			吸血值: <bloodSiphon>
+			釋放蝙蝠攻擊敵人，蝙蝠會回到你身邊，並恢復吸血值
+			右鍵消耗吸血值，釋放蝙蝠
+			蝙蝠會追蹤並治癒其他玩家<healAmount>點生命值
 			<legendaryModeOnly>在傳奇模式下使用需要生命值
+			吸血值: <bloodSiphon>
 			"蝙蝠的美妙歌謠"
 			'''
 	}
@@ -669,11 +725,9 @@ Items: {
 		DisplayName: 可擕式能量風暴
 		Tooltip:
 			'''
-			投擲一個不穩定的能量球，將花崗岩能量溢向目標
+			投擲最多20不穩定的能量球，將花崗岩能量溢向目標
 			被溢散的敵怪多受5%傷害
-			按住左鍵讓能量球在你身邊環繞
-			鬆開左鍵將你身邊所有的能量球向你滑鼠位置發射
-			一次最多20個能量球
+			松开左键以一次性释放所有的能量球
 			不會增加疲憊值
 			"賜予能量球新的意義"
 			'''
@@ -695,8 +749,9 @@ Items: {
 			'''
 			最大生命增加60
 			治療法術會額外治療5點生命值
-			牧師鐮刀的彈幕擊中敵人時也能獲得靈魂精華
 			取消牧師盔甲帶來的非光輝傷害削減
+			使用光輝鐮刀獲得靈魂精華時，會獲得一層充能
+			牧師鐮刀的彈幕或非鐮刀類武器造成的光輝傷害會消耗充能，以獲得靈魂精華
 			"正式達成協議!"
 			'''
 	}
@@ -745,6 +800,56 @@ Items: {
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TitanHat: {
+		DisplayName: 泰坦風帽
+		Tooltip:
+			'''
+			“充滿始源能量”
+			增加音波演奏速度和15%靈感值再生速率
+			增加3秒咒音增幅的持續時間
+			大幅增加咒音增幅的作用範圍
+			'''
+	}
+
+	TitanHood: {
+		DisplayName: 泰坦兜帽
+		Tooltip:
+			'''
+			“充滿始源能量”
+			增加15%投擲速度
+			最大技巧值增加3
+			非消耗性投擲武器到達疲憊的時間延長40%
+			'''
+	}
+
+	TitanVisage: {
+		DisplayName: 泰坦面鎧
+		Tooltip:
+			'''
+			“充滿始源能量”
+			增加15%光輝傷害和施法速度
+			治療法術會額外治療6點生命值
+			你的治療法術可以暴擊，造成雙倍治療量
+			'''
+	}
+
+	TitanVisor: {
+		DisplayName: 泰坦面甲
+		Tooltip:
+			'''
+			“充滿始源能量”
+			最大僕從數量增加3，最大哨兵數量增加1
+			鞭子攻擊範圍擴大15%
+			增加6%僕從暴擊率
+			你的僕從和哨兵可以暴擊
+			'''
+	}
+
+	ThoriumHeavyScythe: {
+		DisplayName: 泰坦重鐮
+		Tooltip: 這把鐮刀是定向揮舞而不是旋轉
 	}
 
 	ValkyrienSkyStone: {
@@ -1108,6 +1213,21 @@ Configs: {
 
 	ItemReworksConfig: {
 		DisplayName: 物品重置/增益轉換
+		
+		showItemReworks: {
+			Label: 顯示重置物品
+			Tooltip:
+				'''
+				在物品描述中顯示本模組改動過的物品
+				已知問題：當模組加載順序混亂時，可能無法正常運行
+				此外，對部分盔甲與吟遊詩人武器的支持也不太穩定
+				'''
+		}
+
+		ThoriumArmor: {
+			Label: "[i:ThoriumMod/ThoriumMail]瑟银盔甲"
+			Tooltip: 被改動的是套裝效果，而不是護甲本身
+		}
 
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner] {$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
@@ -1259,6 +1379,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		DragonsGaze: {
+			Label: "[i:ThoriumMod/DragonsGaze] {$Mods.ThoriumMod.Items.DragonsGaze.DisplayName}"
+			Tooltip: ""
+		}
+
 		DragonTooth: {
 			Label: "[i:ThoriumMod/DragonTooth] {$Mods.ThoriumMod.Items.DragonTooth.DisplayName}"
 			Tooltip: ""
@@ -1268,9 +1393,32 @@ Configs: {
 			Label: "[i:ThoriumMod/DragonTalon] {$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
 			Tooltip: ""
 		}
+		DragonsWail: {
+			Label: "[i:ThoriumMod/DragonsWail] {$Mods.ThoriumMod.Items.DragonsWail.DisplayName}"
+			Tooltip: ""
+		}
+
+		TitanArmor: {
+			Label: "[i:ThoriumMod/TitanBreastplate]泰坦盔甲"
+			Tooltip:
+				'''
+				被改動的是套裝加成，而不是護甲本身
+				另外，新增的頭盔需通過額外物品設置進行啟/禁用，而非此選項
+				'''
+		}
+
+		TitanBoomerang: {
+			Label: "[i:ThoriumMod/TitanBoomerang] {$Mods.ThoriumMod.Items.TitanBoomerang.DisplayName}"
+			Tooltip: ""
+		}
 
 		TitanSword: {
 			Label: "[i:ThoriumMod/TitanSword] {$Mods.ThoriumMod.Items.TitanSword.DisplayName}"
+			Tooltip: ""
+		}
+
+		TitanScythe: {
+			Label: "[i:ThoriumMod/TitanScythe] {$Mods.ThoriumMod.Items.TitanScythe.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1418,6 +1566,17 @@ Configs: {
 			Label: "[i:ThoriumMod/Mjolnir] {$Mods.ThoriumMod.Items.Mjolnir.DisplayName}"
 			Tooltip: ""
 		}
+
+		DreadBlaster: {
+			Label: "[i:ThoriumMod/DreadBlaster] {$Mods.ThoriumMod.Items.DreadBlaster.DisplayName}"
+			Tooltip: ""
+		}
+
+		DemonBloodStaff: {
+			Label: "[i:ThoriumMod/DemonBloodStaff] {$Mods.ThoriumMod.Items.DemonBloodStaff.DisplayName}"
+			Tooltip: ""
+		}
+
 
 		DreadRazor: {
 			Label: "[i:ThoriumMod/DreadRazor] {$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"

@@ -15,7 +15,7 @@
 汉化内容包括：
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.4），即此汉化的前置模组
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置[/url]（v1.1.3）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置[/url]（v1.2.0）
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.10.1）
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎吟游诗人、投手&牧师武器[/url]（v0.3.2）
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非官方魂灵吟游诗人、投手&牧师武器[/url]（v0.4.4）
