@@ -49,7 +49,7 @@ Mods: {
 		GameTips: {
 			# Biomes
 			ThoriumModTip0: 瑟銀模組：其中一片海洋下是深海.基礎的鎬可能無法破環那裡的海洋石.
-			ThoriumModTip1: 瑟銀模組：不要嘗試在深海中製造自己的空氣洞穴，你會窒息而死的！
+			ThoriumModTip1: 瑟銀模組：剛過地牢就有一片神祕的墓地……更神祕的是墓地中央的大型造物……
 			ThoriumModTip2: 瑟銀模組：空氣泡泡可以讓你在水下呼吸一段時間。泡泡磁鐵會將它們吸向你.
 			ThoriumModTip3: 瑟銀模組：困難模式下水晶波痕會在深海生長；使用它們來增加你的移動速度！
 			ThoriumModTip4: 瑟銀模組：鮮血密室坐落於地下某處。可以在它的祭壇處提供5個不潔碎晶，但後果自負……
@@ -286,11 +286,6 @@ Mods: {
 			Chill: {
 				DisplayName: 顫慄
 				Description: 此敵人無法抵抗你的魅力！
-			}
-
-			ChokingAura: {
-				DisplayName: 窒息光環
-				Description: 深海污染了附近的空氣並使其變得劇毒
 			}
 
 			CobblerBuff: {
@@ -1616,16 +1611,6 @@ Mods: {
 			FrozenTiaraBuff: {
 				Description: 它在這兒不感覺冷嗎……？
 				DisplayName: 冰凍皇冠
-			}
-
-			SorcerersDiceDebuff: {
-				DisplayName: "{$Items.SorcerersDice.DisplayName}"
-				Description: 骰子正在重新充能……
-			}
-
-			SorcerersDiceBuff: {
-				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
-				Description: 無限魔力且施法速度增加{0}%
 			}
 
 			TwilightBoost: {
@@ -4055,11 +4040,7 @@ Mods: {
 
 			GlacialSting: {
 				DisplayName: 冰蟄
-				Tooltip:
-					'''
-					將木箭轉化為冰河箭
-					冰河箭可能會顯著阻礙敵怪移動
-					'''
+				Tooltip: 將木箭轉化爲顯著減速敵怪的冰河箭
 			}
 
 			Glacier: {
@@ -4180,7 +4161,11 @@ Mods: {
 
 			ArtilleryPotion: {
 				DisplayName: 集群火炮藥水
-				Tooltip: 增加最大哨兵數量
+				Tooltip:
+					'''
+					哨兵數量上限增加1
+					效果不能與“{$ItemName.SummoningPotion}”疊加
+					'''
 			}
 
 			BatRepellent: {
@@ -4586,7 +4571,6 @@ Mods: {
 				Tooltip:
 					'''
 					降低11%非光輝傷害
-					增加1點光輝傷害
 					治療法術會額外治療1點生命值
 					'''
 			}
@@ -4606,7 +4590,6 @@ Mods: {
 				Tooltip:
 					'''
 					降低11%非光輝傷害
-					增加1點光輝傷害
 					治療法術會額外治療1點生命值
 					'''
 			}
@@ -4621,12 +4604,12 @@ Mods: {
 				Tooltip:
 					'''
 					降低11%非光輝傷害
-					增加1點光輝傷害
 					增加50%呼吸時間
 					'''
 				SetBonus:
 					'''
-					光輝傷害會建立至多 {0} 點生命護盾且你的生命護盾不會隨時間衰減
+					增加 {0} 點光輝傷害
+					光輝傷害會建立至多 {1} 點生命護盾且你的生命護盾不會隨時間衰減
 					治療隊友會將生命護盾轉移到他們身上
 					'''
 			}
@@ -5112,8 +5095,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			MagicConch: {
-				DisplayName: 魔法海螺
+			BubbleConch: {
+				DisplayName: 泡泡海螺
 				Tooltip:
 					'''
 					產生一陣上升的泡泡
@@ -6217,11 +6200,7 @@ Mods: {
 
 			HappyHomeToken: {
 				DisplayName: 歡樂之家印記
-				Tooltip:
-					'''
-					放置一個不可見的壁掛式印記
-					算作椅子，桌子和光源
-					'''
+				Tooltip: 放置一個不可見的壁掛式印記，算作椅子，桌子和光源
 			}
 
 			HeartOfStone: {
@@ -6480,9 +6459,8 @@ Mods: {
 				Tooltip:
 					'''
 					'榮譽，謙遜和意志……這些才是真正的護盾'
-					增加6點防禦
 					延長受傷後的無敵幀時間
-					每6秒驅散你身上一種傷害性減益
+					每 {0} 秒驅散你身上一種傷害性減益
 					'''
 			}
 
@@ -9295,8 +9273,7 @@ Mods: {
 				Tooltip:
 					'''
 					降低10%非光輝傷害
-					增加8%光輝傷害
-					增加2%光輝暴擊率
+					增加1點光輝傷害
 					最大魔力值增加5
 					治療法術會額外治療1點生命值
 					'''
@@ -9307,8 +9284,7 @@ Mods: {
 				Tooltip:
 					'''
 					降低10%非光輝傷害
-					增加5%光輝傷害
-					增加2%光輝暴擊率
+					增加1點光輝傷害
 					最大魔力值增加10
 					'''
 				SetBonus: 腐化你的光輝能量，使它們呈現黑暗形態並造成額外效果
@@ -9319,8 +9295,7 @@ Mods: {
 				Tooltip:
 					'''
 					降低10%非光輝傷害
-					增加7%光輝傷害
-					增加2%光輝暴擊率
+					增加1點光輝傷害
 					最大魔力值增加5
 					'''
 			}
@@ -10362,11 +10337,6 @@ Mods: {
 					揮舞一把可怕的鏈錘，首次擊中會釋放停留的治療能量
 					最多可同時存在3道治療能量
 					'''
-			}
-
-			TranquilLyre: {
-				DisplayName: 安詳七弦琴
-				Tooltip: 釋放能治療隊友和傷害敵怪的唱詩
 			}
 
 			TrueBloodHarvest: {
@@ -11666,12 +11636,12 @@ Mods: {
 			}
 
 			DesertBiomeChest: {
-				DisplayName: 沙漠箱
+				DisplayName: （瑟银）沙漠箱
 				Tooltip: ""
 			}
 
 			DesertBiomeKey: {
-				DisplayName: 沙漠鑰匙
+				DisplayName: （瑟银）沙漠鑰匙
 				Tooltip: 解鎖地牢中的{$Items.DesertBiomeChest.DisplayName}
 			}
 
@@ -12638,7 +12608,7 @@ Mods: {
 				Tooltip:
 					'''
 					將火球子彈轉化為一陣能量打擊
-					有概率放電，釋放一道不穩定的光束
+					每{0}次攻擊釋放一道穿透光束
 					'''
 			}
 
@@ -18285,7 +18255,7 @@ Mods: {
 
 			ValadiumBow: {
 				DisplayName: 虛金弓
-				Tooltip: 這把弓射出的箭會短暫用次元能量打擊敵人
+				Tooltip: 次元能量隨時間灼燒傷害敵怪
 			}
 
 			ValadiumBreastPlate: {
@@ -18305,7 +18275,7 @@ Mods: {
 
 			ValadiumFoeBlaster: {
 				DisplayName: 虛金破敵槍
-				Tooltip: 這把槍射出的子彈會短暫用次元能量打擊敵人
+				Tooltip: 次元能量隨時間灼燒傷害敵怪
 			}
 
 			ValadiumGreaves: {
@@ -19544,33 +19514,6 @@ Mods: {
 					'''
 			}
 
-			SorcerersDice: {
-				DisplayName: 巫師骰子
-				Tooltip:
-					'''
-					以當前魔力為代價擲一顆六面魔法骰子
-					你擲出的面會產生不同的基於魔力的效果，有好有壞
-					骰子使用後必須重新充能{0} {^0:分鐘;minutes}
-					'''
-				Choice1: (1) 施加{0}秒耐魔性減益
-				Choice2: (2) 施加{0}秒耐魔性減益
-				Choice3: (3) 返還本次使用花費的魔力
-				Choice4: (4) 完全恢復玩家的魔力!
-				Choice5:
-					'''
-					(5)
-					提供{0}秒無限魔力
-					增加{1}%施法速度
-					'''
-				Choice6:
-					'''
-					(6)
-					提供{0}秒無限魔力
-					增加{1}%施法速度
-					+短暫無敵
-					'''
-}
-
 			HemogoblinSharkToothNecklace: {
 				DisplayName: 血漿哥布林鯊牙項鍊
 				Tooltip: 護甲穿透增加 {0}
@@ -19650,6 +19593,11 @@ Mods: {
 					使用雪球作為彈藥
 					攻擊可能會短暫霜凍目標
 					'''
+			}
+
+			SacredLyre: {
+				DisplayName: 崇聖七絃琴
+				Tooltip: 釋放能治療隊友和傷害敵怪的唱詩，唱詩在消失前分別能對一個敵人與一個隊友生效
 			}
 		}
 
@@ -22812,7 +22760,9 @@ Mods: {
 					InstrumentTag: -{0}樂器-
 					ClassTag: -吟遊詩人職業-
 					InspirationCost: 使用 {0} 靈感值
-				}
+			}
+
+				SummoningPotionArtilleryPotionStacking: 效果不能與{$Items.ArtilleryPotion.DisplayName}疊加
 			}
 
 			TreasureBag: 寶藏袋({0})
