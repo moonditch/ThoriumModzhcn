@@ -1,0 +1,220 @@
+Items: {
+	HealerSoul: {
+		Tooltip:
+			'''
+			22% increased radiant damage 
+			20% increased radiant casting speed
+			10% increased radiant critical strike chance
+			Maximum life increased by 50
+			Maximum mana increased by 100
+			Healing spells will heal an additional 15 life
+			Effects of the Saving grace and Support sash
+			'A strong divine energy emanates from it'
+			'''
+		DisplayName: Bishop's Soul
+	}
+
+	HealerEssence: {
+		Tooltip:
+			'''
+			18% increased radiant damage 
+			13% increased radiant casting speed
+			Healing spells will heal an additional 5 life
+			'This is only the beginning...'
+			'''
+		DisplayName: Priest's essence
+	}
+
+	BardSoul: {
+		Tooltip:
+			'''
+			22% increased symphonic damage 
+			20% increased symphonic playing speed
+			10% increased symphonic critical strike chance
+			20% increased inspiration regeneration rate
+			Increases maximum inspiration by 10
+			Effects of the Epic mouthpiece, Digital tuner and Auto Tuner
+			'C-D-E-C-D-C'
+			'''
+		DisplayName: Punk's Soul
+	}
+
+	BardEssence: {
+		Tooltip:
+			'''
+			18% increased symphonic damage
+			8% increased symphonic critical strike chance
+			10% increased inspiration regeneration rate
+			'This is only the beginning...'
+			'''
+		DisplayName: Musician Essence
+	}
+
+	MusicPlayerEnchant: {
+		Tooltip:
+			'''
+			Effects of all Music Players
+			'I want to break free'
+			'''
+		DisplayName: Music Player Enchant
+	}
+
+	TitanicEnchant: {
+		DisplayName: Titanic Enchant
+		Tooltip:
+			'''
+			Increases crit damage for Scythe.
+			Increases radiant casting speed depending on your Bonus Healing
+			'It's cool in here'
+			'''
+	}
+
+	MoonstoneEnchant: {
+		DisplayName: Martyr Enchant
+		Tooltip:
+			'''
+			On taking damage, has a chance to heal for 400% of your Bonus Healing
+			'It hurts'
+			'''
+	}
+
+	BioTechEnchant: {
+		DisplayName: Bio Tech Enchant
+		Tooltip:
+			'''
+			A biotech probe will assist you in healing your allies
+			While holding healer tools, increases defense by 200% of bonus healing
+			'looks modern'
+			'''
+	}
+
+	OrchestralEnchant: {
+		DisplayName: Orchestral Enchant
+		Tooltip:
+			'''
+			Symphonic critical strikes ring a bell over your head,
+			slowing all nearby enemies briefly.			
+			Doubles the range of your empowerments effect radius.
+			'You shouldn't have come here'
+			'''
+	}
+
+	EchoEnchant: {
+		DisplayName: Echo Enchant
+		Tooltip:
+			'''
+			Attacks can trigger an echo wave that deals 300% of projectile damage
+			'W'
+			'''
+	}
+
+	ThoriumForce: {
+		DisplayName: Thorium Force
+		Tooltip:
+			'''
+			[i:FargoThorium/MoonstoneEnchant] On taking damage, has a chance to heal for 400% of your Bonus Healing
+			[i:FargoThorium/OrchestralEnchant] Symphonic critical strikes ring a bell over your head
+			[i:FargoThorium/BioTechEnchant] A biotech probe will assist you in healing your allies and while holding healer tools, increases defense by 200% of bonus healing
+			[i:FargoThorium/MusicPlayerEnchant] Effects of all Music Players
+			[i:FargoThorium/TitanicEnchant] Increases crit damage for Scythe and increase radiant casting speed depending on your Bonus Healing
+			[i:FargoThorium/EchoEnchant] Attacks can trigger an echo wave that deals 300% of projectile damage
+			'Nothing special'
+			'''
+	}
+
+	GranitScythe: {
+		DisplayName: Granite Scythe
+		Tooltip: Shoots 4 lightning bolts
+	}
+
+	TreeBranch: {
+		DisplayName: Tree Branch
+		Tooltip: Shoots acorns that explode
+	}
+
+	BardLeaf: {
+		DisplayName: Leaf
+		Tooltip: Shoots acorns
+	}
+
+	CursedWand: {
+		DisplayName: Cursed Wand
+		Tooltip:
+			'''
+			Release Dark Souls on attack
+			On Right-Click, releases a fading spark that heals allies
+			'''
+	}
+
+	DeathWhisple: {
+		DisplayName: Death Whisple
+		Tooltip: AOE stun around player
+	}
+
+	OldOneStaff: {
+		DisplayName: Appealing to the Demons
+		Tooltip:
+			'''
+			At the cost of health and mana, opens a gateway to ???
+			Restores 10 HP and 18 MP upon killing an enemy
+			'''
+	}
+
+	BardTrachea: {
+		DisplayName: Trachea
+		Tooltip: Releases bloody spirals that inflict bleeding
+	}
+}
+
+Buffs: {
+	OrchestralCooldownBuff: {
+		DisplayName: Orchestral Cooldown
+		Description: You should let them rest
+	}
+}
+
+ActiveSkills: {
+	OrchestralEffect: {
+		DisplayName: Gang band
+		Tooltip: Shoot 20 projectiles from your weapon with reduced damage.
+	}
+}
+
+NPCs: {
+	JunkLord: {
+		DisplayName: Junk Lord
+
+		Chat: {
+			0: I was hiding!
+			1: Oh, hello! Huhahahahaa!
+			2: Always pack a snack a month in advance!
+			3: Sneaking around really works up your appetite!
+		}
+
+		ShopButton: Junk Shop
+
+		TownNPCMood: {
+			Content: Я доволен.
+			NoHome: Ужасно, что у меня нет дома.
+			FarFromHome: Я далеко от дома.
+			LoveSpace: Мне нравится, как тут просторно.
+			DislikeCrowded: Мне не нравится, что тут людно.
+			HateCrowded: Я ненавижу, что тут людно.
+			LikeNPC_Princess: Мне нравится {NPCName}.
+			Princess_LovesNPC: Мне нравится {NPCName}.
+		}
+	}
+}
+
+Projectiles: {
+	GranitScytheAnimation.DisplayName: Granit Scythe Animation
+	StolenCopperLightning.DisplayName: Stolen Copper Lightning
+	TreeBranchAnimation.DisplayName: Tree Branch Animation
+	BardLeafPro.DisplayName: Bard Leaf Pro
+	CursedWandProHeal.DisplayName: Cursed Wand Pro Heal
+	CursedWandAtk.DisplayName: Cursed Wand Atk
+	DeathWhisplePro.DisplayName: Death Whisple Pro
+	OldOneStaffPro.DisplayName: Old One Staff Pro
+	StabPro.DisplayName: Stab Pro
+	BardTracheaPro.DisplayName: Bard Trachea Pro
+}

@@ -1,0 +1,15 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	TerrHacks: {
+		DisplayName: 元素采伐者
+		Tooltip: ""
+	}
+
+	TerrJacks: {
+		DisplayName: 元素撼地者
+		Tooltip: "'别和飞天扫帚搞混了'"
+	}
+}
+
+Projectiles.TerrJacksSmacks.DisplayName: 元素撼地者

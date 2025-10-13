@@ -1,0 +1,221 @@
+Items: {
+	HealerSoul: {
+		Tooltip:
+			'''
+			增加22%光辉伤害
+			增加20%光辉施法速度
+			增加10%光辉暴击率
+			增加50点最大生命值
+			增加100点最大魔力值
+			治疗法术额外治疗15点生命值
+			获得支援腰带和救世恩典的效果
+			“神圣能量从其涌现”
+			'''
+		DisplayName: 主教之魂
+	}
+
+	HealerEssence: {
+		Tooltip:
+			'''
+			增加18%光辉伤害
+			增加13%光辉施法速度
+			治疗法术额外治疗5点生命值
+			“这只是个开始……”
+			'''
+		DisplayName: 牧师精华
+	}
+
+	BardSoul: {
+		Tooltip:
+			'''
+			增加22%音波伤害
+			增加20%音波演奏速度
+			增加10%音波暴击率
+			增加20%灵感值再生速率
+			增加10点最大灵感值
+			获得史诗吹口、数码调谐器和自动调谐器的效果
+			“DO-RE-MI-DO-RE-DO”
+			'''
+		DisplayName: 朋克之魂
+	}
+
+	BardEssence: {
+		Tooltip:
+			'''
+			增加18%音波伤害
+			增加8%音波暴击率
+			增加10%灵感值再生速率
+			“这只是个开始……”
+			'''
+		DisplayName: 乐师精华
+	}
+
+	MusicPlayerEnchant: {
+		Tooltip:
+			'''
+			获得所有音乐播放器的效果
+			“我想要挣脱束缚”
+			[C/959595:（出自 Queen - I Want to Break Free）]
+			'''
+		DisplayName: 音乐播放器魔石
+	}
+
+	TitanicEnchant: {
+		DisplayName: 泰坦魔石
+		Tooltip:
+			'''
+			增加镰刀的暴击伤害
+			增加光辉施法速度，这具体取决于你的额外治疗量
+			“它在这儿很酷”
+			'''
+	}
+
+	MoonstoneEnchant: {
+		DisplayName: 殉道者魔石
+		Tooltip:
+			'''
+			受到伤害时有概率治疗你，治疗量为你额外治疗量的400%
+			“拜托，这很痛”
+			'''
+	}
+
+	BioTechEnchant: {
+		DisplayName: 生物工程魔石
+		Tooltip:
+			'''
+			一个生物工程探测器会协助你治疗队友
+			当你持有治疗法术时，增加等同于你额外治疗量200%的防御
+			“看起来很现代”
+			'''
+	}
+
+	OrchestralEnchant: {
+		DisplayName: 管弦乐魔石
+		Tooltip:
+			'''
+			音波暴击会在你的头顶响起一个铃铛
+			短暂减速附近所有敌怪
+			咒音增幅的效用半径翻倍
+			“你不该来这的”
+			'''
+	}
+
+	EchoEnchant: {
+		DisplayName: 回音魔石
+		Tooltip:
+			'''
+			攻击能触发回音声波，造成的伤害为原武器伤害的300%
+			“W”
+			'''
+	}
+
+	ThoriumForce: {
+		DisplayName: 牧音之力
+		Tooltip:
+			'''
+			[i:FargoThorium/MoonstoneEnchant] 受到伤害时有概率治疗你，治疗量为你额外治疗量的400%
+			[i:FargoThorium/OrchestralEnchant] 音波暴击会在你的头顶响起一个铃铛
+			[i:FargoThorium/BioTechEnchant] 一个生物工程探测器会协助你治疗队友，当你持有治疗法术时，增加等同于你额外治疗量200%的防御
+			[i:FargoThorium/MusicPlayerEnchant] 获得所有音乐播放器的效果
+			[i:FargoThorium/TitanicEnchant] 增加镰刀的暴击伤害，并根据你的额外治疗量提高光辉施法速度
+			[i:FargoThorium/EchoEnchant] 攻击能触发回音声波，造成的伤害为原武器伤害的300%
+			“没什么特别的”
+			'''
+	}
+
+	GranitScythe: {
+		DisplayName: 花岗岩镰刀
+		Tooltip: 发射4道闪电
+	}
+
+	TreeBranch: {
+		DisplayName: 大树枝
+		Tooltip: 发射会爆炸的橡果
+	}
+
+	BardLeaf: {
+		DisplayName: 音叶
+		Tooltip: 发射橡果
+	}
+
+	CursedWand: {
+		DisplayName: 诅咒魔杖
+		Tooltip:
+			'''
+			释放黑暗之魂进行攻击
+			右键点击，释放消逝余火治疗队友
+			'''
+	}
+
+	DeathWhisple: {
+		DisplayName: 死亡低语
+		Tooltip: 在玩家周围释放群体眩晕
+	}
+
+	OldOneStaff: {
+		DisplayName: 引魔鬼椒
+		Tooltip:
+			'''
+			以生命和魔力为代价，打开通往？？？的传送门
+			击杀敌人时恢复10点生命值和18点魔力值
+			'''
+	}
+
+	BardTrachea: {
+		DisplayName: 血肉气管
+		Tooltip: 释放血腥螺旋，造成流血减益
+	}
+}
+
+Buffs: {
+	OrchestralCooldownBuff: {
+		DisplayName: 管弦乐冷却
+		Description: 你应该让他们休息
+	}
+}
+
+ActiveSkills: {
+	OrchestralEffect: {
+		DisplayName: 管弦乐队
+		Tooltip: 向你周围发射20个你手持武器的弹幕，造成的伤害略微降低
+	}
+}
+
+NPCs: {
+	JunkLord: {
+		DisplayName: 垃圾大王
+
+		Chat: {
+			0: 我正藏着呢！
+			1: 哦，你好！哈哈哈哈哈！
+			2: 一定要提前一个月备好零食！
+			3: 偷偷摸摸真的会让你胃口大开！
+		}
+
+		ShopButton: 垃圾商店
+
+		TownNPCMood: {
+			Content: Я доволен.
+			NoHome: Ужасно, что у меня нет дома.
+			FarFromHome: Я далеко от дома.
+			LoveSpace: Мне нравится, как тут просторно.
+			DislikeCrowded: Мне не нравится, что тут людно.
+			HateCrowded: Я ненавижу, что тут людно.
+			LikeNPC_Princess: Мне нравится {NPCName}.
+			Princess_LovesNPC: Мне нравится {NPCName}.
+		}
+	}
+}
+
+Projectiles: {
+	GranitScytheAnimation.DisplayName: 花岗岩镰刀动画
+	StolenCopperLightning.DisplayName: 偷过来的的铜魔石闪电
+	TreeBranchAnimation.DisplayName: 大树枝动画
+	BardLeafPro.DisplayName: 音叶弹幕
+	CursedWandProHeal.DisplayName: 诅咒魔杖弹幕治疗
+	CursedWandAtk.DisplayName: 诅咒魔杖攻击
+	DeathWhisplePro.DisplayName: 死亡低语弹幕
+	OldOneStaffPro.DisplayName: 引魔鬼椒弹幕
+	StabPro.DisplayName: 刺击弹幕
+	BardTracheaPro.DisplayName: 血肉气管弹幕
+}

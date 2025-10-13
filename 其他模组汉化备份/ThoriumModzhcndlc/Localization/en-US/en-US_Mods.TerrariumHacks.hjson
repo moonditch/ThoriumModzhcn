@@ -1,0 +1,15 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	TerrHacks: {
+		DisplayName: Terrarium Deforester
+		Tooltip: ""
+	}
+
+	TerrJacks: {
+		DisplayName: Terrarium Earthshaver
+		Tooltip: "'Not to be confused with a moontrimmer'"
+	}
+}
+
+Projectiles.TerrJacksSmacks.DisplayName: Terrarium Earthshaver

@@ -1,0 +1,23 @@
+这是瑟银汉化dlc，目前拥有以下模组，前置需求：瑟银和更多附属汉化，瑟银本体
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧[/url]（v：1.1.0.1）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3582894754]fargo牧师&吟游诗人[/url]（v：0.48）
+[/list]
+更多瑟银附属汉化即将到来......
+
+[h1]=问题解决=[/h1]
+[list]
+[*] 本汉化为客户端模组，不在服务端加载，联机方需要自行加载汉化
+[*] 如果需要帮助/反馈BUG，请加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
+[*] 也可以在评论区告诉我，如果无法进行评论区留言，请加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]Steam聊天室[/url]
+[*] 我们暂不接受以咨询或反馈汉化为目的的Steam/QQ好友申请，请见谅
+[*] 如果对某个汉化不满意，欢迎来[url=https://github.com/moonditch/ThoriumModzhcn]GitHub[/url]提交pr，我们大概率会看到
+[/list]
+
+[h1]=作者介绍=[/h1]
+[list]
+[*] moon.ditch：元素锤斧
+[*] 三杯伍迪：fargo牧师&吟游诗人
+[/list]
+
+
