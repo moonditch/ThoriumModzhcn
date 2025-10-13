@@ -147,7 +147,7 @@ Items: {
 	}
 
 	DeathWhisple: {
-		DisplayName: Death Whisple
+		DisplayName: Death Whistle
 		Tooltip: AOE stun around player
 	}
 
@@ -164,12 +164,27 @@ Items: {
 		DisplayName: Trachea
 		Tooltip: Releases bloody spirals that inflict bleeding
 	}
+
+	BubbleStaff: {
+		DisplayName: Soapblower
+		Tooltip:
+			'''
+			Fires homing bubbles that grant an ally a Bubble Shield,
+			increasing their damage reduction by 10%
+			The Bubble Shield damages enemies and pops upon taking damage
+			'''
+	}
 }
 
 Buffs: {
 	OrchestralCooldownBuff: {
 		DisplayName: Orchestral Cooldown
 		Description: You should let them rest
+	}
+
+	BubbleDefBuff: {
+		DisplayName: Bubble Shield
+		Description: You feel like a hamster under protection
 	}
 }
 
@@ -217,4 +232,6 @@ Projectiles: {
 	OldOneStaffPro.DisplayName: Old One Staff Pro
 	StabPro.DisplayName: Stab Pro
 	BardTracheaPro.DisplayName: Bard Trachea Pro
+	BubbleStaffPro.DisplayName: Bubble Staff Pro
+	BubbleDefPro.DisplayName: Bubble Def Pro
 }

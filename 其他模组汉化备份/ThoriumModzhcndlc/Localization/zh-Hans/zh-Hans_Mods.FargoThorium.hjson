@@ -148,10 +148,10 @@ Items: {
 	}
 
 	DeathWhisple: {
-		DisplayName: 死亡低语
+		DisplayName: 死亡口哨
 		Tooltip: 在玩家周围释放群体眩晕
 	}
-
+	#我说长得像辣椒
 	OldOneStaff: {
 		DisplayName: 引魔鬼椒
 		Tooltip:
@@ -165,12 +165,27 @@ Items: {
 		DisplayName: 血肉气管
 		Tooltip: 释放血腥螺旋，造成流血减益
 	}
+
+	BubbleStaff: {
+		DisplayName: 泡泡吹
+		Tooltip:
+			'''
+			发射会追踪敌人的泡泡并使队友获得泡泡护盾
+			泡泡护盾使其增加10%伤害减免
+			泡泡护盾会对敌人造成伤害，并在受到伤害时破裂
+			'''
+	}
 }
 
 Buffs: {
 	OrchestralCooldownBuff: {
 		DisplayName: 管弦乐冷却
 		Description: 你应该让他们休息
+	}
+
+	BubbleDefBuff: {
+		DisplayName: 泡泡护盾
+		Description: 你感觉像是被保护的小仓鼠
 	}
 }
 
@@ -218,4 +233,6 @@ Projectiles: {
 	OldOneStaffPro.DisplayName: 引魔鬼椒弹幕
 	StabPro.DisplayName: 刺击弹幕
 	BardTracheaPro.DisplayName: 血肉气管弹幕
+	BubbleStaffPro.DisplayName: 泡泡法杖弹幕
+	BubbleDefPro.DisplayName: 泡泡护盾弹幕 
 }
