@@ -19821,7 +19821,7 @@ Mods: {
 			CorpseBloom: {
 				DisplayName: 絕命花
 				BestiaryFlavorText: 尚不清楚這種變異的花朵得名是由於它的臭味還是它在蘇醒的時候通常會留給泰拉人什麼.
-				BossChecklistIntegration.SpawnInfo: 在克蘇魯之腦/世界吞噬怪被擊敗後它會生成在地下叢林附近，可以從迷途僵屍處購買[i:ThoriumMod/FreshBrain]再次進行召喚。
+				BossChecklistIntegration.SpawnInfo: 在克蘇魯之腦/世界吞噬怪被擊敗後它會生成在地下叢林附近，可以從迷途僵屍處購買[i:ThoriumMod/RottingSpore]再次進行召喚。
 			}
 
 			CorpsePetal.DisplayName: 絕命花瓣
