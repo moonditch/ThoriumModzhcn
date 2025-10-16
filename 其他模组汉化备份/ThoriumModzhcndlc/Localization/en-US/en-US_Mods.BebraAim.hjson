@@ -1,0 +1,137 @@
+Configs: {
+	BebraAimConfig: {
+		DisplayName: Bebra Aim Config
+
+		Headers: {
+			General: General settings
+			DevCfg: Testing stuff
+			GeneralSettings: General Settings Header
+			TestingStuff: Testing Stuff Header
+		}
+
+		DarkMageStaff: {
+			Label: "[i:ThoriumMod/DarkMageStaff] Dark Mage Staff"
+			Tooltip: Enable/Disable aimbot for Dark Mage Staff
+		}
+
+		MolecularStabilizer: {
+			Label: "[i:ThoriumMod/MolecularStabilizer] Molecular Stabilizer"
+			Tooltip: Enable/Disable aimbot for Molecular Stabilizer
+		}
+
+		TeslaDefibrillator: {
+			Label: "[i:ThoriumMod/TeslaDefibrillator] Tesla Defibrillator"
+			Tooltip: Enable/Disable aimbot for Tesla Defibrillator
+		}
+
+		TemplarsGrace: {
+			Label: "[i:ThoriumMod/TemplarsGrace] Templars Grace"
+			Tooltip: Enable/Disable aimbot for Templars Grace
+		}
+
+		SunrayStaff: {
+			Label: "[i:ThoriumMod/SunrayStaff] Sunray Staff"
+			Tooltip: Enable/Disable aimbot for Sunray Staff
+		}
+
+		StaffofSol: {
+			Label: "[i:ThoriumMod/StaffofSol] Staff of Sol"
+			Tooltip: Enable/Disable aimbot for Staff of Sol
+		}
+
+		SerpentsBubbleWand: {
+			Label: "[i:ThoriumMod/SerpentsBubbleWand] Serpents Bubble Wand"
+			Tooltip: Enable/Disable aimbot for Serpents Bubble Wand
+		}
+
+		SacredCharge: {
+			Label: "[i:ThoriumMod/SacredCharge] Sacred Charge"
+			Tooltip: Enable/Disable aimbot for Sacred Charge
+		}
+
+		RodofAesculapius: {
+			Label: "[i:ThoriumMod/RodofAesculapius] Rod of Aesculapius"
+			Tooltip: Enable/Disable aimbot for Rod of Aesculapius
+		}
+
+		BarrierGenerator: {
+			Label: "[i:ThoriumMod/BarrierGenerator] Barrier Generator"
+			Tooltip: Enable/Disable aimbot for Barrier Generator
+		}
+
+		RasWhisper: {
+			Label: "[i:ThoriumMod/RasWhisper] Ras Whisper"
+			Tooltip: Enable/Disable aimbot for Ras Whisper
+		}
+
+		MistWeaver: {
+			Label: "[i:ThoriumMod/MistWeaver] Mist Weaver"
+			Tooltip: Enable/Disable aimbot for Mist Weaver
+		}
+
+		LightBurstWand: {
+			Label: "[i:ThoriumMod/LightBurstWand] Light Burst Wand"
+			Tooltip: Enable/Disable aimbot for Light Burst Wand
+		}
+
+		LifesGift: {
+			Label: "[i:ThoriumMod/LifesGift] Lifes Gift"
+			Tooltip: Enable/Disable aimbot for Lifes Gift
+		}
+
+		Liberation: {
+			Label: "[i:ThoriumMod/Liberation] Liberation"
+			Tooltip: Enable/Disable aimbot for Liberation
+		}
+
+		HoneySuckle: {
+			Label: "[i:ThoriumMod/HoneySuckle] Honey Suckle"
+			Tooltip: Enable/Disable aimbot for Honey Suckle
+		}
+
+		DivineStaff: {
+			Label: "[i:ThoriumMod/DivineStaff] Divine Staff"
+			Tooltip: Enable/Disable aimbot for Divine Staff
+		}
+
+		GlitteringScepter: {
+			Label: "[i:ThoriumMod/GlitteringScepter] Glittering Scepter"
+			Tooltip: Enable/Disable aimbot for Glittering Scepter
+		}
+
+		Cryotherapy: {
+			Label: "[i:ThoriumMod/Cryotherapy] Cryotherapy"
+			Tooltip: Enable/Disable aimbot for Cryotherapy
+		}
+
+		Cure: {
+			Label: "[i:ThoriumMod/Cure] Cure"
+			Tooltip: Enable/Disable aimbot for Cure
+		}
+
+		CoralPurifier: {
+			Label: "[i:ThoriumMod/CoralPurifier] Coral Purifier"
+			Tooltip: Enable/Disable aimbot for Coral Purifier
+		}
+
+		DreamCatcher: {
+			Label: "[i:ThoriumMod/DreamCatcher] Dream Catcher"
+			Tooltip: Enable/Disable aimbot for Dream Catcher
+		}
+
+		CrystalWish: {
+			Label: "[i:ThoriumMod/CrystalWish] Crystal Wish"
+			Tooltip: Enable/Disable aimbot for Crystal Wish
+		}
+
+		TestingMode: {
+			Label: Testing Mode
+			Tooltip: ""
+		}
+
+		AimHighlightning: {
+			Label: Aim Highlightning
+			Tooltip: ""
+		}
+	}
+}

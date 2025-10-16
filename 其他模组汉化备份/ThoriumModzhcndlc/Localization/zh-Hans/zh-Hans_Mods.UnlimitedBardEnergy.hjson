@@ -1,0 +1,25 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	UnlimitedInspiration: {
+		DisplayName: 无限灵感
+		Tooltip: 提供无限的灵感值
+		UnlimitedInspirationDamageMultiplier: 将音波伤害调整为 {0}倍。
+	}
+}
+
+Configs: {
+	UnlimitedBardEnergyConfig: {
+		DisplayName: 无限灵感值配置
+
+		UnlimitedInspirationDamageMultiplier: {
+			Label: 无限灵感伤害倍率
+			Tooltip: 装备此饰品时，可使用倍增器来调整音波伤害
+		}
+
+		lateGameRecipe: {
+			Label: 末期游戏配方
+			Tooltip: 将无限灵感的配方修改为：从始生灾灵掉落的精华制作
+		}
+	}
+}

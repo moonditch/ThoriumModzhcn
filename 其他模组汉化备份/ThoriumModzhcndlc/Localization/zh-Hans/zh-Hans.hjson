@@ -1,0 +1,205 @@
+Mods: {
+	ThoriumExpertModifs: {
+		Config: {
+			Header: {
+				M: Main Settings
+				O: Optional
+				MC: Mod Compatibility Settings
+			}
+		}
+
+		Configs: {
+			MainConfig: {
+				DisplayName: Main Config
+
+				EnableBossHealthChange: {
+					Label: Enable Boss Health Change
+					Tooltip: Changes the health of all bosses to Master difficulty.
+				}
+
+				EnableBossRelicDrops: {
+					Label: Enable Boss Relic Drops
+					Tooltip: Enables all Bosses to drop their Relics, regardless of the difficulty.
+				}
+
+				EnableBossSummonsChange: {
+					Label: Enable Boss Summons Change
+					Tooltip: Makes Boss Summons (From Thorium) be non-consumable.
+				}
+
+				DisableThunderBirdChange: {
+					Label: Disable Thunder Bird Change
+					Tooltip: Disables the boss summon change for The Grand Thunder Bird, since it's summoning item is a flare.  !!! Note: Enable Boss Summons Change MUST be active for this to work. !!!
+				}
+
+				SetCanBreakPlayerDefense: {
+					Label: Enable Calamity Defense Damage
+					Tooltip: Enables defense damage from the Calamity Mod to work with Thorium.  !!! Note: Calamity Mod MUST be active for this to work. !!!
+				}
+			}
+		}
+	}
+
+	ThoriumHardmodeWeaponFIX: {
+		Items: {
+			SloppyFinger: {
+				DisplayName: Sloppy Finger
+				Tooltip: Slop em' up! Right click for special attack.
+			}
+
+			LunarAssault: {
+				Tooltip: High-Powered assault rifle. Summons focus hit enemies.
+				DisplayName: Lunar Assault
+			}
+
+			MechanicalFinger: {
+				DisplayName: Mechanical Finger
+				Tooltip: Extreme Damage and Speed increase at the cost of losing life rapidly.
+			}
+
+			FingerAnvil: {
+				DisplayName: Finger Anvil
+				Tooltip: Used for the sloppiest of creations.
+			}
+
+			SloppyEssence: {
+				DisplayName: Sloppy Essence
+				Tooltip: The power of the sloppy finger eminates from this material...
+			}
+
+			SlopRod: {
+				Tooltip: Summons Phantasmal Fingers to tickle your foes.
+				DisplayName: Slop Rod
+			}
+
+			SloppyStaff: {
+				DisplayName: Sloppy Staff
+				Tooltip: Summons winged Sloppy Finger minions that throw bombs at your foes.
+			}
+
+			SlopReaper: {
+				Tooltip: The more you hit enemies, the faster it spins. Right click when meter is full to throw.
+				DisplayName: Slop Reaper
+			}
+
+			test: {
+				DisplayName: test
+				Tooltip: ""
+			}
+
+			Phalangeal: {
+				DisplayName: Phalangeal
+				Tooltip:
+					'''
+
+
+					"Maybe the real sloppy finger was just the friends we made along the way"
+
+					Summons 9 spinning Elemental Fingers around you.
+
+					They will spin around you as you hold, but will fly off once released.
+					Damage increases the longer you spin them.
+
+					"[c/FF0000:Unlike a storm, the eye of this cyclone won't be so merciful.]"
+					'''
+			}
+
+			FingerOfGod: {
+				Tooltip: ""
+				DisplayName: Finger Of God
+			}
+
+			SupremeSloppyEssence: {
+				Tooltip: At last, the true unbridled power of crumbumbulous' lost fingers is released.
+				DisplayName: Supreme Sloppy Essence
+			}
+
+			EricboundMusicBoxItem: {
+				DisplayName: Ericbound Music Box
+				Tooltip:
+					'''
+					EarthBound!
+					Earth, Earth, EarthBound! Uh-EarthBound, EarthBound!
+					Earth, Earth, Oooo.
+					Mother 2, EarthBound! Earth, Earth, EarthBound!
+					Uh-EarthBound, EarthBound! Earth, Earth, Oooo,
+					Mother 2, Ness and Jeff and Paula
+					Mr. Saturn, Poo- Andonuts, Dalaam?
+					EarthBound! Earth, Earth, EarthBound!
+					Uh-EarthBound, EarthBound!
+					Ness, Jeff, Poo. EarthBownnnnd
+					Nnnyaw, bow. Bow bow bawmanawmanaw. (FREESTYLE)
+					Bow bow bawmanawmanaw! Bow bow,
+					BEW BEW BEW BEauw, EarthBound, Uh-uh uh EarthBound!
+					Earth, EARTHBOUND, EARTH EARTH
+					Ooooo.
+					'''
+			}
+
+			ClubstepMusicBoxItem: {
+				DisplayName: Clubstep Music Box
+				Tooltip: not to be confused with a pub
+			}
+
+			SpaghettiFingeration: {
+				DisplayName: Spaghettifingeration
+				Tooltip:
+					'''
+					"this one's really stretchy..."
+
+					Focuses and aims towards clicked enemy
+
+					Hold down left click to charge
+					damage gets higher the more you charge
+					'''
+			}
+		}
+
+		Projectiles: {
+			Bullet.DisplayName: Bullet
+			FingerProjectile.DisplayName: Sloppy Finger
+			PhantasmalFinger.DisplayName: Phantasmal Finger
+			Explosion.DisplayName: Explosion
+			FingerMinion.DisplayName: Finger Minion
+			FingerBomb.DisplayName: Finger Bomb
+			FingerBombExplosion.DisplayName: Finger Bomb Explosion
+			SlopReaperProjectile.DisplayName: Slop Reaper Projectile
+			BionicFinger.DisplayName: Bionic Finger
+			SlopReaperThrown.DisplayName: Slop Reaper Thrown
+			ElementalFinger.DisplayName: Elemental Finger
+			ElementalFingerShot.DisplayName: Elemental Finger Shot
+			GodFingerLaser.DisplayName: God Finger Laser
+			FingerWhip.DisplayName: Finger Whip
+			Marker.DisplayName: Marker
+			Explosion2.DisplayName: Explosion2
+			Lightning.DisplayName: Lightning
+		}
+
+		Buffs: {
+			MechanicalFingerBuff: {
+				DisplayName: Mechanical Finger Frenzy
+				Description: The power of the sloppy finger surges through you!
+			}
+
+			MechanicalFingerCooldown: {
+				DisplayName: Mechanical Finger Cooldown
+				Description: You can't use the Mechanical Finger just yet!
+			}
+
+			FingerDebuff: {
+				Description: You've been cursed by the slop!
+				DisplayName: Finger Debuff
+			}
+
+			FingerMinionBuff: {
+				DisplayName: Finger Minion
+				Description: A Finger Minion assists you in battle!
+			}
+
+			WhipDebuff: {
+				DisplayName: Whip Debuff
+				Description: Mods.ThoriumHardmodeWeaponFIX.Buffs.WhipDebuff.Description
+			}
+		}
+	}
+}
