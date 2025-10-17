@@ -854,7 +854,7 @@ Items: {
 	}
 
 	ThoriumHeavyScythe: {
-		DisplayName: 泰坦重镰
+		DisplayName: 瑟银重镰
 		Tooltip: 这把镰刀是定向挥舞而不是旋转
 	}
 
@@ -1651,4 +1651,5 @@ Configs: {
 		}
 	}
 }
+
 
