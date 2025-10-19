@@ -1,0 +1,33 @@
+Buffs: {
+	BubbleShield: {
+		DisplayName: Bubble Shield泡泡护盾
+		Description: Reduces next damage by 10%  减少10%下一次所受到的伤害
+	}
+}
+
+Items: {
+	OtherworldlyScythe: {
+		DisplayName: Otherworldly Scythe异界镰刀
+		Tooltip: ""
+	}
+
+	RodScythe: {
+		DisplayName: Rod Scythe天竿镰刀
+		Tooltip: ""
+	}
+
+	CubismKunai: {
+		DisplayName: Cubism Kunai立体苦无
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	OtherworldlyBubble.DisplayName: Otherworldly Bubble
+	OtherworldlyScythePro.DisplayName: Otherworldly Scythe Pro
+	RodScytheBeam.DisplayName: Rod Scythe Beam
+	RodScythePro.DisplayName: Rod Scythe Pro
+	CubismKunaiProj.DisplayName: Cubism Kunai Proj
+	FissionThrow_2.DisplayName: Fission Throw_2
+}
+
