@@ -217,7 +217,7 @@ Items: {
 			魔力消耗减少10%
 			降低15%非光辉伤害
 			增加15%光辉伤害和7%光辉暴击率
-			最大灵感值增加40
+			最大魔力值增加40
 			'''
 		SetBonus:
 			'''
@@ -1046,5 +1046,6 @@ Configs: {
 		ThoriumBossRework.Label: 瑟银BOSS重置
 	}
 }
+
 
 DamageClasses.ThoriumRogueClass.DisplayName: 盗贼伤害
