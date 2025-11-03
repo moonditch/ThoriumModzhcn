@@ -26,11 +26,11 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.167"," gold, "},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.168"," gold, and "},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.169"," silver, and "},
-					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.170"," silver"},
+					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.170"," silver "},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.171"," copper"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.172","0 coins"},
 					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.176","MoneyAmount"},
-					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.177","Money Generated: "},
+					{"ThoriumMod.ThoriumMod.ThoriumPlayer.AddCoinTooltip.177","Money generated: "},
 				});
 				#endregion ThoriumMod.ThoriumPlayer
 
