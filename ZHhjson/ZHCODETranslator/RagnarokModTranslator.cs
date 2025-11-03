@@ -66,6 +66,13 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#region RagnarokMod.Common.GlobalItems.ReworkClassRings
 				TranslatorLoad.LocalizeByTypeFullName("RagnarokMod.Common.GlobalItems.ReworkClassRings", "ModifyTooltips", new ()
 				{
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.822","\n3% increased symphonic damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.823","\n3% increased melee damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.824","\n3% increased summon damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.825","\n3% increased rogue damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.826","\n3% increased ranged damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.827","\n3% increased radiant damage"},
+					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.828","\n3% increased magic damage"},
 					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.829","Increases armor penetration by 2"},
 					{"RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.830","Increases armor penetration by 3\nIncreases damage by 4%"},
 				});

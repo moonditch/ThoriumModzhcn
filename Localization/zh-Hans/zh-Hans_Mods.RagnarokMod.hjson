@@ -1037,6 +1037,21 @@ Configs: {
 			Label: 蝙蝠子爵AI
 			Tooltip: 选择使用那个模组的AI，关闭为默认状态
 		}
+
+		granite: {
+			Label: 花岗岩流能风暴AI
+			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+		}
+
+		champion: {
+			Label: 英灵残骸AI
+			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+		}
+
+		scouter: {
+			Label: 星际监察者AI
+			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+		}
 	}
 
 	ThoriumBossRework_selection_mode: {
@@ -1046,6 +1061,5 @@ Configs: {
 		ThoriumBossRework.Label: 瑟银BOSS重置
 	}
 }
-
 
 DamageClasses.ThoriumRogueClass.DisplayName: 盗贼伤害
