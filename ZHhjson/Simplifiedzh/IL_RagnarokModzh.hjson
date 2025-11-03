@@ -3,6 +3,7 @@ RagnarokMod.RagnarokMod.Items.HealerItems.Armor.TarragonCowl.UpdateArmorSet.86: 
 RagnarokMod.RagnarokMod.Items.HealerItems.Armor.VictideHeadHealer.UpdateArmorSet.89: "敌人将不太可能以你为目标\n浸泡在液体中，增加3点生命再生，增加10%光辉伤害，降低10%非光辉伤害\n使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度"
 RagnarokMod.RagnarokMod.Items.BardItems.Armor.TarragonShroud.UpdateArmorSet.101: "增加红心拾取范围\n敌人死亡时有概率掉落更多红心\n所有咒音增幅效果额外延长50%\n拥有华贵盔甲的套装效果"
 RagnarokMod.RagnarokMod.Items.BardItems.Armor.VictideHeadBard.UpdateArmorSet.105: "敌人将不太可能以你为目标\n浸泡在液体中，增加3点生命再生，增加10%音波伤害\n使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度"
+RagnarokMod.RagnarokMod.Common.GlobalItems.CalamityRogueTechPoints.ModifyTooltips.372: "\n最大技巧值增加"
 RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.822: "\n增加3%音波伤害"
 RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.823: "\n增加3%近战伤害"
 RagnarokMod.RagnarokMod.Common.GlobalItems.ReworkClassRings.ModifyTooltips.824: "\n增加3%召唤伤害"
@@ -24,4 +25,5 @@ RagnarokMod.RagnarokMod.Common.GlobalItems.ItemBalancer.ModifyTooltips.983: "盗
 RagnarokMod.RagnarokMod.Common.GlobalItems.ItemBalancer.ModifyTooltips.985: "复制伤害上限100.该效果无法和别的手册叠加"
 RagnarokMod.RagnarokMod.Common.GlobalItems.ItemBalancer.ModifyTooltips.987: "盗贼所造成伤害有17.5%的概率会复制"
 RagnarokMod.RagnarokMod.Common.GlobalItems.ItemBalancer.ModifyTooltips.988: "复制伤害上限200.该效果无法和别的手册叠加"
+
 
