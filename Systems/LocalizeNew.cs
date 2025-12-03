@@ -45,8 +45,13 @@ public class LocalizeNew : ModSystem
             .Where(file => file.FilePath.Contains("Simplifiedzh") || file.FilePath.Contains("zh-Hans"))
             .ToList()
             ;
+
         var tfile = allHjson.Where(f => f.FilePath.Contains("zh-Hans_Mods.ThoriumMod")).First();
-        ZHHJson.Add(tfile);
+        if (LoadModAssembly.LoadModContext.ContainsKey("RagnarokMod"))
+        {
+            ZHHJson.Add(tfile);
+        }
+
         RegionILKey(ZHHJson);
     }
 
