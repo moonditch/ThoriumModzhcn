@@ -22,7 +22,7 @@ public class LocalizeNew : ModSystem
     public static List<string> CSOWHJson { get; } =
      [
     ];*/
-    
+
 
     //Unsimplifiedzh or zh-TW
     public static List<TFile> TWHJson { get; set; }
@@ -39,19 +39,14 @@ public class LocalizeNew : ModSystem
         var allHjson = TFile.GetFiles(f => f.EndsWith(".hjson"));
         TWHJson = allHjson
             .Where(file => file.FilePath.Contains("Unsimplifiedzh") || file.FilePath.Contains("zh-TW"))
-            .ToList();
-
+            .ToList()
+            ;
         ZHHJson = allHjson
             .Where(file => file.FilePath.Contains("Simplifiedzh") || file.FilePath.Contains("zh-Hans"))
-            .ToList();
-        ;
+            .ToList()
+            ;
         var tfile = allHjson.Where(f => f.FilePath.Contains("zh-Hans_Mods.ThoriumMod")).First();
-        if (LoadModAssembly.LoadModContext.ContainsKey("RagnarokMod"))
-        {
         ZHHJson.Add(tfile);
-      }
-RegionILKey(ZHHJson);
-
         RegionILKey(ZHHJson);
     }
 
@@ -148,34 +143,3 @@ public static class LocalizeExtend
     }
 
 }
-
-public class 语言切换 : ModConfig
-{
-    public Language 语言;
-
-    [JsonIgnore]
-    public CancellationTokenSource CTS;
-
-    public override ConfigScope Mode => ConfigScope.ClientSide;
-
-    public override void OnChanged()
-    {
-        if (CTS == null) {
-            CTS = new CancellationTokenSource();
-        } else {
-            CTS.Cancel();
-            CTS = new CancellationTokenSource();
-        }
-
-        LocalizeNew.CurrentLanguage = 语言;
-        if (LocalizeNew.IsPostSetupContent) {
-            _ = Task.Run(() => {
-               LanguageManager.Instance.RecalculateBoundTextValues();
-            }/*, CTS.Token*/);
-        }
-
-        base.OnChanged();
-    }
-}
-
-
