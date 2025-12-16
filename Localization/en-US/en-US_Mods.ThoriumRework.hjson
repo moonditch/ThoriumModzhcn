@@ -468,6 +468,8 @@ Projectiles: {
 	JammingJellyfish.DisplayName: Jamming Jellyfish
 	JellyfishJam.DisplayName: Jamming Jellyfish
 	JellyfishShock.DisplayName: Jellyfish Shock
+	Kusarigama.DisplayName: Kusarigama
+	KusarigamaOrb.DisplayName: Orb of the Wind
 	LichLantern.DisplayName: Volatile Lantern
 	LichWhip.DisplayName: Instrument of Torment
 	LodeStoneClaymore.DisplayName: Lodestone Claymore
@@ -510,6 +512,7 @@ Projectiles: {
 	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 	TerrariumSaber.DisplayName: Terrarium Saber
 	ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
+	ThoriumWhistle.DisplayName: Thorium Whistle
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
 	TitanSword.DisplayName: Titan Sword
@@ -649,6 +652,18 @@ Items: {
 	JellyfishJam: {
 		DisplayName: Jellyfish Jam
 		Tooltip: Shoots dancing jellyfish that pierce
+	}
+
+	Kusarigama: {
+		DisplayName: Kusarigama
+		Tooltip:
+			'''
+			Heals ally and player life equal to your bonus healing
+			This mace counts as a scythe
+			Hitting enemies with the blade generates soul essence
+			Hitting enemies with the hilt generates lingering healing energy
+			Up to 2 healing energy can exist at once
+			'''
 	}
 
 	LichWhip: {
@@ -868,6 +883,11 @@ Items: {
 	ThoriumHeavyScythe: {
 		DisplayName: Thorium Heavy Scythe
 		Tooltip: This scythe is swung directionally instead of spun
+	}
+
+	ThoriumWhistle: {
+		DisplayName: Thorium Whistle
+		Tooltip: Shoots a barrage of short-ranged lightning
 	}
 
 	ValkyrienSkyStone: {
