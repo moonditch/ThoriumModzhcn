@@ -1304,15 +1304,12 @@ Items: {
 	}
 
 	Vivapollum: {
-		DisplayName: Vivapollum
+		DisplayName: 蚀冤冥息
 		Tooltip:
 			'''
-			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
-			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
-			Once triggered, it cannot happen again until the user fully recovers all inspiration
-			发射一阵深渊气泡，命中后爆炸并造成生命压制
-			灵感耗尽时 会触发一次短暂的深渊气泡上涌
-			该效果触发后 需完全恢复全部灵感方可再次触发
+			发射一阵深渊气泡，命中后爆炸并造成生命压制减益
+			灵感值耗尽时，会触发一次短暂的深渊气泡上涌
+			该效果触发后，需恢复全部灵感值才可再次触发
 			'''
 	}
 
@@ -1656,5 +1653,6 @@ Configs: {
 		}
 	}
 }
+
 
 
