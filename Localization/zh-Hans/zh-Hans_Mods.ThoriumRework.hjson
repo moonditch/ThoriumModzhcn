@@ -637,6 +637,18 @@ Items: {
 		Tooltip: 释放跳舞的水母刺穿敌人
 	}
 
+	Kusarigama: {
+		DisplayName: 锁镰
+		Tooltip:
+			'''
+			为队友和你回复等同于额外治疗量的生命值
+			该连枷被视为镰刀
+			以刀刃命中敌人会生成灵魂精华
+			以刀柄命中敌人会生成滞留的治疗能量
+			同时最多存在2团治疗能量
+			'''
+	}
+
 	LichWhip: {
 		DisplayName: 笞魂刑具
 		Tooltip:
@@ -856,6 +868,11 @@ Items: {
 	ThoriumHeavyScythe: {
 		DisplayName: 瑟银重镰
 		Tooltip: 这把镰刀是定向挥舞而不是旋转
+	}
+
+	ThoriumWhistle: {
+		DisplayName: 瑟银哨子
+		Tooltip: 发射短射程的闪电弹幕
 	}
 
 	ValkyrienSkyStone: {
@@ -1651,5 +1668,6 @@ Configs: {
 		}
 	}
 }
+
 
 
