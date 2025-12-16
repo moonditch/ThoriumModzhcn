@@ -782,6 +782,18 @@ Items: {
 			'''
 	}
 
+	IrradiatedKusarigama: {
+		DisplayName: Irradiated Kusarigama
+		Tooltip:
+			'''
+			This mace counts as a scythe
+			Performs a dual combo of throwing a mace core then a small scythe
+			Hits with the ball generate healing mist, with only 3 being allowed at once
+			Hits with the scythe or when it returns to the user creates homing bubbles
+			Inflicts acid venom and sulphuric poisoning on hit
+			'''
+	}
+
 	LostOasis: {
 		DisplayName: 失落绿洲
 		Tooltip:
@@ -823,6 +835,16 @@ Items: {
 			在魔法阵中的队友在任何情况下都不能死亡
 			活着的队友也可以从大多数减益影响解脱
 			[c/C61B40:'这个是女巫用来复活她兄弟的魔杖。']
+			'''
+	}
+
+	OldDukesWisdom: {
+		DisplayName: Old Duke's Wisdom
+		Tooltip:
+			'''
+			Shoots a barrage of tooth balls that explode into teeth
+			Inflicts acid venom and sulphuric poisoning on hit
+			Based off of the weird sounding brass from "Toxic Wisdom" by DM Dokuro
 			'''
 	}
 
@@ -873,6 +895,18 @@ Items: {
 			最多向3名队友释放硫磺射线并治愈他们
 			如果少于3名队友，额外的硫磺射线会治疗已经治愈过的队友
 			[c/C61B40:'为了感谢女巫的复活，他们愿意无私奉献.']
+			'''
+	}
+
+	Procioplexon: {
+		DisplayName: Procioplexon
+		Tooltip:
+			'''
+			100 Armor Penetration
+			This scythe is swung directionally instead of spun
+			Sends abyssal tides every swing alongside abyssal slashes
+			Every third swing, the scythe is spun around
+			While spun, this waepon unleashes multiple relentless storms
 			'''
 	}
 
@@ -1010,8 +1044,8 @@ Items: {
 		DisplayName: 远古之歌
 		Tooltip:
 			'''
-			发射两条元素光束，以螺旋方式移动
 			无视15点防御力
+			发射两条元素光束，以螺旋方式移动
 			成功在计时区域击中时，稳定地增加它的咒音增幅等级
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
@@ -1021,9 +1055,12 @@ Items: {
 		DisplayName: 寰宇之歌
 		Tooltip:
 			'''
+			无视75点防御力
 			发射五条宇宙光束，以螺旋方式移动
 			能多次攻击同一个目标
-			无视75点防御力
+			造成足够伤害后可右键召唤一次小型爆鸣
+			小型爆鸣会生成较弱的星体，自动追踪最近的敌人，并造成双倍伤害
+			任意小型爆鸣存在期间，灵感值消耗减半
 			"使宇宙和谐的旋律"
 			'''
 	}
@@ -1032,9 +1069,9 @@ Items: {
 		DisplayName: 元素之歌
 		Tooltip:
 			'''
+			无视25点防御力
 			发射三条元素光束，以螺旋方式移动
 			能多次攻击同一个目标
-			无视25点防御力
 			"这首歌给许多世界带来了平衡"
 			'''
 	}
@@ -1042,6 +1079,17 @@ Items: {
 	SpookyMonth: {
 		DisplayName: 魇梦之月
 		Tooltip: 发射一连串燃烧南瓜头攻击目标
+	}
+
+	SoulSplicer: {
+		DisplayName: Soul Splicer
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			Rapidly spin a soul splicing scythe
+			Periodically releases apparitions of itself
+			Inflicts electrified and hellfire on hit
+			'''
 	}
 
 	StarBirth: {
@@ -1058,7 +1106,8 @@ Items: {
 		DisplayName: 星簇
 		Tooltip:
 			'''
-			按住左键凝聚星尘，松开可释放所有星尘
+			按住左键凝聚星尘
+			松开可释放所有星尘弹幕
 			星尘可无限穿透
 			星尘最大数量等同于最大灵感值
 			'''
@@ -1254,38 +1303,13 @@ Items: {
 			'''
 	}
 
-	WilloftheRagnarok: {
-		DisplayName: 诸神黄昏之意志
+	Vivapollum: {
+		DisplayName: Vivapollum
 		Tooltip:
 			'''
-			拥有所有下位合成武器的增益
-			"消灭那些扰乱宇宙平衡的人"
-			'''
-	}
-
-	Windward: {
-		DisplayName: 迎风
-		Tooltip: 发射两根追踪的羽毛
-	}
-
-	WulfrumMegaphone: {
-		DisplayName: 钨钢扩音器
-		Tooltip:
-			'''
-			发射的音波会随着时间的推移发射的更快
-			穿透目标后会降低伤害
-			被调谐的敌怪多受5%伤害
-			"看那!廉价的侮辱者!"
-			'''
-	}
-
-	WulfrumWeedWacker: {
-		DisplayName: 钨钢割草镰
-		Tooltip:
-			'''
-			这把镰刀是定向挥舞而不是旋转
-			每次挥舞会释放短程刃波
-			"五组钨钢芜草乌，乌草钨刚芜五簇"
+			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
+			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
+			Once triggered, it cannot happen again until the user fully recovers all inspiration
 			'''
 	}
 
@@ -1322,6 +1346,41 @@ Items: {
 			'''
 	}
 
+		WilloftheRagnarok: {
+		DisplayName: 诸神黄昏之意志
+		Tooltip:
+			'''
+			拥有所有下位合成武器的增益
+			"消灭那些扰乱宇宙平衡的人"
+			'''
+	}
+
+	Windward: {
+		DisplayName: 迎风
+		Tooltip: 发射两根追踪的羽毛
+	}
+
+	WulfrumMegaphone: {
+		DisplayName: 钨钢扩音器
+		Tooltip:
+			'''
+			发射的音波会随着时间的推移发射的更快
+			穿透目标后会降低伤害
+			被调谐的敌怪多受5%伤害
+			"看那!廉价的侮辱者!"
+			'''
+	}
+
+	WulfrumWeedWacker: {
+		DisplayName: 钨钢割草镰
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			每次挥舞会释放短程刃波
+			"五组钨钢芜草乌，乌草钨刚芜五簇"
+			'''
+	}
+
 	YharimsJam: {
 		DisplayName: 亚利姆音响
 		Tooltip:
@@ -1344,6 +1403,7 @@ Projectiles: {
 	AquaiusAdvice.DisplayName: 潮汐之宣告
 	ArcticReinforcement.DisplayName: 北极冰管
 	ArcticReinforcement2.DisplayName: 北极冰管
+	AstralFlames.DisplayName: Astral Flames
 	BloodflareRitual.DisplayName: 血炎仪式
 	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
 	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
@@ -1358,6 +1418,8 @@ Projectiles: {
 	ChristmasCarol.DisplayName: 圣诞铃鼓
 	ColdShoulder.DisplayName: 冷淡
 	ColdShoulderIcicle.DisplayName: 冰凌
+	CosmicEncore.DisplayName: Cosmic Encore
+	CosmicEncoreStar.DisplayName: Cosmic Encore
 	CosmicSong.DisplayName: 寰宇之歌
 	CottonMouth.DisplayName: 毒渊之蝰
 	CottonMouthGas.DisplayName: 酸性气体
@@ -1396,10 +1458,16 @@ Projectiles: {
 	HydrogenSulfideWave.DisplayName: 夺命硫炎
 	HydrothermalEruption.DisplayName: 渊泉焰爆
 	HydrothermalOasis.DisplayName: 渊泉绿洲
+	HyphaeBaton.DisplayName: Hyphae Baton
+	HyphaeBatonSporeCloud.DisplayName: Hyphae Baton
 	IceCreamMachine.DisplayName: 冰淇淋机
 	IceCube.DisplayName: 冰块
+	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: 星际古琴
 	InterstellarShredder2.DisplayName: 星际古琴
+	IrradiatedKusarigama.DisplayName: Irradiated Kusarigama
+	IrradiatedOasis.DisplayName: Irradiated Oasis
+	IrradiatedVortex.DisplayName: Irradiated Vortex
 	LostOasis.DisplayName: 失落绿洲
 	LuxorsPrayer.DisplayName: 卢克索之祈祷
 	LuxorsSong.DisplayName: 卢克索之歌
@@ -1411,12 +1479,18 @@ Projectiles: {
 	Noisebringer.DisplayName: 噪音使者
 	NoisebringerGoliath.DisplayName: 噪音使者歌莉娅
 	OathofSacrifice.DisplayName: 献祭誓言
+	OldDukesWisdom.DisplayName: Old Dukes Wisdom
+	OldDukesWisdomTooth.DisplayName: Old Dukes Wisdom Tooth
 	OmnicidesLaw.DisplayName: 毁灭之定理
 	PhoenicianBeak.DisplayName: 凤凰之喙
 	PhoenicianBeakSlice.DisplayName: 凤凰斩击
 	PlagueSwarmerMissile.DisplayName: 瘟疫蜂群
 	PlagueTrace.DisplayName: 瘟疫尾迹
 	PledgeofSelflessness.DisplayName: 无私誓言
+	Procioplexon.DisplayName: Procioplexon
+	ProcioplexonSlash.DisplayName: Procioplexon
+	ProcioplexonVortex.DisplayName: Procioplexon
+	ProcioplexonWave.DisplayName: Procioplexon
 	PurgedSoul.DisplayName: 纯净之魂
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: 救赎之恩
@@ -1430,9 +1504,12 @@ Projectiles: {
 	SingularityStar.DisplayName: 奇点
 	SlagFurysIntent.DisplayName: 戮焰之意图
 	SludgeBomb.DisplayName: 污泥爆弹
+	SoulSplicer.DisplayName: Soul Splicer
+	SoulSplicerApparition.DisplayName: Soul Splicer
 	SpookyMonth.DisplayName: 魇梦之月
 	StarBirth.DisplayName: 星云
 	StarBirthStar.DisplayName: 新生之星
+	StarCluster.DisplayName: Star Cluster
 	Supercluster.DisplayName: 超星系团
 	SuperclusterStar.DisplayName: 超星系团
 	SymphonicExoMissile.DisplayName: 音波星流导弹
@@ -1451,8 +1528,11 @@ Projectiles: {
 	ToxicQuarterNote.DisplayName: 剧毒"{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: 剧毒"{$ProjectileName.TiedEightNote}"
 	Transfiguration.DisplayName: 渎神圣容
+	Trinity.DisplayName: Trinity
 	Violince.DisplayName: 血肉小提琴
 	ViolinceBow.DisplayName: 血肉小提琴
+	Vivapollum.DisplayName: Vivapollum
+	VivapollumExplosion.DisplayName: Vivapollum
 	Whirlwind.DisplayName: 旋风
 	WhisperingLeaf.DisplayName: 树语者之叶
 	WhisperingTrunk.DisplayName: 树语者主干
@@ -1573,3 +1653,4 @@ Configs: {
 		}
 	}
 }
+
