@@ -782,6 +782,18 @@ Items: {
 			'''
 	}
 
+	IrradiatedKusarigama: {
+		DisplayName: Irradiated Kusarigama
+		Tooltip:
+			'''
+			This mace counts as a scythe
+			Performs a dual combo of throwing a mace core then a small scythe
+			Hits with the ball generate healing mist, with only 3 being allowed at once
+			Hits with the scythe or when it returns to the user creates homing bubbles
+			Inflicts acid venom and sulphuric poisoning on hit
+			'''
+	}
+
 	LostOasis: {
 		DisplayName: Lost Oasis
 		Tooltip:
@@ -823,6 +835,16 @@ Items: {
 			Living players that are inside the ritual circle cannot die under any circumstance
 			Living players are also liberated from most negative status effects
 			[c/C61B40:'The very staff the witch used to resurrect her siblings.']
+			'''
+	}
+
+	OldDukesWisdom: {
+		DisplayName: Old Duke's Wisdom
+		Tooltip:
+			'''
+			Shoots a barrage of tooth balls that explode into teeth
+			Inflicts acid venom and sulphuric poisoning on hit
+			Based off of the weird sounding brass from "Toxic Wisdom" by DM Dokuro
 			'''
 	}
 
@@ -873,6 +895,18 @@ Items: {
 			Shoots 3 brimstone rays that home on up to 3 different players and heal them
 			If there are less than 3 players, extra rays can heal the same players again
 			[c/C61B40:'As a thank you from the witch's brothers, they pledged their selflessness.']
+			'''
+	}
+
+	Procioplexon: {
+		DisplayName: Procioplexon
+		Tooltip:
+			'''
+			100 Armor Penetration
+			This scythe is swung directionally instead of spun
+			Sends abyssal tides every swing alongside abyssal slashes
+			Every third swing, the scythe is spun around
+			While spun, this waepon unleashes multiple relentless storms
 			'''
 	}
 
@@ -1010,8 +1044,8 @@ Items: {
 		DisplayName: Song of the Ancients
 		Tooltip:
 			'''
-			Shoots two elemental beams that move in a helix pattern before splitting
 			Ignores 15 points of defense
+			Shoots two elemental beams that move in a helix pattern before splitting
 			Successfully timing hits will steadily increase its empowerment level
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
@@ -1021,9 +1055,12 @@ Items: {
 		DisplayName: Song of the Cosmos
 		Tooltip:
 			'''
+			Ignores 75 points of defense
 			Shoot five cosmic beams that move in a helix pattern
 			Can hit the same target multiple times
-			Ignores 75 points of defense
+			Dealing enough damage allows this weapon to be <right> to summon a small bang
+			Small bangs produce weaker stars that home to the closest enemy and deal double damage
+			While any small bang is active, inspiration cost is halved
 			"The very song that harmonizes the universe"
 			'''
 	}
@@ -1032,9 +1069,9 @@ Items: {
 		DisplayName: Song of the Elements
 		Tooltip:
 			'''
+			Ignores 25 points of defense
 			Shoot three elemental beams that move in a helix pattern
 			Can hit the same target multiple times
-			Ignores 25 points of defense
 			"The very song that brings balance to many worlds"
 			'''
 	}
@@ -1042,6 +1079,17 @@ Items: {
 	SpookyMonth: {
 		DisplayName: Spooky Month
 		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
+	}
+
+	SoulSplicer: {
+		DisplayName: Soul Splicer
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			Rapidly spin a soul splicing scythe
+			Periodically releases apparitions of itself
+			Inflicts electrified and hellfire on hit
+			'''
 	}
 
 	StarBirth: {
@@ -1255,38 +1303,13 @@ Items: {
 			'''
 	}
 
-	WilloftheRagnarok: {
-		DisplayName: Will of the Ragnarök
+	Vivapollum: {
+		DisplayName: Vivapollum
 		Tooltip:
 			'''
-			Combined effects of all downgrades
-			"Erase those who disturb the balance of the universe"
-			'''
-	}
-
-	Windward: {
-		DisplayName: Windward
-		Tooltip: Shoots two slightly homing feathers
-	}
-
-	WulfrumMegaphone: {
-		DisplayName: Wulfrum Megaphone
-		Tooltip:
-			'''
-			Shoots a sound wave that grows and speeds up
-			Pierces targets but damage gets reduced by a flat amount
-			Tunes targets on hit, increasing the damage they take by 5%
-			"Behold! The Cheap-Insults-Inator!"
-			'''
-	}
-
-	WulfrumWeedWacker: {
-		DisplayName: Wulfrum Weed Wacker
-		Tooltip:
-			'''
-			This scythe is swung directionally instead of spun
-			Shoots a short-ranged wave every swing
-			"Wulfrum weed wacker wacking weed with wulfrum"
+			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
+			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
+			Once triggered, it cannot happen again until the user fully recovers all inspiration
 			'''
 	}
 
@@ -1320,6 +1343,41 @@ Items: {
 			'''
 			Increases void energy generated for each active empowerment
 			Increased even further the higher each empowerment level is
+			'''
+	}
+
+	WilloftheRagnarok: {
+		DisplayName: Will of the Ragnarök
+		Tooltip:
+			'''
+			Combined effects of all downgrades
+			"Erase those who disturb the balance of the universe"
+			'''
+	}
+
+	Windward: {
+		DisplayName: Windward
+		Tooltip: Shoots two slightly homing feathers
+	}
+
+	WulfrumMegaphone: {
+		DisplayName: Wulfrum Megaphone
+		Tooltip:
+			'''
+			Shoots a sound wave that grows and speeds up
+			Pierces targets but damage gets reduced by a flat amount
+			Tunes targets on hit, increasing the damage they take by 5%
+			"Behold! The Cheap-Insults-Inator!"
+			'''
+	}
+
+	WulfrumWeedWacker: {
+		DisplayName: Wulfrum Weed Wacker
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Shoots a short-ranged wave every swing
+			"Wulfrum weed wacker wacking weed with wulfrum"
 			'''
 	}
 
@@ -1360,6 +1418,8 @@ Projectiles: {
 	ChristmasCarol.DisplayName: Christmas Carol
 	ColdShoulder.DisplayName: Cold Shoulder
 	ColdShoulderIcicle.DisplayName: Icicle
+	CosmicEncore.DisplayName: Cosmic Encore
+	CosmicEncoreStar.DisplayName: Cosmic Encore
 	CosmicSong.DisplayName: Cosmic Song
 	CottonMouth.DisplayName: Cotton Mouth
 	CottonMouthGas.DisplayName: Laughing Gas
@@ -1405,6 +1465,9 @@ Projectiles: {
 	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: Interstellar Shredder
 	InterstellarShredder2.DisplayName: Interstellar Shredder
+	IrradiatedKusarigama.DisplayName: Irradiated Kusarigama
+	IrradiatedOasis.DisplayName: Irradiated Oasis
+	IrradiatedVortex.DisplayName: Irradiated Vortex
 	LostOasis.DisplayName: Lost Oasis
 	LuxorsPrayer.DisplayName: Luxor's Prayer
 	LuxorsSong.DisplayName: Luxor's Song
@@ -1416,12 +1479,18 @@ Projectiles: {
 	Noisebringer.DisplayName: Noisebringer
 	NoisebringerGoliath.DisplayName: Noisebringer Goliath
 	OathofSacrifice.DisplayName: Oath of Sacrifice
+	OldDukesWisdom.DisplayName: Old Dukes Wisdom
+	OldDukesWisdomTooth.DisplayName: Old Dukes Wisdom Tooth
 	OmnicidesLaw.DisplayName: Omnicide's Law
 	PhoenicianBeak.DisplayName: Phoenician Beak
 	PhoenicianBeakSlice.DisplayName: Phoenician Beak Slice
 	PlagueSwarmerMissile.DisplayName: Plague Swarmer
 	PlagueTrace.DisplayName: Plague Trace
 	PledgeofSelflessness.DisplayName: Pledge of Selflessness
+	Procioplexon.DisplayName: Procioplexon
+	ProcioplexonSlash.DisplayName: Procioplexon
+	ProcioplexonVortex.DisplayName: Procioplexon
+	ProcioplexonWave.DisplayName: Procioplexon
 	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: Beyond Saving Grace
@@ -1435,6 +1504,8 @@ Projectiles: {
 	SingularityStar.DisplayName: Singularity
 	SlagFurysIntent.DisplayName: Slag Fury's Intent
 	SludgeBomb.DisplayName: Sludge Bomb
+	SoulSplicer.DisplayName: Soul Splicer
+	SoulSplicerApparition.DisplayName: Soul Splicer
 	SpookyMonth.DisplayName: Spooky Month
 	StarBirth.DisplayName: Nebula
 	StarBirthStar.DisplayName: Newly Born Star
@@ -1460,6 +1531,8 @@ Projectiles: {
 	Trinity.DisplayName: Trinity
 	Violince.DisplayName: Violince
 	ViolinceBow.DisplayName: Violince
+	Vivapollum.DisplayName: Vivapollum
+	VivapollumExplosion.DisplayName: Vivapollum
 	Whirlwind.DisplayName: Whirlwind
 	WhisperingLeaf.DisplayName: Whispering Leaf
 	WhisperingTrunk.DisplayName: Whispering Trunk
