@@ -783,14 +783,14 @@ Items: {
 	}
 
 	IrradiatedKusarigama: {
-		DisplayName: Irradiated Kusarigama
+		DisplayName: 辐照锁镰
 		Tooltip:
 			'''
-			This mace counts as a scythe
-			Performs a dual combo of throwing a mace core then a small scythe
-			Hits with the ball generate healing mist, with only 3 being allowed at once
-			Hits with the scythe or when it returns to the user creates homing bubbles
-			Inflicts acid venom and sulphuric poisoning on hit
+			该连枷被视作镰刀
+			执行两段攻击，先发射链球，随后发射小型镰刀
+			链球命中会生成治疗雾气 同时最多仅可存在3个
+			镰刀命中或返回时会生成自动追踪的气泡
+			命中造成酸性毒液与硫磺海剧毒减益
 			'''
 	}
 
@@ -839,12 +839,12 @@ Items: {
 	}
 
 	OldDukesWisdom: {
-		DisplayName: Old Duke's Wisdom
+		DisplayName: 老公爵的箴言
 		Tooltip:
 			'''
-			Shoots a barrage of tooth balls that explode into teeth
-			Inflicts acid venom and sulphuric poisoning on hit
-			Based off of the weird sounding brass from "Toxic Wisdom" by DM Dokuro
+			发射牙球弹幕，爆炸后分裂成牙齿
+			命中造成酸性毒液与硫磺海剧毒减益
+			基于作者DM Dokuro的“Toxic Wisdom”中怪异的铜管音效改编
 			'''
 	}
 
@@ -899,14 +899,14 @@ Items: {
 	}
 
 	Procioplexon: {
-		DisplayName: Procioplexon
+		DisplayName: 誓元渊裁
 		Tooltip:
 			'''
-			100 Armor Penetration
-			This scythe is swung directionally instead of spun
-			Sends abyssal tides every swing alongside abyssal slashes
-			Every third swing, the scythe is spun around
-			While spun, this waepon unleashes multiple relentless storms
+			无视100点防御力
+			该镰刀以定向挥砍而非旋转攻击
+			每次挥动都会释放深渊潮汐并伴随深渊斩击
+			每三次攻击镰刀会旋转
+			旋转期间武器将释放多重不息之风
 			'''
 	}
 
@@ -1082,13 +1082,13 @@ Items: {
 	}
 
 	SoulSplicer: {
-		DisplayName: Soul Splicer
+		DisplayName: 灵魂裁切镰
 		Tooltip:
 			'''
-			Ignores 10 points of defense
-			Rapidly spin a soul splicing scythe
-			Periodically releases apparitions of itself
-			Inflicts electrified and hellfire on hit
+			无视10点防御力
+			快速旋转一把切割灵魂的镰刀
+			周期性释放本体的幽影化身
+			命中造成带电与狱炎减益
 			'''
 	}
 
@@ -1310,6 +1310,9 @@ Items: {
 			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
 			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
 			Once triggered, it cannot happen again until the user fully recovers all inspiration
+			发射一阵深渊气泡，命中后爆炸并造成生命压制
+			灵感耗尽时 会触发一次短暂的深渊气泡上涌
+			该效果触发后 需完全恢复全部灵感方可再次触发
 			'''
 	}
 
@@ -1653,4 +1656,5 @@ Configs: {
 		}
 	}
 }
+
 
