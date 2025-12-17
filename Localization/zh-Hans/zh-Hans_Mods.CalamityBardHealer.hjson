@@ -839,7 +839,7 @@ Items: {
 	}
 
 	OldDukesWisdom: {
-		DisplayName: 老公爵的箴言
+		DisplayName: 旧公爵的箴言
 		Tooltip:
 			'''
 			发射牙球弹幕，爆炸后分裂成牙齿
@@ -902,7 +902,7 @@ Items: {
 		DisplayName: 誓元渊裁
 		Tooltip:
 			'''
-			无视100点防御力
+			100点护甲穿透
 			该镰刀以定向挥砍而非旋转攻击
 			每次挥动都会释放深渊潮汐并伴随深渊斩击
 			每三次攻击镰刀会旋转
