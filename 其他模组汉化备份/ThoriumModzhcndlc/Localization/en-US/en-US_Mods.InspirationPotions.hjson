@@ -1,0 +1,25 @@
+Buffs: {
+	InspirationWeakness: {
+		DisplayName: Artist Block
+		Description: Symphonic damage decreased by {0}%
+	}
+}
+
+Items: {
+	InspirationFlower: {
+		DisplayName: Inspiring Reed
+		Tooltip:
+			'''
+			8% increased symphonic damage
+			Automatically use inspiration potions when needed
+			'''
+	}
+
+	LesserInspirationPotion.DisplayName: Lesser Inspiration Potion
+	InspirationPotion.DisplayName: Inspiration Potion
+	GreaterInspirationPotion.DisplayName: Greater Inspiration Potion
+	SuperInspirationPotion.DisplayName: Super Inspiration Potion
+}
+
+PotionTooltip: Restores {0} inspiration
+Keybinds.QuickInspiration.DisplayName: Quick Inspiration
