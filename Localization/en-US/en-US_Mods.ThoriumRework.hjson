@@ -56,15 +56,17 @@ ItemDescriptions: {
 		Critical strikes build up a meter that when full, causes attacks to create delayed electric shocks
 		Using items made with mostly Thorium bars builds this meter up on any hit instead of just crits
 		'''
+	ThoriumRevolver: Converts flares into medium ranged thunder zaps
+	ThoriumSpear: Unleashes a weak lightning bolt on attack
 	ChampionBomberStaff:
 		'''
-		Shoots a magical burster missile that repeatedly attacks hit targets
-		"Bombarding doesn't necessarily mean blowing them up"
+		Shoots a magical burster missile that pierces through mobs before exploding
+		Critical strikes causes missiles to last longer and pierce an additional time	
 		'''
 	ChampionSwiftBlade:
 		'''
 		Shoots a powerful shockwave that deals 50% damage
-		Every 3rd and 4th attack summons sword apparitions
+		Every third and fourth attack summons sword apparitions
 		'''
 	GraniteCrossbow:
 		'''
@@ -94,7 +96,7 @@ ItemDescriptions: {
 		'''
 	IllumiteSpear:
 		'''
-		Every 3rd attack shoots out an illumite spear image
+		Every third attack shoots out an illumite spear image
 		The image shoots illuminating beams at nearby targets
 		Hit enemies will be illuminated and take 10% more damage
 		'''
@@ -144,23 +146,23 @@ ItemDescriptions: {
 		'''
 	LodeStoneBow:
 		'''
-		Damage will sunder enemies, increasing the damage they take by 10
-		Every 3rd attack shoots magnetic payloads that home into sundered enemies
+		Damage will sunder enemies, increasing the damage they take by 10%
+		Every third attack shoots magnetic payloads that home into sundered enemies
 		'''
 	LodeStoneQuickDraw:
 		'''
-		Damage will sunder enemies, increasing the damage they take by 10
-		Every 3rd attack shoots magnetic payloads that home into sundered enemies
+		Damage will sunder enemies, increasing the damage they take by 10%
+		Every third attack shoots magnetic payloads that home into sundered enemies
 		'''
 	ValadiumBow:
 		'''
 		Damage will blast enemies with interdimensional energy
-		Every 3rd attack smites the closest light accursed enemy with void light
+		Every third attack smites the closest light accursed enemy with void light
 		'''
 	ValadiumFoeBlaster:
 		'''
 		Damage will blast enemies with interdimensional energy
-		Every 3rd attack smites the closest light accursed enemy with void light
+		Every third attack smites the closest light accursed enemy with void light
 		'''
 	ValadiumSpear:
 		'''
@@ -169,7 +171,7 @@ ItemDescriptions: {
 		'''
 	SoulRender:
 		'''
-		Every 3rd and 4th attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
+		Every third and fourth attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
 		Volatile soul blades deal more damage the higher your attack speed is to compensate with reduced projectiles shot
 		'''
 	FleshSkewer:
@@ -186,7 +188,7 @@ ItemDescriptions: {
 		'''
 	DragonTooth:
 		'''
-		Every 4th attack releases a cursed dragon spirit
+		Every fourth attack releases a cursed dragon spirit
 		Critical strikes create a ring of cursed inferno
 		'''
 	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
@@ -204,7 +206,7 @@ ItemDescriptions: {
 		'''
 	DreadRazor:
 		'''
-		Every 3rd and 4th attack unleashes a cursed dragon spirit
+		Every third and fourth attack unleashes a cursed dragon spirit
 		Right click to release a stream of dread energy
 		Attacking automatically accumulates dread energy
 		'''
@@ -235,7 +237,7 @@ ItemDescriptions: {
 		'''
 	PrimesFury:
 		'''
-		Every 4th attack shoots a powerful beam dealing triple damage
+		Every fourth attack shoots a powerful beam dealing triple damage
 		Right Click to unleash a flurry of attacks that deal half damage
 		"We have a chainsaw sword at home"
 		'''
@@ -453,6 +455,9 @@ Projectiles: {
 	GraniteCharge.DisplayName: Granite Charge
 	HeadHunter.DisplayName: Head Hunter
 	HeadHunterShard.DisplayName: Head Hunter
+	HealingOrbRainbow.DisplayName: Healing Orb
+	HealingOrbTeal.DisplayName: Healing Orb
+	HealingOrbYellow.DisplayName: Healing Orb
 	HighTide.DisplayName: High Tide
 	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
@@ -473,6 +478,7 @@ Projectiles: {
 	LichLantern.DisplayName: Volatile Lantern
 	LichWhip.DisplayName: Instrument of Torment
 	LodeStoneClaymore.DisplayName: Lodestone Claymore
+	LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
 	Loudener.DisplayName: Loudener
 	LucidNuke.DisplayName: Lucid Energy
 	LucidRay.DisplayName: Lucid Energy
@@ -504,6 +510,7 @@ Projectiles: {
 	ShellxophoneStrike.DisplayName: Abyssal Strike
 	SoulBleed.DisplayName: Soul Bleed
 	SoulRender.DisplayName: Soul Render
+	SoulSnatcher.DisplayName: Soul Snatcher
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	StableRealityRift.DisplayName: Stable Reality Rift
 	StarCore.DisplayName: Star Core
@@ -511,13 +518,19 @@ Projectiles: {
 	Stuff.DisplayName: Stuff
 	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 	TerrariumSaber.DisplayName: Terrarium Saber
+	TerrariumSoulScourge.DisplayName: Terrarium Soul Scourge
+	TerrariumSoulScourge2.DisplayName: Terrarium Soul Scourge
+	ThoriumBludgeon.DisplayName: Thorium Bludgeon
 	ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
-	ThoriumWhistle.DisplayName: Thorium Whistle
+	ThoriumRevolver.DisplayName: Thunder Zap
+	ThoriumWhistle.DisplayName: Thunder Zap
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
 	TitanSword.DisplayName: Titan Sword
 	TitanWhirlpool.DisplayName: Titan Whirlpool
 	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	ValadiumHeavyScythe.DisplayName: Valadium Heavy Scythe
+	ValadiumHeavyScytheWave.DisplayName: Valadium Heavy Scythe
 	ValadiumRay.DisplayName: Void Ray
 	ValadiumSlash.DisplayName: Void Slash
 	ValadiumSlicer.DisplayName: Valadium Slicer
@@ -573,10 +586,20 @@ Items: {
 		DisplayName: Will of Coznix
 		Tooltip:
 			'''
-			The 3rd and 4th attacks shoots out an eradicating void beam
+			The third and fourth attacks shoots out an eradicating void beam
 			Critical strikes create a void bubble on hit target's location
 			The void bubble summons eyes to attack enemies for 50% damage
 			Only one void bubble can be active at a time
+			'''
+	}
+
+	BeholderHeart: {
+		DisplayName: Heart of the Beholder
+		Tooltip:
+			'''
+			Increases maximum life by 10 and bonus healing by 1
+			Every 30 ally life healed releases a bolt of damaging radiant energy
+			Additionally, you recover life equal to bonus healing
 			'''
 	}
 
@@ -658,7 +681,6 @@ Items: {
 		DisplayName: Kusarigama
 		Tooltip:
 			'''
-			Heals ally and player life equal to your bonus healing
 			This mace counts as a scythe
 			Hitting enemies with the blade generates soul essence
 			Hitting enemies with the hilt generates lingering healing energy
@@ -674,6 +696,16 @@ Items: {
 			Struck enemies will bleed their souls out
 			Bled souls heal the bleeding enemies' target
 			"A tool used to torment souls in the afterlife"
+			'''
+	}
+
+	LodeStoneMagnetMace: {
+		DisplayName: Lodestone Magnet Mace
+		Tooltip:
+			'''
+			Swings a magnetic mace that releases lingering healing energy on its first hit
+			Up to 4 healing energy can exist at once
+			Damage will sunder enemies, increasing the damage they take by 10% and attracting the mace to them
 			'''
 	}
 
@@ -813,6 +845,18 @@ Items: {
 			'''
 	}
 
+	SoulSnatcher: {
+		DisplayName: Soul Snatcher
+		Tooltip:
+			'''
+			This mace counts as a scythe
+			Hitting enemies with the blade generates soul essence
+			Hitting enemies with the hilt generates lingering healing energy
+			Up to 5 healing energy can exist at once
+			"Your soul belongs to snatcher!"
+			'''
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -833,6 +877,16 @@ Items: {
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TerrariumSoulScourge: {
+		DisplayName: Terrarium Soul Scourge
+		Tooltip:
+			'''
+			Swings a prismatic mace that releases lingering healing energy on its first hit
+			Up to 10 healing energy can exist at once
+			Summons rainbow copies of itself on healing orb generation
+			'''
 	}
 
 	TitanHat: {
@@ -880,6 +934,15 @@ Items: {
 			'''
 	}
 
+	ThoriumBludgeon: {
+		DisplayName: Thorium Bludgeon
+		Tooltip:
+			'''
+			Swings a radioactive mace that releases lingering healing energy on its first hit
+			Up to 2 healing energy can exist at once
+			'''
+	}
+
 	ThoriumHeavyScythe: {
 		DisplayName: Thorium Heavy Scythe
 		Tooltip: This scythe is swung directionally instead of spun
@@ -888,6 +951,16 @@ Items: {
 	ThoriumWhistle: {
 		DisplayName: Thorium Whistle
 		Tooltip: Shoots a barrage of short-ranged lightning
+	}
+
+	ValadiumHeavyScythe: {
+		DisplayName: Valadium Heavy Scythe
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Unleashes a short-ranged wave of dark energy that pierces
+			Damage will blast enemies with interdimensional energy
+			'''
 	}
 
 	ValkyrienSkyStone: {
@@ -1276,6 +1349,16 @@ Configs: {
 			Tooltip: Note: The set bonus is what's reworked, not the armor itself
 		}
 
+		ThoriumRevolver: {
+			Label: "[i:ThoriumMod/ThoriumRevolver]Thorium Revolver"
+			Tooltip: Note: This re-adds its crafting recipe back
+		}
+
+		ThoriumSpear: {
+			Label: "[i:ThoriumMod/ThoriumSpear]Thorium Spear"
+			Tooltip: ""
+		}
+
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner]Hit Scanner"
 			Tooltip: ""
@@ -1353,6 +1436,11 @@ Configs: {
 
 		OmegaBlaster: {
 			Label: "[i:ThoriumMod/OmegaBlaster]Omega Blaster"
+			Tooltip: ""
+		}
+
+		SuperPlasmaCannon: {
+			Label: "[i:ThoriumMod/SuperPlasmaCannon]Super Plasma Cannon"
 			Tooltip: ""
 		}
 
