@@ -56,10 +56,12 @@ ItemDescriptions: {
 		暴击会累积能量槽，当能量槽充满时，你的攻击会在短暂延迟后造成一次电击。
 		若使用由瑟银锭为主要材料打造的物品，则任何命中都会累积能量槽，而不仅限于暴击。
 		'''
+	ThoriumRevolver: 将照明弹转化为中距离电击
+	ThoriumSpear: 攻击时释放一道较弱的闪电
 	ChampionBomberStaff:
 		'''
-		发射一枚神奇的导弹重复攻击敌人
-		"攻击并不一定意味着要打死他们"
+		发射一枚神奇的导弹贯穿敌怪后爆炸
+		暴击会使导弹持续时间延长并额外贯穿一次
 		'''
 	ChampionSwiftBlade:
 		'''
@@ -139,12 +141,12 @@ ItemDescriptions: {
 		'''
 	LodeStoneBow:
 		'''
-		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10%
 		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
 		'''
 	LodeStoneQuickDraw:
 		'''
-		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10%
 		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
 		'''
 	ValadiumBow:
@@ -559,6 +561,16 @@ Items: {
 			'''
 	}
 
+	BeholderHeart: {
+		DisplayName: 凝视者之心
+		Tooltip:
+			'''
+			最大生命值提升10，额外治疗量提升1
+			每为友方恢复30点生命值会释放一道造成伤害的光辉能量
+			此外，你会回复等同于额外治疗量的生命值
+			'''
+	}
+
 	ChampionWarHorn: {
 		DisplayName: 英灵战号
 		Tooltip:
@@ -657,6 +669,16 @@ Items: {
 			敌人被鞭打后会流血
 			流血的灵魂会释放一根彩线治愈周围的玩家
 			"用来折磨死后灵魂的工具"
+			'''
+	}
+
+	LodeStoneMagnetMace: {
+		DisplayName: 地脉磁石链锤
+		Tooltip:
+			'''
+			挥舞磁性链锤，首次命中时释放滞留的治疗能量
+			同时最多可存在4团治疗能量
+			造成伤害会剥离敌怪，使其受到的伤害提高10%并吸引链锤瞄准它
 			'''
 	}
 
@@ -798,6 +820,18 @@ Items: {
 			'''
 	}
 
+	SoulSnatcher: {
+		DisplayName: 窃魂者
+		Tooltip:
+			'''
+			该连枷被视为镰刀
+			以刀刃命中敌人会生成灵魂精华
+			以刀柄命中敌人会生成滞留的治疗能量
+			同时最多可存在5团治疗能量
+			“你的灵魂属于窃魂者！”
+			'''
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -818,6 +852,16 @@ Items: {
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TerrariumSoulScourge: {
+		DisplayName: 元素笞魂圣锤
+		Tooltip:
+			'''
+			挥舞一把棱彩链锤，首次命中时释放滞留的治疗能量
+			同时最多可存在10团治疗能量
+			在生成治疗能量时召唤自身的彩虹分身
+			'''
 	}
 
 	TitanHat: {
@@ -865,6 +909,15 @@ Items: {
 			'''
 	}
 
+	ThoriumBludgeon: {
+		DisplayName: 瑟银锤
+		Tooltip:
+			'''
+			挥舞一把放射性链锤，首次命中时释放滞留的治疗能量
+			同时最多可存在2团治疗能量
+			'''
+	}
+
 	ThoriumHeavyScythe: {
 		DisplayName: 瑟银重镰
 		Tooltip: 这把镰刀是定向挥舞而不是旋转
@@ -873,6 +926,16 @@ Items: {
 	ThoriumWhistle: {
 		DisplayName: 瑟银哨子
 		Tooltip: 发射短射程的闪电弹幕
+	}
+
+	ValadiumHeavyScythe: {
+		DisplayName: 虚金重镰
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			释放一道短距离可贯穿敌怪的暗能量波
+			造成伤害会以异界能量爆破敌人
+			'''
 	}
 
 	ValkyrienSkyStone: {
@@ -1263,6 +1326,16 @@ Configs: {
 			Tooltip: Note: 被改动的是套装效果，而不是护甲本身
 		}
 
+		ThoriumRevolver: {
+			Label: "[i:ThoriumMod/ThoriumRevolver] {$Mods.ThoriumMod.Items.ThoriumRevolver.DisplayName}"
+			Tooltip: 此选项会重新添加回它的制作配方
+		}
+
+		ThoriumSpear: {
+			Label: "[i:ThoriumMod/ThoriumSpear] {$Mods.ThoriumMod.Items.ThoriumSpear.DisplayName}"
+			Tooltip: ""
+		}
+
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner] {$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
 			Tooltip: ""
@@ -1340,6 +1413,11 @@ Configs: {
 
 		OmegaBlaster: {
 			Label: "[i:ThoriumMod/OmegaBlaster] {$Mods.ThoriumMod.Items.OmegaBlaster.DisplayName}"
+			Tooltip: ""
+		}
+
+		SuperPlasmaCannon: {
+			Label: "[i:ThoriumMod/SuperPlasmaCannon] {$Mods.ThoriumMod.Items.SuperPlasmaCannon.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1668,6 +1746,7 @@ Configs: {
 		}
 	}
 }
+
 
 
 
