@@ -16,6 +16,7 @@ namespace ThoriumModzhcn
             ZHhjson.ZHCODETranslator.CalamityBardHealerTranslator.LoadTranslator();
             ZHhjson.ZHCODETranslator.SpookyBardHealerTranslator.LoadTranslator();
             ZHhjson.ZHCODETranslator.RagnarokModTranslator.LoadTranslator();
+            ZHhjson.ZHCODETranslator.ThoriumReworkTranslator.LoadTranslator();
         }
     }
     public class ThoriumModzhcnPlayer : ModPlayer

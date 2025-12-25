@@ -1,0 +1,25 @@
+Buffs: {
+	InspirationWeakness: {
+		DisplayName: 藝術瓶頸
+		Description: 減少{0}%音波傷害
+	}
+}
+
+Items: {
+	InspirationFlower: {
+		DisplayName: 靈感簧舌
+		Tooltip:
+			'''
+			增加8%的音波傷害
+			需要時自動使用靈感藥水
+			'''
+	}
+
+	LesserInspirationPotion.DisplayName: 弱效靈感藥水
+	InspirationPotion.DisplayName: 靈感藥水
+	GreaterInspirationPotion.DisplayName: 強效靈感藥水
+	SuperInspirationPotion.DisplayName: 超級靈感藥水
+}
+
+PotionTooltip: 恢復 {0} 靈感值
+Keybinds.QuickInspiration.DisplayName: 快速靈感

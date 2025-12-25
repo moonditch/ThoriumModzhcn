@@ -1,0 +1,25 @@
+Buffs: {
+	InspirationWeakness: {
+		DisplayName: 艺术瓶颈
+		Description: 减少{0}%音波伤害
+	}
+}
+
+Items: {
+	InspirationFlower: {
+		DisplayName: 灵感簧舌
+		Tooltip:
+			'''
+			增加8%的音波伤害
+			需要时自动使用灵感药水
+			'''
+	}
+
+	LesserInspirationPotion.DisplayName: 弱效魔力药水
+	InspirationPotion.DisplayName: 灵感药水
+	GreaterInspirationPotion.DisplayName: 强效灵感药水
+	SuperInspirationPotion.DisplayName: 超级灵感药水
+}
+
+PotionTooltip: 恢复 {0} 灵感值
+Keybinds.QuickInspiration.DisplayName: 快速灵感

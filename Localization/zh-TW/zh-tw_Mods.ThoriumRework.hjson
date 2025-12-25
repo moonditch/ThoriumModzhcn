@@ -56,10 +56,12 @@ ItemDescriptions: {
 		暴擊會累積能量槽，當能量槽充滿時，你的攻擊會在短暫延遲後造成一次電擊。
 		若使用由瑟銀錠爲主要材料打造的物品，則任何命中都會累積能量槽，而不僅限於暴擊。
 		'''
+	ThoriumRevolver: 將照明彈轉化爲中距離電擊
+	ThoriumSpear: 攻擊時釋放一道較弱的閃電
 	ChampionBomberStaff:
 		'''
-		發射一枚神奇的導彈重複攻擊敵人
-		"攻擊並不一定意味著要打死他們"
+		發射一枚神奇的導彈貫穿敵怪後爆炸
+		暴擊會使導彈持續時間延長並額外貫穿一次
 		'''
 	ChampionSwiftBlade:
 		'''
@@ -139,12 +141,12 @@ ItemDescriptions: {
 		'''
 	LodeStoneBow:
 		'''
-		對敵怪造成傷害會剝離它們，它們所受傷害增加10
+		對敵怪造成傷害會剝離它們，它們所受傷害增加10%
 		每3次攻擊都會向剝離的敵人發射地脈箭（若沒有剝離狀態敵人，發射五個地脈箭）
 		'''
 	LodeStoneQuickDraw:
 		'''
-		對敵怪造成傷害會剝離它們，它們所受傷害增加10
+		對敵怪造成傷害會剝離它們，它們所受傷害增加10%
 		每3次攻擊都會向剝離的敵人發射地脈箭（若沒有剝離狀態敵人，發射五個地脈箭）
 		'''
 	ValadiumBow:
@@ -555,6 +557,16 @@ Items: {
 			'''
 	}
 
+	BeholderHeart: {
+		DisplayName: 凝視者之心
+		Tooltip:
+			'''
+			最大生命值提升10，額外治療量提升1
+			每爲友方恢復30點生命值會釋放一道造成傷害的光輝能量
+			此外，你會回覆等同於額外治療量的生命值
+			'''
+	}
+
 	ChampionWarHorn: {
 		DisplayName: 英靈戰號
 		Tooltip:
@@ -653,6 +665,16 @@ Items: {
 			敵人被鞭打後會流血
 			流血的靈魂會釋放一根彩線治癒周圍的玩家
 			"用來折磨死後靈魂的工具"
+			'''
+	}
+
+	LodeStoneMagnetMace: {
+		DisplayName: 地脈磁石鏈錘
+		Tooltip:
+			'''
+			揮舞磁性鏈錘，首次命中時釋放滯留的治療能量
+			同時最多可存在4團治療能量
+			造成傷害會剝離敵怪，使其受到的傷害提高10%並吸引鏈錘瞄準它
 			'''
 	}
 
@@ -809,9 +831,31 @@ Items: {
 		Tooltip: '''"怕黑？不用怕，有我在！"'''
 	}
 
+	SoulSnatcher: {
+		DisplayName: 竊魂者
+		Tooltip:
+			'''
+			該連枷被視爲鐮刀
+			以刀刃命中敵人會生成靈魂精華
+			以刀柄命中敵人會生成滯留的治療能量
+			同時最多可存在5團治療能量
+			“你的靈魂屬於竊魂者！”
+			'''
+	}
+
 	StellarTune: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	TerrariumSoulScourge: {
+		DisplayName: 元素笞魂聖錘
+		Tooltip:
+			'''
+			揮舞一把棱彩鏈錘，首次命中時釋放滯留的治療能量
+			同時最多可存在10團治療能量
+			在生成治療能量時召喚自身的彩虹分身
+			'''
 	}
 
 	TitanHat: {
@@ -859,6 +903,15 @@ Items: {
 			'''
 	}
 
+	ThoriumBludgeon: {
+		DisplayName: 瑟銀錘
+		Tooltip:
+			'''
+			揮舞一把放射性鏈錘，首次命中時釋放滯留的治療能量
+			同時最多可存在2團治療能量
+			'''
+	}
+
 	ThoriumHeavyScythe: {
 		DisplayName: 瑟銀重鐮
 		Tooltip: 這把鐮刀是定向揮舞而不是旋轉
@@ -867,6 +920,16 @@ Items: {
 	ThoriumWhistle: {
 		DisplayName: 瑟銀哨子
 		Tooltip: 發射短射程的閃電彈幕
+	}
+
+	ValadiumHeavyScythe: {
+		DisplayName: 虛金重鐮
+		Tooltip:
+			'''
+			這把鐮刀是定向揮舞而不是旋轉
+			釋放一道短距離可貫穿敵怪的暗能量波
+			造成傷害會以異界能量爆破敵人
+			'''
 	}
 
 	ValkyrienSkyStone: {
@@ -1246,6 +1309,16 @@ Configs: {
 			Tooltip: 被改動的是套裝效果，而不是護甲本身
 		}
 
+		ThoriumRevolver: {
+			Label: "[i:ThoriumMod/ThoriumRevolver] {$Mods.ThoriumMod.Items.ThoriumRevolver.DisplayName}"
+			Tooltip: 此選項會重新添加回它的製作配方
+		}
+
+		ThoriumSpear: {
+			Label: "[i:ThoriumMod/ThoriumSpear] {$Mods.ThoriumMod.Items.ThoriumSpear.DisplayName}"
+			Tooltip: ""
+		}
+
 		HitScanner: {
 			Label: "[i:ThoriumMod/HitScanner] {$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
 			Tooltip: ""
@@ -1326,6 +1399,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		SuperPlasmaCannon: {
+			Label: "[i:ThoriumMod/SuperPlasmaCannon] {$Mods.ThoriumMod.Items.SuperPlasmaCannon.DisplayName}"
+			Tooltip: ""
+		}
+		
 		LodeStoneBow: {
 			Label: "[i:ThoriumMod/LodeStoneBow] {$Mods.ThoriumMod.Items.LodeStoneBow.DisplayName}"
 			Tooltip: ""
