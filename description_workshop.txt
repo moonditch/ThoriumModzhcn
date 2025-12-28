@@ -23,12 +23,12 @@
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域吟游诗人、投手&牧师武器[/url]（v0.1.1）
 [*] 非官方旅人归途吟游诗人、投手&牧师武器（创意工坊没有）
 [*] 非官方元素觉醒吟游诗人、投手&牧师武器（创意工坊没有）
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626981220]灵感药水-瑟银[/url]（v0.1.1）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626981220]灵感药水-瑟银[/url]
 [/list]
 
 补充汉化（注：不支持繁体）
 [list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]（v1.4.4.3）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]（v1.4.4.7）
 [/list]
 
 [h1]=问题解决=[/h1]
@@ -52,6 +52,7 @@
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2025.9.13.0版本暂时回归）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3588408051] 炼狱蚀光汉化补丁 [/url]
 [/list]
 
 [h1]=作者介绍=[/h1]
