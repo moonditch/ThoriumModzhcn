@@ -15,7 +15,7 @@ Items: {
 			'''
 	}
 
-	LesserInspirationPotion.DisplayName: 弱效魔力药水
+	LesserInspirationPotion.DisplayName: 弱效灵感药水
 	InspirationPotion.DisplayName: 灵感药水
 	GreaterInspirationPotion.DisplayName: 强效灵感药水
 	SuperInspirationPotion.DisplayName: 超级灵感药水
