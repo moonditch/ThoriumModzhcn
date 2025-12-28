@@ -1004,9 +1004,21 @@ Configs: {
 
 	CalamityBardHealer_selection_mode: {
 		Tooltip: ""
-		Off.Label: 关闭
-		Ragnarok.Label: 诸神的黄昏
-		CalamityBardHealer.Label: 非灾厄官方吟游诗人，牧师武器
+
+		Off: {
+			Label: 关闭
+			// Tooltip: ""
+		}
+
+		Ragnarok: {
+			Label: 诸神的黄昏
+			// Tooltip: ""
+		}
+
+		CalamityBardHealer: {
+			Label: 非灾厄官方吟游诗人，牧师武器
+			// Tooltip: ""
+		}
 	}
 
 	BossConfig: {
@@ -1044,7 +1056,7 @@ Configs: {
 		}
 
 		champion: {
-			Label: 英灵残骸AI
+			Label: 英灵遗骸AI
 			Tooltip: 选择使用那个模组的AI，关闭为默认状态
 		}
 
@@ -1052,13 +1064,35 @@ Configs: {
 			Label: 星际监察者AI
 			Tooltip: 选择使用那个模组的AI，关闭为默认状态
 		}
+
+		strider: {
+			Tooltip: 选择使用那个模组的AI，关闭为原版状态. 如果未检测到其他模组的修改，则自动使用诸神的黄昏ai。
+			Label: 极地遁蛛AI
+		}
 	}
 
 	ThoriumBossRework_selection_mode: {
 		Tooltip: ""
-		Off.Label: 关闭
-		Ragnarok.Label: 诸神的黄昏
-		ThoriumBossRework.Label: 瑟银BOSS重置
+
+		Off: {
+			Label: 关闭
+			// Tooltip: ""
+		}
+
+		Ragnarok: {
+			Label: 诸神的黄昏
+			// Tooltip: ""
+		}
+
+		ThoriumBossRework: {
+			Label: 瑟银BOSS重置
+			// Tooltip: ""
+		}
+
+		Auto: {
+			// Tooltip: ""
+			// Label: Auto
+		}
 	}
 }
 
