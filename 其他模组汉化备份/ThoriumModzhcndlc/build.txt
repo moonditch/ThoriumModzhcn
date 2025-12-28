@@ -4,4 +4,4 @@ version = 0.1
 side = NoSync
 hideResources = true
 modReferences = ThoriumMod, ThoriumModzhcn
-weakReferences = TerrariumHacks, FargoThorium, ThoriumExpertModifs, BebraAim, InspirationPotions,
+weakReferences = TerrariumHacks, FargoThorium, ThoriumExpertModifs, BebraAim, RhapsodistWings,
