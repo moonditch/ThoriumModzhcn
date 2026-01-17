@@ -12,7 +12,7 @@
 汉化内容包括（注：支持简体&繁体）：
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.5），即此汉化的前置模组
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.3.0）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.3.3）
  {注：如果瑟银冥界想要灾厄炼狱模组的炼狱模式的完整体验，额外使用 “ [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]” }
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.11.1）
 [*] 非官方亚巴顿之影吟游诗人&牧师武器（创意工坊没有）
