@@ -19,7 +19,56 @@ Items: {
 	InspirationPotion.DisplayName: Inspiration Potion
 	GreaterInspirationPotion.DisplayName: Greater Inspiration Potion
 	SuperInspirationPotion.DisplayName: Super Inspiration Potion
+	SupremeInspirationPotion.DisplayName: Supreme Inspiration Potion
+	DecorativeGreaterInspirationPotion.DisplayName: Decorative Greater Inspiration Potion
+	DecorativeInspirationPotion.DisplayName: Decorative Inspiration Potion
+	DecorativeLesserInspirationPotion.DisplayName: Decorative Lesser Inspiration Potion
+	DecorativeSuperInspirationPotion.DisplayName: Decorative Super Inspiration Potion
+	DecorativeSupremeInspirationPotion.DisplayName: Decorative Supreme Inspiration Potion
 }
 
 PotionTooltip: Restores {0} inspiration
 Keybinds.QuickInspiration.DisplayName: Quick Inspiration
+
+Configs: {
+	InspirationPotionsConfig: {
+		DisplayName: Shared Settings
+
+		CrateDrops: {
+			Label: Crate Drops
+			Tooltip: Controls the way fishing crate loot is influenced by the mod
+		}
+	}
+
+	InspirationPotionsClientConfig: {
+		DisplayName: Client Settings
+
+		DungeonBottles: {
+			Label: Dungeon Bottles
+			Tooltip: Whether inspiration potions should spawn as tiles in the Dungeon during world generation
+		}
+	}
+
+	CrateLoot: {
+		Tooltip: Crate loot styles
+
+		Mixed: {
+			Label: Mixed
+			Tooltip:
+				'''
+				Inspiration potions are added as a third possibility with equal weight for potion drops (healing and mana) from crates
+				This technically reduces the chance for other drops as it is added into the same pool
+				'''
+		}
+
+		Separate: {
+			Label: Separate
+			Tooltip: Inspiration potions have a separate chance (1/8) of being obtained from crates, keeping other potion drops normal
+		}
+
+		None: {
+			Label: None
+			Tooltip: Inspiration potions are never obtained from crates
+		}
+	}
+}
