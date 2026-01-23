@@ -14,11 +14,8 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 20 points of defense
-			Swing a powerful flesh hammer that bites enemies
-			Spawns homing soul essences on hit that can heal both allies and the user
-			Grows hungrier the longer it doesn't bite anything
-			The hungrier the weapon, the more damage it deals, up to 500% more damage
-			Damage boost resets on non-critical hits while decremented on critical hits
+			Swing a powerful flesh hammer that bites enemies and spawn homing soul essences that heal both allies and the user
+			Grows hungrier the longer it doesn't bite anything, increasing its damage up to 600% and is reset on hit
 			The hammer is thrown every third attack and seeks targets when hungry
 			"Down with big brother..."
 			'''
@@ -50,8 +47,7 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 40 points of defense
-			Hold out a flesh harpischord that plays itself
-			Shoots out tapeworms that bounce and pierce
+			Hold out a flesh harpischord that plays itself, shooting out tapeworms that bounce and pierce
 			Tapeworms can hit the same enemy multiple times
 			"Go Go Gadget, Colonoscopy!"
 			'''
@@ -72,11 +68,9 @@ Items: {
 		DisplayName: Dandelizer
 		Tooltip:
 			'''
-			Lash out a giant dandelion flail
-			The flail leaves behind a trail that deals damage
-			Critical hits release golden dandelions that heal allies
-			Up to three golden dandelions can be active at once
-			Does not trigger on-heal effects
+			Swings a flowery mace that releases lingering healing flowers on its first hit
+			Up to 4 healing flowers can exist at once
+			"That's not even the right flower!"
 			'''
 	}
 
@@ -96,8 +90,44 @@ Items: {
 			'''
 			Throw two sentient twin heads that latch onto enemies
 			When one head is latched, it will drag the other
-			Each head will chew on the target 7 times before dying
+			Each head will chew on the target 7 times before disappearing
 			"¡Es tremenda lucha!"
+			'''
+	}
+
+	FiestaGarments: {
+		DisplayName: Fiesta Garments
+		Tooltip:
+			'''
+			15% increased symphonic and radiant damage
+			Healing spells will heal an additional 3 life
+			Enemies are less likely to target you
+			'''
+	}
+
+	FiestaMaskara: {
+		DisplayName: Fiesta Maskara
+		Tooltip:
+			'''
+			10% increased healing and symphonic playing speed
+			5% increased inspiration regeneration rate
+			Enemies are less likely to target you
+			'''
+		SetBonus:
+			'''
+			Dealing symphonic or radiant damage builds a special meter
+			When the meter is full, press 'Armor Ability' key to unleash a cloud of notes
+			The notes deal damage to enemies and heal ally life equivalent to heal bonus
+			'''
+	}
+
+	FiestaPantaloons: {
+		DisplayName: Fiesta Pantaloons
+		Tooltip:
+			'''
+			15% increased movement speed
+			Increases the duration of your symphonic empowerments by 2 seconds
+			Enemies are less likely to target you
 			'''
 	}
 
@@ -105,11 +135,9 @@ Items: {
 		DisplayName: Gastric Juices
 		Tooltip:
 			'''
-			Throw a sentient stomach that vomits everwhere on impact
-			Vomit inflicts Ulcer, increasing the damage the enemy takes by 20
-			If the vomit miss, they will land on the ground and form puddles
-			Puddles can be picked up by players to gain the Acid Reflux buff
-			Acid Reflux increases damage by 10% and armor penetration by 10
+			Throw a sentient stomach that vomits everwhere on impact, inflicting Ulcer which increases damage taken by 5
+			If the vomit miss, they will land on the ground and form puddles which can be picked up by players
+			Puddles grant Acid Reflux buff when picked up, which increases damage by 5% and armor penetration by 5
 			Puddles also heal allies but does not trigger on-heal effects
 			'''
 	}
@@ -182,9 +210,8 @@ Items: {
 		Tooltip:
 			'''
 			Flip a rotting gourd in the air that eventually falls
-			Depending on how good the spin is, the gourd will land
-			Upon landing, the gourd will attract flies
-			If not, it gets destroyed
+			Depending on how good the spin is, the gourd will land standing up
+			The gourd attracts flies on successful landings, or destroyed if not
 			"World's stinkiest game of Flip the Bottle..."
 			'''
 	}
@@ -235,14 +262,32 @@ Items: {
 		Tooltip: Shoots out spores that linger
 	}
 
+	MushroomMarcherArmor: {
+		DisplayName: Mushroom Marcher Armor
+		Tooltip: 5% increased throwing damage
+	}
+
+	MushroomMarcherBoots: {
+		DisplayName: Mushroom Marcher Boots
+		Tooltip: 5% increased throwing damage
+	}
+
+	MushroomMarcherCap: {
+		DisplayName: Mushroom Marcher Cap
+		Tooltip: 5% increased throwing damage
+		SetBonus:
+			'''
+			Increases maximum technique points by 1
+			Using your technique throws a barrage of spore grenades
+			'''
+	}
+
 	NerveEndings: {
 		DisplayName: Nerve Endings
 		Tooltip:
 			'''
-			Throw a sticky flesh javelin
-			Hold <left> to charge the javelin
-			Leaves behind fangs when thrown charged
-			Fangs home in to enemies struck by the javelin
+			Hold <left> to charge a sticky, flesh javelin
+			Leaves behind fangs when thrown while charged, homing to enemies struck by the javelin
 			"Designed to hit the most sensitive nerve endings, maximizing pain" 
 			'''
 	}
@@ -278,7 +323,7 @@ Items: {
 		Tooltip:
 			'''
 			Throw a fast moving eyeball that explodes on impact
-			"Eye for an eye!"
+			"Eye for an eye, makes the whole world blind..."
 			'''
 	}
 
@@ -287,8 +332,7 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 10 points of defense
-			Channel a cross made of flesh that smites enemies
-			Life regeneration is boosted per smited enemy
+			Channel a cross made of flesh that smites enemies, increasing life regeneration per enemy
 			Deals more damage against non-segmented bosses
 			*Unstubs your toe*
 			'''
@@ -309,17 +353,8 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a small, bouncy gourd that heals allies
-			Allies healed gain 20 defense for 10 seconds
+			Allies healed gain 5 defense for 10 seconds
 			"Yummy!"
-			'''
-	}
-
-	SadWitch: {
-		DisplayName: Sad Witch
-		Tooltip:
-			'''
-			By Not Una Nancy Owen (n0t_UN_Owen)
-			"The left side of the painting appears torn..."
 			'''
 	}
 
@@ -341,8 +376,7 @@ Items: {
 			'''
 			Shoots three vitreous bubbles that home into enemies
 			Dealing damage with Subclavian Trumpet empowers this weapon
-			While empowered, this instrument uses up no inspiration
-			Additionally, vitreous bubbles have improved tracking
+			While empowered, this instrument uses up no inspiration and improves homing
 			"Solitude in Eye Minor"
 			'''
 	}
@@ -351,11 +385,9 @@ Items: {
 		DisplayName: Scream Whistle
 		Tooltip:
 			'''
-			Shoots an assortment of bones that vary in sizes
-			Dealing damage with the bones builds up a special meter
-			When the meter is full, <right> to perform a death whistle
-			Activating the death whistle empowers this weapon
-			While empowered, bones gain aggressive homing
+			Shoots an assortment of bones that vary in sizes, which build a special meter on hit
+			When the meter is full, <right> to perform an ear-shattering death whistle
+			Activating the death whistle empowers this weapon, giving bones aggressive homing
 			'''
 	}
 
@@ -365,6 +397,45 @@ Items: {
 			'''
 			By EduaRRdo
 			For DylanDoe21
+			'''
+	}
+
+	SneezePriestGreaves: {
+		DisplayName: Sneeze Priest Greaves
+		Tooltip:
+			'''
+			5% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional life
+			"Bless You!"
+			'''
+	}
+
+	SneezePriestNose: {
+		DisplayName: Sneeze Priest Nose
+		Tooltip:
+			'''
+			10% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional life
+			"Bless You!"
+			'''
+		SetBonus:
+			'''
+			Healing spells heal an additional life
+			Gaining Soul Essence causes the user to sneeze violently
+			Sneezing grants short invincibility frames and shoots a barrage of snot
+			'''
+	}
+
+	SneezePriestRobe: {
+		DisplayName: Sneeze Priest Robe
+		Tooltip:
+			'''
+			15% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional 3 life
+			"Bless You!"
 			'''
 	}
 
@@ -393,8 +464,7 @@ Items: {
 			'''
 			Shoots a swirling tangle of arteries and veins
 			Dealing damage with Sclerinet empowers this weapon
-			While empowered, this instrument uses up no inspiration
-			Additionally, the tangles deal 50% more damage
+			While empowered, this instrument uses up no inspiration and deal 50% more damage
 			"Quite unnerving..."
 			'''
 	}
@@ -417,13 +487,17 @@ Items: {
 			'''
 	}
 
+	TheWitchAuthor: {
+		DisplayName: The Witch Author
+		Tooltip: By Not Una Nancy Owen (n0t_UN_Owen)
+	}
+
 	ToothRusher: {
 		DisplayName: Tooth Rusher
 		Tooltip:
 			'''
 			Ignores 10 points of defense
-			Throw a heavy flesh tomawahk
-			Throwing it in the air will cause it to slow down and spin
+			Throw a heavy flesh tomawahk, which will slow down and spin if it misses
 			After spinning for a while, it will rapidly rush the nearest enemy
 			"Brush your teeth or get rushed by 'em!" 
 			'''
@@ -437,7 +511,7 @@ Items: {
 			Successfully timing increases fire rate and projectiles shot
 			Fire rate bonus stacks with attack speed empowerment
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Woah, watch your language! No need for the hard R!"
+			"Woah, watch your language!"
 			'''
 	}
 }
@@ -462,6 +536,8 @@ Projectiles: {
 	Gourdnade.DisplayName: Gourdnade
 	GourdnadeFly.DisplayName: Gourdnade
 	FacundoYPanfilo.DisplayName: Panfilo & Facundo
+	FiestaMeter.DisplayName: Fiesta Meter
+	FiestaSuper.DisplayName: Fiesta Super
 	LarrytheLarynx.DisplayName: Larry the Larynx
 	LarryVoiceCrack.DisplayName: Larry's Voice Crack
 	LeakingInk.DisplayName: Leaking Ink
@@ -470,6 +546,8 @@ Projectiles: {
 	LickguaSaliva.DisplayName: Lickgua Saliva
 	ManlessHorseHead.DisplayName: Manless Horse Head
 	MushDrumSpore.DisplayName: Mush Drum Spore
+	MushroomMarcherGrenade.DisplayName: Spore Grenade
+	MushroomMarcherSpore.DisplayName: Grenade Spore
 	NerveEndings.DisplayName: Nerve Endings
 	NerveEndingsFang.DisplayName: Nerve Endings
 	OldWoodBaton.DisplayName: Old Wood Baton
@@ -507,12 +585,12 @@ Projectiles: {
 Buffs: {
 	AcidReflux: {
 		DisplayName: Acid Reflux
-		Description: +10% damage and +10 armor penetration
+		Description: +5% damage and +5 armor penetration
 	}
 
 	GourdGuarded: {
 		DisplayName: Gourd Guarded
-		Description: +20 defense
+		Description: +5 defense
 	}
 
 	HandShieldCooldown: {
@@ -537,13 +615,22 @@ Buffs: {
 
 	SerSemisonic: {
 		DisplayName: Ser Semisonic
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description
+		Description: Lavender Town Syndrome
 	}
 
 	SerSemisonicCooldown: {
 		DisplayName: Ser Semisonic Cooldown
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
+		Description: He is missing, no?
 	}
+}
+
+WhisperingHood: {
+	RotGourd: Nothing but a mere shell of its former self...
+	SpookySpirit: Oops! Party time's over!
+	Moco: It's even allergic to its own existence...
+	Daffodil: Good. Keep sleeping...
+	OrroBoro: Their gluttony disgusts me...
+	BigBone: Let's not get overprotective, shall we?
 }
 
 Configs: {
