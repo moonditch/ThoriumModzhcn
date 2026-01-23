@@ -1,7 +1,0 @@
-displayName = 瑟银更多附属汉化dlc（不支持繁体）
-author = moon.ditch
-version = 0.1
-side = NoSync
-hideResources = true
-modReferences = ThoriumMod, ThoriumModzhcn
-weakReferences = TerrariumHacks, FargoThorium, ThoriumExpertModifs, BebraAim, RhapsodistWings,
