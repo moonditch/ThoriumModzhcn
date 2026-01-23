@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\tModLoader.targets" />
   <PropertyGroup>
     <AssemblyName>ThoriumModzhcn</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+    <Reference Include="CalamityBardHealer">
+      <HintPath>lib\CalamityBardHealer.dll</HintPath>
+    </Reference>
+    <Reference Include="RedemptionBardHealer">
+      <HintPath>lib\RedemptionBardHealer.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoriumMod">
+      <HintPath>lib\ThoriumMod.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoriumRework">
+      <HintPath>lib\ThoriumRework.dll</HintPath>
+    </Reference>
+    <Reference Include="TigerForceLocalizationLib">
+      <HintPath>lib\TigerForceLocalizationLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

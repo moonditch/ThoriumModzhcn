@@ -1,6 +1,8 @@
+#pragma warning disable CA2255
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
+using System.Runtime.CompilerServices;
 namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 {
 	public class SpookyBardHealerTranslator
@@ -8,9 +10,10 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 		private class SpookyBardHealer{}
 		[ExtendsFromMod("SpookyBardHealer"), JITWhenModsEnabled("SpookyBardHealer")]
 		private class TranslatorLoad : ForceLocalizeSystem<SpookyBardHealer, TranslatorLoad>{}
+		[ModuleInitializer]
 		public static void LoadTranslator()
 		{
-			if(ModLoader.TryGetMod("SpookyBardHealer",out var mod))
+			if(LoadModAssembly.LoadModContext.TryGetValue("SpookyBardHealer", out _))
 			{
 				#region SpookyBardHealer.Tiles.SecretPainting
 				TranslatorLoad.LocalizeByTypeFullName("SpookyBardHealer.Tiles.SecretPainting", "KillMultiTile", new ()

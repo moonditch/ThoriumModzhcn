@@ -126,7 +126,6 @@ ThoriumMod.ThoriumMod.Items.ThrownItems.ShadeMasterMask.UpdateArmorSet.3611: "�
 ThoriumMod.ThoriumMod.Items.ThrownItems.WhiteDwarfMask.UpdateArmorSet.3627: "暴擊會從星宇釋放象牙狀火焰\n象牙狀火焰會造成被擊中目標0.1%生命值的傷害"
 
 //npc需求
-ThoriumMod.ThoriumMod.Items.ThoriumGlobalItem.AddCookText.2916: "廚師可能會對這個感興趣: "
 ThoriumMod.ThoriumMod.NPCs.HealingDummy.AI.1994: " 生命值/5 秒"
 ThoriumMod.ThoriumMod.NPCs.Blacksmith.GetChat.1640: "你能去找"
 ThoriumMod.ThoriumMod.NPCs.Blacksmith.GetChat.1641: "有一些無聊的日常互動：他把金屬交給我鍛造，而我故意在他的爆炸物附近吸煙，嚇他個心臟病發作。"

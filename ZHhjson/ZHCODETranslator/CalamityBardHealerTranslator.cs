@@ -1,6 +1,8 @@
+#pragma warning disable CA2255
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
+using System.Runtime.CompilerServices;
 namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 {
 	public class CalamityBardHealerTranslator
@@ -8,10 +10,12 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 		private class CalamityBardHealer{}
 		[ExtendsFromMod("CalamityBardHealer"), JITWhenModsEnabled("CalamityBardHealer")]
 		private class TranslatorLoad : ForceLocalizeSystem<CalamityBardHealer, TranslatorLoad>{}
+		[ModuleInitializer]
 		public static void LoadTranslator()
 		{
-			if(ModLoader.TryGetMod("CalamityBardHealer",out var mod))
+			if(LoadModAssembly.LoadModContext.TryGetValue("CalamityBardHealer", out _))
 			{
+				
 				#region CalamityBardHealer.Items.SymphonicFabrications
 				TranslatorLoad.LocalizeByTypeFullName("CalamityBardHealer.Items.SymphonicFabrications", "BardModifyTooltips", new ()
 				{

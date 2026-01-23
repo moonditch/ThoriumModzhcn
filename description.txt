@@ -41,3 +41,4 @@
 * moon.ditch / Super_ego /  布丁 / Listentowind ：现瑟银本体&附属简体汉化维护+诸神的黄昏内置汉化 (无校对)
 * moon.ditch / 白狐狸  ：现瑟银本体&附属繁体汉化维护 (无校对)
 * moon.ditch / 南亭: 现代码支持
+
