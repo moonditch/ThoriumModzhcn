@@ -60,8 +60,8 @@ Buffs: {
 	}
 
 	AuricSurge: {
-		// DisplayName: Auric Surge
-		// Description: Mods.RagnarokMod.Buffs.AuricSurge.Description
+		DisplayName: 金源浪涌
+		Description: Mods.RagnarokMod.Buffs.AuricSurge.Description
 	}
 }
 
@@ -733,20 +733,20 @@ Items: {
 	}
 
 	IntergelacticHeadBard: {
-		// DisplayName: Intergelactic Hat
-		/* Tooltip:
+		DisplayName: 异宇星凝风帽
+		Tooltip:
 			'''
-			Reduces damage taken by 12%
-			Increases bard damage, critical strike change and playing speed by 15%
-			15% increased inspiration regeneration
-			+4 max inspiration and empowerments last 3 additional seconds
-			+10% chance for inspiration notes to drop from enemies
-			''' */
-		/* SetBonus:
+			增加12%伤害减免
+			增加15%的音波伤害，暴击率和演奏速度
+			增加15%的灵感恢复速率
+			增加4点灵感值上限，你的咒音增幅额外持续3秒
+			增加10%的音符掉落概率
 			'''
-			Grants immunity to knockback and multiple movement debuffs
-			Your are immune to the Astral Blight
-			''' */
+		SetBonus:
+			'''
+			使你免疫击退和多种移速减益
+			使你免疫星辉瘟疫
+			'''
 	}
 
 	Lamentation: {
@@ -825,13 +825,13 @@ Projectiles: {
 	NightmareFreezerPro2.DisplayName: Nightmare Freezer Pro2
 	NightmareFreezerPro3.DisplayName: Nightmare Freezer Pro3
 	ElementalBuff.DisplayName: Elemental Buff
-	// DragonForcePro1.DisplayName: Dragon Force Pro1
-	// DragonForcePro2.DisplayName: Dragon Force Pro2
-	// SupremeBellPro.DisplayName: Supreme Bell Pro
-	// LamentationBoom.DisplayName: Lamentation Boom
-	// LamentationPro.DisplayName: Lamentation Pro
-	// VirusprayerPro1.DisplayName: Virusprayer Pro1
-	// VirusprayerPro2.DisplayName: Virusprayer Pro2
+	DragonForcePro1.DisplayName: Dragon Force Pro1
+	DragonForcePro2.DisplayName: Dragon Force Pro2
+	SupremeBellPro.DisplayName: Supreme Bell Pro
+	LamentationBoom.DisplayName: Lamentation Boom
+	LamentationPro.DisplayName: Lamentation Pro
+	VirusprayerPro1.DisplayName: Virusprayer Pro1
+	VirusprayerPro2.DisplayName: Virusprayer Pro2
 }
 
 Configs: {
@@ -963,6 +963,11 @@ Configs: {
 			Label: 近战伤害倍率
 			Tooltip: 近战伤害倍率，倍率在其他变化加成后才会生效。
 		}
+
+		HealingBonusModifier: {
+			Label: 额外治疗量倍率
+			Tooltip: ""
+		}
 	}
 
 	ItemBalancerConfig: {
@@ -1030,12 +1035,12 @@ Configs: {
 
 		bird: {
 			Label: 惊雷王鹰AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		jelly: {
 			Label: 水母皇后AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		bossstatstweak: {
@@ -1045,32 +1050,37 @@ Configs: {
 
 		bossrush: {
 			Label: 瑟银BOSS RUSH
-			Tooltip: 选择使用那个模组的BOSS RUSH,关闭则禁用BOSS RUSH
+			Tooltip: 选择使用哪个模组的BOSS RUSH,关闭则禁用BOSS RUSH
 		}
 
 		viscount: {
 			Label: 蝙蝠子爵AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		granite: {
 			Label: 花岗岩流能风暴AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		champion: {
 			Label: 英灵遗骸AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		scouter: {
 			Label: 星际监察者AI
-			Tooltip: 选择使用那个模组的AI，关闭为默认状态
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		strider: {
-			Tooltip: 选择使用那个模组的AI，关闭为原版状态. 如果未检测到其他模组的修改，则自动使用诸神的黄昏ai。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 			Label: 极地遁蛛AI
+		}
+
+		beholder: {
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Label: 堕落注视者AI
 		}
 	}
 
@@ -1094,7 +1104,7 @@ Configs: {
 
 		Auto: {
 			// Tooltip: ""
-			// Label: Auto
+			Label: 自动
 		}
 	}
 }
