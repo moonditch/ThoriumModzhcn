@@ -63,6 +63,11 @@ Buffs: {
 		DisplayName: 金源浪涌
 		Description: Mods.RagnarokMod.Buffs.AuricSurge.Description
 	}
+
+	KellyPetBuff: {
+		Description: 凯莉会跟随你
+		DisplayName: 凯莉！
+	}
 }
 
 Items: {
@@ -125,8 +130,7 @@ Items: {
 		DisplayName: 金煌圣祗盔
 		Tooltip:
 			'''
-			降低70%非光辉伤害
-			增加70%光辉伤害
+			增加70%光辉伤害，降低70%非光辉伤害
 			增加25%光辉暴击率
 			增加5%移动速度
 			魔力消耗减少25%
@@ -248,8 +252,7 @@ Items: {
 		Tooltip:
 			'''
 			魔力消耗减少25%
-			降低70%非光辉伤害
-			增加55%光辉伤害
+			增加55%光辉伤害，降低70%非光辉伤害
 			增加20%光辉暴击率
 			治疗法术会额外治疗7生命值
 			最大魔力值增加80
@@ -270,22 +273,35 @@ Items: {
 
 	StrangeAlienMotherBoard: {
 		DisplayName: 奇怪的外星主板
-		Tooltip: 从星际监察者身上掉落下来的主板，这个物品蕴含的科技超出了你的认知。
+		Tooltip: 
+			'''
+			从星际监察者身上掉落下来的主板
+			这个物品蕴含的科技超出了你的认知。
+			'''
 	}
 
 	BelchingSaxophoneOverride: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
-		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.Tooltip}"
+		DisplayName: 喷嗝萨克斯
+		Tooltip:
+			'''
+			发射一串哨片、音符和硫磺气泡
+			“嘟嘟”
+			'''
 	}
 
 	AnahitasArpeggioOverride: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
-		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}"
+		DisplayName: 阿娜希塔琶音
+		Tooltip: 发射缓慢移动的高音音符诱惑敌人
 	}
 
 	FaceMelterOverride: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName}"
-		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.Tooltip}"
+		DisplayName: 变脸熔炉
+		Tooltip:
+			'''
+			奏响音符
+			右键召唤一个会向光标位置发射音波的扩音器
+			“喔哦哦！幻想世界！！！”
+			'''
 	}
 
 	EmpoweredGranite: {
@@ -368,11 +384,7 @@ Items: {
 
 	VictideHeadHealer: {
 		DisplayName: 胜潮绵帽
-		Tooltip:
-			'''
-			降低5%非光辉伤害
-			增加5%光辉伤害
-			'''
+		Tooltip: 增加5%光辉伤害，降低5%非光辉伤害
 		SetBonus:
 			'''
 			敌人将不太可能以你为目标
@@ -527,10 +539,9 @@ Items: {
 		DisplayName: 圣裁之镰: Mark 05
 		Tooltip:
 			'''
-			用XM-05“塔纳托斯”的核心制作的一把镰刀
-			一开始很慢，但会不断加快速度。
-			镰刀达到最高速度，会把镰刀发射到光标所在的方向，
-			如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
+			以慢速启动，但会不断积蓄速度
+			一旦达到最高速度，会把镰刀发射向最近的敌怪，并造成大范围爆炸
+			XM-05 塔纳托斯的核心，被重铸为一柄凶镰
 			'''
 	}
 
@@ -575,7 +586,7 @@ Items: {
 
 	NewLichRequirement: {
 		DisplayName: 新巫妖要求
-		Tooltip: 你不应该看到这个.
+		Tooltip: 呃……你不应该看到这个.
 	}
 
 	EldritchShellFragment: {
@@ -732,23 +743,6 @@ Items: {
 			'''
 	}
 
-	IntergelacticHeadBard: {
-		DisplayName: 异宇星凝风帽
-		Tooltip:
-			'''
-			增加12%伤害减免
-			增加15%的音波伤害，暴击率和演奏速度
-			增加15%的灵感恢复速率
-			增加4点灵感值上限，你的咒音增幅额外持续3秒
-			增加10%的音符掉落概率
-			'''
-		SetBonus:
-			'''
-			使你免疫击退和多种移速减益
-			使你免疫星辉瘟疫
-			'''
-	}
-
 	Lamentation: {
 		DisplayName: 嗟叹
 		Tooltip: 发射带有追踪功能的硫磺火
@@ -757,6 +751,41 @@ Items: {
 	Virusprayer: {
 		DisplayName: 病毒喷雾器
 		Tooltip: ""
+	}
+
+		IntergelacticRobohelm: {
+		Tooltip:
+			'''
+			增加20%的音波伤害，暴击率和演奏速度
+			增加15%的灵感恢复速率
+			增加6点灵感值上限
+			你的咒音增幅额外持续3秒
+			增加12%伤害减免
+			'''
+		DisplayName: 异宇星凝机冠
+	}
+
+	IntergelacticRamhelm: {
+		Tooltip:
+			'''
+			降低40%非光辉伤害
+			增加30%光辉伤害
+			增加15%光辉暴击率和攻击速度
+			魔力消耗减少10%
+			最大魔力值增加60
+			治疗法术会额外治疗5生命值
+			'''
+		DisplayName: 异宇星凝角铠
+	}
+
+	KellyPet: {
+		Tooltip:
+			'''
+			召唤凯莉跟随你
+			HayWire799的捐赠者物品
+			由Zenovia绘制
+			'''
+		DisplayName: 无主魔杖
 	}
 }
 
@@ -832,6 +861,7 @@ Projectiles: {
 	LamentationPro.DisplayName: Lamentation Pro
 	VirusprayerPro1.DisplayName: Virusprayer Pro1
 	VirusprayerPro2.DisplayName: Virusprayer Pro2
+	KellyPetProjectile.DisplayName: Kelly Pet Projectile
 }
 
 Configs: {
@@ -1015,17 +1045,17 @@ Configs: {
 
 		Off: {
 			Label: 关闭
-			// Tooltip: ""
+			Tooltip: ""
 		}
 
 		Ragnarok: {
 			Label: 诸神的黄昏
-			// Tooltip: ""
+			Tooltip: ""
 		}
 
 		CalamityBardHealer: {
 			Label: 非灾厄官方吟游诗人，牧师武器
-			// Tooltip: ""
+			Tooltip: ""
 		}
 	}
 
@@ -1089,21 +1119,21 @@ Configs: {
 
 		Off: {
 			Label: 关闭
-			// Tooltip: ""
+			Tooltip: ""
 		}
 
 		Ragnarok: {
 			Label: 诸神的黄昏
-			// Tooltip: ""
+			Tooltip: ""
 		}
 
 		ThoriumBossRework: {
 			Label: 瑟银BOSS重置
-			// Tooltip: ""
+			Tooltip: ""
 		}
 
 		Auto: {
-			// Tooltip: ""
+			Tooltip: ""
 			Label: 自动
 		}
 	}
