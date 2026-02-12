@@ -4248,7 +4248,7 @@ Mods: {
 
 			ConflagrationPotion: {
 				DisplayName: 燃炎藥水
-				Tooltip: 增加15%傷害但隨時間受到傷害
+				Tooltip: 增加15%傷害，禁用生命恢復並點燃玩家
 			}
 
 			Cranberry: {
