@@ -20,6 +20,17 @@ ItemDescriptions: {
 	VoidRadiantWeapon: 消耗{0}虚空值&汲取{1}生命值
 }
 
+WhisperingHood: {
+	PutridPinky: 少吃点花生酱，多吃点青菜，行吗？
+	Glowmoth: 光芒万丈却还是个蠢货……
+	PharaohsCurse: 愿时光的流沙将你永远掩埋……
+	TheAdvisor: 我的启示？放弃吧。
+	Excavator: 在自掘坟墓呢？
+	Polaris: 反正冰天雪地我也不怕🎵
+	Lux: 近乎神圣，却又堕落……
+	SubspaceSerpent: 圣贤在此也救不了你……
+}
+
 Toggler: {
 	SubspaceBootsDash: 亚空冲刺
 	GildedBladeWingsFlight: 闪耀之翼
@@ -421,5 +432,6 @@ Configs: {
 		}
 	}
 }
+
 
 
