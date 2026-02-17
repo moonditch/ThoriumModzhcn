@@ -1,22 +1,8 @@
 ItemDescriptions: {
 	AstralBreastplate: 最大灵感值增加6和额外治疗增加4
 	AstralHelm: 增加12%的灵感值恢复速度
-	CelestialCarrier:
-		'''
-		水平飞行速度: 9.00
-		加速倍率: 2.5
-		优异的垂直飞行速度
-		飞行时间: 180
-		穿戴天界盔甲时，治疗法术会额外治疗4生命值
-		'''
-	ChampionWing:
-		'''
-		水平飞行速度: 3.0
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 120
-		提高10%的伤害
-		'''
+	CelestialCarrier: 穿戴天界盔甲时，治疗法术会额外治疗4生命值
+	ChampionWing: 提高10%的伤害
 	CyanPhasesaber: 100%无视对方防御力
 	DemonshadeGreaves:
 		'''
@@ -30,46 +16,11 @@ ItemDescriptions: {
 		增加35%光辉治愈速度和音波演奏速度
 		增加55%的灵感值恢复速度和基础灵感音符的掉落概率
 		'''
-	DemonBloodWings:
-		'''
-		水平飞行速度: 7.5
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 170
-		怒气模式下穿戴魔血盔甲可以快速生命回复
-		'''
-	DragonWings:
-		'''
-		水平飞行速度: 6.25
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 100
-		穿戴绿龙盔甲时，造成诅咒狱火减益
-		'''
-	DreadWings:
-		'''
-		水平飞行速度: 7.5
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 170
-		穿戴恐惧盔甲时，增加怒气模式的伤害倍增率
-		'''
-	DridersGrace:
-		'''
-		水平飞行速度: 3.0-7.0
-		加速倍率: 1.0-2.0
-		普通的垂直飞行速度
-		飞行时间: 60-360
-		穿戴蜘蛛盔甲时，仆从上限增加1
-		'''
-	FleshWings:
-		'''
-		水平飞行速度: 6.25
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 100
-		穿戴血肉盔甲时，攻击有一定几率汲取生命
-		'''
+	DemonBloodWings: 怒气模式下穿戴魔血盔甲可以快速生命回复
+	DragonWings: 穿戴绿龙盔甲时，造成诅咒狱火减益
+	DreadWings: 穿戴恐惧盔甲时，增加怒气模式的伤害倍增率
+	DridersGrace: 穿戴蜘蛛盔甲时，仆从上限增加1
+	FleshWings: 穿戴血肉盔甲时，攻击有一定几率汲取生命
 	OmegaBlueSet:
 		'''
 		最大技巧值增加2和最大灵感值增加12
@@ -77,45 +28,11 @@ ItemDescriptions: {
 		'''
 	OmegaBlueSetNoThrower: 最大灵感值增加12和额外治疗增加7
 	PinkPhasesaber: 100%无视对方防御力
-	ShootingStarTurboTuba:
-		'''
-		水平飞行速度: 9.00
-		加速倍率: 2.5
-		优异的垂直飞行速度
-		飞行时间: 180
-		穿戴流影掠星盔甲时，灵感值恢复速度提高15%
-		'''
-	SubspaceWings:
-		'''
-		水平飞行速度: 7.5
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 160
-		'''
-	TerrariumWings:
-		'''
-		水平飞行速度: 8.00
-		加速倍率: 2.0
-		普通的垂直飞行速度
-		飞行时间: 180
-		穿上元素盔甲时，飞行时间会翻倍。
-		'''
-	TitanWings:
-		'''
-		水平飞行速度: 7.5
-		加速倍率: 1.0
-		普通的垂直飞行速度
-		飞行时间: 160
-		穿戴泰坦盔甲时，增加15%伤害和特殊伤害减免
-		'''
-	WhiteDwarfThrusters:
-		'''
-		水平飞行速度: 9.00
-		加速倍率: 2.5
-		优异的垂直飞行速度
-		飞行时间: 180
-		穿戴白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
-		'''
+	RelicOfConvergence: 不会触发治疗时效果
+	ShootingStarTurboTuba: 穿戴流影掠星盔甲时，灵感值恢复速度提高15%
+	TerrariumWings: 穿戴元素盔甲时，飞行时间会翻倍
+	TitanWings: 穿戴泰坦盔甲时，增加15%伤害和特殊伤害减免
+	WhiteDwarfThrusters: 穿戴白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
 	WulfrumJacket: 增加25%的咒音增幅的效用范围
 }
 
@@ -150,7 +67,9 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			发射会弹跳的高音谱号
+			高音谱号在飞行一段时间后会返回并围绕鼠标位置盘旋
+			盘旋期间，其造成的伤害会根据此前弹跳的次数提升
 			基于作者DM Dokuro的竖琴演奏曲“Forbidden Lullaby”改编
 			'''
 	}
@@ -834,12 +753,12 @@ Items: {
 			在你周围创造魔法阵为濒死的玩家复活
 			在魔法阵中的队友在任何情况下都不能死亡
 			活着的队友也可以从大多数减益影响解脱
-			[c/C61B40:'这个是女巫用来复活她兄弟的魔杖。']
+			[c/C61B40:'此即女巫用来复活她血亲的魔杖。']
 			'''
 	}
 
 	OldDukesWisdom: {
-		DisplayName: 旧公爵的箴言
+		DisplayName: 旧日公爵的箴言
 		Tooltip:
 			'''
 			发射牙球弹幕，爆炸后分裂成牙齿
@@ -1403,12 +1322,12 @@ Projectiles: {
 	AquaiusAdvice.DisplayName: 潮汐之宣告
 	ArcticReinforcement.DisplayName: 北极冰管
 	ArcticReinforcement2.DisplayName: 北极冰管
-	AstralFlames.DisplayName: Astral Flames
+	AstralFlames.DisplayName: 星界之焰
 	BloodflareRitual.DisplayName: 血炎仪式
 	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
 	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
 	BloomingSaintessDevotion3.DisplayName: 绽花圣女花瓣
-	BurningBeat.DisplayName: Burning Beat
+	BurningBeat.DisplayName: 燃焰节拍
 	CalamityBell.DisplayName: 灾厄之钟
 	CalamityBellRing.DisplayName: 灾厄钟鸣
 	CherubimBeam.DisplayName: 神使光线
@@ -1418,24 +1337,24 @@ Projectiles: {
 	ChristmasCarol.DisplayName: 圣诞铃鼓
 	ColdShoulder.DisplayName: 冷淡
 	ColdShoulderIcicle.DisplayName: 冰凌
-	CosmicEncore.DisplayName: Cosmic Encore
-	CosmicEncoreStar.DisplayName: Cosmic Encore
+	CosmicEncore.DisplayName: 寰宇再演
+	CosmicEncoreStar.DisplayName: 寰宇再演
 	CosmicSong.DisplayName: 寰宇之歌
 	CottonMouth.DisplayName: 毒渊之蝰
 	CottonMouthGas.DisplayName: 酸性气体
 	CrystalHydraulophone.DisplayName: 棱晶水风琴
 	DeathAdder.DisplayName: 死亡蝰蛇
 	DeathAdderSoul.DisplayName: 死亡蝰蛇灵魂
-	DesertedDrugDeal.DisplayName: Blood of Greater Sand Sharks
-	Disaster.DisplayName: Disaster
-	DisasterSlash.DisplayName: Disaster
-	DisasterSlashes.DisplayName: Disaster
+	DesertedDrugDeal.DisplayName: 巨型沙鲨之血
+	Disaster.DisplayName: 硫狱焚劫
+	DisasterSlash.DisplayName: 硫狱焚劫
+	DisasterSlashes.DisplayName: 硫狱焚劫
 	DoomsdayCatharsis.DisplayName: 末日洗涤
 	DoomsdayToot.DisplayName: 末日奏鸣
 	DryMouth.DisplayName: 旱漠之蟒
 	DryMouthSand.DisplayName: 袋中沙
 	Duality.DisplayName: 二元圣镰
-	DustDevil.DisplayName: Dust Devil
+	DustDevil.DisplayName: 尘卷战鼓
 	ElectricChain.DisplayName: 闪电链
 	ElectricQuarterstaff.DisplayName: 电能四分棍
 	ElementalSong.DisplayName: 元素之歌
@@ -1446,28 +1365,28 @@ Projectiles: {
 	FeralKeytar.DisplayName: 狂野键琴
 	FilthyCreeper.DisplayName: 稀有的沼泽之眼
 	FilthyFlute.DisplayName: 腐秽长笛
-	FireHazard.DisplayName: Fire Hazard
-	FireStarter.DisplayName: Fire Starter
+	FireHazard.DisplayName: 火灾隐患
+	FireStarter.DisplayName: 火种
 	Gashadokuro.DisplayName: 混乱丧钟
 	GashadokuroCracks.DisplayName: 混乱丧钟
-	GodNote.DisplayName: God Note
-	HarmonyoftheOldGod.DisplayName: Harmony of the Old God
+	GodNote.DisplayName: 神界音符
+	HarmonyoftheOldGod.DisplayName: 旧神和弦
 	HarpY.DisplayName: 鹰身女妖琴
 	HydrogenSulfide.DisplayName: 夺命硫炎
 	HydrogenSulfideFlames.DisplayName: 夺命硫炎
 	HydrogenSulfideWave.DisplayName: 夺命硫炎
 	HydrothermalEruption.DisplayName: 渊泉焰爆
 	HydrothermalOasis.DisplayName: 渊泉绿洲
-	HyphaeBaton.DisplayName: Hyphae Baton
-	HyphaeBatonSporeCloud.DisplayName: Hyphae Baton
+	HyphaeBaton.DisplayName: 菌丝杖
+	HyphaeBatonSporeCloud.DisplayName: 菌丝杖
 	IceCreamMachine.DisplayName: 冰淇淋机
 	IceCube.DisplayName: 冰块
 	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: 星际古琴
 	InterstellarShredder2.DisplayName: 星际古琴
-	IrradiatedKusarigama.DisplayName: Irradiated Kusarigama
-	IrradiatedOasis.DisplayName: Irradiated Oasis
-	IrradiatedVortex.DisplayName: Irradiated Vortex
+	IrradiatedKusarigama.DisplayName: 辐照锁镰
+	IrradiatedOasis.DisplayName: 辐照绿洲
+	IrradiatedVortex.DisplayName: 辐照漩涡
 	LostOasis.DisplayName: 失落绿洲
 	LuxorsPrayer.DisplayName: 卢克索之祈祷
 	LuxorsSong.DisplayName: 卢克索之歌
@@ -1479,37 +1398,37 @@ Projectiles: {
 	Noisebringer.DisplayName: 噪音使者
 	NoisebringerGoliath.DisplayName: 噪音使者歌莉娅
 	OathofSacrifice.DisplayName: 献祭誓言
-	OldDukesWisdom.DisplayName: Old Dukes Wisdom
-	OldDukesWisdomTooth.DisplayName: Old Dukes Wisdom Tooth
+	OldDukesWisdom.DisplayName: 旧日公爵的箴言
+	OldDukesWisdomTooth.DisplayName: 旧日公爵的箴言之牙
 	OmnicidesLaw.DisplayName: 毁灭之定理
 	PhoenicianBeak.DisplayName: 凤凰之喙
 	PhoenicianBeakSlice.DisplayName: 凤凰斩击
 	PlagueSwarmerMissile.DisplayName: 瘟疫蜂群
 	PlagueTrace.DisplayName: 瘟疫尾迹
 	PledgeofSelflessness.DisplayName: 无私誓言
-	Procioplexon.DisplayName: Procioplexon
-	ProcioplexonSlash.DisplayName: Procioplexon
-	ProcioplexonVortex.DisplayName: Procioplexon
-	ProcioplexonWave.DisplayName: Procioplexon
+	Procioplexon.DisplayName: 誓元渊裁
+	ProcioplexonSlash.DisplayName: 誓元渊裁
+	ProcioplexonVortex.DisplayName: 誓元渊裁
+	ProcioplexonWave.DisplayName: 誓元渊裁
 	PurgedSoul.DisplayName: 纯净之魂
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: 救赎之恩
-	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
+	ScorchingMaelstrom.DisplayName: 极热漩涡
 	ScrapGuitar.DisplayName: 废弃吉他
 	ScreamingClam.DisplayName: 尖叫蛤蜊
 	ScreamingClamScream.DisplayName: 尖叫蛤蜊
 	ScuffedKeytar.DisplayName: 磨损的键琴
-	SharkBloodInjection.DisplayName: Shark Blood Injection
+	SharkBloodInjection.DisplayName: 鲨血注射
 	Singularity.DisplayName: 奇点
 	SingularityStar.DisplayName: 奇点
 	SlagFurysIntent.DisplayName: 戮焰之意图
 	SludgeBomb.DisplayName: 污泥爆弹
-	SoulSplicer.DisplayName: Soul Splicer
-	SoulSplicerApparition.DisplayName: Soul Splicer
+	SoulSplicer.DisplayName: 灵魂切割者
+	SoulSplicerApparition.DisplayName: 灵魂切割者
 	SpookyMonth.DisplayName: 魇梦之月
 	StarBirth.DisplayName: 星云
 	StarBirthStar.DisplayName: 新生之星
-	StarCluster.DisplayName: Star Cluster
+	StarCluster.DisplayName: 星团
 	Supercluster.DisplayName: 超星系团
 	SuperclusterStar.DisplayName: 超星系团
 	SymphonicExoMissile.DisplayName: 音波星流导弹
@@ -1520,19 +1439,19 @@ Projectiles: {
 	TectonicPlate.DisplayName: 地壳波动
 	TidalForce.DisplayName: 潮汐之力
 	TidalWave.DisplayName: 潮汐之波
-	TimesOldRoman.DisplayName: Times Old Roman
-	TimesOldTrail.DisplayName: Times Old Roman
+	TimesOldRoman.DisplayName: 古神罗马体
+	TimesOldTrail.DisplayName: 古神罗马体
 	TherapeuticSludge.DisplayName: 治愈泥团
 	TheWindmill.DisplayName: 天穹风车
 	ToxicEightNote.DisplayName: 剧毒"{$ProjectileName.EightNote}"
 	ToxicQuarterNote.DisplayName: 剧毒"{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: 剧毒"{$ProjectileName.TiedEightNote}"
 	Transfiguration.DisplayName: 渎神圣容
-	Trinity.DisplayName: Trinity
+	Trinity.DisplayName: 圣灵融一
 	Violince.DisplayName: 血肉小提琴
 	ViolinceBow.DisplayName: 血肉小提琴
-	Vivapollum.DisplayName: Vivapollum
-	VivapollumExplosion.DisplayName: Vivapollum
+	Vivapollum.DisplayName: 蚀冤冥息
+	VivapollumExplosion.DisplayName: 蚀冤冥息
 	Whirlwind.DisplayName: 旋风
 	WhisperingLeaf.DisplayName: 树语者之叶
 	WhisperingTrunk.DisplayName: 树语者主干
@@ -1542,6 +1461,7 @@ Projectiles: {
 	WulfrumWeedWacker.DisplayName: 钨钢割草镰
 	WulfrumWeedWackerWave.DisplayName: 钨钢割草镰
 	YharimsJam.DisplayName: 亚利姆音响
+	AnahitasArpeggioNote2.DisplayName: 阿娜希塔琶音音符
 }
 
 Buffs: {
@@ -1612,6 +1532,20 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: 合并盗贼和投手职业
 			Tooltip: 拥有诸神的黄昏(Ragnarok)模组时自动禁用
+		}
+
+		convertItems: {
+			Label: 将灾厄物品转换为对应的瑟银职业
+			Tooltip:
+				'''
+				将部分灾厄物品转换为吟游诗人或牧师物品
+				可能会对相关物品进行机制调整以更好适配此改动
+				已更改物品：
+				-阿娜希塔琶音 -> 弦乐器，机制已重做
+				-喷嗝萨克斯 -> 铜管乐器
+				-变脸熔炉 -> 弦-电子混合乐器，机制已重做
+				-聚魂圣物 -> 治疗法术，基础治疗量提高以匹配其他治疗法术
+				'''
 		}
 
 		bard: {
