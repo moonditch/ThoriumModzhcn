@@ -28,6 +28,17 @@ ItemDescriptions: {
 	VoidRadiantWeapon: 消耗{0}虛空值&汲取{1}生命值
 }
 
+WhisperingHood: {
+	PutridPinky: 少吃點花生醬，多吃點青菜，行嗎？
+	Glowmoth: 光芒萬丈卻還是個蠢貨……
+	PharaohsCurse: 願時光的流沙將你永遠掩埋……
+	TheAdvisor: 我的啟示？放棄吧。
+	Excavator: 在自掘墳墓呢？
+	Polaris: 反正冰天雪地我也不怕🎵
+	Lux: 近乎神聖，卻又墮落……
+	SubspaceSerpent: 聖賢在此也救不了你……
+}
+
 Toggler: {
 	SubspaceBootsDash: 亞空衝刺
 	GildedBladeWingsFlight: 閃耀之翼
@@ -405,7 +416,7 @@ Configs: {
 				'''
 				牧師武器靈魂精華倍率
 				上限為5
-				(需要重新開機才能生效!）
+				(需要重新開機才能生效!)
 				'''
 		}
 
@@ -415,7 +426,7 @@ Configs: {
 				'''
 				牧師治療法術倍率
 				數值為0表示治療法術只能治療1點生命值
-				(需要重新開機才能生效!）
+				(需要重新開機才能生效!)
 				'''
 		}
 
@@ -424,7 +435,7 @@ Configs: {
 			Tooltip:
 				'''
 				此模組的虛空武器的虛空消耗倍率
-				(需要重新開機才能生效!）
+				(需要重新開機才能生效!)
 				'''
 		}
 	}
