@@ -20,6 +20,17 @@ ItemDescriptions: {
 	VoidRadiantWeapon: Consumes {0} void & drains {1} life
 }
 
+WhisperingHood: {
+	PutridPinky: Maybe start eating less peanut butter and more greens, will ya?
+	Glowmoth: Shone so bright yet still a dimwit...
+	PharaohsCurse: May the sands of time bury you forever...
+	TheAdvisor: My advice? Just stop trying.
+	Excavator: Excavating your own grave, I see?
+	Polaris: The cold never bothered me in any way...
+	Lux: Nearly divine, yet still fallen...
+	SubspaceSerpent: Even the sages couldn't save you here...
+}
+
 Toggler: {
 	SubspaceBootsDash: Subspace Dash
 	GildedBladeWingsFlight: Wings of Light
