@@ -1,22 +1,8 @@
 ItemDescriptions: {
 	AstralBreastplate: +6 max inspiration and +4 bonus healing
 	AstralHelm: 12% increased inspiration regeneration rate
-	CelestialCarrier:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Healing spells will heal an additional 4 life while wearing Celestial Armor
-		'''
-	ChampionWing:
-		'''
-		Horizontal speed: 3.0
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 120
-		10% increased damage
-		'''
+	CelestialCarrier: Healing spells will heal an additional 4 life while wearing Celestial Armor
+	ChampionWing: 10% increased damage
 	CyanPhasesaber: Ignores 100% of enemy defense
 	DemonshadeGreaves:
 		'''
@@ -30,46 +16,11 @@ ItemDescriptions: {
 		35% increased healing, radiant casting and symphonic playing speed
 		55% increased inspiration regeneration rate and notes drop chance
 		'''
-	DemonBloodWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 170
-		Rapid life regeneration during Rage mode while wearing Demon Blood Armor
-		'''
-	DragonWings:
-		'''
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 100
-		Attacks inflict cursed inferno while wearing Dragon Armor
-		'''
-	DreadWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 170
-		Increased Rage mode damage multiplier while wearing Dread Armor
-		'''
-	DridersGrace:
-		'''
-		Horizontal speed: 3.0-7.0
-		Acceleration multiplier: 1.0-2.0
-		Average vertical speed
-		Flight time: 60-360
-		Increases max number of minions by 1 when wearing Spider Armor
-		'''
-	FleshWings:
-		'''
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 100
-		Attacks have a chance to steal life while wearing Flesh Armor
-		'''
+	DemonBloodWings: Rapid life regeneration during Rage mode while wearing Demon Blood Armor
+	DragonWings: Attacks inflict cursed inferno while wearing Dragon Armor
+	DreadWings: Increased Rage mode damage multiplier while wearing Dread Armor
+	DridersGrace: Increases max number of minions by 1 when wearing Spider Armor
+	FleshWings: Attacks have a chance to steal life while wearing Flesh Armor
 	OmegaBlueSet:
 		'''
 		Increases maximum technique points by 2 and inspiration by 12
@@ -77,45 +28,11 @@ ItemDescriptions: {
 		'''
 	OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
 	PinkPhasesaber: Ignores 100% of enemy defense
-	ShootingStarTurboTuba:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		15% increased inspiration regeneration rate while wearing Shooting Star Armor
-		'''
-	SubspaceWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 160
-		'''
-	TerrariumWings:
-		'''
-		Horizontal speed: 8.00
-		Acceleration multiplier: 2.0
-		Average vertical speed
-		Flight time: 180
-		Flight time is doubled when wearing Terrarium Armor
-		'''
-	TitanWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 160
-		15% increased damage and special damage reduction while wearing Titan Armor
-		'''
-	WhiteDwarfThrusters:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
-		'''
+	RelicOfConvergence: Does not trigger on-heal effects
+	ShootingStarTurboTuba: 15% increased inspiration regeneration rate while wearing Shooting Star Armor
+	TerrariumWings: Flight time is doubled when wearing Terrarium Armor
+	TitanWings: 15% increased damage and special damage reduction while wearing Titan Armor
+	WhiteDwarfThrusters: Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
 	WulfrumJacket: 25% increased empowerment range
 }
 
@@ -150,7 +67,9 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			Shoots bouncing treble clefs
+			Treble clefs return to orbit the cursor after some time
+			While orbiting, damage dealt is increased by how many times it bounced beforehand
 			Based off of the harp from "Forbidden Lullaby" by DM Dokuro
 			'''
 	}
@@ -530,7 +449,7 @@ Items: {
 	}
 
 	ElectricQuarterstaff: {
-		DisplayName: Electric Quarterstaff
+		DisplayName: S-TSL: Electric Quarterstaff
 		Tooltip:
 			'''
 			Spins an electric tazer staff
@@ -966,7 +885,7 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: Scrap Guitar
+		DisplayName: G-GSS: Scrap Guitar
 		Tooltip:
 			'''
 			Shoots slow electrical beams that bounce between enemies
@@ -987,7 +906,7 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: Scuffed Keytar
+		DisplayName: K-GSS: Scuffed Keytar
 		Tooltip:
 			'''
 			Ignores 5 points of defense
@@ -1542,6 +1461,7 @@ Projectiles: {
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
 	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
 	YharimsJam.DisplayName: Yharim's Jam
+	AnahitasArpeggioNote2.DisplayName: Anahitas Arpeggio Note2
 }
 
 Buffs: {
@@ -1612,6 +1532,20 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: Merge Rogue and Thrower class
 			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
+
+		convertItems: {
+			Label: Convert Calamity items to respective Thorium classes
+			Tooltip:
+				'''
+				Converts certain Calamity items into either a bard or healer item
+				Might rework respective items to work better with this change
+				Changed Items:
+				-Anahita's Arpeggio -> String Instrument, behavior also reworked
+				-Belching Saxophone -> Brass Instrument
+				-Face Melter -> Electric-String Instrument hybrid, behavior also reworked
+				-Relic of Convergence -> Healing Spell, base healing increased to keep up with other healing spells
+				'''
 		}
 
 		bard: {
