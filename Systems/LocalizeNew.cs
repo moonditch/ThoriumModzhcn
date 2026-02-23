@@ -46,11 +46,11 @@ public class LocalizeNew : ModSystem
             .ToList()
             ;
 
-        var tfile = allHjson.Where(f => f.FilePath.Contains("zh-Hans_Mods.ThoriumMod")).First();
+        /*var tfile = allHjson.Where(f => f.FilePath.Contains("zh-Hans_Mods.ThoriumMod")).First();
         if (LoadModAssembly.LoadModContext.ContainsKey("RagnarokMod"))
         {
             ZHHJson.Add(tfile);
-        }
+        }*/
 
         RegionILKey(ZHHJson);
     }
@@ -146,5 +146,6 @@ public static class LocalizeExtend
     {
         return (LocalizedText)LocalizedTextCtor.Invoke([Key, Value]);
     }
+
 
 }
