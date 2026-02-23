@@ -36,6 +36,27 @@ ItemDescriptions: {
 	WulfrumJacket: 增加25%的咒音增幅的效用范围
 }
 
+WhisperingHood: {
+	DesertScourge：我不喜欢沙子，又粗又糙，还让人烦，到处都是……
+	Crabulon：万物归土，土生菌，菌生蟹。
+	HiveMind：可它们连怎么打败我们都没法达成一致。
+	PerforatorHive：真没想到肿瘤还能长到这种地步……
+	SlimeGod：你说改天再战，到底还来不来……
+	AquaticScourge：有没有想过在胃酸里游泳是什么感觉？
+	Leviathan：动静这么大，还以为多能打。
+	Anahita：演唱会不太成功啊……
+	CalamitasClone：冒牌货。
+	PlaguebringerGoliath：这味道真是没完没了……
+	AstrumAureus：跟对付蜘蛛一样，烧个干净就好了……
+	AstrumDeus：所谓的“神”，也不过是给自己找个失败的借口。
+	Ravager：和它的前辈没什么两样。
+	Providence：差点以为我要瞎了……
+	Polterghast：也许那些灵魂该聚成个更像样的形态……
+	OldDuke：我去，老资历。
+	DevourerofGods：怎么现在不说话了，是不想说吗？
+	Yharon：这是一场我能胜利的战斗🎵
+}
+
 Items: {
 	AerospecBiretta: {
 		DisplayName: 天蓝礼帽
@@ -194,6 +215,15 @@ Items: {
 			'''
 	}
 
+	BigBangCymbals: {
+		DisplayName: 大爆鸣钹
+		Tooltip:
+			'''
+			按住左键以蓄力一记巨响
+			释放一阵不够精准，向外扩散的星雨
+			'''
+	}
+
 	BloodflareRitualistMask: {
 		DisplayName: 血焱祭颅盔
 		Tooltip:
@@ -276,11 +306,11 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: 圣诞铃鼓
+		DisplayName: 铃响满堂
 		Tooltip:
 			'''
 			扔出装饰华丽的铃鼓，然后回到你身边
-			释放三条脆弱的冰束，同时扔出圣诞铃鼓
+			命中后，铃鼓会弹回并悬停空中，以装饰物击打最后命中的目标
 			成功在计时区域击中时，会增加咒音增幅等级和音波伤害
 			成功在计时区域击中时，也会让铃鼓连击敌怪
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -695,6 +725,7 @@ Items: {
 			'''
 			发射可反弹且追踪敌怪的星瀚逐影焰
 			伴随着2束星幻激光，可以反弹两次
+			右键消耗更多灵感，召唤6枚星界焰晶
 			攻击造成幻星感染减益
 			"在整个宇宙中传播的恶心的即兴演奏!"
 			基于作者DM Dokuro的吉他演奏曲“Interstellar Stomper”改编
@@ -885,11 +916,12 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: 废弃吉他
+		DisplayName: G-GSS：废弃吉他
 		Tooltip:
 			'''
 			发射缓慢的闪电束，在敌人之间反弹
 			反弹次数受弦乐器的反弹加成增益
+			右键挥动吉他，对命中目标施加调谐并恢复灵感
 			"触摸电线能踏上天堂的阶梯！"
 			'''
 	}
@@ -906,12 +938,12 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: 磨损的键琴
+		DisplayName: K-GSS：磨损的键琴
 		Tooltip:
 			'''
 			无视5点防御
 			释放可以穿透的音乐旋律
-			"一把几乎不能用的键琴……关键字:‘工作’"
+			"一把几乎不工作的键琴……关键字:‘工作’"
 			'''
 	}
 
@@ -998,6 +1030,10 @@ Items: {
 	SpookyMonth: {
 		DisplayName: 魇梦之月
 		Tooltip: 发射一连串燃烧南瓜头攻击目标
+			'''
+			发射一连串追踪的燃烧南瓜头攻击目标
+			偶尔发射一枚巨型骷髅，造成7倍伤害但不会追踪
+			'''
 	}
 
 	SoulSplicer: {
@@ -1318,11 +1354,14 @@ Projectiles: {
 	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
 	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+	AnahitasArpeggioNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
 	AncientSong.DisplayName: 远古之歌
 	AquaiusAdvice.DisplayName: 潮汐之宣告
 	ArcticReinforcement.DisplayName: 北极冰管
 	ArcticReinforcement2.DisplayName: 北极冰管
 	AstralFlames.DisplayName: 星界之焰
+	BigBangCymbals.DisplayName: 大爆鸣钹
+	BigBangStar.DisplayName: 大爆鸣星
 	BloodflareRitual.DisplayName: 血炎仪式
 	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
 	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
@@ -1334,7 +1373,8 @@ Projectiles: {
 	CherubimOmega.DisplayName: 终局神使
 	CherubimRift.DisplayName: 神使裂隙
 	CherubimSlash.DisplayName: 神使斩击
-	ChristmasCarol.DisplayName: 圣诞铃鼓
+	ChristmasCarol.DisplayName: 铃响满堂
+	ChristmasCarolDecor.DisplayName: 圣诞装饰
 	ColdShoulder.DisplayName: 冷淡
 	ColdShoulderIcicle.DisplayName: 冰凌
 	CosmicEncore.DisplayName: 寰宇再演
@@ -1415,6 +1455,7 @@ Projectiles: {
 	SavingGrace.DisplayName: 救赎之恩
 	ScorchingMaelstrom.DisplayName: 极热漩涡
 	ScrapGuitar.DisplayName: 废弃吉他
+	ScrapGuitar2.DisplayName: 废弃吉他
 	ScreamingClam.DisplayName: 尖叫蛤蜊
 	ScreamingClamScream.DisplayName: 尖叫蛤蜊
 	ScuffedKeytar.DisplayName: 磨损的键琴
@@ -1426,6 +1467,7 @@ Projectiles: {
 	SoulSplicer.DisplayName: 灵魂切割者
 	SoulSplicerApparition.DisplayName: 灵魂切割者
 	SpookyMonth.DisplayName: 魇梦之月
+	SpookyMonthBig.DisplayName: 魇梦之月
 	StarBirth.DisplayName: 星云
 	StarBirthStar.DisplayName: 新生之星
 	StarCluster.DisplayName: 星团
@@ -1461,7 +1503,6 @@ Projectiles: {
 	WulfrumWeedWacker.DisplayName: 钨钢割草镰
 	WulfrumWeedWackerWave.DisplayName: 钨钢割草镰
 	YharimsJam.DisplayName: 亚利姆音响
-	AnahitasArpeggioNote2.DisplayName: 阿娜希塔琶音音符
 }
 
 Buffs: {
@@ -1587,6 +1628,3 @@ Configs: {
 		}
 	}
 }
-
-
-

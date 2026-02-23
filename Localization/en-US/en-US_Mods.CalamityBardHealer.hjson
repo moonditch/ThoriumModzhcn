@@ -36,6 +36,27 @@ ItemDescriptions: {
 	WulfrumJacket: 25% increased empowerment range
 }
 
+WhisperingHood: {
+	DesertScourge: I hate sand, it's course, it's rough, it gets everywhere...
+	Crabulon: Everything returns to crab the same way they return to the earth...
+	HiveMind: Yet they couldn't agree on a way to defeat us...
+	PerforatorHive: Didn't think it was possible for a tumor to grow that big...
+	SlimeGod: By another day you mean never...
+	AquaticScourge: Ever wondered how it felt to swim on stomach acid?
+	Leviathan: There goes the big one... I wonder who even invited it here?
+	Anahita: All that presentation just to fall even harder...
+	CalamitasClone: Fraud.
+	PlaguebringerGoliath: The smell, it lingers...
+	AstrumAureus: Like with any spider, burn it to the ground...
+	AstrumDeus: For a "God", all it could show was a reason for its own loss...
+	Ravager: It really is just like its predecessor...
+	Providence: Quite surprised to still be able to see after all that...
+	Polterghast: Maybe all those souls should've clumped together into a more ideal form...
+	OldDuke: Ok, boomer.
+	DevourerofGods: Bold words from someone who is within these hands' range...
+	Yharon: Ok, but what if this is a fight I could win?
+}
+
 Items: {
 	AerospecBiretta: {
 		DisplayName: Aerospec Biretta
@@ -194,6 +215,15 @@ Items: {
 			'''
 	}
 
+	BigBangCymbals: {
+		DisplayName: Big Bang Cymbals
+		Tooltip:
+			'''
+			Hold <left> then release to charge up a big clang
+			Unleashes an inaccurate barrage of starts that expand outwards
+			'''
+	}
+
 	BloodflareRitualistMask: {
 		DisplayName: Bloodflare Ritualist Mask
 		Tooltip:
@@ -276,11 +306,11 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: Christmas Carol
+		DisplayName: Deck the Halls
 		Tooltip:
 			'''
 			Throws a big, very-decorated tambourine that returns to you
-			Three weak ice shards are also thrown alongside the tambourine
+			On hit, the tambourine will bounce back then freeze in the air to bombard the last hit target with ornaments
 			Successfully timing hits will steadily increase its empowerment level and damage
 			Successfully timing hits also causes the tambourine to maul enemies
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -695,6 +725,7 @@ Items: {
 			'''
 			Shoots a bouncy, non-piercing, homing astral flame crystal
 			The crystal is accompanied by two astral lasers that bounce twice
+			<right> to summon 6 astral flame crystals at the cost of more inspiration
 			Inflicts astral infection on hit
 			"Sick riffs that travel through out the whole universe!"
 			Based off of the guitar solo from "Interstellar Stomper" by DM Dokuro
@@ -890,6 +921,7 @@ Items: {
 			'''
 			Shoots slow electrical beams that bounce between enemies
 			Bounce count is increased by string instrument bounce stat
+			<right> to swing the guitar, tuning hit targets and restoring inspiration
 			"Plays Stairway to Heaven upon touching the exposed wires"
 			'''
 	}
@@ -997,7 +1029,11 @@ Items: {
 
 	SpookyMonth: {
 		DisplayName: Spooky Month
-		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
+		Tooltip:
+			'''
+			Shoots a barrage of flaming pumpkin skulls that home into targets
+			Every now and then, shoots a singular giant skull that deals 7x more damage but does not home
+			'''
 	}
 
 	SoulSplicer: {
@@ -1318,11 +1354,14 @@ Projectiles: {
 	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
 	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+	AnahitasArpeggioNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
 	AncientSong.DisplayName: Ancient Song
 	AquaiusAdvice.DisplayName: Aquaius' Advice
 	ArcticReinforcement.DisplayName: Arctic Reinforcement
 	ArcticReinforcement2.DisplayName: Arctic Reinforcement
 	AstralFlames.DisplayName: Astral Flames
+	BigBangCymbals.DisplayName: Big Bang Cymbals
+	BigBangStar.DisplayName: Big Bang Star
 	BloodflareRitual.DisplayName: Bloodflare Ritual
 	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
 	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
@@ -1334,7 +1373,8 @@ Projectiles: {
 	CherubimOmega.DisplayName: Cherubim Omega
 	CherubimRift.DisplayName: Cherubim Rift
 	CherubimSlash.DisplayName: Cherubim Slash
-	ChristmasCarol.DisplayName: Christmas Carol
+	ChristmasCarol.DisplayName: Deck the Halls
+	ChristmasCarolDecor.DisplayName: Christmas Decor
 	ColdShoulder.DisplayName: Cold Shoulder
 	ColdShoulderIcicle.DisplayName: Icicle
 	CosmicEncore.DisplayName: Cosmic Encore
@@ -1415,6 +1455,7 @@ Projectiles: {
 	SavingGrace.DisplayName: Beyond Saving Grace
 	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: Scrap Guitar
+	ScrapGuitar2.DisplayName: Scrap Guitar
 	ScreamingClam.DisplayName: Screaming Clam
 	ScreamingClamScream.DisplayName: Screaming Clam
 	ScuffedKeytar.DisplayName: Scuffed Keytar
@@ -1426,6 +1467,7 @@ Projectiles: {
 	SoulSplicer.DisplayName: Soul Splicer
 	SoulSplicerApparition.DisplayName: Soul Splicer
 	SpookyMonth.DisplayName: Spooky Month
+	SpookyMonthBig.DisplayName: Spooky Month
 	StarBirth.DisplayName: Nebula
 	StarBirthStar.DisplayName: Newly Born Star
 	StarCluster.DisplayName: Star Cluster
@@ -1461,7 +1503,6 @@ Projectiles: {
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
 	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
 	YharimsJam.DisplayName: Yharim's Jam
-	AnahitasArpeggioNote2.DisplayName: Anahitas Arpeggio Note2
 }
 
 Buffs: {
