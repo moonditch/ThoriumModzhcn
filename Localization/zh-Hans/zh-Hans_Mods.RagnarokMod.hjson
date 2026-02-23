@@ -563,9 +563,9 @@ Items: {
 		Tooltip: 偶尔释放出风刃
 	}
 
-	SquirrelScarf: {
-		DisplayName: 松鼠式围巾
-		Tooltip: 松鼠围巾的真正原初形态。\n增加999哨兵槽
+	TrueSquirrelScarf: {
+		DisplayName: 正版松鼠围巾
+		Tooltip: 松鼠围巾的真正原初形态。增加999哨兵槽
 	}
 
 	Prisma: {
