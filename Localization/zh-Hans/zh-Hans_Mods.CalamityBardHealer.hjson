@@ -1029,7 +1029,7 @@ Items: {
 
 	SpookyMonth: {
 		DisplayName: 魇梦之月
-		Tooltip: 发射一连串燃烧南瓜头攻击目标
+		Tooltip:
 			'''
 			发射一连串追踪的燃烧南瓜头攻击目标
 			偶尔发射一枚巨型骷髅，造成7倍伤害但不会追踪

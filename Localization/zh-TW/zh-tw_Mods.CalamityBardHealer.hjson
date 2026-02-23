@@ -36,6 +36,27 @@ ItemDescriptions: {
 	WulfrumJacket: 增加25%的咒音增幅的效用範圍
 }
 
+WhisperingHood: {
+	DesertScourge：我不喜歡沙子，又粗又糙，還讓人煩，到處都是……
+	Crabulon：萬物歸土，土生菌，菌生蟹。
+	HiveMind：可它們連怎麽打敗我們都沒法達成一致。
+	PerforatorHive：真沒想到腫瘤還能長到這種地步……
+	SlimeGod：你說改天再戰，到底還來不來……
+	AquaticScourge：有沒有想過在胃酸裏遊泳是什麽感覺？
+	Leviathan：動靜這麽大，還以為多能打。
+	Anahita：演唱會不太成功啊……
+	CalamitasClone：冒牌貨。
+	PlaguebringerGoliath：這味道真是沒完沒了……
+	AstrumAureus：跟對付蜘蛛一樣，燒個幹凈就好了……
+	AstrumDeus：所謂的「神」，也不過是給自己找個失敗的借口。
+	Ravager：和它的前輩沒什麽兩樣。
+	Providence：差點以為我要瞎了……
+	Polterghast：也許那些靈魂該聚成個更像樣的形態……
+	OldDuke：我去，老資歷。
+	DevourerofGods：怎麽現在不說話了，是不想說嗎？
+	Yharon：這是一場我能勝利的戰鬥🎵
+}
+
 Items: {
 	AerospecBiretta: {
 		DisplayName: 天藍禮帽
@@ -194,6 +215,15 @@ Items: {
 			'''
 	}
 
+	BigBangCymbals: {
+		DisplayName: 大爆鳴鈸
+		Tooltip:
+			'''
+			按住左鍵以蓄力一記巨響
+			釋放一陣不夠精準，向外擴散的星雨
+			'''
+	}
+
 	BloodflareRitualistMask: {
 		DisplayName: 血焱祭顱盔
 		Tooltip:
@@ -276,11 +306,11 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: 聖誕鈴鼓
+		DisplayName: 鈴響滿堂
 		Tooltip:
 			'''
 			扔出裝飾華麗的鈴鼓，然後回到你身邊
-			釋放三條脆弱的冰束，同時扔出聖誕鈴鼓
+			命中後，鈴鼓會彈回並懸停空中，以裝飾物擊打最後命中的目標
 			成功在計時區域擊中時，會增加咒音增幅等級和音波傷害
 			成功在計時區域擊中時，也會讓鈴鼓連擊敵怪
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -695,6 +725,7 @@ Items: {
 			'''
 			發射可反彈且追蹤敵怪的星瀚逐影焰
 			伴隨著2束星幻鐳射，可以反彈兩次
+			右鍵消耗更多靈感，召喚6枚星界焰晶
 			攻擊造成幻星感染減益
 			"在整個宇宙中傳播的噁心的即興演奏!"
 			基於作者DM Dokuro的吉他演奏曲“Interstellar Stomper”改編
@@ -885,11 +916,12 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: 廢棄吉他
+		DisplayName: G-GSS：廢棄吉他
 		Tooltip:
 			'''
 			發射緩慢的閃電束，在敵人之間反彈
 			反彈次數受絃樂器的反彈加成增益
+			右鍵揮動吉他，對命中目標施加調諧並恢復靈感
 			"觸摸電線能踏上天堂的階梯！"
 			'''
 	}
@@ -906,12 +938,12 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: 磨損的鍵琴
+		DisplayName: K-GSS：磨損的鍵琴
 		Tooltip:
 			'''
 			無視5點防禦
 			釋放可以穿透的音樂旋律
-			"一把幾乎不能用的鍵琴……關鍵字:‘工作’"
+			"一把幾乎不工作的鍵琴……關鍵字:‘工作’"
 			'''
 	}
 
@@ -997,7 +1029,11 @@ Items: {
 
 	SpookyMonth: {
 		DisplayName: 魘夢之月
-		Tooltip: 發射一連串燃燒南瓜頭攻擊目標
+		Tooltip:
+			'''
+			發射一連串燃燒南瓜頭攻擊目標
+			偶爾發射一枚巨型骷髏，造成7倍傷害但不會追蹤
+			'''
 	}
 
 	SoulSplicer: {
