@@ -527,7 +527,7 @@ Items: {
 
 	ScoriaDualscythe: {
 		DisplayName: 熔渣双头镰
-		Tooltip: 熔渣通过排出的蒸汽使镰刀旋转得更快
+		Tooltip:
 			'''
 			熔渣通过排出的蒸汽使镰刀旋转得更快
 			右键投掷巨镰，回程时会划出弧线折返
