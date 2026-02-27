@@ -27,7 +27,7 @@
 
 补充汉化
 [list]
-[*] [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ragnarok.png[/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]（v1.5）（暂不支持繁体，也许1.4.5之后支持？）
+[*] [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ragnarok.png[/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]（v1.5）[spoiler]（暂不支持繁体，也许1.4.5之后支持？）[/spoiler]
 [*] [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/inspirationpotion_small.png[/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626981220]灵感药水-瑟银[/url]（支持繁体）
 [/list]
 
