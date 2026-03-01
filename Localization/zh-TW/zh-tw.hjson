@@ -7512,10 +7512,10 @@ Mods: {
 			}
 
 			WyvernSlayer: {
-				DisplayName: 屠龍者
+				DisplayName: 斬龍劍
 				Tooltip:
 					'''
-					'作為一把劍太大了，它更像一堆鐵'
+					'要說那是把劍，那未免也太大了，那簡直就是鐵塊'
 					左鍵釋放被增幅的衝擊波
 					右鍵以極大的力量將劍前刺
 					'''
@@ -22511,8 +22511,8 @@ Mods: {
 			WondrousWandPro4.DisplayName: 奧妙魔杖4
 			WondrousWandPro5.DisplayName: 奧妙魔杖5
 			WrithingSheathPro.DisplayName: 虛空之刃
-			WyrmDecimatorPro.DisplayName: 屠龍者之息
-			WyvernSlayerPro.DisplayName: 屠龍者
+			WyrmDecimatorPro.DisplayName: 斬龍劍之息
+			WyvernSlayerPro.DisplayName: 斬龍劍
 			YakaArrowPro.DisplayName: 亞卡箭
 			YewVisual.DisplayName: 紫衫木視覺效果
 			YewWoodShrapnelPro.DisplayName: 紫衫木彈片l

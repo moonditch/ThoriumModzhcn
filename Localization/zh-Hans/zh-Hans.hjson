@@ -7507,10 +7507,10 @@ Mods: {
 			}
 
 			WyvernSlayer: {
-				DisplayName: 屠龙者
+				DisplayName: 斩龙剑
 				Tooltip:
 					'''
-					“作为一把剑太大了，它更像一堆铁”
+					“要说那是把剑，那未免也太大了，那简直就是铁块”
 					左键释放被增幅的冲击波
 					右键以极大的力量将剑前刺
 					'''
@@ -22717,8 +22717,8 @@ Mods: {
 			WondrousWandPro4.DisplayName: 奥妙魔杖4
 			WondrousWandPro5.DisplayName: 奥妙魔杖5
 			WrithingSheathPro.DisplayName: 虚空之刃
-			WyrmDecimatorPro.DisplayName: 屠龙者之息
-			WyvernSlayerPro.DisplayName: 屠龙者
+			WyrmDecimatorPro.DisplayName: 斩龙剑之息
+			WyvernSlayerPro.DisplayName: 斩龙剑
 			YakaArrowPro.DisplayName: 亚卡箭
 			YewVisual.DisplayName: 紫衫木视觉效果
 			YewWoodShrapnelPro.DisplayName: 紫衫木弹片l
