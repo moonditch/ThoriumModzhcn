@@ -676,9 +676,9 @@ Items: {
 		DisplayName: 菌丝杖
 		Tooltip: 每次获得灵魂精华都会生成孢子球
 	}
-
+	# 原文英文：C4$+@n3+，即Castanet
 	InfestedCastanet: {
-		DisplayName: 响板（保留的英文：C4$+@n3+）
+		DisplayName: 菌X!e响B@n
 		Tooltip:
 			'''
 			手持一对螃蟹爪可以发出近距离攻击的打击声
