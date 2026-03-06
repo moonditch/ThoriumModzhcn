@@ -678,7 +678,7 @@ Items: {
 	}
 	# 原文英文：C4$+@n3+，即Castanet
 	InfestedCastanet: {
-		DisplayName: 菌X!e响B@n
+		DisplayName: "[i:GlowingMushroom]蠏口向B@n"
 		Tooltip:
 			'''
 			手持一对螃蟹爪可以发出近距离攻击的打击声
