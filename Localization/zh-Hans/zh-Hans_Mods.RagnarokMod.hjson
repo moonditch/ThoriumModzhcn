@@ -65,8 +65,8 @@ Buffs: {
 	}
 
 	KellyPetBuff: {
-		Description: 凯莉会跟随你
 		DisplayName: 凯莉！
+		Description: 凯莉会跟随你
 	}
 
 	NightfallenDebuff: {
@@ -228,10 +228,11 @@ Items: {
 		SetBonus:
 			'''
 			音波伤害会对敌人造成血液沸腾减益
-			创造嗜血领域，每秒回复2点，最多150点
+			创造嗜血领域，每次命中敌人获得2点，每秒最多获得3次
 			达到100点时: 增加20%的音波伤害和音波暴击率，增加25%的移动速度
 			咒音增幅额外延长3秒，灵感值恢复速度提高10%
-			被击中将失去25点
+			按下套装奖励键会消耗20点，并补充10点灵感
+			被击中将失去25点，5秒内未命中敌人会快速失去点数
 			'''
 	}
 
@@ -239,9 +240,8 @@ Items: {
 		DisplayName: 血恸幽冥盔
 		Tooltip:
 			'''
-			降低70%非光辉伤害
-			增加50%光辉伤害
 			魔力消耗减少20%
+			降低70%非光辉伤害，并增加50%光辉伤害
 			增加20%光辉暴击率
 			治疗法术会额外治疗7生命值
 			最大魔力值增加60
@@ -249,10 +249,12 @@ Items: {
 		SetBonus:
 			'''
 			音波伤害会对敌人造成血液沸腾减益
-			创造嗜血领域，每秒回复2点，最多150点
-			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加25%的移动速度和治疗法术会额外治疗3生命值
-			造成小部分伤害获得治疗
-			被击中将失去25点
+			创造嗜血领域，每次命中敌人获得2点，每秒最多获得3次
+			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加25%的移动速度
+			并且你的治疗法术会额外治疗3生命值
+			此外，你还会获得相当于造成伤害的一部分的治疗
+			按下套装奖励键会消耗20点，并获得25点额外治疗量
+			被击中将失去25点，5秒内未命中敌人会快速失去点数
 			'''
 	}
 
@@ -260,6 +262,8 @@ Items: {
 		DisplayName: 灾厄之铃
 		Tooltip: 发射追踪的无际裂变弹幕，被击中的敌人会被硫磺火灼烧
 	}
+
+	CelestialManaCost: 魔力消耗减少20%
 
 	DaedalusHeadBard: {
 		DisplayName: 代达罗斯风帽
@@ -324,6 +328,10 @@ Items: {
 			在治疗队友的同时提高50点最大生命值
 			有概率获得治疗或者生命护盾的祝福
 			血量越低，触发概率越高
+			获得+3HP/s生命再生
+			增加5%的最大速度和最大加速度上限
+			受到致命伤害会使你复活，并在5秒内免疫所有伤害
+			这个效果有5分钟冷却时间，冷却时间不会在Boss存在或事件时期计时
 			'''
 	}
 
@@ -334,7 +342,7 @@ Items: {
 
 	StrangeAlienMotherBoard: {
 		DisplayName: 奇怪的外星主板
-		Tooltip: 
+		Tooltip:
 			'''
 			从星际监察者身上掉落下来的主板
 			这个物品蕴含的科技超出了你的认知。
@@ -424,9 +432,9 @@ Items: {
 			增加5%伤害减免
 			降低60%非光辉伤害
 			增加40%光辉伤害，15%光辉暴击率
-			治疗法术会额外治疗6生命值
+			治疗法术会额外治疗7生命值
 			最大魔力值增加60
-			魔力消耗减少15%
+			魔力消耗减少20%
 			'''
 	}
 
@@ -510,7 +518,9 @@ Items: {
 		DisplayName: 等价交换
 		Tooltip:
 			'''
-			“你必须遵守等价交换的规则”
+			发射可以汲取生命值的弹幕
+			右键以发射速度更快的弹幕
+			你必须遵守等价交换的规则
 			“你得到的只能等于你投入的”
 			'''
 	}
@@ -564,7 +574,7 @@ Items: {
 	}
 
 	TrueSquirrelScarf: {
-		DisplayName: 正版松鼠围巾
+		DisplayName: 真松鼠围巾
 		Tooltip: 松鼠围巾的真正原初形态。增加999哨兵槽
 	}
 
@@ -695,10 +705,11 @@ Items: {
 		DisplayName: 金蝙蝠粪便
 		Tooltip:
 			'''
-			增加30%来自敌人的金币
-			基于持有的钱币增加伤害(仅限钱币栏)
+			增加25%来自敌人的金币（怒气模式下为50%）
+			基于持有的钱币增加伤害（仅限钱币栏）
+			这个加成在肾上腺素模式下增加50%
+			死亡时，你会永久损失25%的钱币（大师或死亡模式下为50%）
 			“你不是贪婪……你是彻头彻尾的疯子！”
-			复仇模式专属
 			'''
 	}
 
@@ -863,13 +874,13 @@ Items: {
 	}
 
 	KellyPet: {
+		DisplayName: 无主魔杖
 		Tooltip:
 			'''
 			召唤凯莉跟随你
 			HayWire799的捐赠者物品
 			由Zenovia绘制
 			'''
-		DisplayName: 无主魔杖
 	}
 
 	LeviathanHeart: {
@@ -986,8 +997,11 @@ Items: {
 		Tooltip:
 			'''
 			发射会自动追踪的星辰，命中后分裂为追踪碎星
+			成功在计时区域击中会增加碎星的数量
 			右键即兴演奏[c/00FFC8:星际践踏者]！
 			即兴演奏期间，群星自天穹坠落
+			即兴演奏持续时间内碎星的数量翻倍
+			在即兴演奏期间成功在计时区域击中，会缩短冷却时间
 			'''
 	}
 
@@ -1025,6 +1039,59 @@ Items: {
 			无线电麦克风赋予的伤害咒音增幅提升1级
 			无线电麦克风现在会施加魅惑减益，持续5秒
 			'''
+	}
+
+	RelicOfConvergenceOverride: {
+		Tooltip:
+			'''
+			在光标位置产生一块亵渎水晶，不断使用此物品后，水晶会释放治愈光环并破碎
+			所有在作用范围内的玩家会被治疗{0}+4倍额外治疗量的生命值 
+			队友会获得50%额外治疗
+			举起这块水晶会降低防御并增加受到的伤害
+			[c/FF8C00:我未曾知晓善意。我的同辈和家庭未曾向我报以同情。]
+			[c/FF8C00:我寻觅一个足以信赖之人。一个能洗净我焦虑的存在。]
+			[c/FF8C00:我遇见她时，看到她光耀的笑容，方知寻觅终有结果。]
+			'''
+		DisplayName: 聚魂圣物
+	}
+
+	CorroslimeBass: {
+		Tooltip:
+			'''
+			发射会弹跳的腐泥球
+			右键可将泥球分裂为{0}个更小的泥球
+			此过程可进行{1}次
+			'''
+		DisplayName: 腐泥贝斯琴
+	}
+
+	CrimslimeOboe: {
+		DisplayName: 血泥双簧管
+		Tooltip:
+			'''
+			发射黏糊糊的血泥镖
+			血泥镖会在{0}秒后爆炸
+			'''
+	}
+
+	StringsofOblivion: {
+		DisplayName: 遗忘之弦
+		Tooltip: ""
+	}
+
+	WulfrumGuitar: {
+		Tooltip:
+			'''
+			发射会反弹的音波
+			右键可使音波返回
+			返回的音波会无视物块
+			'''
+		DisplayName: 钨钢吉他
+	}
+
+	MenuMusicBox: {
+		DisplayName: 音乐盒（诸神的黄昏主题曲）
+		Tooltip: 播放“Menu Theme” 作者：CrafterDaemon
 	}
 }
 
@@ -1137,6 +1204,12 @@ Projectiles: {
 	InfectedPustule.DisplayName: Infected Pustule
 	InfectedSporeCloud.DisplayName: Infected Spore Cloud
 	InfectedSporeFire.DisplayName: Infected Spore Fire
+	RelicOfConvergenceCrystalOverride.DisplayName: Relic Of Convergence Crystal Override
+	CorroslimeBassPro.DisplayName: Corroslime Bass Pro
+	CrimslimeOboePro.DisplayName: Crimslime Oboe Pro
+	WulfrumGuitarPro.DisplayName: Wulfrum Guitar Pro
+	AcidicSaxBubbleOverride.DisplayName: Acidic Sax Bubble Override
+	AcidicReedOverride.DisplayName: Acidic Reed Override
 }
 
 Configs: {
@@ -1232,7 +1305,11 @@ Configs: {
 
 	ClassBalancerConfig: {
 		DisplayName: 职业平衡设置
-		Headers.ClassBalanceChanges: 职业平衡设置页
+
+		Headers: {
+			ClassBalanceChanges: 职业平衡设置页
+			ClassMechanicChanges: 职业机制切换
+		}
 
 		HealerDamageModifier: {
 			Label: 牧师伤害倍率
@@ -1271,6 +1348,11 @@ Configs: {
 
 		HealingBonusModifier: {
 			Label: 额外治疗量倍率
+			Tooltip: ""
+		}
+
+		RiffsRequireRiffInstrumentToBeHeld: {
+			Label: 即兴演奏要求玩家持续手持对应乐器
 			Tooltip: ""
 		}
 	}
@@ -1349,12 +1431,12 @@ Configs: {
 
 		bird: {
 			Label: 惊雷王鹰AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		jelly: {
 			Label: 水母皇后AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		bossstatstweak: {
@@ -1364,37 +1446,37 @@ Configs: {
 
 		bossrush: {
 			Label: 瑟银BOSS RUSH
-			Tooltip: 选择使用哪个模组的BOSS RUSH,关闭则禁用BOSS RUSH
+			Tooltip: 选择使用哪个模组的BOSS RUSH，关闭则禁用BOSS RUSH
 		}
 
 		viscount: {
 			Label: 蝙蝠子爵AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		granite: {
 			Label: 花岗岩流能风暴AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		champion: {
 			Label: 英灵遗骸AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		scouter: {
 			Label: 星际监察者AI
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		strider: {
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 			Label: 极地遁蛛AI
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 
 		beholder: {
-			Tooltip: 选择使用哪个模组的AI，关闭为原版状态. 如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 			Label: 堕落注视者AI
+			Tooltip: 选择使用哪个模组的AI，关闭为原版状态。如果未检测到其他重做模组，则自动使用诸神的黄昏AI。
 		}
 	}
 
@@ -1417,8 +1499,8 @@ Configs: {
 		}
 
 		Auto: {
-			Tooltip: ""
 			Label: 自动
+			Tooltip: ""
 		}
 	}
 
@@ -1457,6 +1539,41 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	DebugConfig: {
+		DisplayName: 调试选项
+		Headers.Debugging: 调试页
+
+		ItemHoldOffsetX: {
+			Label: 物品手持X偏移
+			Tooltip: ""
+		}
+
+		ItemHoldOffsetY: {
+			Label: 物品手持Y偏移
+			Tooltip: ""
+		}
+
+		ItemUseStylePerpendicular: {
+			Label: 物品竖直使用
+			Tooltip: ""
+		}
+
+		ShootOffsetForward: {
+			Label: Shoot Offset Forward
+			Tooltip: ""
+		}
+
+		ShootOffsetPerpendicular: {
+			Label: 发射竖直偏移
+			Tooltip: ""
+		}
+
+		ItemHoldPerpendicular: {
+			Label: 物品手持竖直
+			Tooltip: ""
+		}
+	}
 }
 
 WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:欢迎帮助我们完善官方][c/B428FF:诸神的黄昏][c/FF2929:维基][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:！][i:RagnarokMod/CorrosiveFlux]"
@@ -1466,3 +1583,4 @@ PatreonAd: "[i:LuckyCoin][c/96FF96:如果你喜欢本模组，欢迎考虑在Pat
 DisableMe: "[i:Wrench][c/FFFF0A:如果你不想再看到这些消息，可以在暂停菜单的配置中将其关闭！][i:Wrench]"
 Riffs.Cooldown: 即兴演奏冷却
 DamageClasses.ThoriumRogueClass.DisplayName: 盗贼伤害
+Tiles.MenuMusicBoxTile.MapEntry: 主题曲音乐盒

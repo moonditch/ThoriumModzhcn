@@ -228,10 +228,11 @@ Items: {
 		SetBonus:
 			'''
 			Doing symphonic damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every second for a maximum of 150 points
+			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
 			Upon reaching 100 points: 20% increased symphonic damage and strike chance, 25% increased movement speed
 			Empowerments will be prolonged for an additional 3 seconds and 10% faster inspiration regen
-			You will lose 25 points upon getting hit
+			Pressing the 'Armor Ability' key will consume 20 points to replenish 10 inspiration
+			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
 			'''
 	}
 
@@ -248,11 +249,12 @@ Items: {
 		SetBonus:
 			'''
 			Doing radiant damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every second for a maximum of 150 points
+			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
 			Upon reaching 100 points: 20% increased radiant damage and strike chance, 20% increased movement speed
 			and your healing spells will heal for an additional 3 health
 			Additionally you get healed for a small fraction of your dealt damage
-			You will lose 25 points upon getting hit
+			Pressing the 'Armor Ability' key will consume 20 points to replenish 25 + bonus heal life 
+			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
 			'''
 	}
 
@@ -260,6 +262,8 @@ Items: {
 		DisplayName: Calamity Bell
 		Tooltip: Shoots homing brimstone fireblasts that inflict brimstone flames on hit
 	}
+
+	CelestialManaCost: 20% decreased mana cost
 
 	DaedalusHeadBard: {
 		DisplayName: Daedalus Headgear
@@ -324,6 +328,10 @@ Items: {
 			Healed allies will be granted 50 more maximum health
 			Occasionally you will be blessed by heals or life shields
 			Will trigger more frequently on low health
+			+3 HP/s life regen
+			5% increased max run speed and acceleration
+			Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
+			This effect has a 5 minute cooldown, which does not decrement if any bosses or events are active
 			'''
 	}
 
@@ -424,9 +432,9 @@ Items: {
 			5% increased damage reduction
 			60% decreased non-radiant damage
 			40% increased radiant damage and 15% increased critical radiant strike chance
-			Bonus healing increased by 6
+			Bonus healing increased by 7
 			Maximum mana increased by 60
-			Mana usage reduced by 15%
+			Mana usage reduced by 20%
 			'''
 	}
 
@@ -510,6 +518,8 @@ Items: {
 		DisplayName: Equivalent Exchange
 		Tooltip:
 			'''
+			Fires a life stealing bolt
+			Right Click to fire fast moving healing bolts instead
 			'You must follow the law of equivalent exchange'
 			'You can only get out equal to what you put in'
 			'''
@@ -530,8 +540,8 @@ Items: {
 		Tooltip:
 			'''
 			The scoria allows you to spin the scythe much faster by constantly expelling steam
-			Right click to throw the scythe, which will curve on it's way back
-				The scythe deals 20% more damage when thrown
+			Right Click to throw the scythe, which will curve on it's way back
+			The scythe deals 20% more damage when thrown
 			'''
 	}
 
@@ -695,10 +705,11 @@ Items: {
 		DisplayName: Golden Bat Droppings
 		Tooltip:
 			'''
-			+30% coins from enemies
+			+25% coins from enemies (50% while in rage mode)
 			Increases damage based on held coins (coinslots only)
+			This bonus is increased by 50% while in adrenaline mode.
+			You will lose 25% of your coins permanently upon death (50% on death or master mode)
 			"You're not greedy... you're batshit insane!"
-			Revengeance drop
 			'''
 	}
 
@@ -821,9 +832,9 @@ Items: {
 		DisplayName: Dragon Force
 		Tooltip:
 			'''
-			Consumes inspiration rapidly as you channel an inferno to your cursor.
+			Consumes inspiration rapidly as you channel an inferno to your cursor
 			Right-click to play the [c/FF4500:Roar of the Jungle Dragon] riff!
-			While the riff is active, the inferno this weapon unleases is amplified.
+			While the riff is active, the inferno this weapon unleases is amplified
 			'''
 	}
 
@@ -881,7 +892,7 @@ Items: {
 		DisplayName: Siren Scale
 		Tooltip:
 			'''
-			The Siren sings along with your enchanting tune.
+			The Siren sings along with your enchanting tune
 
 			Symphonic damage increased by 15%
 			Inspiration regen rate increased by 20%
@@ -905,8 +916,8 @@ Items: {
 		Tooltip:
 			'''
 			This scythe charges up the longer you spin it,
-			accelerating to unbelievable speeds.
-			Right-click hurls a bolt of lightning.
+			accelerating to unbelievable speeds
+			Right-click hurls a bolt of lightning
 			'''
 	}
 
@@ -941,7 +952,7 @@ Items: {
 		Tooltip:
 			'''
 			Throw an endless amount of ghostly tambourines
-			Right click to jingle the thrown tambourines, damaging nearby enemies
+			Right Click to jingle the thrown tambourines, damaging nearby enemies
 			'''
 	}
 
@@ -952,8 +963,8 @@ Items: {
 			Whistles out a cursed burst of noise
 			Has a chance to shoot vile spit
 			Right-click to play the [c/50477e:Filthy Mind] riff!
-			While the riff is active, infected pustules spawn around you.
-			Infected pustules will spew cursed fire at the nearest enemy.
+			While the riff is active, infected pustules spawn around you
+			Infected pustules will spew cursed fire at the nearest enemy
 			'''
 	}
 
@@ -985,9 +996,12 @@ Items: {
 		DisplayName: Stellar Riff
 		Tooltip:
 			'''
-			Sends out homing stars, that split into homing shards.
+			Sends out homing stars, that split into homing shards
+			Playing success will increase the number of shards
 			Right-click to play the [c/00FFC8:Interstellar Stomper] riff!
-			While the riff is active, stars rain down from above.
+			While the riff is active, stars rain down from above
+			Homings shard count is doubled while the riff is active
+			Time your attacks during the riff to reduce the cooldown
 			'''
 	}
 
@@ -1009,8 +1023,8 @@ Items: {
 			15% increased symphonic damage for weapons that are not Electronic
 			10% increased symphonic critical chance
 			Increases maximum inspiration by 4
-			Symphonic damage has a 10% chance to increase the level of one of your active empowerments. 
-			This effect can only trigger once every 2.5 seconds.
+			Symphonic damage has a 10% chance to increase the level of one of your active empowerments
+			This effect can only trigger once every 2.5 seconds
 			'''
 	}
 
@@ -1018,13 +1032,66 @@ Items: {
 		DisplayName: Redglass Monocle
 		Tooltip:
 			'''
-			Once worn by an infamous underworld native.
+			Once worn by an infamous underworld native
 			25% increased symphonic damage
 			Flat Damage empowerment is twice as effective on you
 			Reduces the inspiration cost of Radio Mic by 2
 			Increases the Damage empowerment level from Radio Mic by 1
 			Radio Mic now inflicts Charmed for 5 seconds
 			'''
+	}
+
+	RelicOfConvergenceOverride: {
+		Tooltip:
+			'''
+			Creates a profaned crystal at the cursor that channels a healing aura before shattering
+			All players within the area of effect are healed for {0} + 4x healing bonus HP
+			Allies gain 50% extra healing
+			Holding out the crystal decreases defense and increases incoming damage
+			[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
+			[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
+			[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]
+			'''
+		DisplayName: Relic of Convergence
+	}
+
+	CorroslimeBass: {
+		Tooltip:
+			'''
+			Sends out bouncing corroslime balls
+			Right Click to split balls into {0} smaller balls
+			This process can be done {1} times
+			'''
+		DisplayName: Corroslime Bass
+	}
+
+	CrimslimeOboe: {
+		DisplayName: Crimslime Oboe
+		Tooltip:
+			'''
+			Shoots sticky crimslime darts
+			After {0} seconds the darts will explode
+			'''
+	}
+
+	StringsofOblivion: {
+		DisplayName: Stringsof Oblivion
+		Tooltip: ""
+	}
+
+	WulfrumGuitar: {
+		Tooltip:
+			'''
+			Shoots bouncing sound waves
+			Right Click to return the waves
+			Returning waves will ignore tiles
+			'''
+		DisplayName: Wulfrum Guitar
+	}
+
+	MenuMusicBox: {
+		DisplayName: Music Box (Ragnarok Title)
+		Tooltip: Plays 'Menu Theme' by CrafterDaemon
 	}
 }
 
@@ -1137,6 +1204,12 @@ Projectiles: {
 	InfectedPustule.DisplayName: Infected Pustule
 	InfectedSporeCloud.DisplayName: Infected Spore Cloud
 	InfectedSporeFire.DisplayName: Infected Spore Fire
+	RelicOfConvergenceCrystalOverride.DisplayName: Relic Of Convergence Crystal Override
+	CorroslimeBassPro.DisplayName: Corroslime Bass Pro
+	CrimslimeOboePro.DisplayName: Crimslime Oboe Pro
+	WulfrumGuitarPro.DisplayName: Wulfrum Guitar Pro
+	AcidicSaxBubbleOverride.DisplayName: Acidic Sax Bubble Override
+	AcidicReedOverride.DisplayName: Acidic Reed Override
 }
 
 Configs: {
@@ -1232,7 +1305,11 @@ Configs: {
 
 	ClassBalancerConfig: {
 		DisplayName: Class Balancer Config
-		Headers.ClassBalanceChanges: Class Balance Changes Header
+
+		Headers: {
+			ClassBalanceChanges: Class Balance Changes Header
+			ClassMechanicChanges: Class Mechanic Changes Header
+		}
 
 		HealerDamageModifier: {
 			Label: Healer Damage Modifier
@@ -1271,6 +1348,11 @@ Configs: {
 
 		HealingBonusModifier: {
 			Label: Healing Bonus Modifier
+			Tooltip: ""
+		}
+
+		RiffsRequireRiffInstrumentToBeHeld: {
+			Label: Riffs Require Riff Instrument To Be Held
 			Tooltip: ""
 		}
 	}
@@ -1457,6 +1539,41 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	DebugConfig: {
+		DisplayName: Debug Config
+		Headers.Debugging: Debugging Header
+
+		ItemHoldOffsetX: {
+			Label: Item Hold Offset X
+			Tooltip: ""
+		}
+
+		ItemHoldOffsetY: {
+			Label: Item Hold Offset Y
+			Tooltip: ""
+		}
+
+		ItemUseStylePerpendicular: {
+			Label: Item Use Style Perpendicular
+			Tooltip: ""
+		}
+
+		ShootOffsetForward: {
+			Label: Shoot Offset Forward
+			Tooltip: ""
+		}
+
+		ShootOffsetPerpendicular: {
+			Label: Shoot Offset Perpendicular
+			Tooltip: ""
+		}
+
+		ItemHoldPerpendicular: {
+			Label: Item Hold Perpendicular
+			Tooltip: ""
+		}
+	}
 }
 
 WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:Help us complete the official ][c/B428FF:Ragnarok Mod][c/FF2929: wiki at ][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:!][i:RagnarokMod/CorrosiveFlux]"
@@ -1466,3 +1583,4 @@ PatreonAd: "[i:LuckyCoin][c/96FF96:If you enjoy the mod, consider supporting us 
 DisableMe: "[i:Wrench][c/FFFF0A:If you would like to stop getting these messages, you can disable them in the config in your pause menu!][i:Wrench]"
 Riffs.Cooldown: Riff Cooldown
 DamageClasses.ThoriumRogueClass.DisplayName: rogue damage
+Tiles.MenuMusicBoxTile.MapEntry: Menu Music Box Tile
