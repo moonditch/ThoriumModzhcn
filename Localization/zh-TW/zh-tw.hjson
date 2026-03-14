@@ -680,7 +680,7 @@ Mods: {
 
 			SoulEssence: {
 				DisplayName: 靈魂精華
-				Description: 根據靈魂精華的層數恢復生命值和法力值
+				Description: 根據靈魂精華的層數恢復生命值和魔力值
 				Stacks: 每獲得5點靈魂精華，恢復 {0} 生命和 {1} 魔力
 			}
 
@@ -4388,7 +4388,7 @@ Mods: {
 			ManaDelight: {
 				DisplayName: 魔力歡騰
 				Tooltip: 每次咬都能品嘗到能量
-				ManaTooltip: 恢復你最大法力值的{0}%
+				ManaTooltip: 恢復你最大魔力值的{0}%
 			}
 
 			Mangosteen: {

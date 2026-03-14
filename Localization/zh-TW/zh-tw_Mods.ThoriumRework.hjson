@@ -36,7 +36,7 @@ ItemDescriptions: {
 		提高40%鞭子攻速
 		增加30點召喚傷害
 		'''
-	PyromancerCowl: 減少40%法力消耗
+	PyromancerCowl: 減少40%魔力消耗
 	PyromancerLeggings:
 		'''
 		提高30%釋放速度
@@ -125,7 +125,7 @@ ItemDescriptions: {
 		對敵人使用能量子彈造成傷害時會積累能量值
 		能量值充滿後，右鍵釋放瞬移光劍，對敵人造成1100%的傷害
 		瞬移光劍使用後，能量值在10秒內不能充能
-		但是，該武器不消耗法力值
+		但是，該武器不消耗魔力值
 		'成為天界最偉大的守護者'
 		'''
 	HitScanner:
