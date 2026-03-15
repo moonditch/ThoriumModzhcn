@@ -1,0 +1,23 @@
+RagnarokMod:{
+    CalamityMod:{
+        Items:{
+            StarBeamRye:{
+                DisplayName: 星界黑麦威士忌
+                NewTooltip: 
+                    '''
+                    增加魔力再生，即使是在使用物品时也是如此
+                    魔法武器和光辉武器的伤害乘0.9
+                    {$Mods.CalamityMod.Common.AlcoholWarning}
+                    '''
+            }
+        }
+        Buffs:{
+            StarBeamRyeBuff:{
+                DisplayName: 星界黑麦威士忌
+                NewTooltip: 魔力再生增加，但魔法伤害和光辉伤害降低
+            }
+            
+        }
+    }
+}
+    
