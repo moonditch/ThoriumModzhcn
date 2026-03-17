@@ -117,7 +117,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: 金羽迅音盔[c/70f4f4:+]
+		DisplayName: 金羽迅音盔+
 		Tooltip:
 			'''
 			增加25%音波伤害
@@ -139,7 +139,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: 金圣武神盔[c/70f4f4:+]
+		DisplayName: 金圣武神盔+
 		Tooltip:
 			'''
 			增加15%光辉伤害
