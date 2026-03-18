@@ -1,9 +1,10 @@
+#用于补正其他模组本地化文本问题
 RagnarokMod:{
     CalamityMod:{
         Items:{
             StarBeamRye:{
                 DisplayName: 星界黑麦威士忌
-                NewTooltip: 
+                Tooltip: 
                     '''
                     增加魔力再生，即使是在使用物品时也是如此
                     魔法武器和光辉武器的伤害乘0.9
@@ -14,10 +15,24 @@ RagnarokMod:{
         Buffs:{
             StarBeamRyeBuff:{
                 DisplayName: 星界黑麦威士忌
-                NewTooltip: 魔力再生增加，但魔法伤害和光辉伤害降低
+                Description: 魔力再生增加，但魔法伤害和光辉伤害降低
             }
-            
+        }
+    }
+    ThoriumMod:{
+        Items:{
+            AmberRing: {
+                DisplayName: 琥珀戒指
+                Tooltip: 增加3%召唤伤害
+            }
+            AmethystRing: {
+                DisplayName: 紫晶戒指
+                Tooltip: 盔甲穿透增加2
+            }
+        }
+        Buffs:{
+
         }
     }
 }
-    
+  
