@@ -19768,7 +19768,7 @@ Mods: {
 
 			FrostBurntFlayer: {
 				DisplayName: "{$NPCs.FrostBurnt.DisplayName}"
-				BestiaryFlavorText: 一种退化的冰冻外壳，在战斗中成功地握着一道大冰柱。它们的舌头被冰柱末端明显地卡住了。
+				BestiaryFlavorText: 一只能够在战斗中挥舞巨大冰柱的尸壳。这家伙的舌头很明显粘在冰柱末端上了。
 			}
 
 			SnowElemental: {
@@ -20464,7 +20464,7 @@ Mods: {
 
 			GildedLycan: {
 				DisplayName: 镀金狼人
-				BestiaryFlavorText: 尽管据说狼人对银很弱，但考虑到这些盲目兽人的存在，对金这样显然不成立。
+				BestiaryFlavorText: 虽然据说狼人会被银所克制，但考虑到这些金光闪闪的兽人的存在，黄金显然没有这种效果。
 			}
 
 			GildedSlime: {
