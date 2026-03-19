@@ -19747,22 +19747,22 @@ Mods: {
 
 			FrostBurnt: {
 				DisplayName: 冰焰行者
-				BestiaryFlavorText: 一種冰凍的外殼，它們的血肉早已被暴風雪期間惡劣的狂風從身體上刮下.
+				BestiaryFlavorText: 一種冰凍的外殼，它們的血肉早已被暴風雪期間惡劣的狂風從身體上刮下。
 			}
 
 			FrostBurntFlayer: {
 				DisplayName: "{$NPCs.FrostBurnt.DisplayName}"
-				BestiaryFlavorText: 一種退化的冰凍外殼，在戰鬥中成功地握著一道大冰柱。它們的舌頭被冰柱末端明顯地卡住了.
+				BestiaryFlavorText: 一隻能夠在戰鬥中揮舞巨大冰柱的屍殼。這傢伙的舌頭很明顯粘在冰柱末端上了。
 			}
 
 			SnowElemental: {
 				DisplayName: 雪元素
-				BestiaryFlavorText: 一種被雪填滿的冰凍元素。喜歡爆炸成一場美麗的雪……並死亡.
+				BestiaryFlavorText: 一種被雪填滿的冰凍元素。喜歡爆炸成一場美麗的雪……並死亡。
 			}
 
 			SnowyOwl: {
 				DisplayName: 雪鴞
-				BestiaryFlavorText: 一種耐寒的貓頭鷹物種，大部分的狩獵都是在暴風雪來臨阻擋視線時進行的.
+				BestiaryFlavorText: 一種耐寒的貓頭鷹物種，大部分的狩獵都是在暴風雪來臨阻擋視線時進行的。
 			}
 
 			Abomination: {
@@ -19772,29 +19772,29 @@ Mods: {
 
 			BloodDrop: {
 				DisplayName: 滴血史萊姆
-				BestiaryFlavorText: 動態的血行為非常類似於泰拉瑞亞的史萊姆.
+				BestiaryFlavorText: 動態的血行為非常類似於泰拉瑞亞的史萊姆。
 			}
 
 			BloodMage: {
 				DisplayName: 血法師
-				BestiaryFlavorText: 血腥僵屍的一種不常見變異體，保留了施放暗黑血魔法的能力.
+				BestiaryFlavorText: 血腥僵屍的一種不常見變異體，保留了施放暗黑血魔法的能力。
 			}
 
 			BloodyWarg: {
 				DisplayName: 嗜血恐狼
-				BestiaryFlavorText: 一頭被神秘的血月光輝逼瘋的狂暴野獸.
+				BestiaryFlavorText: 一頭被神秘的血月光輝逼瘋的狂暴野獸。
 			}
 
 			BurstingMaggot.DisplayName: 爆裂蛆蟲
 
 			EngorgedEye: {
 				DisplayName: 充血之眼
-				BestiaryFlavorText: 這種惡魔眼吞噬了血月的光環，獲得了獨特的外觀.
+				BestiaryFlavorText: 這種惡魔眼吞噬了血月的光環，獲得了獨特的外觀。
 			}
 
 			FamishedMaggot: {
 				DisplayName: 饑餓蛆蟲
-				BestiaryFlavorText: 以其集體攻擊習性而出名的一種惡毒蠕蟲.
+				BestiaryFlavorText: 以其集體攻擊習性而出名的一種惡毒蠕蟲。
 			}
 
 			GraveLimb: {
@@ -19804,7 +19804,7 @@ Mods: {
 
 			PatchWerk: {
 				DisplayName: 縫合人
-				BestiaryFlavorText: 一種由蛆蟲填滿和泰拉人遺骸組成的可怕生物。它會向任何在聽的人呼喚，乞求被鎮壓.
+				BestiaryFlavorText: 一種由蛆蟲填滿和泰拉人遺骸組成的可怕生物。它會向任何在聽的人呼喚，乞求被鎮壓。
 				BossChecklistIntegration.SpawnInfo: 縫合人會生成在血月期間，可以從迷途僵屍處購買[i:ThoriumMod/FreshBrain]再次進行召喚，擊敗縫合人是迷途僵屍NPC入住的需求。
 			}
 
@@ -20326,7 +20326,7 @@ Mods: {
 
 			GildedLycan: {
 				DisplayName: 鍍金狼人
-				BestiaryFlavorText: "儘管據說狼人對銀很弱，但考慮到這些盲目獸人的存在，對金這樣顯然不成立. "
+				BestiaryFlavorText: "雖然據說狼人會被銀所剋制，但考慮到這些金光閃閃的獸人的存在，黃金顯然沒有這種效果。 "
 			}
 
 			GildedSlime: {
