@@ -14,11 +14,8 @@ Items: {
 		Tooltip:
 			'''
 			无视20点防御力
-			挥舞一把强有力的血肉之锤来撕咬敌人
-			击中敌人生成追踪的灵魂精华治疗队友和使用者
-			挥舞时未击中敌人会增加饥饿值
-			武器饥饿值越高，造成的伤害就越高，伤害最高提升500%
-			击中敌人时若未暴击，则重置伤害提升；暴击则只是降低伤害提升
+			挥舞强力的肉锤攻击敌人，同时召唤追踪的灵魂精华治疗队友和使用者
+			长时间未击中敌人时会增加饥饿，最高伤害可提升至600%，击中目标后重置伤害
 			每三次攻击就会投掷血肉之锤并在有饥饿值时追踪目标
 			"打倒独裁者..."
 			'''
@@ -50,8 +47,7 @@ Items: {
 		Tooltip:
 			'''
 			无视40点防御力
-			弹奏一把血肉竖琴
-			释放可弹跳和穿透敌人的绦虫
+			弹奏一把血肉竖琴并释放可弹跳和穿透敌人的绦虫
 			绦虫可以多次攻击同一个敌人
 			"去吧小东西，给他们做个结肠镜！"
 			'''
@@ -73,11 +69,9 @@ Items: {
 		DisplayName: 鬼灯笼锤
 		Tooltip:
 			'''
-			掷出一把蒲公英链锤
-			链锤会留下造成伤害的尾迹
-			暴击时释放金色蒲公英并治疗队友
-			最多只能同时存在三朵金色蒲公英
-			不能触发其他治疗物品的治疗效果
+			Swings a flowery mace that releases lingering healing flowers on its first hit挥舞一把带有花朵装饰的锤子并在第一次攻击时会释放出残留的治愈之花
+			Up to 4 healing flowers can exist at once最多只能同时存在四朵治愈之花
+			"That's not even the right flower!""根本就不是那种花!"
 			'''
 	}
 
@@ -142,11 +136,9 @@ Items: {
 		DisplayName: 胃液
 		Tooltip:
 			'''
-			丢出一个自主运动的胃，命中敌人与物块时吐出酸液
-			酸液造成溃疡减益，会使敌人受到的伤害增加20
-			如果酸液未击中敌人，会在地上生成酸液洼
-			玩家捡起酸液洼会获得胃酸逆流增益
-			胃酸逆流会增加10%伤害与护甲穿透增加10
+			Throw a sentient stomach that vomits everwhere on impact, inflicting Ulcer which increases damage taken by 5投掷一个具有感知能力的胃囊，撞击物块会四处喷吐酸液并造成溃疡减益，使敌人受到的伤害增加5
+			If the vomit miss, they will land on the ground and form puddles which can be picked up by players如果酸液未击中目标，落在地上并形成酸液洼，玩家可以拾取这些酸液洼
+			Puddles grant Acid Reflux buff when picked up, which increases damage by 5% and armor penetration by 5拾取酸液洼会获得胃酸逆流增益，该效果可使伤害提高5%与护甲穿透力提高5%
 			拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
 			'''
 	}
@@ -272,14 +264,32 @@ Items: {
 		Tooltip: 释放出滞留的孢子
 	}
 
+	MushroomMarcherArmor: {
+		DisplayName: Mushroom Marcher Armor辉光蘑菇胸甲
+		Tooltip: 增加5%的投掷伤害
+	}
+
+	MushroomMarcherBoots: {
+		DisplayName: Mushroom Marcher Boots辉光蘑菇靴
+		Tooltip: 增加5%的投掷伤害
+	}
+
+	MushroomMarcherCap: {
+		DisplayName: Mushroom Marcher Cap辉光蘑菇帽
+		Tooltip: 增加5%的投掷伤害
+		SetBonus:
+			'''
+			Increases maximum technique points by 1   最大技巧值增加1
+			Using your technique throws a barrage of spore grenades
+			'''
+	}
+
 	NerveEndings: {
 		DisplayName: 神经末梢
 		Tooltip:
 			'''
-			掷出一根锋利的血肉标枪
-			长按左键为标枪蓄力
-			蓄力后投掷会释放獠牙
-			獠牙会追踪标枪击中的敌人
+			Hold <left> to charge a sticky, flesh javelin
+			Leaves behind fangs when thrown while charged, homing to enemies struck by the javelin
 			"打击最敏感的神经末梢，将疼痛最大化"
 			'''
 	}
@@ -315,7 +325,7 @@ Items: {
 		Tooltip:
 			'''
 			投掷快速移动的眼球，命中时爆炸
-			"以眼还眼！"
+			"以眼还眼，会让整个世界都陷入一片黑暗…"
 			'''
 	}
 
@@ -324,8 +334,7 @@ Items: {
 		Tooltip:
 			'''
 			无视10点防御力
-			释放用血肉制成的十字架攻击敌人
-			命中敌人时会增加生命恢复
+			Channel a cross made of flesh that smites enemies, increasing life regeneration per enemy
 			在击中非多体节boss时造成更多伤害
 			*松开你的脚趾*
 			'''
@@ -346,17 +355,8 @@ Items: {
 		Tooltip:
 			'''
 			发射一个会治疗队友的弹性小葫芦
-			被治疗的队友会增加20防御力，持续10秒
+			被治疗的队友会增加5防御力，持续10秒
 			“好吃！”
-			'''
-	}
-
-	SadWitch: {
-		DisplayName: 伤心的女巫
-		Tooltip:
-			'''
-			作者Not Una Nancy Owen (n0t_UN_Owen)
-			"这幅画的左边似乎被撕掉了…"
 			'''
 	}
 
@@ -378,8 +378,7 @@ Items: {
 			'''
 			射出三个玻璃泡泡射向敌人
 			使用（脉络魔号）造成伤害会强化该武器
-			强化状态下使用该武器不会消耗灵感值
-			此外，玻璃泡泡改善了追踪效果
+			While empowered, this instrument uses up no inspiration and improves homing
 			"眼睛小的孤独"
 			'''
 	}
@@ -388,11 +387,9 @@ Items: {
 		DisplayName: 尖啸骨哨
 		Tooltip:
 			'''
-			释放大小不一的骨头
-			骨头造成伤害时会为一个特殊的能量条充能
-			能量条为满时，右键以释放死亡哨音
-			激活死亡哨音时会强化该武器
-			强化状态下骨头会追踪敌人
+			Shoots an assortment of bones that vary in sizes, which build a special meter on hit
+			When the meter is full, <right> to perform an ear-shattering death whistle
+			Activating the death whistle empowers this weapon, giving bones aggressive homing
 			'''
 	}
 
@@ -402,6 +399,45 @@ Items: {
 			'''
 			来自 EduaRRdo
 			送给 DylanDoe21
+			'''
+	}
+
+	SneezePriestGreaves: {
+		DisplayName: Sneeze Priest Greaves
+		Tooltip:
+			'''
+			5% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional life
+			"Bless You!"
+			'''
+	}
+
+	SneezePriestNose: {
+		DisplayName: Sneeze Priest Nose
+		Tooltip:
+			'''
+			10% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional life
+			"Bless You!"
+			'''
+		SetBonus:
+			'''
+			Healing spells heal an additional life
+			Gaining Soul Essence causes the user to sneeze violently
+			Sneezing grants short invincibility frames and shoots a barrage of snot
+			'''
+	}
+
+	SneezePriestRobe: {
+		DisplayName: Sneeze Priest Robe
+		Tooltip:
+			'''
+			15% increased radiant damage
+			15% decreased non-radiant damage
+			Healing spells heal an additional 3 life
+			"Bless You!"
 			'''
 	}
 
@@ -430,8 +466,7 @@ Items: {
 			'''
 			发射螺旋状纠缠的动脉和静脉
 			使用（巩魔笛）造成伤害会强化该武器
-			强化状态下使用该武器不会消耗灵感值
-			此外，该武器会额外造成50%伤害
+			While empowered, this instrument uses up no inspiration and deal 50% more damage
 			“真叫人不安…”
 			'''
 	}
@@ -454,13 +489,17 @@ Items: {
 			'''
 	}
 
+	TheWitchAuthor: {
+		DisplayName: 女巫作者
+		Tooltip: By Not Una Nancy Owen (n0t_UN_Owen)
+	}
+
 	ToothRusher: {
 		DisplayName: 尖牙猛攻斧
 		Tooltip:
 			'''
 			无视10点防御力
-			投掷沉重的肉战斧
-			把它投掷到空中会使它减速并旋转
+			Throw a heavy flesh tomawahk, which will slow down and spin if it misses
 			在旋转一段时间后，它会迅速冲向附近的敌人
 			"不刷牙，就等着被牙刷！" 
 			'''
@@ -474,7 +513,7 @@ Items: {
 			成功在计时区域击中时，增加射速和射弹
 			射速加成与攻速的咒音增幅叠加
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"注意你的语言！不需要hard R！"
+			"注意你的语言！"
 			[c/0000FF: 测试用名：叫 我*你*，说唱骂街，说藏话了]
 			'''
 	}
@@ -545,12 +584,12 @@ Projectiles: {
 Buffs: {
 	AcidReflux: {
 		DisplayName: 胃酸逆流
-		Description: 增加10%伤害 和护甲穿透增加10
+		Description: 增加5%伤害 和护甲穿透增加5
 	}
 
 	GourdGuarded: {
 		DisplayName: 葫芦保护
-		Description: 增加20 防御力
+		Description: 增加5防御力
 	}
 
 	HandShieldCooldown: {
@@ -575,13 +614,22 @@ Buffs: {
 
 	SerSemisonic: {
 		DisplayName: Ser Semisonic诅咒灵魂（暂定名）
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description（此物有10秒的时间）
+		Description: Lavender Town Syndrome（此物有10秒的时间）
 	}
 
 	SerSemisonicCooldown: {
 		DisplayName: Ser Semisonic Cooldown诅咒灵魂冷却时间（暂定名）
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description（此物有30秒的冷却时间）
+		Description: He is missing, no?（此物有30秒的冷却时间）
 	}
+}
+
+WhisperingHood: {
+	RotGourd: Nothing but a mere shell of its former self...
+	SpookySpirit: Oops! Party time's over!
+	Moco: It's even allergic to its own existence...
+	Daffodil: Good. Keep sleeping...
+	OrroBoro: Their gluttony disgusts me...
+	BigBone: Let's not get overprotective, shall we?
 }
 
 Configs: {
