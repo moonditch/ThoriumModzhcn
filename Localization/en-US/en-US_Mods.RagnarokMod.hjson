@@ -103,7 +103,7 @@ Tooltips: {
 			Healing spells heal 25% more hp
 			Healing spells apply a protective bubble to their target,
 			granting +5% damage reduction for 5 seconds
-			25% increased radiant attack speed
+			10% increased radiant attack speed
 			'''
 		CorruptTooltip:
 			'''
@@ -111,7 +111,7 @@ Tooltips: {
 			All health costs are reduced by 1
 			Spending health envelopes you in a corrupted bubble,
 			granting +10% damage, but you take 5% more damage
-			25% increased radiant attack speed
+			10% increased radiant attack speed
 			'''
 	}
 }
@@ -233,6 +233,7 @@ Items: {
 			Empowerments will be prolonged for an additional 3 seconds and 10% faster inspiration regen
 			Pressing the 'Armor Ability' key will consume 20 points to replenish 10 inspiration
 			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
+			Your points are also reset when a boss is spawned
 			'''
 	}
 
@@ -255,6 +256,7 @@ Items: {
 			Additionally you get healed for a small fraction of your dealt damage
 			Pressing the 'Armor Ability' key will consume 20 points to replenish 25 + bonus heal life 
 			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
+			Your points are also reset when a boss is spawned
 			'''
 	}
 
@@ -337,7 +339,11 @@ Items: {
 
 	StormFeather: {
 		DisplayName: Storm Feather
-		Tooltip: A feather fallen from the Grand Thunder Bird, it crackles with lightning
+		Tooltip:
+			'''
+			Can be sold for a very good price to shops
+			'A small feather fallen from the Grand Thunder Bird, it crackles with lightning'
+			'''
 	}
 
 	StrangeAlienMotherBoard: {
@@ -436,6 +442,13 @@ Items: {
 			Maximum mana increased by 60
 			Mana usage reduced by 20%
 			'''
+		SetBonus:
+			'''
+			A Guardian healer will assist you in healing your allies
+			Heals ally life equal to your bonus healing + 5 health
+			and grants them the Guardian Healers Blessing for 20 seconds
+			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
+			'''
 	}
 
 	TarragonShroud: {
@@ -448,6 +461,13 @@ Items: {
 			Greatly increased inspiration regen
 			+15% chance for inspiration notes to drop from enemies
 			+4 maximum inspiration
+			'''
+		SetBonus:
+			'''
+			A Guardian healer will assist you in healing your allies
+			Heals ally life equal to your bonus healing + 5 health
+			and grants them the Guardian Healers Blessing for 20 seconds
+			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
@@ -468,14 +488,16 @@ Items: {
 		DisplayName: Nightfallen Helmet
 		Tooltip:
 			'''
-			35% decreased non-radiant damage
-			60% increased radiant damage and 16% increased critical radiant strike chance
+			Corrupts your radiant powers
+			33% decreased non-radiant damage
+			33% increased radiant damage
+			16% increased radiant critical strike chance
+			25% decreased mana cost
 			Maximum mana increased by 60
 			'''
 		SetBonus:
 			'''
 			Healing spells will heal an additional 4 life
-			33% increased radiant damage
 			All attacks inflict Nightfallen
 			Nightfallen deals 100 damage per second
 			Nightfallen increases all damage taken by the target by 10%
@@ -486,8 +508,10 @@ Items: {
 		DisplayName: Nightfallen Breastplate
 		Tooltip:
 			'''
-			45% decreased non-radiant damage
-			50% increased radiant damage and 12% increased critical radiant strike chance
+			25% decreased non-radiant damage
+			25% increased radiant damage
+			16% increased radiant critical strike chance
+			20% decreased mana cost
 			'''
 	}
 
@@ -495,9 +519,11 @@ Items: {
 		DisplayName: Nightfallen Greaves
 		Tooltip:
 			'''
-			35% decreased non-radiant damage
-			45% increased radiant damage and 8% increased critical radiant strike chance
+			20% decreased non-radiant damage
+			20% increased radiant damage
+			12% increased radiant critical strike chance
 			20% decreased mana cost
+			20% increased movement speed
 			'''
 	}
 
@@ -527,7 +553,12 @@ Items: {
 
 	ProfanedScythe: {
 		DisplayName: Profaned Scythe
-		Tooltip: A holy inferno of a scythe
+		Tooltip:
+			'''
+			A holy inferno of a scythe
+			Right Click to throw the scythe, which will curve on it's way back
+			The scythe deals 20% more damage when thrown and flings molten blobs during flight
+			'''
 	}
 
 	MarbleScythe: {
@@ -592,8 +623,8 @@ Items: {
 		DisplayName: Voidseer Pearl
 		Tooltip:
 			'''
-			'They say beauty is in the eye of the beholder'
-			'I don't think they meant that literally'
+			Can be sold for a very good price to shops
+			'They say beauty is in the eye of the beholder... I don't think they meant that literally'
 			'''
 	}
 
@@ -701,7 +732,7 @@ Items: {
 			'''
 	}
 
-	GoldenBatDroppings: {
+	GoldenxBatDroppings: {
 		DisplayName: Golden Bat Droppings
 		Tooltip:
 			'''
@@ -1093,6 +1124,11 @@ Items: {
 		DisplayName: Music Box (Ragnarok Title)
 		Tooltip: Plays 'Menu Theme' by CrafterDaemon
 	}
+
+	GoldenBatDroppings: {
+		DisplayName: Golden Bat Droppings
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -1224,7 +1260,7 @@ Configs: {
 
 		DesertMedallion: {
 			Label: Desert Scourge Recipe Change
-			Tooltip: Changes Desert Medallion to use Storm Feathers from the Grand Thunder Bird. Defaults to True
+			Tooltip: Changes Desert Medallion to use Sandstone Ingots from the Grand Thunder Bird. Defaults to True
 		}
 
 		DecapoditaSprout: {
@@ -1264,7 +1300,7 @@ Configs: {
 
 		CharredIdol: {
 			Label: Brimstone Elemental Recipe Change
-			Tooltip: Changes Charred Idol to require a Voidseer's Pearl. Defaults to True
+			Tooltip: Changes Charred Idol to require a Void Heart. Defaults to True
 		}
 
 		Seafood: {
@@ -1574,6 +1610,73 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	AprilChaos: {
+		DisplayName: April Chaos
+
+		Headers: {
+			AprilChaos: April Chaos
+			RadiantMage: Radiant Mage
+			MeleeSummoner: Melee Summoner
+			RogueRanger: Rogue Ranger
+			ObnoxiousBard: Obnoxious Bard
+		}
+
+		MasterToggle: {
+			Label: Master Toggle
+			Tooltip: Disables/Enables all options below.
+		}
+
+		RadMage: {
+			Label: Radiant Mage
+			Tooltip:
+				'''
+				Healer just felt like an extension of mage.
+				So we fixed that.
+				By replacing Mage with Healer.
+				All magic is healing if you believe hard enough. 
+				Or hit hard enough.
+				'''
+		}
+
+		MelSum: {
+			Label: Melee Summoner
+			Tooltip:
+				'''
+				Summoner had some unfortunate progression gaps.
+				So we fixed that.
+				By giving all of Melee to Summoner.
+				Your minions now respect you. 
+				Your sword does not.
+				'''
+		}
+
+		RogRan: {
+			Label: Rogue Ranger
+			Tooltip:
+				'''
+				Rogue is taking back its roots.
+				By absorbing Ranger.
+				They were always the same person. 
+				One just had better shoes.
+				'''
+		}
+
+		ObBard: {
+			Label: Obnoxious Bard
+			Tooltip: Makes your riffs... less riffin
+		}
+
+		OwnRiffWeight: {
+			Label: Own Riff Weight
+			Tooltip: ""
+		}
+
+		RiffWeights: {
+			Label: Riff Weights
+			Tooltip: ""
+		}
+	}
 }
 
 WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:Help us complete the official ][c/B428FF:Ragnarok Mod][c/FF2929: wiki at ][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:!][i:RagnarokMod/CorrosiveFlux]"
@@ -1582,5 +1685,12 @@ DiscordInvite: "[i:WireKite][c/9696FF:Join the official ][c/B428FF:Ragnarok Mod]
 PatreonAd: "[i:LuckyCoin][c/96FF96:If you enjoy the mod, consider supporting us on Patreon: ][c/3898FF:patreon.com/c/DevTeamRagnarok][i:LuckyCoin]"
 DisableMe: "[i:Wrench][c/FFFF0A:If you would like to stop getting these messages, you can disable them in the config in your pause menu!][i:Wrench]"
 Riffs.Cooldown: Riff Cooldown
-DamageClasses.ThoriumRogueClass.DisplayName: rogue damage
+
+DamageClasses: {
+	ThoriumRogueClass.DisplayName: rogue damage
+	MeleeSummoner.DisplayName: summelee damage
+	RadiantMagic.DisplayName: radiagic damage
+	RogueRanger.DisplayName: roganged damage
+}
+
 Tiles.MenuMusicBoxTile.MapEntry: Menu Music Box Tile
