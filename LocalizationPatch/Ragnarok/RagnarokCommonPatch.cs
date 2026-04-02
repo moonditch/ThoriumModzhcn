@@ -10,9 +10,9 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using ThoriumModzhcn.Core;
 
-namespace ThoriumModzhcn.LocalizationPatch
+namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
 {
-    public class Ragnarok 
+    public class RagnarokCommonPatch
     {
         private static readonly string cal = "CalamityMod";
         private static readonly string thor = "ThoriumMod";
@@ -64,7 +64,7 @@ namespace ThoriumModzhcn.LocalizationPatch
         }
 
         [JITWhenModsEnabled("CalamityMod")]
-        public class StarBeamRyeBuff : GlobalBuff
+        public class RagnarokBuffs : GlobalBuff
         {
             public static readonly Dictionary<string, Dictionary<string, int>> Buffs = new() {
                 //瑟银

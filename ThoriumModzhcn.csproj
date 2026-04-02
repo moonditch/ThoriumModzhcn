@@ -9,6 +9,9 @@
     <Reference Include="CalamityBardHealer">
       <HintPath>lib\CalamityBardHealer.dll</HintPath>
     </Reference>
+    <Reference Include="RagnarokMod">
+      <HintPath>lib\RagnarokMod_v1.5.2.dll</HintPath>
+    </Reference>
     <Reference Include="RedemptionBardHealer">
       <HintPath>lib\RedemptionBardHealer.dll</HintPath>
     </Reference>
