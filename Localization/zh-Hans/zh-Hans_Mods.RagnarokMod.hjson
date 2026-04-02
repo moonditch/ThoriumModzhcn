@@ -233,6 +233,7 @@ Items: {
 			咒音增幅额外延长3秒，灵感值恢复速度提高10%
 			按下套装奖励键会消耗20点，并补充10点灵感
 			被击中将失去25点，5秒内未命中敌人会快速失去点数
+			Boss生成时，你的点数会被重置
 			'''
 	}
 
@@ -255,6 +256,7 @@ Items: {
 			此外，你还会获得相当于造成伤害的一部分的治疗
 			按下套装奖励键会消耗20点，并获得25点额外治疗量
 			被击中将失去25点，5秒内未命中敌人会快速失去点数
+			Boss生成时，你的点数会被重置
 			'''
 	}
 
@@ -337,7 +339,11 @@ Items: {
 
 	StormFeather: {
 		DisplayName: 风暴之羽
-		Tooltip: 从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花。
+		Tooltip: 
+			'''
+			可以在商店卖出非常理想的价格
+			“从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花。”
+			'''
 	}
 
 	StrangeAlienMotherBoard: {
@@ -436,6 +442,13 @@ Items: {
 			最大魔力值增加60
 			魔力消耗减少20%
 			'''
+		SetBonus:
+			'''
+			一位守护医师会协助你治疗队友
+			为队友恢复等同于你的额外治疗量+5点的生命值
+			并赋予其持续20秒的守护医师祝福
+			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
+			'''
 	}
 
 	TarragonShroud: {
@@ -448,6 +461,13 @@ Items: {
 			极大的增加灵感值恢复速度
 			增加15%的灵感音符掉率
 			最大灵感值增加4
+			'''
+		SetBonus:
+			'''
+			一位守护医师会协助你治疗队友
+			为队友恢复等同于你的额外治疗量+5点的生命值
+			并赋予其持续20秒的守护医师祝福
+			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
@@ -468,14 +488,16 @@ Items: {
 		DisplayName: 苍帷头盔
 		Tooltip:
 			'''
-			降低35%非光辉伤害
-			增加60%光辉伤害和16%光辉暴击率
+			用暗能量增幅一些光辉攻击
+			降低33%非光辉伤害
+			增加33%光辉伤害
+			增加16%光辉暴击率
+			魔力消耗减少25%
 			最大魔力值增加60
 			'''
 		SetBonus:
 			'''
 			治疗法术会额外治疗4生命值
-			增加33%光辉伤害
 			你的所有攻击都会施加苍帷减益
 			苍帷减益每秒造成100伤害
 			苍帷减益会使得目标受到的所有伤害提高10%
@@ -486,8 +508,10 @@ Items: {
 		DisplayName: 苍帷胸甲
 		Tooltip:
 			'''
-			降低45%非光辉伤害
-			增加50%光辉伤害和12%光辉暴击率
+			降低25%非光辉伤害
+			增加25%光辉伤害
+			增加16%光辉暴击率
+			魔力消耗减少20%
 			'''
 	}
 
@@ -495,9 +519,11 @@ Items: {
 		DisplayName: 苍帷护胫
 		Tooltip:
 			'''
-			降低35%非光辉伤害
-			增加45%光辉伤害和8%光辉暴击率
+			降低20%非光辉伤害
+			增加20%光辉伤害
+			增加12%光辉暴击率
 			魔力消耗减少20%
+			移动速度增加20%
 			'''
 	}
 
@@ -527,7 +553,12 @@ Items: {
 
 	ProfanedScythe: {
 		DisplayName: 亵渎之镰
-		Tooltip: 一把神圣即地狱的镰刀
+		Tooltip: 
+			'''
+			被神圣狱火灼燃的镰刀
+			右键投掷镰刀，回程时会划出弧线折返
+			投掷时，镰刀造成的伤害提高20%并抛射熔岩团块
+			'''
 	}
 
 	MarbleScythe: {
@@ -540,8 +571,8 @@ Items: {
 		Tooltip:
 			'''
 			熔渣通过排出的蒸汽使镰刀旋转得更快
-			右键投掷巨镰，回程时会划出弧线折返
-			投掷时，巨镰造成的伤害提高20%
+			右键投掷镰刀，回程时会划出弧线折返
+			投掷时，镰刀造成的伤害提高20%
 			'''
 	}
 
@@ -1093,6 +1124,11 @@ Items: {
 		DisplayName: 音乐盒（诸神的黄昏主题曲）
 		Tooltip: 播放“Menu Theme” 作者：CrafterDaemon
 	}
+
+	GoldenBatDroppings: {
+		DisplayName: 金蝙蝠粪便
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -1574,6 +1610,73 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	AprilChaos: {
+		DisplayName: 愚人四月
+
+		Headers: {
+			AprilChaos: 愚人四月
+			RadiantMage: 光辉法师
+			MeleeSummoner: 近战召唤
+			RogueRanger: 盗贼射手
+			ObnoxiousBard: 没人喜欢吟游诗人
+		}
+
+		MasterToggle: {
+			Label: 主开关
+			Tooltip: 开启/关闭以下的所有选项
+		}
+
+		RadMage: {
+			Label: 光辉法师
+			Tooltip:
+				'''
+				牧师总让人觉得只是另一种法师
+				所以我们修正了这一点
+				办法就是用牧师取代法师
+				只要你信念够坚定，一切魔法都能成为治疗
+				或者下手够狠也行。
+				'''
+		}
+
+		MelSum: {
+			Label: 近战召唤
+			Tooltip:
+				'''
+				召唤师的成长路线原本有些尴尬的断档
+				所以我们修正了这一点
+				办法就是把整个战士都塞给召唤师
+				你的召唤物现在会尊敬你
+				你的剑不会。
+				'''
+		}
+
+		RogRan: {
+			Label: 盗贼射手
+			Tooltip:
+				'''
+				盗贼正在夺回自己的大本营
+				办法就是吞并射手
+				反正他们本来就是同一个人
+				其中一个只是行头更好一点。
+				'''
+		}
+
+		ObBard: {
+			Label: 没人喜欢吟游诗人
+			Tooltip: 使你的即兴演奏……没那么即兴
+		}
+
+		OwnRiffWeight: {
+			Label: 自带即兴演奏权重
+			Tooltip: ""
+		}
+
+		RiffWeights: {
+			Label: 即兴演奏权重
+			Tooltip: ""
+		}
+	}
 }
 
 WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:欢迎帮助我们完善官方][c/B428FF:诸神的黄昏][c/FF2929:维基][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:！][i:RagnarokMod/CorrosiveFlux]"
@@ -1582,5 +1685,12 @@ DiscordInvite: "[i:WireKite][c/9696FF:欢迎加入][c/B428FF:诸神的黄昏][c/
 PatreonAd: "[i:LuckyCoin][c/96FF96:如果你喜欢本模组，欢迎考虑在Patreon上支持我们：][c/3898FF:patreon.com/c/DevTeamRagnarok][i:LuckyCoin]"
 DisableMe: "[i:Wrench][c/FFFF0A:如果你不想再看到这些消息，可以在暂停菜单的配置中将其关闭！][i:Wrench]"
 Riffs.Cooldown: 即兴演奏冷却
-DamageClasses.ThoriumRogueClass.DisplayName: 盗贼伤害
+
+DamageClasses: {
+	ThoriumRogueClass.DisplayName: 盗贼伤害
+	MeleeSummoner.DisplayName: 召战伤害
+	RadiantMagic.DisplayName: 音法伤害
+	RogueRanger.DisplayName: 贼射伤害
+}
+
 Tiles.MenuMusicBoxTile.MapEntry: 主题曲音乐盒
