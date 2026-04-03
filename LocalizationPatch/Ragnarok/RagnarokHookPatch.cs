@@ -15,6 +15,7 @@ using Terraria.ModLoader;
 
 namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
 {
+    [JITWhenModsEnabled("RagnarokMod")]
     public class RagnarokHookPatch : ModSystem
     {
         private delegate void Oirg_TweakToolTips_ModifyTooltips(TweakToolTips self, Item item, List<TooltipLine> tooltips);
