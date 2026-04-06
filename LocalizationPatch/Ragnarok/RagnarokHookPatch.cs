@@ -148,7 +148,8 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
         }
         private static void On_TweakToolTips_ModifyTooltips(Oirg_TweakToolTips_ModifyTooltips orig, TweakToolTips self, Item item, List<TooltipLine> tooltips)
         {
-            if (ModLoader.TryGetMod("CalamityMod",out Mod cal))
+            if (!ModLoader.TryGetMod("CalamityMod", out Mod cal))
+                return;
 
             if (item.type == cal.Find<ModItem>("TheCommunity").Type)
             {
