@@ -169,6 +169,7 @@ ItemDescriptions: {
 		Damage will blast enemies with interdimensional energy
 		Damage also spawns a flurry void light that slashes enemies quickly
 		'''
+	OrnateArmor: Big instruments can no longer be mistimed but inspiration regeneration is frozen when holding any
 	SoulRender:
 		'''
 		Every third and fourth attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
@@ -523,6 +524,7 @@ Projectiles: {
 	ThoriumBludgeon.DisplayName: Thorium Bludgeon
 	ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
 	ThoriumRevolver.DisplayName: Thunder Zap
+	ThoriumSpear.DisplayName: Thunder Zap
 	ThoriumWhistle.DisplayName: Thunder Zap
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
@@ -1079,9 +1081,24 @@ Prefixes: {
 		Description: +2 life cost
 	}
 
+	Complicated: {
+		DisplayName: Complicated
+		Description: +25% timer speed
+	}
+
+	Favored: {
+		DisplayName: Favored
+		Description: -25% timer speed
+	}
+
 	Risky: {
 		DisplayName: Risky
 		Description: +1 life cost
+	}
+
+	Simplified: {
+		DisplayName: Simplified
+		Description: -25% timer speed
 	}
 
 	Suicidal: {
@@ -1487,6 +1504,11 @@ Configs: {
 		EnergyCatalyst: {
 			Label: "[i:ThoriumMod/EnergyCatalyst]Energy Catalyst"
 			Tooltip: ""
+		}
+
+		OrnateArmor: {
+			Label: "[i:ThoriumMod/OrnateJerkin]Ornate Armor"
+			Tooltip: Note: The set bonus is what's reworked, not the armor itself
 		}
 
 		SoulRender: {
