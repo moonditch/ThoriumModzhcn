@@ -1,7 +1,7 @@
 [h1]=感谢=[/h1]
 [list]
 [*] 灾厄维基出品的中文瑟银Wiki  
-[*] 令 / 水星 / 末泠 / moon.ditch：旧汉化支持  &  末泠 / 马达 / furgo / plantare / moon.ditch：旧代码支持  &  Ivybless：旧校对支持  &  moon.ditch：旧创意工坊维护
+[*] 令 / 水星 / 末泠 / moon.ditch：旧汉化支持  &  末泠 / 马达 / furgo / plantare / moon.ditch / 南亭：旧代码支持  &  Ivybless：旧校对支持  &  moon.ditch：旧创意工坊维护
 [*] Super_ego / 兹翼 / 终子星：瑟银联动救赎附属汉化  &  Yee苍棱：瑟银联动暗影奥秘附属汉化  &  虞悖：诸神的黄昏汉化
 [*] 感谢很多人在 QQ群 & 小黑盒帖子 & B站评论 & 百度帖子等地方指点本汉化的错误
 [*] 狐萝卜：精神支持
@@ -58,6 +58,7 @@
 [h1]=作者介绍=[/h1]
 [list]
 [*] Listentowind：官方中文瑟银模组Wiki维护
-[*] 布丁 / Super_ego / 白狐狸  /  Listentowind / 伍迪：现瑟银本体&附属简繁体汉化维护+诸神的黄昏汉化 (无校对)
-[*] 伍迪 / 南亭: 现代码支持
+[*] Listentowind / moon.ditch ：主要人员没空的github维护者？
+[*] 布丁（为主） / Super_ego / 白狐狸 / 伍迪：现瑟银本体&附属简繁体汉化维护+诸神的黄昏汉化 (无校对)
+[*] 伍迪: 现代码支持
 [/list]
