@@ -100,6 +100,11 @@ ItemDescriptions: {
 		攻击附近的敌人时，额外发射荧光束
 		被击中的敌人赋予荧光效果，并受到10%的伤害
 		'''
+	IllumiteScythe:
+		'''
+		对附近的敌人释放荧光刃砍
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
 	CobaltPopper: 使用过程中增加防御力
 	PalladiumSubmachineGun: 使用过程中增加生命再生
 	MythrilPelter: 使用一段时间后攻击速度会翻倍
@@ -164,6 +169,7 @@ ItemDescriptions: {
 		攻击时用虚空能量诅咒敌人
 		右键对敌人产生多数攻击并快速攻击附近的敌人
 		'''
+	OrnateArmor: 大型乐器不再会出现演奏时机错误，但持有任何大型乐器时不会恢复灵感值
 	SoulRender:
 		'''
 		每挥舞的第三和四次会释放旋转的灵魂之刃并造成40%的伤害
@@ -257,6 +263,18 @@ ItemDescriptions: {
 		使用此武器获得灵魂精华后，会生成一个不断扩大的漩涡。
 		暴击会造成额外伤害
 		'''
+	TerrariumBomber:
+		'''
+		释放追踪的彩色导弹
+		彩色导弹攻击到到敌人时分裂成三个
+		25%概率节省弹药
+		'''
+	TerrariumPulseRifle:
+		'''
+		一次性发射四个子弹
+		将合适的弹药转换成脉冲射线，继承子弹的命中效果
+		15%概率节省弹药
+		'''
 	TerrariumSaber:
 		'''
 		挥舞两把元素誓约之剑
@@ -272,23 +290,6 @@ ItemDescriptions: {
 		[c/DB7093:击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以对噬梦者造成伤害]
 		[c/DB7093:如果噬梦者已被击败，右键可以直接召唤噬梦者]
 		[c/DB7093:此外，始生灾灵在场时，右键会使其消失]
-		'''
-	IllumiteScythe:
-		'''
-		对附近的敌人释放荧光刃砍
-		被击中的敌人赋予荧光效果，并受到10%的伤害
-		'''
-	TerrariumBomber:
-		'''
-		释放追踪的彩色导弹
-		彩色导弹攻击到到敌人时分裂成三个
-		25%概率节省弹药
-		'''
-	TerrariumPulseRifle:
-		'''
-		一次性发射四个子弹
-		将合适的弹药转换成脉冲射线，继承子弹的命中效果
-		15%概率节省弹药
 		'''
 	DoomSayersCoinNoLucidity:
 		'''
@@ -402,6 +403,8 @@ InfernumIntros: {
 
 Projectiles: {
 	AbyssalApparition.DisplayName: 深渊幽灵
+	AbyssBubble.DisplayName: 毒性泡泡
+	AbyssBubble2.DisplayName: 毒性泡泡
 	AquaiusBubble.DisplayName: 泡泡
 	AquaiusPunchAttack.DisplayName: 潮汐之手
 	AquaiusWhirlpool.DisplayName: 无尽涡流
@@ -411,6 +414,8 @@ Projectiles: {
 	BeholderBlade.DisplayName: 注视者之刃
 	BiteyBaby.DisplayName: 贪食小蝙蝠
 	BlackHole.DisplayName: 黑洞
+	BubbleBomb.DisplayName: 大泡泡炸弹
+	BubbleColumn.DisplayName: 泡泡柱
 	ChampionBomber.DisplayName: 魔法爆弹
 	ChampionBomberF.DisplayName: 魔法爆弹
 	ChampionShield.DisplayName: 英灵的反击之盾
@@ -420,6 +425,7 @@ Projectiles: {
 	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
 	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
 	ChampionWarHorn.DisplayName: 英灵战号
+	ConcussiveInstrument.DisplayName: 震荡性仪器
 	DancingJellyfish.DisplayName: 跳舞水母
 	Darkness.DisplayName: 黑暗
 	DeathRain.DisplayName: 死亡之雨
@@ -430,6 +436,9 @@ Projectiles: {
 	DreadPulse.DisplayName: 恐惧脉冲
 	DyingReality.DisplayName: 垂死现实
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergyBurst.DisplayName: 花岗岩能量爆破
+	EnergyCollapse.DisplayName: 崩塌能量
+	EnergySpike.DisplayName: 能量尖刺
 	EnergySurge.DisplayName: 能量脉搏
 	EradicationBeam.DisplayName: 湮灭光束
 	EradicationBeamF.DisplayName: 湮灭光束
@@ -440,12 +449,22 @@ Projectiles: {
 	FalseSun.DisplayName: 伪日
 	FlareSlash.DisplayName: 怒火斩击
 	Flash.DisplayName: 闪光
+	Glacier.DisplayName: 冰川
+	Glacier2.DisplayName: 冰川
 	GrandThunder.DisplayName: 王鹰之雷
 	GrandThunderF.DisplayName: 王鹰之雷
 	GraniteCharge.DisplayName: 花岗岩充能
+	HeadHunter.DisplayName: 猎头者
+	HeadHunterShard.DisplayName: 猎头者碎片
+	HealingOrbRainbow.DisplayName: 彩虹治疗球
+	HealingOrbTeal.DisplayName: 青绿色治疗球
+	HealingOrbYellow.DisplayName: 黄色治疗球
+	HighTide.DisplayName: 高位潮
+	HighTideWave.DisplayName: 高位潮波
 	HitScan.DisplayName: 冲击射线
 	HitScanner.DisplayName: 冲击扫描仪
 	HitScannerTelegraph.DisplayName: 冲击扫描仪
+	IceShard.DisplayName: 冰碎块
 	IllumiteBlade.DisplayName: 荧光刃
 	IllumitePortal.DisplayName: 荧光传送门
 	ImpendingDread.DisplayName: 迫近之惧
@@ -454,9 +473,13 @@ Projectiles: {
 	InfernalRayTelegraph.DisplayName: 炼狱射线
 	JammingJellyfish.DisplayName: 水母音符
 	JellyfishJam.DisplayName: 水母音符
+	JellyfishShock.DisplayName: 水母冲击
+	Kusarigama.DisplayName: 锁镰
+	KusarigamaOrb.DisplayName: 风弹
 	LichLantern.DisplayName: 易爆灯笼
 	LichWhip.DisplayName: 震荡性仪器
 	LodeStoneClaymore.DisplayName: 地脉长刃
+	LodeStoneMagnetMace.DisplayName: 地脉磁石链锤
 	Loudener.DisplayName: 扩音器
 	LucidNuke.DisplayName: 洞察之能
 	LucidRay.DisplayName: 洞察之能
@@ -488,17 +511,27 @@ Projectiles: {
 	ShellxophoneStrike.DisplayName: 深渊冲击
 	SoulBleed.DisplayName: 灵魂流血
 	SoulRender.DisplayName: 灵魂镰刃
+	SoulSnatcher.DisplayName: 窃魂者
+	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	StableRealityRift.DisplayName: 稳定的现实裂隙
 	StarCore.DisplayName: 星核
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
+	TerrariumPulseRay.DisplayName: 元素脉冲射线
 	TerrariumSaber.DisplayName: 元素圣剑
+	TerrariumSoulScourge.DisplayName: 元素笞魂圣锤
+	TerrariumSoulScourge2.DisplayName: 元素笞魂圣锤
+	ThoriumBludgeon.DisplayName: 瑟银锤
 	ThoriumHeavyScythe.DisplayName: 瑟银重镰
+	ThoriumRevolver.DisplayName: 雷鸣闪击
+	ThoriumWhistle.DisplayName: 雷鸣闪击
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
 	TitanSword.DisplayName: 泰坦剑
 	TitanWhirlpool.DisplayName: 泰坦漩涡
 	ToothOfTheConsumer.DisplayName: 肉食者之牙
+	ValadiumHeavyScythe.DisplayName: 虚金重镰
+	ValadiumHeavyScytheWave.DisplayName: 虚金重镰
 	ValadiumRay.DisplayName: 虚空射线
 	ValadiumSlash.DisplayName: 虚空斩击
 	ValadiumSlicer.DisplayName: 虚金切割者
@@ -506,13 +539,13 @@ Projectiles: {
 	VaporizingFlames.DisplayName: 汽化灼焰
 	VaporizingFreeze.DisplayName: 汽化寒霜
 	VaporizingPoison.DisplayName: 汽化剧毒
+	VisualCrack.DisplayName: Crack
 	VisualShockwave.DisplayName: 冲击波
 	Void.DisplayName: 虚空
 	VoidEye.DisplayName: 注视者之眼
 	VoidEyeF.DisplayName: 注视者之刃
 	ZephyrFeather.DisplayName: 疾风之羽
 	ZephyrsRuin.DisplayName: 疾风残垣
-	TerrariumPulseRay.DisplayName: 元素脉冲射线
 }
 
 Items: {
@@ -1052,17 +1085,32 @@ Buffs: {
 Prefixes: {
 	Careless: {
 		DisplayName: 淡漠
-		Description: 增加2点生命消耗
+		Description: +2点生命消耗
+	}
+
+	Complicated: {
+		DisplayName: 复杂
+		Description: +25%计时器速度
+	}
+
+	Favored: {
+		DisplayName: 喜爱
+		Description: -25%计时器速度
 	}
 
 	Risky: {
 		DisplayName: 冒险
-		Description: 增加1点生命消耗
+		Description: +1点生命消耗
+	}
+
+	Simplified: {
+		DisplayName: 简单
+		Description: -25%计时器速度
 	}
 
 	Suicidal: {
 		DisplayName: 自杀
-		Description: 增加3点生命消耗
+		Description: +3点生命消耗
 	}
 }
 
@@ -1322,12 +1370,12 @@ Configs: {
 
 		ThoriumArmor: {
 			Label: "[i:ThoriumMod/ThoriumMail] 瑟银盔甲"
-			Tooltip: Note: 被改动的是套装效果，而不是护甲本身
+			Tooltip: 注意：被改动的是套装奖励，而不是护甲本身
 		}
 
 		ThoriumRevolver: {
 			Label: "[i:ThoriumMod/ThoriumRevolver] {$Mods.ThoriumMod.Items.ThoriumRevolver.DisplayName}"
-			Tooltip: 此选项会重新添加回它的制作配方
+			Tooltip: 注意：此选项会重新添加回它的制作配方
 		}
 
 		ThoriumSpear: {
@@ -1465,6 +1513,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		OrnateArmor: {
+			Label: "[i:ThoriumMod/OrnateJerkin] 华贵盔甲"
+			Tooltip: 注意：被改动的是套装奖励，而不是护甲本身
+		}
+
 		SoulRender: {
 			Label: "[i:ThoriumMod/SoulRender] {$Mods.ThoriumMod.Items.SoulRender.DisplayName}"
 			Tooltip: ""
@@ -1504,6 +1557,7 @@ Configs: {
 			Label: "[i:ThoriumMod/DragonTalon] {$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
 			Tooltip: ""
 		}
+
 		DragonsWail: {
 			Label: "[i:ThoriumMod/DragonsWail] {$Mods.ThoriumMod.Items.DragonsWail.DisplayName}"
 			Tooltip: ""
@@ -1513,7 +1567,7 @@ Configs: {
 			Label: "[i:ThoriumMod/TitanBreastplate]泰坦盔甲"
 			Tooltip:
 				'''
-				被改动的是套装加成，而不是护甲本身
+				注意：被改动的是套装奖励，而不是护甲本身
 				另外，新增的头盔需通过额外物品设置进行启/禁用，而非此选项
 				'''
 		}
@@ -1688,7 +1742,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-
 		DreadRazor: {
 			Label: "[i:ThoriumMod/DreadRazor] {$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"
 			Tooltip: ""
@@ -1745,8 +1798,3 @@ Configs: {
 		}
 	}
 }
-
-
-
-
-
