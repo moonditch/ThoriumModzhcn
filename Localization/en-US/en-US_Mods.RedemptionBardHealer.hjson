@@ -427,6 +427,11 @@ Configs: {
 	BalanceConfig: {
 		DisplayName: Balance Settings
 
+		elements: {
+			Label: Auto-Assign Elements
+			Tooltip: Automatically assigns elemental damage types to non-vanilla or Redemption weapons
+		}
+
 		thrower: {
 			Label: Throwing weapons damage multiplier
 			Tooltip:
