@@ -5,6 +5,12 @@ PhotosensitivityWarning:
 	You can turn off this warning in the config as well if you do not want to keep seeing it
 	'''
 
+ProgressionTweaks: {
+	GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
+	AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
+	AbyssionAndGolem: A powerful cult appears at world's edge!
+}
+
 ItemDescriptions: {
 	DreamWeaversHelmet: Maximum life increased by 60
 	DreamWeaversHood: Maximum life increased by 100
@@ -412,6 +418,7 @@ Projectiles: {
 	BandofCratons.DisplayName: Band of Cratons
 	BeamSaber.DisplayName: Beam Saber
 	BeholderBlade.DisplayName: Will of Coznix
+	BiterofSouls.DisplayName: Biter of Souls
 	BiteyBaby.DisplayName: Bitey Baby
 	BlackHole.DisplayName: Black Hole
 	BubbleBomb.DisplayName: Big Bubble Bomb
@@ -435,11 +442,12 @@ Projectiles: {
 	DreadRazor.DisplayName: Dread Razor
 	DreadPulse.DisplayName: Dread Pulse
 	DyingReality.DisplayName: Dying Reality
+	EaterPiper.DisplayName: Eater Piper
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergizedGranite.DisplayName: Energized Granite
 	EnergyBurst.DisplayName: Granite Energy Burst
-	EnergyCollapse.DisplayName: Collapsing Energy
-	EnergySpike.DisplayName: Energy Spike
-	EnergySurge.DisplayName: Energy Surge
+	EnergySpike.DisplayName: Granite Energy Spike
+	EnergySurge.DisplayName: Granite Energy Surge
 	EradicationBeam.DisplayName: Eradication Beam
 	EradicationBeamF.DisplayName: Eradication Beam
 	EradicationRay.DisplayName: Eradication Ray
@@ -449,11 +457,17 @@ Projectiles: {
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
+	FluteofCurses.DisplayName: Flute of Curses
+	FlyingFlute.DisplayName: Flying Flute
+	FlyingFlute2.DisplayName: Flying Flute
+	GildedFlyingFlute.DisplayName: Gilded Flying Flute
 	Glacier.DisplayName: Glacier
 	Glacier2.DisplayName: Glacier
 	GrandThunder.DisplayName: Grand Thunder
 	GrandThunderF.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
+	GraniteEnergyStormEffects.DisplayName: Granite Energy
+	GravitonOrb.DisplayName: Graviton Orb
 	HeadHunter.DisplayName: Head Hunter
 	HeadHunterShard.DisplayName: Head Hunter
 	HealingOrbRainbow.DisplayName: Healing Orb
@@ -462,8 +476,6 @@ Projectiles: {
 	HighTide.DisplayName: High Tide
 	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
-	HitScanner.DisplayName: Hit Scanner
-	HitScannerTelegraph.DisplayName: Hit Scanner
 	IceShard.DisplayName: Ice Shard
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
@@ -509,12 +521,15 @@ Projectiles: {
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
 	ShellxophoneStrike.DisplayName: Abyssal Strike
+	ShoulderBlade.DisplayName: Shoulder Blade
+	ShoulderBlade2.DisplayName: Shoulder Blade
 	SoulBleed.DisplayName: Soul Bleed
 	SoulRender.DisplayName: Soul Render
 	SoulSnatcher.DisplayName: Soul Snatcher
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	StableRealityRift.DisplayName: Stable Reality Rift
 	StarCore.DisplayName: Star Core
+	StarScouterEffects.DisplayName: Star Scouter
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: Stuff
 	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
@@ -537,6 +552,8 @@ Projectiles: {
 	ValadiumSlash.DisplayName: Void Slash
 	ValadiumSlicer.DisplayName: Valadium Slicer
 	VampireCape.DisplayName: Vampire Bat
+	Vaporize.DisplayName: Vaporizer
+	VaporizingBeam.DisplayName: Vaporizing Beam
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
@@ -605,6 +622,15 @@ Items: {
 			'''
 	}
 
+	BiterofSouls: {
+		DisplayName: Biter of Souls
+		Tooltip:
+			'''
+			Throws tiny soul eaters that enrages after some distance
+			While enraged, they pierce indefinitely and can hit the same target multple times
+			'''
+	}
+
 	ChampionWarHorn: {
 		DisplayName: Champion's Warhorn
 		Tooltip:
@@ -626,6 +652,16 @@ Items: {
 	DeathsingerPotion: {
 		DisplayName: Deathsinger Potion
 		Tooltip: 7% increased symphonic damage and playing speed
+	}
+
+	EaterPiper: {
+		DisplayName: Eater Piper
+		Tooltip:
+			'''
+			Summons wiggly worms that bites foes
+			Ignores 15 points of enemy Defense
+			"Give it a jar of pickled peppers"
+			'''
 	}
 
 	ExecutionersContract: {
@@ -652,6 +688,30 @@ Items: {
 			'''
 	}
 
+	FlyingFlute: {
+		DisplayName: Flying Flute
+		Tooltip:
+			'''
+			Summons a winged flute that will shoot enemies
+			Grants Flight Time II and Resource Regeneration I every time it attacks
+			"Does it look like it gives a flying flute?"
+			'''
+	}
+
+	GildedFlyingFlute: {
+		DisplayName: Gilded Flying Flute
+		Tooltip:
+			'''
+			{0}% increased symphonic damage
+			{1}% increased symphonic playing speed
+			Increases wind instrument homing speed by {2}%
+			Your wind instrument attacks now attempt to quickly home in on enemies
+			If the attack already homes onto enemies, it does so far more quickly
+			Summons a winged flute that will shoot enemies
+			Grants Flight Time II and Resource Regeneration I every time it attacks
+			'''
+	}
+
 	HeadHunter: {
 		DisplayName: Head Hunter
 		Tooltip:
@@ -672,6 +732,11 @@ Items: {
 	InspirationRegenerationPotion: {
 		DisplayName: Inspiration Regeneration Potion
 		Tooltip: Increased inspiration regeneration
+	}
+
+	FluteofCurses: {
+		DisplayName: Flute of Curses
+		Tooltip: Shoots cursed skulls that latch onto enemies, dealing continuous damage
 	}
 
 	JellyfishJam: {
@@ -831,6 +896,15 @@ Items: {
 			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration
 			Healing is increased for every unique empowerment allies have according to its level
 			"Calling the lurkers of the aquatic depths to play the finest symphony"
+			'''
+	}
+
+	ShoulderBlade: {
+		DisplayName: Shoulder Blade
+		Tooltip:
+			'''
+			Throws a flesh hatchet that stops at a certain distance
+			While stationary, the weapon has a brief sweet spot where it summons homing leech bolts on hit
 			'''
 	}
 
@@ -1131,6 +1205,24 @@ Configs: {
 			Tooltip: Enables boss renames added by this mod
 		}
 
+		starScouterEnrageText: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text"
+			Tooltip:
+				'''
+				Whether or not Star Scouter shows a text pop-up indicating enrage
+				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage
+				'''
+		}
+
+		starScouterEnrageVisuals: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
+			Tooltip:
+				'''
+				Whether or not Star Scouter turns red when enraged
+				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage
+				'''
+		}
+
 		lichOutline: {
 			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
 			Tooltip:
@@ -1327,6 +1419,15 @@ Configs: {
 		abyssion: {
 			Label: "[i:ThoriumMod/ForgottenOneMask]Abyssion"
 			Tooltip: Forgotten One rework
+		}
+
+		requireAbyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]Require Abyssion in Progression"
+			Tooltip:
+				'''
+				The Forgotten One now needs to be killed alongside Golem to allow the cultists to spawn
+				Automatically disabled in worlds where the Aquatic Depths didn't generate
+				'''
 		}
 
 		rag: {
@@ -1789,5 +1890,17 @@ Configs: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity]Incandescent Alacrity"
 			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
 		}
+	}
+}
+
+Achievements: {
+	CoreCollapse: {
+		FriendlyName: Core Collapse
+		Description: Defeat all three of Star Scouter's cores in under six seconds
+	}
+
+	MyBatsAreKindaChamberless: {
+		FriendlyName: My Bats Are Kinda Chamberless...
+		Description: Defeat Viscount without letting a single Bitey Baby siphon life from you
 	}
 }
