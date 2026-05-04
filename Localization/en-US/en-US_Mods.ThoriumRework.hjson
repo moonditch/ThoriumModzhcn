@@ -1711,6 +1711,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		FallenPaladinArmor: {
+			Label: "[i:ThoriumMod/FallenPaladinCuirass]Fallen Paladin Armor"
+			Tooltip: This is a nerf, this armor set is stupid broken
+		}
+
 		TerrariumHolyScythe: {
 			Label: "[i:ThoriumMod/TerrariumHolyScythe]Terrarium Holy Scythe"
 			Tooltip: ""
