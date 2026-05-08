@@ -58,7 +58,8 @@
 [h1]=作者介绍=[/h1]
 [list]
 [*] Listentowind：官方中文瑟银模组Wiki维护
-[*] Listentowind / moon.ditch / Super_ego / 伍迪：主要人员没空的github维护者？
-[*] 布丁（简体） / 白狐狸(繁体) / hqerVC / LezaiYa：现瑟银本体&附属简繁体汉化维护 (无校对)
+[*] Listentowind / moon.ditch(简/繁/代码) / Super_ego(简体) / 伍迪(简/繁/代码) / 布丁(简体) / 白狐狸(繁体) / hqerVC(简体) / LezaiYa(简体)：主要人员没空的github维护者？
+[*] 【没有了，招人】：现瑟银本体&附属简繁体汉化维护 (无校对)
 [*] 现代码支持【没有了，招人】
 [/list]
+[quote=tModLoader ThoriumModzhcn]
