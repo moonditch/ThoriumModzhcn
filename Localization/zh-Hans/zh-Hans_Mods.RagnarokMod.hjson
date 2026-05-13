@@ -1,67 +1,71 @@
 Buffs: {
 	AntarcticCreativityBuff: {
 		DisplayName: 极地创想
-		Description: 灵感值恢复速度提高15%和增加10%音波演奏速度
+		Description: 寒冷带来了杰出的灵感
+		ItemTooltip: 灵感值恢复速度提高和增加10%音波演奏速度
 	}
 
 	AntarcticReinforcementBuff: {
 		DisplayName: 极地援护
-		Description: 防御力增加8, 治疗法术会额外治疗2点生命值
+		Description: 寒冷保护着你
+		ItemTooltip: 防御力增加8, 治疗法术会额外治疗2点生命值
 	}
 
 	AntarcticExhaustionDebuff: {
 		DisplayName: 极地竭尽
-		Description: 你不能再次使用此增益了
+		Description: 寒冷刺骨
 	}
 
 	GuardianHealerBeamBuff: {
 		DisplayName: 圣晶守卫的祝福
-		Description: 额外降低10%伤害减免和5点生命恢复并持续20秒
-	}
-
-	UniversalBlessing: {
-		DisplayName: 至上祝福
-		Description: Mods.RagnarokMod.Buffs.UniversalBlessing.Description
+		Description: 你受到亵渎之力的祝福
+		ItemTooltip: 伤害减免增加10%，生命恢复增加5点
 	}
 
 	ElementalScytheCooldown: {
 		DisplayName: 元素收割者
-		Description: 元素收割者右键冷却时间！
+		Description: 元素收割者冷却时间！
 	}
 
 	ScytheAirBuff: {
 		DisplayName: 空气的祝福
-		Description: 增加20%移动速度和飞行时间
+		Description: 你总是乘风破浪
+		ItemTooltip: 增加20%移动速度和飞行时间
 	}
 
 	ScytheBrimstoneBuff: {
 		DisplayName: 硫磺火的祝福
-		Description: 所有攻击都造成硫磺火
+		Description: 你的敌人被炼化为诅咒之火
+		ItemTooltip: 所有攻击都造成硫磺火
 	}
 
 	ScytheEarthBuff: {
 		DisplayName: 大地的祝福
-		Description: 防御力增加10
+		Description: 大地保护着你
+		ItemTooltip: 防御力增加10
 	}
 
 	ScytheOasisBuff: {
 		DisplayName: 绿洲的祝福
-		Description: 自然回复提高15点生命值/秒
+		Description: 沙漠绿洲让你如获新生
+		ItemTooltip: 自然回复提高15点生命值/秒
 	}
 
 	ScytheSandBuff: {
 		DisplayName: 沙的祝福
-		Description: 增加5%攻击伤害
+		Description: 黄沙百战穿金甲
+		ItemTooltip: 增加5%攻击伤害
 	}
 
 	ScytheWaterBuff: {
 		DisplayName: 水的祝福
-		Description: 增加5%攻击速度
+		Description: 水流引导着你的手
+		ItemTooltip: 增加5%攻击速度
 	}
 
 	AuricSurge: {
 		DisplayName: 金源浪涌
-		Description: Mods.RagnarokMod.Buffs.AuricSurge.Description
+		Description: 你正受到来自内心的打击。
 	}
 
 	KellyPetBuff: {
@@ -72,46 +76,50 @@ Buffs: {
 	NightfallenDebuff: {
 		DisplayName: 苍帷减益
 		Description: Mods.RagnarokMod.Buffs.NightfallenDebuff.Description
+		DisplayName: 苍帷
+		Description: 黑暗吞噬一切。
+		ItemTooltip:
+			'''
+			无类型——100 DPS
+			所有来源的伤害增加10%
+			'''
 	}
 
 	LeviathanHeartBubble: {
-		DisplayName: 利维坦泡泡心
+		DisplayName: 利维坦泡泡
 		Description: 利维坦的泡泡给予你5%伤害减免
+		ItemTooltip: 增加5%伤害减免
 	}
 
 	LeviathanHeartBubbleCorrupted: {
-		DisplayName: 利维坦的腐坏泡泡心
+		DisplayName: 利维坦的腐坏泡泡
 		Description:
 			'''
 			腐坏的利维坦泡泡增加你10%的伤害
 			但你受到的伤害提升5%
 			'''
+		ItemTooltip: 增加10%伤害，受到的伤害增加5%
 	}
 }
 
 Tooltips: {
 	WhiteDwarfSetBonus:
 		'''
-		暴击会从星宇释放象牙状火焰
-		象牙状火焰会将目标的接触伤害反弹给其自身，
-		若该数值低于你的基础武器伤害，则改为造成你的基础武器伤害
+		盗贼攻击有5%概率从星宇释放象牙状火焰，造成1.75倍伤害
+		火焰的伤害基于非暴击伤害，但火焰本身可以暴击
 		'''
 
 	LeviathanHeart: {
 		NormalTooltip:
 			'''
 			治疗法术的治疗量提升25%
-			治疗法术会为目标施加一层防护气泡
-			使其+5%伤害减免，持续5秒
-			光辉攻击速度提升10%
+			治疗法术对目标施加[rbuff:RagnarokMod/LeviathanHeartBubble]增益
 			'''
 		CorruptTooltip:
 			'''
 			利维坦泡泡回应了你的暗能量！
 			所有生命值消耗减少1点
-			消耗生命值时会将你包裹于腐化气泡之中
-			获得+10%伤害，但受到的伤害提高5%
-			光辉攻击速度提升10%
+			消耗生命给予你[rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]增益
 			'''
 	}
 }
@@ -171,6 +179,7 @@ Items: {
 
 	AuricTeslaFrilledHelmet: {
 		DisplayName: 金缀韵灵盔
+		DisplayNameEclipse: 始生金缀韵灵盔
 		Tooltip:
 			'''
 			增加20%音波伤害、音波暴击率和音波追踪速度
@@ -182,7 +191,7 @@ Items: {
 		SetBonus:
 			'''
 			拥有狂想独奏帽/狂想启迪盔, 弑神者兜帽, 血嚎尖芒盔, 龙蒿魂罩的套装效果
-			按下“盔甲能力”键将触发两个狂想套装效果
+			按下'{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}'键将触发两个狂想套装效果
 			'''
 	}
 

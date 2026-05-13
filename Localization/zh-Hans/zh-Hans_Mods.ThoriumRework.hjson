@@ -5,6 +5,13 @@ PhotosensitivityWarning:
 	若你不想每次都看到此提示，也可在模组配置中关闭此警告
 	'''
 
+ProgressionTweaks: {
+	GolemNoAbyssion: 一只遗忘之物自水底苏醒，守护拜月邪教…
+	AbyssionNoGolem: 一位远古守卫自丛林苏醒，守护拜月邪教…
+	AbyssionAndGolem: 一个强大的邪教团出现在世界边缘！
+}
+
+
 ItemDescriptions: {
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
@@ -411,7 +418,8 @@ Projectiles: {
 	BannerofWar.DisplayName: 战争之旗
 	BandofCratons.DisplayName: 古陆核之带
 	BeamSaber.DisplayName: 激光剑
-	BeholderBlade.DisplayName: 注视者之刃
+	BeholderBlade.DisplayName: 注视者意志
+	BiterofSouls.DisplayName: 噬魂怪
 	BiteyBaby.DisplayName: 贪食小蝙蝠
 	BlackHole.DisplayName: 黑洞
 	BubbleBomb.DisplayName: 大泡泡炸弹
@@ -435,11 +443,12 @@ Projectiles: {
 	DreadRazor.DisplayName: 恐惧之锋
 	DreadPulse.DisplayName: 恐惧脉冲
 	DyingReality.DisplayName: 垂死现实
+	EaterPiper.DisplayName: 噬魂笛
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergizedGranite.DisplayName: 注能花岗岩
 	EnergyBurst.DisplayName: 花岗岩能量爆破
-	EnergyCollapse.DisplayName: 崩塌能量
-	EnergySpike.DisplayName: 能量尖刺
-	EnergySurge.DisplayName: 能量脉搏
+	EnergySpike.DisplayName: 花岗岩能量尖刺
+	EnergySurge.DisplayName: 花岗岩能能量脉冲
 	EradicationBeam.DisplayName: 湮灭光束
 	EradicationBeamF.DisplayName: 湮灭光束
 	EradicationRay.DisplayName: 湮灭激光
@@ -449,11 +458,17 @@ Projectiles: {
 	FalseSun.DisplayName: 伪日
 	FlareSlash.DisplayName: 怒火斩击
 	Flash.DisplayName: 闪光
+	FluteofCurses.DisplayName: 诅咒之笛
+	FlyingFlute.DisplayName: 飞笛
+	FlyingFlute2.DisplayName: 飞笛2
+	GildedFlyingFlute.DisplayName: 镀金飞笛
 	Glacier.DisplayName: 冰川
 	Glacier2.DisplayName: 冰川
 	GrandThunder.DisplayName: 王鹰之雷
 	GrandThunderF.DisplayName: 王鹰之雷
 	GraniteCharge.DisplayName: 花岗岩充能
+	GraniteEnergyStormEffects.DisplayName: 花岗岩能量
+	GravitonOrb.DisplayName: 引力子球
 	HeadHunter.DisplayName: 猎头者
 	HeadHunterShard.DisplayName: 猎头者碎片
 	HealingOrbRainbow.DisplayName: 彩虹治疗球
@@ -509,12 +524,15 @@ Projectiles: {
 	ShellxophoneHealing.DisplayName: 潮汐回涌
 	ShellxophoneRipple.DisplayName: 渊洋涟漪
 	ShellxophoneStrike.DisplayName: 深渊冲击
+	ShoulderBlade.DisplayName: 肩骨刃
+	ShoulderBlade2.DisplayName: 肩骨刃2
 	SoulBleed.DisplayName: 灵魂流血
 	SoulRender.DisplayName: 灵魂镰刃
 	SoulSnatcher.DisplayName: 窃魂者
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	StableRealityRift.DisplayName: 稳定的现实裂隙
 	StarCore.DisplayName: 星核
+	StarScouterEffects.DisplayName: 星际监察者
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
 	TerrariumPulseRay.DisplayName: 元素脉冲射线
@@ -536,6 +554,8 @@ Projectiles: {
 	ValadiumSlash.DisplayName: 虚空斩击
 	ValadiumSlicer.DisplayName: 虚金切割者
 	VampireCape.DisplayName: 吸血蝙蝠
+	Vaporize.DisplayName: 汽化物
+	VaporizingBeam.DisplayName: 汽化射线
 	VaporizingFlames.DisplayName: 汽化灼焰
 	VaporizingFreeze.DisplayName: 汽化寒霜
 	VaporizingPoison.DisplayName: 汽化剧毒
@@ -604,6 +624,15 @@ Items: {
 			'''
 	}
 
+	BiterofSouls: {
+		DisplayName: 啖魂者
+		Tooltip:
+			'''
+			投掷迷你噬魂怪，迷你噬魂怪会在飞行一段距离后进入狂暴状态
+			狂暴状态下，噬魂怪可以无限穿透，并多次攻击同一目标
+			'''
+	}
+
 	ChampionWarHorn: {
 		DisplayName: 英灵战号
 		Tooltip:
@@ -627,6 +656,16 @@ Items: {
 		Tooltip: 增加7%音波伤害和音波演奏速度
 	}
 
+	EaterPiper: {
+		DisplayName: 噬魂笛
+		Tooltip:
+			'''
+			召唤噬咬敌人的蠕虫
+			无视15点护甲
+			"给它一罐胡椒粉"
+			'''
+	}
+
 	ExecutionersContract: {
 		DisplayName: 刽子手协议
 		Tooltip:
@@ -648,6 +687,30 @@ Items: {
 			电子乐器的弹幕速度大幅提升
 			最大灵感增加5点
 			"卖得并不好，但至少有人好心地提供了帮助…"
+			'''
+	}
+
+	FlyingFlute: {
+		DisplayName: 飞笛
+		Tooltip:
+			'''
+			召唤一支带翅膀的飞笛攻击敌人
+			飞笛每次攻击时给予你飞行时间II与资源再生I
+			"它看起来像是一只会飞的长笛吗？"
+			'''
+	}
+
+	GildedFlyingFlute: {
+		DisplayName: Gilded Flying Flute
+		Tooltip:
+			'''
+			增加{0}%音波伤害
+			增加{1}%演奏速度
+			增加{2}%管乐器追踪速度
+			你的管乐器攻击现在会快速追踪敌人
+			如果管乐器本身能追踪，则进一步增加追踪速度
+			召唤一支带翅膀的飞笛攻击敌人
+			飞笛每次攻击时给予你飞行时间II与资源再生I
 			'''
 	}
 
@@ -675,6 +738,11 @@ Items: {
 	InspirationRegenerationPotion: {
 		DisplayName: 灵感恢复药水
 		Tooltip: 增加灵感恢复速度
+	}
+
+	FluteofCurses: {
+		DisplayName: 诅咒之笛
+		Tooltip: 发射诅咒骷髅头，对敌人造成持续伤害
 	}
 
 	JellyfishJam: {
@@ -836,6 +904,15 @@ Items: {
 			右键释放追踪队友的水滴，使用10点灵感值并治疗队友
 			治疗效果会根据队友的咒音增幅等级而增加
 			"唤醒蛰伏渊洋的生灵，奏响世间至韵之声"
+			'''
+	}
+
+	ShoulderBlade: {
+		DisplayName: 肩骨刃
+		Tooltip:
+			'''
+			投掷一把在一定距离停下的血肉飞斧
+			停下时若击中目标，则召唤追踪的吸血箭
 			'''
 	}
 
@@ -1138,6 +1215,24 @@ Configs: {
 			Tooltip: 启用时，为瑟银模组的boss进行重新重命名
 		}
 
+		starScouterEnrageText: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text星际监察者能量愤怒文本"
+			Tooltip:
+				'''
+				是否显示星际监察者被激怒的文本弹窗
+				此设置仅适用于重制版星际监察者，未重制版不受此设置影响，因为它不会被激怒
+				'''
+		}
+
+		starScouterEnrageVisuals: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
+			Tooltip:
+				'''
+				星际监察者被激怒时是否为红色
+				此设置仅适用于重制版星际监察者，未重制版不受此设置影响，因为它不会被激怒
+				'''
+		}
+
 		lichOutline: {
 			Label: "[i:ThoriumMod/LichMask]巫妖氛围强度"
 			Tooltip:
@@ -1334,6 +1429,15 @@ Configs: {
 		abyssion: {
 			Label: "[i:ThoriumMod/ForgottenOneMask]遗忘之主"
 			Tooltip: 遗忘之主重置
+		}
+
+		requireAbyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]将深渊纳入主线进度"
+			Tooltip:
+				'''
+				必须击败遗忘之主与石巨人才能生成邪教徒
+				在未生成深海的世界中，此功能将自动禁用
+				'''
 		}
 
 		rag: {
@@ -1617,6 +1721,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		FallenPaladinArmor: {
+			Label: "[i:ThoriumMod/FallenPaladinCuirass]堕落圣骑士盔甲"
+			Tooltip: 这是个削弱，这盔甲太烂了
+		}
+
 		TerrariumHolyScythe: {
 			Label: "[i:ThoriumMod/TerrariumHolyScythe] {$Mods.ThoriumMod.Items.TerrariumHolyScythe.DisplayName}"
 			Tooltip: ""
@@ -1796,5 +1905,17 @@ Configs: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity] {$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
 			Tooltip: 不会对此物品进行任何更改，只是让他继续运行 {$ItemName.EmpressFlightBooster}。
 		}
+	}
+}
+
+Achievements: {
+	CoreCollapse: {
+		FriendlyName: 核心坍缩
+		Description: 在6秒内击败星际监察者的三个核心
+	}
+
+	MyBatsAreKindaChamberless: {
+		FriendlyName: 我的小蝙蝠要饿扁了…
+		Description: Defeat Viscount without letting a single Bitey Baby siphon life from you在不让任何贪食小蝙蝠偷取你的生命值的情况下击败蝙蝠子爵
 	}
 }
