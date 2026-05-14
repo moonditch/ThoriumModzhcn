@@ -193,12 +193,15 @@ Items: {
 			拥有狂想独奏帽/狂想启迪盔, 弑神者兜帽, 血嚎尖芒盔, 龙蒿魂罩的套装效果
 			按下'{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}'键将触发两个狂想套装效果
 			'''
+		SetBonusHelheim: 龙蒿、血炎与弑神者套装奖励
 	}
 
 	AuricTeslaHealerHead: {
 		DisplayName: 金煌圣祗盔
+		DisplayNameEclipse: 始生金煌圣祗盔
 		Tooltip:
 			'''
+			腐化你的光辉能量
 			增加100%光辉伤害，降低80%非光辉伤害
 			增加25%光辉暴击率
 			增加5%移动速度
@@ -206,11 +209,16 @@ Items: {
 			治疗法术会额外治疗10生命值
 			最大魔力值增加100
 			'''
+		ToggleTooltip: "[c/aaaaaa:在物品栏中按住Shift键并右键点击该物品切换模式，] [c/CC44FF:腐化你的光辉力量]"
 		SetBonus:
 			'''
-			拥有梦境编织者兜帽/梦境编织者头盔, 始源林海覆面盔, 血恸幽冥盔, 龙蒿风帽，苍帷头盔的套装效果
+			拥有梦境编织者兜帽/梦境编织者头盔, 始源林海覆面盔, 血恸幽冥盔的套装效果
 			按下“盔甲能力”键将触发两个梦境编织者套装效果
 			增加50%光辉伤害
+			'''
+		SetBonusHelheim:
+			'''
+			龙蒿、血炎与始源林海套装奖励
 			'''
 	}
 
@@ -222,7 +230,7 @@ Items: {
 			错失节拍会大幅降低这些加成并消耗9点灵感值
 			这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
 			连续两次或更多次的成功攻击会释放出一道巨大的燃烧斩击
-			燃烧斩击会将范围内的所有敌人都施加圣域神火减益
+			燃烧斩击会将范围内的所有敌人都施加[cbuff:CalamityMod/HolyFlames]
 			'''
 	}
 
@@ -271,7 +279,7 @@ Items: {
 
 	CalamityBell: {
 		DisplayName: 灾厄之铃
-		Tooltip: 发射追踪的无际裂变弹幕，被击中的敌人会被硫磺火灼烧
+		Tooltip: 发射追踪的无际裂变弹幕，被击中的敌人会被[cbuff:CalamityMod/BrimstoneFlames]灼烧
 	}
 
 	CelestialManaCost: 魔力消耗减少20%
@@ -286,9 +294,7 @@ Items: {
 		SetBonus:
 			'''
 			增加10%灵感值恢复速度
-			按下'盔甲能力'键将赋予你和你的队友攻速I和伤害I
-			你将获得极地创想
-			在极地创意增幅下，增加15%灵感恢复速度和10%音波演奏速度
+			按住“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}” 键会给予你15秒的[rbuff:RagnarokMod/AntarcticCreativityBuff]增益
 			消耗12点灵感值
 			'''
 	}
@@ -305,8 +311,7 @@ Items: {
 		SetBonus:
 			'''
 			治疗法术会额外治疗3生命值
-			按下'盔甲能力'键将为你提供50点护盾，并赋予你15秒的极地援护
-			极地援护期间你将获得8点防御且你的治疗法术将额外治疗2点生命
+			按住“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}” 键会给予你15秒的[rbuff:RagnarokMod/AntarcticReinforcementBuff]并回复50生命值
 			消耗100点魔力值
 			'''
 	}
@@ -360,21 +365,17 @@ Items: {
 		Tooltip:
 			'''
 			从星际监察者身上掉落下来的主板
-			这个物品蕴含的科技超出了你的认知。
+			“这个物品蕴含的科技超出了你的认知。”
 			'''
 	}
 
 	BelchingSaxophoneOverride: {
-		DisplayName: 喷嗝萨克斯
-		Tooltip:
-			'''
-			发射一串哨片、音符和硫磺气泡
-			“嘟嘟”
-			'''
+		DisplayName: "{$CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
+		Tooltip: "{$CalamityMod.Items.Weapons.Magic.BelchingSaxophone.Tooltip}"
 	}
 
 	AnahitasArpeggioOverride: {
-		DisplayName: 阿娜希塔琶音
+		DisplayName: "{$CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip: 发射缓慢移动的高音音符诱惑敌人
 	}
 
@@ -390,12 +391,12 @@ Items: {
 
 	EmpoweredGranite: {
 		DisplayName: 赋能花岗岩
-		Tooltip: 充斥着风暴能量的花岗岩块。
+		Tooltip: “充斥着风暴能量的花岗岩块”
 	}
 
 	EnchantedMarble: {
-		DisplayName: 魔能大理岩
-		Tooltip: 盈满了古代神圣魔法的特殊大理岩
+		DisplayName: 魔能大理石
+		Tooltip: “盈满了古代神圣魔法的特殊大理石”
 	}
 
 	StatigelHeadBard: {
@@ -437,7 +438,7 @@ Items: {
 
 	StriderFang: {
 		DisplayName: 遁蛛冰牙
-		Tooltip: 从极地遁蛛嘴里拔下来的寒冰獠牙
+		Tooltip: “从极地遁蛛嘴里拔下来的寒冰獠牙”
 	}
 
 	TarragonCowl: {
@@ -455,7 +456,7 @@ Items: {
 			'''
 			一位守护医师会协助你治疗队友
 			为队友恢复等同于你的额外治疗量+5点的生命值
-			并赋予其持续20秒的守护医师祝福
+			并赋予其[rbuff:RagnarokMod/GuardianHealerBeamBuff]持续20秒
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
@@ -473,9 +474,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			一位守护医师会协助你治疗队友
-			为队友恢复等同于你的额外治疗量+5点的生命值
-			并赋予其持续20秒的守护医师祝福
+			音波暴击会使你一个已激活的咒音增幅提升一级
+			你的咒音增幅持续时间增加50%
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
@@ -487,9 +487,6 @@ Items: {
 			'''
 			敌人将不太可能以你为目标
 			浸泡在液体中，增加3点生命再生，增加10%光辉伤害，降低10%非光辉伤害
-			使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕
-			贝壳造成真实伤害，不受任何职业伤害加成影响
-			提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度
 			'''
 	}
 
@@ -507,9 +504,7 @@ Items: {
 		SetBonus:
 			'''
 			治疗法术会额外治疗4生命值
-			你的所有攻击都会施加苍帷减益
-			苍帷减益每秒造成100伤害
-			苍帷减益会使得目标受到的所有伤害提高10%
+			所有攻击会施加[rbuff:RagnarokMod/NightfallenDebuff]减益
 			'''
 	}
 
@@ -543,9 +538,6 @@ Items: {
 			'''
 			敌人将不太可能以你为目标
 			浸泡在液体中，增加3点生命再生，增加10%音波伤害
-			使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕
-			贝壳造成真实伤害，不受任何职业伤害加成影响
-			提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度
 			'''
 	}
 
@@ -565,7 +557,7 @@ Items: {
 		Tooltip: 
 			'''
 			被神圣狱火灼燃的镰刀
-			右键投掷镰刀，回程时会划出弧线折返
+			右键以弧线轨迹投掷镰刀
 			投掷时，镰刀造成的伤害提高20%并抛射熔岩团块
 			'''
 	}
@@ -580,7 +572,7 @@ Items: {
 		Tooltip:
 			'''
 			熔渣通过排出的蒸汽使镰刀旋转得更快
-			右键投掷镰刀，回程时会划出弧线折返
+			右键以弧线轨迹投掷镰刀
 			投掷时，镰刀造成的伤害提高20%
 			'''
 	}
@@ -589,7 +581,16 @@ Items: {
 
 	AstralRipper: {
 		DisplayName: 幻星镰刃
-		Tooltip: 利用星辉瘟疫向你的敌人释放地狱之雨!
+		Tooltip:
+			'''
+			旋转镰刀会创造出围绕你旋转的星星
+			完成一个完整的循环后，星星会沿轨道跳动并爆炸
+			按住右键会为镰刀充能
+			充能期间，星星会开始迅速向你的光标坠落
+			释放右键，挥舞镰刀划出一道巨大的弧线
+			此时命中目标会召唤一大群星星
+			所有攻击造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+			'''
 	}
 
 	RadioMic: {
@@ -615,17 +616,16 @@ Items: {
 
 	TrueSquirrelScarf: {
 		DisplayName: 真松鼠围巾
-		Tooltip: 松鼠围巾的真正原初形态。增加999哨兵槽
+		Tooltip:
+			'''
+			松鼠围巾的真正原初形态
+			增加999哨兵槽
+			'''
 	}
 
 	Prisma: {
 		DisplayName: 海棱杖
 		Tooltip: 释放海棱之星，然后碎裂成五个尖刺
-	}
-
-	Fractal: {
-		DisplayName: 晶变流形
-		Tooltip: 发射一个不断迸射的神圣魔力星
 	}
 
 	VoidseerPearl: {
@@ -680,9 +680,9 @@ Items: {
 			右键填充8发子弹
 			最多填充64发子弹
 			左键释放所有子弹
-			命中有几率释放追踪的治疗血弹
-			射击会增加击杀敌人时释放鲜血飞溅的几率
-			手持时治疗只有 50% 的效果
+			枪膛里总是会有8发子弹
+			击中敌人时生成血球
+			拾取这些血球会减少[rbuff:PotionSickness]的持续时间
 			“血 液 即 弹 药！”
 			'''
 	}
@@ -692,7 +692,7 @@ Items: {
 		Tooltip:
 			'''
 			释放圣之爆焱
-			对击中的敌人施加持续3秒的神圣之火减益
+			对击中的敌人施加持续3秒的[cbuff:CalamityMod/HolyFlames]减益
 			'''
 	}
 
@@ -714,7 +714,11 @@ Items: {
 
 	EldritchShellFragment: {
 		DisplayName: 诡异的贝壳碎片
-		Tooltip: 从旧潮汐神的监狱里取出的魔法碎片
+		Tooltip:
+			'''
+			在市场上能卖个好价钱
+			'一块来自上古之神监狱的注魔碎片'
+			'''
 	}
 
 	SigilOfACruelWorld: {
@@ -741,7 +745,7 @@ Items: {
 			'''
 	}
 
-	GoldenxBatDroppings: {
+	GoldenBatDroppings: {
 		DisplayName: 金蝙蝠粪便
 		Tooltip:
 			'''
@@ -749,7 +753,7 @@ Items: {
 			基于持有的钱币增加伤害（仅限钱币栏）
 			这个加成在肾上腺素模式下增加50%
 			死亡时，你会永久损失25%的钱币（大师或死亡模式下为50%）
-			“你不是贪婪……你是彻头彻尾的疯子！”
+			“你不是贪婪，你只是疯了！”
 			'''
 	}
 
@@ -763,7 +767,7 @@ Items: {
 		Tooltip:
 			'''
 			注射器可以治愈也可以造成伤害
-			攻击时造成弑神怒焰减益
+			攻击时造成[cbuff:CalamityMod/GodSlayerInferno]减益
 			使用注射器作为弹药
 			'''
 	}
@@ -779,7 +783,7 @@ Items: {
 
 	GraspofVoid: {
 		DisplayName: 虚空之握
-		Tooltip: 发射虚空精华，命中时造成暗影焰减益
+		Tooltip: 发射虚空精华，命中时造成[rbuff:ShadowFlame]减益
 	}
 
 	PhantasmalEdge: {
@@ -790,7 +794,7 @@ Items: {
 			停止旋转镰刀火球立即攻击最近的目标
 
 			右键释放钩子把敌人拉向你。
-			对BOSS不起作用，反而会把你拉向BOSS
+			但是，一些强大的敌人反而会把你拉向他们！
 			'''
 	}
 
@@ -798,8 +802,22 @@ Items: {
 		DisplayName: 弑神收割
 		Tooltip:
 			'''
-			镰刀旋转时在边缘生成一个类似于小神明吞噬者的全息图
-			受到此攻击的敌人会受到更多伤害，并受到弑神怒焰减益
+			镰刀旋转时在边缘生成一个类似于小神明吞噬者的投影
+			这个投影会随时间逐渐累积伤害，达到上限后会对命中目标造成[cbuff:CalamityMod/GodSlayerInferno]减益
+			在投影激活时停止使用镰刀，将释放投影攻击最近的敌人
+			释放的投影将造成更高伤害，并施加[cbuff:CalamityMod/WhisperingDeath]减益
+			'''
+	}
+
+	LucentGemini: {
+		DisplayName: 辉明双星
+		Tooltip:
+			'''
+			旋转镰刀时会被一股缥缈的月光包围
+			击中敌人会生成[c/78C8FF:Soul Essence]，并且有概率生成[c/78C8FF:幻云星爆]
+			当拥有五个或更多幻云星爆时，按住右键可以召唤[c/A0DCFF:双子]星座
+			每颗星星都会释放穿透月光，造成[cbuff:CalamityMod/Voidfrost]减益
+			再次按住右键可以取消星座
 			'''
 	}
 
@@ -812,15 +830,14 @@ Items: {
 		DisplayName: 元素收割者
 		Tooltip:
 			'''
-			旋转这把镰刀可生成追踪敌人的弹幕并造成元素谐鸣减益
-			右键给予你和你的队友一个元素祝福，持续10秒并有30秒冷却时间。
-			元素祝福如下：
-			沙: 增加5%攻击伤害
-			水: 增加5%攻击速度
-			空气: 增加20%移动速度和飞行时间
-			大地: 防御力增加10
-			绿洲: 在10秒内回复150点生命值。
-			硫磺火: 所有攻击都造成硫磺火
+			旋转这把镰刀可生成追踪敌人的弹幕并造成[rbuff:CalamityMod/ElementalMix]减益
+			右键给予你和你的队友一个下面的元素祝福，持续10秒：
+			[rbuff:RagnarokMod/ScytheAirBuff]
+			[rbuff:RagnarokMod/ScytheBrimstoneBuff]
+			[rbuff:RagnarokMod/ScytheEarthBuff]
+			[rbuff:RagnarokMod/ScytheOasisBuff]
+			[rbuff:RagnarokMod/ScytheSandBuff]
+			[rbuff:RagnarokMod/ScytheWaterBuff]
 			'''
 	}
 
@@ -829,7 +846,7 @@ Items: {
 		Tooltip:
 			'''
 			旋转时，你会被一圈硫火环绕，对周围持续造成伤害
-			被火圈命中的敌人将受到硫磺火减益，持续5秒
+			被火圈命中的敌人将受到[cbuff:CalamityMod/BrimstoneFlames]减益，持续5秒
 			当生命值低于25%时，若以火圈击杀敌人，将回复3点生命值，并额外回复该敌人最大生命值的5%
 			'''
 	}
@@ -880,7 +897,7 @@ Items: {
 
 	Lamentation: {
 		DisplayName: 嗟叹
-		Tooltip: 发射追踪的深渊炙炎，命中时造成硫磺火减益
+		Tooltip: 发射追踪的深渊炙炎，命中时造成[cbuff:CalamityMod/BrimstoneFlames]减益
 	}
 
 	Virusprayer: {
@@ -933,7 +950,6 @@ Items: {
 		Tooltip:
 			'''
 			人鱼的歌喉为你的旋律附上魔法
-
 			增加15%音波伤害
 			增加20%灵感恢复速度
 			阿娜希塔会随你的弦乐器一同吟唱，额外发射水流弹幕
@@ -1015,6 +1031,8 @@ Items: {
 			释放血腥冲击波
 			右键即兴演奏[c/AA1111:血肉凝聚剂]！
 			即兴演奏期间，范围内所有玩家获得生命汲取效果
+			在连击期间把握攻击时机可以冷却时间
+			在连击期间错失时机不会减少冷却时间，但也不会降低你的伤害
 			'''
 	}
 
@@ -1045,14 +1063,30 @@ Items: {
 			'''
 	}
 
+	ToxicWaves: {
+		DisplayName: 毒浪
+		Tooltip:
+			'''
+			发射漂浮的毒云，造成[cbuff:CalamityMod/SulphuricPoisoning]与[cbuff:CalamityMod/Irradiated]减益
+			毒云会根据你额外的弦乐器反弹次数穿透敌人
+			右键即兴演奏[c/37C300:毒海智者]！
+			当即兴演奏处于激活状态时，一个硫磺漩涡会从上方召唤出酸液鲨鱼
+			在即兴演奏期间成功在计时区域击中，会缩短冷却时间
+			'''
+	}
+
 	FateoftheGods: {
 		DisplayName: 众神命数
 		Tooltip:
 			'''
 			感谢整个团队、所有支持者，以及每一位游玩并让本模组延续至今的玩家！
-			这幅画的大小无法容纳整个团队
-			长按SHIFT键可以查看以前和当前的开发者
+			这幅画的大小无法容纳整个团队	
+			[c/999999:长按SHIFT键可以查看以前和当前的开发者]
 			'''
+		Donors: 捐献者
+		Artists: 画师
+		Programmers: 程序
+		OtherDevelopers: 其他开发者
 	}
 
 	ProfanityFilter: {
@@ -1072,12 +1106,13 @@ Items: {
 		DisplayName: 熔晶单片镜
 		Tooltip:
 			'''
-			曾为一位臭名昭著的地狱原住民所佩戴
+			曾为一位臭名昭著的地狱明星所佩戴
 			增加25%音波伤害
 			基础伤害咒音增幅对你的效果提升至两倍
-			无线电麦克风的灵感值消耗减少2点
-			无线电麦克风赋予的伤害咒音增幅提升1级
-			无线电麦克风现在会施加魅惑减益，持续5秒
+			佩戴时，无线电麦克风获得以下加成：
+			灵感消耗降低2点
+			伤害咒音增幅增加1级
+			造成5秒[rbuff:ThoriumMod/Charmed]减益
 			'''
 	}
 
