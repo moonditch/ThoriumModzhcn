@@ -74,9 +74,9 @@ Buffs: {
 	}
 
 	NightfallenDebuff: {
-		DisplayName: 苍帷减益
+		DisplayName: 堕夜减益
 		Description: Mods.RagnarokMod.Buffs.NightfallenDebuff.Description
-		DisplayName: 苍帷
+		DisplayName: 堕夜
 		Description: 黑暗吞噬一切。
 		ItemTooltip:
 			'''
@@ -223,7 +223,7 @@ Items: {
 	}
 
 	BlazingDrumBeat: {
-		DisplayName: 亵渎鼓棒
+		DisplayName: 华饰鼓槌
 		Tooltip:
 			'''
 			成功在计时区域击中时，会增加咒音增幅等级和伤害
@@ -285,7 +285,7 @@ Items: {
 	CelestialManaCost: 魔力消耗减少20%
 
 	DaedalusHeadBard: {
-		DisplayName: 代达罗斯风帽
+		DisplayName: 代达罗斯头饰
 		Tooltip:
 			'''
 			增加12%音波伤害和5%音波暴击率
@@ -300,7 +300,7 @@ Items: {
 	}
 
 	DaedalusHeadHealer: {
-		DisplayName: 代达罗斯面具
+		DisplayName: 代达罗斯之面
 		Tooltip:
 			'''
 			魔力消耗减少10%
@@ -317,7 +317,7 @@ Items: {
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: 弑神者兜帽
+		DisplayName: 弑神者三角帽
 		Tooltip:
 			'''
 			增加25%音波伤害和15%音波暴击率
@@ -329,7 +329,7 @@ Items: {
 	}
 
 	SilvaHeadHealer: {
-		DisplayName: 始源林海覆面
+		DisplayName: 始源林海花盔
 		Tooltip:
 			'''
 			魔力消耗减少25%
@@ -462,7 +462,7 @@ Items: {
 	}
 
 	TarragonShroud: {
-		DisplayName: 龙蒿魂罩
+		DisplayName: 龙蒿头冠
 		Tooltip:
 			'''
 			增加5%伤害减免
@@ -491,7 +491,7 @@ Items: {
 	}
 
 	NightfallenHelmet: {
-		DisplayName: 苍帷头盔
+		DisplayName: 堕夜头盔
 		Tooltip:
 			'''
 			用暗能量增幅一些光辉攻击
@@ -509,7 +509,7 @@ Items: {
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: 苍帷胸甲
+		DisplayName: 堕夜胸甲
 		Tooltip:
 			'''
 			降低25%非光辉伤害
@@ -520,7 +520,7 @@ Items: {
 	}
 
 	NightfallenGreaves: {
-		DisplayName: 苍帷护胫
+		DisplayName: 堕夜护胫
 		Tooltip:
 			'''
 			降低20%非光辉伤害
@@ -624,7 +624,7 @@ Items: {
 	}
 
 	Prisma: {
-		DisplayName: 海棱杖
+		DisplayName: 海棱镜
 		Tooltip: 释放海棱之星，然后碎裂成五个尖刺
 	}
 
@@ -638,7 +638,7 @@ Items: {
 	}
 
 	QueenJelly: {
-		DisplayName: 水母皇后胶体
+		DisplayName: 皇后胶体
 		Tooltip:
 			'''
 			恢复 100 生命值
@@ -674,7 +674,7 @@ Items: {
 	}
 
 	Splattercannon: {
-		DisplayName: 飞溅加农
+		DisplayName: 血爆加农炮
 		Tooltip:
 			'''
 			右键填充8发子弹
@@ -697,7 +697,7 @@ Items: {
 	}
 
 	AuricDamru: {
-		DisplayName: 金源双头鼓
+		DisplayName: 金源手摇鼓
 		Tooltip:
 			'''
 			敲打双头鼓并对附近敌人造成伤害
@@ -758,7 +758,7 @@ Items: {
 	}
 
 	VerdurantBloom: {
-		DisplayName: 常春之瓣
+		DisplayName: 苍翠绽放
 		Tooltip: 发射一串多样的花瓣
 	}
 
@@ -773,7 +773,7 @@ Items: {
 	}
 
 	Korobeiniki: {
-		DisplayName: 俄罗斯方块
+		DisplayName: 货郎之歌
 		Tooltip:
 			'''
 			四格拼板从天而落
@@ -810,7 +810,7 @@ Items: {
 	}
 
 	LucentGemini: {
-		DisplayName: 辉明双星
+		DisplayName: 流明双星
 		Tooltip:
 			'''
 			旋转镰刀时会被一股缥缈的月光包围
@@ -867,7 +867,7 @@ Items: {
 	}
 
 	NightmareFreezer: {
-		DisplayName: 噩梦制冷工
+		DisplayName: 极寒梦魇
 		Tooltip:
 			'''
 			镰刀旋转时周期性地释放出一连串冰冷的飞镖
@@ -906,7 +906,7 @@ Items: {
 	}
 
 	IntergelacticRobohelm: {
-		DisplayName: 异宇星凝机冠
+		DisplayName: 异宇星凝机械头盔
 		Tooltip:
 			'''
 			增加20%的音波伤害，暴击率和演奏速度
@@ -918,7 +918,7 @@ Items: {
 	}
 
 	IntergelacticRamhelm: {
-		DisplayName: 异宇星凝角铠
+		DisplayName: 异宇星凝战盔
 		Tooltip:
 			'''
 			降低40%非光辉伤害
@@ -957,7 +957,7 @@ Items: {
 	}
 
 	ScourgesFrets: {
-		DisplayName: 祸弦灾品
+		DisplayName: 灾虫之琴
 		Tooltip:
 			'''
 			发射会反弹的沙尘声波
@@ -981,10 +981,10 @@ Items: {
 		DisplayName: 辐辉无量
 		Tooltip:
 			'''
-			左键发射一枚[c/FF5555:辉光赫]光球，拥有极强击退力
-			右键召唤一枚跟随光标移动的[c/55AAFF:辉光苍]光球
-			[c/55AAFF:辉光苍]会牵引附近敌人，并在每次命中后逐渐变大
-			当其达到临界质量时，用[c/FF5555:辉光赫]击中它以释放[c/CC44FF:辉光茈]
+			左键发射一枚[c/FF5555:红辉光]球，拥有极强击退力
+			右键召唤一枚跟随光标移动的[c/55AAFF:蓝辉光]球
+			[c/55AAFF:蓝辉光]会牵引附近敌人，并在每次命中后逐渐变大
+			当其达到临界质量时，用[c/FF5555:红辉光]击中它以释放[c/CC44FF:紫辉光]
 			'''
 	}
 
@@ -994,7 +994,7 @@ Items: {
 	}
 
 	DevourerOfSines: {
-		DisplayName: 正弦噬音
+		DisplayName: 正弦吞噬者
 		Tooltip:
 			'''
 			持续引导此武器，创造一道巨大的正弦波
@@ -1004,7 +1004,7 @@ Items: {
 	}
 
 	Ectambourine: {
-		DisplayName: 幽界铃鼓
+		DisplayName: 灵质铃鼓
 		Tooltip:
 			'''
 			投掷无穷无尽的幽灵铃鼓
@@ -1051,7 +1051,7 @@ Items: {
 	}
 
 	StellarRiff: {
-		DisplayName: 星界狂想
+		DisplayName: 恒星即兴曲
 		Tooltip:
 			'''
 			发射会自动追踪的星辰，命中后分裂为追踪碎星
