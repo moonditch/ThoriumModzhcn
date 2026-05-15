@@ -814,8 +814,8 @@ Items: {
 		Tooltip:
 			'''
 			旋转镰刀时会被一股缥缈的月光包围
-			击中敌人会生成[c/78C8FF:Soul Essence]，并且有概率生成[c/78C8FF:幻云星爆]
-			当拥有五个或更多幻云星爆时，按住右键可以召唤[c/A0DCFF:双子]星座
+			击中敌人会生成[c/78C8FF:Soul Essence]，并且有概率生成[c/78C8FF:幻云星芒]
+			当拥有五个或更多幻云星芒时，按住右键可以召唤[c/A0DCFF:双子]星座
 			每颗星星都会释放穿透月光，造成[cbuff:CalamityMod/Voidfrost]减益
 			再次按住右键可以取消星座
 			'''
@@ -1169,8 +1169,62 @@ Items: {
 		Tooltip: 播放“Menu Theme” 作者：CrafterDaemon
 	}
 
-	GoldenBatDroppings: {
-		DisplayName: 金蝙蝠粪便
+	InspirationSingularity.DisplayName: 灵感奇点
+
+	Asterion: {
+		DisplayName: 猎犬座α
+		Tooltip:
+			'''
+			在你周围创造分形星光
+			星光击中敌人时有概率给予你星芒
+			拥有足够的星芒时，右键创造猎犬座
+			猎犬座会迅速消耗星芒，并迅速释放恒星脉冲
+			脉冲会治疗你和队友，并对敌人施加[cbuff:CalamityMod/Voidfrost]减益
+			“如猎犬般忠诚”
+			'''
+	}
+
+	FungalCastanets: {
+		DisplayName: 真菌响板
+		Tooltip:
+			'''
+			响板有节奏地演奏，喷出缓慢消失的真菌孢子
+			右键演奏[c/00FFFF:侵染！]
+			即兴演奏中，你的响板会变成菌生蟹的巨钳，同时召唤孢子倾泻而下
+			'听着像是蟹爪的声音！'
+			'''
+	}
+
+	CantStopWontStop: {
+		DisplayName: 根本停不下来
+		Tooltip: 这是一首永不停歇的歌……！
+	}
+
+	GlacialHarvester: {
+		DisplayName: 冰川收割者
+		Tooltip:
+			'''
+			左键旋转镰刀
+			右键挥舞镰刀，释放一阵巨大的冰浪
+			施加[rbuff:Frostburn]减益
+			'''
+		Cooldown: 冰川斩正在冷却
+	}
+
+	Aphelion: {
+		DisplayName: 远日点
+		Tooltip:
+			'''
+			左键旋转镰刀，将附近的敌人拉入旋涡之中
+			旋转足够长的时间会召唤出两个绕轨道运行的[c/DDEEFF:恒][c/BCCDEF:星][c/9CACE0:质][c/7B8CD0:量][c/5060BB:体]
+			恒星质量体存在时，右键可以把他们的轨道坍缩成超新星
+			击中敌人施加[rbuff:CalamityMod/MiracleBlight]减益
+			[c/DDEEFF:恒][c/BCCDEF:星][c/9CACE0:质][c/7B8CD0:量][c/5060BB:体]施加[rbuff:CalamityMod/Dragonfire]、[rbuff:CalamityMod/GodSlayerInferno]与[rbuff:CalamityMod/Daybroken]减益
+			'''
+	}
+
+	Thaumonomicon: {
+		DisplayName: 奇迹秘典
 		Tooltip: ""
 	}
 }
@@ -1364,22 +1418,12 @@ Configs: {
 
 		DoomSayerCoin: {
 			Label: 始生灾灵召唤物配方改变
-			Tooltip: 在末日预言者的硬币的配方增加诡异的贝壳碎片和灾厄尘. 默认为是
+			Tooltip: 在末日预言者的硬币的配方增加灾厄尘. 默认为是
 		}
 
 		RuneOfKos: {
 			Label: 宇宙符文获取改变
-			Tooltip: 将宇宙符文改为需要神圣晶石、狱火精华、海洋精华、死亡精华合成，并不再由亵渎神掉落. 默认为是
-		}
-	}
-
-	OtherConfig: {
-		DisplayName: 其他配置
-		Headers.Other: 其他
-
-		wip: {
-			Label: 未完工
-			Tooltip: ""
+			Tooltip: 将普罗维登斯神印改为需要神圣晶石与始生灾灵精华并不再由亵渎天神掉落。默认为是。
 		}
 	}
 
@@ -1428,12 +1472,22 @@ Configs: {
 
 		HealingBonusModifier: {
 			Label: 额外治疗量倍率
-			Tooltip: ""
+			Tooltip: 额外治疗量倍率。该倍数在所有其他改动应用后生效。
 		}
 
 		RiffsRequireRiffInstrumentToBeHeld: {
 			Label: 即兴演奏要求玩家持续手持对应乐器
-			Tooltip: ""
+			Tooltip: 玩家切换武器时，即兴演奏自动停止。
+		}
+
+		MistimedDamagePen: {
+			Label: 错失时机的伤害惩罚
+			Tooltip:
+				'''
+				瑟银MOD中大型乐器因错失时机而造成的伤害惩罚。
+				瑟银MOD的默认值为0.75，这意味着时机不当的攻击造成的伤害会减少75%。
+				诸神黄昏MOD的默认值为0.6，这意味着时机不当的攻击造成的伤害会减少60%。
+				'''
 		}
 	}
 
@@ -1468,11 +1522,6 @@ Configs: {
 		BardEmpowermentBarOffsetY: {
 			Label: 吟游诗人咒音增幅条向 Y 轴偏移
 			Tooltip: 吟游诗人咒音增幅条向 Y 轴偏移，默认值应该可以解决和灾厄物品冷却条的问题
-		}
-
-		ShowItemHitboxes: {
-			Label: 显示Hitbox
-			Tooltip: ""
 		}
 	}
 
@@ -1592,6 +1641,7 @@ Configs: {
 			UITweaks: UI 设置
 			WelcomeText: 进入世界讯息
 			Visual: 视效
+			VisFluxMeter: Vis Flux Meter Header
 		}
 
 		BardEmpowermentBarOffsetX: {
@@ -1606,17 +1656,66 @@ Configs: {
 
 		RiffMusicVolume: {
 			Label: 即兴演奏音乐音量
-			Tooltip: ""
+			Tooltip:
+				'''
+				为即兴演奏设置音量。
+				设置为0将禁用即兴演奏，并且在即兴演奏开始时，播放中的音乐也不会逐渐淡出。
+				'''
 		}
 
 		StartText: {
 			Label: 起始讯息
-			Tooltip: ""
+			Tooltip: 启用或禁用世界进入时的欢迎文本。
 		}
 
 		RiffScreenEffectIntensity: {
 			Label: 即兴演奏视觉效果强度
+			Tooltip: 控制即兴演奏视觉效果强度。设置为0可禁用。
+		}
+
+		MissSoundPreset: {
+			Label: 错失时机音效设置
+			Tooltip: 为你错失时机的演奏选择一个音效。
+		}
+
+		CustomMissSoundPath: {
+			Label: 自定义错失时机音效设置路径
+			Tooltip:
+				'''
+				请输入您想要使用的自定义错失时机音效的模组声音路径。
+				如，'RagnarokMod/Sounds/bonk'。
+				必须在模组的声音文件夹中有一个对应的.ogg文件，否则可能会导致崩溃或无法正常工作
+				除非将“声音预设”设置为“自定义”，否则不会执行任何操作。
+				'''
+		}
+
+		MissSoundVolume: {
+			Label: 错失时机音效音量设置
+			Tooltip: 为错失时机音效设置音量。
+		}
+
+		MissSoundDuringRiff: {
+			Label: 即兴演奏中的错失时机音效
+			Tooltip: 在即兴演奏时是否播放错失时机音效。
+		}
+
+		PlaySoundDuringRiff: {
+			Label: 即兴演奏中的乐器音效
+			Tooltip:
+				'''
+				确定在即兴演奏期间是否播放乐器声音。
+				设置为1表示在即兴演奏期间始终播放乐器声音，设置为-1表示在即兴演奏期间不播放声音。
+				0表示仅会在特定物品（如真菌响板）的即兴演奏期间播放声音。
+				'''
+		}
+
+		MeterOffsetX: {
+			Label: X轴仪表设置
 			Tooltip: ""
+		}
+
+		MeterOffsetY: {
+			Label: Y轴仪表设置
 		}
 	}
 
@@ -1721,6 +1820,45 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	MissSoundPreset: {
+		Tooltip: ""
+
+		Default: {
+			Label: 默认
+			Tooltip: ""
+		}
+
+		Softer: {
+			Label: 柔和
+			Tooltip: ""
+		}
+
+		Percussion: {
+			Label: 打击感
+			Tooltip: ""
+		}
+
+		Custom: {
+			Label: 自定义
+			Tooltip: ""
+		}
+
+		Bounce: {
+			Label: 弹跳
+			Tooltip: ""
+		}
+
+		Meow: {
+			Label: 猫叫
+			Tooltip: ""
+		}
+
+		Clang: {
+			Label: 叮当
+			Tooltip: ""
+		}
+	}
 }
 
 WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:欢迎帮助我们完善官方][c/B428FF:诸神的黄昏][c/FF2929:维基][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:！][i:RagnarokMod/CorrosiveFlux]"
@@ -1728,7 +1866,11 @@ FandomWarning: "[i:GolfCupFlagRed][c/B428FF:诸神的黄昏][c/FF2929:没有Fand
 DiscordInvite: "[i:WireKite][c/9696FF:欢迎加入][c/B428FF:诸神的黄昏][c/9696FF: Discord频道！][c/3898FF:discord.gg/UBAQwtKCbf][i:WireKite]"
 PatreonAd: "[i:LuckyCoin][c/96FF96:如果你喜欢本模组，欢迎考虑在Patreon上支持我们：][c/3898FF:patreon.com/c/DevTeamRagnarok][i:LuckyCoin]"
 DisableMe: "[i:Wrench][c/FFFF0A:如果你不想再看到这些消息，可以在暂停菜单的配置中将其关闭！][i:Wrench]"
-Riffs.Cooldown: 即兴演奏冷却
+
+Riffs: {
+	Cooldown: 即兴演奏冷却
+	EmpowermentsHeader: 即兴演奏增幅：
+}
 
 DamageClasses: {
 	ThoriumRogueClass.DisplayName: 盗贼伤害
