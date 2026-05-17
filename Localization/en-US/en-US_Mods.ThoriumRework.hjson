@@ -74,6 +74,12 @@ ItemDescriptions: {
 		Shoots a powerful shockwave that deals 50% damage
 		Every third and fourth attack summons sword apparitions
 		'''
+	ChampionsTrifectaShot:
+		'''
+		Charge the bow to increase arrow power
+		Overcharge the bow to convert the arrow into powerful elemental arrows
+		Certain arrow types can only be converted into one elemental arrow type
+		'''
 	GraniteCrossbow:
 		'''
 		Every 3 shots, a volley of 3 granite arrows are shot which overflow enemies
@@ -431,7 +437,9 @@ Projectiles: {
 	ChampionSliceF.DisplayName: Buried Shock
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
 	ChampionWarHorn.DisplayName: Champion's Warhorn
+	ChironsCure.DisplayName: Chiron's Cure
 	ConcussiveInstrument.DisplayName: Concussive Instrument
 	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
@@ -441,6 +449,8 @@ Projectiles: {
 	DragonToothDragon.DisplayName: Dragon Tooth
 	DreadRazor.DisplayName: Dread Razor
 	DreadPulse.DisplayName: Dread Pulse
+	DukeFish.DisplayName: Duke Fish
+	DukeFishBubble.DisplayName: Duke Fish Bubble
 	DyingReality.DisplayName: Dying Reality
 	EaterPiper.DisplayName: Eater Piper
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
@@ -468,6 +478,7 @@ Projectiles: {
 	GraniteCharge.DisplayName: Granite Charge
 	GraniteEnergyStormEffects.DisplayName: Granite Energy
 	GravitonOrb.DisplayName: Graviton Orb
+	HandheldRocket.DisplayName: Handheld Rocket
 	HeadHunter.DisplayName: Head Hunter
 	HeadHunterShard.DisplayName: Head Hunter
 	HealingOrbRainbow.DisplayName: Healing Orb
@@ -486,6 +497,7 @@ Projectiles: {
 	JammingJellyfish.DisplayName: Jamming Jellyfish
 	JellyfishJam.DisplayName: Jamming Jellyfish
 	JellyfishShock.DisplayName: Jellyfish Shock
+	KingTrumpet.DisplayName: King Trumpet
 	Kusarigama.DisplayName: Kusarigama
 	KusarigamaOrb.DisplayName: Orb of the Wind
 	LichLantern.DisplayName: Volatile Lantern
@@ -519,7 +531,7 @@ Projectiles: {
 	QueenJellyPin.DisplayName: Queen Jelly-Pin
 	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
 	ShellxophoneHealing.DisplayName: Tidal Restoration
-	ShellxophoneRipple.DisplayName: Aquatic Ripple
+	ShellxophoneBubble.DisplayName: Toxic Bubble
 	ShellxophoneStrike.DisplayName: Abyssal Strike
 	ShoulderBlade.DisplayName: Shoulder Blade
 	ShoulderBlade2.DisplayName: Shoulder Blade
@@ -527,6 +539,9 @@ Projectiles: {
 	SoulRender.DisplayName: Soul Render
 	SoulSnatcher.DisplayName: Soul Snatcher
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	SpittingShroom.DisplayName: Spitting Shroom
+	SpittingShroomSpore.DisplayName: Spitting Shroom Spore
+	SpittingShroomSporeBurst.DisplayName: Spitting Shroom Spore Burst
 	StableRealityRift.DisplayName: Stable Reality Rift
 	StarCore.DisplayName: Star Core
 	StarScouterEffects.DisplayName: Star Scouter
@@ -640,6 +655,11 @@ Items: {
 			'''
 	}
 
+	ChironsCure: {
+		DisplayName: Chiron's Cure
+		Tooltip: Exchanges life for a life-mending beam that cures some basic debuffs
+	}
+
 	ConcussiveInstrument: {
 		DisplayName: Concussive Instrument
 		Tooltip:
@@ -652,6 +672,16 @@ Items: {
 	DeathsingerPotion: {
 		DisplayName: Deathsinger Potion
 		Tooltip: 7% increased symphonic damage and playing speed
+	}
+
+	DukeFish: {
+		DisplayName: Duke Fish
+		Tooltip:
+			'''
+			Hold <left> to blow a growing bubble then release to shoot it
+			The bubble will heal allies and encase them in a protective shield
+			"His name is Ron, by the way"
+			'''
 	}
 
 	EaterPiper: {
@@ -712,6 +742,15 @@ Items: {
 			'''
 	}
 
+	HandheldRocket: {
+		DisplayName: Handheld Rocket
+		Tooltip:
+			'''
+			Throw a handheld rocket that will explode four times at a set distance
+			"Pocket Rocket!"
+			'''
+	}
+
 	HeadHunter: {
 		DisplayName: Head Hunter
 		Tooltip:
@@ -744,6 +783,15 @@ Items: {
 		Tooltip: Shoots dancing jellyfish that pierce
 	}
 
+	KingTrumpet: {
+		DisplayName: King Trumpet
+		Tooltip:
+			'''
+			Sprays a burst of spores that infect hit targets
+			Ignores 10 points of enemy Defense
+			'''
+	}
+
 	Kusarigama: {
 		DisplayName: Kusarigama
 		Tooltip:
@@ -760,8 +808,7 @@ Items: {
 		Tooltip:
 			'''
 			Lashes out a triple whip empowered by soul fire
-			Struck enemies will bleed their souls out
-			Bled souls heal the bleeding enemies' target
+			Struck enemies will bleed their souls out and heal their targets
 			"A tool used to torment souls in the afterlife"
 			'''
 	}
@@ -933,6 +980,15 @@ Items: {
 			'''
 	}
 
+	SpittingShroomStaff: {
+		DisplayName: Spitting Shroom Staff
+		Tooltip:
+			'''
+			Summons a spore-spitting mushroom that attacks foes
+			Hides when enemies get close, causing a deadly explosion
+			'''
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -1097,6 +1153,11 @@ Items: {
 }
 
 Buffs: {
+	BubblyShield: {
+		DisplayName: Bubbly Shield
+		Description: +10 defense, overshield and special damage reduction
+	}
+
 	Deathsinger: {
 		DisplayName: Deathsinger
 		Description: 7% increased symphonic damage and playing speed
@@ -1497,6 +1558,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		ChampionsTrifectaShot: {
+			Label: "[i:ThoriumMod/ChampionsTrifectaShot]Champion's Trifecta Shot"
+			Tooltip: ""
+		}
+
 		GraniteCrossbow: {
 			Label: "[i:ThoriumMod/GraniteCrossbow]Granite Crossbow"
 			Tooltip: ""
@@ -1539,6 +1605,11 @@ Configs: {
 
 		TitaniumRifle: {
 			Label: "[i:ThoriumMod/TitaniumRifle]Titanium Rifle"
+			Tooltip: ""
+		}
+
+		HellishHalberd: {
+			Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
 			Tooltip: ""
 		}
 
