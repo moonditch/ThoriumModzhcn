@@ -311,9 +311,7 @@ Items: {
 		DisplayName: Omen of the Damned
 		Tooltip:
 			'''
-			Hold down to pull back the slingshot, then release to fling ammo
-			Converts mossy pebbles into a barrage of the angry souls of the damned
-			Shoots more souls the further the weapon is pulled back
+			Converts ammunition into a barrage of the angry souls of the damned
 			'If you believe your weapon can cause mass extinction, then so it will'
 			'''
 	}
@@ -480,11 +478,7 @@ Items: {
 
 	TerrariumParticleAccelerator: {
 		DisplayName: Terrarium Particle Accelerator
-		Tooltip:
-			'''
-			Hold down to pull back the slingshot, then release to fling ammo
-			Converts mossy pebbles into hyper-accelerated particles that split on impact
-			'''
+		Tooltip: Converts ammunition into hyper-accelerated particles that split on impact
 	}
 
 	TheWitchAuthor: {
