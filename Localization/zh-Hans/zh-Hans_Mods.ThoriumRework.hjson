@@ -75,6 +75,12 @@ ItemDescriptions: {
 		释放强力冲击波对敌人造成50%的伤害
 		每挥舞的第三和四次会召唤剑魂
 		'''
+	ChampionsTrifectaShot:
+		'''
+		长按为弓箭蓄力
+		蓄力会将箭矢转化为强大的元素箭矢
+		某些箭矢类型只能转化为一种元素箭矢类型
+		'''
 	GraniteCrossbow:
 		'''
 		每3次攻击，发射3根花岗岩箭，然后用能量溢散击中的敌怪
@@ -432,7 +438,9 @@ Projectiles: {
 	ChampionSliceF.DisplayName: 英灵剑气
 	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
 	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
+	ChampionsTrifectaShot.DisplayName: 英灵的三元圣弓
 	ChampionWarHorn.DisplayName: 英灵战号
+	ChironsCure.DisplayName: 喀戎之愈
 	ConcussiveInstrument.DisplayName: 震荡性仪器
 	DancingJellyfish.DisplayName: 跳舞水母
 	Darkness.DisplayName: 黑暗
@@ -442,6 +450,8 @@ Projectiles: {
 	DragonToothDragon.DisplayName: 龙牙
 	DreadRazor.DisplayName: 恐惧之锋
 	DreadPulse.DisplayName: 恐惧脉冲
+	DukeFish.DisplayName: 鱼公爵
+	DukeFishBubble.DisplayName: 鱼公爵泡泡
 	DyingReality.DisplayName: 垂死现实
 	EaterPiper.DisplayName: 噬魂笛
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
@@ -469,6 +479,7 @@ Projectiles: {
 	GraniteCharge.DisplayName: 花岗岩充能
 	GraniteEnergyStormEffects.DisplayName: 花岗岩能量
 	GravitonOrb.DisplayName: 引力子球
+	HandheldRocket.DisplayName: 手持式火箭
 	HeadHunter.DisplayName: 猎头者
 	HeadHunterShard.DisplayName: 猎头者碎片
 	HealingOrbRainbow.DisplayName: 彩虹治疗球
@@ -489,6 +500,7 @@ Projectiles: {
 	JammingJellyfish.DisplayName: 水母音符
 	JellyfishJam.DisplayName: 水母音符
 	JellyfishShock.DisplayName: 水母冲击
+	KingTrumpet.DisplayName: 王之号
 	Kusarigama.DisplayName: 锁镰
 	KusarigamaOrb.DisplayName: 风弹
 	LichLantern.DisplayName: 易爆灯笼
@@ -522,7 +534,7 @@ Projectiles: {
 	QueenJellyPin.DisplayName: 皇后饰针
 	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
 	ShellxophoneHealing.DisplayName: 潮汐回涌
-	ShellxophoneRipple.DisplayName: 渊洋涟漪
+	ShellxophoneBubble.DisplayName: 剧毒泡泡
 	ShellxophoneStrike.DisplayName: 深渊冲击
 	ShoulderBlade.DisplayName: 肩骨刃
 	ShoulderBlade2.DisplayName: 肩骨刃2
@@ -530,6 +542,9 @@ Projectiles: {
 	SoulRender.DisplayName: 灵魂镰刃
 	SoulSnatcher.DisplayName: 窃魂者
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	SpittingShroom.DisplayName: 胆小菇
+	SpittingShroomSpore.DisplayName: 胆小菇孢子
+	SpittingShroomSporeBurst.DisplayName: 胆小菇爆炸
 	StableRealityRift.DisplayName: 稳定的现实裂隙
 	StarCore.DisplayName: 星核
 	StarScouterEffects.DisplayName: 星际监察者
@@ -642,6 +657,11 @@ Items: {
 			'''
 	}
 
+	ChironsCure: {
+		DisplayName: 喀戎之愈
+		Tooltip: 消耗生命发射一道能治愈基础负面效果的治疗光束
+	}
+
 	ConcussiveInstrument: {
 		DisplayName: 震荡性仪器
 		Tooltip:
@@ -654,6 +674,16 @@ Items: {
 	DeathsingerPotion: {
 		DisplayName: 死亡歌者药水
 		Tooltip: 增加7%音波伤害和音波演奏速度
+	}
+
+	DukeFish: {
+		DisplayName: 鱼公爵
+		Tooltip:
+			'''
+			长按左键吹出一个不停变大的泡泡，松开左键将其射出
+			泡泡会治疗队友，并将他们包裹在保护罩中
+			"顺带一提，他名字叫猪龙"
+			'''
 	}
 
 	EaterPiper: {
@@ -701,7 +731,7 @@ Items: {
 	}
 
 	GildedFlyingFlute: {
-		DisplayName: Gilded Flying Flute
+		DisplayName: 镀金飞笛
 		Tooltip:
 			'''
 			增加{0}%音波伤害
@@ -711,6 +741,15 @@ Items: {
 			如果管乐器本身能追踪，则进一步增加追踪速度
 			召唤一支带翅膀的飞笛攻击敌人
 			飞笛每次攻击时给予你飞行时间II与资源再生I
+			'''
+	}
+
+	HandheldRocket: {
+		DisplayName: 手持式火箭
+		Tooltip:
+			'''
+			掷出一枚手持式火箭，飞行一段距离后爆炸四次
+			"口袋火箭！"
 			'''
 	}
 
@@ -750,6 +789,15 @@ Items: {
 		Tooltip: 释放跳舞的水母刺穿敌人
 	}
 
+	KingTrumpet: {
+		DisplayName: 菌王之号
+		Tooltip:
+			'''
+			喷射一连串能感染敌人的孢子
+			无视敌人10点护甲
+			'''
+	}
+
 	Kusarigama: {
 		DisplayName: 锁镰
 		Tooltip:
@@ -767,8 +815,7 @@ Items: {
 		Tooltip:
 			'''
 			挥出由灵魂之火赋予力量的三重鞭
-			敌人被鞭打后会流血
-			流血的灵魂会释放一根彩线治愈周围的玩家
+			敌人被鞭打后会流血，流血的灵魂会释放一根彩线治愈周围的玩家
 			"用来折磨死后灵魂的工具"
 			'''
 	}
@@ -874,7 +921,7 @@ Items: {
 	}
 
 	RepurposedStarCaller: {
-		DisplayName: 星际召唤器
+		DisplayName: 改装式星空召唤器
 		Tooltip:
 			'''
 			召唤监察者核心为你而战
@@ -941,6 +988,15 @@ Items: {
 			'''
 	}
 
+	SpittingShroomStaff: {
+		DisplayName: 胆小菇法杖
+		Tooltip:
+			'''
+			召唤一株喷射孢子的蘑菇攻击敌人
+			Hides when enemies get close, causing a deadly explosion敌人靠近时会躲起来，并释放一次致命爆炸
+			'''
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -964,7 +1020,7 @@ Items: {
 	}
 
 	TerrariumSoulScourge: {
-		DisplayName: 元素笞魂圣锤
+		DisplayName: 元素笞魂者
 		Tooltip:
 			'''
 			挥舞一把棱彩链锤，首次命中时释放滞留的治疗能量
@@ -1105,6 +1161,11 @@ Items: {
 }
 
 Buffs: {
+	BubblyShield: {
+		DisplayName: 泡泡护盾
+		Description: +10防御，获得强化护盾与特殊伤害减免
+	}
+
 	Deathsinger: {
 		DisplayName: 死亡歌者
 		Description: 增加7%音波伤害和音波演奏速度
@@ -1507,6 +1568,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		ChampionsTrifectaShot: {
+			Label: "[i:ThoriumMod/ChampionsTrifectaShot]Champion's Trifecta Shot"
+			Tooltip: ""
+		}
+
 		GraniteCrossbow: {
 			Label: "[i:ThoriumMod/GraniteCrossbow] {$Mods.ThoriumMod.Items.GraniteCrossbow.DisplayName}"
 			Tooltip: ""
@@ -1549,6 +1615,11 @@ Configs: {
 
 		TitaniumRifle: {
 			Label: "[i:ThoriumMod/TitaniumRifle] {$Mods.ThoriumMod.Items.TitaniumRifle.DisplayName}"
+			Tooltip: ""
+		}
+
+		HellishHalberd: {
+			Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
 			Tooltip: ""
 		}
 
