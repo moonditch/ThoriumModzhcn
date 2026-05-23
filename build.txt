@@ -1,6 +1,6 @@
 displayName = 瑟银&更多附属汉化补丁(支持简体/繁体)
 author = Flandre Scarlet & @马达达马达 & 令 & 末泠 & Super_ego & 兹翼 & 终子星 & Ivybless & plantare & furgo & 狐萝卜 & 虞悖 & Yee苍棱 & 白狐狸 & 南亭  & 水星 & Listentowind  & 布丁
-version = 2026.4.2.1
+version = 2026.5.24.1
 translationMod = true
 side = NoSync
 hideResources = true

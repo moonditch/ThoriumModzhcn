@@ -74,14 +74,12 @@ Buffs: {
 	}
 
 	NightfallenDebuff: {
-		DisplayName: 堕夜减益
-		Description: Mods.RagnarokMod.Buffs.NightfallenDebuff.Description
 		DisplayName: 堕夜
 		Description: 黑暗吞噬一切。
 		ItemTooltip:
 			'''
-			无类型——100 DPS
-			所有来源的伤害增加10%
+			无类型 - 100 DPS
+			增加10%受到的所有来源伤害
 			'''
 	}
 
@@ -119,7 +117,8 @@ Tooltips: {
 			'''
 			利维坦泡泡回应了你的暗能量！
 			所有生命值消耗减少1点
-			消耗生命给予你[rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]增益
+			消耗生命值会给予你[rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]增益
+			增加10%光辉攻击速度
 			'''
 	}
 }
@@ -184,7 +183,7 @@ Items: {
 		DisplayNameEclipse: 始生金缀韵灵盔
 		Tooltip:
 			'''
-			增加20%音波伤害、音波暴击率和音波追踪速度
+			增加20%音波伤害、音波暴击率和管乐器弹幕追踪速度
 			增加5%移动速度
 			增加30%灵感值恢复速度
 			最大灵感值增加15
@@ -192,8 +191,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			拥有狂想独奏帽/狂想启迪盔, 弑神者兜帽, 血嚎尖芒盔, 龙蒿魂罩的套装效果
-			按下'{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}'键将触发两个狂想套装效果
+			拥有血嚎尖芒盔、弑神者兜帽，和狂想独奏帽/狂想启迪盔的套装效果
+			按下'{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}'键将触发两套狂想者套装的效果
 			'''
 		SetBonusHelheim: 龙蒿、血炎与弑神者套装奖励
 	}
@@ -211,16 +210,17 @@ Items: {
 			治疗法术会额外治疗10生命值
 			最大魔力值增加100
 			'''
-		ToggleTooltip: "[c/aaaaaa:在物品栏中按住Shift键并右键点击该物品切换模式，] [c/CC44FF:腐化你的光辉力量]"
+		ToggleTooltip: "[c/aaaaaa:在物品栏中按住Shift并右键点击以切换][c/CC44FF:腐化光辉力量]"
 		SetBonus:
 			'''
-			拥有梦境编织者兜帽/梦境编织者头盔, 始源林海覆面盔, 血恸幽冥盔的套装效果
-			按下“盔甲能力”键将触发两个梦境编织者套装效果
+			拥有血恸幽冥盔、始源林海覆面，和梦境编织者兜帽/梦境编织者头盔的套装效果
+			按下'{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}'键将触发两套梦境编织者套装的效果
 			增加50%光辉伤害
 			'''
 		SetBonusHelheim:
 			'''
 			龙蒿、血炎与始源林海套装奖励
+			增加50%光辉伤害
 			'''
 	}
 
@@ -230,7 +230,7 @@ Items: {
 			'''
 			成功在计时区域击中时，会增加咒音增幅等级和伤害
 			错失节拍会大幅降低这些加成并消耗9点灵感值
-			这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+			这些加成在切换武器后仍会保留，但若此武器不是你的手持武器，加成会逐渐消散
 			连续两次或更多次的成功攻击会释放出一道巨大的燃烧斩击
 			燃烧斩击会将范围内的所有敌人都施加[cbuff:CalamityMod/HolyFlames]
 			'''
@@ -247,12 +247,12 @@ Items: {
 		SetBonus:
 			'''
 			音波伤害会对敌人造成血液沸腾减益
-			创造嗜血领域，每次命中敌人获得2点，每秒最多获得3次
-			达到100点时: 增加20%的音波伤害和音波暴击率，增加25%的移动速度
+			创造嗜血领域，每次命中敌人获得2点血液，每秒最多获得3次
+			血液达到100点时: 增加20%的音波伤害和音波暴击率，增加25%的移动速度
 			咒音增幅额外延长3秒，灵感值恢复速度提高10%
-			按下套装奖励键会消耗20点，并补充10点灵感
-			被击中将失去25点，5秒内未命中敌人会快速失去点数
-			Boss生成时，你的点数会被重置
+			按下“套装奖励”键会消耗20点血液，并补充10点灵感
+			被击中将失去25点血液，5秒内未命中敌人会快速失去血液
+			每当Boss生成时，你的血液点数会被重置
 			'''
 	}
 
@@ -269,13 +269,13 @@ Items: {
 		SetBonus:
 			'''
 			光辉伤害会对敌人造成血液沸腾减益
-			创造嗜血领域，每次命中敌人获得2点，每秒最多获得3次
-			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加25%的移动速度
+			创造嗜血领域，每次命中敌人获得2点血液，每秒最多获得3次
+			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加20%的移动速度
 			并且你的治疗法术会额外治疗3生命值
-			此外，你还会获得相当于造成伤害的一部分的治疗
-			按下套装奖励键会消耗20点，并获得25点额外治疗量
-			被击中将失去25点，5秒内未命中敌人会快速失去点数
-			Boss生成时，你的点数会被重置
+			此外，你还会获得相当于造成伤害的一小部分的治疗
+			按下“套装奖励”键会消耗20点血液，并获得25点额外治疗量
+			被击中将失去25点血液，5秒内未命中敌人会快速失去血液
+			每当Boss生成时，你的血液点数会被重置
 			'''
 	}
 
@@ -296,7 +296,7 @@ Items: {
 		SetBonus:
 			'''
 			增加10%灵感值恢复速度
-			按住“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}” 键会给予你15秒的[rbuff:RagnarokMod/AntarcticCreativityBuff]增益
+			按下“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}”键会给予你15秒的[rbuff:RagnarokMod/AntarcticCreativityBuff]增益
 			消耗12点灵感值
 			'''
 	}
@@ -313,13 +313,13 @@ Items: {
 		SetBonus:
 			'''
 			治疗法术会额外治疗3生命值
-			按住“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}” 键会给予你15秒的[rbuff:RagnarokMod/AntarcticReinforcementBuff]并回复50生命值
+			按住“{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}”键会给予你15秒的[rbuff:RagnarokMod/AntarcticReinforcementBuff]并回复50生命值
 			消耗100点魔力值
 			'''
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: 弑神者三角帽
+		DisplayName: 弑神者锥帽
 		Tooltip:
 			'''
 			增加25%音波伤害和15%音波暴击率
@@ -358,7 +358,7 @@ Items: {
 		Tooltip: 
 			'''
 			可以在商店卖出非常理想的价格
-			“从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花。”
+			“从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花”
 			'''
 	}
 
@@ -367,7 +367,7 @@ Items: {
 		Tooltip:
 			'''
 			从星际监察者身上掉落下来的主板
-			“这个物品蕴含的科技超出了你的认知。”
+			“这个物品蕴含的科技超出了你的认知”
 			'''
 	}
 
@@ -383,12 +383,7 @@ Items: {
 
 	FaceMelterOverride: {
 		DisplayName: 变脸熔炉
-		Tooltip:
-			'''
-			奏响音符
-			右键召唤一个会向光标位置发射音波的扩音器
-			“喔哦哦！幻想世界！！！”
-			'''
+		Tooltip: "{$CalamityMod.Items.Weapons.Magic.FaceMelter.Tooltip}"
 	}
 
 	EmpoweredGranite: {
@@ -410,10 +405,10 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			当你收到超过100点伤害的攻击时，获得一段较长时间的无敌。
+			当你收到超过100点伤害的攻击时，获得一段较长时间的无敌
 			增加跳跃高度，并获得一段额外的跳跃
 			增加12%跳跃速度
-			增加15%的灵感音符掉率
+			增加10%的灵感音符掉率
 			增加5%灵感值恢复速度
 			咒音增幅将延长2秒
 			'''
@@ -456,7 +451,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			一位守护医师会协助你治疗队友
+			一位治疗守卫会协助你治疗队友
 			为队友恢复等同于你的额外治疗量+5点的生命值
 			并赋予其[rbuff:RagnarokMod/GuardianHealerBeamBuff]持续20秒
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
@@ -549,7 +544,7 @@ Items: {
 			'''
 			发射可以汲取生命值的弹幕
 			右键以发射速度更快的弹幕
-			你必须遵守等价交换的规则
+			“你必须遵守等价交换的规则”
 			“你得到的只能等于你投入的”
 			'''
 	}
@@ -704,8 +699,7 @@ Items: {
 			'''
 			敲打双头鼓并对附近敌人造成伤害
 			右键释放耀斑弹
-			耀斑弹对敌人施加龙焰减益，持续3秒
-			(Aeolus的功劳)
+			耀斑弹对敌人施加3秒的[cbuff:CalamityMod/Dragonfire]减益
 			'''
 	}
 
@@ -719,7 +713,7 @@ Items: {
 		Tooltip:
 			'''
 			在市场上能卖个好价钱
-			'一块来自上古之神监狱的注魔碎片'
+			“一块来自上古之神监狱的注魔碎片”
 			'''
 	}
 
@@ -775,7 +769,7 @@ Items: {
 	}
 
 	Korobeiniki: {
-		DisplayName: 货郎之歌
+		DisplayName: 货郎游戏机
 		Tooltip:
 			'''
 			四格拼板从天而落
@@ -796,7 +790,7 @@ Items: {
 			停止旋转镰刀火球立即攻击最近的目标
 
 			右键释放钩子把敌人拉向你。
-			但是，一些强大的敌人反而会把你拉向他们！
+			但是，强大的敌人反而会把你拉向他们！
 			'''
 	}
 
@@ -816,7 +810,7 @@ Items: {
 		Tooltip:
 			'''
 			旋转镰刀时会被一股缥缈的月光包围
-			击中敌人会生成[c/78C8FF:Soul Essence]，并且有概率生成[c/78C8FF:幻云星芒]
+			击中敌人会生成[c/78C8FF:灵魂精华]，并且有概率生成[c/78C8FF:幻云星芒]
 			当拥有五个或更多幻云星芒时，按住右键可以召唤[c/A0DCFF:双子]星座
 			每颗星星都会释放穿透月光，造成[cbuff:CalamityMod/Voidfrost]减益
 			再次按住右键可以取消星座
@@ -833,7 +827,7 @@ Items: {
 		Tooltip:
 			'''
 			旋转这把镰刀可生成追踪敌人的弹幕并造成[rbuff:CalamityMod/ElementalMix]减益
-			右键给予你和你的队友一个下面的元素祝福，持续10秒：
+			右键给予你和你的队友以下元素祝福之一，持续10秒：
 			[rbuff:RagnarokMod/ScytheAirBuff]
 			[rbuff:RagnarokMod/ScytheBrimstoneBuff]
 			[rbuff:RagnarokMod/ScytheEarthBuff]
@@ -855,7 +849,7 @@ Items: {
 
 	MaxEmpowermentTester: {
 		DisplayName: 最大咒音增幅测试仪
-		Tooltip: 在物品源码中指定的级别授予所有咒音增幅嘻嘻
+		Tooltip: 在物品源码中指定的级别授予所有咒音增幅，嘻嘻
 	}
 
 	UnbreakableCombatUkulele: {
@@ -873,18 +867,9 @@ Items: {
 		Tooltip:
 			'''
 			镰刀旋转时周期性地释放出一连串冰冷的飞镖
-			“在万圣节和圣诞节中间的某个时间点找到的”
-			“嘿，你可以把它拍成电影！”
+			“在万圣节和圣诞节中间的某个时间点找到的”、
+			嘿，你可以把它拍成电影！”
 			'''
-	}
-
-	Armor: {
-		PostMoonLord: {
-			SilvaHeadHealer: {
-				DisplayName: 始源林海帽
-				Tooltip: ""
-			}
-		}
 	}
 
 	DragonForce: {
@@ -908,7 +893,7 @@ Items: {
 	}
 
 	IntergelacticRobohelm: {
-		DisplayName: 异宇星凝机械头盔
+		DisplayName: 异宇星凝机盔
 		Tooltip:
 			'''
 			增加20%的音波伤害，暴击率和演奏速度
@@ -937,8 +922,8 @@ Items: {
 		Tooltip:
 			'''
 			召唤凯莉跟随你
-			HayWire799的捐赠者物品
-			由Zenovia绘制
+			“HayWire799的捐赠者物品”
+			“由Zenovia绘制”
 			'''
 	}
 
@@ -993,6 +978,7 @@ Items: {
 	PrimalTerror: {
 		DisplayName: 始源恐惧
 		Tooltip: 一定要收藏我，嘻嘻
+		HasAwoken: 始源妖龙已苏醒！
 	}
 
 	DevourerOfSines: {
@@ -1006,7 +992,7 @@ Items: {
 	}
 
 	Ectambourine: {
-		DisplayName: 灵质铃鼓
+		DisplayName: 魂质铃鼓
 		Tooltip:
 			'''
 			投掷无穷无尽的幽灵铃鼓
@@ -1042,8 +1028,8 @@ Items: {
 		DisplayName: 松鼠围巾
 		Tooltip:
 			'''
-			“如松鼠尾巴般蓬松柔软”
 			哨兵数量上限+1
+			“如松鼠尾巴般蓬松柔软”
 			'''
 	}
 
@@ -1066,7 +1052,7 @@ Items: {
 	}
 
 	ToxicWaves: {
-		DisplayName: 毒浪
+		DisplayName: 剧毒狂澜
 		Tooltip:
 			'''
 			发射漂浮的毒云，造成[cbuff:CalamityMod/SulphuricPoisoning]与[cbuff:CalamityMod/Irradiated]减益
@@ -1092,7 +1078,7 @@ Items: {
 	}
 
 	ProfanityFilter: {
-		DisplayName: 亵渎话语过滤器
+		DisplayName: 亵渎言论过滤器
 		Tooltip:
 			'''
 			电子乐器伤害降低10%，但演奏速度提升50%
@@ -1191,9 +1177,9 @@ Items: {
 		Tooltip:
 			'''
 			响板有节奏地演奏，喷出缓慢消失的真菌孢子
-			右键演奏[c/00FFFF:侵染！]
-			即兴演奏中，你的响板会变成菌生蟹的巨钳，同时召唤孢子倾泻而下
-			'听着像是蟹爪的声音！'
+			右键演奏[c/00FFFF:侵染]！
+			当即兴演奏处于激活状态时，你的响板会变成菌生蟹的巨钳，同时召唤孢子倾泻而下
+			“听着像是蟹爪的声音！”
 			'''
 	}
 
@@ -1280,8 +1266,8 @@ Projectiles: {
 	KorobeinikiPro5.DisplayName: Korobeiniki Pro5
 	KorobeinikiPro6.DisplayName: Korobeiniki Pro6
 	KorobeinikiPro7.DisplayName: Korobeiniki Pro7
-	GraspofVoidPro1.DisplayName: Graspof Void Pro1
-	GraspofVoidPro2.DisplayName: Graspof Void Pro2
+	GraspofVoidPro1.DisplayName: Grasp of Void Pro1
+	GraspofVoidPro2.DisplayName: Grasp of Void Pro2
 	PhantasmalEdgePro1.DisplayName: Phantasmal Edge Pro1
 	PhantasmalEdgeBombs.DisplayName: Phantasmal Edge Bombs
 	PhantasmalEdgeHook.DisplayName: Phantasmal Edge Hook
@@ -1321,6 +1307,9 @@ Projectiles: {
 	IrradiantRed.DisplayName: Irradiant Red
 	AuricGreatscytheBolt.DisplayName: Auric Greatscythe Bolt
 	AuricGreatscytheSwing.DisplayName: Auric Greatscythe Swing
+	LucentGeminiPro.DisplayName: Lucent Gemini
+	GeminiConstellation.DisplayName: Gemini Constellation
+	GeminiMoonlightRay.DisplayName: Gemini Moonlight Ray
 	RadioMicPro.DisplayName: Radio Mic Pro
 	RadioMicShadowBurst.DisplayName: Radio Mic Shadow Burst
 	PlayerBrimstoneBarrage.DisplayName: Player Brimstone Barrage
@@ -1336,6 +1325,9 @@ Projectiles: {
 	StellarRiffPro.DisplayName: Stellar Riff Pro
 	StellarAurora.DisplayName: Stellar Aurora
 	StellarShootingStar.DisplayName: Stellar Shooting Star
+	ToxicWavesVortex.DisplayName: Toxic Waves Vortex
+	ToxicSharkron.DisplayName: Toxic Sharkron
+	ToxicWavesPro.DisplayName: Toxic Waves Pro
 	DragonForceRiffBeam.DisplayName: Dragon Force Riff Beam
 	InfectedPustule.DisplayName: Infected Pustule
 	InfectedSporeCloud.DisplayName: Infected Spore Cloud
@@ -1346,6 +1338,21 @@ Projectiles: {
 	WulfrumGuitarPro.DisplayName: Wulfrum Guitar Pro
 	AcidicSaxBubbleOverride.DisplayName: Acidic Sax Bubble Override
 	AcidicReedOverride.DisplayName: Acidic Reed Override
+	AsterionConstellation.DisplayName: Asterion Constellation
+	AstralRipperChargeSwing.DisplayName: Astral Ripper Charge Swing
+	AstralRipperStarfall.DisplayName: Astral Ripper Starfall
+	ToxicSharkronGore.DisplayName: Toxic Sharkron Gore
+	FungalCastanetClick.DisplayName: Fungal Castanet Click
+	FungalSpore.DisplayName: Fungal Spore
+	InfestationMushroomHat.DisplayName: Infestation Mushroom Rain Controller
+	InfestationMushroomRain.DisplayName: Infestation Mushroom Rain Spores
+	GlacialSlam.DisplayName: Glacial Slam
+	GlacialHarvesterPro.DisplayName: Glacial Harvester Pro
+	GlacialWave.DisplayName: Glacial Wave
+	AphelionPro.DisplayName: Aphelion Pro
+	AphelionSun.DisplayName: Aphelion Sun
+	AphelionVortex.DisplayName: Aphelion Vortex
+	AphelionSupernova.DisplayName: Aphelion Supernova
 }
 
 Configs: {

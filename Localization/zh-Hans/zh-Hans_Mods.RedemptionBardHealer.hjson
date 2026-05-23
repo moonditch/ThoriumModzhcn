@@ -198,6 +198,45 @@ Items: {
 			'''
 	}
 
+	MutagenBard: {
+		DisplayName: 颂歌诱变器
+		Tooltip:
+			'''
+			增加15%音波伤害
+			增加10%音波暴击率
+			增加4点最大灵感值
+			'''
+	}
+
+	MutagenHealer: {
+		DisplayName: 圣职诱变器
+		Tooltip:
+			'''
+			增加15%光辉伤害
+			增加10%光辉暴击率
+			治疗法术额外治疗2点生命值
+			'''
+	}
+
+	MutagenThrower: {
+		DisplayName: 忍者诱变器
+		Tooltip:
+			'''
+			增加15%投掷伤害
+			增加10%投掷暴击率
+			最大技巧值增加1点
+			'''
+	}
+
+	NoceboEffect: {
+		DisplayName: 反安慰剂效应
+		Tooltip:
+			'''
+			向目标体内注射致命血清
+			“打针不疼的！（其实很疼，疼死了…）”
+			'''
+	}
+
 	Oboeterator: {
 		DisplayName: 歼灭双簧管
 		Tooltip:
@@ -224,15 +263,6 @@ Items: {
 			电磁场会持续对敌人造成伤害，每次攻击消耗（1[i:Redemption/EnergyCell]）能量
 			需要玩家物品栏内存在能量罐
 			“让队友心肺复苏，让敌人心肺骤停”
-			'''
-	}
-
-	NoceboEffect: {
-		DisplayName: 反安慰剂效应
-		Tooltip:
-			'''
-			向目标体内注射致命血清
-			“打针不疼的！（其实很疼，疼死了…）”
 			'''
 	}
 
@@ -337,36 +367,6 @@ Items: {
 			“您现在收听的是，[REDACTED]FM！在这里我们只为您带来[REDACTED]音乐！”
 			'''
 	}
-
-	MutagenBard: {
-		DisplayName: 颂歌诱变器
-		Tooltip:
-			'''
-			增加15%音波伤害
-			增加10%音波暴击率
-			增加4点最大灵感值
-			'''
-	}
-
-	MutagenHealer: {
-		DisplayName: 圣职诱变器
-		Tooltip:
-			'''
-			增加15%光辉伤害
-			增加10%光辉暴击率
-			治疗法术额外治疗2点生命值
-			'''
-	}
-
-	MutagenThrower: {
-		DisplayName: 忍者诱变器
-		Tooltip:
-			'''
-			增加15%投掷伤害
-			增加10%投掷暴击率
-			最大技巧值增加1点
-			'''
-	}
 }
 
 Projectiles: {
@@ -427,6 +427,11 @@ Configs: {
 	BalanceConfig: {
 		DisplayName: 平衡设置
 
+		elements: {
+			Label: 自动分配元素
+			Tooltip: 自动为非原版或救赎武器分配元素伤害类型
+		}
+
 		thrower: {
 			Label: 投掷武器伤害倍率
 			Tooltip:
@@ -460,7 +465,7 @@ Configs: {
 				'''
 				牧师武器灵魂精华倍率
 				上限为5
-				(需要重新启动才能生效!）
+				（需要重新启动才能生效!）
 				'''
 		}
 
@@ -470,7 +475,7 @@ Configs: {
 				'''
 				牧师治疗法术倍率
 				数值为0表示治疗法术只能治疗1点生命值
-				(需要重新启动才能生效!）
+				（需要重新启动才能生效!）
 				'''
 		}
 	}

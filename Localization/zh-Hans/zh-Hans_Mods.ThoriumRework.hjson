@@ -1,6 +1,6 @@
 PhotosensitivityWarning:
 	'''
-	光敏警告：瑟银冥界(过去名字为：瑟银BOSS重置)含有大量光闪烁特效，尤其是在与Boss战斗时！
+	光敏警告：瑟银冥界含有大量光闪烁特效，尤其是在与Boss战斗时！
 	如果你对闪光敏感，请前往设置 -> 模组配置 -> Thorium Helheim -> 视觉设置，并将所有滑块调至0
 	若你不想每次都看到此提示，也可在模组配置中关闭此警告
 	'''
@@ -10,7 +10,6 @@ ProgressionTweaks: {
 	AbyssionNoGolem: 一位远古守卫自丛林苏醒，守护拜月邪教…
 	AbyssionAndGolem: 一个强大的邪教团出现在世界边缘！
 }
-
 
 ItemDescriptions: {
 	DreamWeaversHelmet: 最大生命增加60
@@ -488,8 +487,6 @@ Projectiles: {
 	HighTide.DisplayName: 高位潮
 	HighTideWave.DisplayName: 高位潮波
 	HitScan.DisplayName: 冲击射线
-	HitScanner.DisplayName: 冲击扫描仪
-	HitScannerTelegraph.DisplayName: 冲击扫描仪
 	IceShard.DisplayName: 冰碎块
 	IllumiteBlade.DisplayName: 荧光刃
 	IllumitePortal.DisplayName: 荧光传送门
@@ -557,6 +554,7 @@ Projectiles: {
 	ThoriumBludgeon.DisplayName: 瑟银锤
 	ThoriumHeavyScythe.DisplayName: 瑟银重镰
 	ThoriumRevolver.DisplayName: 雷鸣闪击
+	ThoriumSpear.DisplayName: 雷鸣闪击
 	ThoriumWhistle.DisplayName: 雷鸣闪击
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
@@ -598,7 +596,7 @@ Items: {
 
 	BandofCratonsCosmetic: {
 		DisplayName: 古陆核之带
-		Tooltip: '''"非常耐用，甚至能承受大陆漂移的伟力"'''
+		Tooltip: '''“非常耐用，甚至能承受大陆漂移的伟力”'''
 	}
 
 	BannerofWar: {
@@ -667,7 +665,7 @@ Items: {
 		Tooltip:
 			'''
 			打击乐器攻击时，会在敌人身上掷出一个锤子
-			"这是……只是一把锤子?"
+			“这是……只是一把锤子？”
 			'''
 	}
 
@@ -682,7 +680,7 @@ Items: {
 			'''
 			长按左键吹出一个不停变大的泡泡，松开左键将其射出
 			泡泡会治疗队友，并将他们包裹在保护罩中
-			"顺带一提，他名字叫猪龙"
+			“顺带一提，他名字叫猪龙”
 			'''
 	}
 
@@ -692,7 +690,7 @@ Items: {
 			'''
 			召唤噬咬敌人的蠕虫
 			无视15点护甲
-			"给它一罐胡椒粉"
+			“给它一罐胡椒粉”
 			'''
 	}
 
@@ -702,7 +700,7 @@ Items: {
 			'''
 			使用光辉镰刀获得灵魂精华时，会获得一层充能
 			牧师镰刀的弹幕或非镰刀类武器造成的光辉伤害会消耗充能，以获得灵魂精华
-			"把他们的灵魂带给我…"
+			“把他们的灵魂带给我…”
 			'''
 	}
 
@@ -716,7 +714,7 @@ Items: {
 			打击乐器攻击时，会在敌人身上掷出一个锤子
 			电子乐器的弹幕速度大幅提升
 			最大灵感增加5点
-			"卖得并不好，但至少有人好心地提供了帮助…"
+			“卖得并不好，但至少有人好心地提供了帮助…”
 			'''
 	}
 
@@ -726,7 +724,7 @@ Items: {
 			'''
 			召唤一支带翅膀的飞笛攻击敌人
 			飞笛每次攻击时给予你飞行时间II与资源再生I
-			"它看起来像是一只会飞的长笛吗？"
+			“它看起来像是一只会飞的长笛吗？”
 			'''
 	}
 
@@ -749,7 +747,7 @@ Items: {
 		Tooltip:
 			'''
 			掷出一枚手持式火箭，飞行一段距离后爆炸四次
-			"口袋火箭！"
+			“口袋火箭！”
 			'''
 	}
 
@@ -761,17 +759,13 @@ Items: {
 			此武器获得灵魂精华，暴击或处于战斗状态会生成跟随你的冰碎片
 			每个冰碎片给予玩家10点防御力，最多存在四个
 			右键或者更换武器时会向光标附近的敌人释放所有冰碎片
-			"属于经营着咖啡店的恶魔......"
+			“属于经营着咖啡店的恶魔……”
 			'''
 	}
 
 	ImpulseAmplifier: {
 		DisplayName: 脉冲扬声器
-		Tooltip:
-			'''
-			电子乐器的弹幕速度大幅提升
-			"不，它不会比火箭飞得更快!"
-			'''
+		Tooltip: 电子乐器的弹幕速度大幅提升
 	}
 
 	InspirationRegenerationPotion: {
@@ -802,7 +796,6 @@ Items: {
 		DisplayName: 锁镰
 		Tooltip:
 			'''
-			为队友和你回复等同于额外治疗量的生命值
 			该连枷被视为镰刀
 			以刀刃命中敌人会生成灵魂精华
 			以刀柄命中敌人会生成滞留的治疗能量
@@ -816,7 +809,7 @@ Items: {
 			'''
 			挥出由灵魂之火赋予力量的三重鞭
 			敌人被鞭打后会流血，流血的灵魂会释放一根彩线治愈周围的玩家
-			"用来折磨死后灵魂的工具"
+			“用来折磨死后灵魂的工具”
 			'''
 	}
 
@@ -837,7 +830,7 @@ Items: {
 			管乐器和铜管乐器击中敌人会产生金色光辉
 			金色光辉大小取决于演奏的乐器
 			爆炸造成的暴击伤害降低50%
-			"你有消音器，我有扩音器!"
+			“你有消音器，我有扩音器！”
 			'''
 	}
 
@@ -851,11 +844,10 @@ Items: {
 		Tooltip:
 			'''
 			释放蝙蝠攻击敌人，蝙蝠会回到你身边，并恢复吸血值
-			右键消耗吸血值，释放蝙蝠
-			蝙蝠会追踪并治愈其他玩家<healAmount>点生命值
+			右键消耗吸血值释放蝙蝠，蝙蝠会追踪并治愈其他玩家<healAmount>点生命值
 			<legendaryModeOnly>在传奇模式下使用需要生命值
 			吸血值: <bloodSiphon>
-			"蝙蝠的美妙歌谣"
+			“蝙蝠的美妙歌谣”
 			'''
 	}
 
@@ -878,7 +870,7 @@ Items: {
 			释放不稳定的能量球，并在一段时间后爆炸
 			第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
 			不使用武器时，生成幻影仆从为你而战
-			"对梦和噩梦的非理性恐惧的表现"
+			“对梦和噩梦的非理性恐惧的表现”
 			'''
 	}
 
@@ -896,7 +888,7 @@ Items: {
 
 	QueenJellyPinCosmetic: {
 		DisplayName: 皇后饰针
-		Tooltip: '''"看！在你头旁边！"'''
+		Tooltip: '''“看！在你头旁边！”'''
 	}
 
 	PickShapedPebble: {
@@ -904,7 +896,7 @@ Items: {
 		Tooltip:
 			'''
 			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
-			"这是摇滚音乐!"
+			“这是摇滚音乐!”
 			'''
 	}
 
@@ -916,7 +908,7 @@ Items: {
 			被溢散的敌怪多受5%伤害
 			松开左键以一次性释放所有的能量球
 			不会增加疲惫值
-			"赐予能量球新的意义"
+			“赐予能量球新的意义”
 			'''
 	}
 
@@ -926,7 +918,7 @@ Items: {
 			'''
 			召唤监察者核心为你而战
 			火焰核心燃烧目标，生命核心毒害目标，寒冰核心造成冷冻
-			"我们收到你的信息了，现在有什么指示?"
+			“我们收到你的信息了，现在有什么指示？”
 			'''
 	}
 
@@ -939,7 +931,7 @@ Items: {
 			取消牧师盔甲带来的非光辉伤害削减
 			使用光辉镰刀获得灵魂精华时，会获得一层充能
 			牧师镰刀的弹幕或非镰刀类武器造成的光辉伤害会消耗充能，以获得灵魂精华
-			"正式达成协议!"
+			“协议达成！”
 			'''
 	}
 
@@ -950,7 +942,7 @@ Items: {
 			左键释放两根弹跳并追踪敌怪的海渊涟漪
 			右键释放追踪队友的水滴，使用10点灵感值并治疗队友
 			治疗效果会根据队友的咒音增幅等级而增加
-			"唤醒蛰伏渊洋的生灵，奏响世间至韵之声"
+			“唤醒蛰伏渊洋的生灵，奏响世间至韵之声”
 			'''
 	}
 
@@ -993,7 +985,7 @@ Items: {
 		Tooltip:
 			'''
 			召唤一株喷射孢子的蘑菇攻击敌人
-			Hides when enemies get close, causing a deadly explosion敌人靠近时会躲起来，并释放一次致命爆炸
+			敌人靠近时会躲起来，并释放一次致命爆炸
 			'''
 	}
 
@@ -1011,7 +1003,7 @@ Items: {
 
 	StarScoutReticleCosmetic: {
 		DisplayName: 银河侦察护罩
-		Tooltip: '''"怕黑？不用怕，有我在！"'''
+		Tooltip: '''“怕黑？不用怕，有我在！”'''
 	}
 
 	StellarTune: {
@@ -1135,7 +1127,7 @@ Items: {
 			一段时间后，召唤闪电攻击敌人或物块
 			暴击会立即释放一次闪电
 			不会增加疲惫值
-			"人们说闪电不会在同一个地方击中两次"
+			“人们说闪电不会在同一个地方击中两次”
 			'''
 	}
 
@@ -1190,13 +1182,12 @@ Buffs: {
 		DisplayName: "[c/FF7F00:混乱的现实]"
 		Description:
 			'''
-			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:-BOSS机制-]
 			[c/FF7F00:当此减益存在时，噬梦者不会受到伤害]
 			[c/FF7F00:减益倒计时结束会立刻杀死玩家]
-			[c/FF7F00:触摸稳定的现实裂缝，进行伤害输出阶段并重置此减益倒计时]
-			[c/FF7F00:稳定的现实裂缝是紫色法阵]
-			[c/FF1CAE:汉化备注:击败一次始生灾灵后，无视此减益，减益倒计时结束会削减血条，但不会代码杀]
-			[c/FF7F00:"等待命运..."]
+			[c/FF7F00:触摸稳定的现实裂缝（紫色法阵），进行伤害输出阶段并重置此减益倒计时]
+			[c/FF1CAE:汉化备注：击败一次始生灾灵后，无视此减益，减益倒计时结束会扣血，但不会代码杀]
+			[c/FF7F00:“命运将至……”]
 			'''
 	}
 
@@ -1204,13 +1195,12 @@ Buffs: {
 		DisplayName: "[c/FF7F00:恢复的现实]"
 		Description:
 			'''
-			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:-BOSS机制-]
 			[c/FF7F00:当此增益存在时，噬梦者会受到伤害]
-			[c/FF7F00:被完全成型的现实裂缝击中后，会提前移除此增益]
-			[c/FF1CAE:汉化备注:不稳定的现实裂缝更改为完全成型的现实裂缝，是因为条件触发苛刻]
-			[c/FF7F00:完全成型的现实裂缝是噬梦者的黑色裂缝攻击]
+			[c/FF7F00:被完全成型的现实裂缝（噬梦者的黑色裂缝攻击）击中后，会提前移除此增益]
+			[c/FF1CAE:汉化备注：不稳定的现实裂缝更改为完全成型的现实裂缝，是因为条件触发苛刻]
 			[c/FF7F00:允许无限飞行]
-			[c/FF7F00:"等待命运..."]
+			[c/FF7F00:“命运已至……”]
 			'''
 	}
 
@@ -1794,7 +1784,7 @@ Configs: {
 
 		FallenPaladinArmor: {
 			Label: "[i:ThoriumMod/FallenPaladinCuirass]堕落圣骑士盔甲"
-			Tooltip: 这是个削弱，这盔甲太烂了
+			Tooltip: 这是个削弱，这sb盔甲太超模了
 		}
 
 		TerrariumHolyScythe: {
@@ -1974,7 +1964,7 @@ Configs: {
 
 		IncandescentAlacrity: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity] {$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
-			Tooltip: 不会对此物品进行任何更改，只是让他继续运行 {$ItemName.EmpressFlightBooster}。
+			Tooltip: 不会对此物品进行任何更改，只是让它兼容{$ItemName.EmpressFlightBooster}
 		}
 	}
 }
@@ -1987,6 +1977,6 @@ Achievements: {
 
 	MyBatsAreKindaChamberless: {
 		FriendlyName: 我的小蝙蝠要饿扁了…
-		Description: Defeat Viscount without letting a single Bitey Baby siphon life from you在不让任何贪食小蝙蝠偷取你的生命值的情况下击败蝙蝠子爵
+		Description: 在不让任何贪食小蝙蝠偷取你的生命值的情况下击败蝙蝠子爵
 	}
 }
