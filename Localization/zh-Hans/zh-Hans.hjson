@@ -32,7 +32,7 @@ Mods: {
 
 		GravestoneText: {
 			# Add new keys here, they will automatically work without any extra code
-			Beloved: 爱。
+			Beloved: 我深爱的。
 			EverLoved: 曾经爱过。
 			InLovingMemory: 在爱的记忆里。
 			OnceMet: 一旦遇见，就永远不会忘记。
@@ -95,7 +95,7 @@ Mods: {
 		DamageClasses: {
 			BardDamage.DisplayName: 音波伤害
 			HealerDamage.DisplayName: 光辉伤害
-			TrueDamage.DisplayName: 投掷伤害
+			TrueDamage.DisplayName: 真实伤害
 		}
 
 		Biomes: {
