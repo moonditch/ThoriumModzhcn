@@ -12,7 +12,7 @@
 汉化内容包括（注：支持简体&繁体）：
 [list]
 [*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumMod.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.5），即此汉化的前置模组
-[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumRework.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.5.6）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumRework.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.5.7）
 *注：如果瑟银冥界想要灾厄炼狱模式的完整体验，额外使用“[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023]灾厄炼狱中文字体补充[/url]”
 [*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/CalamityBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.12.6）
 [*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/RedemptionBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎吟游诗人、投手&牧师武器[/url]（v0.3.4）
@@ -33,7 +33,7 @@
 
 [h1]=问题解决=[/h1]
 [list]
-[*] 因为台湾繁体主要汉化是白狐狸（来自台湾），维护繁体汉化作者是moon.ditch / 伍迪（来自大陆）,可能出现繁体汉化格式不一致：如出现港繁，正繁，台繁的混合现象，也在下方告诉我们
+[*] 因为台湾繁体主要汉化是白狐狸（来自台湾），维护繁体汉化作者是moon.ditch / 伍迪（来自大陆），可能出现繁体汉化格式不一致：如出现港繁、正繁、台繁的混合现象，也在下方告诉我们
 [*] 我们不会支持1.4.3的瑟银&更多附属的简体&繁体汉化
 [*] 本汉化为客户端模组，不在服务端加载，联机方需要自行加载汉化
 [*] 如果需要帮助/反馈BUG，请加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
@@ -58,8 +58,8 @@
 [h1]=作者介绍=[/h1]
 [list]
 [*] Listentowind：官方中文瑟银模组Wiki维护
-[*] Listentowind / moon.ditch(简/繁/代码) / Super_ego(简体) / 伍迪(简/繁/代码) / 布丁(简体) / 白狐狸(繁体) / hqerVC(简体) / LezaiYa(简体)：主要人员没空的github维护者？
-[*] 【没有了，招人】：现瑟银本体&附属简繁体汉化维护 (无校对)
+[*] Listentowind / moon.ditch(简/繁/代码) / Super_ego(简体) / 伍迪(简/繁/代码) / 布丁(简体) / 白狐狸(繁体) / hqerVC(简体) / LezaiYa(简体)：GitHub维护
+[*] 布丁（已复活）：现瑟银本体&附属简繁体汉化维护
 [*] 现代码支持【没有了，招人】
 [/list]
 [quote=tModLoader ThoriumModzhcn]

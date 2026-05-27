@@ -12,6 +12,11 @@ ProgressionTweaks: {
 }
 
 ItemDescriptions: {
+	Rapier:
+		'''
+		造成伤害会暂时降低受到的伤害
+		右键可正常挥舞，刺击超过三次后造成的伤害提高
+		'''
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
 	DreamWeaversTabard: 减少20%受到的伤害
@@ -292,6 +297,12 @@ ItemDescriptions: {
 		挥舞两把元素誓约之剑
 		攻击敌人后，释放追踪的元素能量
 		'''
+	RealitySlasher:
+		'''
+		按住左键旋转一把切割现实的镰刀，旋转速度会逐渐提升
+		达到最高速度后，松开左键即可投掷镰刀
+		投掷后再次按住左键，可将镰刀移动至光标位置
+		'''
 	DoomSayersCoin:
 		'''
 		[c/DB7093:在第二阶段造成混乱的现实减益，减益存在时噬梦者BOSS不会受到伤害]
@@ -325,15 +336,27 @@ NPCRenames: {
 Toggler: {
 	BandofCratons: 能量潮涌
 	BannerofWar: 旌旗云集
+	BeholderTentacles: 凝瞳灼痕
+	BeholderTentacles2: 凝瞳领域
+	CrystallizedFinality: 终末结晶
+	DeepDarkShellShield: 超额护盾
+	ZephyrWings: 疾风助力
 	QueenJellyPin: 女皇之触
 	SierraChimera: 至高嵌合体
 	StarScoutReticle: 闪烁冲刺
+	StriderMouthguard: 遁蛛霜噬
+	StriderMouthguard2: 强力螨虫
+	UndyingGaze: 灵魂收割
 	ValkyrienSkyStone: 瓦尔基里天空之石
 	VampireCape: 蝠群化形
-	ZephyrWings: 疾风助力
 }
 
 ActiveSkills: {
+	BeholderTentacles2: {
+		DisplayName: 凝瞳领域
+		Tooltip: 召唤注视者之眼，迅速汲取敌人的生命并治疗使用者
+	}
+
 	VampireCape: {
 		DisplayName: 蝠群化形
 		Tooltip: 转化为一群蝙蝠，跟随鼠标移动
@@ -424,6 +447,7 @@ Projectiles: {
 	BandofCratons.DisplayName: 古陆核之带
 	BeamSaber.DisplayName: 激光剑
 	BeholderBlade.DisplayName: 注视者意志
+	BeholdersDomain.DisplayName: 注视者之眼
 	BiterofSouls.DisplayName: 噬魂怪
 	BiteyBaby.DisplayName: 贪食小蝙蝠
 	BlackHole.DisplayName: 黑洞
@@ -458,6 +482,7 @@ Projectiles: {
 	EnergyBurst.DisplayName: 花岗岩能量爆破
 	EnergySpike.DisplayName: 花岗岩能量尖刺
 	EnergySurge.DisplayName: 花岗岩能能量脉冲
+	EnergySurgeTelegraph.DisplayName: 花岗岩能能量脉冲
 	EradicationBeam.DisplayName: 湮灭光束
 	EradicationBeamF.DisplayName: 湮灭光束
 	EradicationRay.DisplayName: 湮灭激光
@@ -487,6 +512,7 @@ Projectiles: {
 	HighTide.DisplayName: 高位潮
 	HighTideWave.DisplayName: 高位潮波
 	HitScan.DisplayName: 冲击射线
+	IceAnomaly.DisplayName: 寒冰异象
 	IceShard.DisplayName: 冰碎块
 	IllumiteBlade.DisplayName: 荧光刃
 	IllumitePortal.DisplayName: 荧光传送门
@@ -501,13 +527,14 @@ Projectiles: {
 	Kusarigama.DisplayName: 锁镰
 	KusarigamaOrb.DisplayName: 风弹
 	LichLantern.DisplayName: 易爆灯笼
-	LichWhip.DisplayName: 震荡性仪器
+	LichWhip.DisplayName: 苦痛刑具
 	LodeStoneClaymore.DisplayName: 地脉长刃
 	LodeStoneMagnetMace.DisplayName: 地脉磁石链锤
 	Loudener.DisplayName: 扩音器
 	LucidNuke.DisplayName: 洞察之能
 	LucidRay.DisplayName: 洞察之能
 	LucidRayTelegraph.DisplayName: 洞察之能
+	MightyMyte.DisplayName: 强力螨虫
 	Mjolnir.DisplayName: 传说之雷
 	NightmareClaw.DisplayName: 梦魇魔爪
 	NightmareSlash.DisplayName: 梦魇魔爪
@@ -637,6 +664,24 @@ Items: {
 			'''
 	}
 
+	BeholderTentacles: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			攻击施加烧焦减益，对烧焦目标造成的伤害提高20%
+			{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.Tooltip}
+			'''
+	}
+
+	BeholderTentaclesCosmetic: {
+		DisplayName: 注视者的触手
+		Tooltip:
+			'''
+			拥有{$ItemName.FrogLeg}和{$ItemName.LavaWaders}的效果，但没有熔岩免疫效果
+			“这一定是威尔的”
+			'''
+	}
+
 	BiterofSouls: {
 		DisplayName: 啖魂者
 		Tooltip:
@@ -669,9 +714,41 @@ Items: {
 			'''
 	}
 
+	CrystallizedFinality: {
+		DisplayName: 终末结晶
+		Tooltip:
+			'''
+			拥有[i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}、[i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders}（不包括熔岩免疫）和[i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}的效果
+			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] 攻击会造成霜冻和狱火，对受任一减益影响的目标造成更高伤害，并从其身上获得护盾
+			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] 按住攻击可生成至多三只寒霜螨虫，停止攻击即可释放它们，命中时获得灵魂精华
+			[i:ThoriumRework/UndyingGaze] 暴击会获得灵魂精华，消耗生命值或使你获得灵魂精华的攻击会获得更多灵魂精华
+			[i:ThoriumRework/DeepDarkShellShield] 被动获得20点护盾，免疫击退，护盾提供的生命提升翻倍，同时提高防御属性
+			“熵变的最后一幕”
+			'''
+	}
+
 	DeathsingerPotion: {
 		DisplayName: 死亡歌者药水
 		Tooltip: 增加7%音波伤害和音波演奏速度
+	}
+
+	DeepDarkShellShield: {
+		DisplayName: "{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.Tooltip}
+			护盾提供的生命提升翻倍
+			此外，护盾还会提高防御力和伤害减免
+			'''
+	}
+
+	DeepDarkShellShieldCosmetic: {
+		DisplayName: 深暗甲壳盾
+		Tooltip:
+			'''
+			被动获得20点护盾
+			免疫击退
+			'''
 	}
 
 	DukeFish: {
@@ -760,6 +837,28 @@ Items: {
 			每个冰碎片给予玩家10点防御力，最多存在四个
 			右键或者更换武器时会向光标附近的敌人释放所有冰碎片
 			“属于经营着咖啡店的恶魔……”
+			'''
+	}
+
+	HelheimSoul: {
+		DisplayName: 冥界之魂
+		Tooltip:
+			'''
+			免疫[i:ThoriumRework/QueenJellyPin]泡泡、[i:ThoriumRework/VampireCape]流血、[i:ThoriumRework/VampireCape]吸血鬼之咒和[i:ThoriumRework/DeepDarkShellShield]击退
+			获得[i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}、[i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders}和[i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}的效果
+			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] 攻击会造成冻伤和狱火，对受任一减益影响的目标造成更高伤害，并从其身上获得护盾
+			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] 按住攻击可生成至多三只寒霜螨虫，停止攻击即可释放它们，命中时获得灵魂精华
+			[i:ThoriumRework/DeepDarkShellShield][i:ThoriumRework/BandofCratons] 被动获得40点护盾，免疫能量过载并使你的攻击造成能量过载，护盾提供的生命提升翻倍，同时提高防御属性
+			[i:ThoriumRework/BandofCratons] 根据损失的护盾量恢复玩家资源，一次性损失超过20点护盾会产生电击，摧毁3个射弹
+			[i:ThoriumRework/UndyingGaze] 暴击会获得灵魂精华，消耗生命值或使你获得灵魂精华的攻击会获得更多灵魂精华
+			[i:ThoriumRework/QueenJellyPin] 在玩家身上召唤可以锁定敌人的触手，触手击中敌人后可提升生命再生与资源再生，触手伤害会随着玩家防御提升
+			[i:ThoriumRework/VampireCape] 激活血蝠群舞时，受到的伤害大幅降低，敌人不太可能以你为目标
+			[i:ThoriumRework/ZephyrWings] 疾风钩的半空抓取效果可以延长飞行时间
+			[i:ThoriumRework/ZephyrWings] 滑翔一段时间后，可以再次使用疾风钩，造成伤害可以缩短其冷却时间
+			[i:ThoriumRework/StarScoutReticle] 获得在太空呼吸的能力与夜视能力
+			[i:ThoriumRework/StarScoutReticle] 使用冲刺会将你传送一段距离，若你不能冲刺，则给予冲刺能力
+			[i:ThoriumRework/BannerofWar] 战斗中，你的伤害与额外治疗量会随时间增加，这些增益在你脱战后会逐渐减少
+			[i:ThoriumRework/BannerofWar] 战斗中会不断释放治疗脉冲，回复队友等同于额外治疗量的生命，咒音增幅范围也会影响治疗脉冲的范围，脉冲的频率会随着战斗时间增加
 			'''
 	}
 
@@ -928,7 +1027,6 @@ Items: {
 			'''
 			最大生命增加60
 			治疗法术会额外治疗5点生命值
-			取消牧师盔甲带来的非光辉伤害削减
 			使用光辉镰刀获得灵魂精华时，会获得一层充能
 			牧师镰刀的弹幕或非镰刀类武器造成的光辉伤害会消耗充能，以获得灵魂精华
 			“协议达成！”
@@ -1011,6 +1109,21 @@ Items: {
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
 	}
 
+	StriderMouthguard: {
+		DisplayName: "{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			攻击会造成霜冻，攻击受霜冻影响的目标时获得护盾
+			按住攻击可生成至多三只寒霜螨虫，停止攻击即可释放它们
+			{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.Tooltip}
+			'''
+	}
+
+	StriderMouthguardCosmetic: {
+		DisplayName: 遁蛛缚吻
+		Tooltip: 拥有{$ItemName.HandWarmer}的效果
+	}
+
 	TerrariumSoulScourge: {
 		DisplayName: 元素笞魂者
 		Tooltip:
@@ -1083,6 +1196,21 @@ Items: {
 	ThoriumWhistle: {
 		DisplayName: 瑟银哨子
 		Tooltip: 发射短射程的闪电弹幕
+	}
+
+	UndyingGaze: {
+		DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			任何暴击现在都会获得灵魂精华
+			消耗生命值的攻击会在命中任意目标时获得灵魂精华
+			原本会获得灵魂精华的攻击会额外获得一层充能
+			'''
+	}
+
+	UndyingGazeCosmetic: {
+		DisplayName: 不灭凝视
+		Tooltip: 你的双眼散发着微弱光芒
 	}
 
 	ValadiumHeavyScythe: {
@@ -1959,6 +2087,16 @@ Configs: {
 
 		OnemanQuartet: {
 			Label: "[i:ThoriumMod/OnemanQuartet] {$Mods.ThoriumMod.Items.OnemanQuartet.DisplayName}"
+			Tooltip: ""
+		}
+
+		Rapier: {
+			Label: "[i:ThoriumMod/Rapier] 长剑"
+			Tooltip: ""
+		}
+
+		PearlPike: {
+			Label: "[i:ThoriumMod/PearlPike] 珍珠长矛"
 			Tooltip: ""
 		}
 

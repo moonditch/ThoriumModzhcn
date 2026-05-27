@@ -12,6 +12,11 @@ ProgressionTweaks: {
 }
 
 ItemDescriptions: {
+	Rapier:
+		'''
+		Dealing damage temporarily reduces damage taken
+		Right-click to swing normally, damage dealt is increased if stabbed more than thrice
+		'''
 	DreamWeaversHelmet: Maximum life increased by 60
 	DreamWeaversHood: Maximum life increased by 100
 	DreamWeaversTabard: Damage taken reduced by 20%
@@ -292,6 +297,12 @@ ItemDescriptions: {
 		Dual wield two Terrarium sabers
 		Releases homing Terrarium energy on hit
 		'''
+	RealitySlasher:
+		'''
+		Hold left click to spin a reality rending scythe that builds up speed
+		When maximum speed is reached, release left click to throw the scythe
+		When thrown, hold left click again to move the scythe to your cursor
+		'''
 	DoomSayersCoin:
 		'''
 		Inflicts Terminal Lucidity in phase 2, boss cannot be damaged until it is removed
@@ -325,15 +336,27 @@ NPCRenames: {
 Toggler: {
 	BandofCratons: Power Surge
 	BannerofWar: Rally Banner
+	BeholderTentacles: Beholder's Scorch
+	BeholderTentacles2: Beholder's Domain
+	CrystallizedFinality: Crystallized Finality
+	DeepDarkShellShield: Over-overshield
+	ZephyrWings: Zephyr Synergy
 	QueenJellyPin: Regal Tentacles
 	SierraChimera: Sierra Chimera
 	StarScoutReticle: Blink Dash
+	StriderMouthguard: Strider's Frostbite
+	StriderMouthguard2: Mighty Mytes
+	UndyingGaze: Soul Harvest
 	ValkyrienSkyStone: Valkyrien Sky Stone
 	VampireCape: Bat Swarm Transformation
-	ZephyrWings: Zephyr Synergy
 }
 
 ActiveSkills: {
+	BeholderTentacles2: {
+		DisplayName: Beholder's Domain
+		Tooltip: Summon the Eye of the Beholder to quickly sap life from enemies and heal the user
+	}
+
 	VampireCape: {
 		DisplayName: Bat Swarm
 		Tooltip: Transform into a swarm of bats which follow your cursor
@@ -424,6 +447,7 @@ Projectiles: {
 	BandofCratons.DisplayName: Band of Cratons
 	BeamSaber.DisplayName: Beam Saber
 	BeholderBlade.DisplayName: Will of Coznix
+	BeholdersDomain.DisplayName: Eye of the Beholder
 	BiterofSouls.DisplayName: Biter of Souls
 	BiteyBaby.DisplayName: Bitey Baby
 	BlackHole.DisplayName: Black Hole
@@ -458,6 +482,7 @@ Projectiles: {
 	EnergyBurst.DisplayName: Granite Energy Burst
 	EnergySpike.DisplayName: Granite Energy Spike
 	EnergySurge.DisplayName: Granite Energy Surge
+	EnergySurgeTelegraph.DisplayName: Granite Energy Surge
 	EradicationBeam.DisplayName: Eradication Beam
 	EradicationBeamF.DisplayName: Eradication Beam
 	EradicationRay.DisplayName: Eradication Ray
@@ -487,6 +512,7 @@ Projectiles: {
 	HighTide.DisplayName: High Tide
 	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
+	IceAnomaly.DisplayName: Ice Anomaly
 	IceShard.DisplayName: Ice Shard
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
@@ -508,6 +534,7 @@ Projectiles: {
 	LucidNuke.DisplayName: Lucid Energy
 	LucidRay.DisplayName: Lucid Energy
 	LucidRayTelegraph.DisplayName: Lucid Energy
+	MightyMyte.DisplayName: Mighty Myte
 	Mjolnir.DisplayName: Legendary Lightning
 	NightmareClaw.DisplayName: Nightmare Claw
 	NightmareSlash.DisplayName: Nightmare Claw
@@ -637,6 +664,24 @@ Items: {
 			'''
 	}
 
+	BeholderTentacles: {
+		DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Attacks inflict Singed, damage against Singed targets are increased by 20%
+			{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.Tooltip}
+			'''
+	}
+
+	BeholderTentaclesCosmetic: {
+		DisplayName: Beholder's Tentacles
+		Tooltip:
+			'''
+			Effects of {$ItemName.FrogLeg} and {$ItemName.LavaWaders} but without the lava immunity
+			"Must be Will's"
+			'''
+	}
+
 	BiterofSouls: {
 		DisplayName: Biter of Souls
 		Tooltip:
@@ -669,9 +714,41 @@ Items: {
 			'''
 	}
 
+	CrystallizedFinality: {
+		DisplayName: Crystallized Finality
+		Tooltip:
+			'''
+			Effects of [i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}, [i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders} but without the lava immunity, and [i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}
+			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
+			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
+			[i:ThoriumRework/UndyingGaze] Critical strikes grant Soul Essence, attacks that use life or already grant Soul Essence give more
+			[i:ThoriumRework/DeepDarkShellShield] Grants a passive 20 shield, immunity to knockback and doubles the health boost from shield while also increasing defensive stats
+			"ONE. FINAL ACT. OF ENTROPY."
+			'''
+	}
+
 	DeathsingerPotion: {
 		DisplayName: Deathsinger Potion
 		Tooltip: 7% increased symphonic damage and playing speed
+	}
+
+	DeepDarkShellShield: {
+		DisplayName: "{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.Tooltip}
+			Doubles the health boost from shield
+			Additionally, shield increases defense and damage reduction
+			'''
+	}
+
+	DeepDarkShellShieldCosmetic: {
+		DisplayName: Deep Dark Shell Shield
+		Tooltip:
+			'''
+			Grants a passive 20 shield
+			Grants immunity to knockback
+			'''
 	}
 
 	DukeFish: {
@@ -763,6 +840,28 @@ Items: {
 			'''
 	}
 
+	HelheimSoul: {
+		DisplayName: Soul of Helheim
+		Tooltip:
+			'''
+			Grants immunity to [i:ThoriumRework/QueenJellyPin]Bubbled, [i:ThoriumRework/VampireCape]Bleeding, [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
+			Effects of [i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}, [i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders}, and [i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}
+			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
+			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
+			[i:ThoriumRework/DeepDarkShellShield][i:ThoriumRework/BandofCratons] Grants a passive 40 shield, immunity to Overflowed and makes your attacks inflict it, and doubles the health boost from shield while also increasing defensive stats
+			[i:ThoriumRework/BandofCratons] Restores player resources based on the amount of shield lost, losing more than 20 shield creates an electric shock that destroys 3 projectiles
+			[i:ThoriumRework/UndyingGaze] Critical strikes grant Soul Essence, attacks that use life or already grant Soul Essence give more
+			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit, tentacle damage increases based on defense
+			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
+			[i:ThoriumRework/ZephyrWings] Grappling in the air with Zephyr's Grip's hatchling extends flight time
+			[i:ThoriumRework/ZephyrWings] Zephyr's Grip's hatchling can be summoned again after gliding for a bit, dealing damage replenishes it faster
+			[i:ThoriumRework/StarScoutReticle] Allows breathing in space and grants night vision
+			[i:ThoriumRework/StarScoutReticle] Dashing teleports you a few blocks forward and gives you a dash if you don't have one yet
+			[i:ThoriumRework/BannerofWar] Damage and bonus healing increases over time while in combat but gradually fade when out of combat
+			[i:ThoriumRework/BannerofWar] While in combat, periodically emit a pulse that heals allies equal to bonus healing, bard empowerment range affects the range, and the frequency increases over time
+			'''
+	}
+
 	ImpulseAmplifier: {
 		DisplayName: Impulse Amplifier
 		Tooltip: Electronic instrument projectiles are significantly faster
@@ -836,7 +935,7 @@ Items: {
 
 	LunateCharm: {
 		DisplayName: Lunate Charm
-		Tooltip: Negates non-radiant damage penalties caused by healer armor
+		Tooltip: Gaining soul essence grants shield when health is full
 	}
 
 	RedCresent: {
@@ -928,8 +1027,7 @@ Items: {
 			'''
 			Maximum life increased by 60
 			Healing spells grant an additional 5 life
-			Negates non-radiant damage penalties caused by healer armor
-			Gaining soul essence with radiant scythes grant a stack of aggregate charge
+			Gaining soul essence with radiant scythes grant a stack of aggregate charge and shield when health is full
 			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
 			"Seal the deal!"
 			'''
@@ -1011,6 +1109,21 @@ Items: {
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
 	}
 
+	StriderMouthguard: {
+		DisplayName: "{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Attacks inflict Frostburn, gain shield when damaging targets afflicted by Frostburn
+			Hold attack to generate up to three Frost Mytes, stop attacking to unleash them
+			{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.Tooltip}
+			'''
+	}
+
+	StriderMouthguardCosmetic: {
+		DisplayName: Strider Mouthguard
+		Tooltip: Effects of {$ItemName.HandWarmer}
+	}
+
 	TerrariumSoulScourge: {
 		DisplayName: Terrarium Soul Scourge
 		Tooltip:
@@ -1083,6 +1196,21 @@ Items: {
 	ThoriumWhistle: {
 		DisplayName: Thorium Whistle
 		Tooltip: Shoots a barrage of short-ranged lightning
+	}
+
+	UndyingGaze: {
+		DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
+		Tooltip:
+			'''
+			Any critical strike now grants Soul Essence
+			Attacks that use life will grant Soul Essence on any hit
+			Attacks that already grant Soul Essence will grant an extra charge
+			'''
+	}
+
+	UndyingGazeCosmetic: {
+		DisplayName: Undying Gaze
+		Tooltip: Your eyes emit a faint glow
 	}
 
 	ValadiumHeavyScythe: {
@@ -1959,6 +2087,16 @@ Configs: {
 
 		OnemanQuartet: {
 			Label: "[i:ThoriumMod/OnemanQuartet]Oneman Quartet"
+			Tooltip: ""
+		}
+
+		Rapier: {
+			Label: "[i:ThoriumMod/Rapier]Rapier"
+			Tooltip: ""
+		}
+
+		PearlPike: {
+			Label: "[i:ThoriumMod/PearlPike]PearlPike"
 			Tooltip: ""
 		}
 
