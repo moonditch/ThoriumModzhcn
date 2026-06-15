@@ -10269,6 +10269,7 @@ Mods: {
 					'''
 					治疗能量生成时需要消耗{0}魔力
 					物品必须装备或者放在物品栏中才会生成
+					'''
 			}
 
 			UnholyShards: {
@@ -10284,6 +10285,7 @@ Mods: {
 					治疗队友后会增加他们的生命再生和生命再生速率
 					'''
 			}
+
 
 			WarForger: {
 				DisplayName: 战争铸造者
@@ -12292,7 +12294,6 @@ Mods: {
 				DisplayName: 死灵法师之心
 				Tooltip: 手持鞭时<right>将苍蝇送向你的光标处，伤害附近的敌怪
 				SpecialTooltip: 被召唤师鞭尖端命中的敌怪会受到{0}%额外伤害并生成至多[c/{1}:{2}]只苍蝇
-					'''
 			}
 
 			NightShadeFlower: {
