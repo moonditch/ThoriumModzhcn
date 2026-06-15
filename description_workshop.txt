@@ -11,8 +11,8 @@
 本模组是瑟银及其附属模组的汉化
 汉化内容包括（注：支持简体&繁体）：
 [list]
-[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumMod.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.5），即此汉化的前置模组
-[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumRework.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.5.7）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumMod.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.6），即此汉化的前置模组
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumRework.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.5.10）
 *注：如果瑟银冥界想要灾厄炼狱模式的完整体验，额外使用“[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023]灾厄炼狱中文字体补充[/url]”
 [*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/CalamityBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.12.6）
 [*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/RedemptionBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎吟游诗人、投手&牧师武器[/url]（v0.3.4）
