@@ -65,7 +65,7 @@ Mods: {
 			ThoriumModTip12: 瑟银模组：某些物品栏中的杂乱物品如蛛网和矿石可以放置在弹药栏。
 			ThoriumModTip13: 瑟银模组：蓝绿色名字的物品是专属于瑟银模组捐赠者的！
 			# Bosses
-			ThoriumModTip14: 瑟银模组：一旦你找到一些铁，蚁狮上颚和坠落之星，你就可以挑战{$NPCs.TheGrandThunderBird.DisplayName}。
+			ThoriumModTip14: 瑟银模组：一旦你找到一些铁，鸟爪和坠落之星，你就可以挑战{$NPCs.TheGrandThunderBird.DisplayName}。
 			ThoriumModTip15: 瑟银模组：{$Items.JellyfishResonator.DisplayName}会吸引各种水母……也包括巨大的突异体！
 			ThoriumModTip16: 瑟银模组：一定要准备好一些不洁碎晶，可以在洞穴的密室吸引蝙蝠子爵。
 			ThoriumModTip17: 瑟银模组：一旦地牢的诅咒解除，花岗岩洞将产生新的居民。留意任何看起来不稳定的能量露头……
@@ -215,7 +215,7 @@ Mods: {
 
 			ShockAbsorberBuff: {
 				DisplayName: 动能转化
-				Description: 所有伤害增加15%
+				Description: 所有伤害增加{0}%
 			}
 
 			SoloistsHatSetBuff: {
@@ -235,7 +235,7 @@ Mods: {
 
 			BeetleCarapace: {
 				DisplayName: 甲虫甲壳
-				Description: 增加伤害减免并可以反弹伤害
+				Description: 增加{0}%伤害减免并可以反弹伤害
 			}
 
 			BlightFever: {
@@ -430,17 +430,12 @@ Mods: {
 
 			AltarBuff: {
 				DisplayName: 心灵链接
-				Description: 治疗法术会额外治疗生命值
+				Description: 治疗法术会额外治疗生命值 {0} 
 			}
 
 			AuraDamageReduction: {
 				DisplayName: 光环: 伤害减免
-				Description: 伤害减免增加12%
-			}
-
-			BeltoftheQuickResponseBuff: {
-				DisplayName: 速度爆发
-				Description: 在治疗一名队友后会增加你的移动速度和治疗速度
+				Description: 伤害减免增加{0}%
 			}
 
 			BloodBoost: {
@@ -475,17 +470,17 @@ Mods: {
 
 			CosmicFluxStaffDamageBuff: {
 				DisplayName: 光辉新星
-				Description: 光辉伤害增加25%
+				Description: 光辉伤害增加{0}%
 			}
 
 			CosmicFluxStaffHealBuff: {
 				DisplayName: 治疗新星
-				Description: 治疗法术会额外治疗2点生命值
+				Description: 治疗法术会额外治疗{0}点生命值
 			}
 
 			CrystalWishBuff: {
 				DisplayName: 水晶之愿
-				Description: 伤害减免增加10%
+				Description: 伤害减免增加{0}%
 			}
 
 			Cured: {
@@ -515,7 +510,7 @@ Mods: {
 
 			DragonHeartWandBuff: {
 				DisplayName: 巨龙之心
-				Description: 伤害增加15%
+				Description: 伤害增加{0}%
 			}
 
 			DreamCatcherBuff: {
@@ -560,17 +555,17 @@ Mods: {
 
 			Enfeeble: {
 				DisplayName: 衰弱
-				Description: 所受到的光辉伤害增加10点
+				Description: 所受到的光辉伤害增加{0}点
 			}
 
 			ForgottenCrossNecklaceBuff: {
 				DisplayName: 神圣之御
-				Description: 防御增加14点
+				Description: 防御增加{0}点
 			}
 
 			GlowingPotionBuff: {
 				DisplayName: 光辉能量
-				Description: 光辉伤害增加10%
+				Description: 光辉伤害增加{0}%
 			}
 
 			HolyGlare: {
@@ -580,7 +575,7 @@ Mods: {
 
 			HolyPotionBuff: {
 				DisplayName: 神圣之力
-				Description: 治疗法术会额外治疗1点生命值
+				Description: 治疗法术会额外治疗{0}点生命值
 			}
 
 			KarmicHolderBuff: {
@@ -595,7 +590,7 @@ Mods: {
 
 			LifeBinderSetBuff: {
 				DisplayName: 迷惑光盾
-				Description: 你的最大生命值增加50
+				Description: 你的最大生命值增加{0}
 			}
 
 			LifeQuartzShieldBuff: {
@@ -630,7 +625,7 @@ Mods: {
 
 			MarrowScepterBuff: {
 				DisplayName: 骨质盔甲
-				Description: 伤害减免增加15%
+				Description: 伤害减免增加{0}%
 			}
 
 			Mortality: {
@@ -640,12 +635,12 @@ Mods: {
 
 			NullZoneBuff: {
 				DisplayName: 空之领域
-				Description: 弹幕对你造成的伤害降低20%
+				Description: 弹幕对你造成的伤害降低{0}%
 			}
 
 			OutofTouch: {
 				DisplayName: 触距之外
-				Description: 你的额外治疗量仅有原先的33%
+				Description: 你的额外治疗量仅有原先的{0}%
 			}
 
 			PhoenixStaffBuff: {
@@ -660,12 +655,12 @@ Mods: {
 
 			QuickRecovery: {
 				DisplayName: 迅速再生
-				Description: 生命恢复速率增加20%
+				Description: 生命恢复速率增加{0}%
 			}
 
 			SerpentsBubbleWandBuff: {
 				DisplayName: 海蛇泡泡
-				Description: 生命恢复速率增加，伤害减免增加10%
+				Description: 生命恢复速率增加，伤害减免增加{0}%
 			}
 
 			ShieldDroneBeaconBuff: {
@@ -691,7 +686,7 @@ Mods: {
 
 			SpiritualistProtectionBuff: {
 				DisplayName: 庇护: 守护
-				Description: 伤害减免增加30%
+				Description: 伤害减免增加{0}%
 			}
 
 			SpiritualistRecoveryBuff: {
@@ -701,12 +696,7 @@ Mods: {
 
 			SpiritualistRevengeBuff: {
 				DisplayName: 庇护: 复仇
-				Description: 伤害增加15%
-			}
-
-			SupportSashBuff: {
-				DisplayName: 支援腰带
-				Description: 治疗法术会额外治疗1点生命值
+				Description: 伤害增加{0}%
 			}
 
 			TemplarSetBuff: {
@@ -806,7 +796,7 @@ Mods: {
 
 			MirroroftheBeholderDebuff: {
 				DisplayName: 弱点显现
-				Description: 此敌人会受到15%额外伤害
+				Description: 此敌人会受到{0}%额外伤害
 			}
 
 			MistletoeBuff: {
@@ -936,11 +926,6 @@ Mods: {
 			NapalmDebuff: {
 				DisplayName: 汽油凝固
 				Description: 难以承受之温……
-			}
-
-			NecroticSkullBuff: {
-				DisplayName: 暗蚀之颅
-				Description: 召唤物攻击会额外造成2点伤害
 			}
 
 			NinjaBuff: {
@@ -1220,7 +1205,7 @@ Mods: {
 
 			PhylacteryBuff: {
 				DisplayName: 巫妖援助
-				Description: 受到致死伤害时会回复至25%生命值而非死亡
+				Description: 受到致死伤害时会回复至{0}%生命值而非死亡
 			}
 
 			PotentExtractBuff: {
@@ -1240,7 +1225,7 @@ Mods: {
 
 			RapierBuff: {
 				DisplayName: 防守姿态
-				Description: 所受伤害降低10%
+				Description: 所受伤害降低{0}%
 			}
 
 			RealityBearer: {
@@ -1258,14 +1243,14 @@ Mods: {
 				Description: 无法使用大多数的免死和复活技能
 			}
 
-			SandshroudPouchBuff: {
+			YoyoProtectionBuff: {
 				DisplayName: 悠悠庇护
-				Description: 你所受到的下次攻击的伤害会降低
+				Description: 你所受到的下次攻击的伤害会降低{0}%
 			}
 
-			SandshroudPouchDebuff: {
+			YoyoProtectionDebuff: {
 				DisplayName: 悠悠庇护冷却
-				Description: 当前无法触发悠悠庇护
+				Description: 当前无法触发{$Buffs.YoyoProtectionBuff.DisplayName}
 			}
 
 			SchmelzeDebuff: {
@@ -1550,7 +1535,7 @@ Mods: {
 
 			Tuned: {
 				DisplayName: 调谐
-				Description: 所受伤害增加10%
+				Description: 所受伤害增加{0}%
 			}
 
 			ValadiumSetBuff: {
@@ -1645,7 +1630,7 @@ Mods: {
 
 			ThrombosisBuff: {
 				DisplayName: 血婴
-				Description: 血婴会协助你
+				Description: 召唤血婴协助你
 			}
 
 			ThrombosisDebuff: {
@@ -1657,6 +1642,11 @@ Mods: {
 				DisplayName: 魔力注射
 				Description: 魔法伤害增加
 				Damage: 魔法伤害增加{0}%
+			}
+
+			HarpyStaffBuff: {
+				DisplayName: 鹰身女妖法杖增益
+				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
 			}
 		}
 
@@ -1678,7 +1668,9 @@ Mods: {
 			DummyRecipeCondition: 用于特定微光分解的配方！
 			HasInspiration: 当玩家拥有{0}及以上的灵感值
 			CompletedCookRecipe: 当玩家提供了足够的原料给{$NPCs.Cook.DisplayName}
-			NotInBeachSnowDesert: 玩家不在海洋、雪原或沙漠生物群落中
+			BiomeCondition: 玩家是 {0}
+			FirstHalfOfDayCondition: 4:30 AM和12:00 PM之间
+			SecondHalfOfDayCondition: 12:00 PM直接7:30 PM之间
 			CrawdadCannotSpawn: 龙虾无法生成的世界
 			SalamanderCannotSpawn: 蝾螈无法生成的世界
 			GiantShellyCannotSpawn: 巨型卷壳怪无法生成的世界
@@ -1688,6 +1680,7 @@ Mods: {
 			WorldHasNoBloodAltarOrDownedViscount: 世界中没有鲜血祭坛或{$Conditions.DownedViscount}
 			WorldIsCrimsonOrHardmode: 世界是猩红或进入困难模式
 			WorldIsCorruptionOrHardmode: 世界是腐化或进入困难模式
+			HalloweenNotChristmas: 现在是万圣节，不是圣诞节
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1901,12 +1894,12 @@ Mods: {
 				DisplayName: 低语者兜帽
 				Tooltip:
 					'''
-					污染你的光辉力量
-					降低25%非光辉伤害
-					增加25%光辉伤害
-					增加12%光辉暴击率
-					最大魔力值增加40
-					治疗法术会额外治疗1点生命值
+					腐化你的光辉能量
+					降低{0}%非光辉伤害
+					增加{1}%光辉伤害
+					增加{2}%光辉暴击率
+					最大魔力值增加{3}
+					治疗法术会额外治疗{4}点生命值
 					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
 					[c/B8860B:职业划分：牧师]
 					'''
@@ -1952,7 +1945,7 @@ Mods: {
 				SetBonus:
 					'''
 					你会偶尔产生一根深渊能量触手攻击附近敌怪
-					你可以拥有至多6根触手且它们的伤害会从被击中的敌怪吸取{0}生命和{1}魔力
+					你可以拥有至多{0}根触手且它们的伤害会从被击中的敌怪吸取生命和魔力
 					'''
 			}
 
@@ -1960,11 +1953,11 @@ Mods: {
 				DisplayName: 低语者长裤
 				Tooltip:
 					'''
-					降低25%非光辉伤害
-					增加25%光辉伤害
-					增加6%光辉暴击率
-					降低15%魔力消耗
-					治疗法术会额外治疗1点生命值
+					降低{0}%非光辉伤害
+					增加{1}%光辉伤害
+					增加{2}%光辉暴击率
+					降低{3}%魔力消耗
+					治疗法术会额外治疗{4}点生命值
 					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
 					[c/B8860B:职业划分：牧师]
 					'''
@@ -1974,10 +1967,10 @@ Mods: {
 				DisplayName: 低语者法袍
 				Tooltip:
 					'''
-					降低35%非光辉伤害
-					增加35%光辉伤害
-					增加8%光辉暴击率
-					治疗法术会额外治疗2点生命值
+					降低{0}%非光辉伤害
+					增加{1}%光辉伤害
+					增加{2}%光辉暴击率
+					治疗法术会额外治疗{3}点生命值
 					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
 					[c/B8860B:职业划分：牧师]
 					'''
@@ -2013,7 +2006,7 @@ Mods: {
 
 			BloomingShield: {
 				DisplayName: 绽花盾
-				Tooltip: 脱战时你的生命恢复会随时间增加，至多5点
+				Tooltip: 脱战时你的生命恢复会随时间增加，至多{0}点
 			}
 
 			BloomingStaff: {
@@ -2069,7 +2062,7 @@ Mods: {
 
 			GoblinWarshield: {
 				DisplayName: 哥布林战盾
-				Tooltip: 站立不动时获得5点防御和2点生命恢复并免疫击退
+				Tooltip: 站立不动时获得{0}点防御和{1}点生命恢复并免疫击退
 			}
 
 			GoblinWarSpear: {
@@ -2084,11 +2077,6 @@ Mods: {
 
 			HarpyPelter: {
 				DisplayName: 飞羽手枪
-				Tooltip: ""
-			}
-
-			HarpyTalon: {
-				DisplayName: 飞羽爪
 				Tooltip: ""
 			}
 
@@ -2119,7 +2107,7 @@ Mods: {
 				DisplayName: 拇指环
 				Tooltip:
 					'''
-					增加5%箭伤害
+					增加{0}%箭伤害
 					箭暴击会短暂对敌怪施加暗影焰
 					'''
 			}
@@ -2140,7 +2128,7 @@ Mods: {
 
 			YewWoodBreastguard: {
 				DisplayName: 紫衫木胸甲
-				Tooltip: 增加2.5%远程武器开火速度
+				Tooltip: 增加{0}%远程武器开火速度
 			}
 
 			YewWoodFlintlock: {
@@ -2160,7 +2148,7 @@ Mods: {
 
 			YewWoodLeggings: {
 				DisplayName: 紫衫木护胫
-				Tooltip: 增加2.5%远程武器开火速度
+				Tooltip: 增加{0}%远程武器开火速度
 			}
 
 			AbominationBanner.DisplayName: 憎恶旗
@@ -2301,9 +2289,9 @@ Mods: {
 				DisplayName: 自动调谐器
 				Tooltip:
 					'''
-					最大灵感值增加2点
-					音波伤害有10%概率增加你当前激活的咒音增幅等级
-					此效果只能每2.5秒触发一次
+					最大灵感值增加{0}点
+					音波伤害有{1}%概率增加你当前激活的咒音增幅等级
+					此效果只能每{2}秒触发一次
 					[c/70DB93:获取方式：蒸汽朋克人出售]
 					'''
 			}
@@ -2322,15 +2310,15 @@ Mods: {
 				DisplayName: 乐团配件
 				Tooltip:
 					'''
-					增加8%音波伤害
-					增加8%音波演奏速度
-					增加8%灵感值再生速率
+					增加{0}%音波伤害
+					增加{1}%音波演奏速度
+					增加{2}%灵感值再生速率
 					'''
 			}
 
 			BardEmblem: {
 				DisplayName: 颂歌徽章
-				Tooltip: 增加15%音波伤害
+				Tooltip: 增加{0}%音波伤害
 			}
 
 			Bassoon: {
@@ -2383,8 +2371,8 @@ Mods: {
 				DisplayName: 黄铜旋帽
 				Tooltip:
 					'''
-					铜管乐器有15%概率调谐敌怪
-					被调谐的敌怪多受10%伤害
+					铜管乐器有{0}%概率调谐敌怪
+					被调谐的敌怪多受{1}%伤害
 					'''
 			}
 
@@ -2432,8 +2420,8 @@ Mods: {
 				DisplayName: 音乐会门票
 				Tooltip:
 					'''
-					最大灵感值增加2点
-					每个附近队友会增加你2%灵感值再生
+					最大灵感值增加{0}点
+					每个附近队友会增加你{1}%灵感值再生
 					[c/70DB93:获取方式：派对女孩出售]
 					'''
 			}
@@ -2442,9 +2430,9 @@ Mods: {
 				DisplayName: 指挥棒
 				Tooltip:
 					'''
-					增加5%灵感值再生速率
-					你和一个附近队友攻击相同目标时，敌怪会立刻受到20%结合的伤害
-					此效果对同个目标每2秒触发一次
+					增加{0}%灵感值再生速率
+					你和一个附近队友攻击相同目标时，敌怪会立刻受到{1}%结合的伤害
+					此效果对同个目标每{2}秒触发一次
 					[c/70DB93:获取方式：困难模式的商人出售]
 					'''
 			}
@@ -2462,7 +2450,7 @@ Mods: {
 				DisplayName: 软木膏
 				Tooltip:
 					'''
-					增加8%音波演奏速度
+					增加{0}%音波演奏速度
 					[c/70DB93:获取方式：哥布林工匠出售]
 					'''
 			}
@@ -2474,27 +2462,27 @@ Mods: {
 
 			CriersCap: {
 				DisplayName: 传讯员帽
-				Tooltip: 增加4%灵感值再生速率
+				Tooltip: 增加{0}%灵感值再生速率
 				SetBonus: 你的音波咒音增幅会额外持续{0}秒
 			}
 
 			CriersLeggings: {
 				DisplayName: 传讯员护胫
-				Tooltip: 增加4%灵感值再生速率
+				Tooltip: 增加{0}%灵感值再生速率
 			}
 
 			CriersSash: {
 				DisplayName: 传讯员腰带
-				Tooltip: 增加7%灵感值再生速率
+				Tooltip: 增加{0}%灵感值再生速率
 			}
 
 			CyberPunkHeadset: {
 				DisplayName: 赛博朋克帽
 				Tooltip:
 					'''
-					增加5%音波伤害
-					增加4%音波暴击率
-					增加10%灵感值再生速率
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%灵感值再生速率
 					'''
 				SetBonus:
 					'''
@@ -2510,9 +2498,9 @@ Mods: {
 				DisplayName: 赛博朋克裤
 				Tooltip:
 					'''
-					增加6%音波伤害
-					增加6%音波暴击率
-					增加12%移动速度
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%移动速度
 					'''
 			}
 
@@ -2520,9 +2508,9 @@ Mods: {
 				DisplayName: 赛博朋克服
 				Tooltip:
 					'''
-					增加7%音波伤害
-					增加10%灵感音符掉落概率
-					增加2秒咒音增幅的持续时间
+					增加{0}%音波伤害
+					增加{1}%灵感音符掉落概率
+					增加{2}秒咒音增幅的持续时间
 					'''
 			}
 
@@ -2539,9 +2527,9 @@ Mods: {
 				DisplayName: 数码调谐器
 				Tooltip:
 					'''
-					增加10%音波伤害
-					增加6%音波暴击率
-					打击乐器暴击会多造成10%伤害
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					打击乐器暴击会多造成{2}%伤害
 					打击乐器暴击会短暂晕眩敌怪
 					'''
 			}
@@ -2550,7 +2538,7 @@ Mods: {
 				DisplayName: Diss曲目
 				Tooltip:
 					'''
-					增加10%灵感值再生速率
+					增加{0}%灵感值再生速率
 					你的音波伤害会用暗影焰点燃击中的敌怪
 					音波暴击会使暗影音符大量喷发
 					'''
@@ -2615,7 +2603,7 @@ Mods: {
 				Tooltip:
 					'''
 					用管乐器击杀敌怪或持续伤害Boss会产生一颗能量蛋
-					触摸能量蛋的玩家会恢复15%他们失去的主要资源
+					触摸能量蛋的玩家会恢复{0}%他们失去的主要资源
 					'''
 			}
 
@@ -2624,18 +2612,8 @@ Mods: {
 				Tooltip:
 					'''
 					“充满了插入性赞美……但出乎意料地激励人心”
-					最大灵感值增加3点
-					[c/70DB93:获取方式：破坏猩红之心掉落]
-					'''
-			}
-
-			FanLetter2: {
-				DisplayName: 粉丝的信函
-				Tooltip:
-					'''
-					“充满了插入性赞美……但出乎意料地激励人心”
-					最大灵感值增加3点
-					[c/70DB93:获取方式：破坏暗影珠掉落]
+					最大灵感值增加{0}点
+					[c/70DB93:获取方式：破坏猩红之心/暗影珠掉落]
 					'''
 			}
 
@@ -2683,7 +2661,7 @@ Mods: {
 				DisplayName: 总谱
 				Tooltip:
 					'''
-					增加3秒音波咒音增幅持续时间
+					增加{0}秒音波咒音增幅持续时间
 					用音波伤害击杀敌怪会生成一系列伤害敌怪的拍手
 					'''
 			}
@@ -2730,8 +2708,8 @@ Mods: {
 				DisplayName: 吉他拨片
 				Tooltip:
 					'''
-					增加5%音波演奏速度
-					弦武器弹幕会额外反弹两次
+					增加{0}%音波演奏速度
+					弦武器弹幕会额外反弹{1}次
 					'''
 			}
 
@@ -2739,9 +2717,9 @@ Mods: {
 				DisplayName: 吉他拨爪
 				Tooltip:
 					'''
-					增加10%音波伤害
-					增加5%音波演奏速度
-					弦武器弹幕会额外反弹三次
+					增加{0}%音波伤害
+					增加{1}%音波演奏速度
+					弦武器弹幕会额外反弹{2}次
 					'''
 			}
 
@@ -2769,8 +2747,8 @@ Mods: {
 				DisplayName: 头戴式耳机
 				Tooltip:
 					'''
-					最大灵感值增加2点
-					你拥有的每个独特咒音增幅会增加2%移动速度和1%演奏速度
+					最大灵感值增加{0}点
+					你拥有的每个独特咒音增幅会增加{1}%移动速度和{2}%演奏速度
 					[c/70DB93:获取方式：机械师出售]
 					'''
 			}
@@ -2787,7 +2765,7 @@ Mods: {
 
 			HighQualityReed: {
 				DisplayName: 高品质舌簧
-				Tooltip: 增加6%音波伤害
+				Tooltip: 增加{0}%音波伤害
 			}
 
 			HoneyRecorder: {
@@ -2859,33 +2837,27 @@ Mods: {
 
 			JestersLeggings: {
 				DisplayName: 弄臣裤
-				Tooltip: 增加5%灵感值再生速率
+				Tooltip: 增加{0}%灵感值再生速率
 			}
 
-			JestersLeggings2: {
-				DisplayName: 弄臣裤
-				Tooltip: 增加5%灵感值再生速率
-			}
+			JestersLeggings2.DisplayName: 弄臣裤
 
 			JestersMask: {
 				DisplayName: 弄臣面具
-				Tooltip: 增加11%音波暴击率
+				Tooltip: 增加{0}%音波暴击率
 				SetBonus: 音波暴击会在你头顶响起一个铃铛，短暂减速附近所有敌怪
 			}
 
-			JestersMask2: {
-				DisplayName: 弄臣面具
-				Tooltip: 增加11%音波暴击率
-			}
+			JestersMask2.DisplayName: 弄臣面具
 
 			JestersShirt: {
 				DisplayName: 弄臣服
-				Tooltip: 音波伤害有20%概率以生命再生增幅玩家
+				Tooltip: 音波伤害有{0}%概率以生命再生增幅玩家
 			}
 
 			JestersShirt2: {
 				DisplayName: 弄臣服
-				Tooltip: 音波伤害有20%概率以固定伤害增幅玩家
+				Tooltip: 音波伤害有{0}%概率以生命再生增幅玩家
 			}
 
 			JingleBells: {
@@ -2911,7 +2883,7 @@ Mods: {
 				DisplayName: 活力花瓣
 				Tooltip:
 					'''
-					打击乐器伤害有25%概率激活一片“恐慌花瓣”，花瓣会绕玩家旋转
+					打击乐器伤害有{0}%概率激活一片“恐慌花瓣”，花瓣会绕玩家旋转
 					触摸花瓣的玩家会获得大幅速度提升
 					触摸花瓣的敌怪会受到伤害
 					'''
@@ -2930,9 +2902,9 @@ Mods: {
 				DisplayName: 大师紧身裤
 				Tooltip:
 					'''
-					增加10%音波伤害
-					增加4%音波暴击率
-					增加15%移动速度
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%移动速度
 					'''
 			}
 
@@ -2940,10 +2912,10 @@ Mods: {
 				DisplayName: 大师外套
 				Tooltip:
 					'''
-					增加14%音波伤害
-					增加4%音波暴击率
-					增加10%灵感音符掉落概率
-					增加3秒咒音增幅的持续时间
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%灵感音符掉落概率
+					增加{3}秒咒音增幅的持续时间
 					'''
 			}
 
@@ -2951,9 +2923,9 @@ Mods: {
 				DisplayName: 大师假发
 				Tooltip:
 					'''
-					增加5%音波演奏速度
-					增加4%音波暴击率
-					增加15%灵感值再生速率
+					增加{0}%音波演奏速度
+					增加{1}%音波暴击率
+					增加{2}%灵感值再生速率
 					'''
 				SetBonus:
 					'''
@@ -2966,8 +2938,8 @@ Mods: {
 				DisplayName: 仪仗队军帽
 				Tooltip:
 					'''
-					增加2%音波暴击率
-					增加10%灵感值再生速率
+					增加{0}%音波暴击率
+					增加{1}%灵感值再生速率
 					'''
 				SetBonus: 战斗中，一个伤害性的彩虹音波符号会跟随你的移动并晕眩敌怪
 			}
@@ -2976,8 +2948,8 @@ Mods: {
 				DisplayName: 仪仗队裤
 				Tooltip:
 					'''
-					增加3%音波暴击率
-					增加10%移动速度
+					增加{0}%音波暴击率
+					增加{1}%移动速度
 					'''
 			}
 
@@ -2985,8 +2957,8 @@ Mods: {
 				DisplayName: 仪仗队制服
 				Tooltip:
 					'''
-					增加3%音波暴击率
-					增加16%音波伤害
+					增加{0}%音波暴击率
+					增加{1}%音波伤害
 					'''
 			}
 
@@ -3078,8 +3050,8 @@ Mods: {
 				DisplayName: 贵族帽
 				Tooltip:
 					'''
-					增加4%灵感音符掉率
-					增加5%灵感值再生速率
+					增加{0}%灵感音符掉率
+					增加{1}%灵感值再生速率
 					'''
 				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
 			}
@@ -3088,8 +3060,8 @@ Mods: {
 				DisplayName: 贵族华服
 				Tooltip:
 					'''
-					增加10%音波伤害
-					增加6%灵感音符掉率
+					增加{0}%音波伤害
+					增加{1}%灵感音符掉率
 					'''
 			}
 
@@ -3097,8 +3069,8 @@ Mods: {
 				DisplayName: 贵族裤
 				Tooltip:
 					'''
-					增加5%灵感音符掉率
-					增加8%移动速度
+					增加{0}%灵感音符掉率
+					增加{1}%移动速度
 					'''
 			}
 
@@ -3135,9 +3107,9 @@ Mods: {
 				DisplayName: 华贵帽
 				Tooltip:
 					'''
-					增加5%音波演奏速度
-					增加8%音波暴击率
-					增加15%灵感值再生速率
+					增加{0}%音波演奏速度
+					增加{1}%音波暴击率
+					增加{2}%灵感值再生速率
 					'''
 				SetBonus:
 					'''
@@ -3150,9 +3122,9 @@ Mods: {
 				DisplayName: 华贵上衣
 				Tooltip:
 					'''
-					增加12%音波伤害
-					增加10%灵感音符掉落概率
-					增加3秒咒音增幅的持续时间
+					增加{0}%音波伤害
+					增加{1}%灵感音符掉落概率
+					增加{2}秒咒音增幅的持续时间
 					'''
 			}
 
@@ -3160,15 +3132,15 @@ Mods: {
 				DisplayName: 华贵裤
 				Tooltip:
 					'''
-					增加8%音波伤害
-					增加8%音波暴击率
-					增加15%移动速度
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%移动速度
 					'''
 			}
 
 			PadOPaper: {
 				DisplayName: 灵感笔记
-				Tooltip: 增加10%灵感值再生速率
+				Tooltip: 增加{0}%灵感值再生速率
 			}
 
 			Panflute: {
@@ -3192,7 +3164,7 @@ Mods: {
 
 			PrimeRoar: {
 				DisplayName: 至尊之啸
-				Tooltip: 发射有力的咆哮调谐敌怪，使它们受到的伤害增加10%
+				Tooltip: 发射有力的咆哮调谐敌怪，使它们受到的伤害增加{0}%
 			}
 
 			Pungi: {
@@ -3275,9 +3247,9 @@ Mods: {
 				DisplayName: 流影掠星靴
 				Tooltip:
 					'''
-					增加12%音波伤害
-					增加6%音波暴击率
-					增加15%移动速度
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%移动速度
 					'''
 			}
 
@@ -3299,9 +3271,9 @@ Mods: {
 				DisplayName: 流影掠星帽
 				Tooltip:
 					'''
-					增加10%音波演奏速度
-					增加6%音波暴击率
-					增加20%灵感值再生速率
+					增加{0}%音波演奏速度
+					增加{1}%音波暴击率
+					增加{2}%灵感值再生速率
 					'''
 				SetBonus:
 					'''
@@ -3315,10 +3287,10 @@ Mods: {
 				DisplayName: 流影掠星服
 				Tooltip:
 					'''
-					增加16%音波伤害
-					增加4%音波暴击率
-					增加10%灵感音符掉落概率
-					增加4秒咒音增幅的持续时间
+					增加{0}%音波伤害
+					增加{1}%音波暴击率
+					增加{2}%灵感音符掉落概率
+					增加{3}秒咒音增幅的持续时间
 					'''
 			}
 
@@ -3412,7 +3384,7 @@ Mods: {
 				DisplayName: 音箱
 				Tooltip:
 					'''
-					你和附近队友额外获得2点盔甲穿透
+					你和附近队友额外获得{0}点盔甲穿透
 					咒音增幅的效用范围翻倍
 					[c/70DB93:获取方式：机械师出售]
 					'''
@@ -3443,7 +3415,7 @@ Mods: {
 				DisplayName: 界元音箱
 				Tooltip:
 					'''
-					增加10%音波伤害
+					增加{0}%音波伤害
 					你和附近的队友攻击时有概率元素打击敌怪
 					咒音增幅的效用范围翻倍
 					'''
@@ -3489,7 +3461,7 @@ Mods: {
 
 			TuningFork: {
 				DisplayName: 青铜音叉
-				Tooltip: 调谐敌怪，使它们多受10%伤害
+				Tooltip: 调谐敌怪，使它们多受{0}%伤害
 			}
 
 			Turntable: {
@@ -3515,8 +3487,8 @@ Mods: {
 				DisplayName: 振动调谐器
 				Tooltip:
 					'''
-					增加6%音波暴击率
-					打击乐器暴击会多造成5%伤害
+					增加{0}%音波暴击率
+					打击乐器暴击会多造成{0}%伤害
 					打击乐器暴击会短暂晕眩敌怪
 					'''
 			}
@@ -3575,7 +3547,7 @@ Mods: {
 				DisplayName: 蜡质松香
 				Tooltip:
 					'''
-					穿透性弦乐器攻击后每击降低15%伤害
+					穿透性弦乐器攻击后每击降低{0}%伤害
 					穿透性弦乐器攻击每次击中后速度增加
 					'''
 			}
@@ -3613,7 +3585,7 @@ Mods: {
 				DisplayName: 履空靴
 				Tooltip:
 					'''
-					增加5%移动速度
+					增加{0}%移动速度
 					允许你离开地面后在空中短暂行走和跳跃
 					'''
 			}
@@ -3638,7 +3610,7 @@ Mods: {
 				Tooltip:
 					'''
 					持续按住“{$Keybinds.AccessoryAbility.DisplayName}”键会消耗玩家的匠能
-					接下来的每次按住会增加下次攻击伤害20点，至多100点
+					接下来的每次按住会增加下次攻击伤害{0}点，至多{1}点
 					'''
 			}
 
@@ -3652,8 +3624,8 @@ Mods: {
 				Tooltip:
 					'''
 					降低受击时的击退
-					每拥有20点匠能会获得2点防御
-					受到伤害会降低20点匠能
+					每拥有{0}点匠能会获得{1}点防御
+					受到伤害会降低{2}点匠能
 					'''
 			}
 
@@ -3669,18 +3641,14 @@ Mods: {
 
 			CopperBuckler: {
 				DisplayName: 铜盾
-				Tooltip:
-					'''
-					防御增加1点
-					你会持续生成8点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			CrashBoots: {
 				DisplayName: 震地靴
 				Tooltip:
 					'''
-					增加8%移动速度和奔跑加速度
+					增加{0}%移动速度和奔跑加速度
 					奔跑时会建立动量并增加移动速度
 					撞向敌怪会释放所有存储的动量，击退敌怪
 					'''
@@ -3723,18 +3691,14 @@ Mods: {
 				DisplayName: 恐惧驱散者
 				Tooltip:
 					'''
-					降低6%所受伤害
+					降低{0}%所受伤害
 					敌怪不太可能瞄准你
 					'''
 			}
 
 			GoldAegis: {
 				DisplayName: 金庇护
-				Tooltip:
-					'''
-					防御增加2点
-					你会持续生成14点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			GreedyGoblet: {
@@ -3752,7 +3716,7 @@ Mods: {
 				DisplayName: 生命恢复靴
 				Tooltip:
 					'''
-					增加5%移动速度
+					增加{0}%移动速度
 					奔跑时你的生命再生增加
 					'''
 			}
@@ -3761,10 +3725,9 @@ Mods: {
 				DisplayName: 神圣庇护
 				Tooltip:
 					'''
-					最大生命值增加20
-					高于25%生命值时会吸收团队中附近玩家所受伤害的25%
-					延长受伤后的无敌帧时间
-					免疫击退
+					最大生命值增加{0}
+					高于{1}%生命值时会吸收团队中附近玩家所受伤害的{1}%
+					延长受伤后的无敌帧时间并免疫击退
 					'''
 			}
 
@@ -3772,7 +3735,7 @@ Mods: {
 				DisplayName: 悬浮靴
 				Tooltip:
 					'''
-					增加5%移动速度
+					增加{0}%移动速度
 					允许你离开地面后短暂悬浮
 					'''
 			}
@@ -3784,11 +3747,7 @@ Mods: {
 
 			IronShield: {
 				DisplayName: 铁盾
-				Tooltip:
-					'''
-					防御增加1点
-					你会持续生成10点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			KineticBattery: {
@@ -3804,11 +3763,7 @@ Mods: {
 
 			LeadShield: {
 				DisplayName: 铅盾
-				Tooltip:
-					'''
-					防御增加1点
-					你会持续生成11点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			LeatherGlove: {
@@ -3829,8 +3784,8 @@ Mods: {
 				DisplayName: 水晶之眼面具
 				Tooltip:
 					'''
-					增加8%暴击率
-					暴击多造成12%伤害
+					增加{0}%暴击率
+					暴击多造成{1}%伤害
 					'''
 			}
 
@@ -3861,11 +3816,7 @@ Mods: {
 
 			PlatinumAegis: {
 				DisplayName: 铂金庇护
-				Tooltip:
-					'''
-					防御增加2点
-					你会持续生成15点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			RubyRing: {
@@ -3880,11 +3831,7 @@ Mods: {
 
 			SilverBulwark: {
 				DisplayName: 银壁垒
-				Tooltip:
-					'''
-					防御增加2点
-					你会持续生成12点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			SilverSpearTip: {
@@ -3903,14 +3850,14 @@ Mods: {
 
 			SpikedBracer: {
 				DisplayName: 尖刺护腕
-				Tooltip: 你所受伤害的50%会返还给攻击者
+				Tooltip: 你所受伤害的{0}%会返还给攻击者
 			}
 
 			SteelToedBoots: {
 				DisplayName: 钢钉靴
 				Tooltip:
 					'''
-					增加5%移动速度
+					增加{0}%移动速度
 					适当增加下落速度
 					'''
 			}
@@ -3919,7 +3866,7 @@ Mods: {
 				DisplayName: 求生家之飞鞋
 				Tooltip:
 					'''
-					增加8%移动速度
+					增加{0}%移动速度
 					移动时，你的生命，魔力和灵感值再生增加
 					'''
 			}
@@ -3936,11 +3883,7 @@ Mods: {
 
 			TinBuckler: {
 				DisplayName: 锡盾
-				Tooltip:
-					'''
-					防御增加1点
-					你会持续生成9点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			TopazRing: {
@@ -3952,18 +3895,14 @@ Mods: {
 				DisplayName: 旅行者之靴
 				Tooltip:
 					'''
-					增加5%移动速度
+					增加{0}%移动速度
 					你的冲刺会更快到达峰值
 					'''
 			}
 
 			TungstenBulwark: {
 				DisplayName: 钨壁垒
-				Tooltip:
-					'''
-					防御增加2点
-					你会持续生成13点的生命护盾
-					'''
+				Tooltip: 你会持续生成{0}点的生命护盾
 			}
 
 			TurboBoots: {
@@ -4046,7 +3985,7 @@ Mods: {
 				Tooltip:
 					'''
 					“很少有东西能在泰拉大地的暴风雪核心地带存活”
-					对减速目标造成的伤害增加15%
+					对减速目标造成的伤害增加{0}%
 					对减速目标造成的伤害有概率略微治疗你
 					'''
 			}
@@ -4567,8 +4506,8 @@ Mods: {
 				DisplayName: 珊瑚胸甲
 				Tooltip:
 					'''
-					降低11%非光辉伤害
-					治疗法术会额外治疗1点生命值
+					降低{0}%非光辉伤害
+					治疗法术会额外治疗{1}点生命值
 					'''
 			}
 
@@ -4586,8 +4525,8 @@ Mods: {
 				DisplayName: 珊瑚护胫
 				Tooltip:
 					'''
-					降低11%非光辉伤害
-					治疗法术会额外治疗1点生命值
+					降低{0}%非光辉伤害
+					治疗法术会额外治疗{1}点生命值
 					'''
 			}
 
@@ -4600,8 +4539,8 @@ Mods: {
 				DisplayName: 珊瑚头盔
 				Tooltip:
 					'''
-					降低11%非光辉伤害
-					增加50%呼吸时间
+					降低{0}%非光辉伤害
+					增加{1}%呼吸时间
 					'''
 				SetBonus:
 					'''
@@ -4675,8 +4614,8 @@ Mods: {
 				Tooltip:
 					'''
 					“轻盈耐用”
-					增加10%移动速度
-					增加2点盔甲穿透
+					增加{0}%移动速度
+					增加{1}点盔甲穿透
 					'''
 			}
 
@@ -4685,8 +4624,8 @@ Mods: {
 				Tooltip:
 					'''
 					“轻盈耐用”
-					增加10%移动速度
-					增加1点盔甲穿透
+					增加{0}%移动速度
+					增加{1}点盔甲穿透
 					'''
 				SetBonus: 没有什么能阻挡你的移动！双击来冲刺！
 			}
@@ -4696,8 +4635,8 @@ Mods: {
 				Tooltip:
 					'''
 					“轻盈耐用”
-					增加10%移动速度
-					增加2点盔甲穿透
+					增加{0}%移动速度
+					增加{1}点盔甲穿透
 					'''
 			}
 
@@ -4745,7 +4684,7 @@ Mods: {
 				DisplayName: 食人魔凉鞋
 				Tooltip:
 					'''
-					增加10%移动速度
+					增加{0}%移动速度
 					着陆时释放强力冲击波
 					伤害，击退和冲击波范围会随下落距离的增加而增加
 					'''
@@ -4785,7 +4724,7 @@ Mods: {
 					'''
 					“注入永恒的血液”
 					敌怪更有可能以你为目标
-					20%概率完全抵消到来的伤害
+					{0}%概率完全抵消到来的伤害
 					'''
 			}
 
@@ -4813,7 +4752,7 @@ Mods: {
 				Tooltip:
 					'''
 					“注入永恒的血液”
-					增加15%移动速度
+					增加{0}%移动速度
 					'''
 			}
 
@@ -4827,7 +4766,7 @@ Mods: {
 				Tooltip:
 					'''
 					“注入永恒的血液”
-					增加10%伤害减免
+					增加{0}%伤害减免
 					'''
 				SetBonus: 最大生命值增加{0}
 			}
@@ -5136,10 +5075,10 @@ Mods: {
 				Tooltip:
 					'''
 					“原始海洋法师的装束”
-					最大魔力值增加60
+					最大魔力值增加{0}
 					允许你水下呼吸
 					'''
-				SetBonus: 每消耗{0}魔力会短暂地大幅增加你的魔法伤害和施法速度
+				SetBonus: 每消耗{0}魔力会显著地大幅增加你的魔法伤害和施法速度
 			}
 
 			NagaSkinSuit: {
@@ -5147,7 +5086,7 @@ Mods: {
 				Tooltip:
 					'''
 					“原始海洋法师的装束”
-					增加10%魔法伤害
+					增加{0}%魔法伤害
 					增加魔力再生
 					'''
 			}
@@ -5157,7 +5096,7 @@ Mods: {
 				Tooltip:
 					'''
 					“原始海洋法师的装束”
-					增加8%魔法伤害
+					增加{0}%魔法伤害
 					潮湿时你移动地更快
 					'''
 			}
@@ -5171,9 +5110,8 @@ Mods: {
 				DisplayName: 海潮之噬
 				Tooltip:
 					'''
-					防御增加4点
-					所受伤害的50%会返还给攻击者
-					受伤害会释放可触摸的微粒，回复所受伤害25%的生命值
+					所受伤害的{0}%会返还给攻击者
+					受伤害会释放可触摸的微粒，回复所受伤害{1}%的生命值
 					受伤害会释放造成酸性毒液的脊椎
 					'''
 			}
@@ -5212,8 +5150,7 @@ Mods: {
 				DisplayName: 海龟壁垒
 				Tooltip:
 					'''
-					防御增加2点
-					受伤害会释放可触摸的微粒，回复所受伤害25%的生命值
+					受伤害会释放可触摸的微粒，回复所受伤害{0}%的生命值
 					（在深海箱或渊海/深渊匣内获得）
 					'''
 			}
@@ -5238,7 +5175,7 @@ Mods: {
 				Tooltip:
 					'''
 					“不只是为了捕鱼”
-					增加4%远程暴击率
+					增加{0}%远程暴击率
 					允许你水下呼吸
 					'''
 				SetBonus: 远程暴击会释放一堆泡沫，减速附近敌怪
@@ -5249,7 +5186,7 @@ Mods: {
 				Tooltip:
 					'''
 					“不只是为了捕鱼”
-					增加10%远程伤害
+					增加{0}%远程伤害
 					'''
 			}
 
@@ -5258,7 +5195,7 @@ Mods: {
 				Tooltip:
 					'''
 					“不只是为了捕鱼”
-					增加10%远程暴击率
+					增加{0}%远程暴击率
 					'''
 			}
 
@@ -5266,9 +5203,9 @@ Mods: {
 				DisplayName: 吸血鬼试剂
 				Tooltip:
 					'''
-					你的伤害有10%概率产生一次血液喷发
-					血液可以被玩家拾取并治疗他们所造成伤害的15%
-					治疗量不能超过15点生命值且拾取血液会造成5秒流血
+					你的伤害有{0}%概率产生一次血液喷发
+					血液可以被玩家拾取并治疗他们所造成伤害的{1}%
+					治疗量不能超过{2}点生命值且拾取血液会造成{3}秒流血
 					'''
 			}
 
@@ -5414,8 +5351,8 @@ Mods: {
 				DisplayName: 甲虫冲击波
 				Tooltip:
 					'''
-					开火时会增加10%伤害减免
-					开火时会降低50%移动速度
+					开火时会增加{0}%伤害减免
+					开火时会降低{1}%移动速度
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -5443,7 +5380,7 @@ Mods: {
 					收集种子的功能可以在物品栏左上角切换
 					仅能放置在地表
 					'''
-				ConvertTooltip: 右键循环样式或重新制作转化为{0}
+				ConvertTooltip: 按上/下键切换或重新制作转化为{0}
 				Grounded: 地面式
 				Hanging: 悬挂式
 				PylonRestriction: 每有一个晶塔可放置{0}个喂鸟器（当前限制: {1}）
@@ -5468,9 +5405,9 @@ Mods: {
 				DisplayName: 爆炸盾
 				Tooltip:
 					'''
-					所受伤害降低10%
+					所受伤害降低{0}%
 					免疫敌怪击退且敌怪更有可能攻击你
-					每3秒，受到伤害会在你周围释放一场不稳定的爆炸
+					每{1}秒，受到伤害会在你周围释放一场不稳定的爆炸
 					爆炸伤害与你的防御相关
 					'''
 			}
@@ -5485,8 +5422,8 @@ Mods: {
 				Tooltip:
 					'''
 					你的悠悠球伤害会造成霜冻并有概率冻结敌怪
-					用悠悠球对敌怪造成伤害会提供你10%伤害减免，直到受到伤害
-					此效果在保护你后必须花15秒重新充能
+					用悠悠球对敌怪造成伤害会提供你{0}%伤害减免，直到受到伤害
+					此效果在保护你后必须花{1}秒重新充能
 					'''
 			}
 
@@ -5594,9 +5531,9 @@ Mods: {
 				Tooltip:
 					'''
 					“这款披风的结构旨在引导你度过艰难的日子”
-					你随时间快速地获取至多20%伤害减免
-					受击时会短暂地将此加成变为-10%伤害减免
-					当此加成高于0%时，你会获得至多2点生命恢复并能阻挡1次伤害性攻击
+					你随时间快速地获取至多{0}%伤害减免
+					受击时会短暂地将此加成变为-{1}%伤害减免
+					当此加成高于{2}%时，你会获得至多{3}点生命恢复并能阻挡{4}次伤害性攻击
 					'''
 			}
 
@@ -5667,11 +5604,7 @@ Mods: {
 
 			ChiLantern: {
 				DisplayName: 气魂灯
-				Tooltip:
-					'''
-					释放三道延迟的治疗能量波
-					治疗波会治疗附近所有队友
-					'''
+				Tooltip: 释放三道延迟的治疗能量波并治疗波会治疗附近所有队友
 			}
 
 			ChristmasCenter: {
@@ -5990,7 +5923,7 @@ Mods: {
 					'''
 					“直接撒在悠悠球上效果最佳”
 					你的悠悠球伤害会短暂对击中的敌怪造成冻伤
-					此效果每5秒重新充能
+					此效果每{0}秒重新充能
 					'''
 			}
 
@@ -6043,7 +5976,7 @@ Mods: {
 				Tooltip:
 					'''
 					“你完全掌控着你的灵魂……”
-					每两分钟，受到致命伤害时会立刻传送回家
+					每{0}分钟，受到致命伤害时会立刻传送回家
 					'''
 			}
 
@@ -6168,8 +6101,8 @@ Mods: {
 				DisplayName: 扳手拳套
 				Tooltip:
 					'''
-					增加25%所受伤害
-					低于50%生命值时，你造成的伤害增加10%且有1%的生命偷取效果
+					增加{0}%所受伤害
+					低于{1}%生命值时，你造成的伤害增加{2}%且有{3}%的生命偷取效果
 					'''
 			}
 
@@ -6201,7 +6134,7 @@ Mods: {
 
 			HeartOfStone: {
 				DisplayName: 岩石之心
-				Tooltip: 你的防御会随所在深度增加
+				Tooltip: 你的防御会随所在世界的深度增加
 			}
 
 			HeartOfTheJungle: {
@@ -6225,7 +6158,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速释放天国武器风暴，用“神圣之怒”短暂祝福击中的敌怪
-					受神圣之怒影响的敌怪所受伤害增加15%
+					受神圣之怒影响的敌怪所受伤害增加{0}%
 					'''
 			}
 
@@ -6283,9 +6216,9 @@ Mods: {
 				DisplayName: 饮魔玫瑰
 				Tooltip:
 					'''
-					失去80%最大魔力后，你会立刻恢复50%最大魔力并叠加10层“挥发能量”
-					挥发能量会增加0.2%攻速，缓慢伤害你，每秒衰减
-					挥发能量叠加到100层会立刻杀死你
+					失去{0}%最大魔力后，你会立刻恢复{1}%最大魔力并叠加{2}层“挥发能量”
+					挥发能量会增加{3}%攻速，缓慢伤害你，每秒衰减
+					挥发能量叠加到{4}层会立刻杀死你
 					'''
 			}
 
@@ -6370,10 +6303,9 @@ Mods: {
 				Tooltip:
 					'''
 					增加你的生命再生速率
-					低于25%生命值时受到伤害会在你周围环绕一个保护性泡泡
-					在泡泡中时，你每秒会恢复与治疗加成相同的生命值
-					另外，受到的伤害会降低10%
-					此效果触发后需要30秒重新充能
+					低于{0}%生命值时受到伤害会在你周围环绕一个保护性泡泡
+					在泡泡中时，你每秒会恢复与治疗加成相同的生命值并降低{1}%受到的伤害
+					此效果触发后需要{2}秒重新充能
 					'''
 			}
 
@@ -6508,7 +6440,7 @@ Mods: {
 				DisplayName: 代谢药
 				Tooltip:
 					'''
-					食用厨师食物后的“饱食”时间缩短20%
+					食用厨师食物后的“饱食”时间缩短{0}%
 					“饱食”时你的生命恢复增加
 					'''
 			}
@@ -6749,8 +6681,8 @@ Mods: {
 				Tooltip:
 					'''
 					生成一道火焰屏障点燃即将到来的敌对弹幕
-					点燃弹幕后，护盾必须要10秒再生
-					低于25%生命值时，护盾生成的速度翻倍
+					点燃弹幕后，护盾必须要{0}秒再生
+					低于{1}%生命值时，护盾生成的速度翻倍
 					'''
 			}
 
@@ -6809,7 +6741,7 @@ Mods: {
 					“一个人应当小心内心的贪婪”
 					所有攻击使敌怪掉落更多金
 					击中的敌怪会掉落额外钱币
-					受到的伤害增加10%
+					受到的伤害增加{0}%
 					'''
 			}
 
