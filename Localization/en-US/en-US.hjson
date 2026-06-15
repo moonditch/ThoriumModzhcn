@@ -65,7 +65,7 @@ Mods: {
 			ThoriumModTip12: Thorium Mod: Certain inventory-cluttering items like cobwebs and ore can be placed in your Ammo slots.
 			ThoriumModTip13: Thorium Mod: Items with teal-colored names are dedicated to donators for the Thorium Mod!
 			# Bosses
-			ThoriumModTip14: Thorium Mod: {$NPCs.TheGrandThunderBird.DisplayName} can be challenged once you find some iron, Antlion Mandibles, and Fallen Stars.
+			ThoriumModTip14: Thorium Mod: {$NPCs.TheGrandThunderBird.DisplayName} can be challenged once you find some iron, Talons, and Fallen Stars.
 			ThoriumModTip15: Thorium Mod: A {$Items.JellyfishResonator.DisplayName} will attract all sorts of jellyfish... including giant mutant ones!
 			ThoriumModTip16: Thorium Mod: Be sure to prepare a handful of Unholy Shards to attract the Viscount in his cavernous chamber.
 			ThoriumModTip17: Thorium Mod: Once the Dungeon's curse has been lifted, Granite Caves will gain new residents. Keep an eye out for any volatile-looking energy outcroppings...
@@ -215,7 +215,7 @@ Mods: {
 
 			ShockAbsorberBuff: {
 				DisplayName: Shock Absorbtion
-				Description: All damage increased by 15%
+				Description: All damage increased by {0}%
 			}
 
 			SoloistsHatSetBuff: {
@@ -235,7 +235,7 @@ Mods: {
 
 			BeetleCarapace: {
 				DisplayName: Beetle Carapace
-				Description: Damage reduction increased and reflecting damage
+				Description: "{0}% increased damage reduction and reflecting damage"
 			}
 
 			BlightFever: {
@@ -430,17 +430,12 @@ Mods: {
 
 			AltarBuff: {
 				DisplayName: Spiritual Connection
-				Description: Your healing spells will heal an additional life
+				Description: Your healing spells will heal an additional {0} life
 			}
 
 			AuraDamageReduction: {
 				DisplayName: Aura : Damage Reduction
-				Description: Your ally is increasing your damage reduction by 12%
-			}
-
-			BeltoftheQuickResponseBuff: {
-				DisplayName: Speed Burst
-				Description: Healing an ally has increased your movement and healing speed
+				Description: Your ally is granting you {0}% increased damage reduction
 			}
 
 			BloodBoost: {
@@ -475,17 +470,17 @@ Mods: {
 
 			CosmicFluxStaffDamageBuff: {
 				DisplayName: Radiant Nova
-				Description: Radiant damage increased by 25%
+				Description: Radiant damage increased by {0}%
 			}
 
 			CosmicFluxStaffHealBuff: {
 				DisplayName: Healing Nova
-				Description: Healing spells will heal an additional 2 life
+				Description: Healing spells will heal an additional {0} life
 			}
 
 			CrystalWishBuff: {
 				DisplayName: Crystal Wish
-				Description: Your ally has increased your damage reduction by 10%
+				Description: Your ally has granted you {0}% increased damage reduction
 			}
 
 			Cured: {
@@ -515,7 +510,7 @@ Mods: {
 
 			DragonHeartWandBuff: {
 				DisplayName: Dragon Heart
-				Description: Damage increased by 15%
+				Description: Damage increased by {0}%
 			}
 
 			DreamCatcherBuff: {
@@ -560,17 +555,17 @@ Mods: {
 
 			Enfeeble: {
 				DisplayName: Enfeeble
-				Description: Taking 10 additional damage from radiant attacks
+				Description: Taking {0} additional damage from radiant attacks
 			}
 
 			ForgottenCrossNecklaceBuff: {
 				DisplayName: Holy Defense
-				Description: Your defense has been increased by 14
+				Description: Your defense has been increased by {0}
 			}
 
 			GlowingPotionBuff: {
 				DisplayName: Illustrious Energy
-				Description: Radiant damage increased by 10%
+				Description: Radiant damage increased by {0}%
 			}
 
 			HolyGlare: {
@@ -580,7 +575,7 @@ Mods: {
 
 			HolyPotionBuff: {
 				DisplayName: Holy Power
-				Description: Healing spells will heal an additional life
+				Description: Healing spells will heal an additional {0} life
 			}
 
 			KarmicHolderBuff: {
@@ -595,7 +590,7 @@ Mods: {
 
 			LifeBinderSetBuff: {
 				DisplayName: Mist Fueled Bulwark
-				Description: Your maximum life has been increased by 50
+				Description: Your maximum life has been increased by {0}
 			}
 
 			LifeQuartzShieldBuff: {
@@ -630,7 +625,7 @@ Mods: {
 
 			MarrowScepterBuff: {
 				DisplayName: Bone Armor
-				Description: Damage reduction increased by 15%
+				Description: "{0}% increased damage reduction"
 			}
 
 			Mortality: {
@@ -640,12 +635,12 @@ Mods: {
 
 			NullZoneBuff: {
 				DisplayName: Null-Zone
-				Description: Projectile damage taken reduced by 20%
+				Description: Projectile damage taken reduced by {0}%
 			}
 
 			OutofTouch: {
 				DisplayName: Out of Touch
-				Description: Your bonus healing is only 33% as effective
+				Description: Your bonus healing is only {0}% as effective
 			}
 
 			PhoenixStaffBuff: {
@@ -660,12 +655,12 @@ Mods: {
 
 			QuickRecovery: {
 				DisplayName: Quick Recovery
-				Description: Life recovery rate increased by 20%
+				Description: Life recovery rate increased by {0}%
 			}
 
 			SerpentsBubbleWandBuff: {
 				DisplayName: Serpent's Bubble
-				Description: Life recovery increased and damage reduction increased by 10%
+				Description: Life recovery increased and {0}% increased damage reduction
 			}
 
 			ShieldDroneBeaconBuff: {
@@ -681,7 +676,7 @@ Mods: {
 			SoulEssence: {
 				DisplayName: Soul Essence
 				Description: Recover health and mana based on stacks
-				Stacks: Upon reaching 5 stacks of soul essence, you recover {0} health and {1} mana
+				Stacks: Upon reaching {0} stacks of soul essence, you recover {1} health and {2} mana
 			}
 
 			SpiritualistBuff: {
@@ -691,7 +686,7 @@ Mods: {
 
 			SpiritualistProtectionBuff: {
 				DisplayName: Guardian : Protection
-				Description: Damage reduction increased by 30%
+				Description: "{0}% increased damage reduction"
 			}
 
 			SpiritualistRecoveryBuff: {
@@ -701,12 +696,7 @@ Mods: {
 
 			SpiritualistRevengeBuff: {
 				DisplayName: Guardian : Revenge
-				Description: Damage increased by 15%
-			}
-
-			SupportSashBuff: {
-				DisplayName: Support Sash
-				Description: Your healing spells will heal an additional life
+				Description: Damage increased by {0}%
 			}
 
 			TemplarSetBuff: {
@@ -806,7 +796,7 @@ Mods: {
 
 			MirroroftheBeholderDebuff: {
 				DisplayName: Revealed
-				Description: This revealed enemy is taking 15% more damage
+				Description: This revealed enemy is taking {0}% more damage
 			}
 
 			MistletoeBuff: {
@@ -936,11 +926,6 @@ Mods: {
 			NapalmDebuff: {
 				DisplayName: Napalm
 				Description: The heat is indescribable...
-			}
-
-			NecroticSkullBuff: {
-				DisplayName: Necrotic Skull
-				Description: Summons are dealing 2 more damage
 			}
 
 			NinjaBuff: {
@@ -1220,7 +1205,7 @@ Mods: {
 
 			PhylacteryBuff: {
 				DisplayName: Lich's Backup
-				Description: Taking fatal damage will instead return you to 25% life
+				Description: Taking fatal damage will instead return you to {0}% life
 			}
 
 			PotentExtractBuff: {
@@ -1240,7 +1225,7 @@ Mods: {
 
 			RapierBuff: {
 				DisplayName: Parry Stance
-				Description: Damage taken reduced by 10%
+				Description: "{0}% increased damage reduction"
 			}
 
 			RealityBearer: {
@@ -1258,14 +1243,14 @@ Mods: {
 				Description: Cannot use most death prevention and revive abilities
 			}
 
-			SandshroudPouchBuff: {
+			YoyoProtectionBuff: {
 				DisplayName: Yoyo Protection
-				Description: Partially protected against the next hit
+				Description: "{0}% increased damage reduction against the next hit you take"
 			}
 
-			SandshroudPouchDebuff: {
+			YoyoProtectionDebuff: {
 				DisplayName: Yoyo Exhaustion
-				Description: Cannot currently receive: Yoyo Protection
+				Description: Cannot currently receive: {$Buffs.YoyoProtectionBuff.DisplayName}
 			}
 
 			SchmelzeDebuff: {
@@ -1550,7 +1535,7 @@ Mods: {
 
 			Tuned: {
 				DisplayName: Tuned
-				Description: Taking 10% more damage from all sources
+				Description: Taking {0}% more damage from all sources
 			}
 
 			ValadiumSetBuff: {
@@ -1645,7 +1630,7 @@ Mods: {
 
 			ThrombosisBuff: {
 				DisplayName: Bloodling
-				Description: The bloodling will assist you
+				Description: Summons a bloodling to fight for you
 			}
 
 			ThrombosisDebuff: {
@@ -1657,6 +1642,11 @@ Mods: {
 				DisplayName: Mana Injection
 				Description: Magic damage increased
 				Damage: Magic damage increased by {0}%
+			}
+
+			HarpyStaffBuff: {
+				DisplayName: Harpy Staff Buff
+				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
 			}
 		}
 
@@ -1678,7 +1668,9 @@ Mods: {
 			DummyRecipeCondition: This is a dummy recipe used for a custom Shimmer decraft!
 			HasInspiration: Player has {0} or more total inspiration
 			CompletedCookRecipe: Player supplied enough ingredients to the {$NPCs.Cook.DisplayName}
-			NotInBeachSnowDesert: Player is not in an Ocean, Snow, or Desert biome
+			BiomeCondition: Player is {0}
+			FirstHalfOfDayCondition: Between 4:30 AM and 12:00 PM
+			SecondHalfOfDayCondition: Between 12:00 PM and 7:30 PM
 			CrawdadCannotSpawn: Crawdads cannot spawn in the world
 			SalamanderCannotSpawn: Salamanders cannot spawn in the world
 			GiantShellyCannotSpawn: Giant Shellys cannot spawn in the world
@@ -1688,6 +1680,7 @@ Mods: {
 			WorldHasNoBloodAltarOrDownedViscount: World has no Blood Altar or {$Conditions.DownedViscount}
 			WorldIsCrimsonOrHardmode: World is Crimson or in Hardmode
 			WorldIsCorruptionOrHardmode: World is Corruption or in Hardmode
+			HalloweenNotChristmas: It is Halloween season and not Christmas season
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1888,12 +1881,12 @@ Mods: {
 				DisplayName: Whispering Hood
 				Tooltip:
 					'''
-					Corrupts your radiant powers
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					12% increased radiant critical strike chance
-					Maximum mana increased by 40
-					Healing spells will heal an additional 1 life
+					Empowers certain radiant attacks with dark energy
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					Maximum mana increased by {3}
+					Healing spells will heal an additional {4} life
 					'''
 
 				SetBonusQuotes: {
@@ -1937,7 +1930,7 @@ Mods: {
 				SetBonus:
 					'''
 					You occasionally birth a tentacle of abyssal energy that attacks nearby enemies
-					You can have up to six tentacles and their damage saps {0} life and {1} mana from the hit enemy
+					You can have up to {0} tentacles and their damage saps life and mana from the hit enemy
 					'''
 			}
 
@@ -1945,11 +1938,11 @@ Mods: {
 				DisplayName: Whispering Leggings
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					6% increased radiant critical strike chance
-					15% decreased mana cost
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					{3}% decreased mana cost
+					Healing spells will heal an additional {4} life
 					'''
 			}
 
@@ -1957,10 +1950,10 @@ Mods: {
 				DisplayName: Whispering Tabard
 				Tooltip:
 					'''
-					35% decreased non-radiant damage
-					35% increased radiant damage
-					8% increased radiant critical strike chance
-					Healing spells will heal an additional 2 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -1990,7 +1983,7 @@ Mods: {
 
 			BloomingShield: {
 				DisplayName: Blooming Shield
-				Tooltip: When out of combat, your life recovery will increase up to 5 over time
+				Tooltip: While out of combat, your life recovery will increase up to {0} over time
 			}
 
 			BloomingStaff: {
@@ -2046,7 +2039,7 @@ Mods: {
 
 			GoblinWarshield: {
 				DisplayName: Goblin War Shield
-				Tooltip: While standing still, gain 5 defense, 2 life recovery, and knockback immunity
+				Tooltip: While standing still, gain {0} defense, {1} life recovery, and knockback immunity
 			}
 
 			GoblinWarSpear: {
@@ -2061,11 +2054,6 @@ Mods: {
 
 			HarpyPelter: {
 				DisplayName: Harpy Pelter
-				Tooltip: ""
-			}
-
-			HarpyTalon: {
-				DisplayName: Harpy Talon
 				Tooltip: ""
 			}
 
@@ -2092,7 +2080,7 @@ Mods: {
 				DisplayName: Thumb Ring
 				Tooltip:
 					'''
-					Increases arrow damage by 5%
+					Increases arrow damage by {0}%
 					Arrow critical strikes briefly shadowflame enemies
 					'''
 			}
@@ -2109,7 +2097,7 @@ Mods: {
 
 			YewWoodBreastguard: {
 				DisplayName: Yew Wood Breastguard
-				Tooltip: 2.5% increased firing speed
+				Tooltip: "{0}% increased firing speed"
 			}
 
 			YewWoodFlintlock: {
@@ -2129,7 +2117,7 @@ Mods: {
 
 			YewWoodLeggings: {
 				DisplayName: Yew Wood Leggings
-				Tooltip: 2.5% increased firing speed
+				Tooltip: "{0}% increased firing speed"
 			}
 
 			AbominationBanner.DisplayName: Abomination Banner
@@ -2270,9 +2258,9 @@ Mods: {
 				DisplayName: Auto Tuner
 				Tooltip:
 					'''
-					Increases maximum inspiration by 2
-					Symphonic damage has a 10% chance to increase the level of one of your active empowerments
-					This effect can only trigger once every 2.5 seconds
+					Increases maximum inspiration by {0}
+					Symphonic damage has a {1}% chance to increase the level of one of your active empowerments
+					This effect can only trigger once every {2} seconds
 					'''
 			}
 
@@ -2290,15 +2278,15 @@ Mods: {
 				DisplayName: Band Kit
 				Tooltip:
 					'''
-					Increases symphonic damage by 8%
-					Increases symphonic playing speed by 8%
-					Increases inspiration regeneration rate by 8%
+					Increases symphonic damage by {0}%
+					Increases symphonic playing speed by {1}%
+					Increases inspiration regeneration rate by {2}%
 					'''
 			}
 
 			BardEmblem: {
 				DisplayName: Bard Emblem
-				Tooltip: 15% increased symphonic damage
+				Tooltip: "{0}% increased symphonic damage"
 			}
 
 			Bassoon: {
@@ -2343,8 +2331,8 @@ Mods: {
 				DisplayName: Brass Cap
 				Tooltip:
 					'''
-					Brass instruments have a 15% chance to tune enemies
-					Tuned enemies take 10% more damage
+					Brass instruments have a {0}% chance to tune enemies
+					Tuned enemies take {1}% more damage
 					'''
 			}
 
@@ -2391,8 +2379,8 @@ Mods: {
 				DisplayName: Concert Tickets
 				Tooltip:
 					'''
-					Increases maximum inspiration by 2
-					Every nearby ally increases your inspiration regeneration by 2%
+					Increases maximum inspiration by {0}
+					Every nearby ally increases your inspiration regeneration by {1}%
 					'''
 			}
 
@@ -2400,9 +2388,9 @@ Mods: {
 				DisplayName: Conductor's Baton
 				Tooltip:
 					'''
-					Increases inspiration regeneration rate by 5%
-					When you and a nearby ally attack the same target, the enemy instantly takes 20% of the combined damage
-					This effect can only trigger once every 2 seconds on the same target
+					Increases inspiration regeneration rate by {0}%
+					When you and a nearby ally attack the same target, the enemy instantly takes {1}% of the combined damage
+					This effect can only trigger once every {2} {^2:second;seconds} on the same target
 					'''
 			}
 
@@ -2413,7 +2401,7 @@ Mods: {
 
 			CorkGrease: {
 				DisplayName: Cork Grease
-				Tooltip: Increases symphonic playing speed by 8%
+				Tooltip: Increases symphonic playing speed by {0}%
 			}
 
 			CreativityPotion: {
@@ -2423,27 +2411,27 @@ Mods: {
 
 			CriersCap: {
 				DisplayName: Crier's Cap
-				Tooltip: Increases inspiration regeneration rate by 4%
+				Tooltip: Increases inspiration regeneration rate by {0}%
 				SetBonus: Your symphonic empowerments will last an additional {0} {^0:second;seconds}
 			}
 
 			CriersLeggings: {
 				DisplayName: Crier's Leggings
-				Tooltip: Increases inspiration regeneration rate by 4%
+				Tooltip: Increases inspiration regeneration rate by {0}%
 			}
 
 			CriersSash: {
 				DisplayName: Crier's Sash
-				Tooltip: Increases inspiration regeneration rate by 7%
+				Tooltip: Increases inspiration regeneration rate by {0}%
 			}
 
 			CyberPunkHeadset: {
 				DisplayName: Cyber Punk Headset
 				Tooltip:
 					'''
-					5% increased symphonic damage
-					4% increased symphonic critical strike chance
-					Increases inspiration regeneration rate by 10%
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					Increases inspiration regeneration rate by {2}%
 					'''
 				SetBonus:
 					'''
@@ -2459,9 +2447,9 @@ Mods: {
 				DisplayName: Cyber Punk Leggings
 				Tooltip:
 					'''
-					6% increased symphonic damage
-					6% increased symphonic critical strike chance
-					12% increased movement speed
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
@@ -2469,9 +2457,9 @@ Mods: {
 				DisplayName: Cyber Punk Suit
 				Tooltip:
 					'''
-					7% increased symphonic damage
-					Increases the chance for inspiration notes to drop by 10%
-					Increases the duration of your symphonic empowerments by 2 seconds
+					{0}% increased symphonic damage
+					Increases the chance for inspiration notes to drop by {1}%
+					Increases the duration of your symphonic empowerments by {2} {^2:second;seconds}
 					'''
 			}
 
@@ -2488,9 +2476,9 @@ Mods: {
 				DisplayName: Digital Tuner
 				Tooltip:
 					'''
-					10% increased symphonic damage
-					6% increased symphonic critical strike chance
-					Percussion critical strikes will deal 10% more damage
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					Percussion critical strikes will deal {0}% more damage
 					Percussion critical strikes will briefly stun enemies
 					'''
 			}
@@ -2499,7 +2487,7 @@ Mods: {
 				DisplayName: Diss Track
 				Tooltip:
 					'''
-					Increases inspiration regeneration rate by 10%
+					Increases inspiration regeneration rate by {0}%
 					Your symphonic damage will burn hit enemies with shadowflame
 					Symphonic critical strikes cause a large eruption of shadowy music notes
 					'''
@@ -2560,7 +2548,7 @@ Mods: {
 				Tooltip:
 					'''
 					Killing enemies or continually damaging bosses with a wind instrument will produce an energy egg
-					Players that touch the energy egg restore 15% of their missing primary resource
+					Players that touch the energy egg restore {0}% of their missing primary resource
 					'''
 			}
 
@@ -2569,16 +2557,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Full of intrusive compliments... but is surprisingly inspirational'
-					Increases maximum inspiration by 3
-					'''
-			}
-
-			FanLetter2: {
-				DisplayName: Fan Letter
-				Tooltip:
-					'''
-					'Full of intrusive compliments... but is surprisingly inspirational'
-					Increases maximum inspiration by 3
+					Increases maximum inspiration by {0}
 					'''
 			}
 
@@ -2624,7 +2603,7 @@ Mods: {
 				DisplayName: Full Score
 				Tooltip:
 					'''
-					Increases the duration of your symphonic empowerments by 3 seconds
+					Increases the duration of your symphonic empowerments by {0} seconds
 					Killing an enemy with symphonic damage generates a series of claps which damage enemies
 					'''
 			}
@@ -2671,8 +2650,8 @@ Mods: {
 				DisplayName: Guitar Pick
 				Tooltip:
 					'''
-					5% increased symphonic playing speed
-					String weapon projectiles can bounce 2 additional times
+					{0}% increased symphonic playing speed
+					String weapon projectiles can bounce {1} additional times
 					'''
 			}
 
@@ -2680,9 +2659,9 @@ Mods: {
 				DisplayName: Guitar Pick Claw
 				Tooltip:
 					'''
-					10% increased symphonic damage
-					5% increased symphonic playing speed
-					String weapon projectiles can bounce 3 additional times
+					{0}% increased symphonic damage
+					{1}% increased symphonic playing speed
+					String weapon projectiles can bounce {2} additional times
 					'''
 			}
 
@@ -2709,8 +2688,8 @@ Mods: {
 				DisplayName: Headset
 				Tooltip:
 					'''
-					Increases maximum inspiration by 2
-					Each unique empowerment you have increases your movement speed by 2% and playing speed by 1%
+					Increases maximum inspiration by {0}
+					Each unique empowerment you have increases your movement speed by {1}% and playing speed by {2}%
 					'''
 			}
 
@@ -2725,7 +2704,7 @@ Mods: {
 
 			HighQualityReed: {
 				DisplayName: High Quality Reed
-				Tooltip: Increases symphonic damage by 6%
+				Tooltip: Increases symphonic damage by {0}%
 			}
 
 			HoneyRecorder: {
@@ -2789,33 +2768,27 @@ Mods: {
 
 			JestersLeggings: {
 				DisplayName: Jester's Leggings
-				Tooltip: Increases inspiration regeneration rate by 5%
+				Tooltip: Increases inspiration regeneration rate by {0}%
 			}
 
-			JestersLeggings2: {
-				DisplayName: Jester's Leggings
-				Tooltip: Increases inspiration regeneration rate by 5%
-			}
+			JestersLeggings2.DisplayName: Jester's Leggings
 
 			JestersMask: {
 				DisplayName: Jester's Mask
-				Tooltip: 11% increased symphonic critical strike chance
+				Tooltip: "{0}% increased symphonic critical strike chance"
 				SetBonus: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
 			}
 
-			JestersMask2: {
-				DisplayName: Jester's Mask
-				Tooltip: 11% increased symphonic critical strike chance
-			}
+			JestersMask2.DisplayName: Jester's Mask
 
 			JestersShirt: {
 				DisplayName: Jester's Shirt
-				Tooltip: Symphonic damage has a 20% chance to empower players with bonus life regeneration
+				Tooltip: Symphonic damage has a {0}% chance to empower players with bonus life regeneration
 			}
 
 			JestersShirt2: {
 				DisplayName: Jester's Shirt
-				Tooltip: Symphonic damage has a 20% chance to empower players with bonus flat damage
+				Tooltip: Symphonic damage has a {0}% chance to empower players with bonus flat damage
 			}
 
 			JingleBells: {
@@ -2836,7 +2809,7 @@ Mods: {
 				DisplayName: Kick Petal
 				Tooltip:
 					'''
-					Percussion damage has a 25% chance to activate a 'panic petal', which orbits around the player
+					Percussion damage has a {0}% chance to activate a 'panic petal', which orbits around the player
 					Allies that touch an activated petal gain a massive speed boost
 					Enemies that touch an activated petal take damage
 					'''
@@ -2851,9 +2824,9 @@ Mods: {
 				DisplayName: Maestro's Leggings
 				Tooltip:
 					'''
-					10% increased symphonic damage
-					4% increased symphonic critical strike chance
-					15% increased movement speed
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
@@ -2861,10 +2834,10 @@ Mods: {
 				DisplayName: Maestro's Suit
 				Tooltip:
 					'''
-					14% increased symphonic damage
-					4% increased symphonic critical strike chance
-					Increases the chance for inspiration notes to drop by 10%
-					Increases the duration of your symphonic empowerments by 3 seconds
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					Increases the chance for inspiration notes to drop by {2}%
+					Increases the duration of your symphonic empowerments by {3} {^3:second;seconds}
 					'''
 			}
 
@@ -2872,9 +2845,9 @@ Mods: {
 				DisplayName: Maestro's Wig
 				Tooltip:
 					'''
-					5% increased symphonic playing speed
-					4% increased symphonic critical strike chance
-					Increases inspiration regeneration rate by 15%
+					{0}% increased symphonic playing speed
+					{1}% increased symphonic critical strike chance
+					Increases inspiration regeneration rate by {2}%
 					'''
 				SetBonus:
 					'''
@@ -2887,8 +2860,8 @@ Mods: {
 				DisplayName: Marching Band Shako
 				Tooltip:
 					'''
-					2% increased symphonic critical strike chance
-					Increases inspiration regeneration rate by 10%
+					{0}% increased symphonic critical strike chance
+					Increases inspiration regeneration rate by {1}%
 					'''
 				SetBonus: While in combat, a rainbow of damaging symphonic symbols will follow your movement and stun enemies
 			}
@@ -2897,8 +2870,8 @@ Mods: {
 				DisplayName: Marching Band Leggings
 				Tooltip:
 					'''
-					3% increased symphonic critical strike chance
-					10% increased movement speed
+					{0}% increased symphonic critical strike chance
+					{1}% increased movement speed
 					'''
 			}
 
@@ -2906,8 +2879,8 @@ Mods: {
 				DisplayName: Marching Band Uniform
 				Tooltip:
 					'''
-					3% increased symphonic critical strike chance
-					16% increased symphonic damage
+					{0}% increased symphonic critical strike chance
+					{1}% increased symphonic damage
 					'''
 			}
 
@@ -2993,8 +2966,8 @@ Mods: {
 				DisplayName: Noble's Hat
 				Tooltip:
 					'''
-					Increases the chance for inspiration notes to drop by 4%
-					Increases inspiration regeneration rate by 5%
+					Increases the chance for inspiration notes to drop by {0}%
+					Increases inspiration regeneration rate by {1}%
 					'''
 				SetBonus: Inspiration notes that drop are twice as potent and increase your symphonic damage briefly
 			}
@@ -3003,8 +2976,8 @@ Mods: {
 				DisplayName: Noble's Jerkin
 				Tooltip:
 					'''
-					Increases symphonic damage by 10%
-					Increases the chance for inspiration notes to drop by 6%
+					Increases symphonic damage by {0}%
+					Increases the chance for inspiration notes to drop by {1}%
 					'''
 			}
 
@@ -3012,8 +2985,8 @@ Mods: {
 				DisplayName: Noble's Leggings
 				Tooltip:
 					'''
-					Increases the chance for inspiration notes to drop by 5%
-					Increases movement speed by 8%
+					Increases the chance for inspiration notes to drop by {0}%
+					Increases movement speed by {1}%
 					'''
 			}
 
@@ -3046,9 +3019,9 @@ Mods: {
 				DisplayName: Ornate Hat
 				Tooltip:
 					'''
-					5% increased symphonic playing speed
-					8% increased symphonic critical strike chance
-					Increases inspiration regeneration rate by 15%
+					{0}% increased symphonic playing speed
+					{1}% increased symphonic critical strike chance
+					Increases inspiration regeneration rate by {2}%
 					'''
 				SetBonus:
 					'''
@@ -3061,9 +3034,9 @@ Mods: {
 				DisplayName: Ornate Jerkin
 				Tooltip:
 					'''
-					12% increased symphonic damage
-					Increases the chance for inspiration notes to drop by 10%
-					Increases the duration of your symphonic empowerments by 3 seconds
+					{0}% increased symphonic damage
+					Increases the chance for inspiration notes to drop by {1}%
+					Increases the duration of your symphonic empowerments by {2} {^0:second;seconds}
 					'''
 			}
 
@@ -3071,15 +3044,15 @@ Mods: {
 				DisplayName: Ornate Leggings
 				Tooltip:
 					'''
-					8% increased symphonic damage
-					8% increased symphonic critical strike chance
-					15% increased movement speed
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
 			PadOPaper: {
 				DisplayName: Pad o' Paper
-				Tooltip: Increases inspiration regeneration rate by 10%
+				Tooltip: Increases inspiration regeneration rate by {0}%
 			}
 
 			Panflute: {
@@ -3103,7 +3076,7 @@ Mods: {
 
 			PrimeRoar: {
 				DisplayName: Prime's Roar
-				Tooltip: Fires a mighty roar that tunes enemies, increasing the damage they take by 10%
+				Tooltip: Fires a mighty roar that tunes enemies, increasing the damage they take by {0}%
 			}
 
 			Pungi: {
@@ -3177,9 +3150,9 @@ Mods: {
 				DisplayName: Shooting Star Boots
 				Tooltip:
 					'''
-					12% increased symphonic damage
-					6% increased symphonic critical strike chance
-					15% increased movement speed
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
@@ -3197,9 +3170,9 @@ Mods: {
 				DisplayName: Shooting Star Cap
 				Tooltip:
 					'''
-					10% increased symphonic playing speed
-					6% increased symphonic critical strike chance
-					Increases inspiration regeneration rate by 20%
+					{0}% increased symphonic playing speed
+					{1}% increased symphonic critical strike chance
+					Increases inspiration regeneration rate by {2}%
 					'''
 				SetBonus:
 					'''
@@ -3294,8 +3267,8 @@ Mods: {
 				DisplayName: Straight Mute
 				Tooltip:
 					'''
-					10% increased symphonic damage
-					6% increased symphonic critical strike chance
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
 					Critical strikes caused by brass instrument attacks release a spread of piercing energy
 					'''
 			}
@@ -3304,7 +3277,7 @@ Mods: {
 				DisplayName: Subwoofer
 				Tooltip:
 					'''
-					You and nearby allies receive 2 additional armor piercing
+					You and nearby allies receive {0} additional armor piercing
 					Doubles the range of your empowerments effect radius
 					'''
 			}
@@ -3333,7 +3306,7 @@ Mods: {
 				DisplayName: Terrarium Surround Sound
 				Tooltip:
 					'''
-					Increases symphonic damage by 10%
+					Increases symphonic damage by {0}%
 					You and nearby allies have a chance to elementally backlash enemies when attacking
 					Doubles the range of your empowerments effect radius
 					'''
@@ -3378,7 +3351,7 @@ Mods: {
 
 			TuningFork: {
 				DisplayName: Bronze Tuning Fork
-				Tooltip: Tunes enemies, causing them to take 10% more damage
+				Tooltip: Tunes enemies, causing them to take {0}% more damage
 			}
 
 			Turntable: {
@@ -3404,8 +3377,8 @@ Mods: {
 				DisplayName: Vibration Tuner
 				Tooltip:
 					'''
-					6% increased symphonic critical strike chance
-					Percussion critical strikes will deal 5% more damage
+					{0}% increased symphonic critical strike chance
+					Percussion critical strikes will deal {1}% more damage
 					Percussion critical strikes will briefly stun enemies
 					'''
 			}
@@ -3464,7 +3437,7 @@ Mods: {
 				DisplayName: Waxy Rosin
 				Tooltip:
 					'''
-					Piercing string instrument attacks will lose 15% less damage per hit
+					Piercing string instrument attacks will lose {0}% less damage per hit
 					Piercing string instrument attacks will increase in speed every hit
 					'''
 			}
@@ -3502,7 +3475,7 @@ Mods: {
 				DisplayName: Air Walkers
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					Allows you to walk and jump on air briefly after leaving the ground
 					'''
 			}
@@ -3527,7 +3500,7 @@ Mods: {
 				Tooltip:
 					'''
 					Pressing and holding the '{$Keybinds.AccessoryAbility.DisplayName}' key will channel artificer's energy
-					Every second channeled increases your next damage by 20 up to 100
+					Every second channeled increases your next damage by {0} up to {1}
 					'''
 			}
 
@@ -3541,8 +3514,8 @@ Mods: {
 				Tooltip:
 					'''
 					Reduces the amount of knockback you take from getting hit
-					Grants 2 defense for every 20 artificer's energy you have
-					Taking damage saps 20 artificer's energy
+					Grants {0} defense for every {1} artificer's energy you have
+					Taking damage saps {2} artificer's energy
 					'''
 			}
 
@@ -3558,18 +3531,14 @@ Mods: {
 
 			CopperBuckler: {
 				DisplayName: Copper Buckler
-				Tooltip:
-					'''
-					Defense increased by 1
-					You constantly generate an 8 life shield
-					'''
+				Tooltip: You constantly generate an {0} life shield
 			}
 
 			CrashBoots: {
 				DisplayName: Crash Boots
 				Tooltip:
 					'''
-					8% increased movement speed and run acceleration
+					{0}% increased movement speed and run acceleration
 					Running builds up momentum and increases movement speed
 					Crashing into an enemy releases all stored momentum, catapulting the enemy
 					'''
@@ -3598,7 +3567,7 @@ Mods: {
 				DisplayName: Drift Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					Slows your descent while falling
 					'''
 			}
@@ -3612,18 +3581,14 @@ Mods: {
 				DisplayName: Fear Monger
 				Tooltip:
 					'''
-					6% reduced damage taken
+					{0}% increased damage reduction
 					Enemies are less likely to target you
 					'''
 			}
 
 			GoldAegis: {
 				DisplayName: Gold Aegis
-				Tooltip:
-					'''
-					Defense increased by 2
-					You constantly generate a 14 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			GreedyGoblet: {
@@ -3641,7 +3606,7 @@ Mods: {
 				DisplayName: Healthy Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					While running, your life regeneration is increased
 					'''
 			}
@@ -3650,10 +3615,9 @@ Mods: {
 				DisplayName: Holy Aegis
 				Tooltip:
 					'''
-					Maximum life increased by 20
-					Absorbs 25% of damage done to nearby players on your team when above 25% life
-					Increases length of invincibility after taking damage
-					Grants immunity to knockback
+					Maximum life increased by {0}
+					Absorbs {1}% of damage done to nearby players on your team when above {1}% life
+					Increases length of invincibility after taking damage and grants immunity to knockback
 					'''
 			}
 
@@ -3661,7 +3625,7 @@ Mods: {
 				DisplayName: Hover Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					Allows you to briefly hover after walking off the ground
 					'''
 			}
@@ -3673,11 +3637,7 @@ Mods: {
 
 			IronShield: {
 				DisplayName: Iron Shield
-				Tooltip:
-					'''
-					Defense increased by 1
-					You constantly generate a 10 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			KineticBattery: {
@@ -3693,11 +3653,7 @@ Mods: {
 
 			LeadShield: {
 				DisplayName: Lead Shield
-				Tooltip:
-					'''
-					Defense increased by 1
-					You constantly generate an 11 life shield
-					'''
+				Tooltip: You constantly generate an {0} life shield
 			}
 
 			LeatherGlove: {
@@ -3709,7 +3665,7 @@ Mods: {
 				DisplayName: Marching Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					While running, your inspiration regeneration is increased
 					'''
 			}
@@ -3718,8 +3674,8 @@ Mods: {
 				DisplayName: Mask of the Crystal Eye
 				Tooltip:
 					'''
-					8% Increased critical strike chance
-					Critical strikes deal 12% more damage
+					{0}% Increased critical strike chance
+					Critical strikes deal {1}% more damage
 					'''
 			}
 
@@ -3750,11 +3706,7 @@ Mods: {
 
 			PlatinumAegis: {
 				DisplayName: Platinum Aegis
-				Tooltip:
-					'''
-					Defense increased by 2
-					You constantly generate a 15 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			RubyRing: {
@@ -3769,11 +3721,7 @@ Mods: {
 
 			SilverBulwark: {
 				DisplayName: Silver Bulwark
-				Tooltip:
-					'''
-					Defense increased by 2
-					You constantly generate a 12 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			SilverSpearTip: {
@@ -3792,14 +3740,14 @@ Mods: {
 
 			SpikedBracer: {
 				DisplayName: Spiked Bracer
-				Tooltip: 50% of the damage you take is also dealt to the attacker
+				Tooltip: "{0}% of the damage you take is also dealt to the attacker"
 			}
 
 			SteelToedBoots: {
 				DisplayName: Steel Toed Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					Increases falling speed moderately
 					'''
 			}
@@ -3808,7 +3756,7 @@ Mods: {
 				DisplayName: Survivalist's Boots
 				Tooltip:
 					'''
-					8% increased movement speed
+					{0}% increased movement speed
 					While moving, your life, mana, and inspiration regeneration are increased
 					'''
 			}
@@ -3825,11 +3773,7 @@ Mods: {
 
 			TinBuckler: {
 				DisplayName: Tin Buckler
-				Tooltip:
-					'''
-					Defense increased by 1
-					You constantly generate a 9 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			TopazRing: {
@@ -3841,18 +3785,14 @@ Mods: {
 				DisplayName: Traveler's Boots
 				Tooltip:
 					'''
-					5% increased movement speed
+					{0}% increased movement speed
 					Your dash will reach its peak faster
 					'''
 			}
 
 			TungstenBulwark: {
 				DisplayName: Tungsten Bulwark
-				Tooltip:
-					'''
-					Defense increased by 2
-					You constantly generate a 13 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			TurboBoots: {
@@ -3935,7 +3875,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Few things can survive the heart of a Terrarian Blizzard'
-					Damage done against slowed targets is increased by 15%
+					Damage done against slowed targets is increased by {0}%
 					Damage done against slowed targets has a chance to heal you lightly
 					'''
 			}
@@ -4456,8 +4396,8 @@ Mods: {
 				DisplayName: Coral Chestguard
 				Tooltip:
 					'''
-					11% decreased non-radiant damage
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					Healing spells will heal an additional {1} life
 					'''
 			}
 
@@ -4475,8 +4415,8 @@ Mods: {
 				DisplayName: Coral Greaves
 				Tooltip:
 					'''
-					11% decreased non-radiant damage
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					Healing spells will heal an additional {1} life
 					'''
 			}
 
@@ -4489,8 +4429,8 @@ Mods: {
 				DisplayName: Coral Helmet
 				Tooltip:
 					'''
-					11% decreased non-radiant damage
-					Increases your breath by 50%
+					{0}% decreased non-radiant damage
+					Increases your breath by {1}%
 					'''
 				SetBonus:
 					'''
@@ -4564,8 +4504,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Light yet durable'
-					10% increased movement speed
-					Armor penetration increased by 2
+					{0}% increased movement speed
+					Armor penetration increased by {1}
 					'''
 			}
 
@@ -4574,8 +4514,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Light yet durable'
-					10% increased movement speed
-					Armor penetration increased by 1
+					{0}% increased movement speed
+					Armor penetration increased by {1}
 					'''
 				SetBonus: Nothing will stop your movement! Double tap to dash!
 			}
@@ -4585,8 +4525,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Light yet durable'
-					10% increased movement speed
-					Armor penetration increased by 2
+					{0}% increased movement speed
+					Armor penetration increased by {1}
 					'''
 			}
 
@@ -4634,7 +4574,7 @@ Mods: {
 				DisplayName: Ogre Sandals
 				Tooltip:
 					'''
-					10% increased movement speed
+					{0}% increased movement speed
 					Landing releases a powerful shockwave
 					The damage, knockback, and range of the shock wave is increased by the fall distance
 					'''
@@ -4674,7 +4614,7 @@ Mods: {
 					'''
 					'Infused with everlasting Blood'
 					Enemies are more likely to target you
-					20% chance to completely neutralize incoming damage
+					{0}% chance to completely neutralize incoming damage
 					'''
 			}
 
@@ -4702,7 +4642,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with everlasting Blood'
-					15% increased movement speed
+					{0}% increased movement speed
 					'''
 			}
 
@@ -4716,7 +4656,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with everlasting Blood'
-					10% increased damage reduction
+					{0}% increased damage reduction
 					'''
 				SetBonus: Maximum life increased by {0}
 			}
@@ -5012,10 +4952,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Garb of the original aquatic casters'
-					Maximum mana increased by 60
+					Maximum mana increased by {0}
 					Allows you to breathe underwater
 					'''
-				SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
+				SetBonus: Every {0} mana spent will significantly increase your magic damage and casting speed briefly
 			}
 
 			NagaSkinSuit: {
@@ -5023,7 +4963,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Garb of the original aquatic casters'
-					Magic damage increased by 10%
+					Magic damage increased by {0}%
 					Increased mana regeneration
 					'''
 			}
@@ -5033,7 +4973,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Garb of the original aquatic casters'
-					Magic damage increased by 8%
+					Magic damage increased by {0}%
 					You move much quicker while you're wet
 					'''
 			}
@@ -5047,9 +4987,8 @@ Mods: {
 				DisplayName: Ocean's Retaliation
 				Tooltip:
 					'''
-					Defense increased by 4
-					50% of the damage you take is also dealt to the attacker
-					Taking damage releases a touchable mote that recovers 25% of the damage you took
+					{0}% of the damage you take is also dealt to the attacker
+					Taking damage releases a touchable mote that recovers {1}% of the damage you took
 					Taking damage releases a spread of venom inflicting spines
 					'''
 			}
@@ -5085,11 +5024,7 @@ Mods: {
 
 			SeaTurtlesBulwark: {
 				DisplayName: Sea Turtle's Bulwark
-				Tooltip:
-					'''
-					Defense increased by 2
-					Taking damage releases a touchable mote that recovers 25% of the damage you took
-					'''
+				Tooltip: Taking damage releases a touchable mote that recovers {0}% of the damage you took
 			}
 
 			SharkStorm: {
@@ -5112,7 +5047,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Not just for hunting fish'
-					4% increased ranged critical strike chance
+					{0}% increased ranged critical strike chance
 					Allows you to breathe underwater
 					'''
 				SetBonus: Ranged critical strikes release a splash of foam, slowing nearby enemies
@@ -5123,7 +5058,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Not just for hunting fish'
-					10% increased ranged damage
+					{0}% increased ranged damage
 					'''
 			}
 
@@ -5132,7 +5067,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Not just for hunting fish'
-					10% increased ranged critical strike chance
+					{0}% increased ranged critical strike chance
 					'''
 			}
 
@@ -5140,9 +5075,9 @@ Mods: {
 				DisplayName: Vampire Gland
 				Tooltip:
 					'''
-					Your damage will have a 10% chance to cause an eruption of blood
-					This blood can be picked up by players to heal themselves for 15% of the damage you dealt
-					Healing amount cannot exceed 15 life and picking up blood causes bleeding for 5 seconds
+					Your damage will have a {0}% chance to cause an eruption of blood
+					This blood can be picked up by players to heal themselves for {1}% of the damage you dealt
+					Healing amount cannot exceed {2} life and picking up blood causes bleeding for {3} seconds
 					'''
 			}
 
@@ -5288,8 +5223,8 @@ Mods: {
 				DisplayName: Beetle Blaster
 				Tooltip:
 					'''
-					Increases damage reduction by 10% while firing
-					Decreases movement speed by 50% while firing
+					{0}% increased damage reduction while firing
+					{1}% decreased movement speed while firing
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -5317,7 +5252,7 @@ Mods: {
 					Seed collection can be toggled in the top left of the inventory once placed
 					Can only be placed on the surface
 					'''
-				ConvertTooltip: Right click to cycle styles or recraft to convert into a {0} variant
+				ConvertTooltip: Press Up/Down to cycle through placement styles or re-craft to convert into a {0} variant
 				Grounded: grounded
 				Hanging: hanging
 				PylonRestriction: You can only place {0} Bird Feeders for every Pylon placed in the world (current limit: {1})
@@ -5342,9 +5277,9 @@ Mods: {
 				DisplayName: Blast Shield
 				Tooltip:
 					'''
-					Damage taken reduced by 10%
+					{0}% increased damage reduction
 					Immune to enemy knockback & enemies are more likely to attack you
-					Every 3 seconds, taking damage will unleash a volatile explosion all around you
+					Every {1} {^1:second;seconds}, taking damage will unleash a volatile explosion all around you
 					Explosion damage scales with your defense
 					'''
 			}
@@ -5359,8 +5294,8 @@ Mods: {
 				Tooltip:
 					'''
 					Your yoyo damage inflicts frostburn and has a chance to freeze enemies
-					Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-					This effect must recharge for 15 seconds after protecting you
+					Damaging an enemy with a yoyo grants {0}% increased damage reduction until hit
+					This effect must recharge for {1} seconds after protecting you
 					'''
 			}
 
@@ -5468,9 +5403,9 @@ Mods: {
 				Tooltip:
 					'''
 					'The very fabric of this cape has been designed to guide you through the toughest days'
-					You quickly gain up to 20% damage reduction over time
-					Getting hit briefly reduces this bonus to -10% damage reduction
-					While this bonus is above 0%, you gain up to 2 life recovery and block 1 damage attacks
+					Increases damage reduction up to {0}% over time
+					Damage reduction bonus drops to -{1}% when hit
+					While this bonus is above {2}%, you gain up to {3} life recovery and block {4} damage attacks
 					'''
 			}
 
@@ -5541,11 +5476,7 @@ Mods: {
 
 			ChiLantern: {
 				DisplayName: Chi Lantern
-				Tooltip:
-					'''
-					Unleashes three delayed waves of healing energy
-					Healing waves heal all nearby allies
-					'''
+				Tooltip: Unleashes three delayed waves of healing energy, which heal all nearby allies
 			}
 
 			ChristmasCenter: {
@@ -5863,7 +5794,7 @@ Mods: {
 					'''
 					'Sprinkle directly on yoyo for best effect'
 					Your yoyo damage briefly inflicts frostbite onto hit enemies
-					This effect recharges every 5 seconds
+					This effect recharges every {0} seconds
 					'''
 			}
 
@@ -5916,7 +5847,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You're in full control of your spirit...'
-					Taking fatal damage will instead instantly teleport you home every two minutes
+					Taking fatal damage will instead instantly teleport you home every {0} minutes
 					'''
 			}
 
@@ -6041,8 +5972,8 @@ Mods: {
 				DisplayName: Gut Wrencher's Gauntlet
 				Tooltip:
 					'''
-					Increases the damage you take by 25%
-					When below 50% health, you deal 10% increased damage and have a 1% life steal effect
+					Increases damage taken by {0}%
+					When below {1}% health, you deal {2}% increased damage and have a {3}% life steal effect
 					'''
 			}
 
@@ -6074,7 +6005,7 @@ Mods: {
 
 			HeartOfStone: {
 				DisplayName: Heart of Stone
-				Tooltip: Your defense will increase based on your depth
+				Tooltip: Your defense will increase based on your depth in the world
 			}
 
 			HeartOfTheJungle: {
@@ -6097,7 +6028,7 @@ Mods: {
 				Tooltip:
 					'''
 					Rapidly propels a storm of heavenly weapons that briefly bless hit enemies with 'Holy Glare'
-					All damage done against holy glared enemies is increased by 15%
+					All damage done against holy glared enemies is increased by {0}%
 					'''
 			}
 
@@ -6151,9 +6082,9 @@ Mods: {
 				DisplayName: Hungering Blossom
 				Tooltip:
 					'''
-					Upon losing 80% of your max mana, you instantly recover 50% of it and gain 10 stacks of 'volatile energy'
-					Volatile energy increases your attack speed by 0.2%, slowly hurts you, and decays in stacks every second
-					Reaching 100 stacks of volatile energy instantly kills you
+					Upon losing {0}% of your max mana, you instantly recover {1}% of it and gain {2} stacks of 'volatile energy'
+					Volatile energy increases your attack speed by {3}%, slowly hurts you, and decays in stacks every second
+					Reaching {4} stacks of volatile energy instantly kills you
 					'''
 			}
 
@@ -6238,10 +6169,9 @@ Mods: {
 				Tooltip:
 					'''
 					Increases the rate at which you regenerate life
-					Receiving damage below 25% life surrounds you in a protective bubble
-					While in the bubble, you will recover life equal to your bonus healing every second
-					Additionally, damage taken will be reduced by 10%
-					This effect needs to recharge for 30 seconds after triggering
+					Receiving damage below {0}% life surrounds you in a protective bubble
+					While bubbled, gain life recovery equal to your bonus healing and {1}% damage resistance
+					This effect can only trigger every {2} seconds
 					'''
 			}
 
@@ -6376,7 +6306,7 @@ Mods: {
 				DisplayName: Metabolic Pills
 				Tooltip:
 					'''
-					The duration of being 'full' after eating cook food is 20% shorter
+					The duration of being 'full' after eating cook food is {0}% shorter
 					While 'full' your life recovery is increased
 					'''
 			}
@@ -6617,8 +6547,8 @@ Mods: {
 				Tooltip:
 					'''
 					Generates a fiery barrier that burns incoming hostile projectiles
-					After burning a projectile, the shield must regenerate for 10 seconds
-					While below 25% life, the shield generates twice as fast
+					After burning a projectile, the shield must regenerate for {0} seconds
+					While below {1}% life, the shield generates twice as fast
 					'''
 			}
 
@@ -6637,7 +6567,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Spits out way too much matter'
-					A nebula slowly generates around you, granting you up to 6 defense as it develops
+					A nebula slowly generates around you, granting you up to {0} defense as it develops
 					Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will collapse it down into a star that attacks enemies
 					'''
 			}
@@ -6677,7 +6607,7 @@ Mods: {
 					'One should beware of his inner greed'
 					All attacks make enemies drop more gold
 					Hitting enemies will drop extra coins
-					Damage taken increased by 10%
+					Damage taken increased by {0}%
 					'''
 			}
 
@@ -6841,8 +6771,8 @@ Mods: {
 				DisplayName: Sandshroud Pouch
 				Tooltip:
 					'''
-					Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-					This effect must recharge for 15 seconds after protecting you
+					Damaging an enemy with a yoyo grants {0}% increased damage reduction until hit
+					This effect must recharge for {1} seconds after protecting you
 					'''
 			}
 
@@ -6906,7 +6836,7 @@ Mods: {
 				DisplayName: Serpent Shield
 				Tooltip:
 					'''
-					Up to two living vipers will latch onto nearby enemies
+					Up to {0} living vipers will latch onto nearby enemies
 					Latched enemies rapidly take damage and are envenomed
 					'''
 			}
@@ -6918,12 +6848,8 @@ Mods: {
 
 			ShadowOrbStaff: {
 				DisplayName: Shadow Orb Staff
-				Tooltip:
-					'''
-					Summons an orb of pure shadow at the target location
-					Right click to unleash all summoned orbs towards the cursor's location
-					You can summon as many shadow orbs as you have maximum minion slots
-					'''
+				Tooltip: Right click to launch all summoned orbs towards the cursor's location
+				SpecialTooltip: Summons up to [c/{0}:{1}] shadow orbs at the target location
 			}
 
 			ShinobiSigil: {
@@ -6978,6 +6904,8 @@ Mods: {
 				DisplayName: Smooth Wood
 				Tooltip: ""
 			}
+
+			SmoothWoodBlockAndWall.DisplayName: "{$Items.SmoothWood.DisplayName} & {$Items.SmoothWoodWall.DisplayName}"
 
 			SnowWhite: {
 				DisplayName: Snow White
@@ -7396,8 +7324,8 @@ Mods: {
 				DisplayName: Yuma's Pendant
 				Tooltip:
 					'''
-					10% increased summon damage
-					Increases your max number of minions by 1
+					{0}% increased summon damage
+					Increases your max number of minions by {1}
 					Taking damage releases a ghostly protector
 					'''
 			}
@@ -7417,7 +7345,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Made from mythical scales'
-					10% increased damage
+					{0}% increased damage
 					'''
 			}
 
@@ -7436,7 +7364,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Made from mythical scales'
-					12% increased movement speed
+					{0}% increased movement speed
 					'''
 			}
 
@@ -7445,7 +7373,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Made from mythical scales'
-					7% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
 				SetBonus: Attacks have a chance to unleash an explosion of dragon flames
 			}
@@ -7523,8 +7451,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with the souls of the damned'
-					20% increased melee damage
-					10% increased melee speed
+					{0}% increased melee damage
+					{1}% increased melee speed
 					'''
 			}
 
@@ -7543,8 +7471,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with the souls of the damned'
-					20% increased movement speed
-					10% increased melee speed
+					{0}% increased movement speed
+					{1}% increased melee speed
 					'''
 			}
 
@@ -7582,8 +7510,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with the souls of the damned'
-					10% increased melee critical strike chance
-					10% increased melee speed
+					{0}% increased melee critical strike chance
+					{1}% increased melee speed
 					'''
 				SetBonus:
 					'''
@@ -7646,7 +7574,7 @@ Mods: {
 				Tooltip:
 					'''
 					'An orb of coalesced magical energy'
-					Maximum mana increased by 10
+					Increases maximum mana by {0}
 					'''
 			}
 
@@ -7664,7 +7592,7 @@ Mods: {
 				DisplayName: Silk Hat
 				Tooltip:
 					'''
-					Maximum mana increased by 20
+					Maximum mana increased by {0}
 					Minimally increased mana regeneration
 					'''
 				SetBonus: "{0}% increased magic damage while above {1}% maximum mana"
@@ -7674,7 +7602,7 @@ Mods: {
 				DisplayName: Silk Leggings
 				Tooltip:
 					'''
-					Maximum mana increased by 20
+					Maximum mana increased by {0}
 					Minimally increased mana regeneration
 					'''
 			}
@@ -7683,7 +7611,7 @@ Mods: {
 				DisplayName: Silk Tabard
 				Tooltip:
 					'''
-					Maximum mana increased by 20
+					Maximum mana increased by {0}
 					Minimally increased mana regeneration
 					'''
 			}
@@ -7771,7 +7699,7 @@ Mods: {
 					'''
 					'Become as unstoppable as the tides'
 					{0}% increased melee damage
-					Damage taken reduced by {1}%
+					{1}% increased damage reduction
 					Life regeneration increased by {2}
 					Produces a floating globule every {3} {^3:second;seconds}
 					Every globule increases your defense by {4}%
@@ -7831,11 +7759,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Bind the enemies of your future in temporal agony'
-					Corrupts your radiant powers
-					45% decreased non-radiant damage
-					45% increased radiant damage
-					16% increased radiant critical strike chance
-					Maximum mana increased by 20
+					Empowers certain radiant attacks with dark energy
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					Maximum mana increased by {3}
 					'''
 				SetBonus:
 					'''
@@ -7850,11 +7778,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Manifest your dearest dreams through your allies'
-					25% decreased non-radiant damage
-					35% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% decreased mana cost
 					Massively increased mana regeneration
-					Maximum mana increased by 60
-					Healing spells will heal an additional 6 life
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 				SetBonus:
 					'''
@@ -7867,11 +7795,11 @@ Mods: {
 				DisplayName: Dream Weaver's Tabard
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					20% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Massively increased mana regeneration
-					Healing spells will heal an additional 2 life
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -7879,12 +7807,12 @@ Mods: {
 				DisplayName: Dream Weaver's Treads
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					20% increased radiant damage
-					20% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Massively increased mana regeneration
-					Healing spells will heal an additional 2 life
-					20% increased movement speed
+					Healing spells will heal an additional {3} life
+					{4}% increased movement speed
 					'''
 			}
 
@@ -7933,10 +7861,10 @@ Mods: {
 				DisplayName: Assassin's Guard
 				Tooltip:
 					'''
-					16% increased ranged damage
-					20% increased firing speed
-					15% increased ranged critical strike chance
-					25% decreased chance to consume ammo
+					{0}% increased ranged damage
+					{1}% increased firing speed
+					{2}% increased ranged critical strike chance
+					{3}% decreased chance to consume ammo
 					'''
 			}
 
@@ -7944,9 +7872,9 @@ Mods: {
 				DisplayName: Assassin's Walkers
 				Tooltip:
 					'''
-					15% increased ranged damage
-					10% increased ranged critical strike chance
-					25% increased movement speed
+					{0}% increased ranged damage
+					{1}% increased ranged critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
@@ -7960,8 +7888,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Blacken the sky with your projectile storm'
-					12% increased arrow damage
-					12% increased specialist ranged damage
+					{0}% increased arrow damage
+					{1}% increased specialist ranged damage
 					These are launchers, dartguns, or anything else that doesn't shoot arrows/bullets
 					Arrow critical strikes turn into death arrows and ricochet
 					Your ranged damage applies ichor to hit enemies
@@ -7974,8 +7902,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Gun powder will cull the weak'
-					24% increased arrow and bullet damage
-					The nearest enemy is scouted and takes 10% more damage from all sources
+					{0}% increased bullet damage
+					The nearest enemy is scouted and takes {1}% more damage from all sources
 					Your ranged damage applies cursed flames to enemies
 					'''
 				SetBonus:
@@ -8057,11 +7985,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Allow your song to inspire an army'
-					Increases inspiration regeneration rate by 25%
-					Percussion critical strikes will deal 15% more damage
-					Increases maximum inspiration by 5
+					Increases inspiration regeneration rate by {0}%
+					Percussion critical strikes will deal {1}% more damage
+					Increases maximum inspiration by {2}
 					Inspiration notes that drop will become more potent
-					Additionally, they give a random level 1 empowerment to all nearby allies
+					Additionally, they give a random level {3} empowerment to all nearby allies
 					'''
 				SetBonus:
 					'''
@@ -8074,10 +8002,10 @@ Mods: {
 				DisplayName: Rhapsodist's Boots
 				Tooltip:
 					'''
-					Increases maximum inspiration by 3
-					12% increased symphonic damage
-					10% increased symphonic critical strike chance
-					20% increased movement speed
+					Increases maximum inspiration by {0}
+					{1}% increased symphonic damage
+					{2}% increased symphonic critical strike chance
+					{3}% increased movement speed
 					'''
 			}
 
@@ -8085,10 +8013,10 @@ Mods: {
 				DisplayName: Rhapsodist's Chest-Woofer
 				Tooltip:
 					'''
-					18% increased symphonic damage
-					6% increased symphonic critical strike chance
-					Increases the chance for inspiration notes to drop by 15%
-					Increases the duration of your symphonic empowerments by 5 seconds
+					{0}% increased symphonic damage
+					{1}% increased symphonic critical strike chance
+					Increases the chance for inspiration notes to drop by {2}%
+					Increases the duration of your symphonic empowerments by {3} {^3:second;seconds}
 					'''
 			}
 
@@ -8101,7 +8029,7 @@ Mods: {
 					{1}% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by {2}%
 					Increases wind instrument homing speed by {3}%
-					String instrument projectiles can bounce 1 additional time
+					String instrument projectiles can bounce {4} additional {^4:time;times}
 					'''
 				SetBonus:
 					'''
@@ -8116,7 +8044,7 @@ Mods: {
 					'''
 					'The vibrating destruction quiets the noise of hate...'
 					Unleashes a vibrating hyper beam that tunes enemies
-					Tuned enemies take 10% more damage
+					Tuned enemies take {0}% more damage
 					'''
 			}
 
@@ -8169,9 +8097,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Command a magma fortified army'
-					50% increased summon damage
-					Increases your max number of minions by 6
-					Increases your max number of sentries by 2
+					{0}% increased summon damage
+					Increases your max number of minions by {1}
+					Increases your max number of sentries by {2}
 					Increases minion knockback
 					'''
 				SetBonus: All summon damage leaves a lingering burn that deals significant damage over time
@@ -8191,10 +8119,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Your molten gaze should be feared'
-					20% increased magic damage
-					Maximum mana increased by 60 & greatly increased mana regeneration
-					Every nearby enemy that's burning increases your magic damage by 0.5%
-					This effect is 10x as effective against bosses
+					{0}% increased magic damage
+					Maximum mana increased by {1} & greatly increased mana regeneration
+					Every nearby enemy that's burning increases your magic damage by {2}%
+					This effect is {3}x as effective against bosses
 					Magical attacks will Singe and Ignite enemies
 					'''
 				SetBonus: Your magic damage will heavily burn and damage all adjacent enemies
@@ -8205,9 +8133,9 @@ Mods: {
 				Tooltip:
 					'''
 					'You're overcome with molten fury'
-					14% increased magic & summon damage
-					Maximum mana increased by 20
-					15% increased movement speed
+					{0}% increased magic & summon damage
+					Maximum mana increased by {1}
+					{2}% increased movement speed
 					'''
 			}
 
@@ -8216,9 +8144,9 @@ Mods: {
 				Tooltip:
 					'''
 					'You're overcome with molten fury'
-					18% increased magic & summon damage
-					Maximum mana increased by 20
-					16% increased magic critical strike chance
+					{0}% increased magic & summon damage
+					Maximum mana increased by {1}
+					{2}% increased magic critical strike chance
 					'''
 			}
 
@@ -8284,10 +8212,10 @@ Mods: {
 				DisplayName: Shock Absorber
 				Tooltip:
 					'''
-					Increases inspiration regeneration rate by 10%
-					The symphonic damage you deal is stored to a maximum capacity of 1000
-					Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will increase the damage of nearby allies by 15%
-					The duration of this effect is increased by 3 seconds for every 100 damage stored
+					Increases inspiration regeneration rate by {0}%
+					The symphonic damage you deal is stored to a maximum capacity of {1}
+					Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will increase the damage of nearby allies by {2}%
+					The duration of this effect is increased by {3} seconds for every {4} damage stored
 					'''
 			}
 
@@ -8304,8 +8232,8 @@ Mods: {
 				DisplayName: Beholder's Gaze
 				Tooltip:
 					'''
-					Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will grant you guaranteed critical strikes for 10 seconds
-					For one minute afterwards, you deal 10% less damage
+					Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will grant you guaranteed critical strikes for {0} {^0:second;seconds}
+					For {1} {^1:minute;minutes} afterwards, you deal {2}% less damage
 					'''
 			}
 
@@ -8354,7 +8282,7 @@ Mods: {
 					'''
 					'Beauty is subjective after all'
 					You gain vision of your cursor's current position
-					Enemies around your cursor are briefly revealed and take 15% more damage from all sources
+					Enemies around your cursor are briefly revealed and take {0}% more damage from all sources
 					'''
 			}
 
@@ -8621,33 +8549,23 @@ Mods: {
 
 			AloeLeaf: {
 				DisplayName: Aloe Leaf
-				Tooltip: Healing an ally grants them 2 life recovery for 10 seconds
+				Tooltip: Healing an ally grants them {0} life recovery for {1} seconds
 			}
 
 			AncientAegis: {
 				DisplayName: Ancient Aegis
-				Tooltip: Nearby allies will take 5% reduced damage
+				Tooltip: Nearby allies gain {0}% damage resistance
 			}
 
 			Revivify: {
 				DisplayName: Revivify
 				Tooltip:
 					'''
-					Allows you to revive recently killed players
+					'Allows you to revive recently killed players'
 					While in your inventory, nearby players that die leave a lingering spirit
-					Channeling over the spirit for {0} {^0:second;seconds} will resurrect them with {1}% life
-					Resurrected players are 'sapped' for {2} {^2:second;seconds} after being revived
+					Resurrected players are 'sapped' for their remaining death timer after being revived
 					'''
-			}
-
-			ApothecarysCyanVial: {
-				DisplayName: Apothecary's Cyan Vial
-				Tooltip: Upon drinking a healing potion, all nearby players recover 50 mana
-			}
-
-			ApothecarysScarletVial: {
-				DisplayName: Apothecary's Scarlet Vial
-				Tooltip: Upon drinking a healing potion, all nearby players recover 25 life
+				ChannelTime: Channeling over the spirit for [c/{0}:{1}] seconds will resurrect them with [c/{2}:{3}%] life
 			}
 
 			AquaiteScythe: {
@@ -8659,10 +8577,9 @@ Mods: {
 				DisplayName: Archangel's Heart
 				Tooltip:
 					'''
-					Maximum life increased by 20
-					Maximum mana increased by 20
-					15% increased healing speed
-					Healing spells will heal an additional 2 life
+					Maximum life & mana increased by {0}
+					{1}% increased healing speed
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
@@ -8671,10 +8588,10 @@ Mods: {
 				Tooltip:
 					'''
 					Empowers certain radiant attacks with dark energy
-					Maximum life increased by 20
-					10% increased radiant casting speed
-					20% increased radiant damage
-					12% increased radiant critical strike chance
+					Maximum life increased by {0}
+					{1}% increased radiant casting speed
+					{2}% increased radiant damage
+					{3}% increased radiant critical strike chance
 					'''
 			}
 
@@ -8701,25 +8618,20 @@ Mods: {
 				DisplayName: Barrier Generator
 				Tooltip:
 					'''
-					Fires off a ripple of ally encasing electricity
 					Shields ally life by 10 up to 50
+					Fires off a ripple of ally encasing electricity
 					'''
-			}
-
-			BeltoftheQuickResponse: {
-				DisplayName: Belt of the Quick Response
-				Tooltip: Healing an ally will increase your movement and healing speed
 			}
 
 			BioTechGarment: {
 				DisplayName: Biotech Garment
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					15% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					10% decreased mana cost
-					Healing spells will heal an additional 3 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -8727,12 +8639,12 @@ Mods: {
 				DisplayName: Biotech Hood
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					10% increased radiant damage
-					12% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Increased mana regeneration
-					Maximum mana increased by 20
-					Healing spells will heal an additional 1 life
+					Maximum mana increased by {3}
+					Healing spells will heal an additional {4} life
 					'''
 				SetBonus:
 					'''
@@ -8745,11 +8657,11 @@ Mods: {
 				DisplayName: Biotech Leggings
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					15% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					8% decreased mana cost
-					Healing spells will heal an additional 2 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -8780,10 +8692,10 @@ Mods: {
 				DisplayName: Blooming Crown
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					5% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Moderately increased mana regeneration
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {2} life
 					'''
 				SetBonus: Your healing spells increase the life recovery and life recovery rate of the healed target
 			}
@@ -8792,10 +8704,10 @@ Mods: {
 				DisplayName: Blooming Leggings
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					5% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Moderately increased mana regeneration
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
@@ -8803,10 +8715,10 @@ Mods: {
 				DisplayName: Blooming Tabard
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					5% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Moderately increased mana regeneration
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
@@ -8862,12 +8774,12 @@ Mods: {
 				DisplayName: Celestial Crown
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					10% increased radiant damage
-					20% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Massively increased mana regeneration
-					Maximum mana increased by 60
-					Healing spells will heal an additional 2 life
+					Maximum mana increased by {3}
+					Healing spells will heal an additional {4} life
 					'''
 				SetBonus:
 					'''
@@ -8891,12 +8803,12 @@ Mods: {
 				DisplayName: Celestial Leggings
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					20% increased radiant damage
-					25% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Massively increased mana regeneration
-					Healing spells will heal an additional 2 life
-					20% increased movement speed
+					Healing spells will heal an additional {3} life
+					{4}% increased movement speed
 					'''
 			}
 
@@ -8904,11 +8816,11 @@ Mods: {
 				DisplayName: Celestial Vestment
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					25% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Massively increased mana regeneration
-					Healing spells will heal an additional 4 life
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -8928,19 +8840,16 @@ Mods: {
 
 			CleansingWaterPouch: {
 				DisplayName: Cleansing Water Pouch
-				Tooltip:
-					'''
-					Brings forth a controllable globule of imbued water
-					The globule periodically replenishes its ability to heal, spending 8 mana
-					'''
+				Tooltip: Brings forth a controllable globule of imbued water
+				ScalingTooltip: The globule periodically replenishes its ability to heal, spending {0} mana
 			}
 
 			ClericEmblem: {
 				DisplayName: Cleric Emblem
 				Tooltip:
 					'''
-					12% increased radiant damage
-					Healing spells will heal an additional 1 life
+					{0}% increased radiant damage
+					Healing spells will heal an additional {1} life
 					'''
 			}
 
@@ -8949,8 +8858,8 @@ Mods: {
 				Tooltip: Releases sharp coral fragments from your healed ally
 			}
 
-			CrimsonScythe: {
-				DisplayName: Crimson Scythe
+			TheBlender: {
+				DisplayName: The Blender
 				Tooltip: Rapidly spins a bloody scythe all around you
 			}
 
@@ -8967,9 +8876,8 @@ Mods: {
 				DisplayName: Crystal Arcanite
 				Tooltip:
 					'''
-					Maximum life increased by 20
-					Maximum mana increased by 20
-					Healing spells will heal an additional 1 life
+					Maximum life & mana increased by {0}
+					Healing spells will heal an additional {1} life
 					'''
 			}
 
@@ -8978,9 +8886,9 @@ Mods: {
 				Tooltip:
 					'''
 					'The strange properties of honey are not easily extracted'
-					Maximum life increased by 20
-					10% increased radiant damage
-					5% increased radiant critical strike chance
+					Maximum life increased by {0}
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
 					'''
 			}
 
@@ -9007,7 +8915,7 @@ Mods: {
 				Tooltip:
 					'''
 					Empowers certain radiant attacks with dark energy
-					15% increased radiant damage
+					{0}% increased radiant damage
 					Enemies afflicted with shadowflame or light curse increase your life regeneration
 					'''
 			}
@@ -9018,15 +8926,15 @@ Mods: {
 					'''
 					'Devilishly sweet'
 					Empowers certain radiant attacks with dark energy
-					Maximum life increased by 20
-					15% increased radiant damage
-					10% increased radiant critical strike chance
+					Maximum life increased by {0}
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
 					'''
 			}
 
 			DarkHeart: {
 				DisplayName: Dark Heart
-				Tooltip: Every 40 ally life healed releases a bolt of damaging radiant energy
+				Tooltip: Every {0} ally life healed releases a bolt of damaging radiant energy
 			}
 
 			DarkIntent: {
@@ -9034,14 +8942,14 @@ Mods: {
 				Tooltip:
 					'''
 					Empowers certain radiant attacks with dark energy
-					10% increased radiant damage
-					Your healing bonus is reduced by 1
-					Enemies you hit take 100% more damage from shadowflame and light curse damage over time
+					{0}% increased radiant damage
+					Healing spells will heal {1} less life
+					Enemies you hit take {2}% more damage from shadowflame and light curse damage over time
 					'''
 			}
 
-			DarkScythe: {
-				DisplayName: Dark Scythe
+			DownwardSpiral: {
+				DisplayName: Downward Spiral
 				Tooltip: Rapidly spins a corrupted scythe all around you
 			}
 
@@ -9069,17 +8977,8 @@ Mods: {
 				Tooltip:
 					'''
 					Empowers certain radiant attacks with dark energy
-					12% increased radiant damage
+					{0}% increased radiant damage
 					Halves radiant life costs but not its life transferring effect
-					'''
-			}
-
-			DewCollector: {
-				DisplayName: Dew Collector
-				Tooltip:
-					'''
-					Healing an ally grants them 2 life recovery and generates dew
-					Picking up dew increases your own life recovery by 4
 					'''
 			}
 
@@ -9108,7 +9007,7 @@ Mods: {
 				Tooltip:
 					'''
 					Summons a large rage-zone at your cursor's location
-					Players within the rage-zone deal 15% increased damage
+					Players within the rage-zone deal {0}% increased damage
 					'''
 			}
 
@@ -9121,10 +9020,10 @@ Mods: {
 				DisplayName: Ebon Cloak
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					Increases radiant damage by 1
-					Maximum mana increased by 5
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					Increases radiant damage by {1}
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9132,9 +9031,9 @@ Mods: {
 				DisplayName: Ebon Hood
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					Increases radiant damage by 1
-					Maximum mana increased by 10
+					{0}% decreased non-radiant damage
+					Increases radiant damage by {1}
+					Maximum mana increased by {2}
 					'''
 				SetBonus: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
 			}
@@ -9143,9 +9042,9 @@ Mods: {
 				DisplayName: Ebon Leggings
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					Increases radiant damage by 1
-					Maximum mana increased by 5
+					{0}% decreased non-radiant damage
+					Increases radiant damage by {1}
+					Maximum mana increased by {2}
 					'''
 			}
 
@@ -9153,9 +9052,10 @@ Mods: {
 				DisplayName: Equalizer
 				Tooltip:
 					'''
-					Healing spells will heal an additional 1 life
-					Healing allies with less health than you increases their life recovery
-					Healing allies with more health than you increases your life recovery
+					Healing spells will heal an additional {0} life
+					Healing an ally briefly grants them {1} life recovery
+					Healing allies with less health than you briefly grants them {2} life recovery
+					Healing allies with more health than you briefly grants you {3} life recovery
 					'''
 			}
 
@@ -9163,11 +9063,11 @@ Mods: {
 				DisplayName: Fallen Paladin's Cuirass
 				Tooltip:
 					'''
-					30% decreased non-radiant damage
-					30% increased radiant damage
-					8% increased radiant critical strike chance
-					15% increased damage reduction
-					Healing spells will heal an additional 2 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					{3}% increased damage reduction
+					Healing spells will heal an additional {4} life
 					'''
 			}
 
@@ -9175,9 +9075,9 @@ Mods: {
 				DisplayName: Fallen Paladin's Faceguard
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					20% increased radiant damage
-					3% increased radiant critical strike chance
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
 					Life regeneration rate increased
 					'''
 				SetBonus: Taking damage heals nearby allies equal to {0}% of the damage taken
@@ -9187,12 +9087,12 @@ Mods: {
 				DisplayName: Fallen Paladin's Greaves
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					4% increased radiant critical strike chance
-					15% decreased mana cost
-					20% increased movement speed
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					{3}% decreased mana cost
+					{4}% increased movement speed
+					Healing spells will heal an additional {5} life
 					'''
 			}
 
@@ -9218,10 +9118,10 @@ Mods: {
 				DisplayName: Forgotten Cross Necklace
 				Tooltip:
 					'''
-					'Reminds you of an old friend...'
-					Healing spells will increase the healed targets defense by 14 for 15 seconds
+					Healing spells will increase the healed targets defense by {0} for {1} seconds
 					Increases length of invincibility after taking damage
 					'''
+				FluffTooltip: "'Reminds you of an old friend...'"
 			}
 
 			Gauze: {
@@ -9241,11 +9141,7 @@ Mods: {
 
 			GraniteIonStaff: {
 				DisplayName: Granite Ion Staff
-				Tooltip:
-					'''
-					Charges up an ionized burst of granite energy
-					Charging the burst multiplies its potency up to 3 times
-					'''
+				Tooltip: Charges ionized granite energy, multiplying its shield potency up to 3 times
 			}
 
 			GraveGoods: {
@@ -9253,7 +9149,7 @@ Mods: {
 				Tooltip:
 					'''
 					Nearby allies that die drop a wisp of spirit energy
-					Players that touch the wisp replenish health equal to 15% of the allies maximum health
+					Players that touch the wisp replenish health equal to {0}% of the allies maximum health
 					'''
 			}
 
@@ -9262,7 +9158,7 @@ Mods: {
 				Tooltip:
 					'''
 					Fires a pulse of light that blesses enemies with 'Holy Glare'
-					All damage done against holy glared enemies is increased by 15%
+					All damage done against holy glared enemies is increased by {0}%
 					'''
 			}
 
@@ -9275,7 +9171,7 @@ Mods: {
 				DisplayName: Head Mirror
 				Tooltip:
 					'''
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {0} life
 					Points you towards your ally with the least health
 					'''
 			}
@@ -9347,7 +9243,7 @@ Mods: {
 				Tooltip:
 					'''
 					After healing a nearby ally, a life spirit is released from you
-					This spirit seeks out your ally with the lowest life and heals them for 2 life
+					This spirit seeks out your ally with the lowest life and heals them for {0} life
 					'''
 			}
 
@@ -9355,15 +9251,15 @@ Mods: {
 				DisplayName: Iridescent Greaves
 				Tooltip:
 					'''
-					10% increased radiant damage
-					8% increased movement speed
-					Healing spells will heal an additional 1 life
+					{0}% increased radiant damage
+					{1}% increased movement speed
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
 			IridescentHelmet: {
 				DisplayName: Iridescent Helmet
-				Tooltip: 16% increased radiant damage
+				Tooltip: "{0}% increased radiant damage"
 				SetBonus:
 					'''
 					Your luck is slightly increased
@@ -9375,9 +9271,9 @@ Mods: {
 				DisplayName: Iridescent Mail
 				Tooltip:
 					'''
-					12% increased radiant damage
-					8% increased radiant critical strike chance
-					Healing spells will heal an additional 1 life
+					{0}% increased radiant damage
+					{1}% increased radiant critical strike chance
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
@@ -9394,8 +9290,8 @@ Mods: {
 				DisplayName: Karmic Holder
 				Tooltip:
 					'''
-					Your healing streak fuels an ancient crucible every 100 life up to 500 total
-					The crucible increases your radiant damage by 8% per 100 life in the crucible
+					Your healing streak fuels an ancient crucible every {0} life up to {1} total
+					The crucible increases your radiant damage by {2}% per {3} life in the crucible
 					'''
 			}
 
@@ -9436,11 +9332,11 @@ Mods: {
 				DisplayName: Life Binder's Breastplate
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					15% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					12% decreased mana cost
-					Healing spells will heal an additional 4 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9448,12 +9344,12 @@ Mods: {
 				DisplayName: Life Binder's Greaves
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					15% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					10% decreased mana cost
-					15% increased movement speed
-					Healing spells will heal an additional 1 life
+					{2}% decreased mana cost
+					{3}% increased movement speed
+					Healing spells will heal an additional {4} life
 					'''
 			}
 
@@ -9461,12 +9357,12 @@ Mods: {
 				DisplayName: Life Binder's Mask
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					10% increased radiant damage
-					18% decreased mana cost
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost
 					Increased mana regeneration
-					Maximum mana increased by 40
-					Healing spells will heal an additional 2 life
+					Maximum mana increased by {3}
+					Healing spells will heal an additional {4} life
 					'''
 				SetBonus: Healing spells will shortly increase the healed player's maximum life by {0}
 			}
@@ -9489,8 +9385,8 @@ Mods: {
 				DisplayName: Life Gem
 				Tooltip:
 					'''
-					Maximum life increased by 20
-					Healing spells will heal an additional 1 life
+					Maximum life increased by {0}
+					Healing spells will heal an additional {1} life
 					'''
 			}
 
@@ -9544,7 +9440,7 @@ Mods: {
 
 			LightsLament: {
 				DisplayName: Light's Lament
-				Tooltip: Enfeebles hit enemies, causing them to take 10 additional damage from all radiant attacks
+				Tooltip: Enfeebles hit enemies, causing them to take {0} additional damage from all radiant attacks
 			}
 
 			LilCherubsWand: {
@@ -9579,15 +9475,15 @@ Mods: {
 				Tooltip:
 					'''
 					Releases magical bones that surround and protect allies
-					After taking damage, a bone is lost but the damage is reduced by 15%
-					You may have up to four bones surrounding an ally, which decay every 10 seconds
+					After taking damage, a bone is lost but the damage is reduced by {0}%
+					You may have up to {1} bones surrounding an ally, which decay every {2} {^2:second;seconds}
 					'''
 			}
 
 			MartyrChalice: {
 				DisplayName: Martyr's Chalice
 				Tooltip: Allies are given {0} {^0:second;seconds} of invulnerability after being healed
-				HealAmount: Sacrifices your own life to heal all allies in the world for [c/5aff5a:{0}] life
+				HealAmount: Sacrifices your own life to heal all allies in the world for [c/{0}:{1}] life
 				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
 			}
 
@@ -9595,9 +9491,9 @@ Mods: {
 				DisplayName: Medical Bag
 				Tooltip:
 					'''
-					Healing spells will heal an additional 1 life
-					Points you towards your ally with the least health
-					Healing allies that are in combat grants them 2 life recovery for 5 seconds
+					Healing spells will heal an additional {0} life
+					Points you towards your ally with the least health, and increases your movement speed towards them
+					Healing allies that are in combat grants them {1} life recovery for {2} {^2:second;seconds}
 					'''
 			}
 
@@ -9640,8 +9536,7 @@ Mods: {
 				Tooltip:
 					'''
 					Heals ally life equal to 5% of their maximum health
-					Channels a phasing moon above the caster's head
-					Whenever the moon is a full moon, a healing wave is released at the cost of 15 mana
+					Channels a phasing moon above the caster's head, which periodically releases a healing wave
 					'''
 			}
 
@@ -9668,7 +9563,7 @@ Mods: {
 				DisplayName: Nirvana Statuette
 				Tooltip:
 					'''
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {0} life
 					Taking fatal damage unleashes your inner spirit and you respawn twice as quickly
 					Your inner spirit will constantly release beams of healing energy towards your cursor
 					'''
@@ -9678,11 +9573,11 @@ Mods: {
 				DisplayName: Novice Cleric's Cowl
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					3% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Minimally increased mana regeneration
-					Maximum mana increased by 5
-					Healing spells will heal an additional 1 life
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 				SetBonus:
 					'''
@@ -9695,11 +9590,11 @@ Mods: {
 				DisplayName: Novice Cleric's Pants
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					3% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Minimally increased mana regeneration
-					Maximum mana increased by 5
-					Healing spells will heal an additional 1 life
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9707,11 +9602,11 @@ Mods: {
 				DisplayName: Novice Cleric's Tabard
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					4% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Minimally increased mana regeneration
-					Maximum mana increased by 10
-					Healing spells will heal an additional 2 life
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9720,7 +9615,7 @@ Mods: {
 				Tooltip:
 					'''
 					Summons a large null-zone at your cursor's location
-					Players within the null-zone will take 20% less damage from projectiles
+					Players within the null-zone will take {0}% less damage from projectiles
 					'''
 			}
 
@@ -9728,7 +9623,7 @@ Mods: {
 				DisplayName: Nurse's Purse
 				Tooltip:
 					'''
-					Healing spells will heal an additional 1 life
+					Healing spells will heal an additional {0} life
 					Your healing streaks generate money when they finish
 					'''
 			}
@@ -9744,7 +9639,7 @@ Mods: {
 
 			PacifistNecklace: {
 				DisplayName: Pacifist Necklace
-				Tooltip: While out of combat, healing spells will heal an additional 2 life
+				Tooltip: While out of combat, healing spells will heal an additional {0} life
 			}
 
 			PaganGrasp: {
@@ -9770,8 +9665,8 @@ Mods: {
 			PhoenixStaff: {
 				DisplayName: Phoenix Staff
 				Tooltip: "{$Common.Tooltips.ShoulderGuardianLimit}"
-				RespawnTime: Summons a mythical phoenix that decreases the respawn time of nearby allies by [c/5aff5a:{0}%]
-				RespawnLife: Additionally, nearby allies respawn with [c/5aff5a:{0}%] more life
+				RespawnTime: Summons a mythical phoenix that decreases the respawn time of nearby allies by [c/{0}:{1}%]
+				RespawnLife: Additionally, nearby allies respawn with [c/{0}:{1}%] more life
 			}
 
 			Pill: {
@@ -9814,9 +9709,8 @@ Mods: {
 				DisplayName: Prydwen
 				Tooltip:
 					'''
-					Defense increased by 2
 					Reduces the amount of knockback you take from getting hit
-					Successfully healing an ally with a healing spell will replenish 4 life
+					Successfully healing an ally with a healing spell will replenish {0} life
 					'''
 			}
 
@@ -9862,11 +9756,10 @@ Mods: {
 				DisplayName: Redeemer's Staff
 				Tooltip:
 					'''
-					Allows you to return recently respawned players to their death locations
+					'Allows you to return recently respawned players to their death locations'
 					While in your inventory, nearby players that die leave a lingering spirit
-					Channeling over the spirit for 5 seconds will return them to its location
-					Returned players are sapped for 10 seconds after arriving
 					'''
+				ChannelTime: Channeling over the spirit for [c/{0}:{1}] seconds will return them to the spirit's location when they respawn
 			}
 
 			Renew: {
@@ -9910,11 +9803,11 @@ Mods: {
 				DisplayName: Sacred Breastplate
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					15% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					14% decreased mana cost
-					Healing spells will heal an additional 2 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9931,11 +9824,11 @@ Mods: {
 				DisplayName: Sacred Helmet
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					10% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					7% decreased mana cost
-					Healing spells will heal an additional 1 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 				SetBonus: Healing spells will heal an additional {0} life
 			}
@@ -9944,11 +9837,11 @@ Mods: {
 				DisplayName: Sacred Leggings
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					10% increased radiant damage
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
 					Increased mana regeneration
-					9% decreased mana cost
-					Healing spells will heal an additional 1 life
+					{2}% decreased mana cost
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -9967,10 +9860,8 @@ Mods: {
 				DisplayName: Saving Grace
 				Tooltip:
 					'''
-					5% increased healing speed
-					Healing an ally massively increases their life regeneration
-					Healing spells will increase the healed target's defense by 14 for 15 seconds
-					Increases length of invincibility after taking damage
+					{$Items.VerdantOrnament.Tooltip}
+					{$Items.ForgottenCrossNecklace.Tooltip@1}
 					'''
 			}
 
@@ -9981,7 +9872,7 @@ Mods: {
 
 			SeraphimIdol: {
 				DisplayName: Seraphim Idol
-				Tooltip: 18% increased healing speed
+				Tooltip: "{0}% increased healing speed"
 			}
 
 			SerpentsBubbleWand: {
@@ -10028,9 +9919,9 @@ Mods: {
 				Tooltip:
 					'''
 					Enemies are less likely to target you
-					You and nearby allies take 5% reduced damage
+					You and nearby allies gain {0}% damage resistance
 					Nearby allies that die drop a wisp of spirit energy
-					Players that touch the wisp replenish health equal to 15% of the allies maximum health
+					Players that touch the wisp replenish health equal to {1}% of the allies maximum health
 					'''
 			}
 
@@ -10062,16 +9953,6 @@ Mods: {
 					'''
 			}
 
-			SupportSash: {
-				DisplayName: Support Sash
-				Tooltip:
-					'''
-					Healing an ally will increase your movement and healing speed
-					Upon drinking a healing potion, all nearby players recover 25 life and 50 mana
-					Additionally, your bonus healing is increased by 1 for 30 seconds
-					'''
-			}
-
 			Syringe: {
 				DisplayName: Syringe
 				Tooltip: Pricks an ally with a life-giving needle
@@ -10090,10 +9971,10 @@ Mods: {
 				DisplayName: Templar's Circlet
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					5% increased radiant damage
-					Maximum mana increased by 40
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					Maximum mana increased by {2}
+					Healing spells will heal an additional {3} life
 					'''
 				SetBonus: If an ally is below half health, you will gain increased healing abilities
 			}
@@ -10111,10 +9992,10 @@ Mods: {
 				DisplayName: Templar's Leggings
 				Tooltip:
 					'''
-					10% decreased non-radiant damage
-					10% increased radiant damage
-					8% increased movement speed
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased movement speed
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -10122,9 +10003,9 @@ Mods: {
 				DisplayName: Templar's Tabard
 				Tooltip:
 					'''
-					15% decreased non-radiant damage
-					10% increased radiant damage
-					Healing spells will heal an additional 3 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					Healing spells will heal an additional {2} life
 					'''
 			}
 
@@ -10204,7 +10085,7 @@ Mods: {
 				DisplayName: Turn Undead
 				Tooltip:
 					'''
-					You and nearby allies take 5% reduced damage
+					You and nearby allies gain {0}% damage resistance
 					Enemies are less likely to target you
 					'''
 			}
@@ -10213,8 +10094,8 @@ Mods: {
 				DisplayName: Twilight Staff
 				Tooltip:
 					'''
-					Left click to release an orb of healing energy at the cost of mana
-					Right click to release an orb of shadow energy at the cost of life
+					Left click to release an orb of shadow energy at the cost of life
+					Right click to release an orb of healing energy at the cost of mana
 					'''
 				UsesManaAndLife: Uses {0} mana & {1} life
 			}
@@ -10225,7 +10106,11 @@ Mods: {
 					'''
 					Summons a spirit composed of distant stars
 					The spirit will generate healing energy that players can pick up if you are hurt
-					10 mana is spent when healing energy is generated
+					'''
+				ScalingTooltip:
+					'''
+					{0} mana is spent when healing energy is generated
+					Item must be equipped or in the inventory for it to be generated
 					'''
 			}
 
@@ -10238,8 +10123,8 @@ Mods: {
 				DisplayName: Verdant Ornament
 				Tooltip:
 					'''
-					8% increased healing speed
-					Healing an ally massively increases their life regeneration
+					{0}% increased healing speed
+					Healing an ally increases their life regeneration and regeneration rate
 					'''
 			}
 
@@ -10247,8 +10132,8 @@ Mods: {
 				DisplayName: War Forger
 				Tooltip:
 					'''
-					Right clicking produces a magical anvil at your cursor
-					Swinging at the anvil creates a field of ally shielding metal
+					Right click to produce an anvil at your cursor, swing at the anvil to create a field of shielding metal
+					Does not cost mana when you're out of combat
 					'''
 			}
 
@@ -10256,10 +10141,10 @@ Mods: {
 				DisplayName: Warlock Garb
 				Tooltip:
 					'''
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					7% increased radiant critical strike chance
-					Healing spells will heal an additional 2 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					Healing spells will heal an additional {3} life
 					'''
 			}
 
@@ -10268,11 +10153,11 @@ Mods: {
 				Tooltip:
 					'''
 					Empowers certain radiant attacks with dark energy
-					10% decreased non-radiant damage
-					10% increased radiant damage
-					12% increased radiant critical strike chance
-					Maximum mana increased by 20
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					Maximum mana increased by {3}
+					Healing spells will heal an additional {4} life
 					'''
 				SetBonus:
 					'''
@@ -10285,11 +10170,11 @@ Mods: {
 				DisplayName: Warlock Leggings
 				Tooltip:
 					'''
-					12% decreased non-radiant damage
-					12% increased radiant damage
-					5% increased radiant critical strike chance
-					15% decreased mana cost
-					Healing spells will heal an additional 1 life
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% increased radiant critical strike chance
+					{3}% decreased mana cost
+					Healing spells will heal an additional {4} life
 					'''
 			}
 
@@ -10360,7 +10245,7 @@ Mods: {
 				Tooltip:
 					'''
 					Twice the damage you take is stored into your next damaging attack
-					This can reach a maximum limit of 300 bonus damage
+					This can reach a maximum limit of {0} bonus damage
 					'''
 			}
 
@@ -10499,8 +10384,8 @@ Mods: {
 				DisplayName: Illumite Chestplate
 				Tooltip:
 					'''
-					10% increased ranged damage
-					15% increased firing speed
+					{1}% increased ranged damage
+					{2}% increased firing speed
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -10519,9 +10404,9 @@ Mods: {
 				DisplayName: Illumite Greaves
 				Tooltip:
 					'''
-					8% increased ranged damage
-					6% increased ranged critical strike chance
-					15% increased movement speed
+					{0}% increased ranged damage
+					{1}% increased ranged critical strike chance
+					{2}% increased movement speed
 					'''
 			}
 
@@ -10544,8 +10429,8 @@ Mods: {
 				DisplayName: Illumite Mask
 				Tooltip:
 					'''
-					5% increased ranged damage
-					10% increased ranged critical strike chance
+					{0}% increased ranged damage
+					{1}% increased ranged critical strike chance
 					'''
 				SetBonus: Your bows, guns, and launchers fire off additional projectiles periodically
 			}
@@ -10705,10 +10590,9 @@ Mods: {
 				DisplayName: Lodestone Chest Guard
 				Tooltip:
 					'''
-					Enemies are more likely to target you
-					4% Increased melee critical strike chance
-					8% Increased melee damage
-					5% Increased melee speed
+					{0}% Increased melee critical strike chance
+					{1}% Increased melee damage
+					{2}% Increased melee speed
 					'''
 			}
 
@@ -10730,14 +10614,15 @@ Mods: {
 				DisplayName: Lodestone Face Guard
 				Tooltip:
 					'''
-					2% Increased melee critical strike chance
-					4% Increased melee damage
-					10% Increased melee speed
+					{0}% Increased melee critical strike chance
+					{1}% Increased melee damage
+					{2}% Increased melee speed
 					'''
 				SetBonus:
 					'''
-					Damage reduction is increased by {0}% for every {1}% of life lost
-					Maximum damage reduction is reached at {2}% while below {1}% life
+					Enemies are more likely to target you
+					{0}% increased damage reduction for every {1}% of life lost
+					Damage reduction increase maxes at {2}% while below {1}% life
 					'''
 			}
 
@@ -10775,9 +10660,9 @@ Mods: {
 				DisplayName: Lodestone Shin Guards
 				Tooltip:
 					'''
-					3% Increased melee critical strike chance
-					6% Increased melee damage
-					12% increased movement speed
+					{0}% Increased melee critical strike chance
+					{1}% Increased melee damage
+					{2}% increased movement speed
 					'''
 			}
 
@@ -10814,9 +10699,9 @@ Mods: {
 				DisplayName: Cryomancer's Crown
 				Tooltip:
 					'''
-					10% increased magic damage
-					15% reduced mana cost
-					Maximum mana increased by 60
+					{0}% increased magic damage
+					{1}% reduced mana cost
+					Maximum mana increased by {2}
 					'''
 				SetBonus: Your magic damage will freeze enemies for two seconds
 			}
@@ -10825,8 +10710,8 @@ Mods: {
 				DisplayName: Cryomancer's Leggings
 				Tooltip:
 					'''
-					10% increased magic damage
-					15% increased movement speed
+					{0}% increased magic damage
+					{1}% increased movement speed
 					'''
 			}
 
@@ -10834,8 +10719,8 @@ Mods: {
 				DisplayName: Cryomancer's Tabard
 				Tooltip:
 					'''
-					15% increased magic damage
-					10% increased magic critical strike chance
+					{0}% increased magic damage
+					{1}% increased magic critical strike chance
 					Greatly increased mana regeneration
 					'''
 			}
@@ -10894,7 +10779,7 @@ Mods: {
 				DisplayName: Murky Catalyst
 				Tooltip:
 					'''
-					Maximum mana increased by 20
+					Maximum mana increased by {0}
 					Every sixth magic cast is free and grants you the mana cost
 					'''
 			}
@@ -10942,8 +10827,8 @@ Mods: {
 				DisplayName: Tide Stone
 				Tooltip:
 					'''
-					Maximum mana increased by 20
-					While holding a magic weapon, you recover 3% of your maximum mana a second
+					Maximum mana increased by {0}
+					While holding a magic weapon, you recover {1}% of your maximum mana per second
 					'''
 			}
 
@@ -10970,8 +10855,8 @@ Mods: {
 				DisplayName: White Knight Leggings
 				Tooltip:
 					'''
-					10% increased magic damage
-					8% increased movement speed
+					{0}% increased magic damage
+					{1}% increased movement speed
 					'''
 			}
 
@@ -10979,8 +10864,8 @@ Mods: {
 				DisplayName: White Knight Mask
 				Tooltip:
 					'''
-					5% increased magic damage
-					5% increased magic critical strike chance
+					{0}% increased magic damage
+					{1}% increased magic critical strike chance
 					'''
 				SetBonus:
 					'''
@@ -10993,8 +10878,8 @@ Mods: {
 				DisplayName: White Knight Tabard
 				Tooltip:
 					'''
-					5% increased magic damage
-					6% increased magic critical strike chance
+					{0}% increased magic damage
+					{1}% increased magic critical strike chance
 					'''
 			}
 
@@ -11337,24 +11222,8 @@ Mods: {
 				Tooltip: Lightly illuminates your cursor's position while held
 			}
 
-			AncientHallowedChapeau: {
-				DisplayName: Ancient Hallowed Chapeau
-				Tooltip:
-					'''
-					Increases inspiration regeneration rate by 10%
-					8% increased symphonic damage and playing speed
-					'''
-			}
-
-			AncientHallowedCowl: {
-				DisplayName: Ancient Hallowed Cowl
-				Tooltip:
-					'''
-					20% decreased non-radiant damage
-					20% increased radiant damage
-					20% decreased mana cost and increased mana regeneration
-					'''
-			}
+			AncientHallowedChapeau.DisplayName: Ancient Hallowed Chapeau
+			AncientHallowedCowl.DisplayName: Ancient Hallowed Cowl
 
 			AncientHallowedGuise: {
 				DisplayName: Ancient Hallowed Guise
@@ -11438,9 +11307,9 @@ Mods: {
 				DisplayName: Conduit Helmet
 				Tooltip:
 					'''
-					12% increased martian weapon damage
-					5% increased damage reduction
-					10% increased critical strike chance
+					{0}% increased martian weapon damage
+					{1}% increased damage reduction
+					{2}% increased critical strike chance
 					'''
 				SetBonus:
 					'''
@@ -11453,9 +11322,9 @@ Mods: {
 				DisplayName: Conduit Leggings
 				Tooltip:
 					'''
-					16% increased martian weapon damage
-					5% increased damage reduction
-					20% increased movement speed
+					{0}% increased martian weapon damage
+					{1}% increased damage reduction
+					{2}% increased movement speed
 					'''
 			}
 
@@ -11463,9 +11332,9 @@ Mods: {
 				DisplayName: Conduit Suit
 				Tooltip:
 					'''
-					22% increased martian weapon damage
-					8% increased damage reduction
-					Increases damage by 1 for every nearby enemy
+					{0}% increased martian weapon damage
+					{1}% increased damage reduction
+					Increases damage by {2} for every nearby enemy
 					'''
 			}
 
@@ -11536,8 +11405,8 @@ Mods: {
 				DisplayName: Hallowed Chapeau
 				Tooltip:
 					'''
-					Increases inspiration regeneration rate by 10%
-					8% increased symphonic damage and playing speed
+					Increases inspiration regeneration rate by {0}%
+					{1}% increased symphonic damage and playing speed
 					'''
 				SetBonus:
 					'''
@@ -11550,9 +11419,9 @@ Mods: {
 				DisplayName: Hallowed Cowl
 				Tooltip:
 					'''
-					20% decreased non-radiant damage
-					20% increased radiant damage
-					20% decreased mana cost and increased mana regeneration
+					{0}% decreased non-radiant damage
+					{1}% increased radiant damage
+					{2}% decreased mana cost and increased mana regeneration
 					'''
 				SetBonus:
 					'''
@@ -11575,7 +11444,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Consume your enemies from the inside out'
-					Enemies you hit take 50% more damage from damage over time debuffs
+					Enemies you hit take {0}% more damage from damage over time debuffs
 					'''
 			}
 
@@ -11650,7 +11519,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Seems to be made out of a familiar material'
-					Enemies you hit take 50% more damage from fiery damage over time debuffs
+					Enemies you hit take {0}% more damage from fiery damage over time debuffs
 					'''
 			}
 
@@ -11747,8 +11616,8 @@ Mods: {
 				DisplayName: Ring of Unity
 				Tooltip:
 					'''
-					Increases damage by 1
-					Increases damage by an additional 1 for every nearby player that also has it equipped
+					Increases damage by {0}
+					Increases damage by an additional {1} for every nearby player that also has it equipped
 					'''
 			}
 
@@ -11816,7 +11685,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Don't let it get you down...'
-					Your respawns happen 33% faster and give 15% more health
+					Your respawns happen {0}% faster and give {1}% more health
 					Your respawns also grant increased invulnerability time and movement speed
 					'''
 			}
@@ -11903,8 +11772,8 @@ Mods: {
 				DisplayName: Astro Beetle Husk
 				Tooltip:
 					'''
-					Damage taken reduced by 5%
-					You constantly generate a 20 life shield
+					{0}% increased damage reduction
+					You constantly generate a {1} life shield
 					'''
 			}
 
@@ -11922,7 +11791,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This thing is pretty heavy'
-					Reduces damage taken by 10%
+					{0}% increased damage reduction
 					Movement speed and jump height slightly decreased
 					Grants immunity to shambler chain-balls
 					'''
@@ -11994,7 +11863,7 @@ Mods: {
 
 			CrawdadClaw: {
 				DisplayName: Crawdad Claw
-				Tooltip: While in combat, your armor penetration increases by 1 over time up to 2
+				Tooltip: While in combat, your armor penetration increases by {0} over time up to {1}
 			}
 
 			DeathGazersGlass: {
@@ -12078,11 +11947,7 @@ Mods: {
 
 			Executioner: {
 				DisplayName: Executioner
-				Tooltip:
-					'''
-					Continuous strikes increase speed and damage
-					Maximum power attacks reduce enemy defense
-					'''
+				Tooltip: Continuous strikes increase speed and damage, then reduce enemy defense at max power
 			}
 
 			ExileGarb: {
@@ -12095,10 +11960,10 @@ Mods: {
 				Tooltip:
 					'''
 					'When they turned their back on Terraria, he turned his back on them...'
-					8% reduced damage taken
-					12% increased damage
-					6% increased critical strike chance
-					Your Hired Demon will deal 50% more damage and apply shadowflame to hit enemies
+					{0}% increased damage reduction
+					{1}% increased damage
+					{2}% increased critical strike chance
+					Your Hired Demon will deal {3}% more damage and apply shadowflame to hit enemies
 					'''
 			}
 
@@ -12134,7 +11999,7 @@ Mods: {
 
 			GiantShellSpine: {
 				DisplayName: Giant Shell Spine
-				Tooltip: While in combat, your defense increases by 1 over time up to 4
+				Tooltip: While in combat, your defense increases by {0} over time up to {1}
 			}
 
 			GraveBuster: {
@@ -12245,17 +12110,13 @@ Mods: {
 
 			NecromancersHeart: {
 				DisplayName: Necromancer's Heart
-				Tooltip:
-					'''
-					'A dark liquid lingers within the heart'
-					Increases your max number of sentries by 1
-					Decreases your life regeneration rate by 20%
-					'''
+				Tooltip: <right> with a whip to send the flies towards your cursor, damaging nearby enemies
+				SpecialTooltip: Enemies struck by the tips of summoner whips take {0}% extra damage and spawn up to [c/{1}:{2}] flies
 			}
 
 			NightShadeFlower: {
 				DisplayName: Nightshade Flower
-				Tooltip: Enemies you hit take 50% more damage from poison and venom damage over time
+				Tooltip: Enemies you hit take {0}% more damage from poison and venom damage over time
 			}
 
 			NinjaRack: {
@@ -12270,7 +12131,7 @@ Mods: {
 
 			PotionChaser: {
 				DisplayName: Potion Chaser
-				Tooltip: Drinking a potion heals an additional 25 life
+				Tooltip: Drinking a potion heals an additional {0} life
 			}
 
 			PrismStaff: {
@@ -12280,7 +12141,7 @@ Mods: {
 
 			Rapier: {
 				DisplayName: Rapier
-				Tooltip: Attacks grant 'parry stance', reducing damage taken briefly
+				Tooltip: Wildly stabs forward, briefly granting you damage resistance on hit
 			}
 
 			RapierBadge: {
@@ -12295,12 +12156,12 @@ Mods: {
 
 			SalamanderEye: {
 				DisplayName: Salamander Eye
-				Tooltip: While in combat for 5 seconds, your life recovery increases by 1
+				Tooltip: While in combat for {0} seconds, your life recovery increases by {1}
 			}
 
 			Scalper: {
 				DisplayName: Scalper
-				Tooltip: Shoots two rebounding daggers
+				Tooltip: Releases returning blades on swing
 			}
 
 			Scorpain: {
@@ -13154,7 +13015,7 @@ Mods: {
 				Tooltip:
 					'''
 					Places down a decorative piece of chosen food
-					Right click to cycle styles
+					Press Up/Down to cycle through placement styles
 					'''
 			}
 
@@ -14398,6 +14259,21 @@ Mods: {
 				Tooltip: ""
 			}
 
+			PlateBrick: {
+				DisplayName: Plate Brick
+				Tooltip: ""
+			}
+
+			PlateBrickWall: {
+				DisplayName: Plate Brick Wall
+				Tooltip: ""
+			}
+
+			PlateSlabWall: {
+				DisplayName: Plate Slab Wall
+				Tooltip: ""
+			}
+
 			PlateBed: {
 				DisplayName: Plate Bed
 				Tooltip: ""
@@ -14495,11 +14371,6 @@ Mods: {
 
 			PlateToilet: {
 				DisplayName: Plate Toilet
-				Tooltip: ""
-			}
-
-			PlateWall: {
-				DisplayName: Plate Wall
 				Tooltip: ""
 			}
 
@@ -15549,8 +15420,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Wearers of this pendant shall not fear the depths...'
-					Increases your breath by 50% & grants the ability to swim
-					Increases your damage by 10% when you're wet
+					Increases your breath by {0}% & grants the ability to swim
+					Increases your damage by {1}% when you're wet
 					'''
 			}
 
@@ -15583,7 +15454,7 @@ Mods: {
 				DisplayName: Dart Pouch
 				Tooltip:
 					'''
-					10% increased damage with dart weapons
+					{0}% increased damage with dart weapons
 					Most darts have a chance to become retrievable after impact
 					'''
 			}
@@ -15876,7 +15747,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Masterfully forged by the Blacksmith'
-					8% increased damage
+					{0}% increased damage
 					'''
 			}
 
@@ -15890,7 +15761,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Masterfully forged by the Blacksmith'
-					8% increased movement speed
+					{0}% increased movement speed
 					'''
 			}
 
@@ -15899,9 +15770,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Masterfully forged by the Blacksmith'
-					5% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
-				SetBonus: Damage taken reduced by {0}%
+				SetBonus: "{0}% increased damage reduction"
 			}
 
 			DurasteelJackhammer: {
@@ -15957,7 +15828,7 @@ Mods: {
 			SteelHelmet: {
 				DisplayName: Steel Helmet
 				Tooltip: "'Expertly forged by the Blacksmith'"
-				SetBonus: Damage taken reduced by {0}%
+				SetBonus: "{0}% increased damage reduction"
 			}
 
 			SteelPickaxe: {
@@ -15982,12 +15853,12 @@ Mods: {
 
 			AstroBoots: {
 				DisplayName: Astro Boots
-				Tooltip: Increases summon damage by 1
+				Tooltip: Increases summon damage by {0}
 			}
 
 			AstroHelmet: {
 				DisplayName: Astro Helmet
-				Tooltip: Increases summon damage by 1
+				Tooltip: Increases summon damage by {0}
 				SetBonus: Summon damage has a chance to unleash a burst of damaging plasma on hit
 			}
 
@@ -15995,14 +15866,14 @@ Mods: {
 				DisplayName: Astro Suit
 				Tooltip:
 					'''
-					Increases your max number of sentries by 1
-					Increases your max number of minions by 1
+					Increases your max number of sentries by {0}
+					Increases your max number of minions by {1}
 					'''
 			}
 
 			BioMatter: {
 				DisplayName: Bio Matter
-				Tooltip: "'A writhing mass of chlorophyll'"
+				Tooltip: "'An imbued mass of jungle growth'"
 			}
 
 			BleedingHeartStaff: {
@@ -16086,8 +15957,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Even while bound in crystal, the stinger holds deadly power'
-					Minion attacks have a 15% chance to produce a crystal scorpion
-					Minion attacks deal 3 more damage while a crystal scorpion is active
+					Minion attacks have a {0}% chance to produce a crystal scorpion
+					Minion attacks deal {1} more damage while a crystal scorpion is active
 					'''
 			}
 
@@ -16110,21 +15981,12 @@ Mods: {
 				Tooltip: Summons a mushroom cap that pelts enemies with gaseous spores
 			}
 
-			HiveMind: {
-				DisplayName: Hive Mind
-				Tooltip:
-					'''
-					Places a single magical brain above the ground
-					While nearby, the user's minion and sentry attacks have a chance to confuse hit enemies
-					'''
-			}
-
 			IncubatedEgg: {
 				DisplayName: Incubated Egg
 				Tooltip:
 					'''
 					'A gruesome incubation has occurred'
-					Minion and sentry attacks have a 10% chance to generate a swarm of spiders
+					Minion and sentry attacks have a {0}% chance to generate a swarm of spiders
 					'''
 			}
 
@@ -16134,8 +15996,8 @@ Mods: {
 					'''
 					'You are one with nature'
 					Increases your max number of minions
-					8% increased summon damage
-					15% increased movement speed
+					{0}% increased summon damage
+					{1}% increased movement speed
 					'''
 			}
 
@@ -16145,7 +16007,7 @@ Mods: {
 					'''
 					'You are one with nature'
 					Increases your max number of minions
-					10% increased summon damage
+					{0}% increased summon damage
 					Increases minion knockback
 					'''
 			}
@@ -16156,7 +16018,7 @@ Mods: {
 					'''
 					'You are one with nature'
 					Increases your max number of minions
-					8% increased summon damage
+					{0}% increased summon damage
 					'''
 				SetBonus:
 					'''
@@ -16191,12 +16053,12 @@ Mods: {
 
 			LivingWoodBoots: {
 				DisplayName: Living Wood Boots
-				Tooltip: Increases summon damage by 1
+				Tooltip: Increases summon damage by {0}
 			}
 
 			LivingWoodChestguard: {
 				DisplayName: Living Wood Chestguard
-				Tooltip: Increases summon damage by 1
+				Tooltip: Increases summon damage by {0}
 			}
 
 			LivingWoodMask: {
@@ -16209,7 +16071,7 @@ Mods: {
 				DisplayName: Living Wood Sap
 				Tooltip:
 					'''
-					Summon damage increased by 1
+					Increases summon damage by {0}
 					Increases minion knockback
 					'''
 			}
@@ -16228,11 +16090,12 @@ Mods: {
 				DisplayName: Necrotic Skull
 				Tooltip:
 					'''
-					10% increased summon damage
-					Increases your max number of minions
-					Increases your max number of sentries
-					Minion and sentry attacks briefly deal 2 more damage after killing an enemy
+					Increases your max number of minions by {0}
+					<right> with a whip to send the wisps towards your cursor, damaging nearby enemies
+					Killing cursed enemies or continually damaging bosses releases an exploding ghost dealing {1} damage, which can also curse enemies
 					'''
+				SpecialTooltip: Enemies struck by the tips of summoner whips take {0}% extra damage, become cursed, and spawn up to [c/{1}:{2}] wisps
+				NoStacking: Effect does not stack with {$ItemName.PygmyNecklace}
 			}
 
 			Phylactery: {
@@ -16240,8 +16103,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Death is not the end for you...'
-					Taking fatal damage will instead return you to 25% life every four minutes
-					Life recovery is increased while the phylactery is not on cooldown
+					Taking fatal damage will instead return you to {0}% life every {1} minutes
+					Life recovery is increased by {2} while the phylactery is not on cooldown
 					'''
 			}
 
@@ -16250,8 +16113,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Fossil of a time when arachnids were king'
-					Minion attacks have a 10% chance to produce an amber spider
-					Minion attacks deal 2 more damage while an amber spider is active
+					Minion attacks have a {0}% chance to produce an amber spider
+					Minion attacks deal {1} more damage while an amber spider is active
 					'''
 			}
 
@@ -16268,25 +16131,24 @@ Mods: {
 				DisplayName: Soul Stone
 				Tooltip:
 					'''
-					'The stone slowly feeds off of your soul'
-					10% increased summon damage
-					Decreases your maximum life by 20
+					Enemies struck by the tips of summoner whips take {0}% extra damage and become cursed
+					Killing cursed enemies or continually damaging bosses releases an exploding ghost, which can also curse enemies
 					'''
 			}
 
 			SpiritTrapperCuirass: {
 				DisplayName: Spirit Trapper's Cuirass
-				Tooltip: Increases summon damage by 10%
+				Tooltip: Increases summon damage by {0}%
 			}
 
 			SpiritTrapperGreaves: {
 				DisplayName: Spirit Trapper's Greaves
-				Tooltip: Increases summon damage by 5%
+				Tooltip: Increases summon damage by {0}%
 			}
 
 			SpiritTrapperCowl: {
 				DisplayName: Spirit Trapper's Cowl
-				Tooltip: Increases your max number of minions by 1
+				Tooltip: Increases your max number of minions by {0}
 				SetBonus:
 					'''
 					Increases your max number of minions by {0}
@@ -16297,7 +16159,7 @@ Mods: {
 
 			SpiritTrapperMask: {
 				DisplayName: Spirit Trapper's Mask
-				Tooltip: Increases your max number of sentries by 1
+				Tooltip: Increases your max number of sentries by {0}
 				SetBonus:
 					'''
 					Increases your max number of sentries by {0}
@@ -16310,8 +16172,8 @@ Mods: {
 				DisplayName: Spittin' Fish
 				Tooltip:
 					'''
-					Summons a water-bound fish to spit up at enemies
-					The fish can only be summoned within a body of water
+					Summons a fish to spit at enemies 
+					Gains increased attack speed when summoned in water
 					'''
 			}
 
@@ -16378,11 +16240,11 @@ Mods: {
 				DisplayName: Terrarium Defender
 				Tooltip:
 					'''
-					Maximum life increased by 20
+					Maximum life increased by {0}
 					Prolonges after hit invincibility
 					Grants immunity to most status debuffs, knockback, and fire blocks
-					When above 25% life, absorbs 25% of damage done to nearby players on your team
-					When below 25% life, you will rapidly regenerate life and gain increased defense
+					When above {1}% life, absorbs {1}% of damage done to nearby players on your team
+					When below {1}% life, you will rapidly regenerate life and gain increased defense
 					'''
 			}
 
@@ -16483,8 +16345,7 @@ Mods: {
 				DisplayName: Terrarium Particle Sprinters
 				Tooltip:
 					'''
-					Allows flight, hyper fast running, and extra mobility on ice
-					12% increased movement speed
+					Allows hyper fast running, flight, and extra mobility on ice
 					Provides the ability to walk on water, honey & lava
 					Grants immunity to fire blocks and lava
 					'''
@@ -16544,7 +16405,7 @@ Mods: {
 				Tooltip:
 					'''
 					Increased Health and Mana regeneration
-					Taking more than three damage will replenish some Health and Mana
+					Taking damage will replenish some Health and Mana
 					'''
 			}
 
@@ -16589,7 +16450,11 @@ Mods: {
 
 			ThoriumAnvil: {
 				DisplayName: Thorium Anvil
-				Tooltip: Used for basic crafting, metal bar crafting, and thorium bar crafting
+				Tooltip:
+					'''
+					Used for metal bar crafting and thorium bar crafting
+					Also functions as a workbench
+					'''
 			}
 
 			ThoriumBar: {
@@ -16622,7 +16487,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It pulses with energy'
-					2% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
 			}
 
@@ -16631,7 +16496,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It pulses with energy'
-					2% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
 				SetBonus: Damage done increased by {0}%
 			}
@@ -16641,7 +16506,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It pulses with energy'
-					2% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
 			}
 
@@ -16662,11 +16527,7 @@ Mods: {
 
 			ThoriumShield: {
 				DisplayName: Thorium Shield
-				Tooltip:
-					'''
-					Defense increased by 3
-					You constantly generate a 16 life shield
-					'''
+				Tooltip: You constantly generate a {0} life shield
 			}
 
 			ThoriumSpear: {
@@ -17590,7 +17451,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with primordial energy'
-					8% increased critical strike chance
+					{0}% increased critical strike chance
 					'''
 			}
 
@@ -17599,7 +17460,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with primordial energy'
-					15% increased movement speed
+					{0}% increased movement speed
 					'''
 			}
 
@@ -17613,9 +17474,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with primordial energy'
-					Increases maximum mana by 80
-					15% reduced mana usage
-					Casting spells beneath 75 current mana will deal increased damage
+					Increases maximum mana by {0}
+					{1}% reduced mana usage
+					Casting spells beneath {2} current mana will deal increased damage
 					'''
 				SetBonus: Damage done increased by {0}%
 			}
@@ -17625,7 +17486,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with primordial energy'
-					12% increased melee speed
+					{0}% increased melee speed
 					Increases length of invincibility after taking damage
 					Grants immunity to knockback
 					'''
@@ -17652,7 +17513,7 @@ Mods: {
 					'''
 					'Infused with primordial energy'
 					Your ranged attacks are enchanted
-					Decreases chance to consume ammo by 25%
+					{0}% decreased chance to consume ammo
 					Grants vision of enemy positions
 					'''
 				SetBonus: Damage done increased by {0}%
@@ -17718,10 +17579,10 @@ Mods: {
 				DisplayName: Flawless Chrysalis
 				Tooltip:
 					'''
-					Pressing the 'Encase' key will place you within a fragile cocoon
-					Within the cocoon, you have greatly increased life recovery, but greatly reduced damage reduction
-					If you survive the process, your damage and attack speed are briefly increased by 30%
-					The cocoon may be activated every 1 minute
+					Pressing the 'Encase' key will place you within a fragile cocoon for {3} seconds, preventing item use
+					Increases damage taken by {0}%, but life recovery by {1} while within the cocoon
+					Increases damage and attack speed by {2}% for {3} seconds after hatching
+					The cocoon must recharge for {4} minute after use
 					'''
 			}
 
@@ -18017,8 +17878,8 @@ Mods: {
 				DisplayName: Valadium Breastplate
 				Tooltip:
 					'''
-					2% increased ranged critical strike chance
-					5% increased firing speed
+					{1}% increased ranged critical strike chance
+					{2}% increased firing speed
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -18037,9 +17898,9 @@ Mods: {
 				DisplayName: Valadium Greaves
 				Tooltip:
 					'''
-					2% increased ranged critical strike chance
-					5% increased ranged damage
-					7% increased movement speed
+					{0}% increased ranged critical strike chance
+					{1}% increased ranged damage
+					{2}% increased movement speed
 					'''
 			}
 
@@ -18052,8 +17913,8 @@ Mods: {
 				DisplayName: Valadium Helmet
 				Tooltip:
 					'''
-					6% increased ranged critical strike chance
-					5% increased ranged damage
+					{0}% increased ranged critical strike chance
+					{1}% increased ranged damage
 					'''
 				SetBonus: Reverse gravity by pressing UP. While reversed, ranged damage is increased by {0}%
 			}
@@ -18654,8 +18515,8 @@ Mods: {
 					'''
 			}
 
-			LichRequirement: {
-				DisplayName: Lich Requirement
+			HoverItemDummy: {
+				DisplayName: Hover Item Dummy
 				Tooltip: ""
 			}
 
@@ -18763,7 +18624,7 @@ Mods: {
 				Tooltip:
 					'''
 					'For testing purposes'
-					Attempts to purfy a large area around the player
+					Attempts to purify a large area around the player
 					'''
 			}
 
@@ -18819,11 +18680,6 @@ Mods: {
 				Tooltip: "'Thanks for the continued support, everyone!'"
 			}
 
-			ViscountRequirement: {
-				DisplayName: Viscount Requirement
-				Tooltip: ""
-			}
-
 			AnnoyingMud: {
 				DisplayName: Annoying Mud
 				Tooltip: "'Not this stuff again...'"
@@ -18849,6 +18705,11 @@ Mods: {
 				SacrificialDagger.DisplayName: Sacrificial Dagger
 				HiveMind.DisplayName: Hive Mind
 				BloodFeasterStaff.DisplayName: Blood Feaster Staff
+				ApothecarysCyanVial.DisplayName: Apothecary's Cyan Vial
+				ApothecarysScarletVial.DisplayName: Apothecary's Scarlet Vial
+				BeltoftheQuickResponse.DisplayName: Belt of the Quick Response
+				DewCollector.DisplayName: Dew Collector
+				SupportSash.DisplayName: Support Sash
 			}
 
 			TrackPlayers: {
@@ -18880,11 +18741,6 @@ Mods: {
 				TunePlayerMovementSpeed.PrefixName: Disco
 			}
 
-			BirdFeederRequirement: {
-				DisplayName: Bird Feeder Requirement
-				Tooltip: ""
-			}
-
 			TestNeedle: {
 				DisplayName: Test Needle
 				Tooltip: Empowers while midair, poisoning hit enemies
@@ -18914,7 +18770,7 @@ Mods: {
 					'''
 					Spins a demonic scythe that generates rage as you damage enemies
 					Right click while at full rage to briefly transform into a powerful demon
-					While transformed, left and right click change effects and they gain life steal
+					While transformed, left and right click change effects and gain life steal if you're under {0}% health
 					Additionally, you take less damage and move faster
 					'''
 
@@ -19280,7 +19136,7 @@ Mods: {
 
 			LargeCoralVase: {
 				DisplayName: Large Coral Vase
-				Tooltip: Right click to cycle styles
+				Tooltip: Press Up/Down to cycle through placement styles
 			}
 
 			CurtainWall: {
@@ -19354,6 +19210,314 @@ Mods: {
 			SacredLyre: {
 				DisplayName: Sacred Lyre
 				Tooltip: Releases hymns that can heal one ally and damage one enemy before dissipating
+			}
+
+			WaterwickCandle: {
+				DisplayName: Waterwick Candle
+				Tooltip: Generates homing spirit flames
+			}
+
+			PlateMonitor: {
+				DisplayName: Plate Monitor
+				Tooltip: ""
+			}
+
+			BuildingBlockWall: {
+				DisplayName: Building Block Wall
+				Tooltip: ""
+			}
+
+			TerrariaEntertainmentSystem: {
+				DisplayName: Terraria Entertainment System
+				Tooltip: ""
+			}
+
+			ThoriumWand: {
+				DisplayName: Thorium Wand
+				Tooltip: Instantly heals an ally under your cursor within radius
+			}
+
+			BloodstainedSlab: {
+				DisplayName: Bloodstained Slab
+				Tooltip: ""
+			}
+
+			BloodstainedSlabWall: {
+				DisplayName: Bloodstained Slab Wall
+				Tooltip: ""
+			}
+
+			StrippedScarletWall: {
+				Tooltip: ""
+				DisplayName: Stripped Scarlet Wall
+			}
+
+			StrippedScarletBlock: {
+				Tooltip: ""
+				DisplayName: Stripped Scarlet Block
+			}
+
+			SmoothWoodWall: {
+				DisplayName: Smooth Wood Wall
+				Tooltip: ""
+			}
+
+			BoxedPalmwoodBlock: {
+				DisplayName: Boxed Palm Wood
+				Tooltip: ""
+			}
+
+			BoxedPalmwoodWall: {
+				DisplayName: Boxed Palm Wood Wall
+				Tooltip: ""
+			}
+
+			ChiseledEbonwoodBlock: {
+				DisplayName: Chiseled Ebonwood
+				Tooltip: ""
+			}
+
+			ChiseledEbonwoodWall: {
+				DisplayName: Chiseled Ebonwood Wall
+				Tooltip: ""
+			}
+
+			CratedPearlwoodBlock: {
+				DisplayName: Crated Pearlwood
+				Tooltip: ""
+			}
+
+			CratedPearlwoodWall: {
+				DisplayName: Crated Pearlwood Wall
+				Tooltip: ""
+			}
+
+			LeveledBorealwoodBlock: {
+				DisplayName: Leveled Boreal Wood
+				Tooltip: ""
+			}
+
+			LeveledBorealwoodWall: {
+				DisplayName: Leveled Boreal Wood Wall
+				Tooltip: ""
+			}
+
+			PlankedShadewoodBlock: {
+				DisplayName: Planked Shadewood
+				Tooltip: ""
+			}
+
+			PlankedShadewoodWall: {
+				DisplayName: Planked Shadewood Wall
+				Tooltip: ""
+			}
+
+			ProcessedMahoganyBlock: {
+				DisplayName: Processed Mahogany
+				Tooltip: ""
+			}
+
+			ProcessedMahoganyWall: {
+				DisplayName: Processed Mahogany Wall
+				Tooltip: ""
+			}
+
+			TwistedAshwoodBlock: {
+				DisplayName: Twisted Ash Wood
+				Tooltip: ""
+			}
+
+			TwistedAshwoodWall: {
+				DisplayName: Twisted Ash Wood Wall
+				Tooltip: ""
+			}
+
+			SoulGem: {
+				DisplayName: Soul Gem
+				Tooltip:
+					'''
+					Yoyo damage fully pierces through enemy defense and has increased range
+					Reduces damage taken by {0}%
+					Enemies are less likely to target you
+					'''
+			}
+
+			CutGlassPane: {
+				DisplayName: Cut Glass Pane
+				Tooltip: ""
+			}
+
+			CutGlassPaneWall: {
+				DisplayName: Cut Glass Pane Wall
+				Tooltip: ""
+			}
+
+			GlassPane: {
+				DisplayName: Glass Pane
+				Tooltip: ""
+			}
+
+			GlassPaneWall: {
+				DisplayName: Glass Pane Wall
+				Tooltip: ""
+			}
+
+			HorizontalCutGlassPane: {
+				DisplayName: Horizontal Cut Glass Pane
+				Tooltip: ""
+			}
+
+			HorizontalCutGlassPaneWall: {
+				DisplayName: Horizontal Cut Glass Pane Wall
+				Tooltip: ""
+			}
+
+			VerticalCutGlassPane: {
+				DisplayName: Vertical Cut Glass Pane
+				Tooltip: ""
+			}
+
+			VerticalCutGlassPaneWall: {
+				DisplayName: Vertical Cut Glass Pane Wall
+				Tooltip: ""
+			}
+
+			BloodstainlessSlab: {
+				DisplayName: Bloodstainless Slab
+				Tooltip: ""
+			}
+
+			RedBannerBlock: {
+				DisplayName: Red Banner Block
+				Tooltip: ""
+			}
+
+			RedBannerWall: {
+				DisplayName: Red Banner Wall
+				Tooltip: ""
+			}
+
+			GreenBannerBlock: {
+				DisplayName: Green Banner Block
+				Tooltip: ""
+			}
+
+			GreenBannerWall: {
+				DisplayName: Green Banner Wall
+				Tooltip: ""
+			}
+
+			BlueBannerBlock: {
+				DisplayName: Blue Banner Block
+				Tooltip: ""
+			}
+
+			BlueBannerWall: {
+				DisplayName: Blue Banner Wall
+				Tooltip: ""
+			}
+
+			YellowBannerBlock: {
+				DisplayName: Yellow Banner Block
+				Tooltip: ""
+			}
+
+			YellowBannerWall: {
+				DisplayName: Yellow Banner Wall
+				Tooltip: ""
+			}
+
+			PurpleBannerBlock: {
+				DisplayName: Purple Banner Block
+				Tooltip: ""
+			}
+
+			PurpleBannerWall: {
+				DisplayName: Purple Banner Wall
+				Tooltip: ""
+			}
+
+			WhiteBannerBlock: {
+				DisplayName: White Banner Block
+				Tooltip: ""
+			}
+
+			WhiteBannerWall: {
+				DisplayName: White Banner Wall
+				Tooltip: ""
+			}
+
+			CarvedYewWoodBlock: {
+				DisplayName: Carved Yew Wood
+				Tooltip: ""
+			}
+
+			CarvedYewWoodWall: {
+				DisplayName: Carved Yew Wood Wall
+				Tooltip: ""
+			}
+
+			DynastyWoodShojiBlock: {
+				DisplayName: Dynasty Wood Shoji
+				Tooltip: ""
+			}
+
+			DynastyWoodShojiWall: {
+				DisplayName: Dynasty Wood Shoji Wall
+				Tooltip: ""
+			}
+
+			HauntedSpookyWoodBlock: {
+				DisplayName: Haunted Spooky Wood
+				Tooltip: ""
+			}
+
+			HauntedSpookyWoodWall: {
+				DisplayName: Haunted Spooky Wood Wall
+				Tooltip: ""
+			}
+
+			LoggedDeadwoodBlock: {
+				DisplayName: Logged Deadwood
+				Tooltip: ""
+			}
+
+			LoggedDeadwoodWall: {
+				DisplayName: Logged Deadwood Wall
+				Tooltip: ""
+			}
+
+			HarpyStaff: {
+				FamiliarStage_Harpy: {
+					Return: Return
+					Rally: Rally
+					Target: Target
+					Attack: Attack
+					Ability: Ability
+				}
+
+				DisplayName: Harpy Staff
+				Tooltip: ""
+			}
+
+			IronBeam: {
+				DisplayName: Iron Beam
+				Tooltip: ""
+			}
+
+			LeadColumn: {
+				DisplayName: Lead Column
+				Tooltip: ""
+			}
+
+			StoneColumn: {
+				DisplayName: Stone Column
+				Tooltip: ""
+			}
+
+			StoneColumnWall: {
+				DisplayName: Stone Column Wall
+				Tooltip: ""
 			}
 		}
 
@@ -21404,7 +21568,6 @@ Mods: {
 			FallingChandelierFire2.DisplayName: Falling Chandelier Fire2
 			FallingChandelierFire3.DisplayName: Falling Chandelier Fire3
 			FallingChandelierPro.DisplayName: Falling Chandelier Pro
-			FanWindPro.DisplayName: Fan Wind Pro
 			FeatherArrowPro.DisplayName: Feather Arrow Pro
 			FlareDartPro.DisplayName: Flare Dart Pro
 			FlareEffect.DisplayName: Flare Effect
@@ -21415,11 +21578,10 @@ Mods: {
 			FleshSkewerPro.DisplayName: Flesh Skewer Pro
 			FlurryPro.DisplayName: Flurry
 			FlyingSafe.DisplayName: Flying Safe
+			Fly.DisplayName: Fly
 			ForkPro.DisplayName: Fork Pro
 			FreezePro.DisplayName: Freeze Pro
 			FreezeRayBeam.DisplayName: Freeze Ray Beam
-			FrostPlaguePro1.DisplayName: Frost Plague
-			FrostPlaguePro2.DisplayName: Frost Plague
 			GardenersSheathPro.DisplayName: Gardeners Sheath Pro
 			GasContainerPro.DisplayName: Gas Container Pro
 			GazeEffect.DisplayName: Gaze Effect
@@ -21469,7 +21631,6 @@ Mods: {
 			HallowedPro.DisplayName: Hallowed Staff
 			HandProCon.DisplayName: Hand Pro Con
 			HarmlessBubble.DisplayName: Harmless Bubble
-			HarpyTalonPro.DisplayName: Harpy Talon Pro
 			RevivifyPro.DisplayName: Revivify
 			AnkhPro.DisplayName: Ankh Pro
 			AuraDefense.DisplayName: Aura Defense
@@ -21506,7 +21667,6 @@ Mods: {
 			DarkMageStaffPro.DisplayName: Dark Mage Staff Pro
 			DefenderWandPro.DisplayName: Defender Wand Pro
 			DefibrillatorPro.DisplayName: Defibrillator Pro
-			DewCollectorPro.DisplayName: Dew Collector Pro
 			DistortedBoost.DisplayName: Distorted Boost
 			DistortedProjectile.DisplayName: Distorted Projectile
 			DragonZone.DisplayName: Dragon Zone
@@ -21625,8 +21785,6 @@ Mods: {
 			SacredBludgeonPro.DisplayName: Sacred Bludgeon Pro
 			SacredChargeChampion.DisplayName: Sacred Charge Champion
 			SacredChargePro.DisplayName: Sacred Charge Pro
-			SashHealLife.DisplayName: Sash Heal Life
-			SashHealMana.DisplayName: Sash Heal Mana
 			SearingUmbraPro.DisplayName: Searing Umbra Pro
 			SerpentsBubbleWandPro.DisplayName: Serpents Bubble Wand Pro
 			ShadowBolt.DisplayName: Shadow Bolt
@@ -21634,7 +21792,6 @@ Mods: {
 			ShadowWisp.DisplayName: Shadow Wisp
 			ShadowWispPro.DisplayName: Shadow Wisp Pro
 			ShieldDroneBeaconPro.DisplayName: Shield Drone Beacon Pro
-			ShieldDroneHeal.DisplayName: Shield Drone Heal
 			ShieldDroneLaser.DisplayName: Shield Drone Laser
 			ShroomBooster.DisplayName: Shroom Booster
 			ShroomBoosterBulb.DisplayName: Shroom Booster Bulb
@@ -21851,7 +22008,7 @@ Mods: {
 			LichSpectreBlast2.DisplayName: Lich Spectre Blast2
 			LivingWoodAcornPro.DisplayName: Battle Sprout
 			LivingWoodAcornShotPro.DisplayName: Sprout Bud
-			LivingWoodAcornShotPro2.DisplayName: Living Wood Acorn Shot Pro2
+			LivingWoodAcornShotPro2.DisplayName: Battle Sprout Spike Spawner
 			LivingWoodAcornShotPro3.DisplayName: Battle Sprout
 			LivingWoodAcornShotPro4.DisplayName: Battle Sprout
 			MantisCanePro.DisplayName: Mantis
@@ -22100,9 +22257,9 @@ Mods: {
 			BountifulHarvestPro.DisplayName: Bountiful Harvest
 			ChristmasCheerPro.DisplayName: Christmas Cheer
 			ChristmasCheerPro2.DisplayName: Christmas Cheer
-			CrimtaneScythePro.DisplayName: Crimson Scythe
+			TheBlenderPro.DisplayName: The Blender
 			DemonBloodRipperPro.DisplayName: Demon Blood Ripper
-			DemoniteScythePro.DisplayName: Dark Scythe
+			DownwardSpiralPro.DisplayName: Downward Spiral
 			DreadTearerPro.DisplayName: Dread Tearer
 			FallingTwilightPro.DisplayName: Falling Twilight
 			HallowedScythePro.DisplayName: Hallowed Scythe
@@ -22250,7 +22407,7 @@ Mods: {
 			TheMassacrePro2.DisplayName: The Massacre Pro2
 			TheMassacrePro3.DisplayName: The Massacre Pro3
 			TheMassacrePro4.DisplayName: The Massacre Pro4
-			TheNuclearOptionPro.DisplayName: The Nuclear Option Pro
+			TheNuclearOptionPro.DisplayName: The Nuclear Option
 			TheSeaMinePro.DisplayName: The Sea Mine
 			TheSeaMineProPulse.DisplayName: Explosion
 			TheSnowballPro.DisplayName: The Snowball
@@ -22544,13 +22701,30 @@ Mods: {
 			FrostPelterPro.DisplayName: Frost Pelter
 			GorgonGazeStaffPro.DisplayName: Gorgon Gaze Staff
 			GorgonGazeStaffPro2.DisplayName: Gorgon Gaze Staff
-			PalladiumStaffPro.DisplayName: Palladium Staff Pro
-			PalladiumStaffPro2.DisplayName: Palladium Staff Pro2
-			MythrilStaffPro.DisplayName: Mythril Staff Pro
-			CobaltStaffPro.DisplayName: Cobalt Staff Pro
-			VegaPhaserPro.DisplayName: Vega Phaser Pro
-			VegaPhaserPro2.DisplayName: Vega Phaser Pro2
-			SacredLyrePro.DisplayName: Sacred Lyre Pro
+			PalladiumStaffPro.DisplayName: Palladium Staff
+			PalladiumStaffPro2.DisplayName: Palladium Staff
+			MythrilStaffPro.DisplayName: Mythril Staff
+			CobaltStaffPro.DisplayName: Cobalt Staff
+			VegaPhaserPro.DisplayName: Vega Phaser
+			VegaPhaserPro2.DisplayName: Vega Phaser
+			SacredLyrePro.DisplayName: Sacred Lyre
+			WhipTip.DisplayName: Whip Tip
+			WhipExplosionPro.DisplayName: Whip Explosion
+			NecromancersHeartPro.DisplayName: Summoner Fly
+			NecromancersHeartPro2.DisplayName: Summoner Fly
+			WaterwickCandlePro.DisplayName: Waterwick Candle
+			ThoriumWandPro.DisplayName: Thorium Wand
+			SoulStonePro.DisplayName: Soul Stone
+			NecroticSkullPro.DisplayName: Necrotic Skull
+			DreamMegaphonePro.DisplayName: Dream Megaphone
+			NecroticSkullPro2.DisplayName: Necrotic Skull
+			NecroticSkullPro3.DisplayName: Necrotic Skull
+			HarpyStaffPro.DisplayName: "{$Items.HarpyStaff.DisplayName}"
+			HarpyStaffPro2.DisplayName: "{$Items.HarpyStaff.DisplayName}"
+			DynastyWarFanPro.DisplayName: "{$Items.DynastyWarFan.DisplayName}"
+			WallChickenPro.DisplayName: Wall Chicken
+			ParticleWhipPro2.DisplayName: "{$Items.ParticleWhip.DisplayName}"
+			FrostPlagueStaffPro.DisplayName: "{$Items.FrostPlagueStaff.DisplayName}"
 		}
 
 		Tiles: {
@@ -23039,10 +23213,26 @@ Mods: {
 
 			HealthOverlayStyle: {
 				Tooltip: ""
-				Outline.Label: Outline
-				Corner.Label: Corner
-				Right.Label: Right
-				Bottom.Label: Bottom
+
+				Outline: {
+					Label: Outline
+					Tooltip: ""
+				}
+
+				Corner: {
+					Label: Corner
+					Tooltip: ""
+				}
+
+				Right: {
+					Label: Right
+					Tooltip: ""
+				}
+
+				Bottom: {
+					Label: Bottom
+					Tooltip: ""
+				}
 			}
 
 			ThoriumConfigServer: {
