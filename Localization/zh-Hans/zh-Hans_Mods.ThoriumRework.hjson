@@ -12,6 +12,13 @@ ProgressionTweaks: {
 }
 
 ItemDescriptions: {
+	ChampionsRebuttal:
+		'''
+		允许玩家冲撞敌人
+		双击方向键
+		冲撞造成的伤害或受到的伤害翻倍并附加到下一次攻击中
+		最多可获得 300 点额外伤害
+		'''
 	Rapier:
 		'''
 		造成伤害会暂时降低受到的伤害
@@ -459,6 +466,7 @@ Projectiles: {
 	ChampionSlash.DisplayName: 英灵的迅捷锋刃
 	ChampionSlice.DisplayName: 英灵剑气
 	ChampionSliceF.DisplayName: 英灵剑气
+	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
 	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
 	ChampionsTrifectaShot.DisplayName: 英灵的三元圣弓
@@ -499,7 +507,9 @@ Projectiles: {
 	Glacier.DisplayName: 冰川
 	Glacier2.DisplayName: 冰川
 	GrandThunder.DisplayName: 王鹰之雷
+	GrandThunderBirdEffects.DisplayName: Grand Thunder
 	GrandThunderF.DisplayName: 王鹰之雷
+	GrandThunderTelegraph.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: 花岗岩充能
 	GraniteEnergyStormEffects.DisplayName: 花岗岩能量
 	GravitonOrb.DisplayName: 引力子球
@@ -606,6 +616,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: 注视者之刃
 	ZephyrFeather.DisplayName: 疾风之羽
 	ZephyrsRuin.DisplayName: 疾风残垣
+	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -1404,7 +1415,7 @@ Configs: {
 		}
 
 		starScouterEnrageVisuals: {
-			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals星际侦察兵激怒视觉"
 			Tooltip:
 				'''
 				星际监察者被激怒时是否为红色
@@ -1443,6 +1454,16 @@ Configs: {
 				让瑟银的boss的速度乘以当前数值
 				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
 				灾厄炼狱模组推荐使用1.35倍速度
+				'''
+		}
+
+		terraItemsFix: {
+			Label: 瑟银的泰拉物品一致性
+			Tooltip:
+				'''
+				(强烈推荐!)
+				将瑟银所有泰拉武器的合成配方改为与原版泰拉刃类似的配方。
+				如果安装了“非官方灾厄吟游诗人和牧师”模组，则会禁用此功能，因为该模组已经实现了此功能。
 				'''
 		}
 
@@ -1508,7 +1529,7 @@ Configs: {
 				(推荐!)
 				灾厄中始生灾灵在神明吞噬者前召唤
 				法狗魂石中始生灾灵在宇宙英灵前召唤
-				如果两模组都启动，则在两个boss两之间召唤
+				如果两模组都启用，则介于两者之间。
 				'''
 		}
 
@@ -1687,7 +1708,12 @@ Configs: {
 		}
 
 		ChampionsTrifectaShot: {
-			Label: "[i:ThoriumMod/ChampionsTrifectaShot]Champion's Trifecta Shot"
+			Label: "[i:ThoriumMod/ChampionsTrifectaShot]{$Mods.ThoriumMod.Items.ChampionsTrifectaShot.DisplayName}"
+			Tooltip: ""
+		}
+
+		ChampionsRebuttal: {
+			Label: "[i:ThoriumMod/ChampionsRebuttal]{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1737,7 +1763,7 @@ Configs: {
 		}
 
 		HellishHalberd: {
-			Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
+			Label: "[i:ThoriumMod/HellishHalberd]{$Mods.ThoriumMod.Items.HellishHalberd.DisplayName}"
 			Tooltip: ""
 		}
 

@@ -12,6 +12,13 @@ ProgressionTweaks: {
 }
 
 ItemDescriptions: {
+	ChampionsRebuttal:
+		'''
+		Allows the player to ram through an enemy
+		Double tap a direction
+		Twice the damage you take or the damage you deal ramming are added to your next attack
+		Up to a maximum of 300 bonus damage can be attained
+		'''
 	Rapier:
 		'''
 		Dealing damage temporarily reduces damage taken
@@ -459,6 +466,7 @@ Projectiles: {
 	ChampionSlash.DisplayName: Champion's Swift Blade
 	ChampionSlice.DisplayName: Buried Shock
 	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
 	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
@@ -499,7 +507,9 @@ Projectiles: {
 	Glacier.DisplayName: Glacier
 	Glacier2.DisplayName: Glacier
 	GrandThunder.DisplayName: Grand Thunder
+	GrandThunderBirdEffects.DisplayName: Grand Thunder
 	GrandThunderF.DisplayName: Grand Thunder
+	GrandThunderTelegraph.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
 	GraniteEnergyStormEffects.DisplayName: Granite Energy
 	GravitonOrb.DisplayName: Graviton Orb
@@ -606,6 +616,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
+	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -1446,6 +1457,16 @@ Configs: {
 				'''
 		}
 
+		terraItemsFix: {
+			Label: Thorium Terra Item Recipes Parity
+			Tooltip:
+				'''
+				(Recommended!)
+				Changes all of the Terra weapons from Thorium to use similar recipes to the vanilla Terra Blade
+				Automatically disabled if Unofficial Calamity Bard & Healer is installed as that mod already does this
+				'''
+		}
+
 		extraItems: {
 			Label: Extra Item Contents
 			Tooltip:
@@ -1508,7 +1529,7 @@ Configs: {
 				(Recommended!)
 				Makes the Primordials post-Devourer in progression
 				Pre-Eridanus in Fargo's Souls
-				In between if both are enabled
+				In between if both of those mods are enabled
 				'''
 		}
 
@@ -1688,6 +1709,11 @@ Configs: {
 
 		ChampionsTrifectaShot: {
 			Label: "[i:ThoriumMod/ChampionsTrifectaShot]Champion's Trifecta Shot"
+			Tooltip: ""
+		}
+
+		ChampionsRebuttal: {
+			Label: "[i:ThoriumMod/ChampionsRebuttal]Champion's Rebuttal"
 			Tooltip: ""
 		}
 
