@@ -19591,32 +19591,32 @@ Mods: {
 			}
 
 			GlassPane: {
-				DisplayName: 玻璃板
+				DisplayName: 玻璃窗格
 				Tooltip: ""
 			}
 
 			GlassPaneWall: {
-				DisplayName: 玻璃板墙
+				DisplayName: 玻璃窗格墙
 				Tooltip: ""
 			}
 
 			HorizontalCutGlassPane: {
-				DisplayName: 平切玻璃板
+				DisplayName: 平切玻璃窗格
 				Tooltip: ""
 			}
 
 			HorizontalCutGlassPaneWall: {
-				DisplayName: 平切玻璃板墙
+				DisplayName: 平切玻璃窗格墙
 				Tooltip: ""
 			}
 
 			VerticalCutGlassPane: {
-				DisplayName: 垂切玻璃板
+				DisplayName: 垂切玻璃窗格
 				Tooltip: ""
 			}
 
 			VerticalCutGlassPaneWall: {
-				DisplayName: 垂切玻璃板墙
+				DisplayName: 垂切玻璃窗格墙
 				Tooltip: ""
 			}
 
@@ -20745,7 +20745,7 @@ Mods: {
 				BestiaryFlavorText: 生命亵渎者的尸体门徒，总是在狩猎更多的灵魂加入收藏。
 
 				BossChecklistIntegration: {
-					SpawnInfo: 使用[i/s{0}:{1}]在自然墓地的远古护身符召唤.（三王后的夜晚）
+					SpawnInfo: 使用[i/s{0}:{1}]在自然墓地的远古护身符召唤。（三王后的夜晚）
 					EntryName: "{$NPCs.Lich.DisplayName}"
 				}
 			}
@@ -23511,7 +23511,7 @@ Mods: {
 			}
 		}
 
-		RecipeGroups.Any: "{0} {1}"
+		RecipeGroups.Any: "{0}{1}"
 		Currencies.VanquisherMedal: 征服者勋章
 
 		BardInstrumentType: {
