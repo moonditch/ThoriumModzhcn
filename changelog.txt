@@ -1,8 +1,7 @@
 本汉化版本&更新内容
 #Version：{ModVersion}
-2026.6（407）
-1. 更新瑟银汉化1.7.2.6 by:moon.ditch&Listentowind(无繁体)
-2. 更新瑟银冥界1.5.10 by；moon.ditch(无繁体)
+2026.6（408）
+1. 修正译名
 
 计划：NPC对话补全，摆
 
