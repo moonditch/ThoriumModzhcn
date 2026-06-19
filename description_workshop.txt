@@ -62,4 +62,4 @@
 [*] 布丁（已复活）：现瑟银本体&附属简繁体汉化维护
 [*] 现代码支持【没有了，招人】
 [/list]
-[quote=tModLoader ThoriumModzhcn]
+
