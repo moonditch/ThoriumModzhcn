@@ -43,7 +43,7 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
             //众神命数
             FateoftheGodsHook();
             //异宇星凝乐师套装奖励
-            IntergelacticBardSetBonus();
+            //IntergelacticBardSetBonus();
         }
 
         private void IntergelacticBardSetBonus() 
@@ -68,14 +68,14 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                 if (item.ModItem != null)
                 {
                     ModItem modItem = item.ModItem;
-                    if (modItem != null && player.GetRagnarokModPlayer().asteroidexhaustioncounter == 0)
+                    /*if (modItem != null && player.GetRagnarokModPlayer().asteroidexhaustioncounter == 0)
                     {
                         modItem.UpdateArmorSet(player);
                         player.setBonus = player.setBonus.Replace("四个", "两个");
                         player.setBonus = player.setBonus +
                             "\n星环击中敌怪有5%概率提供随机1-3级咒音增幅" +
                             "\n按下“盔甲能力”会消耗星环恢复100点灵感值，并触发所有4级资源型咒音增幅";
-                    }
+                    }*/
                     if (player.GetRagnarokModPlayer().asteroidexhaustioncounter != 0)
                     {
                         player.setBonus = player.setBonus + 
