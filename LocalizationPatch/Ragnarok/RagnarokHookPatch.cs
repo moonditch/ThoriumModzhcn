@@ -68,7 +68,12 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                 if (item.ModItem != null)
                 {
                     ModItem modItem = item.ModItem;
-                    /*if (modItem != null && player.GetRagnarokModPlayer().asteroidexhaustioncounter == 0)
+                     /*if (player.GetRagnarokModPlayer().asteroidexhaustioncounter != 0)
+                    {
+                        player.setBonus = player.setBonus + 
+                            "\n星环的力量已耗尽";
+                    }
+                    if (modItem != null && player.GetRagnarokModPlayer().asteroidexhaustioncounter == 0)
                     {
                         modItem.UpdateArmorSet(player);
                         player.setBonus = player.setBonus.Replace("四个", "两个");
@@ -76,11 +81,7 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                             "\n星环击中敌怪有5%概率提供随机1-3级咒音增幅" +
                             "\n按下“盔甲能力”会消耗星环恢复100点灵感值，并触发所有4级资源型咒音增幅";
                     }*/
-                    if (player.GetRagnarokModPlayer().asteroidexhaustioncounter != 0)
-                    {
-                        player.setBonus = player.setBonus + 
-                            "\n星环的力量已耗尽";
-                    }
+                   
                     player.noKnockback = true;
                     player.buffImmune[32] = true;
                     player.buffImmune[33] = true;
@@ -291,7 +292,7 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                 }
             }
 
-            if (item.type == cal.Find<ModItem>("EldritchSoulArtifact").Type)
+            /*if (item.type == cal.Find<ModItem>("EldritchSoulArtifact").Type)
             {
                 for (int i = 0; i < tooltips.Count; i++)
                 {
@@ -300,7 +301,7 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                         tooltips[i].Text += "\n增加2点最大灵感值和2点额外治疗量";
                     }
                 }
-            }
+            }*/
         }
     }
 }
