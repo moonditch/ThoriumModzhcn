@@ -3,7 +3,6 @@ ItemDescriptions: {
 	AstralHelm: 增加12%的灵感值恢复速度
 	CelestialCarrier: 穿戴天界盔甲时，治疗法术会额外治疗4生命值
 	ChampionWing: 提高10%的伤害
-	CyanPhasesaber: 100%无视对方防御力
 	DemonshadeGreaves:
 		'''
 		最大技巧值增加2, 最大灵感值增加15, 额外治疗增加25
@@ -27,7 +26,6 @@ ItemDescriptions: {
 		治疗法术将额外恢复 7 点生命值
 		'''
 	OmegaBlueSetNoThrower: 最大灵感值增加12和额外治疗增加7
-	PinkPhasesaber: 100%无视对方防御力
 	RelicOfConvergence: 不会触发治疗时效果
 	ShootingStarTurboTuba: 穿戴流影掠星盔甲时，灵感值恢复速度提高15%
 	TerrariumWings: 穿戴元素盔甲时，飞行时间会翻倍
@@ -1574,6 +1572,16 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: 合并盗贼和投手职业
 			Tooltip: 拥有诸神的黄昏(Ragnarok)模组时自动禁用
+		}
+
+		showItemChanges: {
+			Label: 显示物品变化
+			Tooltip: 是否在此模组修改的物品上显示“已被修改”提示
+		}
+
+		defenseDamage: {
+			Label: 对瑟银敌人的防御伤害
+			Tooltip: 启用瑟银敌人的防御伤害
 		}
 
 		convertItems: {

@@ -3,7 +3,6 @@ ItemDescriptions: {
 	AstralHelm: 12% increased inspiration regeneration rate
 	CelestialCarrier: Healing spells will heal an additional 4 life while wearing Celestial Armor
 	ChampionWing: 10% increased damage
-	CyanPhasesaber: Ignores 100% of enemy defense
 	DemonshadeGreaves:
 		'''
 		Increases your maximum technique points by 2, maximum inspiration by 15, and bonus healing by 25 life
@@ -27,7 +26,6 @@ ItemDescriptions: {
 		Healing spells will heal an additional 7 life
 		'''
 	OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
-	PinkPhasesaber: Ignores 100% of enemy defense
 	RelicOfConvergence: Does not trigger on-heal effects
 	ShootingStarTurboTuba: 15% increased inspiration regeneration rate while wearing Shooting Star Armor
 	TerrariumWings: Flight time is doubled when wearing Terrarium Armor
@@ -1573,6 +1571,16 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: Merge Rogue and Thrower class
 			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
+
+		showItemChanges: {
+			Label: Show Item Changes
+			Tooltip: Whether or not to display the "Is Modified By" tooltip on items changed by this mod
+		}
+
+		defenseDamage: {
+			Label: Defense Damage on Thorium enemies
+			Tooltip: Enables defense damage for Thorium enemies
 		}
 
 		convertItems: {

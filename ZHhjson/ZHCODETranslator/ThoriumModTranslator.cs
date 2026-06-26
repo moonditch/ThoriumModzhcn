@@ -153,11 +153,11 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.LargePopcorn", "ModifyTooltips", new ()
 				{
 					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3168","Heals ally and player life by 1"},
-					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3169","Throws out ("},
-					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3170",") eatable popcorn kernels"},
-					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3171","Up to ("},
-					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3172",") kernels may be out at once"},
-					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3173","Popcorn does not apply on heal effects when consumed"},
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3169","Throws out [c/5aff5a:"},
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3170","] eatable popcorn kernels"},
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3171","Up to [c/5aff5a:"},
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3172","] kernels may be out at once"},
+					{"ThoriumMod.ThoriumMod.Items.HealerItems.LargePopcorn.ModifyTooltips.3173","Popcorn does not apply on heal effects, but briefly grants life recovery"},
 				});
 				#endregion ThoriumMod.Items.HealerItems.LargePopcorn
 
