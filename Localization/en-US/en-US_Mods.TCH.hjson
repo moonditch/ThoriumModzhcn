@@ -1,0 +1,163 @@
+Mods: {
+	TCH: {
+		Config: {
+			Gen: {
+				ThunderbirdIsland: {
+					Lable: Thunderwing Island Generation
+					Key: Enable generation of Thunderbird Island in desert
+				}
+
+				MiniCaves: {
+					Lable: Mini Caves Generation
+					Key: Enable generation of Mini Caves
+				}
+
+				EyeCave: {
+					Lable: Eye Cave Generation
+					Key: Enable generation of Eye Cave under spawn
+				}
+
+				SkyIslandOcean: {
+					Lable: Sky Islands Generation
+					Key: Enable generation of sky islands over oceans
+				}
+
+				JungleMiniHouses: {
+					Lable: Jungle Micro Structures Generation
+					Key: Enable generation of mini structures in jungle biome
+				}
+
+				CozyHouse: {
+					Lable: Cozy House at spawn Generation
+					Key: Enable generation of cozy house at the player's spawn
+				}
+
+				SkyIslandSpawn: {
+					Lable: Sky Island over spawn Generation
+					Key: Enable generation of sky island above the player's spawn
+				}
+
+				ViscountArena: {
+					Lable: Viscount Mansion Generation
+					Key: Enable Blood Chamber rebuild
+				}
+
+				DepthMiniHouses: {
+					Lable: Aquatic Depths Mini Houses Generation
+					Key: Enable generation of mini houses in Aquatic Depths biome
+				}
+			}
+
+			LichArena: {
+				Enable: {
+					$parentVal: Lich Estate Generation
+					Tooltip: Enable Lich Estate after defeating all mechanical bosses
+				}
+			}
+
+			IceCave: {
+				Enable: {
+					$parentVal: Borean Strider Grotto Generation
+					Tooltip: Spawn an ancient Ice Grotto in snowy depths after defeating Wall of Flesh
+				}
+			}
+
+			MeteorIsland: {
+				Enable: {
+					$parentVal: Meteor Island Generation
+					Tooltip: Spawn a mysterious structure in space after a first meteorite falls
+				}
+			}
+		}
+	}
+}
+
+Msg: {
+	Gen: {
+		InDesert: Generating Thunderbird Island
+
+		InWorld: {
+			InIceCave: An ancient Ice Grotto has emerged in the snowy depths!
+			MeteorIsland: A mysterious structure has appeared in the depths of space!
+		}
+	}
+}
+
+Configs.Configs.DisplayName: Configs
+
+Config: {
+	Gen: {
+		ThunderbirdIsland: {
+			Lable: Thunderwing Island Generation
+			Key: Enable generation of Thunderbird Island in desert
+		}
+
+		MiniCaves: {
+			Lable: Mini Caves Generation
+			Key: Enable generation of Mini Caves
+		}
+
+		EyeCave: {
+			Lable: Eye Cave Generation
+			Key: Enable generation of Eye Cave under spawn
+		}
+
+		SkyIslandOcean: {
+			Lable: Sky Islands Generation
+			Key: Enable generation of sky islands over oceans
+		}
+
+		JungleMiniHouses: {
+			Lable: Jungle Micro Structures Generation
+			Key: Enable generation of mini structures in jungle biomedddddddddddd
+		}
+
+		CozyHouse: {
+			Lable: Cozy House at spawn Generation
+			Key: Enable generation of cozy house at the player's spawn
+		}
+
+		SkyIslandSpawn: {
+			Lable: Sky Island over spawn Generation
+			Key: Enable generation of sky island above the player's spawn
+		}
+
+		ViscountArena: {
+			Lable: Viscount Mansion Generation
+			Key: Enable Blood Chamber rebuild
+		}
+
+		DepthMiniHouses: {
+			Lable: Aquatic Depths Mini Houses Generation
+			Key: Enable generation of mini houses in Aquatic Depths biome
+		}
+	}
+
+	LichArena: {
+		Enable: {
+			$parentVal: Lich Estate Generation
+			Tooltip: Enable Lich Estate after defeating all mechanical bosses
+		}
+	}
+
+	IceCave: {
+		Enable: {
+			$parentVal: Borean Strider Grotto Generation
+			Tooltip: Spawn an ancient Ice Grotto in snowy depths after defeating Wall of Flesh
+		}
+	}
+
+	MeteorIsland: {
+		Enable: {
+			$parentVal: Meteor Island Generation
+			Tooltip: Spawn a mysterious structure in space after a first meteorite falls
+		}
+	}
+
+	BeholderArena: {
+		Enable: {
+			$parentVal: Enable Beholder Arena
+			Tooltip: ""
+		}
+	}
+}

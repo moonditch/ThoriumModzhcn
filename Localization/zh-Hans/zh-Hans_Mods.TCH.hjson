@@ -1,0 +1,163 @@
+Mods: {
+	TCH: {
+		Config: {
+			Gen: {
+				ThunderbirdIsland: {
+					Lable: 雷翼岛生成
+					Key: 在沙漠中启用雷鹰岛屿的生成
+				}
+
+				MiniCaves: {
+					Lable: 迷你洞穴生成
+					Key: 启用迷你洞穴的生成
+				}
+
+				EyeCave: {
+					Lable: 眼之洞窟生成
+					Key: 在出生点下方启用眼之洞窟的生成
+				}
+
+				SkyIslandOcean: {
+					Lable: 浮岛生成
+					Key: 在海洋上方启用浮岛的生成
+				}
+
+				JungleMiniHouses: {
+					Lable: 丛林微型建筑生成
+					Key: 在丛林生物群系中启用微型建筑的生成
+				}
+
+				CozyHouse: {
+					Lable: 出生点舒适小屋生成
+					Key: 在玩家出生点启用舒适小屋的生成
+				}
+
+				SkyIslandSpawn: {
+					Lable: 出生点上方浮岛生成
+					Key: 在玩家出生点上方启用浮岛的生成
+				}
+
+				ViscountArena: {
+					Lable: 蝙蝠子爵宅邸生成
+					Key: 启用鲜血密室的重建
+				}
+
+				DepthMiniHouses: {
+					Lable: 深海小屋生成
+					Key: 在深海生物群系中启用小屋的生成
+				}
+			}
+
+			LichArena: {
+				Enable: {
+					$parentVal: 巫妖庄园生成
+					Tooltip: 击败所有机械Boss后启用巫妖庄园
+				}
+			}
+
+			IceCave: {
+				Enable: {
+					$parentVal: 极地遁蛛洞窟生成
+					Tooltip: 击败血肉之墙后在雪原深处生成一座远古冰窟
+				}
+			}
+
+			MeteorIsland: {
+				Enable: {
+					$parentVal: 陨石岛生成
+					Tooltip: 在首颗陨石坠落后于太空中生成一个神秘结构
+				}
+			}
+		}
+	}
+}
+
+Msg: {
+	Gen: {
+		InDesert: 正在生成雷鹰岛
+
+		InWorld: {
+			InIceCave: 一座远古冰窟已在雪原深处浮现！
+			MeteorIsland: 一个神秘建筑已出现在太空深处！
+		}
+	}
+}
+
+Configs.Configs.DisplayName: 配置
+
+Config: {
+	Gen: {
+		ThunderbirdIsland: {
+			Lable: 雷翼岛生成
+			Key: 在沙漠中启用雷鹰岛屿的生成
+		}
+
+		MiniCaves: {
+			Lable: 迷你洞穴生成
+			Key: 启用迷你洞穴的生成
+		}
+
+		EyeCave: {
+			Lable: 眼之洞窟生成
+			Key: 在出生点下方启用眼之洞窟的生成
+		}
+
+		SkyIslandOcean: {
+			Lable: 浮岛生成
+			Key: 在海洋上方启用浮岛的生成
+		}
+
+		JungleMiniHouses: {
+			Lable: 丛林微型建筑生成
+			Key: 在丛林生物群系中启用微型建筑的生成
+		}
+
+		CozyHouse: {
+			Lable: 出生点舒适小屋生成
+			Key: 在玩家出生点启用舒适小屋的生成
+		}
+
+		SkyIslandSpawn: {
+			Lable: 出生点上方浮岛生成
+			Key: 在玩家出生点上方启用浮岛的生成
+		}
+
+		ViscountArena: {
+			Lable: 蝙蝠子爵宅邸生成
+			Key: 启用鲜血密室的重建
+		}
+
+		DepthMiniHouses: {
+			Lable: 深海小屋生成
+			Key: 在深海生物群系中启用小屋的生成
+		}
+	}
+
+	LichArena: {
+		Enable: {
+			$parentVal: 巫妖庄园生成
+			Tooltip: 击败所有机械Boss后启用巫妖庄园
+		}
+	}
+
+	IceCave: {
+		Enable: {
+			$parentVal: 极地遁蛛洞窟生成
+			Tooltip: 击败血肉之墙后在雪原深处生成一座远古冰窟
+		}
+	}
+
+	MeteorIsland: {
+		Enable: {
+			$parentVal: 陨石岛生成
+			Tooltip: 在首颗陨石坠落后于太空中生成一个神秘结构
+		}
+	}
+
+	BeholderArena: {
+		Enable: {
+			$parentVal: 启用眼魔竞技场
+			Tooltip: ""
+		}
+	}
+}
