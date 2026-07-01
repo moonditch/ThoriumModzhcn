@@ -1,0 +1,6 @@
+Items: {
+	RhapsodistTuba: {
+		DisplayName: Rhapsodist Pulsejet Tuba
+		Tooltip: 4% increased symphonic damage when worn with a full set of Rhapsodist armor
+	}
+}
