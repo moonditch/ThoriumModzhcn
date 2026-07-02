@@ -254,7 +254,7 @@ Items: {
 	}
 
 	OmegaDefibrillator: {
-		DisplayName: 欧米茄除颤器
+		DisplayName: 欧米伽除颤器
 		Tooltip:
 			'''
 			（2[i:Redemption/EnergyCell]）向敌人与队友投射出强大的电磁场
@@ -400,7 +400,7 @@ Projectiles: {
 	LightStrike.DisplayName: 闪电
 	Oboeterator.DisplayName: 歼灭双簧管
 	OboeteratorLightning.DisplayName: 歼灭双簧管闪电
-	OmegaDefibrillation.DisplayName: 欧米茄除颤器
+	OmegaDefibrillation.DisplayName: 欧米伽除颤器
 	NoceboEffect.DisplayName: 反安慰剂效应
 	RedemptionBeam.DisplayName: 救赎之光
 	RendingCoil.DisplayName: 劫裂线圈
