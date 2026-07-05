@@ -1,26 +1,290 @@
 Buffs: {
 	BubbleShield: {
-		DisplayName: Bubble Shield泡泡护盾
-		Description: Reduces next damage by 10%  减少10%下一次所受到的伤害
+		DisplayName: 泡泡护盾
+		Description: 减少20%下一次所受到的伤害
+	}
+
+	SpaceBarrierBuff: {
+		DisplayName: 太空屏障
+		Description: 提供10%的伤害提升和5点防御
+	}
+
+	SolarTriangleBuff: {
+		DisplayName: 太阳祝福
+		Description: 每秒增加6点生命回复
 	}
 }
 
 Items: {
 	OtherworldlyScythe: {
-		DisplayName: Otherworldly Scythe异界镰刀
+		DisplayName: 异界之镰
 		Tooltip: ""
 	}
 
 	RodScythe: {
-		DisplayName: Rod Scythe天竿镰刀
+		DisplayName: 天竿镰刀
 		Tooltip: ""
 	}
 
 	CubismKunai: {
-		DisplayName: Cubism Kunai立体苦无
+		DisplayName: 立体派的苦无
 		Tooltip: ""
 	}
+
+	ForbiddenGrowth: {
+		DisplayName: 禁忌生长
+		Tooltip: ""
+	}
+
+	LittleDipper: {
+		DisplayName: 小熊星座
+		Tooltip: ""
+	}
+
+	EyeOfDepths: {
+		DisplayName: 潜水三管低音铜管
+		Tooltip: ""
+	}
+
+	DipperWand: {
+		DisplayName: 仙女座权杖
+		Tooltip: ""
+	}
+
+	Serenity: {
+		DisplayName: 静谧
+		Tooltip: ""
+	}
+
+	Sunrise: {
+		DisplayName: 拂晓
+		Tooltip: ""
+	}
+
+	MansFolly: {
+		Tooltip: ""
+		DisplayName: 人之愚行
+	}
+
+	DipperTrumpet: {
+		Tooltip: ""
+		DisplayName: 星落
+	}
+
+	MysterySong: {
+		DisplayName: 神秘之歌
+		Tooltip: ""
+	}
+
+	DiurnalCycle: {
+		DisplayName: 昼夜起始
+		Tooltip: ""
+	}
+
+	LifePetal: {
+		Tooltip:
+			'''
+			打击伤害有 25% 的概率激活围绕玩家旋转的“复活花瓣”
+			接触激活花瓣的队友会获得大幅度的治疗效果
+			接触激活花瓣的敌人会受到伤害并中毒效果
+			'''
+		DisplayName: 生命花瓣
+	}
+
+	BardBadge: {
+		DisplayName: 乐师徽章
+		Tooltip:
+			'''
+			音波伤害提高 20%
+			音波暴击率提高 5%
+			'''
+	}
+
+	ClericBadge: {
+		DisplayName: 教士徽章
+		Tooltip:
+			'''
+			光辉伤害提高 20%
+			光辉暴击率提高 5%
+			'''
+	}
+
+	RogueBadge: {
+		DisplayName: 恶棍徽章
+		Tooltip:
+			'''
+			投掷伤害提高 20%
+			投掷暴击率提高 5%
+			'''
+	}
+
+	TheBibleOfTheThrowerVol4: {
+		DisplayName: 投掷大师指南：卷四
+		Tooltip: ""
+	}
+
+	PuppetShow: {
+		DisplayName: 厄运连结
+		Tooltip: ""
+	}
+
+	ThePopeCross: {
+		DisplayName: 教皇十字架
+		Tooltip:
+			'''
+			治疗速度提升 10%
+			每进行 12 次光辉攻击，便为一名队友恢复 8 点生命值并提供 20 点防御力
+			延长受击后的无敌时间
+			免疫“神圣之火”减益效果
+			'''
+	}
+
+	LifeCorsage: {
+		DisplayName: 生命胸花
+		Tooltip:
+			'''
+			根据你的额外治疗量，大幅提升生命回复效果
+			根据你的额外治疗量，大幅提升生命回复速度
+			'''
+	}
+
+	DarkPoetry: {
+		DisplayName: 暗黑诗歌
+		Tooltip:
+			'''
+			Increases the duration of your symphonic empowerments by 5 seconds
+			Hitting an enemy with symphonic damage generates a series of claps which damage enemies
+			'''
+	}
+
+	SolarStaff: {
+		DisplayName: 金轮之杖
+		Tooltip: ""
+	}
+
+	SolsticeHarvester: {
+		DisplayName: 至日收割者
+		Tooltip: ""
+	}
+
+	Bifurcation: {
+		DisplayName: 分枝
+		Tooltip: ""
+	}
+
+	TriangleofMatter: {
+		DisplayName: 物质三角
+		Tooltip: ""
+	}
+
+	GaiaMelody: {
+		DisplayName: 盖亚旋律
+		Tooltip: ""
+	}
+
+	SolarKunai: {
+		DisplayName: 太阳黑子苦无
+		Tooltip: ""
+	}
+
+	Sunshine: {
+		Tooltip: ""
+		DisplayName: 暘
+	}
+
+	Raveral: {
+		Tooltip: ""
+		DisplayName: Raveral
+	}
+
+	BurdenedFate: {
+		Tooltip: ""
+		DisplayName: 沉重的宿命
+	}
+
+	DiverTomahawk: {
+		Tooltip: ""
+		DisplayName: 异界破壁者
+	}
+
+	PhantomGrip: {
+		DisplayName: Phantom Grip
+		Tooltip: ""
+	}
+
+	AuroraHalo: {
+		DisplayName: 极光光环
+		Tooltip:
+			'''
+			光辉伤害提高 15%
+			非光辉伤害降低 30%
+			光辉暴击率提高 10%
+			最大生命值 +40
+			生命回复速度略微提高
+			法力回复速度略微提高
+			治疗法术额外恢复 10 点生命值
+			'''
+	}
+
+	Echolocation: {
+		Tooltip: ""
+		DisplayName: Echolocation
+	}
+
+	SeraphStatuette: {
+		DisplayName: 炽天使雕像
+		Tooltip:
+			'''
+			用暗能量增幅一些光辉攻击
+			最大生命值增加 40
+			最大法力值增加 20
+			光辉伤害提高 20%
+			治疗速度提高 15%
+			光辉暴击率提高 12%
+			光辉施法速度提高 10%
+			治疗法术会额外恢复 3 点生命值
+			受到致命伤害时释放灵体且重生速度加倍
+			灵体会持续向光标位置发射治疗能量光束
+			'''
+	}
+
+	HarmonyHeadgear: {
+		DisplayName: 和谐头饰
+		Tooltip:
+			'''
+			最大灵感值增加 5 点
+			每拥有一种独特的“强化”效果，都会使你的以下属性提升：
+			音波伤害 +​​4%
+			音波演奏速度 +2%
+			灵感恢复速度 +2%
+			移动速度 +2%
+			'''
+	}
+
+	ThrowingGuideVolume4: {
+		DisplayName: 投掷专家指南：卷四
+		Tooltip:
+			'''
+			投掷伤害提高 15%
+			投掷速度提高 15%
+			30% 的投掷伤害会产生一次额外复制伤害
+			被投掷伤害击杀的敌人会向四周散落具有伤害性的硬币
+			被硬币击伤的敌人会遭受“挖伤”效果，且死亡时掉落更多金钱
+			'''
+	}
+
+	TriNote: {
+		DisplayName: 三音符
+		Tooltip: 永久提高灵感恢复速度 10%
+	}
+
+	UmbrasEye: {
+		DisplayName: 影之眼
+		Tooltip: 永久增加最大技术点 1 
+	}
 }
+
+ArmorSetBonuses.Healer_Aurora: 召唤一个能为队友治疗的史莱姆伙伴。
 
 Projectiles: {
 	OtherworldlyBubble.DisplayName: Otherworldly Bubble
@@ -28,6 +292,61 @@ Projectiles: {
 	RodScytheBeam.DisplayName: Rod Scythe Beam
 	RodScythePro.DisplayName: Rod Scythe Pro
 	CubismKunaiProj.DisplayName: Cubism Kunai Proj
+	ForbiddenFruit.DisplayName: Forbidden Fruit
+	GrowthSwing.DisplayName: Growth Swing
+	LittleDipperProj.DisplayName: Little Dipper Proj
+	LittleDipperSparkle.DisplayName: Little Dipper Sparkle
+	EyeOfDepthsProj.DisplayName: Eye Of Depths Proj
+	DipperDroneProj.DisplayName: Dipper Drone Proj
+	DipperWandProj.DisplayName: Dipper Wand Proj
+	SerenityBlessingProj.DisplayName: Serenity Blessing Proj
+	SerenityFlareProj.DisplayName: Serenity Flare Proj
+	SunriseProj.DisplayName: Sunrise Proj
+	FollyProj.DisplayName: Folly Proj
+	LifeEnergy.DisplayName: Life Energy
+	DipperTrumpetProj.DisplayName: Dipper Trumpet Proj
+	MysterySongProj.DisplayName: Mystery Song Proj
+	DiurnalCycleBeam.DisplayName: Diurnal Cycle Beam
+	DiurnalCycleStar.DisplayName: Diurnal Cycle Star
+	LifePetalProj.DisplayName: Life Petal Proj
+	PuppetShowProj.DisplayName: Puppet Show Proj
+	TomatoPuppet.DisplayName: Tomato Puppet
+	TomatoProj.DisplayName: Tomato Proj
+	DarkClapProj.DisplayName: Dark Clap Proj
+	SolarSlimeProj.DisplayName: Solar Slime Proj
+	SolarStaffProj.DisplayName: Solar Staff Proj
+	SlimeMarkProj.DisplayName: Slime Mark Proj
+	SolsticeHarvesterPro.DisplayName: Solstice Harvester Pro
+	SolsticeHarvesterShot.DisplayName: Solstice Harvester Shot
+	SliceVisual.DisplayName: Slice Visual
+	BigSliceVisual.DisplayName: Big Slice Visual
+	BifurcationProj.DisplayName: Bifurcation Proj
+	PenroseTriangleProj.DisplayName: Penrose Triangle Proj
+	PenroseTriangleHit.DisplayName: Penrose Triangle Hit
+	TriangleRatio.DisplayName: Triangle Ratio
+	TriangleCircle.DisplayName: Triangle Circle
+	CubismKunaiSlash.DisplayName: Cubism Kunai Slash
+	GaiaMelodyFlowerProj.DisplayName: Gaia Melody Flower Proj
+	GaiaMelodyPetalProj.DisplayName: Gaia Melody Petal Proj
+	GaiaMelodySnakeProj.DisplayName: Gaia Melody Snake Proj
+	SolarKunaiProj.DisplayName: Solar Kunai Proj
+	SolarSlimeThrowerProj.DisplayName: Solar Slime Thrower Proj
+	SunshineSlimeProj.DisplayName: Sunshine Slime Proj
+	RaveralShard.DisplayName: Raveral Shard
+	RaveralProj.DisplayName: Raveral Proj
+	RaveralExplosionBlue.DisplayName: Raveral Explosion Blue
+	PuppetNoteProj.DisplayName: Puppet Note Proj
+	DiverTomahawkProj.DisplayName: Diver Tomahawk Proj
+	DiverMeatballProj.DisplayName: Diver Meatball Proj
+	AuroraHaloSlime.DisplayName: Aurora Halo Slime
+	WhaleEchoHeal.DisplayName: Whale Echo Heal
+	WhaleEchoHarm.DisplayName: Whale Echo Harm
+	EcholocationWhale.DisplayName: Echolocation Whale
 	FissionThrow_2.DisplayName: Fission Throw_2
 }
 
+ItemTooltips.ScytheThrow:
+	'''
+	右键点击投掷镰刀，镰刀在返回途中会呈弧线轨迹飞行
+	投掷出的镰刀造成的伤害降低 10%
+	'''

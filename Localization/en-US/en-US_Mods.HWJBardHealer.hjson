@@ -1,7 +1,17 @@
 Buffs: {
 	BubbleShield: {
 		DisplayName: Bubble Shield
-		Description: Reduces next damage by 10%
+		Description: Reduces next damage by 20%
+	}
+
+	SpaceBarrierBuff: {
+		DisplayName: Space Barrier
+		Description: Grants 10% increased damage and 5 defense
+	}
+
+	SolarTriangleBuff: {
+		DisplayName: Solar Blessing
+		Description: Increases life regeneration by 6 health per second.
 	}
 }
 
@@ -20,7 +30,261 @@ Items: {
 		DisplayName: Cubism Kunai
 		Tooltip: ""
 	}
+
+	ForbiddenGrowth: {
+		DisplayName: Forbidden Growth
+		Tooltip: ""
+	}
+
+	LittleDipper: {
+		DisplayName: Little Dipper
+		Tooltip: ""
+	}
+
+	EyeOfDepths: {
+		DisplayName: Divers Trituba
+		Tooltip: ""
+	}
+
+	DipperWand: {
+		DisplayName: Andromedan Scepter
+		Tooltip: ""
+	}
+
+	Serenity: {
+		DisplayName: Serenity
+		Tooltip: ""
+	}
+
+	Sunrise: {
+		DisplayName: Sunrise
+		Tooltip: ""
+	}
+
+	MansFolly: {
+		Tooltip: ""
+		DisplayName: Mans Folly
+	}
+
+	DipperTrumpet: {
+		Tooltip: ""
+		DisplayName: Falling Constellation
+	}
+
+	MysterySong: {
+		DisplayName: Mystery Song
+		Tooltip: ""
+	}
+
+	DiurnalCycle: {
+		DisplayName: Diurnal Cycle
+		Tooltip: ""
+	}
+
+	LifePetal: {
+		Tooltip:
+			'''
+			Percussion damage has a 25% chance to activate a 'reanimation petal', which orbits around the player 
+			Allies that touch an activated petal gain a massive healing boost 
+			Enemies that touch an activated petal take damage and get poisoned
+			'''
+		DisplayName: Life Petal
+	}
+
+	BardBadge: {
+		DisplayName: Bard Badge
+		Tooltip:
+			'''
+			20% increased symphonic damage
+			5% increased symphonic critical strike chance
+			'''
+	}
+
+	ClericBadge: {
+		DisplayName: Cleric Badge
+		Tooltip:
+			'''
+			20% increased radiant damage
+			5% increased radiant critical strike chance
+			'''
+	}
+
+	RogueBadge: {
+		DisplayName: Rogue Badge
+		Tooltip:
+			'''
+			20% increased thrower damage
+			5% increased thrower critical strike chance
+			'''
+	}
+
+	TheBibleOfTheThrowerVol4: {
+		DisplayName: The Bible Of The Thrower: Volume IV
+		Tooltip: ""
+	}
+
+	PuppetShow: {
+		DisplayName: Strings of Misfortune
+		Tooltip: ""
+	}
+
+	ThePopeCross: {
+		DisplayName: The Pope’s Cross
+		Tooltip:
+			'''
+			10% increased healing speed
+			Every 12 radiant attacks heals a teammate by 8 HP and give 20 defense
+			Increases length of invincibility after taking damage
+			Immunity to Divine Fire debuff
+			'''
+	}
+
+	LifeCorsage: {
+		DisplayName: Life Corsage
+		Tooltip:
+			'''
+			Massively increases your life regeneration based on your bonus healing
+			Massively increases your life regeneration rate based on your bonus healing
+			'''
+	}
+
+	DarkPoetry: {
+		DisplayName: Dark Poetry
+		Tooltip:
+			'''
+			Increases the duration of your symphonic empowerments by 5 seconds
+			Hitting an enemy with symphonic damage generates a series of claps which damage enemies
+			'''
+	}
+
+	SolarStaff: {
+		DisplayName: Solar Staff
+		Tooltip: ""
+	}
+
+	SolsticeHarvester: {
+		DisplayName: Solstice Harvester
+		Tooltip: ""
+	}
+
+	Bifurcation: {
+		DisplayName: Bifurcation
+		Tooltip: ""
+	}
+
+	TriangleofMatter: {
+		DisplayName: Triangle of Matter
+		Tooltip: ""
+	}
+
+	GaiaMelody: {
+		DisplayName: Gaia Melody
+		Tooltip: ""
+	}
+
+	SolarKunai: {
+		DisplayName: Sunspot Slicer
+		Tooltip: ""
+	}
+
+	Sunshine: {
+		Tooltip: ""
+		DisplayName: Sunshine
+	}
+
+	Raveral: {
+		Tooltip: ""
+		DisplayName: Raveral
+	}
+
+	BurdenedFate: {
+		Tooltip: ""
+		DisplayName: Burdened Fate
+	}
+
+	DiverTomahawk: {
+		Tooltip: ""
+		DisplayName: Otherworldly breacher
+	}
+
+	PhantomGrip: {
+		DisplayName: Phantom Grip
+		Tooltip: ""
+	}
+
+	AuroraHalo: {
+		DisplayName: Aurora Halo
+		Tooltip:
+			'''
+			15% increased radiant damage
+			30% decreased non-radiant damage
+			10% increased radiant critical strike change
+			+40 max life
+			Slightly increased life regeneration
+			Slightly increased mana regeneration
+			Healing spells will heal additional 10 life
+			'''
+	}
+
+	Echolocation: {
+		Tooltip: ""
+		DisplayName: Echolocation
+	}
+
+	SeraphStatuette: {
+		DisplayName: Seraph Statuette
+		Tooltip:
+			'''
+			Empower certain radiant attacks with dark energy
+			Maximum life increased by 40
+			Maximum mana increased by 20
+			20% increased radiant damage
+			15% increased healing speed
+			12% increased radiant critical strike chance
+			10% increased radiant casting speed
+			Healing spells will heal 3 additional life 
+			Taking fatal damage unleashes your inner spirit and you respawn twice as quickly 
+			Your inner spirit will constantly release beams of healing energy towards your cursor
+			'''
+	}
+
+	HarmonyHeadgear: {
+		DisplayName: Harmony Headgear
+		Tooltip:
+			'''
+			Increases maximum inspiration by 5
+			Each unique empowerment you have increases your:
+			Symphonic damage by 4%
+			Symphonic playing speed by 2%
+			Inspiration regeneration rate by 2%
+			Movement speed by 2%
+			'''
+	}
+
+	ThrowingGuideVolume4: {
+		DisplayName: Guide to Expert Throwing : Volume IV
+		Tooltip:
+			'''
+			15% increased thrower damage
+			15% increased thrower velocity
+			30% of your thrower damage is duplicated
+			Enemies killed by your thrower damage release a spread of damaging coins
+			Enemies damaged by the coins are gouged and drop more money on death
+			'''
+	}
+
+	TriNote: {
+		DisplayName: TriNote
+		Tooltip: Permanently increase inspiration regeneration rate by 10%
+	}
+
+	UmbrasEye: {
+		DisplayName: Umbra's Eye
+		Tooltip: Permanently increase maximum technique points by 1
+	}
 }
+
+ArmorSetBonuses.Healer_Aurora: Summon a Slime companion that heal your teammates.
 
 Projectiles: {
 	OtherworldlyBubble.DisplayName: Otherworldly Bubble
@@ -28,6 +292,61 @@ Projectiles: {
 	RodScytheBeam.DisplayName: Rod Scythe Beam
 	RodScythePro.DisplayName: Rod Scythe Pro
 	CubismKunaiProj.DisplayName: Cubism Kunai Proj
+	ForbiddenFruit.DisplayName: Forbidden Fruit
+	GrowthSwing.DisplayName: Growth Swing
+	LittleDipperProj.DisplayName: Little Dipper Proj
+	LittleDipperSparkle.DisplayName: Little Dipper Sparkle
+	EyeOfDepthsProj.DisplayName: Eye Of Depths Proj
+	DipperDroneProj.DisplayName: Dipper Drone Proj
+	DipperWandProj.DisplayName: Dipper Wand Proj
+	SerenityBlessingProj.DisplayName: Serenity Blessing Proj
+	SerenityFlareProj.DisplayName: Serenity Flare Proj
+	SunriseProj.DisplayName: Sunrise Proj
+	FollyProj.DisplayName: Folly Proj
+	LifeEnergy.DisplayName: Life Energy
+	DipperTrumpetProj.DisplayName: Dipper Trumpet Proj
+	MysterySongProj.DisplayName: Mystery Song Proj
+	DiurnalCycleBeam.DisplayName: Diurnal Cycle Beam
+	DiurnalCycleStar.DisplayName: Diurnal Cycle Star
+	LifePetalProj.DisplayName: Life Petal Proj
+	PuppetShowProj.DisplayName: Puppet Show Proj
+	TomatoPuppet.DisplayName: Tomato Puppet
+	TomatoProj.DisplayName: Tomato Proj
+	DarkClapProj.DisplayName: Dark Clap Proj
+	SolarSlimeProj.DisplayName: Solar Slime Proj
+	SolarStaffProj.DisplayName: Solar Staff Proj
+	SlimeMarkProj.DisplayName: Slime Mark Proj
+	SolsticeHarvesterPro.DisplayName: Solstice Harvester Pro
+	SolsticeHarvesterShot.DisplayName: Solstice Harvester Shot
+	SliceVisual.DisplayName: Slice Visual
+	BigSliceVisual.DisplayName: Big Slice Visual
+	BifurcationProj.DisplayName: Bifurcation Proj
+	PenroseTriangleProj.DisplayName: Penrose Triangle Proj
+	PenroseTriangleHit.DisplayName: Penrose Triangle Hit
+	TriangleRatio.DisplayName: Triangle Ratio
+	TriangleCircle.DisplayName: Triangle Circle
+	CubismKunaiSlash.DisplayName: Cubism Kunai Slash
+	GaiaMelodyFlowerProj.DisplayName: Gaia Melody Flower Proj
+	GaiaMelodyPetalProj.DisplayName: Gaia Melody Petal Proj
+	GaiaMelodySnakeProj.DisplayName: Gaia Melody Snake Proj
+	SolarKunaiProj.DisplayName: Solar Kunai Proj
+	SolarSlimeThrowerProj.DisplayName: Solar Slime Thrower Proj
+	SunshineSlimeProj.DisplayName: Sunshine Slime Proj
+	RaveralShard.DisplayName: Raveral Shard
+	RaveralProj.DisplayName: Raveral Proj
+	RaveralExplosionBlue.DisplayName: Raveral Explosion Blue
+	PuppetNoteProj.DisplayName: Puppet Note Proj
+	DiverTomahawkProj.DisplayName: Diver Tomahawk Proj
+	DiverMeatballProj.DisplayName: Diver Meatball Proj
+	AuroraHaloSlime.DisplayName: Aurora Halo Slime
+	WhaleEchoHeal.DisplayName: Whale Echo Heal
+	WhaleEchoHarm.DisplayName: Whale Echo Harm
+	EcholocationWhale.DisplayName: Echolocation Whale
 	FissionThrow_2.DisplayName: Fission Throw_2
 }
 
+ItemTooltips.ScytheThrow:
+	'''
+	Right Click to throw the Scythe, which will curve on it's way back
+	Thrown Scythes will deal 10% reduced damage
+	'''
