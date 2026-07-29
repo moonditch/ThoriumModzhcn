@@ -12474,7 +12474,11 @@ Mods: {
 
 			VoidHeart: {
 				DisplayName: 虚空之心
-				Tooltip: “这个奇怪的物体似乎起源于堕落注视者的家园维度”
+				Tooltip:
+					'''
+					“这个奇怪的物体似乎起源于堕落注视者的家园维度”
+					（击败堕落注视者后由迷途僵尸出售）
+					'''
 			}
 
 			WhirlpoolSaber: {
