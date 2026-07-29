@@ -99,7 +99,7 @@ Items: {
 			'''
 			释放来自深海的触手向各种方向卷曲
 			触手最终会停止移动并形成伤害性水流
-			攻击造成深渊水压减益
+			攻击造成[cbuff:CalamityMod/CrushDepth]减益
 			"是溺死在深渊中，亦或是从中浮起……正如永劫狂潮·潮汐之灵的宣告"
 			'''
 	}
@@ -209,7 +209,7 @@ Items: {
 			'''
 			释放酸化簧片、音符和硫磺气泡
 			酸化簧片、音符造成音波伤害
-			硫磺气泡则造成辐射和酸性毒液
+			硫磺气泡则造成[cbuff:CalamityMod/SulphuricPoisoning]和[cbuff:70]减益
 			'''
 	}
 
@@ -320,7 +320,7 @@ Items: {
 		Tooltip:
 			'''
 			无视10点防御力
-			旋转一把寒冰镰刀，攻击时造成霜冻
+			旋转一把寒冰镰刀，攻击时造成[cbuff:324]减益
 			不断喷出冰晶，造成50%伤害
 			右键扔出镰刀，然后回到你身边
 			镰刀投掷时造成的伤害提高30%
@@ -335,7 +335,7 @@ Items: {
 			无视20点防御力
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞会释放大量的酸性气体
-			造成酸性毒液与硫磺海剧毒减益
+			造成[cbuff:70]与[cbuff:CalamityMod/SulphuricPoisoning]减益
 			'''
 	}
 
@@ -380,8 +380,8 @@ Items: {
 			增加5%的音波演奏速度
 			增加10%的灵感回复速度
 			增加3秒咒音增幅的持续时间
-			命中敌怪时，音波伤害会造成霜冻和冻伤
-			附近有队友进行攻击有概率造成霜冻
+			命中敌怪时，音波伤害会造成[cbuff:44]和[cbuff:324]减益
+			附近有队友进行攻击有概率造成[cbuff:44]减益
 			'''
 	}
 
@@ -405,8 +405,8 @@ Items: {
 			射出装满沙鲨血的注射器
 			注射器命中生物时会将血液注射进去
 			对敌人造成持续伤害，对友军则进行持续治疗
-			对命中的敌人造成深渊水压和碎甲减益
-			对被治疗的队友造成持久的生命恢复
+			对命中的敌人造成[cbuff:CalamityMod/CrushDepth]和[cbuff:CalamityMod/ArmorCrunch]减益
+			对被治疗的队友造成持久的[cbuff:ThoriumMod/LifeRecovery]增益
 			可以治愈自己
 			"含有少量Herobrine"
 			'''
@@ -421,7 +421,7 @@ Items: {
 			每三次攻击镰刀会旋转
 			旋转时释放炽热魔漩
 			炽热魔漩会对敌怪与玩家造成伤害
-			击中敌人时施加孱弱巫咒
+			击中敌人时施加[cbuff:CalamityMod/VulnerabilityHex]减益
 			这把镰刀是定向挥舞而不是旋转
 			[c/C61B40:‘你真的想失去你的生命]
 			[c/C61B40:为一个只会带来纷争的女巫？’]
@@ -434,7 +434,7 @@ Items: {
 			'''
 			快速释放追踪目标的龙焰
 			无视35点防御力
-			攻击时造成龙焰
+			攻击时造成[cbuff:CalamityMod/Dragonfire]减益
 			每攻击第25次，屏幕旁会出现两个更大末日洗涤，向固定方向攻击
 			成功在计时区域击中会持续增加咒音增幅等级，音波伤害，追踪距离和末日洗涤的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -458,7 +458,7 @@ Items: {
 		Tooltip:
 			'''
 			旋转一柄射出紫色与粉色能量的斯塔提斯镰刀
-			用紫色光芒攻击敌怪时，造成暗影焰
+			用紫色光芒攻击敌怪时，造成[cbuff:153]减益
 			用粉色光芒攻击敌怪时，提高生命回复
 			右键扔出镰刀，然后回到你身边
 			镰刀投掷时造成的伤害提高20%
@@ -498,7 +498,7 @@ Items: {
 			增加10%光辉施法速度
 			增加12%光辉暴击率
 			治疗法术会额外治疗2点生命值
-			为光辉攻击赋予元素能量
+			为光辉攻击赋予[cbuff:CalamityMod/ElementalMix]减益
 			你击中的敌怪受到随时间的减益的伤害增加50%
 			"当光明和黑暗碰撞时，它们会协调成最终的形状"
 			'''
@@ -518,7 +518,7 @@ Items: {
 		Tooltip:
 			'''
 			发射一串炽热的音符
-			音符施加调谐和龙焰, 并退还灵感值
+			音符施加调谐和[cbuff:CalamityMod/Dragonfire]减益, 并退还灵感值
 			音符对受到持续伤害的目标造成更多伤害
 			右键召唤音响向光标发射音符
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
@@ -554,7 +554,7 @@ Items: {
 			'''
 			无视15点防御力
 			释放一连串硫火怒焰
-			击中敌人施加硫磺火减益
+			击中敌人施加[cbuff:CalamityMod/BrimstoneFlames]减益
 			“把它称作火灾隐患还是太保守了”
 			[c/BC1717:可灌注成硫狱焚劫]
 			'''
@@ -628,7 +628,7 @@ Items: {
 			无视50点防御力
 			这把镰刀是定向挥舞而不是旋转
 			发射烈焰波，伴随着2根追踪的火束
-			攻击造成深渊水压和狱炎减益
+			攻击造成[cbuff:CalamityMod/CrushDepth]和[cbuff:323]减益
 			"致命化学反应的催化剂"
 			'''
 	}
@@ -739,7 +739,7 @@ Items: {
 			执行两段攻击，先发射链球，随后发射小型镰刀
 			链球命中会生成治疗雾气 同时最多仅可存在3个
 			镰刀命中或返回时会生成自动追踪的气泡
-			命中造成酸性毒液与硫磺海剧毒减益
+			命中造成[cbuff:70]与[cbuff:CalamityMod/SulphuricPoisoning]减益
 			'''
 	}
 
@@ -792,7 +792,7 @@ Items: {
 		Tooltip:
 			'''
 			发射牙球弹幕，爆炸后分裂成牙齿
-			命中造成酸性毒液与硫磺海剧毒减益
+			命中造成[cbuff:70]与[cbuff:CalamityMod/SulphuricPoisoning]减益
 			基于作者DM Dokuro的“Toxic Wisdom”中怪异的铜管音效改编
 			'''
 	}
@@ -803,7 +803,7 @@ Items: {
 			'''
 			无视40点防御力
 			随机方向发射瘟疫头骨并追踪敌怪
-			造成瘟疫减益
+			造成[cbuff:CalamityMod/Plague]减益
 			"芸芸众生皆有始有终，正如噬元凶灾·毁灭之灵的宣称"
 			'''
 	}
@@ -832,7 +832,7 @@ Items: {
 			无视50点防御力
 			这把镰刀是定向挥舞而不是旋转
 			打出有力的一击并留下一串龙息
-			造成龙焰减益
+			造成[cbuff:CalamityMod/Dragonfire]减益
 			'''
 	}
 
@@ -889,7 +889,7 @@ Items: {
 			旋转时释放瘟疫弹幕
 			攻击敌人释放更多
 			瘟疫弹幕有短暂的跟踪能力
-			造成瘟疫减益
+			造成[cbuff:CalamityMod/Plague]减益
 			"请保持社交距离"
 			'''
 	}
@@ -985,7 +985,7 @@ Items: {
 		Tooltip:
 			'''
 			向随机方向发射硫磺光束
-			造成硫磺火减益
+			造成[cbuff:CalamityMod/BrimstoneFlames]减益
 			"阿萨福勒遗迹的遗物，正如原初烈火·戮焰之灵的意图"
 			'''
 	}
@@ -1042,7 +1042,7 @@ Items: {
 			无视10点防御力
 			快速旋转一把切割灵魂的镰刀
 			周期性释放本体的幽影化身
-			命中造成带电与狱炎减益
+			命中造成[cbuff:144]与[cbuff:323]减益
 			'''
 	}
 
@@ -1159,7 +1159,7 @@ Items: {
 		Tooltip:
 			'''
 			发射两个岩石，在光标的位置撞击
-			碰撞后产生中等大小的波动，造成深渊水压减益
+			碰撞后产生中等大小的波动，造成[cbuff:CalamityMod/CrushDepth]减益
 			"Alfred Wegener赞助"
 			'''
 	}
@@ -1170,8 +1170,8 @@ Items: {
 			'''
 			无视40点防御力
 			这把镰刀是定向挥舞而不是旋转
-			每次摆动都会产生小型潮汐波
-			造成深渊水压减益
+			每次摆动都会产生小型潮汐波在移动一段距离后会分裂
+			造成[cbuff:CalamityMod/CrushDepth]减益
 			'''
 	}
 
@@ -1342,7 +1342,7 @@ Items: {
 			930 音波伤害
 			召唤三个围绕在玩家身边的亚利姆音响
 			魔眼释放燃烧的节奏，并追踪附近的敌人
-			造成龙焰和调谐减益
+			造成[cbuff:CalamityMod/Dragonfire]和调谐减益
 			"我们正在用这个[i/s1:2701][i/s1:2701][i/s1:2701]超越音障"
 			'''
 	}
@@ -1427,8 +1427,8 @@ Projectiles: {
 	IrradiatedOasis.DisplayName: 辐照绿洲
 	IrradiatedVortex.DisplayName: 辐照漩涡
 	LostOasis.DisplayName: 失落绿洲
-	LuxorsPrayer.DisplayName: 卢克索之祈祷
-	LuxorsSong.DisplayName: 卢克索之歌
+	LuxorBard.DisplayName: 卢克索之歌
+	LuxorHealer.DisplayName: 卢克索之祈祷
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
@@ -1572,6 +1572,11 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: 合并盗贼和投手职业
 			Tooltip: 拥有诸神的黄昏(Ragnarok)模组时自动禁用
+		}
+
+		generalItemBalanceChanges: {
+			Label: 通用物品平衡调整
+			Tooltip: 启用对瑟银物品的杂项平衡调整
 		}
 
 		showItemChanges: {
