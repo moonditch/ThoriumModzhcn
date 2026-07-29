@@ -99,7 +99,7 @@ Items: {
 			'''
 			Rapidly shoots out abyssal tentacles that curl up in random directions
 			Eventually settles and form damaging water currents
-			Inflicts crushing depth on hit
+			Inflicts [cbuff:CalamityMod/CrushDepth] on hit
 			"Drown in the deep, or rise from it... as Aquaius, the Endless Tide advised"
 			'''
 	}
@@ -209,7 +209,7 @@ Items: {
 			'''
 			Shoots an assortment of reeds, bubbles and notes
 			Reeds and bubbles inflict irradiated
-			Notes inflict sulphuric poisoning and acid venom
+			Notes inflict [cbuff:CalamityMod/SulphuricPoisoning] and [cbuff:70]
 			'''
 	}
 
@@ -320,7 +320,7 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 10 points of defense
-			Spins a cryonic scythe that inflict frostbite on hit
+			Spins a cryonic scythe that inflict [cbuff:324] on hit
 			Constantly spews out icicles that deal 50% damage
 			<right> to throw the scythe, which will curve on its way back
 			The scythe deals 30% more damage when thrown
@@ -335,7 +335,7 @@ Items: {
 			Ignores 20 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a barrage of acidic gas clouds per swing
-			Inflicts acid venom and sulphuric poisoning on hit
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
 			'''
 	}
 
@@ -380,8 +380,8 @@ Items: {
 			5% increased symphonic playing speed
 			Increases inspiration regeneration rate by 10%
 			Increases empowerment duration by 3 seconds
-			Symphonic damage inflicts frostburn and frostbite on hit
-			Nearby allies have a chance to inflict frostburn on hit
+			Symphonic damage inflicts [cbuff:44] and [cbuff:324] on hit
+			Nearby allies have a chance to inflict [cbuff:44] on hit
 			'''
 	}
 
@@ -405,8 +405,8 @@ Items: {
 			Shoots syringes full of Great Sand Shark blood
 			Syringes latch onto hit enemies or players and inject them
 			Doing so damages them continuously or heal if its a player
-			Inflicts crush depth and armor crunch on hit enemies
-			Inflicts long-lasting life recovery on healed allies
+			Inflicts [cbuff:CalamityMod/CrushDepth] and [cbuff:CalamityMod/ArmorCrunch] on hit enemies
+			Inflicts long-lasting [cbuff:ThoriumMod/LifeRecovery] on healed allies
 			Can be used to heal yourself
 			"Contains a small amount of Herobrine"
 			'''
@@ -421,7 +421,7 @@ Items: {
 			Every third swing, the scythe is spun around
 			When spun, it leaves behind a scorching maelstrom instead
 			The scorching maelstrom damages both players and enemies
-			Inflicts vulnerability hex on hit
+			Inflicts [cbuff:CalamityMod/VulnerabilityHex] on hit
 			This scythe is swung directionally instead of spun
 			[c/C61B40:'Are you sure you want to lose your life?]
 			[c/C61B40:From a witch who has caused you nothing but strife?']
@@ -434,7 +434,7 @@ Items: {
 			'''
 			Rapidly shoots a fiery toot that homes into to targets
 			Ignores 35 points of defense
-			Inflicts dragonfire on hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] on hit
 			Every 25th attack, two larger versions of the weapon appear besides the screen to attack in a fixed direction
 			Successfully timing hits will steadily increase its empowerment level, damage, homing range and trumpet count
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -458,7 +458,7 @@ Items: {
 		Tooltip:
 			'''
 			Spins a statigel scythe that emits red and purple energy on each blade
-			Hitting enemies with the purple energy inflicts shadowflame to them
+			Hitting enemies with the purple energy inflicts [cbuff:153] to them
 			Hitting enemies with the red energy massively boost health regeneration
 			<right> to throw the scythe, which will curve on its way back
 			The scythe deals 20% more damage when thrown
@@ -498,7 +498,7 @@ Items: {
 			10% increased radiant casting speed
 			12% increased radiant critical strike chance
 			Healing spells will heal an additional 2 life
-			Empowers radiant attacks with elemental energy
+			Empowers radiant attacks with [cbuff:CalamityMod/ElementalMix]
 			Increases the strength of damage over time effects by 66%
 			"When light and dark clash, they harmonize to a final shape"
 			'''
@@ -518,7 +518,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a stream of molten hot notes
-			Notes can either inflict tuned or dragonfire, or refund inspiration back
+			Notes can either inflict tuned or [cbuff:CalamityMod/Dragonfire], or refund inspiration back
 			Notes deal more damage against targets suffering from damage over time effects
 			<right> to summon an amplifier that shoots notes toward your mouse cursor
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
@@ -554,7 +554,7 @@ Items: {
 			'''
 			Ignores 15 points of defense
 			Unleashes a burning flurry of flames
-			Inflicts brimstone flames on hit
+			Inflicts [cbuff:CalamityMod/BrimstoneFlames] on hit
 			"Calling this a fire hazard would be an understatement"
 			'''
 	}
@@ -575,7 +575,7 @@ Items: {
 		Tooltip:
 			'''
 			Plays the iconic bell you all know and love
-			Inflicts vulnerability hex on hit and causes brimstone lightning to smite enemies
+			Inflicts [cbuff:CalamityMod/VulnerabilityHex] on hit and causes brimstone lightning to smite enemies
 			[c/C61B40:'A bell belonging to a legendary musician, if only he was still with us...']
 			'''
 	}
@@ -627,7 +627,7 @@ Items: {
 			Ignores 50 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a flaming wave that is accompanied by 2 homing flames
-			Inflicts crush depth and hellfire on hit
+			Inflicts [cbuff:CalamityMod/CrushDepth] and [cbuff:323] on hit
 			"A catalyst to a lethal chemical reaction"
 			'''
 	}
@@ -738,7 +738,7 @@ Items: {
 			Performs a dual combo of throwing a mace core then a small scythe
 			Hits with the ball generate healing mist, with only 3 being allowed at once
 			Hits with the scythe or when it returns to the user creates homing bubbles
-			Inflicts acid venom and sulphuric poisoning on hit
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
 			'''
 	}
 
@@ -791,7 +791,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a barrage of tooth balls that explode into teeth
-			Inflicts acid venom and sulphuric poisoning on hit
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
 			Based off of the weird sounding brass from "Toxic Wisdom" by DM Dokuro
 			'''
 	}
@@ -802,7 +802,7 @@ Items: {
 			'''
 			Ignores 40 points of defense
 			Shoots out skulls that curve in random directions before homing to an enemy
-			Inflicts the plague on hit
+			Inflicts [cbuff:CalamityMod/Plague] on hit
 			"All life has a beginning and an end, as Omnicide, the Life Defiler claims"
 			'''
 	}
@@ -831,7 +831,7 @@ Items: {
 			Ignores 50 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots out a powerful slash that leave a trail of fire
-			Inflicts dragonfire on hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] on hit
 			'''
 	}
 
@@ -888,7 +888,7 @@ Items: {
 			Releases plague traces while spun
 			Releases even more when hitting enemies
 			Plague traces have weak tracking
-			Inflicts the plague on hit
+			Inflicts [cbuff:CalamityMod/Plague] on hit
 			"Please practice social distancing"
 			'''
 	}
@@ -984,7 +984,7 @@ Items: {
 		Tooltip:
 			'''
 			Rapidly shoots out brimstone beams that curve in random directions
-			Inflicts brimstone flames on hit
+			Inflicts [cbuff:CalamityMod/BrimstoneFlames] on hit
 			"A relic from the remains of Azafure, as Slag Fury, the First Flame intended"
 			'''
 	}
@@ -1041,7 +1041,7 @@ Items: {
 			Ignores 10 points of defense
 			Rapidly spin a soul splicing scythe
 			Periodically releases apparitions of itself
-			Inflicts electrified and hellfire on hit
+			Inflicts [cbuff:144] and [cbuff:323] on hit
 			'''
 	}
 
@@ -1158,7 +1158,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots out two rocks that collide in the cursor position
-			Upon colliding, it creates a medium-sized explosion that inflicts crush depth
+			Upon colliding, it creates a medium-sized explosion that inflicts [cbuff:CalamityMod/CrushDepth]
 			"Sponsored by Alfred Wegener"
 			'''
 	}
@@ -1169,8 +1169,8 @@ Items: {
 			'''
 			Ignores 40 points of defense
 			This scythe is swung directionally instead of spun
-			Shoots a miniature tidal wave every swing
-			Inflicts crushing depth on hit
+			Shoots a miniature tidal wave every swing that then splits after travelling a set distance
+			Inflicts [cbuff:CalamityMod/CrushDepth] on hit
 			'''
 	}
 
@@ -1341,7 +1341,7 @@ Items: {
 			930 symphonic damage
 			Summons three supersonic speakers that hover beside and below you
 			The speakers will shoot burning beats that tracks to the closest enemy
-			Inflicts dragonfire and tunes enemies hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] and tunes enemies hit
 			"We're ascending beyond the sound barrier with this one [i/s1:2701][i/s1:2701][i/s1:2701]"
 			'''
 	}
@@ -1426,8 +1426,8 @@ Projectiles: {
 	IrradiatedOasis.DisplayName: Irradiated Oasis
 	IrradiatedVortex.DisplayName: Irradiated Vortex
 	LostOasis.DisplayName: Lost Oasis
-	LuxorsPrayer.DisplayName: Luxor's Prayer
-	LuxorsSong.DisplayName: Luxor's Song
+	LuxorBard.DisplayName: Luxor's Song
+	LuxorHealer.DisplayName: Luxor's Cure
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
@@ -1571,6 +1571,11 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: Merge Rogue and Thrower class
 			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
+
+		generalItemBalanceChanges: {
+			Label: General Item Balance Changes
+			Tooltip: Enables miscellaneous balance changes to Thorium items
 		}
 
 		showItemChanges: {
