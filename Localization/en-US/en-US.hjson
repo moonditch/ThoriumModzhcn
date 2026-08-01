@@ -235,7 +235,7 @@ Mods: {
 
 			BeetleCarapace: {
 				DisplayName: Beetle Carapace
-				Description: "{0}% increased damage reduction and reflecting damage"
+				Description: "{0}% increased damage resistance and reflecting damage"
 			}
 
 			BlightFever: {
@@ -433,9 +433,9 @@ Mods: {
 				Description: Your healing spells will heal an additional {0} life
 			}
 
-			AuraDamageReduction: {
-				DisplayName: Aura : Damage Reduction
-				Description: Your ally is granting you {0}% increased damage reduction
+			AuraDamageResistance: {
+				DisplayName: Aura : Damage Resistance
+				Description: Your ally is granting you {0}% increased damage resistance
 			}
 
 			BloodBoost: {
@@ -480,7 +480,7 @@ Mods: {
 
 			CrystalWishBuff: {
 				DisplayName: Crystal Wish
-				Description: Your ally has granted you {0}% increased damage reduction
+				Description: Your ally has granted you {0}% increased damage resistance
 			}
 
 			Cured: {
@@ -520,12 +520,13 @@ Mods: {
 
 			DreamMegaphoneBuff: {
 				DisplayName: Dream Megaphone
-				Description: Damage increased by 20%
+				Description: Damage increased by {0}%
 			}
 
 			DreamMegaphoneDebuff: {
 				DisplayName: Dream Megaphone
-				Description: Taking 40% more damage
+				Description: ""
+				Effect: "{0}% reduced damage resistance"
 			}
 
 			DreamWeaversHoodDebuff: {
@@ -625,7 +626,7 @@ Mods: {
 
 			MarrowScepterBuff: {
 				DisplayName: Bone Armor
-				Description: "{0}% increased damage reduction"
+				Description: "{0}% increased damage resistance"
 			}
 
 			Mortality: {
@@ -650,7 +651,7 @@ Mods: {
 
 			ProtectiveEnergy: {
 				DisplayName: Protective Energy
-				Description: Damage reduction increased by 5%
+				Description: "{0}% increased damage resistance"
 			}
 
 			QuickRecovery: {
@@ -660,7 +661,7 @@ Mods: {
 
 			SerpentsBubbleWandBuff: {
 				DisplayName: Serpent's Bubble
-				Description: Life recovery increased and {0}% increased damage reduction
+				Description: Life recovery increased and {0}% increased damage resistance
 			}
 
 			ShieldDroneBeaconBuff: {
@@ -686,7 +687,7 @@ Mods: {
 
 			SpiritualistProtectionBuff: {
 				DisplayName: Guardian : Protection
-				Description: "{0}% increased damage reduction"
+				Description: "{0}% increased damage resistance"
 			}
 
 			SpiritualistRecoveryBuff: {
@@ -777,11 +778,6 @@ Mods: {
 			Liquefied: {
 				DisplayName: Liquefied
 				Description: Defense and movement speed decreased
-			}
-
-			MagickStaffDebuff: {
-				DisplayName: Elemental Decay
-				Description: Sundered by the lesser elements of Terraria
 			}
 
 			MasterMarksmansScouterDebuff: {
@@ -1225,7 +1221,7 @@ Mods: {
 
 			RapierBuff: {
 				DisplayName: Parry Stance
-				Description: "{0}% increased damage reduction"
+				Description: "{0}% increased damage resistance"
 			}
 
 			RealityBearer: {
@@ -1245,7 +1241,7 @@ Mods: {
 
 			YoyoProtectionBuff: {
 				DisplayName: Yoyo Protection
-				Description: "{0}% increased damage reduction against the next hit you take"
+				Description: "{0}% increased damage resistance against the next hit you take"
 			}
 
 			YoyoProtectionDebuff: {
@@ -1545,7 +1541,7 @@ Mods: {
 
 			VampiresCurseBuff: {
 				DisplayName: Vampire's Curse
-				Description: You've been forcibly transformed into a weak bat!
+				Description: You've been forcibly transformed into a defenseless bat!
 			}
 
 			WarmongerBuff: {
@@ -1646,7 +1642,17 @@ Mods: {
 
 			HarpyStaffBuff: {
 				DisplayName: Harpy Staff Buff
-				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
+				Description: NULL
+			}
+
+			SnarkyGunFireDebuff: {
+				DisplayName: Snarky Gun - Fire
+				Description: Building up a nasty burn
+			}
+
+			SnarkyGunIceDebuff: {
+				DisplayName: Snarky Gun - Ice
+				Description: NULL
 			}
 		}
 
@@ -1718,8 +1724,8 @@ Mods: {
 			}
 
 			DamageReduction: {
-				DisplayName: Damage Reduction
-				Tooltip: +{0}% damage reduction
+				DisplayName: Damage Resistance
+				Tooltip: +{0}% damage resistance
 			}
 
 			Defense: {
@@ -2148,6 +2154,12 @@ Mods: {
 			ColdlingBanner.DisplayName: Coldling Banner
 			CoolmeraBanner.DisplayName: Coolmera Banner
 			CrownofThornsBanner.DisplayName: Crown of Thorns Banner
+
+			Crow: {
+				DisplayName: Crow
+				Tooltip: ""
+			}
+
 			DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
 			DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
 			EarthenBatBanner.DisplayName: Earthen Bat Banner
@@ -3581,7 +3593,7 @@ Mods: {
 				DisplayName: Fear Monger
 				Tooltip:
 					'''
-					{0}% increased damage reduction
+					{0}% increased damage resistance
 					Enemies are less likely to target you
 					'''
 			}
@@ -3833,7 +3845,11 @@ Mods: {
 
 			BoreanFangStaff: {
 				DisplayName: Borean Fang Staff
-				Tooltip: Releases a volley of freezing fangs
+				Tooltip:
+					'''
+					Damage enemies to generate icy shards
+					Right click to send all stored icy shards at the enemy under your cursor
+					'''
 			}
 
 			BoreanStriderMask: {
@@ -3964,7 +3980,11 @@ Mods: {
 
 			GorgonsEye: {
 				DisplayName: Gorgon's Eye
-				Tooltip: Briefly petrifies hit enemies
+				Tooltip:
+					'''
+					Damage petrifies hit enemies and starts encasing the yoyo in stone
+					When fully encased, throwing the yoyo downwards releases the boulder
+					'''
 			}
 
 			ArcanePotion: {
@@ -4614,7 +4634,8 @@ Mods: {
 					'''
 					'Infused with everlasting Blood'
 					Enemies are more likely to target you
-					{0}% chance to completely neutralize incoming damage
+					{0}% increased damage resistance
+					{1}% chance to block incoming damage
 					'''
 			}
 
@@ -4642,7 +4663,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with everlasting Blood'
-					{0}% increased movement speed
+					{0}% increased damage resistance
+					{1}% increased movement speed
 					'''
 			}
 
@@ -4656,7 +4678,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infused with everlasting Blood'
-					{0}% increased damage reduction
+					{0}% increased damage resistance
 					'''
 				SetBonus: Maximum life increased by {0}
 			}
@@ -5223,7 +5245,7 @@ Mods: {
 				DisplayName: Beetle Blaster
 				Tooltip:
 					'''
-					{0}% increased damage reduction while firing
+					{0}% increased damage resistance while firing
 					{1}% decreased movement speed while firing
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
@@ -5277,7 +5299,7 @@ Mods: {
 				DisplayName: Blast Shield
 				Tooltip:
 					'''
-					{0}% increased damage reduction
+					{0}% increased damage resistance
 					Immune to enemy knockback & enemies are more likely to attack you
 					Every {1} {^1:second;seconds}, taking damage will unleash a volatile explosion all around you
 					Explosion damage scales with your defense
@@ -5294,7 +5316,7 @@ Mods: {
 				Tooltip:
 					'''
 					Your yoyo damage inflicts frostburn and has a chance to freeze enemies
-					Damaging an enemy with a yoyo grants {0}% increased damage reduction until hit
+					Damaging an enemy with a yoyo grants {0}% increased damage resistance until hit
 					This effect must recharge for {1} seconds after protecting you
 					'''
 			}
@@ -5403,8 +5425,8 @@ Mods: {
 				Tooltip:
 					'''
 					'The very fabric of this cape has been designed to guide you through the toughest days'
-					Increases damage reduction up to {0}% over time
-					Damage reduction bonus drops to -{1}% when hit
+					Increases damage resistance up to {0}% over time
+					Damage resistance bonus drops to -{1}% when hit
 					While this bonus is above {2}%, you gain up to {3} life recovery and block {4} damage attacks
 					'''
 			}
@@ -5627,7 +5649,7 @@ Mods: {
 				Tooltip:
 					'''
 					'IS THIS THING OOONNN!?~'
-					Adversely, it increases the damage you take by 40% for 30 seconds
+					{0}% reduced damage resistance per player buffed for {1} seconds, up to -{2}%
 					'''
 			}
 
@@ -6607,7 +6629,7 @@ Mods: {
 					'One should beware of his inner greed'
 					All attacks make enemies drop more gold
 					Hitting enemies will drop extra coins
-					Damage taken increased by {0}%
+					{0}% reduced damage resistance
 					'''
 			}
 
@@ -6771,7 +6793,7 @@ Mods: {
 				DisplayName: Sandshroud Pouch
 				Tooltip:
 					'''
-					Damaging an enemy with a yoyo grants {0}% increased damage reduction until hit
+					Damaging an enemy with a yoyo grants {0}% increased damage resistance until hit
 					This effect must recharge for {1} seconds after protecting you
 					'''
 			}
@@ -7306,8 +7328,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It's too big to be a sword, it's more like a heap of iron'
-					Left Click - Releases a barrage of empowered shockwaves
-					Right Click - Thrusts the sword with immense force
+					Left Click to release a barrage of shockwaves
+					Right Click to thrust the sword with immense force
 					'''
 			}
 
@@ -7566,7 +7588,7 @@ Mods: {
 
 			MagickStaff: {
 				DisplayName: Magick Staff
-				Tooltip: Creates a bolt of fluctuating elements
+				Tooltip: Rapidly casts bolts of fluctuating magic
 			}
 
 			ManaBauble: {
@@ -7580,7 +7602,7 @@ Mods: {
 
 			Pierce: {
 				DisplayName: Pierce
-				Tooltip: Creates a bolt of heavy, piercing magic
+				Tooltip: Creates a bolt of enemy-piercing magic
 			}
 
 			Poison: {
@@ -7699,7 +7721,7 @@ Mods: {
 					'''
 					'Become as unstoppable as the tides'
 					{0}% increased melee damage
-					{1}% increased damage reduction
+					{1}% increased damage resistance
 					Life regeneration increased by {2}
 					Produces a floating globule every {3} {^3:second;seconds}
 					Every globule increases your defense by {4}%
@@ -9066,7 +9088,7 @@ Mods: {
 					{0}% decreased non-radiant damage
 					{1}% increased radiant damage
 					{2}% increased radiant critical strike chance
-					{3}% increased damage reduction
+					{3}% increased damage resistance
 					Healing spells will heal an additional {4} life
 					'''
 			}
@@ -9078,6 +9100,7 @@ Mods: {
 					{0}% decreased non-radiant damage
 					{1}% increased radiant damage
 					{2}% increased radiant critical strike chance
+					{3}% increased damage resistance
 					Life regeneration rate increased
 					'''
 				SetBonus: Taking damage heals nearby allies equal to {0}% of the damage taken
@@ -9090,9 +9113,10 @@ Mods: {
 					{0}% decreased non-radiant damage
 					{1}% increased radiant damage
 					{2}% increased radiant critical strike chance
-					{3}% decreased mana cost
-					{4}% increased movement speed
-					Healing spells will heal an additional {5} life
+					{3}% increased damage resistance
+					{4}% decreased mana cost
+					{5}% increased movement speed
+					Healing spells will heal an additional {6} life
 					'''
 			}
 
@@ -9110,7 +9134,7 @@ Mods: {
 				Tooltip:
 					'''
 					Surrounds an ally with a short lived barrier of feathers
-					Right click to surround yourself with the barrier
+					Right click to surround yourself with the barrier instead
 					'''
 			}
 
@@ -10621,8 +10645,8 @@ Mods: {
 				SetBonus:
 					'''
 					Enemies are more likely to target you
-					{0}% increased damage reduction for every {1}% of life lost
-					Damage reduction increase maxes at {2}% while below {1}% life
+					{0}% increased damage resistance for every {1}% of life lost
+					Damage resistance increase maxes at {2}% while below {1}% life
 					'''
 			}
 
@@ -10651,9 +10675,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LodeStoneQuickDraw: {
-				DisplayName: Lodestone Quick Draw
-				Tooltip: Damage will sunder enemies, increasing the damage they take by 10%
+			LodestoneSlugger: {
+				DisplayName: Lodestone Slugger
+				Tooltip: Fires shrapnel that sunder enemies, increasing the damage they take by 10%
 			}
 
 			LodeStoneShinGuards: {
@@ -11035,11 +11059,6 @@ Mods: {
 					'''
 			}
 
-			Nocturnal: {
-				DisplayName: Nocturnal
-				Tooltip: Upon hitting an enemy, homing 'black light' might be released
-			}
-
 			PinkPhaseblade: {
 				DisplayName: Pink Phaseblade
 				Tooltip: ""
@@ -11048,11 +11067,6 @@ Mods: {
 			PinkPhasesaber: {
 				DisplayName: Pink Phasesaber
 				Tooltip: ""
-			}
-
-			Sanguine: {
-				DisplayName: Sanguine
-				Tooltip: Upon hitting an enemy, homing 'life light' might be released
 			}
 
 			SolScorchedSlab: {
@@ -11308,8 +11322,8 @@ Mods: {
 				Tooltip:
 					'''
 					{0}% increased martian weapon damage
-					{1}% increased damage reduction
-					{2}% increased critical strike chance
+					{1}% increased critical strike chance
+					{2}% increased damage resistance
 					'''
 				SetBonus:
 					'''
@@ -11323,7 +11337,7 @@ Mods: {
 				Tooltip:
 					'''
 					{0}% increased martian weapon damage
-					{1}% increased damage reduction
+					{1}% increased damage resistance
 					{2}% increased movement speed
 					'''
 			}
@@ -11333,7 +11347,7 @@ Mods: {
 				Tooltip:
 					'''
 					{0}% increased martian weapon damage
-					{1}% increased damage reduction
+					{1}% increased damage resistance
 					Increases damage by {2} for every nearby enemy
 					'''
 			}
@@ -11772,7 +11786,7 @@ Mods: {
 				DisplayName: Astro Beetle Husk
 				Tooltip:
 					'''
-					{0}% increased damage reduction
+					{0}% increased damage resistance
 					You constantly generate a {1} life shield
 					'''
 			}
@@ -11791,7 +11805,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This thing is pretty heavy'
-					{0}% increased damage reduction
+					{0}% increased damage resistance
 					Movement speed and jump height slightly decreased
 					Grants immunity to shambler chain-balls
 					'''
@@ -11960,9 +11974,9 @@ Mods: {
 				Tooltip:
 					'''
 					'When they turned their back on Terraria, he turned his back on them...'
-					{0}% increased damage reduction
-					{1}% increased damage
-					{2}% increased critical strike chance
+					{0}% increased damage
+					{1}% increased critical strike chance
+					{2}% increased damage resistance
 					Your Hired Demon will deal {3}% more damage and apply shadowflame to hit enemies
 					'''
 			}
@@ -15440,8 +15454,8 @@ Mods: {
 				Tooltip: Turns wooden arrows into a spread of flames
 			}
 
-			CobaltPopper: {
-				DisplayName: Cobalt Popper
+			CobaltRevolver: {
+				DisplayName: Cobalt Revolver
 				Tooltip: ""
 			}
 
@@ -15493,9 +15507,13 @@ Mods: {
 					'''
 			}
 
-			MyceliumGattlingGun: {
-				DisplayName: Mycelium Gatling Gun
-				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+			ShroomachineGun: {
+				DisplayName: Shroomachine Gun
+				Tooltip:
+					'''
+					Converts musket balls into nano bullets
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
+					'''
 			}
 
 			MythrilPelter: {
@@ -15503,13 +15521,13 @@ Mods: {
 				Tooltip: ""
 			}
 
-			OrichalcumPelter: {
-				DisplayName: Orichalcum Pelter
+			OrichalcumPopper: {
+				DisplayName: Orichalcum Popper
 				Tooltip: ""
 			}
 
-			PalladiumSubmachineGun: {
-				DisplayName: Palladium Sub-machine Gun
+			PalladiumSMG: {
+				DisplayName: Palladium SMG
 				Tooltip: ""
 			}
 
@@ -15772,7 +15790,7 @@ Mods: {
 					'Masterfully forged by the Blacksmith'
 					{0}% increased critical strike chance
 					'''
-				SetBonus: "{0}% increased damage reduction"
+				SetBonus: "{0}% increased damage resistance"
 			}
 
 			DurasteelJackhammer: {
@@ -15828,7 +15846,7 @@ Mods: {
 			SteelHelmet: {
 				DisplayName: Steel Helmet
 				Tooltip: "'Expertly forged by the Blacksmith'"
-				SetBonus: "{0}% increased damage reduction"
+				SetBonus: "{0}% increased damage resistance"
 			}
 
 			SteelPickaxe: {
@@ -16287,7 +16305,7 @@ Mods: {
 
 					Melee: {
 						Name: Melee Focus
-						Description: "{0}% increased damage reduction"
+						Description: "{0}% increased damage resistance"
 					}
 
 					Ranged: {
@@ -17889,8 +17907,8 @@ Mods: {
 				Tooltip: "'From another plane of existence'"
 			}
 
-			ValadiumFoeBlaster: {
-				DisplayName: Valadium Foe Blaster
+			ValadiumBlaster: {
+				DisplayName: Valadium Blaster
 				Tooltip: Damage burns enemies with interdimensional energy over time
 			}
 
@@ -18719,7 +18737,7 @@ Mods: {
 				}
 
 				MusicPlayerDamage.PrefixName: Screamo
-				MusicPlayerDamageReduction.PrefixName: Punk
+				MusicPlayerDamageResistance.PrefixName: Punk
 				MusicPlayerLifeRegen.PrefixName: Soul
 				MusicPlayerMovementSpeed.PrefixName: Funk
 				MusicPlayerNotActivated.DisplayName: Track Player
@@ -18736,7 +18754,7 @@ Mods: {
 				}
 
 				TunePlayerDamage.PrefixName: Metal
-				TunePlayerDamageReduction.PrefixName: Rock
+				TunePlayerDamageResistance.PrefixName: Rock
 				TunePlayerLifeRegen.PrefixName: Jazz
 				TunePlayerMovementSpeed.PrefixName: Disco
 			}
@@ -19085,7 +19103,7 @@ Mods: {
 				DisplayName: Snarky Gun
 				Tooltip:
 					'''
-					Turns musket balls into a variety of different eggs
+					Turns fired bullets into a variety of different eggs
 					Right click to swap between egg types
 					'''
 			}
@@ -19518,6 +19536,151 @@ Mods: {
 			StoneColumnWall: {
 				DisplayName: Stone Column Wall
 				Tooltip: ""
+			}
+
+			DumboOctopusStatue: {
+				DisplayName: Dumbo Octopus Statue
+				Tooltip: ""
+			}
+
+			LobsterStatue: {
+				DisplayName: Lobster Statue
+				Tooltip: ""
+			}
+
+			HeadSpinner: {
+				DisplayName: Head Spinner
+				Tooltip: Every five hits releases a spread of ichor
+			}
+
+			AlchemistBlock: {
+				DisplayName: Alchemist Block
+				Tooltip: ""
+			}
+
+			AlchemistPlatform: {
+				DisplayName: Alchemist Platform
+				Tooltip: ""
+			}
+
+			AlchemistWall: {
+				DisplayName: Alchemist Wall
+				Tooltip: ""
+			}
+
+			AlchemistBathtub: {
+				DisplayName: Alchemist Bathtub
+				Tooltip: ""
+			}
+
+			AlchemistBed: {
+				DisplayName: Alchemist Bed
+				Tooltip: ""
+			}
+
+			AlchemistBookcase: {
+				DisplayName: Alchemist Bookcase
+				Tooltip: ""
+			}
+
+			AlchemistCandelabra: {
+				DisplayName: Alchemist Candelabra
+				Tooltip: ""
+			}
+
+			AlchemistCandle: {
+				DisplayName: Alchemist Candle
+				Tooltip: ""
+			}
+
+			AlchemistChair: {
+				DisplayName: Alchemist Chair
+				Tooltip: ""
+			}
+
+			AlchemistChandelier: {
+				DisplayName: Alchemist Chandelier
+				Tooltip: ""
+			}
+
+			AlchemistClock: {
+				DisplayName: Alchemist Clock
+				Tooltip: ""
+			}
+
+			AlchemistCup: {
+				DisplayName: Alchemist Cup
+				Tooltip: ""
+			}
+
+			AlchemistDoor: {
+				DisplayName: Alchemist Door
+				Tooltip: ""
+			}
+
+			AlchemistDresser: {
+				DisplayName: Alchemist Dresser
+				Tooltip: ""
+			}
+
+			AlchemistLamp: {
+				DisplayName: Alchemist Lamp
+				Tooltip: ""
+			}
+
+			AlchemistLantern: {
+				DisplayName: Alchemist Lantern
+				Tooltip: ""
+			}
+
+			AlchemistPiano: {
+				DisplayName: Alchemist Piano
+				Tooltip: ""
+			}
+
+			AlchemistSink: {
+				DisplayName: Alchemist Sink
+				Tooltip: ""
+			}
+
+			AlchemistSofa: {
+				DisplayName: Alchemist Sofa
+				Tooltip: ""
+			}
+
+			AlchemistTable: {
+				DisplayName: Alchemist Table
+				Tooltip: ""
+			}
+
+			AlchemistToilet: {
+				DisplayName: Alchemist Toilet
+				Tooltip: ""
+			}
+
+			AlchemistWorkbench: {
+				DisplayName: Alchemist Workbench
+				Tooltip: ""
+			}
+
+			AlchemistChest: {
+				DisplayName: Alchemist Chest
+				Tooltip: ""
+			}
+
+			CrowCage: {
+				DisplayName: Crow Cage
+				Tooltip: ""
+			}
+
+			CrowStatue: {
+				DisplayName: Crow Statue
+				Tooltip: ""
+			}
+
+			Salivation: {
+				DisplayName: Salivation
+				Tooltip: Every five hits releases a spread of cursed flame
 			}
 		}
 
@@ -20075,6 +20238,11 @@ Mods: {
 			CrownofThorns: {
 				DisplayName: Crown of Thorns
 				BestiaryFlavorText: Residing on the floors of the depths, a single sting from one of these starfish can spell doom to many.
+			}
+
+			Crow: {
+				DisplayName: Crow
+				BestiaryFlavorText: Despite its gloomy surroundings, this bird is simply looking for food.
 			}
 
 			DumboOctopus: {
@@ -21236,7 +21404,9 @@ Mods: {
 			BoomCorrosive.DisplayName: Corrosion
 			BoomNitrogen.DisplayName: Nitrogen
 			BoomPlasma.DisplayName: Plasma
-			BoreanFangStaffPro.DisplayName: Borean Fang Staff Pro
+			BoreanFangStaffPro.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro2.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro3.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
 			AbyssalStrike.DisplayName: Abyssal Strike
 			AbyssalStrike2.DisplayName: Abyssal Strike2
 			ForgottenOneSpit.DisplayName: Forgotten One's Spit
@@ -21390,7 +21560,6 @@ Mods: {
 			CharonsBeaconPro.DisplayName: Charons Beacon Pro
 			ChlorophyteBolt.DisplayName: Chlorophyte Bolt
 			ChlorophyteCloud.DisplayName: Chlorophyte Cloud
-			CinderShot.DisplayName: Cinder Shot
 			ClimbersIceAxePro.DisplayName: Climber's Ice Axe
 			ClimbersIceAxePro2.DisplayName: Climber's Ice Axe
 			ClockWorkBombPro.DisplayName: Clock Work Bomb Pro
@@ -21414,7 +21583,6 @@ Mods: {
 			CoralPolearmPro3.DisplayName: Coral Polearm Pro3
 			CoralSlasherPro.DisplayName: Coral Slasher Pro
 			CorrosionBeakerPro.DisplayName: Corrosion Beaker Pro
-			CorruptionSpark.DisplayName: Corruption Spark
 			CrashSurge.DisplayName: Crash Surge
 			CryoFangProQuick.DisplayName: Cryo-Fang
 			Crystal.DisplayName: Crystal
@@ -21617,7 +21785,8 @@ Mods: {
 			GoldenLocksPro4.DisplayName: Golden Locks
 			GolemsGazePro.DisplayName: Golems Gaze Pro
 			GolemsGazePro2.DisplayName: Golems Gaze Pro2
-			GorgonsEyePro.DisplayName: Gorgons Eye Pro
+			GorgonsEyePro.DisplayName: "{$Items.GorgonsEye.DisplayName}"
+			GorgonsEyePro2.DisplayName: "{$Items.GorgonsEye.DisplayName}"
 			GraniteArrowPro.DisplayName: Granite Arrow Pro
 			GraniteBarrier.DisplayName: Granite Barrier
 			GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
@@ -21892,7 +22061,6 @@ Mods: {
 			LegacyPro.DisplayName: Legacy Pro
 			LegionOrnamentPro.DisplayName: Legion Ornament
 			LegionOrnamentShard.DisplayName: Legion Ornament Shard
-			LifeLight.DisplayName: Life Light
 			LightBolt.DisplayName: Light Bolt
 			Lightning.DisplayName: Lightning
 			LightStrike.DisplayName: Light Strike
@@ -21916,7 +22084,6 @@ Mods: {
 			LootRangPro.DisplayName: Loot-a-Rang
 			LovegunPro.DisplayName: Lovegun Pro
 			MageHandPro.DisplayName: Mage Hand Pro
-			MagickStaffPro.DisplayName: Magick Staff Pro
 			MagicThorHammerPro.DisplayName: Magic Thor Hammer Pro
 			MantisPunchPro.DisplayName: Mantis Shrimp Punch
 			MantisPunchPro2.DisplayName: Mantis Shrimp Punch
@@ -22101,7 +22268,6 @@ Mods: {
 			NightStarTrue2.DisplayName: Night Star True2
 			NightStarTrueImpact.DisplayName: Night Star True Impact
 			NitrogenVialPro.DisplayName: Nitrogen Vial Pro
-			NocturnalPro.DisplayName: Nocturnal Pro
 			NorthernLightPro0.DisplayName: Northern Light Pro0
 			NorthernLightPro1.DisplayName: Northern Light Pro1
 			NovaRiflePro.DisplayName: Nova Rifle Pro
@@ -22117,14 +22283,9 @@ Mods: {
 			OldGodsVisionPro.DisplayName: Old God's Vision
 			OldGodsVisionPro2.DisplayName: Old God's Vision
 			OmegaBeam.DisplayName: Omega Beam
-			OmegaBlast.DisplayName: Omega Blast
-			OmegaBoom.DisplayName: Omega Boom
 			OmniArrow.DisplayName: Omnicide Arrow
 			OmniArrow2.DisplayName: Omnicide Arrow
 			OmniArrow3.DisplayName: Omnicide Arrow
-			OmniBoom.DisplayName: Omni Boom
-			OmniBurst.DisplayName: Omni Burst
-			OmniBurstDamage.DisplayName: Omni Burst Damage
 			AssassinArmorSetPro.DisplayName: Assassin Armor Set Pro
 			OpalHookPro.DisplayName: Opal Hook Pro
 			OpalStaffPro.DisplayName: Opal Staff Pro
@@ -22191,8 +22352,6 @@ Mods: {
 			PhantomCameraPro2.DisplayName: Phantom Camera Pro2
 			PhaseDartPro.DisplayName: Phase Dart Pro
 			PiercePro.DisplayName: Pierce Pro
-			PlasmaBlast.DisplayName: Plasma Blast
-			PlasmaShot.DisplayName: Plasma Shot
 			PlasmaStaffPro.DisplayName: Plasma Staff Pro
 			PlasmaStaffPro2.DisplayName: Plasma Staff Pro2
 			PlasmaStaffPro3.DisplayName: Plasma Staff Pro3
@@ -22244,7 +22403,6 @@ Mods: {
 			SandStoneSpearPro.DisplayName: Sand Stone Spear Pro
 			SandStorm.DisplayName: Sand Storm
 			SandweaversTiaraPro.DisplayName: Sandweavers Tiara Pro
-			SanguinePro.DisplayName: Sanguine Pro
 			ScalperDagger.DisplayName: Scalper Dagger
 			SchmelzePro.DisplayName: Schmelze Pro
 			ScorpainPro.DisplayName: Scorpain Pro
@@ -22297,7 +22455,6 @@ Mods: {
 			ShockRiflePro.DisplayName: Shock Rifle Pro
 			ShockRiflePro2.DisplayName: Shock Rifle Pro2
 			ShockRiflePro3.DisplayName: Shock Rifle Pro3
-			Shockwave.DisplayName: Shockwave
 			ShootingStarDrillPro.DisplayName: Shooting Star Drill
 			ShroomBolt.DisplayName: Shroom Bolt
 			ShroomiteRocketDrillPro.DisplayName: Shroomite Rocket-Drill
@@ -22627,7 +22784,8 @@ Mods: {
 			WondrousWandPro5.DisplayName: Wondrous Wand Pro5
 			WrithingSheathPro.DisplayName: Void Blade
 			WyrmDecimatorPro.DisplayName: Wyrm Decimator Pro
-			WyvernSlayerPro.DisplayName: Wyvern Slayer Pro
+			WyvernSlayerPro.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
+			WyvernSlayerPro2.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
 			YakaArrowPro.DisplayName: Yaka Arrow Pro
 			YewVisual.DisplayName: Yew Visual
 			YewWoodShrapnelPro.DisplayName: Yew Wood Shrapnel
@@ -22725,6 +22883,18 @@ Mods: {
 			WallChickenPro.DisplayName: Wall Chicken
 			ParticleWhipPro2.DisplayName: "{$Items.ParticleWhip.DisplayName}"
 			FrostPlagueStaffPro.DisplayName: "{$Items.FrostPlagueStaff.DisplayName}"
+			HeadSpinnerPro.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			HeadSpinnerPro2.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			LucidCutterPro.DisplayName: Lucid Cutter
+			SalivationPro.DisplayName: "{$Items.Salivation.DisplayName}"
+			SalivationPro2.DisplayName: "{$Items.Salivation.DisplayName}"
+			CinderStringPro.DisplayName: "{$Items.CinderString.DisplayName}"
+			OmniCannonPro.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro2.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro3.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro4.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmegaPro2.DisplayName: Omega Pro2
+			LodestoneSluggerPro.DisplayName: Lodestone Slugger
 		}
 
 		Tiles: {
@@ -23086,12 +23256,17 @@ Mods: {
 				}
 
 				ShowDRShieldIcon: {
-					Label: Show Damage Reduction Shield
-					Tooltip: Toggle the display of the damage reduction icon
+					Label: Show Damage Resistance Shield
+					Tooltip: Toggle the display of the damage resistance icon
+				}
+
+				DRShieldDisplayStyle: {
+					Label: Damage Resistance Shield Display Style
+					Tooltip: Whether the damage resistance icons displays damage taken or total damage resistance
 				}
 
 				DRShieldOffsetY: {
-					Label: Damage Reduction Shield Y Offset
+					Label: Damage Resistance Shield Y Offset
 					Tooltip: ""
 				}
 
@@ -23272,6 +23447,20 @@ Mods: {
 					ToggleAllOff: Toggle All Off
 				}
 			}
+
+			DRShieldDisplayStyle: {
+				Tooltip: ""
+
+				DamageTaken: {
+					Label: Damage Taken
+					Tooltip: ""
+				}
+
+				TotalDamageResistance: {
+					Label: Total Damage Resistance
+					Tooltip: ""
+				}
+			}
 		}
 
 		RecipeGroups.Any: "{0} {1}"
@@ -23344,16 +23533,20 @@ Mods: {
 
 			ExhaustionBar.Exhausted: Some throwing items are now much weaker
 			HellfireMinigunGauge.Overloaded: Too hot!
+			Tracker.ContractCompletedNotification: Tracker contract completed: {0}
 
 			InformationalIcons: {
-				Endurance: {
+				DamageResistance: {
 					Text:
 						'''
-						Total: {0}% damage reduction
-						Vanilla: {1}%
-						Thorium: {2}%
+						{0}x Damage Taken
+						Damage is reduced by {1}%, then divided by {2}%
 						'''
-					Extra: ({0}% before cap)
+					TextAlt:
+						'''
+						{0}% Total Damage Resistance
+						Damage is reduced by {1}%, then divided by {2}%
+						'''
 				}
 
 				Healer: {
