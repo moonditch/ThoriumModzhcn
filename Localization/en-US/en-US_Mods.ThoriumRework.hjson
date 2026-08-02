@@ -460,15 +460,18 @@ Projectiles: {
 	BlackHole.DisplayName: Black Hole
 	BubbleBomb.DisplayName: Big Bubble Bomb
 	BubbleColumn.DisplayName: Bubble Column
+	BuriedArrowE.DisplayName: Arrow
 	ChampionBomber.DisplayName: Magical Burst
 	ChampionBomberF.DisplayName: Magical Burst
 	ChampionShield.DisplayName: Champion's Rebuttal
 	ChampionSlash.DisplayName: Champion's Swift Blade
 	ChampionSlice.DisplayName: Buried Shock
 	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsDagger.DisplayName: Buried Dagger
 	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeCloneH.DisplayName: Champion's Swift Blade
 	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
 	ChampionWarHorn.DisplayName: Champion's Warhorn
 	ChironsCure.DisplayName: Chiron's Cure
@@ -496,6 +499,7 @@ Projectiles: {
 	EradicationRay.DisplayName: Eradication Ray
 	EraserLaser.DisplayName: Eraser Laser
 	ExtinctionRay.DisplayName: Extinction Ray
+	FallingSand.DisplayName: Falling Piece of Fulgurite
 	FalseBeholder.DisplayName: False Beholder
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
@@ -616,7 +620,6 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -699,6 +702,15 @@ Items: {
 			'''
 			Throws tiny soul eaters that enrages after some distance
 			While enraged, they pierce indefinitely and can hit the same target multple times
+			'''
+	}
+
+	DuelistSheath: {
+		DisplayName: Duelist Sheath
+		Tooltip:
+			'''
+			Swords strike critically for {0}% if held and not used for {1} seconds
+			Getting hit or landing a critical strike increases melee attack speed and critical strike chance for {1} seconds
 			'''
 	}
 
@@ -1453,8 +1465,12 @@ Configs: {
 				'''
 				Multiplies the movement speed of Thorium's bosses by this amount
 				Limited to 2x speed as any higher breaks bosses
-				1.35x is recommended for Infernum
 				'''
+		}
+
+		sheathFix: {
+			Label: Sheath Fixes and Improvements
+			Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords
 		}
 
 		terraItemsFix: {

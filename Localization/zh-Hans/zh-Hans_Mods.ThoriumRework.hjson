@@ -460,15 +460,18 @@ Projectiles: {
 	BlackHole.DisplayName: 黑洞
 	BubbleBomb.DisplayName: 大泡泡炸弹
 	BubbleColumn.DisplayName: 泡泡柱
+	BuriedArrowE.DisplayName: 箭头
 	ChampionBomber.DisplayName: 魔法爆弹
 	ChampionBomberF.DisplayName: 魔法爆弹
 	ChampionShield.DisplayName: 英灵的反击之盾
 	ChampionSlash.DisplayName: 英灵的迅捷锋刃
 	ChampionSlice.DisplayName: 英灵剑气
 	ChampionSliceF.DisplayName: 英灵剑气
+	ChampionsDagger.DisplayName: 埋葬匕首
 	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
 	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
+	ChampionsSwiftBladeCloneH.DisplayName: 英灵的迅捷锋刃
 	ChampionsTrifectaShot.DisplayName: 英灵的三元圣弓
 	ChampionWarHorn.DisplayName: 英灵战号
 	ChironsCure.DisplayName: 喀戎之愈
@@ -496,6 +499,7 @@ Projectiles: {
 	EradicationRay.DisplayName: 湮灭激光
 	EraserLaser.DisplayName: 歼灭镭射
 	ExtinctionRay.DisplayName: 泯灭激光
+	FallingSand.DisplayName: 注视者的熔岩
 	FalseBeholder.DisplayName: 注视者假身
 	FalseSun.DisplayName: 伪日
 	FlareSlash.DisplayName: 怒火斩击
@@ -616,7 +620,6 @@ Projectiles: {
 	VoidEyeF.DisplayName: 注视者之刃
 	ZephyrFeather.DisplayName: 疾风之羽
 	ZephyrsRuin.DisplayName: 疾风残垣
-	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -699,6 +702,15 @@ Items: {
 			'''
 			投掷迷你噬魂怪，迷你噬魂怪会在飞行一段距离后进入狂暴状态
 			狂暴状态下，噬魂怪可以无限穿透，并多次攻击同一目标
+			'''
+	}
+
+	DuelistSheath: {
+		DisplayName: 决斗者剑鞘
+		Tooltip:
+			'''
+			如果手持且不使用 {1} 后未进行攻击会在下一次挥剑将造成 {0}% 暴击伤害
+			受到攻击或造成暴击后，近战攻击速度与暴击率将提升，持续 {1} 秒
 			'''
 	}
 
@@ -1406,7 +1418,7 @@ Configs: {
 		}
 
 		starScouterEnrageText: {
-			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text星际监察者能量愤怒文本"
+			Label: "[i:ThoriumMod/StarScouterMask]星际监察者能量愤怒文本"
 			Tooltip:
 				'''
 				是否显示星际监察者被激怒的文本弹窗
@@ -1415,7 +1427,7 @@ Configs: {
 		}
 
 		starScouterEnrageVisuals: {
-			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals星际侦察兵激怒视觉"
+			Label: "[i:ThoriumMod/StarScouterMask]星际侦察兵激怒视觉"
 			Tooltip:
 				'''
 				星际监察者被激怒时是否为红色
@@ -1453,8 +1465,12 @@ Configs: {
 				'''
 				让瑟银的boss的速度乘以当前数值
 				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
-				灾厄炼狱模组推荐使用1.35倍速度
 				'''
+		}
+
+		sheathFix: {
+			Label: 盔甲修复和改进
+			Tooltip: 修复了一些与刀鞘相关的不一致问题，并允许他们在更多剑上工作
 		}
 
 		terraItemsFix: {
