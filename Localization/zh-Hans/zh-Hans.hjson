@@ -18140,8 +18140,8 @@ Mods: {
 				Tooltip: “来自另一个存在的平面”
 			}
 
-			ValadiumFoeBlaster: {
-				DisplayName: 虚金破敌枪
+			ValadiumBlaster: {
+				DisplayName: 虚金爆破枪
 				Tooltip: 次元能量随时间灼烧伤害敌怪
 			}
 
