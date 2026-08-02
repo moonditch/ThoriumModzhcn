@@ -1,7 +1,7 @@
 displayName = Chinese Translation Patch for Thorium & Thorium Addons
 displayName.zh-Hans = 瑟银&更多附属汉化补丁(繁体暂时停更)
 author = Flandre Scarlet & @马达达马达 & 令 & 末泠 & Super_ego & 兹翼 & 终子星 & Ivybless & plantare & furgo & 狐萝卜 & 虞悖 & Yee苍棱 & 白狐狸 & 南亭  & 水星 & Listentowind  & 布丁
-version = 2026.6.29.0
+version = 2026.8.2.0
 translationMod = true
 side = NoSync
 hideResources = true
