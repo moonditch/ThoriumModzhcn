@@ -1,4 +1,4 @@
 StarBeamRyeBuff: {
-	// DisplayName: Star Beam Rye
-	// Description: Increased mana regeneration, reduced magic and radiant damage
+	DisplayName: 星界黑麦威士忌
+	Description: 魔力再生增加，但魔法和光辉伤害降低
 }

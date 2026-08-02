@@ -1,9 +1,9 @@
 StarBeamRye: {
-	// DisplayName: Star Beam Rye
-	/* Tooltip:
+	DisplayName: 星界黑麦威士忌
+	Tooltip:
 		'''
-		Increases Mana regeneration, even while using an item
-		Magic and Radiant weapons deal {0}x damage
+		增加魔力再生，即使在使用物品时也是如此
+		魔法和光辉武器的伤害乘 {0}x 
 		{$Common.AlcoholWarning}
-		''' */
+		'''
 }
