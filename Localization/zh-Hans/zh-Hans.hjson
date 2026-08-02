@@ -779,11 +779,6 @@ Mods: {
 				Description: 防御和移动速度降低
 			}
 
-			MagickStaffDebuff: {
-				DisplayName: 元素衰变
-				Description: 被微量泰拉元素所撕裂
-			}
-
 			MasterMarksmansScouterDebuff: {
 				DisplayName: 全景视觉
 				Description: 这个敌人就在刺客的视线之内
@@ -1646,7 +1641,17 @@ Mods: {
 
 			HarpyStaffBuff: {
 				DisplayName: 鸟妖法杖增益
-				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
+				Description: NULL
+			}
+
+			SnarkyGunFireDebuff: {
+				DisplayName: 火爆枪 - 火
+				Description: 正在累积严重的灼伤
+			}
+
+			SnarkyGunIceDebuff: {
+				DisplayName: 火爆枪 - 冰
+				Description: NULL
 			}
 		}
 
@@ -2179,6 +2184,12 @@ Mods: {
 			ColdlingBanner.DisplayName: 冰冻棘虫旗
 			CoolmeraBanner.DisplayName: 冰冻飞虫旗
 			CrownofThornsBanner.DisplayName: 铁海棠旗
+
+			Crow: {
+				DisplayName: 乌鸦
+				Tooltip: ""
+			}
+
 			DarksteelKnightBanner.DisplayName: 暗钢骑士旗
 			DissonanceSeerBanner.DisplayName: 混沌预言者旗
 			EarthenBatBanner.DisplayName: 大地蝙蝠旗
@@ -3943,7 +3954,11 @@ Mods: {
 
 			BoreanFangStaff: {
 				DisplayName: 寒牙法杖
-				Tooltip: 释放一排冻结之牙
+				Tooltip:
+					'''
+					伤害敌怪会生成冰碎片
+					右键将所有储存的冰碎片发射向你光标下的敌怪
+					'''
 			}
 
 			BoreanStriderMask: {
@@ -4074,7 +4089,11 @@ Mods: {
 
 			GorgonsEye: {
 				DisplayName: 蛇发女妖之眼
-				Tooltip: 短暂石化击中的敌怪
+				Tooltip:
+					'''
+					造成伤害会石化击中的敌怪并开始用石头包裹悠悠球
+					当完全包裹时，向下投掷悠悠球会释放巨石
+					'''
 			}
 
 			ArcanePotion: {
@@ -7441,7 +7460,7 @@ Mods: {
 				Tooltip:
 					'''
 					“要说那是把剑，那未免也太大了，那简直就是铁块”
-					左键释放被增幅的冲击波
+					左键释放一阵冲击波
 					右键以极大的力量将剑前刺
 					'''
 			}
@@ -7701,7 +7720,7 @@ Mods: {
 
 			MagickStaff: {
 				DisplayName: 魔学法杖
-				Tooltip: 产生不断变动的元素矢
+				Tooltip: 快速发射不断变动的魔法矢
 			}
 
 			ManaBauble: {
@@ -7715,7 +7734,7 @@ Mods: {
 
 			Pierce: {
 				DisplayName: 穿刺术
-				Tooltip: 产生一道沉重且穿透的魔法矢
+				Tooltip: 产生一道穿透敌怪的魔法矢
 			}
 
 			Poison: {
@@ -9255,7 +9274,7 @@ Mods: {
 				Tooltip:
 					'''
 					用短时存在的羽毛屏障环绕队友
-					右键用屏障环绕自身
+					右键则用屏障环绕自身
 					'''
 			}
 
@@ -10811,9 +10830,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LodeStoneQuickDraw: {
-				DisplayName: 地脉速射枪
-				Tooltip: 对敌怪造成伤害会剥离它们，它们所受伤害增加10%
+			LodestoneSlugger: {
+				DisplayName: 地脉重机枪
+				Tooltip: 发射弹片，弹片会剥离敌怪，让它们所受伤害增加10%
 			}
 
 			LodeStoneShinGuards: {
@@ -11195,11 +11214,6 @@ Mods: {
 					'''
 			}
 
-			Nocturnal: {
-				DisplayName: 梦魇
-				Tooltip: 击中敌怪后可能会释放追踪的“黑光”
-			}
-
 			PinkPhaseblade: {
 				DisplayName: 粉陨石光剑
 				Tooltip: ""
@@ -11208,11 +11222,6 @@ Mods: {
 			PinkPhasesaber: {
 				DisplayName: 粉晶光刃
 				Tooltip: ""
-			}
-
-			Sanguine: {
-				DisplayName: 血色之护
-				Tooltip: 击中敌怪后可能会释放追踪的“生命之光”
 			}
 
 			SolScorchedSlab: {
@@ -15647,8 +15656,8 @@ Mods: {
 				Tooltip: 将木箭转化为一片火焰
 			}
 
-			CobaltPopper: {
-				DisplayName: 钴蓝枪
+			CobaltRevolver: {
+				DisplayName: 钴蓝手枪
 				Tooltip: ""
 			}
 
@@ -15704,9 +15713,13 @@ Mods: {
 					'''
 			}
 
-			MyceliumGattlingGun: {
-				DisplayName: 真菌加特林
-				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+			ShroomachineGun: {
+				DisplayName: 蘑菇机枪
+				Tooltip:
+					'''
+					将火枪子弹转化为纳米弹
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
+					'''
 			}
 
 			MythrilPelter: {
@@ -15714,12 +15727,12 @@ Mods: {
 				Tooltip: ""
 			}
 
-			OrichalcumPelter: {
+			OrichalcumPopper: {
 				DisplayName: 山铜手枪
 				Tooltip: ""
 			}
 
-			PalladiumSubmachineGun: {
+			PalladiumSMG: {
 				DisplayName: 钯金冲锋枪
 				Tooltip: ""
 			}
@@ -19323,7 +19336,7 @@ Mods: {
 				DisplayName: 火爆枪
 				Tooltip:
 					'''
-					将火枪子弹转化为各种不同的蛋
+					将发射的子弹转化为各种不同的蛋
 					右键切换蛋的类型
 					'''
 			}
@@ -19760,6 +19773,151 @@ Mods: {
 			StoneColumnWall: {
 				DisplayName: 石柱墙
 				Tooltip: ""
+			}
+
+			DumboOctopusStatue: {
+				DisplayName: 小飞象章鱼雕像
+				Tooltip: ""
+			}
+
+			LobsterStatue: {
+				DisplayName: 龙虾雕像
+				Tooltip: ""
+			}
+
+			HeadSpinner: {
+				DisplayName: 旋首
+				Tooltip: 每五次命中会释放一阵灵液
+			}
+
+			AlchemistBlock: {
+				DisplayName: 炼金术士块
+				Tooltip: ""
+			}
+
+			AlchemistPlatform: {
+				DisplayName: 炼金术士平台
+				Tooltip: ""
+			}
+
+			AlchemistWall: {
+				DisplayName: 炼金术士墙
+				Tooltip: ""
+			}
+
+			AlchemistBathtub: {
+				DisplayName: 炼金术士浴缸
+				Tooltip: ""
+			}
+
+			AlchemistBed: {
+				DisplayName: 炼金术士床
+				Tooltip: ""
+			}
+
+			AlchemistBookcase: {
+				DisplayName: 炼金术士书架
+				Tooltip: ""
+			}
+
+			AlchemistCandelabra: {
+				DisplayName: 炼金术士烛台
+				Tooltip: ""
+			}
+
+			AlchemistCandle: {
+				DisplayName: 炼金术士蜡烛
+				Tooltip: ""
+			}
+
+			AlchemistChair: {
+				DisplayName: 炼金术士椅
+				Tooltip: ""
+			}
+
+			AlchemistChandelier: {
+				DisplayName: 炼金术士吊灯
+				Tooltip: ""
+			}
+
+			AlchemistClock: {
+				DisplayName: 炼金术士钟
+				Tooltip: ""
+			}
+
+			AlchemistCup: {
+				DisplayName: 炼金术士杯
+				Tooltip: ""
+			}
+
+			AlchemistDoor: {
+				DisplayName: 炼金术士门
+				Tooltip: ""
+			}
+
+			AlchemistDresser: {
+				DisplayName: 炼金术士梳妆台
+				Tooltip: ""
+			}
+
+			AlchemistLamp: {
+				DisplayName: 炼金术士灯
+				Tooltip: ""
+			}
+
+			AlchemistLantern: {
+				DisplayName: 炼金术士灯笼
+				Tooltip: ""
+			}
+
+			AlchemistPiano: {
+				DisplayName: 炼金术士钢琴
+				Tooltip: ""
+			}
+
+			AlchemistSink: {
+				DisplayName: 炼金术士水槽
+				Tooltip: ""
+			}
+
+			AlchemistSofa: {
+				DisplayName: 炼金术士沙发
+				Tooltip: ""
+			}
+
+			AlchemistTable: {
+				DisplayName: 炼金术士桌
+				Tooltip: ""
+			}
+
+			AlchemistToilet: {
+				DisplayName: 炼金术士马桶
+				Tooltip: ""
+			}
+
+			AlchemistWorkbench: {
+				DisplayName: 炼金术士工作台
+				Tooltip: ""
+			}
+
+			AlchemistChest: {
+				DisplayName: 炼金术士箱
+				Tooltip: ""
+			}
+
+			CrowCage: {
+				DisplayName: 乌鸦笼
+				Tooltip: ""
+			}
+
+			CrowStatue: {
+				DisplayName: 乌鸦雕像
+				Tooltip: ""
+			}
+
+			Salivation: {
+				DisplayName: 吐涎
+				Tooltip: 每五次命中会释放一阵诅咒焰
 			}
 		}
 
@@ -20317,6 +20475,11 @@ Mods: {
 			CrownofThorns: {
 				DisplayName: 铁海棠
 				BestiaryFlavorText: 栖息在深海底部，这些海星的第一次蛰伤会给很多人带来厄运。
+			}
+
+			Crow: {
+				DisplayName: 乌鸦
+				BestiaryFlavorText: 尽管周围环境阴森，但这只鸟只是在寻找食物而已。
 			}
 
 			DumboOctopus: {
@@ -21478,7 +21641,9 @@ Mods: {
 			BoomCorrosive.DisplayName: 毒云
 			BoomNitrogen.DisplayName: 液氮
 			BoomPlasma.DisplayName: 日炎云
-			BoreanFangStaffPro.DisplayName: 寒牙法杖
+			BoreanFangStaffPro.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro2.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro3.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
 			AbyssalStrike.DisplayName: 深渊尖刺
 			AbyssalStrike2.DisplayName: 深渊尖刺2
 			ForgottenOneSpit.DisplayName: 遗忘之主唾液
@@ -21632,7 +21797,6 @@ Mods: {
 			CharonsBeaconPro.DisplayName: 卡戎之信标
 			ChlorophyteBolt.DisplayName: 叶绿法弹
 			ChlorophyteCloud.DisplayName: 叶绿孢子云
-			CinderShot.DisplayName: 灰烬箭
 			ClimbersIceAxePro.DisplayName: 攀登者的破冰斧镐
 			ClimbersIceAxePro2.DisplayName: 攀登者的破冰斧镐
 			ClockWorkBombPro.DisplayName: 时域炸弹
@@ -21656,7 +21820,6 @@ Mods: {
 			CoralPolearmPro3.DisplayName: 珊瑚长柄戟3
 			CoralSlasherPro.DisplayName: 珊瑚刃
 			CorrosionBeakerPro.DisplayName: 腐蚀瓶
-			CorruptionSpark.DisplayName: 腐化火花
 			CrashSurge.DisplayName: 波浪撞击
 			CryoFangProQuick.DisplayName: 霜牙
 			Crystal.DisplayName: 晶体
@@ -21859,7 +22022,8 @@ Mods: {
 			GoldenLocksPro4.DisplayName: 灰烬天堂
 			GolemsGazePro.DisplayName: 石巨人之凝
 			GolemsGazePro2.DisplayName: 石巨人激光2
-			GorgonsEyePro.DisplayName: 蛇发女妖之眼
+			GorgonsEyePro.DisplayName: "{$Items.GorgonsEye.DisplayName}"
+			GorgonsEyePro2.DisplayName: "{$Items.GorgonsEye.DisplayName}"
 			GraniteArrowPro.DisplayName: 花岗岩箭矢
 			GraniteBarrier.DisplayName: 花岗岩屏障
 			GraniteControlRodBobber.DisplayName: 花岗岩操控杆浮标
@@ -22134,7 +22298,6 @@ Mods: {
 			LegacyPro.DisplayName: 遗赠
 			LegionOrnamentPro.DisplayName: 雪人挂饰
 			LegionOrnamentShard.DisplayName: 雪人挂饰碎片
-			LifeLight.DisplayName: 生命之光
 			LightBolt.DisplayName: 光矢
 			Lightning.DisplayName: 闪电
 			LightStrike.DisplayName: 雷击
@@ -22158,7 +22321,6 @@ Mods: {
 			LootRangPro.DisplayName: 收集回力镖
 			LovegunPro.DisplayName: 爱之枪
 			MageHandPro.DisplayName: 法师之手
-			MagickStaffPro.DisplayName: 魔学法杖
 			MagicThorHammerPro.DisplayName: 索尔之锤
 			MantisPunchPro.DisplayName: 螳螂虾之拳
 			MantisPunchPro2.DisplayName: 螳螂虾之拳
@@ -22343,7 +22505,6 @@ Mods: {
 			NightStarTrue2.DisplayName: 真·暗夜之星2
 			NightStarTrueImpact.DisplayName: 真·暗夜之星冲击
 			NitrogenVialPro.DisplayName: 液氮瓶
-			NocturnalPro.DisplayName: 梦魇
 			NorthernLightPro0.DisplayName: 极北天光0
 			NorthernLightPro1.DisplayName: 极北天光1
 			NovaRiflePro.DisplayName: 新星来福枪
@@ -22359,14 +22520,9 @@ Mods: {
 			OldGodsVisionPro.DisplayName: O旧神视域
 			OldGodsVisionPro2.DisplayName: 旧神视域
 			OmegaBeam.DisplayName: 欧米茄光束
-			OmegaBlast.DisplayName: 欧米茄爆弹
-			OmegaBoom.DisplayName: 欧米茄爆炸
 			OmniArrow.DisplayName: 噬元凶灾之矢
 			OmniArrow2.DisplayName: 噬元凶灾之矢
 			OmniArrow3.DisplayName: 噬元凶灾之矢
-			OmniBoom.DisplayName: 噬元凶灾爆炸
-			OmniBurst.DisplayName: 噬元凶灾爆发
-			OmniBurstDamage.DisplayName: 噬元凶灾爆发伤害
 			AssassinArmorSetPro.DisplayName: 刺客套装效果
 			OpalHookPro.DisplayName: 欧珀钩
 			OpalStaffPro.DisplayName: 欧珀法弹
@@ -22433,8 +22589,6 @@ Mods: {
 			PhantomCameraPro2.DisplayName: 幻影相机2
 			PhaseDartPro.DisplayName: 盈相飞镖
 			PiercePro.DisplayName: 穿刺术
-			PlasmaBlast.DisplayName: 等离子冲击
-			PlasmaShot.DisplayName: 等离子射击
 			PlasmaStaffPro.DisplayName: 等离子法杖
 			PlasmaStaffPro2.DisplayName: 等离子法杖2
 			PlasmaStaffPro3.DisplayName: 等离子法杖3
@@ -22486,7 +22640,6 @@ Mods: {
 			SandStoneSpearPro.DisplayName: 砂石矛
 			SandStorm.DisplayName: 沙尘暴
 			SandweaversTiaraPro.DisplayName: 沙海穿梭者头冠
-			SanguinePro.DisplayName: 血色之护
 			ScalperDagger.DisplayName: 回旋刃飞匕
 			SchmelzePro.DisplayName: 狱火熔炼
 			ScorpainPro.DisplayName: 鬼蝎
@@ -22539,7 +22692,6 @@ Mods: {
 			ShockRiflePro.DisplayName: 雷电重炮
 			ShockRiflePro2.DisplayName: 雷电重炮2
 			ShockRiflePro3.DisplayName: 雷电重炮3
-			Shockwave.DisplayName: 冲击波
 			ShootingStarDrillPro.DisplayName: 流影掠星钻头
 			ShroomBolt.DisplayName: 真菌弹
 			ShroomiteRocketDrillPro.DisplayName: 蘑菇火箭钻
@@ -22869,7 +23021,8 @@ Mods: {
 			WondrousWandPro5.DisplayName: 奥妙魔杖5
 			WrithingSheathPro.DisplayName: 虚空之刃
 			WyrmDecimatorPro.DisplayName: 斩龙剑之息
-			WyvernSlayerPro.DisplayName: 斩龙剑
+			WyvernSlayerPro.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
+			WyvernSlayerPro2.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
 			YakaArrowPro.DisplayName: 亚卡箭
 			YewVisual.DisplayName: 紫衫木视觉效果
 			YewWoodShrapnelPro.DisplayName: 紫衫木弹片l
@@ -22967,6 +23120,18 @@ Mods: {
 			WallChickenPro.DisplayName: 壁挂鸡
 			ParticleWhipPro2.DisplayName: "{$Items.ParticleWhip.DisplayName}"
 			FrostPlagueStaffPro.DisplayName: "{$Items.FrostPlagueStaff.DisplayName}"
+			HeadSpinnerPro.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			HeadSpinnerPro2.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			LucidCutterPro.DisplayName: 澄澈斩切
+			SalivationPro.DisplayName: "{$Items.Salivation.DisplayName}"
+			SalivationPro2.DisplayName: "{$Items.Salivation.DisplayName}"
+			CinderStringPro.DisplayName: "{$Items.CinderString.DisplayName}"
+			OmniCannonPro.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro2.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro3.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro4.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmegaPro2.DisplayName: 欧米茄2
+			LodestoneSluggerPro.DisplayName: 地脉重机枪
 		}
 
 		Tiles: {
@@ -23586,6 +23751,7 @@ Mods: {
 
 			ExhaustionBar.Exhausted: 一些投手物品现在更弱了
 			HellfireMinigunGauge.Overloaded: 太烫了！
+			Tracker.ContractCompletedNotification: 赏金猎人合同{0}已完成
 
 			InformationalIcons: {
 				Endurance: {
