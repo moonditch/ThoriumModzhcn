@@ -129,12 +129,6 @@ ItemDescriptions: {
 		Creates light slashes on a nearby enemy
 		Hit enemies will be illuminated and take 10% more damage
 		'''
-	CobaltPopper: Increases defense over time while being used
-	PalladiumSubmachineGun: Increases life regeneration over time while being used
-	MythrilPelter: Eventually doubles in attack speed while being used
-	OrichalcumPelter: Gradually increases attack speed over time while being used
-	AdamantiteCarbine: Increases crit chance over time while being used
-	TitaniumRifle: Increases armor penetration over time while being used
 	PyroclastStaff:
 		'''
 		Shoots a pattern of 1 to 5 pyroclastic fireballs
@@ -173,17 +167,12 @@ ItemDescriptions: {
 		Damage will sunder enemies, increasing the damage they take by 10%
 		Every third attack shoots magnetic payloads that home into sundered enemies
 		'''
-	LodeStoneQuickDraw:
-		'''
-		Damage will sunder enemies, increasing the damage they take by 10%
-		Every third attack shoots magnetic payloads that home into sundered enemies
-		'''
 	ValadiumBow:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
 		'''
-	ValadiumFoeBlaster:
+	ValadiumBlaster:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
@@ -1748,36 +1737,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		CobaltPopper: {
-			Label: "[i:ThoriumMod/CobaltPopper]Cobalt Popper"
-			Tooltip: ""
-		}
-
-		PalladiumSubmachineGun: {
-			Label: "[i:ThoriumMod/PalladiumSubmachineGun]Palladium Submachine Gun"
-			Tooltip: ""
-		}
-
-		MythrilPelter: {
-			Label: "[i:ThoriumMod/MythrilPelter]Mythril Pelter"
-			Tooltip: ""
-		}
-
-		OrichalcumPelter: {
-			Label: "[i:ThoriumMod/OrichalcumPelter]Orichalcum Pelter"
-			Tooltip: ""
-		}
-
-		AdamantiteCarbine: {
-			Label: "[i:ThoriumMod/AdamantiteCarbine]Adamantite Carbine"
-			Tooltip: ""
-		}
-
-		TitaniumRifle: {
-			Label: "[i:ThoriumMod/TitaniumRifle]Titanium Rifle"
-			Tooltip: ""
-		}
-
 		HellishHalberd: {
 			Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
 			Tooltip: ""
@@ -1808,11 +1767,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		LodeStoneQuickDraw: {
-			Label: "[i:ThoriumMod/LodeStoneQuickDraw]Lodestone Quickdraw"
-			Tooltip: ""
-		}
-
 		LodeStoneClaymore: {
 			Label: "[i:ThoriumMod/LodeStoneClaymore]Lodestone Claymore"
 			Tooltip: ""
@@ -1823,8 +1777,8 @@ Configs: {
 			Tooltip: ""
 		}
 
-		ValadiumFoeBlaster: {
-			Label: "[i:ThoriumMod/ValadiumFoeBlaster]Valadium Foe Blaster"
+		ValadiumBlaster: {
+			Label: "[i:ThoriumMod/ValadiumBlaster]Valadium Blaster"
 			Tooltip: ""
 		}
 
@@ -1950,11 +1904,6 @@ Configs: {
 		IllumiteScythe: {
 			Label: "[i:ThoriumMod/IllumiteScythe]Illumite Scythe"
 			Tooltip: ""
-		}
-
-		FallenPaladinArmor: {
-			Label: "[i:ThoriumMod/FallenPaladinCuirass]Fallen Paladin Armor"
-			Tooltip: This is a nerf, this armor set is stupid broken
 		}
 
 		TerrariumHolyScythe: {

@@ -129,12 +129,6 @@ ItemDescriptions: {
 		对附近的敌人释放荧光刃砍
 		被击中的敌人赋予荧光效果，并受到10%的伤害
 		'''
-	CobaltPopper: 使用过程中增加防御力
-	PalladiumSubmachineGun: 使用过程中增加生命再生
-	MythrilPelter: 使用一段时间后攻击速度会翻倍
-	OrichalcumPelter: 随着时间的推移逐渐增加攻击速度
-	AdamantiteCarbine: 使用过程中增加暴击率
-	TitaniumRifle: 使用过程中增加护甲穿透
 	PyroclastStaff:
 		'''
 		发射1到5个火焰光束
@@ -173,17 +167,12 @@ ItemDescriptions: {
 		对敌怪造成伤害会剥离它们，它们所受伤害增加10%
 		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
 		'''
-	LodeStoneQuickDraw:
-		'''
-		对敌怪造成伤害会剥离它们，它们所受伤害增加10%
-		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
-		'''
 	ValadiumBow:
 		'''
 		攻击时用虚空能量诅咒敌人
 		每3次攻击使用用虚空激光攻击，诅咒的敌人
 		'''
-	ValadiumFoeBlaster:
+	ValadiumBlaster:
 		'''
 		攻击时用虚空能量诅咒敌人
 		每3次攻击使用用虚空激光攻击，诅咒的敌人
@@ -637,7 +626,7 @@ Items: {
 
 	BandofCratonsCosmetic: {
 		DisplayName: 古陆核之带
-		Tooltip: '''“非常耐用，甚至能承受大陆漂移的伟力”'''
+		Tooltip: “非常耐用，甚至能承受大陆漂移的伟力”
 	}
 
 	BannerofWar: {
@@ -1010,7 +999,7 @@ Items: {
 
 	QueenJellyPinCosmetic: {
 		DisplayName: 皇后饰针
-		Tooltip: '''“看！在你头旁边！”'''
+		Tooltip: “看！在你头旁边！”
 	}
 
 	PickShapedPebble: {
@@ -1124,7 +1113,7 @@ Items: {
 
 	StarScoutReticleCosmetic: {
 		DisplayName: 银河侦察护罩
-		Tooltip: '''“怕黑？不用怕，有我在！”'''
+		Tooltip: “怕黑？不用怕，有我在！”
 	}
 
 	StellarTune: {
@@ -1677,7 +1666,7 @@ Configs: {
 
 	ItemReworksConfig: {
 		DisplayName: 物品重置/增益转换
-		
+
 		showItemReworks: {
 			Label: 显示重置物品
 			Tooltip:
@@ -1748,36 +1737,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		CobaltPopper: {
-			Label: "[i:ThoriumMod/CobaltPopper] {$Mods.ThoriumMod.Items.CobaltPopper.DisplayName}"
-			Tooltip: ""
-		}
-
-		PalladiumSubmachineGun: {
-			Label: "[i:ThoriumMod/PalladiumSubmachineGun] {$Mods.ThoriumMod.Items.PalladiumSubmachineGun.DisplayName}"
-			Tooltip: ""
-		}
-
-		MythrilPelter: {
-			Label: "[i:ThoriumMod/MythrilPelter] {$Mods.ThoriumMod.Items.MythrilPelter.DisplayName}"
-			Tooltip: ""
-		}
-
-		OrichalcumPelter: {
-			Label: "[i:ThoriumMod/OrichalcumPelter] {$Mods.ThoriumMod.Items.OrichalcumPelter.DisplayName}"
-			Tooltip: ""
-		}
-
-		AdamantiteCarbine: {
-			Label: "[i:ThoriumMod/AdamantiteCarbine] {$Mods.ThoriumMod.Items.AdamantiteCarbine.DisplayName}"
-			Tooltip: ""
-		}
-
-		TitaniumRifle: {
-			Label: "[i:ThoriumMod/TitaniumRifle] {$Mods.ThoriumMod.Items.TitaniumRifle.DisplayName}"
-			Tooltip: ""
-		}
-
 		HellishHalberd: {
 			Label: "[i:ThoriumMod/HellishHalberd]{$Mods.ThoriumMod.Items.HellishHalberd.DisplayName}"
 			Tooltip: ""
@@ -1808,11 +1767,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		LodeStoneQuickDraw: {
-			Label: "[i:ThoriumMod/LodeStoneQuickDraw] {$Mods.ThoriumMod.Items.LodeStoneQuickDraw.DisplayName}"
-			Tooltip: ""
-		}
-
 		LodeStoneClaymore: {
 			Label: "[i:ThoriumMod/LodeStoneClaymore] {$Mods.ThoriumMod.Items.LodeStoneClaymore.DisplayName}"
 			Tooltip: ""
@@ -1823,8 +1777,8 @@ Configs: {
 			Tooltip: ""
 		}
 
-		ValadiumFoeBlaster: {
-			Label: "[i:ThoriumMod/ValadiumFoeBlaster] {$Mods.ThoriumMod.Items.ValadiumFoeBlaster.DisplayName}"
+		ValadiumBlaster: {
+			Label: "[i:ThoriumMod/ValadiumBlaster] {$Mods.ThoriumMod.Items.ValadiumBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1950,11 +1904,6 @@ Configs: {
 		IllumiteScythe: {
 			Label: "[i:ThoriumMod/IllumiteScythe] {$Mods.ThoriumMod.Items.IllumiteScythe.DisplayName}"
 			Tooltip: ""
-		}
-
-		FallenPaladinArmor: {
-			Label: "[i:ThoriumMod/FallenPaladinCuirass]堕落圣骑士盔甲"
-			Tooltip: 这是个削弱，这sb盔甲太超模了
 		}
 
 		TerrariumHolyScythe: {
