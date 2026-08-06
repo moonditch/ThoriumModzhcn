@@ -1,0 +1,317 @@
+Items: {
+	AquamarineCandelabra: {
+		DisplayName: Aquamarine Candelabra
+		Tooltip: ""
+	}
+
+	AshSeason: {
+		DisplayName: Ash Season
+		Tooltip: Throw a barrage of wooden hammers
+	}
+
+	ColdSnap: {
+		DisplayName: Cold Snap
+		Tooltip: Creates explosive snaps that has a chance to freeze enemies
+	}
+
+	Iceball: {
+		DisplayName: Vanilla Iceball
+		Tooltip:
+			'''
+			Hold <left> to charge up a frost bomb
+			The longer it is held, the more damage it deals and the sooner it explodes
+			Explosions are bigger the slower the bomb was moving before exploding
+			"Fun prank to use on your friends! (If you have one)"
+			'''
+	}
+
+	MaceofCaptivity: {
+		DisplayName: Mace of Captivity
+		Tooltip: Summon three Spirits of Captivity to rapidly flail forward
+	}
+
+	OpalCandelabra: {
+		DisplayName: Opal Candelabra
+		Tooltip: ""
+	}
+
+	ThoriumClaymore: {
+		DisplayName: Thorium Claymore
+		Tooltip:
+			'''
+			Increases heavy melee speed on each third hit
+			While Poised Stance is active, this sword emits shockwaves
+			'''
+	}
+
+	ThoriumRacquet: {
+		DisplayName: Thorium Racquet
+		Tooltip: Conjure a ball made out of solid Thorium which causes explosions wherever it bounces
+	}
+
+	Wildfire: {
+		DisplayName: Wildfire
+		Tooltip: Accumulate [c/e69138:sound of fire] to unleash powerful beats.
+	}
+
+	WitchAquamarineHat: {
+		DisplayName: Aquamarine Hat
+		Tooltip: "{$Mods.Split.Items.WitchAmethystHat.Tooltip}"
+	}
+
+	WitchOpalHat: {
+		DisplayName: Opal Hat
+		Tooltip: "{$Mods.Split.Items.WitchAmethystHat.Tooltip}"
+	}
+
+	CarmenMortis: {
+		DisplayName: Carmen Mortis
+		Tooltip:
+			'''
+			Successfully timing hits will steadily increase its empowerment level and builds [fx/eb:Ethereal Bond]
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			'''
+	}
+
+	TerrariumMoonJuggler: {
+		DisplayName: Terrarium Moon Juggler
+		Tooltip:
+			'''
+			Summons three mini moons that can be tossed
+			<right> to compress all three moons into one big moon
+			'''
+	}
+
+	TerrariumPlanetCleaver: {
+		DisplayName: Terrarium Planet Cleaver
+		Tooltip:
+			'''
+			Each fourth swing will snip a planet-cutting beam at enemies
+			<right> to parry enemy attacks
+			Parrying at the perfect moment will release a shockwave and enhance next hits
+			'''
+	}
+
+	AllStar: {
+		DisplayName: All Star
+		Tooltip: By (Not) Una Nancy Owen
+	}
+
+	Friendzoned: {
+		DisplayName: Friendzoned
+		Tooltip:
+			'''
+			"She's not into you bro [i:314]"
+			By (Not) Una Nancy Owen
+			'''
+	}
+
+	Xylobone: {
+		DisplayName: Xylobone
+		Tooltip: Summons bone serpents from below that rapidly rise upward
+	}
+
+	TitanRacquet: {
+		DisplayName: Titan Racquet
+		Tooltip:
+			'''
+			Conjure a heavy ball that explodes on impact with the ground
+			Critical strikes will deal additional damage
+			'''
+	}
+
+	TitanSkullCrusher: {
+		DisplayName: Titan Skull Crusher
+		Tooltip:
+			'''
+			Causes a powerful watery explosion on critical strikes
+			Critical strikes will deal additional damage
+			'''
+	}
+
+	CheeseBall: {
+		DisplayName: Cheese Ball
+		Tooltip:
+			'''
+			Throw a bouncy ball of cheese that will follow enemies
+			"You may impress a woman by giving her a ball of cheese"
+			'''
+	}
+
+	ZodiacGaming: {
+		DisplayName: Zodiac Gaming
+		Tooltip: Creates legally distinct blocks of ice from high above that explode upon landing
+	}
+
+	Stormentor: {
+		DisplayName: Stormentor
+		Tooltip: ""
+	}
+
+	GrandFlyZapper: {
+		DisplayName: Grand Fly Zapper
+		Tooltip:
+			'''
+			Conjure an energized ball that strikes the ground with lightning on impact
+			"The ideal tool for rainy season!"
+			'''
+	}
+
+	EnergyStormRacquet: {
+		DisplayName: Energy Storm Racquet
+		Tooltip:
+			'''
+			Conjure an energized ball that transform into an electric net before returning
+			The electric lines from the net deal 50% more damage and overflows hit targets
+			Overflowed enemies take 5% more damage
+			'''
+	}
+
+	FrostbitePanic: {
+		DisplayName: Frostbite Panic
+		Tooltip: Shoots a flurry of snow
+	}
+
+	TClef: {
+		DisplayName: T-Clef
+		Tooltip:
+			'''
+			Shoots out a terra helix that bounces off of surfaces but separates
+			Can hit the same target twice with its damaging trail of light
+			"Close enough, welcome back Terra Aria"
+			'''
+	}
+}
+
+Buffs: {
+	BewitchedStepBuff: {
+		DisplayName: "{$Mods.Split.Buffs.BewitchedStepBuff.DisplayName}"
+		Description: "{$Mods.Split.Buffs.BewitchedStepBuff.Description}"
+	}
+
+	PlanetCleaver: {
+		DisplayName: Planet Cleaver
+		Description: You can cut a planet in half!
+	}
+}
+
+Projectiles: {
+	BewitchedStepFlame.DisplayName: "{$Mods.Split.Projectiles.BewitchedStepFlame.DisplayName}"
+	EclipseFang.DisplayName: Eclipse Fang
+	EssenceofFlame.DisplayName: Essence of Flame
+	MaceofCaptivity.DisplayName: Mace of Captivity
+	MaceofCaptivityHealing.DisplayName: Mace of Captivity
+	MaceofCaptivityExplosion.DisplayName: Mace of Captivity
+	ThoriumClaymore.DisplayName: Thorium Claymore
+	ThoriumClaymoreWave.DisplayName: Thorium Claymore Wave
+	ThoriumRacquet.DisplayName: Thorium Racquet
+	ThoriumRacquetStrike.DisplayName: Thorium Racquet Strike
+	WyvernSlayer.DisplayName: Wyvern Slayer
+	Wildfire.DisplayName: Wildfire
+	WildfireUlt.DisplayName: Wildfire
+	ColdSnap.DisplayName: Cold Snap
+	ColdSnap2.DisplayName: Cold Snap
+	Iceball.DisplayName: Iceball
+	Iceball2.DisplayName: Iceball
+	AshSeason.DisplayName: Ash Season
+	AshSeason2.DisplayName: Ash Season
+	CartoonExplosion.DisplayName: Cartoon Explosion
+	CarmenMortis.DisplayName: Carmen Mortis
+	CarmenMortisEffects.DisplayName: Carmen Mortis
+	TerrariumMoonJuggler.DisplayName: Terrarium Moon Juggler
+	TerrariumPlanetCleaverBlade.DisplayName: Terrarium Planet Cleaver Blade
+	TerrariumPlanetCleaverParry.DisplayName: Terrarium Planet Cleaver Parry
+	TerrariumPlanetCleaverBeam.DisplayName: Terrarium Planet Cleaver Beam
+	TerrariumPlanetCleaverWave.DisplayName: Terrarium Planet Cleaver Wave
+	TerrariumPlanetCleaved.DisplayName: Terrarium Planet Cleaved
+	TerrariumPlanet.DisplayName: Terrarium Planet
+	TerrariumMoonJuggler2.DisplayName: Terrarium Moon Juggler2
+	TerrariumPlanetCleaverBeam2.DisplayName: Terrarium Planet Cleaver Beam2
+	XyloboneStick.DisplayName: Xylobone Stick
+	TitanRacquet.DisplayName: Titan Racquet
+	TitanSkullCrusher.DisplayName: Titan Skull Crusher
+	XyloboneSerpent.DisplayName: Xylobone Serpent
+	CheeseBall.DisplayName: Cheese Ball
+	TitanSkullCrusherExplosion.DisplayName: Titan Skull Crusher Explosion
+	TitanRacquetExplosion.DisplayName: Titan Racquet Explosion
+	ZodiacGaming.DisplayName: Zodiac Gaming
+	ZodiacGamingWave.DisplayName: Zodiac Gaming Wave
+	GrandFlyZapper.DisplayName: Grand Fly Zapper
+	GrandFlyZapperStrike.DisplayName: Grand Fly Zapper Strike
+	ThoriumRacquetExplosion.DisplayName: Thorium Racquet Explosion
+	EnergyStormRacquet.DisplayName: Energy Storm Racquet
+	FrostbitePanic.DisplayName: Frostbite Panic
+	TClef.DisplayName: T-Clef
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: Balance Config
+
+		convertCertainWeapons: {
+			Label: Convert Certain Thorium Swords Into Heavy Melee
+			Tooltip:
+				'''
+				Affects Wyvern Slayer, Eclipse Fang and Essence of Flame
+				Also affects Will of Coznix from Helheim
+				'''
+		}
+
+		thoriumBossesWithSplitVFX: {
+			Label: Add Split mod VFX to Thorium bosses
+			Tooltip:
+				'''
+				Adds some of Split's fancy effects to Thorium's bosses
+				Supports Helheim reworks as well
+				Just added this because I thought it would be cool to do
+				'''
+		}
+
+		thrower: {
+			Label: Throwing weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for throwing weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		bard: {
+			Label: Bard weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for bard weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		radiant: {
+			Label: Radiant weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for offense healer weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		soulEssence: {
+			Label: Soul essence multiplier
+			Tooltip:
+				'''
+				Granted soul essence multiplier for offense healer weapons
+				Capped at 5
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		healing: {
+			Label: Healing multiplier
+			Tooltip:
+				'''
+				Healing multiplier for healing spells
+				A value of 0 means it will only heal 1 life
+				(World restart required for this to take effect!)
+				'''
+		}
+	}
+}

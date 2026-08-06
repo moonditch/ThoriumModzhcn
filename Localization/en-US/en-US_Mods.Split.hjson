@@ -1,0 +1,50 @@
+Items: {
+	AshSeason: {
+		BurstThrow: {
+			Title: Power Throw
+			Description: Hold attack to throw a burst of three hammers. Upon throwing three sets of bursts, release attack to throw the [c/ffb000:Mallet of Jurisdiction].
+		}
+
+		BigHammer: {
+			Title: Mallet of Jurisdiction
+			Description: Throw a large hammer that is shot at your cursor after a while, exploding on hit.
+		}
+	}
+
+	DemonBloodSword.DisplayName: Kee-Oth
+
+	IceFairyStaff: {
+		DisplayName: Beloved Tomboyish Staff
+		Tooltip: Summons a beloved tomboyish ice fairy to fight for you
+	}
+
+	Wildfire: {
+		SoundofFire: {
+			Title: Sound of Fire
+			Description: Obtained while attacking enemies normally. When super bar is full, right click to cast [c/ffb000:song of flame].
+		}
+
+		SongofFlame: {
+			Title: Song of Flame
+			Description: Attacks have shorter cooldown and recover inspiration on hit.
+		}
+	}
+
+	CarmenMortis: {
+		SecondWind: {
+			DisplayName: Second Wind
+			Tooltip: While [fx/eb:Ethereal Bond] is active, stop attacking to automatically charge up a powerful shockwave, attacking again or switching weapons will cancel the charge but will not consume [fx/eb:Ethereal Bond]. The shockwave will heal 200 health of the user and allies within empowerment, as well as creating an explosion of rapid homing skulls.
+		}
+	}
+
+	WitchAquamarineHat.Set:
+		'''
+		{$WitchAmethystHat.CommonSet}
+		Chance to Freeze enemies that take damage from the Flames
+		'''
+	WitchOpalHat.Set:
+		'''
+		{$WitchAmethystHat.CommonSet}
+		Chance to gain Life Recovery when enemies take damage from the Flames
+		'''
+}
