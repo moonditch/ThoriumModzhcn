@@ -2095,6 +2095,11 @@ Configs: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity]Incandescent Alacrity"
 			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
 		}
+
+		WrithingSheath: {
+			Label: "[i:ThoriumMod/WrithingSheath]Writhing Sheath"
+			Tooltip: ""
+		}
 	}
 }
 
