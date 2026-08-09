@@ -2,12 +2,13 @@
 #Version：{ModVersion}
 2026.7（411）
 
-1. 添加狂想者之翼
+1.添加狂想者之翼
 2.修正诸神的黄昏的汉化错误  by：moon.ditch（详见github）
 3.修正灾厄瑟银联动的汉化错误  by：moon.ditch（详见github）
 4.修正原版一些翻译错误  by：伍迪（详见github）
 5.为虚空之心加入获取方式   by：moon.ditch
 6.灾瑟v0.13.6  by：伍迪
+7.修复开启诸神的黄昏报错问题  by：伍迪
 
 2026.8（412）
 汉化更新：

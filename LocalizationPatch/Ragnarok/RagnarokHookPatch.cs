@@ -276,21 +276,56 @@ namespace ThoriumModzhcn.LocalizationPatch.Ragnarok
                     if (t.Name.Contains("Tooltip") && !t.Name.Contains("AltExpand"))
                         t.Hide();
             }
-          
-            if (item.type == cal.Find<ModItem>("TheCommunity").Type)
+
+            if (item.type == cal.Find<ModItem>("FragmentsOfAnotherWorld").Type)
             {
                 for (int i = 0; i < tooltips.Count; i++)
                 {
-                    if (tooltips[i].Text.Contains("已解锁"))
+                    if (tooltips[i].Text.Contains("增加"))
                     {
-                        tooltips[i].Text = System.Text.RegularExpressions.Regex.Replace(
-                        tooltips[i].Text,
-                        @"已解锁\d+%",
-                        $"{Math.Round(CalamityEdits.calculateCommunityPower() * 100)}" + Language.GetTextValue("Mods.RagnarokMod.Compat.Power")
-                        );
+                        tooltips[i].Text += "\n增加2点最大灵感值和2点额外治疗量";
                     }
                 }
             }
+
+            orig(self,item,tooltips);
+
+            //if (item.type == cal.Find<ModItem>("TheCommunity").Type)
+            //{
+            //    float power = CalamityEdits.CalculatePower();
+            //    string statList = item.ModItem.GetLocalization("StatsList").Format(
+            //        (TheCommunity.DamageMultiplier * power * 100).ToString("N1"),
+            //        (int)(TheCommunity.CritMultiplier * power),
+            //        (int)(TheCommunity.HealthMultiplier * power),
+            //        (TheCommunity.DRMultiplier * power * 100).ToString("N2"),
+            //        (int)(TheCommunity.DefenseMultiplier * power),
+            //        (0.5f * (1f + (int)(TheCommunity.RegenMultiplier * power))).ToString("n1"),
+            //        (TheCommunity.SpeedMultiplier * power * 100).ToString("N1"),
+            //        (TheCommunity.FlightMultiplier * power * 100).ToString("N1"),
+            //        (CalamityEdits.CalculatePower(true) * 100).ToString("N0"));
+
+            //    for (int i = 0; i < tooltips.Count; i++)
+            //    {
+            //        if (tooltips[i].Mod == "Terraria" && tooltips[i].Name == "Tooltip0")
+            //            tooltips[i].Text = statList;
+            //    }
+            //}
+
+            
+            //if (item.type == cal.Find<ModItem>("TheCommunity").Type)
+            //{
+            //    for (int i = 0; i < tooltips.Count; i++)
+            //    {
+            //        if (tooltips[i].Text.Contains("已解锁"))
+            //        {
+            //            tooltips[i].Text = System.Text.RegularExpressions.Regex.Replace(
+            //            tooltips[i].Text,
+            //            @"已解锁\d+%",
+            //            $"{Math.Round(CalamityEdits.calculateCommunityPower() * 100)}" + Language.GetTextValue("Mods.RagnarokMod.Compat.Power")
+            //            );
+            //        }
+            //    }
+            //}
 
             /*if (item.type == cal.Find<ModItem>("EldritchSoulArtifact").Type)
             {
