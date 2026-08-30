@@ -85,44 +85,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.Items.TransformItems.SoulLink
 
 
-				#region ThoriumMod.Items.Thorium.Crietz
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Thorium.Crietz", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Thorium.Crietz.SetDefaults.3039","15 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Thorium.Crietz
-
-
-				#region ThoriumMod.Items.SummonItems.CrystalScorpion
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.SummonItems.CrystalScorpion", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.SummonItems.CrystalScorpion.SetDefaults.3063","25 basic damage"},
-				});
-				#endregion ThoriumMod.Items.SummonItems.CrystalScorpion
-
-
-				#region ThoriumMod.Items.SummonItems.IncubatedEgg
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.SummonItems.IncubatedEgg", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.SummonItems.IncubatedEgg.SetDefaults.3064","14 basic damage"},
-				});
-				#endregion ThoriumMod.Items.SummonItems.IncubatedEgg
-
-
-				#region ThoriumMod.Items.SummonItems.PrehistoricArachnid
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.SummonItems.PrehistoricArachnid", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.SummonItems.PrehistoricArachnid.SetDefaults.3067","20 basic damage"},
-				});
-				#endregion ThoriumMod.Items.SummonItems.PrehistoricArachnid
-
-				#region ThoriumMod.Items.MeleeItems.WrithingSheath
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.MeleeItems.WrithingSheath", "SafeSetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.MeleeItems.WrithingSheath.SafeSetDefaults.3129","200% basic damage"},
-				});
-				#endregion ThoriumMod.Items.MeleeItems.WrithingSheath
-
 
 				#region ThoriumMod.Items.HealerItems.BloomingWand
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.BloomingWand", "ModifyTooltips", new ()
@@ -244,14 +206,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.Items.Donate.DreamMegaphone
 
 
-				#region ThoriumMod.Items.Donate.HeartOfTheJungle
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.HeartOfTheJungle", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.HeartOfTheJungle.SetDefaults.3295","40 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.HeartOfTheJungle
-
-
 				#region ThoriumMod.Items.Donate.HolyHammer
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.HolyHammer", "ModifyTooltips", new ()
 				{
@@ -262,84 +216,12 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.Items.Donate.HolyHammer
 
 
-				#region ThoriumMod.Items.Donate.InfernoLordsFocus
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.InfernoLordsFocus", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.InfernoLordsFocus.SetDefaults.3304","15% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.InfernoLordsFocus
-
-
-				#region ThoriumMod.Items.Donate.JetstreamSheath
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.JetstreamSheath", "SafeSetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.JetstreamSheath.SafeSetDefaults.3305","% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.JetstreamSheath
-
-
 				#region ThoriumMod.Items.Donate.LadyLight
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.LadyLight", "ModifyTooltips", new ()
 				{
 					{"ThoriumMod.ThoriumMod.Items.Donate.LadyLight.ModifyTooltips.3308","5% critical strike chance"},
 				});
 				#endregion ThoriumMod.Items.Donate.LadyLight
-
-
-				#region ThoriumMod.Items.Donate.LihzahrdTail
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.LihzahrdTail", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.LihzahrdTail.SetDefaults.3310","30 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.LihzahrdTail
-
-
-				#region ThoriumMod.Items.Donate.PlagueLordFlask
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.PlagueLordFlask", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.PlagueLordFlask.SetDefaults.3321","100% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.PlagueLordFlask
-
-
-				#region ThoriumMod.Items.Donate.PocketFusionGenerator
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.PocketFusionGenerator", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.PocketFusionGenerator.SetDefaults.3323","18 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.PocketFusionGenerator
-
-
-				#region ThoriumMod.Items.Donate.SandweaversTiara
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.SandweaversTiara", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.SandweaversTiara.SetDefaults.3333","50 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.SandweaversTiara
-
-
-				#region ThoriumMod.Items.Donate.SerpentShield
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.SerpentShield", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.SerpentShield.SetDefaults.3386","50 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.SerpentShield
-
-
-				#region ThoriumMod.Items.Donate.BlastShield
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.BlastShield", "ModifyTooltips", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.BlastShield.ModifyTooltips.3258"," base damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.BlastShield
-
-
-				#region ThoriumMod.Items.Donate.ShinobiSigil
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.ShinobiSigil", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.ShinobiSigil.SetDefaults.3387","50% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.ShinobiSigil
 
 
 				#region ThoriumMod.Items.Donate.SmitingHammer
@@ -352,62 +234,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.Items.Donate.SmitingHammer
 
 
-				#region ThoriumMod.Items.Donate.SweetVengeance
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.SweetVengeance", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.SweetVengeance.SetDefaults.3406"," basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.SweetVengeance
-
-
-				#region ThoriumMod.Items.Donate.YumasPendant
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.YumasPendant", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Donate.YumasPendant.SetDefaults.3419","35 basic damage"},
-				});
-				#endregion ThoriumMod.Items.Donate.YumasPendant
-
-
-				#region ThoriumMod.Items.Depths.OceanRetaliation
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Depths.OceanRetaliation", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Depths.OceanRetaliation.SetDefaults.3449","50% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Depths.OceanRetaliation
-
-
-				#region ThoriumMod.Items.Depths.SpinyShell
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Depths.SpinyShell", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.Depths.SpinyShell.SetDefaults.3450","50% basic damage"},
-				});
-				#endregion ThoriumMod.Items.Depths.SpinyShell
-
-
-				#region ThoriumMod.Items.DD.OgreSandal
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.DD.OgreSandal", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.DD.OgreSandal.SetDefaults.3454","50 basic damage"},
-				});
-				#endregion ThoriumMod.Items.DD.OgreSandal
-
-
-				#region ThoriumMod.Items.BossStarScouter.OmegaDrive
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BossStarScouter.OmegaDrive", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BossStarScouter.OmegaDrive.SetDefaults.3493","20 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BossStarScouter.OmegaDrive
-
-
-				#region ThoriumMod.Items.BossGraniteEnergyStorm.EyeoftheStorm
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BossGraniteEnergyStorm.EyeoftheStorm", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BossGraniteEnergyStorm.EyeoftheStorm.SetDefaults.3496","25 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BossGraniteEnergyStorm.EyeoftheStorm
-
-
 				#region ThoriumMod.Items.BossFallenBeholder.VoidPlanter
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BossFallenBeholder.VoidPlanter", "ModifyTooltips", new ()
 				{
@@ -416,111 +242,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.Items.BossFallenBeholder.VoidPlanter.ModifyTooltips.3506","Heals player life equal to (50%) of the last damage they took (Max)"},
 				});
 				#endregion ThoriumMod.Items.BossFallenBeholder.VoidPlanter
-
-
-				#region ThoriumMod.Items.BasicAccessories.BeeBooties
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.BeeBooties", "ModifyTooltips", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.BeeBooties.ModifyTooltips.3510","35 basic damage"},
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.BeeBooties.ModifyTooltips.3511","20 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.BeeBooties
-
-
-				#region ThoriumMod.Items.BasicAccessories.CrashBoots
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.CrashBoots", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.CrashBoots.SetDefaults.3512","20 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.CrashBoots
-
-
-				#region ThoriumMod.Items.BasicAccessories.CrystalSpearTip
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.CrystalSpearTip", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.CrystalSpearTip.SetDefaults.3513","100% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.CrystalSpearTip
-
-
-				#region ThoriumMod.Items.BasicAccessories.CursedFlailCore
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.CursedFlailCore", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.CursedFlailCore.SetDefaults.3514","65% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.CursedFlailCore
-
-
-				#region ThoriumMod.Items.BasicAccessories.IronFlailCore
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.IronFlailCore", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.IronFlailCore.SetDefaults.3516","35% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.IronFlailCore
-
-
-				#region ThoriumMod.Items.BasicAccessories.MoltenSpearTip
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.MoltenSpearTip", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.MoltenSpearTip.SetDefaults.3517","75% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.MoltenSpearTip
-
-
-				#region ThoriumMod.Items.BasicAccessories.SilverSpearTip
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.SilverSpearTip", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.SilverSpearTip.SetDefaults.3518","50% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.SilverSpearTip
-
-
-				#region ThoriumMod.Items.BasicAccessories.SlagStompers
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.SlagStompers", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.SlagStompers.SetDefaults.3519","20 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.SlagStompers
-
-
-				#region ThoriumMod.Items.BasicAccessories.VileFlailCore
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BasicAccessories.VileFlailCore", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BasicAccessories.VileFlailCore.SetDefaults.3520","65% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BasicAccessories.VileFlailCore
-
-
-				#region ThoriumMod.Items.BardItems.DissTrack
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BardItems.DissTrack", "SetBardDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BardItems.DissTrack.SetBardDefaults.3529","50% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BardItems.DissTrack
-
-
-				#region ThoriumMod.Items.BardItems.FullScore
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BardItems.FullScore", "SetBardDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BardItems.FullScore.SetBardDefaults.3530","25% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BardItems.FullScore
-
-
-				#region ThoriumMod.Items.BardItems.KickPetal
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BardItems.KickPetal", "SetBardDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BardItems.KickPetal.SetBardDefaults.3541","25 basic damage"},
-				});
-				#endregion ThoriumMod.Items.BardItems.KickPetal
-
-
-				#region ThoriumMod.Items.BardItems.MixTape
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.BardItems.MixTape", "SetBardDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.BardItems.MixTape.SetBardDefaults.3544","25% basic damage"},
-				});
-				#endregion ThoriumMod.Items.BardItems.MixTape
 
 
 				#region ThoriumMod.Items.BardItems.TerrariumAutoharp
@@ -542,14 +263,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 				#endregion ThoriumMod.Items.ThrownItems.BoneGrip
 
 
-				#region ThoriumMod.Items.ThrownItems.DeadEyePatch
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.ThrownItems.DeadEyePatch", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.ThrownItems.DeadEyePatch.SetDefaults.3589","50 basic damage"},
-				});
-				#endregion ThoriumMod.Items.ThrownItems.DeadEyePatch
-
-
 				#region ThoriumMod.Items.ThrownItems.MagnetoGrip
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.ThrownItems.MagnetoGrip", "ModifyTooltips", new ()
 				{
@@ -566,14 +279,6 @@ namespace ThoriumModzhcn.ZHhjson.ZHCODETranslator
 					{"ThoriumMod.ThoriumMod.Items.ThrownItems.PaddedGrip.ModifyTooltips.3599","Duplicated Items: [c/"},
 				});
 				#endregion ThoriumMod.Items.ThrownItems.PaddedGrip
-
-
-				#region ThoriumMod.Items.ThrownItems.PiratesPurse
-				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.ThrownItems.PiratesPurse", "SetDefaults", new ()
-				{
-					{"ThoriumMod.ThoriumMod.Items.ThrownItems.PiratesPurse.SetDefaults.3603","25% basic damage"},
-				});
-				#endregion ThoriumMod.Items.ThrownItems.PiratesPurse
 
 				//套装效果需求
 				#region ThoriumMod.Items.Sandstone.SandStoneHelmet
