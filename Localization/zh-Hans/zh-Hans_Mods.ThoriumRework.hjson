@@ -783,6 +783,11 @@ Items: {
 			'''
 	}
 
+	ElectronSpearTip: {
+		DisplayName: 电涌矛尖
+		Tooltip: 矛类武器会释放一簇可以重度烧伤敌人的等离子冲击波
+	}
+
 	ExecutionersContract: {
 		DisplayName: 刽子手协议
 		Tooltip:
@@ -871,6 +876,17 @@ Items: {
 			[i:ThoriumRework/StarScoutReticle] 使用冲刺会将你传送一段距离，若你不能冲刺，则给予冲刺能力
 			[i:ThoriumRework/BannerofWar] 战斗中，你的伤害与额外治疗量会随时间增加，这些增益在你脱战后会逐渐减少
 			[i:ThoriumRework/BannerofWar] 战斗中会不断释放治疗脉冲，回复队友等同于额外治疗量的生命，咒音增幅范围也会影响治疗脉冲的范围，脉冲的频率会随着战斗时间增加
+			'''
+	}
+
+	HolySheath: {
+		DisplayName: 圣惩剑鞘
+		Tooltip:
+			'''
+			手持且不使用{1}秒后用剑攻击会暴击造成{0}%伤害
+			暴击时在最后命中的目标处降下圣光
+			圣光对多体节目标的伤害会有所衰减
+			“其神威可令敌人惊呼其名”
 			'''
 	}
 
@@ -1099,6 +1115,11 @@ Items: {
 			'''
 	}
 
+	SporeTip: {
+		DisplayName: 孢子矛尖
+		Tooltip: 矛类武器会释放一个漂浮的孢子矛尖
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -1257,6 +1278,17 @@ Items: {
 	VampireCapeCosmetic: {
 		DisplayName: 吸血蝙蝠披风
 		Tooltip: ""
+	}
+
+	WhistlersHat: {
+		DisplayName: 吹哨者帽
+		Tooltip: 增加10%灵感值再生速率
+		SetBonus: 每拥有一种独特的咒音增幅都会为你增加2%移动速度
+	}
+
+	WhistlersTunic: {
+		DisplayName: 吹哨者短袍
+		Tooltip: 增加5%音波演奏速度
 	}
 
 	ZephyrsRuin: {
