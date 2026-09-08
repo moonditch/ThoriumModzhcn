@@ -24,6 +24,13 @@ ItemDescriptions: {
 		造成伤害会暂时降低受到的伤害
 		右键可正常挥舞，刺击超过三次后造成的伤害提高
 		'''
+	DetachedBlaster:
+		'''
+		
+		发射一道强大的能量脉冲，飞行距离越远，威力会逐渐增强。
+		右键点击可发射一枚过载能量球，它会自动追踪敌人。
+		能量球有5秒冷却时间，之后才能再次发射。
+		'''
 	DreamWeaversHelmet: 最大生命增加60
 	DreamWeaversHood: 最大生命增加100
 	DreamWeaversTabard: 减少20%受到的伤害
@@ -449,6 +456,8 @@ Projectiles: {
 	BlackHole.DisplayName: 黑洞
 	BubbleBomb.DisplayName: 大泡泡炸弹
 	BubbleColumn.DisplayName: 泡泡柱
+	BubbleColumnOptimized.DisplayName: 泡泡柱
+	BuccaneerBlunderBuss.DisplayName: 海盗火铳
 	BuriedArrowE.DisplayName: 箭头
 	ChampionBomber.DisplayName: 魔法爆弹
 	ChampionBomberF.DisplayName: 魔法爆弹
@@ -469,6 +478,7 @@ Projectiles: {
 	Darkness.DisplayName: 黑暗
 	DeathRain.DisplayName: 死亡之雨
 	DemonBloodSword.DisplayName: 魔血长剑
+	DetachedMegaBlast.DisplayName: 引力奔涌
 	DragonTooth.DisplayName: 龙牙
 	DragonToothDragon.DisplayName: 龙牙
 	DreadRazor.DisplayName: 恐惧之锋
@@ -506,6 +516,13 @@ Projectiles: {
 	GraniteCharge.DisplayName: 花岗岩充能
 	GraniteEnergyStormEffects.DisplayName: 花岗岩能量
 	GravitonOrb.DisplayName: 引力子球
+	HagFireball.DisplayName: 巫婆的易爆火球
+	HagFireCharge.DisplayName: 巫婆的烈焰冲锋
+	HagFlames.DisplayName: 巫婆的余焰
+	HagGlobule.DisplayName: 女巫的易爆小球
+	HagMudChunk.DisplayName: 巫婆那块可疑的沉重泥块（里面有块石头）
+	HagSplash.DisplayName: 巫婆的魔法飞溅
+	HagSong.DisplayName: 巫婆的死亡之歌
 	HandheldRocket.DisplayName: 手持式火箭
 	HeadHunter.DisplayName: 猎头者
 	HeadHunterShard.DisplayName: 猎头者碎片
@@ -515,6 +532,7 @@ Projectiles: {
 	HighTide.DisplayName: 高位潮
 	HighTideWave.DisplayName: 高位潮波
 	HitScan.DisplayName: 冲击射线
+	HolySheath.DisplayName: 神圣剑鞘
 	IceAnomaly.DisplayName: 寒冰异象
 	IceShard.DisplayName: 冰碎块
 	IllumiteBlade.DisplayName: 荧光刃
@@ -569,6 +587,9 @@ Projectiles: {
 	SoulRender.DisplayName: 灵魂镰刃
 	SoulSnatcher.DisplayName: 窃魂者
 	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	SpearExtraElectron.DisplayName: 电子矛尖
+	SpearExtraElectronWave.DisplayName: 电子矛尖2
+	SpearExtraSpore.DisplayName: 孢子尖
 	SpittingShroom.DisplayName: 胆小菇
 	SpittingShroomSpore.DisplayName: 胆小菇孢子
 	SpittingShroomSporeBurst.DisplayName: 胆小菇爆炸
@@ -612,6 +633,11 @@ Projectiles: {
 }
 
 Items: {
+	ADropRateTooLow: {
+		DisplayName: 掉率太低？
+		Tooltip: By (Not) Una Nancy Owen
+	}
+
 	BandofCratons: {
 		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
 		Tooltip:
@@ -783,6 +809,11 @@ Items: {
 			'''
 	}
 
+	ElectronSpearTip: {
+		DisplayName: 电子矛尖
+		Tooltip: 长矛类武器会释放等离子冲击波，对敌人造成严重灼伤
+	}
+
 	ExecutionersContract: {
 		DisplayName: 刽子手协议
 		Tooltip:
@@ -871,6 +902,17 @@ Items: {
 			[i:ThoriumRework/StarScoutReticle] 使用冲刺会将你传送一段距离，若你不能冲刺，则给予冲刺能力
 			[i:ThoriumRework/BannerofWar] 战斗中，你的伤害与额外治疗量会随时间增加，这些增益在你脱战后会逐渐减少
 			[i:ThoriumRework/BannerofWar] 战斗中会不断释放治疗脉冲，回复队友等同于额外治疗量的生命，咒音增幅范围也会影响治疗脉冲的范围，脉冲的频率会随着战斗时间增加
+			'''
+	}
+
+		HolySheath: {
+		DisplayName: 神圣剑鞘
+		Tooltip:
+			'''
+			手持且不使用{1}秒后用剑攻击会暴击造成{0}%伤害
+			这次暴击会对你最后命中的目标降下一道光束
+			光束对分段目标造成的伤害会有所递减
+			“你的对手看到它的效果时，会忍不住念出这件物品的名字。”
 			'''
 	}
 
@@ -964,7 +1006,16 @@ Items: {
 
 	MagicalHarp: {
 		DisplayName: "{$ItemName.MagicalHarp}"
-		Tooltip: ""
+		Tooltip: 发出速度不同的跳跃音符
+	}
+
+	NotSoLovelyLadies: {
+		DisplayName: （不那么)可爱的女士们
+		Tooltip:
+			'''
+			“你所在地区的热辣单身人士想要你！（已死，且被撕成碎片）”
+			By (Not) Una Nancy Owen
+			'''
 	}
 
 	Oneirophobia: {
@@ -1097,6 +1148,11 @@ Items: {
 			召唤一株喷射孢子的蘑菇攻击敌人
 			敌人靠近时会躲起来，并释放一次致命爆炸
 			'''
+	}
+
+		SporeTip: {
+		DisplayName: 孢子尖
+		Tooltip: 矛类武器会释放一个漂浮的孢子尖
 	}
 
 	StarScoutReticle: {
@@ -1257,6 +1313,17 @@ Items: {
 	VampireCapeCosmetic: {
 		DisplayName: 吸血蝙蝠披风
 		Tooltip: ""
+	}
+
+	WhistlersHat: {
+		DisplayName: 吹哨者帽子
+		Tooltip: 增加10%灵感值再生速率
+		SetBonus: 你拥有的每个独特咒音增幅会增加2%移动速度
+	}
+
+	WhistlersTunic: {
+		DisplayName: 吹哨者束腰
+		Tooltip: 增加5%音波演奏速度
 	}
 
 	ZephyrsRuin: {
@@ -1508,6 +1575,11 @@ Configs: {
 				'''
 		}
 
+		masterDropRate: {
+			Label: 大师模式掉落率（%）
+			Tooltip: 注意：如果启用了“仅永恒模式”设置，此项在永恒模式下会被覆盖，以匹配其他永恒模式首领掉落的掉率。
+		}
+
 		masterDropsAreNonExclusive: {
 			Label: 专家模式下掉落大师模式专属武器
 			Tooltip:
@@ -1557,6 +1629,11 @@ Configs: {
 			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
 		}
 
+	auricBar: {
+			Label: 圣金源锭使用瑟银材料
+			Tooltip: 圣金源锭需要始生灾灵精华制作
+		}
+
 		defenseDamage: {
 			Label: 防御伤害支持
 			Tooltip: 若启用灾厄模组某些瑟银BOSS攻击会造成防御伤害
@@ -1594,6 +1671,17 @@ Configs: {
 		jelly: {
 			Label: "[i:ThoriumMod/QueenJellyfishMask]水母皇后"
 			Tooltip: 水母皇后重置
+		}
+
+		qjLagReduction: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]水母皇后气泡柱延迟优化模式"
+			Tooltip:
+				'''
+				为在水母皇后的气泡柱攻击中遇到性能问题的玩家提供
+				0 - 禁用（如果你的设备不卡顿，请保持此设置）
+				1 - 仅限单人模式
+				2 - 始终启用（警告： 此优化在多人模式下可能无法正常工作！）
+				'''
 		}
 
 		bat: {
@@ -1662,6 +1750,16 @@ Configs: {
 				4 - 天顶，炼狱，受虐，永恒死亡
 				'''
 		}
+
+		corpsebloom: {
+			Label: 绝命花
+			Tooltip: 重做了绝命花，使其在随机遭遇时不再那么烦人
+		}
+
+		hags: {
+			Label: 巫婆
+			Tooltip: 将巫婆重做为迷你BOSS，使其不那么烦人
+		}
 	}
 
 	ItemReworksConfig: {
@@ -1677,6 +1775,11 @@ Configs: {
 				'''
 		}
 
+		oldContract: {
+			Label: 旧刽子手协议和正式契约设置
+			Tooltip: 启用刽子手协议与正式契约的旧功能
+		}
+
 		ThoriumArmor: {
 			Label: "[i:ThoriumMod/ThoriumMail] 瑟银盔甲"
 			Tooltip: 注意：被改动的是套装奖励，而不是护甲本身
@@ -1689,6 +1792,16 @@ Configs: {
 
 		ThoriumSpear: {
 			Label: "[i:ThoriumMod/ThoriumSpear] {$Mods.ThoriumMod.Items.ThoriumSpear.DisplayName}"
+			Tooltip: ""
+		}
+
+		BuccaneerBlunderBuss: {
+			Label: "[i:ThoriumMod/BuccaneerBlunderBuss]Buccaneer's Blunderbuss"
+			Tooltip: ""
+		}
+
+		DetachedBlaster: {
+			Label: "[i:ThoriumMod/DetachedBlaster]Detached Blaster"
 			Tooltip: ""
 		}
 
@@ -2109,8 +2222,23 @@ Achievements: {
 		Description: 在6秒内击败星际监察者的三个核心
 	}
 
+	ElectricalSafetyTraining: {
+		FriendlyName: 电气安全培训
+		Description: 在不被流能脉冲导体造成伤害的情况下击败花岗岩流能风暴
+	}
+
 	MyBatsAreKindaChamberless: {
 		FriendlyName: 我的小蝙蝠要饿扁了…
 		Description: 在不让任何贪食小蝙蝠偷取你的生命值的情况下击败蝙蝠子爵
+	}
+
+	OnEvenGrounds: {
+		FriendlyName: 公平竞争
+		Description: 在一阶段只造成近战伤害，二阶段只造成远程伤害，三阶段只造成魔法伤害或召唤伤害的情况下击败英灵遗骸
+	}
+
+	PreservationEfforts: {
+		FriendlyName: 保护努力
+		Description: 在不伤害风暴雏鸟的情况下击败惊雷王鹰
 	}
 }
