@@ -1,0 +1,17 @@
+[h1]Chinese Translation Patch for Thorium & Addons[/h1]
+
+This patch includes:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416] Thorium [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963] Thorium Helheim [/url]
+[*]  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272] Unofficial Calamity Bard & Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201] Unofficial Redemption Bard, Thrower & Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991] Unofficial Spirit Bard, Thrower & Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348] Unofficial Spooky Bard, Thrower and Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551] Unofficial SOTS Bard, Thrower and Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033] Unofficial Macrocosm Bard, Thrower and Healer [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]Ragnarok Mod[/url]
+[/list]
+
+
+[quote=tModLoader]Developed By moon.ditch[/quote]

@@ -1576,7 +1576,11 @@ Configs: {
 
 		generalItemBalanceChanges: {
 			Label: 通用物品平衡调整
-			Tooltip: 启用对瑟银物品的杂项平衡调整
+			Tooltip:
+				'''
+				启用对瑟银物品的杂项平衡调整
+				在炼狱蚀光（Infernal Eclipse）整合包中不启用
+				'''
 		}
 
 		showItemChanges: {

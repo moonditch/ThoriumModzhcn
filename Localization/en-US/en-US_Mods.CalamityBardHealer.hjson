@@ -1575,7 +1575,11 @@ Configs: {
 
 		generalItemBalanceChanges: {
 			Label: General Item Balance Changes
-			Tooltip: Enables miscellaneous balance changes to Thorium items
+			Tooltip:
+				'''
+				Enables miscellaneous balance changes to Thorium items
+				Does nothing in Infernal Eclipse modpack
+				'''
 		}
 
 		showItemChanges: {

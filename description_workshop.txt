@@ -1,17 +1,69 @@
-[h1]Chinese Translation Patch for Thorium & Addons[/h1]
-
-This patch includes:
+[h1]=感谢=[/h1]
 [list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416] Thorium [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963] Thorium Helheim [/url]
-[*]  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272] Unofficial Calamity Bard & Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201] Unofficial Redemption Bard, Thrower & Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991] Unofficial Spirit Bard, Thrower & Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348] Unofficial Spooky Bard, Thrower and Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551] Unofficial SOTS Bard, Thrower and Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033] Unofficial Macrocosm Bard, Thrower and Healer [/url]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]Ragnarok Mod[/url]
+[*] 灾厄维基出品的中文瑟银Wiki  
+[*] 令 / 水星 / 末泠 / moon.ditch：旧汉化支持  &  末泠 / 马达 / furgo / plantare / moon.ditch / 南亭：旧代码支持  &  Ivybless：旧校对支持  &  moon.ditch：旧创意工坊维护
+[*] Super_ego / 兹翼 / 终子星：瑟银联动救赎附属汉化  &  Yee苍棱：瑟银联动暗影奥秘附属汉化  &  虞悖：诸神的黄昏汉化
+[*] 感谢很多人在 QQ群 & 小黑盒帖子 & B站评论 & 百度帖子等地方指点本汉化的错误
+[*] 狐萝卜：精神支持
 [/list]
 
+[h1]=模组介绍=[/h1]
+本模组是瑟银及其附属模组的汉化
+汉化内容包括（注：支持简体&繁体）：
+[list]
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumMod.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]（v1.7.2.8），即此汉化的前置模组
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ThoriumRework.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银冥界（原瑟银BOSS重置）[/url]（v1.6.5）
+*注：如果瑟银冥界想要灾厄炼狱模式的完整体验，额外使用“[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023]灾厄炼狱中文字体补充[/url]”
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/CalamityBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非官方灾厄吟游诗人&牧师武器[/url]（v0.13.10）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/RedemptionBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非官方救赎吟游诗人、投手&牧师武器[/url]（v0.3.4）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/SpiritBardHealer.png [/img] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非官方魂灵吟游诗人、投手&牧师武器[/url]（v0.4.5）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/SpookyBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非官方惊惧吟游诗人、投手&牧师武器[/url]（v0.6）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/SOTSBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非官方暗影奥秘吟游诗人、投手&牧师武器[/url]（v0.3.2）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/MacroBardHealer.png [/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3506148033]非官方群星外域吟游诗人、投手&牧师武器[/url]（v0.1.1）
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/ragnarok.png[/img][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209]诸神的黄昏[/url]（v1.6.0.4）[spoiler]（暂不支持繁体，也许1.4.5之后支持？）[/spoiler]
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/WIP.png[/img][spoiler]非官方裂痕吟游诗人、投手&牧师武器(创意工坊没有)[/spoiler]
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/WIP.png[/img][spoiler]非官方旅人归途吟游诗人、投手&牧师武器(创意工坊没有)[/spoiler]
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/WIP.png[/img][spoiler]非官方元素觉醒吟游诗人、投手&牧师武器(创意工坊没有)[/spoiler]
+[*]  [img]https://raw.githubusercontent.com/moonditch/photo-icon/refs/heads/main/WIP.png[/img][spoiler]非官方亚巴顿之影吟游诗人&牧师武器(创意工坊没有)[/spoiler]
+[/list]
 
-[quote=tModLoader]Developed By moon.ditch[/quote]
+补充汉化
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626981220]灵感药水-瑟银[/url]（支持繁体）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3719318086]更多瑟银结构[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3633101807]狂想者之翼-瑟银[/url]
+[/list]
+
+[h1]=问题解决=[/h1]
+[list]
+[*] 因为台湾繁体主要汉化是白狐狸（来自台湾），维护繁体汉化作者是moon.ditch / 伍迪（来自大陆），可能出现繁体汉化格式不一致：如出现港繁、正繁、台繁的混合现象，也在下方告诉我们
+[*] 我们不会支持1.4.3的瑟银&更多附属的简体&繁体汉化
+[*] 本汉化为客户端模组，不在服务端加载，联机方需要自行加载汉化
+[*] 如果需要帮助/反馈BUG，请加入QQ群895423665，回答瑟银汉化，然后把详细信息发在群里
+[*] 也可以在评论区告诉我，如果无法进行评论区留言，请加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]Steam聊天室[/url]
+[*] 我们暂不接受以咨询或反馈汉化为目的的Steam/QQ好友申请，请见谅
+[*] 如果对某个汉化不满意，欢迎来[url=https://github.com/moonditch/ThoriumModzhcn]GitHub[/url]提交pr，我们大概率会看到
+[/list]
+
+[h1]=超链接=[/h1]
+[list]
+[*] [url=https://github.com/moonditch/ThoriumModzhcn]瑟银汉化的源码仓库[/url]
+[*] [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]官方中文瑟银模组Wiki[/url]
+[*] [url=https://terrariamods.wiki.gg/wiki/Thorium_Crossmod]瑟银BOSS重置&非官方瑟银武器系列Wiki（制作中）[/url]
+[*] [url=https://ragnarokmod.wiki.gg/]诸神的黄昏Wiki（制作中）[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3446070012]SoloistsHatinfinite·灵感无限![/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3436582116]解决瑟银金箱权重模组[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023] 灾厄炼狱中文字体补充 [/url]（内置炼狱文字库在2024.11.17.0版本分离）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114886209] 诸神的黄昏模组本体 [/url]（内置诸神的黄昏汉化在2025.9.13.0版本暂时回归）
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3588408051] 炼狱蚀光汉化补丁 [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3755622781] 奇奇怪怪的瑟银饰品 [/url]
+[/list]
+
+[h1]=作者介绍=[/h1]
+[list]
+[*] Listentowind：官方中文瑟银模组Wiki维护
+[*] Listentowind / moon.ditch(简/繁/代码) / Super_ego(简体) / 伍迪(简/繁/代码) / 布丁(简体) / 白狐狸(繁体) / hqerVC(简体) / LezaiYa(简体)：GitHub维护
+[*] 布丁（已复活）：现瑟银本体&附属简繁体汉化维护
+[*] 现代码支持【没有了，招人】
+[/list]
+
