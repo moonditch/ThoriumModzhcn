@@ -810,8 +810,8 @@ Items: {
 	}
 
 	ElectronSpearTip: {
-		DisplayName: 电子矛尖
-		Tooltip: 长矛类武器会释放等离子冲击波，对敌人造成严重灼伤
+		DisplayName: 电涌矛尖
+		Tooltip: 矛类武器会释放一簇可以重度烧伤敌人的等离子冲击波
 	}
 
 	ExecutionersContract: {
@@ -905,14 +905,14 @@ Items: {
 			'''
 	}
 
-		HolySheath: {
-		DisplayName: 神圣剑鞘
+	HolySheath: {
+		DisplayName: 圣惩剑鞘
 		Tooltip:
 			'''
 			手持且不使用{1}秒后用剑攻击会暴击造成{0}%伤害
-			这次暴击会对你最后命中的目标降下一道光束
-			光束对分段目标造成的伤害会有所递减
-			“你的对手看到它的效果时，会忍不住念出这件物品的名字。”
+			暴击时在最后命中的目标处降下圣光
+			圣光对多体节目标的伤害会有所衰减
+			“其神威可令敌人惊呼其名”
 			'''
 	}
 
@@ -1150,9 +1150,9 @@ Items: {
 			'''
 	}
 
-		SporeTip: {
-		DisplayName: 孢子尖
-		Tooltip: 矛类武器会释放一个漂浮的孢子尖
+	SporeTip: {
+		DisplayName: 孢子矛尖
+		Tooltip: 矛类武器会释放一个漂浮的孢子矛尖
 	}
 
 	StarScoutReticle: {
