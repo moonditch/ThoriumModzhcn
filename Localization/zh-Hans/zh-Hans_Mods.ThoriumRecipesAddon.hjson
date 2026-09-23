@@ -1,48 +1,48 @@
 Keybinds: {
-	ShowAcquisitionInfo.DisplayName: Show info
-	OpenHintBook.DisplayName: Open Infobook
+	ShowAcquisitionInfo.DisplayName: 显示资讯
+	OpenHintBook.DisplayName: 打开信息手册
 }
 
 ShopPreview: {
-	ConditionsHeader: Shop conditions:
-	NewItemUnlocked: New item unlocked in {0}'s shop: {1}
+	ConditionsHeader: 商店状况:
+	NewItemUnlocked: "{0}的商店解锁新物品: {1}"
 }
 
 ManualAcquisition: {
-	WaterChestnut: Dropped by naturally growing Water Chestnut plants in the Aquatic Depths biome
-	ManaBerry: Can be harvested from mana berry plants that randomly grow on Hallowed grass on the surface
-	Heartstriker: Can be obtained rarely from fishing in the Jungle
-	ArcaneSpike: Can only be obtained by using cheats
-	EnchantedStaff: Can be found in golden chests in the Underground
-	SpittingFish: Can be obtained rarely from fishing in the Ocean
-	RogueRoninHeadband: Set can be randomly (33.3% chance) purchased from the Traveling Merchant after defeating King Slime
-	NoteHairpin: Sold by the Traveling Merchant
-	HatFish: Can be obtained rarely from fishing in the Ocean during the day
-	RingofUnity: It will always spawn in Scarlet Chests, and cannot be found in Scarlet Crates
-	AloeLeaf: Has a chance to be dropped from big leafy plant ambient objects found within the Underground Jungle
-	HeartRateMonitor: Can be purchased from the Traveling Merchant
-	LivingWoodSap: Can be found in Living Wood Chests within Living Trees, or from mined sap-covered Living Leaf Bushes
-	SeedofHope: Can be found in Living Wood Chests within Living Trees
-	AbyssalWhistle: Has a chance to be dropped by any enemy in The Underworld
-	FishEgg: Has a chance to be obtained from mined Large Coral
-	ExoticMynaEgg: Obtained by catching a Myna with a Bug Net or Golden Bug Net
-	MoleCrate: Can be purchased from the Traveling Merchant
-	ChiLantern: Can be sold by the Traveling Merchant after Eater of Worlds or Brain of Cthulhu have been defeated
-	DestinyWeaver: Can only be obtained by using cheats
-	TheGauntlet: Stones can only be obtained by using cheats
-	Fishbone: Always found in the Aquatic Depths Chest within the Dungeon, which must be unlocked with an Aquatic Depths Key
-	PharaohsSlab: Always found in the Desert Chest within the Dungeon, which must be unlocked with a Desert Key
-	PhoenixStaff: Always found in the Underworld Chest within the Dungeon, which must be unlocked with an Underworld Key
-	AdventurersLantern: Dropped by the Tent ambient object found in the Underground and Cavern layers
-	BrainCoral: Can be obtained rarely from fishing in the Crimson or Underground Crimson
-	RivetingTadpole: Can be obtained rarely from fishing in the Jungle
-	SamsaraLotus: Can be sold by the Traveling Merchant after Eater of Worlds or Brain of Cthulhu have been defeated
-	RottenCod: Can be obtained rarely from fishing in the Corruption or Underground Corruption
-	PharaohsBreath: Dropped by all enemies in the Desert and Underground Desert
-	SoulofPlight: Dropped by all enemies in the Underworld in Hardmode
-	FlamingCrackGut: Found by fishing in lava
-	MagmaGill: Found by fishing in lava
-	UnholyShards: Dropped by all enemies during Blood Moon
+	WaterChestnut: 由深海生物群系自然生长的水元栗植物掉落获得
+	ManaBerry: 从地表神圣草上的魔力浆果植物上采摘获得
+	Heartstriker: 在丛林生物群系钓鱼获得
+	ArcaneSpike: 无法获得
+	EnchantedStaff: 从地下金箱获得
+	SpittingFish: 在海洋生物群系钓鱼获得
+	RogueRoninHeadband: 击败史莱姆王后，在旅商处 (33.3% 概率) 售卖获得
+	NoteHairpin: 在旅商处售卖获得
+	HatFish: 在白天的海洋生物群系钓鱼获得
+	RingofUnity: 有概率从绯红箱中获取，也可在绯红匣中获得
+	AloeLeaf: 有概率从地下丛林的大型叶类植物（环境物体）掉落获得
+	HeartRateMonitor: 在旅商处售卖获得
+	LivingWoodSap: 在生命树中的生命木箱获得，或者挖掘树液覆盖的生命之叶灌木获得
+	SeedofHope: 在生命树中的生命木箱获得
+	AbyssalWhistle: 地狱任何怪物都有概率掉落获得
+	FishEgg: 挖掘大珊瑚（环境物体）时掉落获得
+	ExoticMynaEgg: 用任意虫网捕捉八哥时获得
+	MoleCrate: 在旅商处售卖获得
+	ChiLantern: 击败邪恶BOSS后，在旅商处售卖获得
+	DestinyWeaver: 无法获得
+	TheGauntlet: 无法获得
+	Fishbone: 在地牢的渊海箱中获得
+	PharaohsSlab: 在地牢的沙漠箱中获得
+	PhoenixStaff: 在地牢的地狱箱中获得
+	AdventurersLantern: 从地下和洞穴层的帐篷（环境物体）获得
+	BrainCoral: 在猩红生物群系或猩红地下钓鱼获得
+	RivetingTadpole: 在丛林生物群系钓鱼获得
+	SamsaraLotus: 击败邪恶BOSS后，在旅商处售卖获得
+	RottenCod: 在腐化生物群系或腐化地下钓鱼获得
+	PharaohsBreath: 沙漠生物群系以及地下沙漠任何怪物都有概率掉落获得
+	SoulofPlight: 困难模式下地狱任何怪物都有概率掉落获得
+	FlamingCrackGut: 在岩浆中钓鱼获得
+	MagmaGill: 在岩浆中钓鱼获得
+	UnholyShards: 血月期间任何怪物都有概率掉落获得
 }
 
 // Make sure the text doesn't extend beyond the UI. Check the terms against the mod's translation into your language
@@ -50,9 +50,9 @@ ManualAcquisition: {
 // Don't translate {i:ThoriumMod/ItemName}, instead of this key, the text displays the item
 
 InfoBook: {
-	GuideDialogue: Playing Thorium? You've got good taste, I can tell. Here, take this Thorium Infobook — it's got all sorts of useful info about the mod.
-	UnlockNotification: Infobook unlocked! Use the 'Open Infobook' key or button to open it.
-	GuideBubble: Come here, friend!
+	GuideDialogue: 在玩瑟银? 看来你的品味不错，给你这本瑟银信息手册--里面记录着有关这个模组各种实用指南。
+	UnlockNotification: 信息手册已解锁！使用“打开信息手册”的控键即可打开。
+	GuideBubble: 过来，朋友!
 }
 
 HintBook: {
@@ -78,23 +78,23 @@ HintBook: {
 		ThoriumMod_DesertAcolyte: Comes after defeating The Grand Thunder Bird.
 	}
 
-	Title: Thorium Infobook
-	OpenButton: Open Infobook
-	DragHint: Hold RMB to drag
+	Title: 瑟银信息手册
+	OpenButton: 打开信息手册
+	DragHint: 按住鼠标右键拖拽
 	MobList.Header: "{0} — {1} ({2})"
 
 	Tabs: {
-		Basics: Thorium Mod
-		EarlyGame: Mod progression
-		Progression: Notable Mechanics
-		Bestiary: Bestiary
-		Tips: Tips
+		Basics: 瑟银模组
+		EarlyGame: 模组进度
+		Progression: 机制
+		Bestiary: 生物
+		Tips: 小贴士
 
 		Classes: {
-			$parentVal: New classes
-			Bard: Bard
-			Healer: Healer
-			Thrower: Thrower
+			$parentVal: 新职业
+			Bard: 吟游诗人
+			Healer: 牧师
+			Thrower: 投手
 		}
 	}
 
@@ -102,10 +102,12 @@ HintBook: {
 		P1: "{img:ThoriumLogo}"
 		P2:
 			'''
-			The Thorium Mod is a global content mod that has been in development for over 10 years. 
-			It includes vanilla-friendly content, including: about 2,900 items, about 200 NPCs, 3 mini-bosses, 11 bosses, 1 new biome, 1 new structure, and a ton of content in vanilla invasions, biomes, etc. 
-			With this Infobook, you will learn the basics of the mod without needing to read the wiki (though it is not a full replacement). 
-			You will also find progression information and various tips based on my personal experience playing the mod (I have beaten Thorium about 10 times). Have fun!
+			瑟银是泰拉瑞亚最大的内容性模组之一，已开发超过 10 年。. 
+			它包含大量与泰拉瑞亚原版兼容的内容，包括: 约2900件物品，约200只NPC，3只迷你BOSS，11只BOSS，1个全新的生物群
+系，1个新建筑，以及大量兼容原版泰拉瑞亚的事件，生物群系等内容。
+			通过这本信息手册，你无需阅读wiki即可了解该模组的基础知识 (尽管它并不能完全代替维基百科). 
+			你还将找到我的个人游戏经验 (我已经通关约十次)。祝你游戏愉快!
+			以上翻译来自作者，与瑟银汉化组无关。
 			'''
 	}
 
