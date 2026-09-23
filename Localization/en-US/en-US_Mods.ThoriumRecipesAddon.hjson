@@ -1,0 +1,1049 @@
+Keybinds: {
+	ShowAcquisitionInfo.DisplayName: Show info
+	OpenHintBook.DisplayName: Open Infobook
+}
+
+ShopPreview: {
+	ConditionsHeader: Shop conditions:
+	NewItemUnlocked: New item unlocked in {0}'s shop: {1}
+}
+
+ManualAcquisition: {
+	WaterChestnut: Dropped by naturally growing Water Chestnut plants in the Aquatic Depths biome
+	ManaBerry: Can be harvested from mana berry plants that randomly grow on Hallowed grass on the surface
+	Heartstriker: Can be obtained rarely from fishing in the Jungle
+	ArcaneSpike: Can only be obtained by using cheats
+	EnchantedStaff: Can be found in golden chests in the Underground
+	SpittingFish: Can be obtained rarely from fishing in the Ocean
+	RogueRoninHeadband: Set can be randomly (33.3% chance) purchased from the Traveling Merchant after defeating King Slime
+	NoteHairpin: Sold by the Traveling Merchant
+	HatFish: Can be obtained rarely from fishing in the Ocean during the day
+	RingofUnity: It will always spawn in Scarlet Chests, and cannot be found in Scarlet Crates
+	AloeLeaf: Has a chance to be dropped from big leafy plant ambient objects found within the Underground Jungle
+	HeartRateMonitor: Can be purchased from the Traveling Merchant
+	LivingWoodSap: Can be found in Living Wood Chests within Living Trees, or from mined sap-covered Living Leaf Bushes
+	SeedofHope: Can be found in Living Wood Chests within Living Trees
+	AbyssalWhistle: Has a chance to be dropped by any enemy in The Underworld
+	FishEgg: Has a chance to be obtained from mined Large Coral
+	ExoticMynaEgg: Obtained by catching a Myna with a Bug Net or Golden Bug Net
+	MoleCrate: Can be purchased from the Traveling Merchant
+	ChiLantern: Can be sold by the Traveling Merchant after Eater of Worlds or Brain of Cthulhu have been defeated
+	DestinyWeaver: Can only be obtained by using cheats
+	TheGauntlet: Stones can only be obtained by using cheats
+	Fishbone: Always found in the Aquatic Depths Chest within the Dungeon, which must be unlocked with an Aquatic Depths Key
+	PharaohsSlab: Always found in the Desert Chest within the Dungeon, which must be unlocked with a Desert Key
+	PhoenixStaff: Always found in the Underworld Chest within the Dungeon, which must be unlocked with an Underworld Key
+	AdventurersLantern: Dropped by the Tent ambient object found in the Underground and Cavern layers
+	BrainCoral: Can be obtained rarely from fishing in the Crimson or Underground Crimson
+	RivetingTadpole: Can be obtained rarely from fishing in the Jungle
+	SamsaraLotus: Can be sold by the Traveling Merchant after Eater of Worlds or Brain of Cthulhu have been defeated
+	RottenCod: Can be obtained rarely from fishing in the Corruption or Underground Corruption
+	PharaohsBreath: Dropped by all enemies in the Desert and Underground Desert
+	SoulofPlight: Dropped by all enemies in the Underworld in Hardmode
+	FlamingCrackGut: Found by fishing in lava
+	MagmaGill: Found by fishing in lava
+	UnholyShards: Dropped by all enemies during Blood Moon
+}
+
+// Make sure the text doesn't extend beyond the UI. Check the terms against the mod's translation into your language
+// $parentVal is the main tab category with subcategories
+// Don't translate {i:ThoriumMod/ItemName}, instead of this key, the text displays the item
+
+InfoBook: {
+	GuideDialogue: Playing Thorium? You've got good taste, I can tell. Here, take this Thorium Infobook — it's got all sorts of useful info about the mod.
+	UnlockNotification: Infobook unlocked! Use the 'Open Infobook' key or button to open it.
+	GuideBubble: Come here, friend!
+}
+
+HintBook: {
+	NpcTooltips: {
+		ThoriumMod_TheGrandThunderBird: Use a [i:ThoriumMod/GrandFlareGun] with [i:ThoriumMod/StormFlare] during the day in the Desert.
+		ThoriumMod_QueenJellyfish: Use a [i:ThoriumMod/JellyfishResonator] during the day at the Ocean.
+		ThoriumMod_GraniteEnergyStorm: Use a [i:ThoriumMod/UnstableCore] deep underground within a Granite Enclosure or find and defeat an Unstable Energy Anomaly.
+		ThoriumMod_BoreanStrider: Randomly appears during a Blizzard or summoned with a [i:ThoriumMod/StriderTear].
+		ThoriumMod_FallenBeholder: Use a [i:ThoriumMod/VoidLens] within the Underworld.
+		ThoriumMod_Viscount: Use 5 Unholy Shards at an underground Blood Chamber. Use a [i:ThoriumMod/GrimPointer] to track down the Blood Chamber.
+		ThoriumMod_PatchWerk: Randomly appears during the Blood Moon. Can be resummoned with a [i:ThoriumMod/FreshBrain] purchased from the Confused Zombie. Start the Blood Moon with a [i:BloodMoonStarter].
+		ThoriumMod_CorpseBloom: Randomly appears in the Underground Jungle after defeating the Eater of Worlds / Brain of Cthulhu. Can be resummoned with a [i:ThoriumMod/RottingSpore] purchased from the Confused Zombie.
+		ThoriumMod_Blacksmith: Comes after defeating the Eye of Cthulhu.
+		ThoriumMod_Druid: Comes after defeating the Corpse Bloom.
+		ThoriumMod_ConfusedZombie: Comes after defeating the Patch Werk.
+		ThoriumMod_Diverman: Comes after defeating the Queen Jellyfish.
+		ThoriumMod_BuriedChampion: Use a [i:ThoriumMod/AncientBlade] deep underground within a Marble Enclosure or find and defeat a Bizarre Rock Formation.
+		ThoriumMod_StarScouter: Use a [i:ThoriumMod/StarCaller] high in the sky.
+		ThoriumMod_Lich: Use 30 pumpkins at the Ancient Phylactery in the graveyard beyond the Dungeon.
+		ThoriumMod_ForgottenOne: Pick up 3 [i:ThoriumMod/AbyssalShadow], which are dropped by Aquatic Hallucinations in the Aquatic Depths.
+		ThoriumMod_Cobbler: Comes if a player in the world has any type of shoe accessory in their inventory or equipment slots, with addition of the Aglet and Anklet of the Wind.
+		ThoriumMod_Cook: Comes after defeating the King Slime.
+		ThoriumMod_DesertAcolyte: Comes after defeating The Grand Thunder Bird.
+	}
+
+	Title: Thorium Infobook
+	OpenButton: Open Infobook
+	DragHint: Hold RMB to drag
+	MobList.Header: "{0} — {1} ({2})"
+
+	Tabs: {
+		Basics: Thorium Mod
+		EarlyGame: Mod progression
+		Progression: Notable Mechanics
+		Bestiary: Bestiary
+		Tips: Tips
+
+		Classes: {
+			$parentVal: New classes
+			Bard: Bard
+			Healer: Healer
+			Thrower: Thrower
+		}
+	}
+
+	Basics: {
+		P1: "{img:ThoriumLogo}"
+		P2:
+			'''
+			The Thorium Mod is a global content mod that has been in development for over 10 years. 
+			It includes vanilla-friendly content, including: about 2,900 items, about 200 NPCs, 3 mini-bosses, 11 bosses, 1 new biome, 1 new structure, and a ton of content in vanilla invasions, biomes, etc. 
+			With this Infobook, you will learn the basics of the mod without needing to read the wiki (though it is not a full replacement). 
+			You will also find progression information and various tips based on my personal experience playing the mod (I have beaten Thorium about 10 times). Have fun!
+			'''
+	}
+
+	EarlyGame: {
+		P1:
+			'''
+			=====================================================
+			In this mini-guide, you will briefly learn where and at which stages of the game you should go to find new content. 
+			=====================================================
+			'''
+		P2:
+			'''
+			[c/00ff00:Start game:]
+			At the very beginning of the game, you have a {i:ThoriumMod/FamilyHeirloom}Family Heirloom in your inventory. 
+			At the moment it is useless; only in the endgame can it be crafted into a weak weapon for your collection. 
+			It is not mentioned in the tooltip, but it grants 1 defense, so you can simply wear it until you get your first accessories.
+			'''
+		P3:
+			'''
+			Thorium has virtually no impact on the beginning of the game; you still perform the same basic actions as in vanilla, and new content will find its way to you on its own. 
+			It is worth mentioning {i:ThoriumMod/ThoriumOre}Thorium Ore and {i:ThoriumMod/LifeQuartz}Life Quartz — at the start of the game these are pretty good materials. 
+			Thorium Ore is used to craft decent starting armor and a very useful accessory, {i:ThoriumMod/Crietz}Crietz, which you can wear until the start of hardmode.
+			'''
+		P4:
+			'''
+			{npc:4}[c/00ff00:Post bosses:]
+			After defeating {npc:ThoriumMod/TheGrandThunderBird}The Grand Thunder Bird, the {npc:4}Eye of Cthulhu, {npc:50}King Slime, and the {npc:266}{npc:13}evil boss, several modded town NPCs will arrive who sell some useful items. 
+			For example, from the {npc:ThoriumMod/Blacksmith}Blacksmith you can buy the {i:ThoriumMod/ArcaneArmorFabricator}Arcane Armor Fabricator — a crafting station on which you can craft decent equipment before the evil boss. 
+			Also, during a Blood Moon, the mini-boss {npc:ThoriumMod/PatchWerk}Patch Werk spawns, from which a useful {i:ThoriumMod/SuspiciousMoisturizerBottle}hand pet drops that points to rare enemies and laughs at your deaths. 
+			During a Goblin Army invasion, you can obtain the {i:ThoriumMod/DarkGate}Dark Gate, also a useful item that can be used for some time.
+			'''
+		P5:
+			'''
+			{npc:266}{npc:13}[c/00ff00:Post evil boss:]
+			After defeating the evil boss, you gain access to several new bosses and one new biome. 
+			In the Underground Jungle, the {npc:ThoriumMod/CorpseBloom}Corpse Bloom begins to spawn; after killing it, a useful NPC, the {npc:ThoriumMod/Druid}Druid, arrives who sells plant seeds for potions. 
+			Having bought a {i:ThoriumMod/GrimPointer}Grim Pointer from the {npc:ThoriumMod/ConfusedZombie}Confused Zombie, you can use it to find the {link:https://thoriummod.wiki.gg/wiki/Blood_Chamber|Blood Chamber}, in which you can summon the {npc:ThoriumMod/Viscount}Viscount using {i:ThoriumMod/UnholyShards}Unholy Shards at the {link:https://thoriummod.wiki.gg/wiki/Blood_Altar|Altar}. 
+			The Viscount drops pretty good weapons and is overall a very enjoyable boss (btw my favorite boss of the mod). 
+			At the ocean, you can summon the {npc:ThoriumMod/QueenJellyfish}Queen Jellyfish, from which drops... the {npc:ThoriumMod/Diverman}Diverman NPC, who makes your stay in the new biome easier. 
+			Oh right, the new biome — you can now visit the {link:https://thoriummod.wiki.gg/wiki/Aquatic_Depths|Aquatic Depths}. 
+			They always appear under the ocean on the Jungle side, so you won't have trouble finding them. 
+			There's nothing particularly important in the biome itself, except you can check the loot in the local chests and mine {i:ThoriumMod/Aquaite}Aquaite Ore, from which various equipment is crafted. Next, Skeletron and the Queen Bee await you.
+			'''
+		P6:
+			'''
+			{npc:35}[c/00ff00:Post Skeletron:]
+			After defeating Skeletron, the path to the Dungeon is open to you. 
+			In the Dungeon there are several new materials of interest to you, namely {i:ThoriumMod/aDarksteelAlloy}Darksteel Ingot and {i:ThoriumMod/SpiritDroplet}Spirit Droplet. 
+			In the Dungeon chests there is also new loot, you can look for it. 
+			Next up are as many as 3 modded bosses — {npc:ThoriumMod/GraniteEnergyStorm}Granite Energy Storm, {npc:ThoriumMod/BuriedChampion}Buried Champion, and {npc:ThoriumMod/StarScouter}Star Scouter. 
+			Granite Energy Storm doesn't particularly provide loot, but the Buried Champion drops decent {i:ThoriumMod/ChampionWing}wings before you craft hardmode ones. 
+			Star Scouter drops very good weapons for all classes except Healer, and with it the Wall of Flesh won't cause problems.
+			'''
+		P7:
+			'''
+			{npc:113}[c/00ff00:Welcome to Hardmode:]
+			Well then, Hardmode... from this point on, Thorium becomes much more content-rich. 
+			From the chat message, you may have already guessed that new enemies have appeared in the Aquatic Depths. 
+			You should pay a visit there for two new materials — {i:ThoriumMod/DepthScale}Depth Scales and {i:ThoriumMod/AbyssalChitin}Abyssal Chitin. 
+			But far more important is {i:ThoriumMod/CrystalWave}Crystal Wave. Its usefulness is already clear from the tooltip. 
+			It grows in the Aquatic Depths starting from the beginning of Hardmode — just break it and it will drop. Below is what it looks like.
+			Don't forget to also throw one into Shimmer to obtain a permanent upgrade item.
+			'''
+		P8: "{img:Crystal_wave_world}"
+		P9:
+			'''
+			Beyond the Aquatic Depths, new content also awaits you in the Pirate Invasion, the Blood Moon, the Hallow, the Underworld, the Desert, and the evil biome. 
+			Each of them is notable for new materials, which in turn are used to craft starter equipment for certain classes. 
+			The materials you're looking for are: {i:ThoriumMod/UnfathomableFlesh}, {i:ThoriumMod/GreenDragonScale}, {i:ThoriumMod/SoulofPlight}, {i:ThoriumMod/PharaohsBreath}, {i:ThoriumMod/HallowedCharm}, and {i:ThoriumMod/BloodCell}. 
+			Check what you can craft from them and craft whatever you like.
+			You can also try killing the new mimics — {npc:ThoriumMod/SubmergedMimic}, {npc:ThoriumMod/HellBringerMimic} and {npc:ThoriumMod/MyceliumMimic}. They can either spawn naturally or be summoned using keys, similar to the vanilla Keys of Light and Night.
+			'''
+		P10:
+			'''
+			{npc:ThoriumMod/FallenBeholder}[c/00ff00:First bosses:]
+			Before fighting the bosses, besides standard equipment, I recommend you craft {i:ThoriumMod/DemosGuidanceItem}Demo's Guidance — it's a pet that will replace all your stationary buff tiles. 
+			You can easily wear it until the end of the game; I don't know a more useful pet in Thorium. 
+			Next up are two new bosses: the {npc:ThoriumMod/BoreanStrider}Borean Strider and the {npc:ThoriumMod/FallenBeholder}Fallen Beholder. Both are VERY easy and won't cause any problems. 
+			The Borean Strider doesn't have impressive loot; after defeating it, new enemies will begin to spawn in the Spider Caves, but their drops aren't particularly exciting either. 
+			After defeating the Fallen Beholder, however, there's something to look forward to. First, there are two new ores — {i:ThoriumMod/LodeStoneChunk}Lodestone Chunks and {i:ThoriumMod/ValadiumChunk}Valadium Chunks. 
+			They spawn underground alternately after the boss is killed (i.e., the first kill spawns one ore, the second kill spawns the other, and then the cycle repeats). 
+			Mine them and see what you can craft. Second, the {npc:ThoriumMod/ConfusedZombie}Confused Zombie starts selling new useful items and the material {i:ThoriumMod/VoidHeart}Void Heart, from which an interesting hook is crafted. 
+			The Fallen Beholder itself drops decent weapons and a mount that can be upgraded in the endgame. After that, you just kill all the mechanical bosses.
+			'''
+		P11:
+			'''
+			{npc:134}{npc:126}{npc:127}[c/00ff00:Post mechs:]
+			After defeating all three mechanical bosses, you gain access to several new materials. 
+			First of all, you need to upgrade your forge by crafting the {i:ThoriumMod/SoulForge}Soul Forge, on which almost all further Thorium items are crafted. 
+			Below is a list of what you can craft and why: 
+			{i:ThoriumMod/SubspaceWings}Subspace Wings — good wings for the upcoming bosses. 
+			{i:ThoriumMod/TimeWarp}Time Warp — if you're too lazy to skip time with a bed and you don't play with QoL mods. 
+			{i:ThoriumMod/AirStrikeShield}Air Strike Shield — a very useful item if you play using only Sentries or play in co-op. 
+			{i:ThoriumMod/WishingGlass}Wishing Glass — an upgrade to the Shellphone with extra teleportations. 
+			{i:ThoriumMod/AromaticBulb}Aromatic Bulb — if you can't find Plantera's Bulb, it'll be easier to use its summon item. 
+			{i:ThoriumMod/TitanicBar}Titanic Bar — a material. The armor made from it is shit, but the weapons are worth trying out. 
+			Also, the mechs dropped {i:ThoriumMod/StrangePlating}Strange Plating and {i:ThoriumMod/LifePoweredEnergyCell}Life-Powered Energy Cell for you. From the first, a very useful — I'd even say unbalanced — weapon is crafted for the rest of the game. It literally destroys every boss all the way up to the Lunatic Cultist. 
+			The second material is only useful for the Healer
+			'''
+		P12:
+			'''
+			Next, you'll have to face the {npc:ThoriumMod/Lich}Lich and {npc:262}Plantera. 
+			The Lich is summoned anywhere by using pumpkins on the {i:ThoriumMod/AncientPhylactery}Ancient Phylactery. 
+			It's located in the {link:https://thoriummod.wiki.gg/wiki/Natural_Graveyard|Graveyard} behind the Dungeon, but you can simply buy it from the {npc:ThoriumMod/ConfusedZombie}Confused Zombie and place it anywhere. That's even better. 
+			The Lich is a very easy boss, but it deals very high damage and can regenerate HP during its second phase. To prevent the regeneration, you need to kill the {npc:ThoriumMod/PhylacteryofaThousandSouls}Phylactery of a Thousand Souls, which it periodically spawns. 
+			Against this boss, it's very important to avoid contact damage and have high DPS — then you won't have any problems with it. 
+			In addition to materials and weapons, the Lich drops the {i:ThoriumMod/Phylactery}Phylactery (on Expert mode), which can be placed in a vanity slot and used when needed. 
+			After that, you just need to kill Plantera — with weapons made from {i:ThoriumMod/StrangePlating}Strange Plating, this boss is nothing.
+			'''
+		P13:
+			'''
+			{npc:262}[c/00ff00:Post Plantera:]
+			After Plantera is defeated, {i:ThoriumMod/IllumiteChunk}Illumite becomes available. Illumite spawns in the Cavern and Underground layers, and only after Plantera's first defeat — just like Valadium and Lodestone after the Fallen Beholder, it won't spawn again on subsequent kills. 
+			Illumite is used to craft mediocre Ranger armor and a couple of questionable weapons, but you can try them out if you like. 
+			What should interest you far more are the changes to the Jungle Temple and the Dungeon. Both have new enemies that drop new materials — {i:ThoriumMod/SolarPebble}Solar Pebble in the Temple and {i:ThoriumMod/DarkMatter}Dark Matter in the Dungeon. 
+			Also, with Ectoplasm you can upgrade several materials you're already familiar with. Check the crafting recipes yourself. 
+			If you're a Healer, you can try farming Paladins for {i:ThoriumMod/HolyKnightsAlloy}Holy Knight's Alloy, which is used to craft some decent armor. 
+			You can already head out to kill the new boss — the {npc:ThoriumMod/ForgottenOne}Forgotten One. There's not much to say about it: the boss itself is easy, and its drops are, to put it mildly, not very useful — except maybe for farming Healer armor and a fishing rod. 
+			For now, I recommend killing Duke Fishron for the {i:ThoriumMod/SoulAnchor}Soul Anchor. The Anchor is one of the most useful items in the mod, especially if you're squeamish about healing at the Nurse. 
+			Vanilla events (Solar Eclipse and moons) have also gotten a bunch of new drops, so you can farm those if you want. After that, you can kill Golem.
+			'''
+		P14:
+			'''
+			{npc:439}[c/00ff00:Pre Moon Loser:]
+			The developers were a bit stingy with post-Golem content, so you'll mostly need to farm vanilla items. 
+			If your crit chance is around 50–70%+, I strongly recommend crafting the {i:ThoriumMod/MaskoftheCrystalEye}Mask of the Crystal Eye (what a dumb name). If you have high crit chance, this accessory roughly increases your damage by 12–20%, since each crit deals 12% more damage and also increases the crit itself by 8%. 
+			The Martian Invasion (unsurprisingly) also has new drops, both from enemies and from the flying saucer, so you can farm it if you want. 
+			After that, all that's left is to go for the Lunatic Cultist.
+			'''
+		P15:
+			'''
+			A new weapon can drop from the Cultist... 3 MAGE WEAPONS FROM THE CULTIST. 
+			Why? What the hell for? It doesn't even drop with a 100% chance, and the Cultist doesn't spawn until the pillars are dead — so why would you even farm him?... 
+			Anyway, I dragged out this section, so now on to the content. 
+			After obtaining the Ancient Manipulator, you'll be able to craft {i:ThoriumMod/TerrariumCore}Terrarium Cores. Don't be scared by their recipe — you should already have all the materials from earlier, and getting the missing ones won't be a problem. 
+			From the Cores, a very good multi-class armor is crafted, which you can wear against the Moon Lord. 
+			They're also used to craft weapons for every class — an excellent alternative to the Fragment weapons. 
+			You can also craft {i:ThoriumMod/TerrariumWings}wings, if you didn't farm Fishron's or the Empress's wings. 
+			{i:ThoriumMod/TerrariumParticleSprinters}Terrarium Boots noticeably increase your movement speed, but do you really need them when you have wings and mounts? Decide for yourself. 
+			{i:ThoriumMod/TerrariumDefender}The Terrarium Defender... trash. It's not worth the farm, and it's completely useless against the last two bosses, trust me. 
+			Next, kill the Pillars and craft Fragment weapons, then kill the Moon Lord.
+			'''
+		P16:
+			'''
+			{npc:ThoriumMod/DreamEater}[c/FF0000:T][c/FF7D00:H][c/FFFF00:E] [c/00FF00:P][c/0000FF:R][c/4B0082:I][c/9400D3:M][c/FF0000:O][c/FF7D00:R][c/FFFF00:D][c/00FF00:I][c/0000FF:A][c/4B0082:L][c/9400D3:S]
+			Now the most interesting part begins... The Primordials are the hardest boss in Thorium... for those who haven't heard about the legendary star! The one that drops from the Moon Lord! Which, in combination with the Soaring Insignia, counters all the attacks the devs made for them, easy-peasy! 
+			Anyway, on to the boss. 
+			It makes sense to bring post-Moon Lord gear — armor, weapons, Rod of Harmony, Celestial Star. 
+			There's nothing difficult in the first phase; you just need to fly horizontally across the whole world away from all three Primordials; their attacks will never reach you. 
+			The only one that can catch up to you is Omnicide, if you hesitate and stop, so be careful. 
+			Against Aquaius's tornado attack, a transparent full map will help you; watch his icon closely, and when you see he's stopped, start slowly flying up or down — that's how you survive that attack. 
+			Omnicide also has a very simple attack with spinning orbs. The thing is, they always spin in the direction they'll end up going, so you can easily predict which way to fly while they're spinning. 
+			The real fun begins in the second phase with the Dream Eater. 
+			You can still just fly around the world, but this time you can't predict the tornado, since the Dream Eater stops on several different attacks. 
+			There's also one very nasty attack with teleportation and circular movement, which personally I still don't understand how to counter. 
+			Generally, if he teleports behind you, you can just wait for him to fly to the other side relative to you, then sharply turn around and fly the other way. 
+			Defense is very important in this fight, because their damage and the debuffs they inflict are a horror incarnate. 
+			If you get debuffed, the best thing is to immediately cleanse them by equipping and instantly unequipping the Ankh Shield or the {i:ThoriumMod/MantleoftheProtector}Mantle of the Protector (individually these accessories don't cover all of the boss's debuffs, but their combination lets you completely ignore the boss's debuffs altogether). 
+			And don't forget about the {i:ThoriumMod/SoulAnchor}Soul Anchor — it can fully heal you once per fight. 
+			After defeating this boss, Thorium is considered complete, and all that's left is to craft items from the dropped Essences. For the collection. 
+			=====================================================
+			Thanks for reading this Infobook tab, which I stretched out over 3 days because of my laziness. Bye-bye.
+			'''
+	}
+
+	Bestiary: {
+		DropsHeader: Drops:
+		NoDrops: (no)
+		MoreDrops: …and {0} more
+		HP: HP: {0}
+		DMG: DMG: {0}
+		DEF: DEF: {0}
+		P1: "{moblist:ThoriumMod}"
+	}
+
+	Progression: {
+		P1: This section covers all the notable mechanics of the mod.
+		P2:
+			'''
+			[c/00ff00:Death Prevention:]
+			Death Prevention is a mechanic added by the Thorium Mod. 
+			Normally, when a player reaches 0 life, they die and respawn after a short delay. 
+			Various items within the mod prevent, undo, or delay this process from happening, giving players a second chance to live. 
+			Prevent, Revive, and Delay are the current forms this mechanic can take.
+			[c/808080:A Prevent] stops a player from taking fatal damage, heals them by a set amount in most cases, and grants them brief invulnerability. All the below sources inflict a common debuff, preventing multiple death prevention means from being combined.
+			[c/808080:A Revive] brings a dead player back to life, allowing them to continue fighting.
+			[c/808080:A Delay] makes the player invulnerable to damage and stops them from dying right away for a set duration. After the duration, regardless of their health, the player dies as they would have.
+			'''
+		P3:
+			'''
+			[c/00ff00:Life Shield:]
+			Life Shield is a mechanic added by the Thorium Mod. 
+			It provides a temporary maximum life increase that varies in value per increment depending on the source. 
+			This effect stacks with successive applications of the shielding, up to a specified limit, and decays naturally over time. 
+			A blue border will appear around the hearts of the player as long as the life shield is active.
+			Basically, Life Shield is just a plain HP increase that was somehow made into a separate mechanic for no reason...
+			'''
+		P4:
+			'''
+			[c/00ff00:Transformations:]
+			Transformations are special items that, when used, transform the player into certain creatures or enemies. 
+			While transformed, the player cannot use any items except for Soul Link, which grants the transformations special abilities. 
+			Most transformations reduce the player's size, allowing them to fit through smaller gaps.
+			Transformations can go into the Mount equipment slot, and as such cannot be used while the player is on a Mount or if they have already transformed.
+			'''
+		P5:
+			'''
+			[c/00ff00:Out of Combat:]
+			Out of Combat is a mechanic added by the Thorium Mod. 
+			Various items only function when the player is 'in combat' or 'out of combat'. 
+			A player is considered 'in combat' if they have damaged or have been damaged by an enemy in the last 5 seconds. 
+			After 5 full seconds of doing neither, the player will be considered 'out of combat'.
+			'''
+	}
+
+	Classes: {
+		P1: Thorium adds three classes: Bard, Healer and Thrower.
+		P2: You can view the class progression for all classes {link:https://thoriummod.wiki.gg/wiki/Guide:Class_setups|here}, but personally I recommend that you don't blindly follow the wiki guide — instead, find gear on your own and make your own builds.
+
+		Bard: {
+			P1: Bard uses Inspiration to boost the party's stats. Its instruments buff nearby allies.
+			P2:
+				'''
+				[c/00ff00:Knowing Your Role:]
+				As a bard, your gameplay isn't remarkably different from classes like the ranger or mage. 
+				The primary mechanic that draws attention away from damaging enemies and bosses are the bards Empowerments. 
+				Empowerments are powerful buffs that get applied to the bard and his nearby allies when an instrument is used. 
+				Much of the power behind a bard comes from these boosts, allowing for better damage, defense, movement, and resource spending. 
+				As a bard you'll want to carry multiple instruments at once to allow a broader array of empowerment options. 
+				If you or your team is on the move, player percussion instruments to improve your mobility. 
+				If you're safely damaging enemies, use a brass instrument to increase you or your teams damage potential. 
+				If you or your team is stuck in long winded battles and boss fights, use string and wind instruments to improve your survivability and resource management.
+				'''
+			P3:
+				'''
+				[c/00ff00:Empowerments:]
+				Empowerments are temporary stat boosts that the bard constantly provides to himself and nearby allies when using their instrument weapons. 
+				As one of the defining features of the class, many bard items are associated with the application or power of empowerments. 
+				Empowerments are grouped into 4 categories and are given by specific instrument types with the general rule being:
+
+				Brass Instruments -> Damage Empowerments
+				String Instruments -> Defensive Empowerments
+				Percussion Instruments -> Movement Empowerments
+				Wind Instruments -> Resource Empowerments
+
+				Electronic is unique in that it provides no stat boosting empowerments themselves, but instead prolongs the active duration of any empowerments currently active on players.
+				'''
+			P4:
+				'''
+				[c/00ff00:Inspiration:]
+				Instead of using Mana, the Bard weapons draw from a unique resource called inspiration, which is increased using {i:ThoriumMod/InspirationFragment}Inspiration Fragments, {i:ThoriumMod/InspirationShard}Inspiration Shards, and {i:ThoriumMod/InspirationCrystalNew}Inspiration Crystals. 
+				Inspiration regenerates automatically. Although many of the Bard items are specific to inspiration, the fact that it's separate from Mana makes it a tempting choice for another class' backup. 
+				Inspiration regenerates far more quickly when allowed to run its course, encouraging a sort of 'reload' period for the resource.
+				'''
+			P5:
+				'''
+				[c/00ff00:Big Instruments:]
+				Big instruments are a subset of Bard weapons that utilize a timing mechanic. 
+				When held out, a timer will appear underneath the player (or underneath the cursor if the Move Instrument Timer to Mouse configuration setting is set to true); the instruments' effects vary depending on whether their attacks are used within a specific window of time or not. 
+				As the player successfully times their attacks, the big instrument will gain power, provided empowerment level, along with other effects, whereas missing the timing will greatly decrease these bonuses.
+				'''
+		}
+
+		Healer: {
+			P1: Healer focuses on healing allies and applying defensive buffs.
+			P2:
+				'''
+				[c/00ff00:Class Background:]
+				Death in Terraria is the only major setback a player can encounter, and occurs after a player has made multiple mistakes in movement or judgment. 
+				In vanilla, these mistakes can only be remedied in a handful of limited ways such as Healing Potions, the Nurse, enemy-dropped hearts, and far later into the game, life stealing equipment. 
+				As a healer, however, the player has the unique ability to 'undo' these mistakes themselves at will and contribute towards a team that may lack skill or defensive equipment.
+				This ability, however, comes with a price. A majority of healer equipment decreases the effective damage of melee, ranged, magic, summoning, throwing and symphonic weapons. 
+				These damage reductions heavily impact the DPS potential of the player, and serve to balance out the extremely potent ability to heal and protect allies. However, healers have their own set of weapons that are empowered by their equipment and serve as a means of defending themselves, should they ever feel it in their best interest to strike back at enemies.
+				These weapons have their own unique damage type, known as 'radiant damage', and typically have a secondary effect associated with healing or supporting allies. 
+				In the case of a weapon like the Pill, its left click allows the player to damage enemies and its right click allows them to temporarily increase the life recovery of allies. 
+				Most, if not all, radiant weapons have a similar ability to support allies while simultaneously being able to damage enemies.
+				'''
+			P3:
+				'''
+				[c/00ff00:Knowing Your Role:]
+				It should be no surprise that as a healer, the primary goal is to heal your allies and keep them from dying. 
+				You have many ways to go about this in the form of healing spells, support spells and in some cases radiant weapons. 
+				The amount of upkeep and things to keep track of make healer a very stimulating and rewarding class to play. 
+				That said, healers should constantly survey how the fight is going and change to act accordingly. 
+				Since the tide of battle can change at any moment, its up to the healer to decide what they feel is a more pressing matter, but a very basic priority list for a healer is as follows.
+
+				Drop Aggro >> Heal Allies > Set up Support > Damage Enemies
+
+				Keep that aggro off of you, healers!
+				[c/808080:Drop Aggro:] A dead healer is a useless healer (in most cases), so getting the enemies off your back and properly targeting another ally should be your first and constant goal. You have the ability to heal the ally that receives the aggro, while they do not, so getting out of harm's way is a top priority. That does not mean you do 'nothing' as you try to shake them off, but it should always be your goal when moving around during moments of constant pressure.
+
+				[c/808080:Heal Allies:] Always keep your allies healed to a healthy amount. You should be aware of the tanking abilities of each of your team mates, so prioritize allies that are getting hurt with low defense or constantly taking aggro. In general, should your mana allow it, keeping players topped up near maximum life is the goal. But when things are getting hectic, especially during invasions and boss fights, you have mere seconds to decide who is in more danger of dying than everyone else. So topping off an ally may not be the smartest idea, instead going for some split healing to keep multiple allies away from dying would be a better choice.
+
+				[c/808080:Set up Support:] There exist many support items that do not directly heal allies, but contribute towards their protection regardless. Damage reduction, life shields, life recovery, heal over time effects and the like take time to prepare, but can save lives when a ramp in danger occurs. During down moments in fights, a healer can prepare or dish out support abilities to better prepare for a phase or a dangerous and incoming attack. If your allies are pretty healthy, and you have not refreshed your support effects recently, it might be wise to set them up.
+
+				[c/808080:Damage Enemies:] If you are not in immediate danger, your allies are at an acceptable level of health, and your support spells still have a good bit of time on them, then it is time to start helping the cause. Your radiant weapons offer a way to dish out some damage, while still providing supportive effects, should things start turning ugly again. Just be sure not to drain all of your mana with radiant spells; should your allies start getting heavily damaged again, you may lack the necessary mana to save them.
+				'''
+			P4:
+				'''
+				[c/00ff00:Mechanics:]
+				The Healer class has various unique mechanics that are relevant to their success. 
+
+				[c/808080:Additional Healing]
+				Most healing sources heal for a base amount as stated in their tooltips. Several items provide additional healing power to the owner, allowing them to increase their healing output. Usually these bonuses to healing cannot be used on the casting player wielding the items, but with spells like the Holy Staff, Twinkle and Renew the player can receive these bonuses along with their allies. Being afflicted by Mana Sickness after drinking Mana Potions also afflicts the player with Out of Touch, negating bonus healing. This negative effect encourages healers to better manage their mana consumption and punish healers who may try to spam Mana Potions.
+
+				[c/808080:Life Recovery]
+				Life recovery is a special form of healing that functions as a heal over time effect. It works separately from life regeneration and continues to work even when life regeneration does not due to effects like Bleeding. The recovery rate is unaffected by movement, taking damage, dealing damage, or anything other than its timer. Every second, unless under the effects of the Quick Recovery buff, the player will heal life equal to their life recovery amount. All forms of life recovery provided by the healer come from accessory effects and work as buffs on the healed ally.
+
+				Since life recovery effects are applied and last their full duration after only one trigger, it works well in situations where the healer may lose line of sight of their healing targets. It also works well in fights that are drawn out, where sustained healing is more important than burst healing. Healing spells that affect a large number of allies also work incredibly well with life recovery effects, as they can trigger a large amount of life recovery cycles with a single cast.
+
+				[c/808080:Barrier Life]
+				A maximum life and maximum shield life bar.
+				Barrier life is a decaying, temporary increase to a players maximum life. Taking damage will take health away from the barrier before truly effecting your health pool. Essentially, it works as a buffer against the next attacks against you. Many healing items and support spells give barrier life, though it can be granted by other items and effects as well. It doesn't take up a buff slot, so the ability to have 25/50 more maximum health is an incredibly powerful effect. A players barrier will decay by 1 every second until they have no more barrier life.
+
+				[c/808080:Auras]
+				Auras are temporary rings of various sizes that surround the cursor of the owner when activated. They apply beneficial effects to any allies that touch the aura, but do not benefit the casting user. These auras do not have to be channeled, and last for a reasonable time after only one use. With one use of the chosen aura, the healer can then switch to whichever healing spell or weapon they feel is needed, and still grant special effects to allies they touch. The auras allow healers to improve the damage of their team and survivability passively, with minimal effort and upkeep.
+
+				[c/808080:Heal Streak]
+				Looks like someone knows what they're doing.
+				Heal streaks are a primarily informative feature that displays the amount of healing done by a healer over a certain amount of time. After three seconds of not contributing towards a heal streak, a large green number will appear above the head of the healer displaying the total amount healed over the course of the streak and signifying its end. Currently, three actions will build up a heal streak:
+
+				Healing Players: Directly healing an ally player or the caster themselves through healing spells such as The Good Book or Holy Staff.
+
+				Mitigating Damage: Reducing the damage allies take through items such as the Ancient Aegis and Protection Staff.
+
+				Stealing Life: Stealing enemy life using radiant weapons such as Leech Bolt and Blood Transfusion.
+
+				[c/808080:Radiant Damage]
+				Along with the healer class' new healing abilities, a new damage type has been created specifically for them known as Radiant Damage. They can increase radiant damage through healer armors, accessories, items, and even a buff potion. Radiant weapons have special secondary effects that support allies and even the healer themselves in some cases. Radiant weapons are categorized into three unlisted subgroups:
+
+				Light Radiant: Weapons that help to heal allies or the caster. This heal may be a direct heal, a heal over time, or heals that persist in the world for others to grab.
+
+				Dark Radiant: Weapons that steal or cost life. They support allies by transferring some of the casters health into nearby hurt allies or stealing the life of enemies.
+
+				Benign Radiant: Weapons like the Scythes, which do not fit into the other two categories. They do not typically offer secondary supportive effects, and work more like traditional weapons.
+				'''
+		}
+
+		Thrower: {
+			P1: The Thrower class became individualized and expanded upon by the Thorium Mod following vanilla Terraria's removal of the class in the 1.4 update.
+			P2:
+				'''
+				[c/00ff00:Mechanics:]
+				[c/808080:Technique Scrolls]
+				Technique Scrolls are items that, when used, allow the player to perform special abilities, with the type depending on the last Technique Scroll used. For example, Technique: Shadow Dance allows the player to teleport to the cursor's location. These techniques draw from the player's Technique Points, which will automatically regenerate while dealing throwing damage.
+
+				[c/808080:Thrower Exhaustion]
+				While using non-consumable throwing weapons, such as the Gauss Flinger or Stalker's Snippers, an Exhaustion Bar will begin to fill up. 
+				If brought to full, the player will be penalized with the Exhaustion debuff for 20 seconds. 
+				While the player has the debuff, using any non-consumable Thrower weapon will have its damage cut by 20% per use, until they only deal 1 damage. 
+				Killing an enemy with non-consumable throwing weapon replenishes 10% of the maximum Exhaustion.
+				The base Exhaustion cap is an unlisted value of 1200 (1680 with the Canteen, 1920 with the Mermaid's Canteen, and 2400 with both). 
+				Every time a non-consumable weapon is used, twice its useTime is added to the player's Exhaustion value. 
+				Every second, regardless of weapon uses within this time, 60 Exhaustion is recovered unless the player has the Exhaustion debuff. 
+				While the debuff is active, the player will recover no Exhaustion for the duration. 
+				Once the debuff has fully run its course, the player will recover all of their Exhaustion at once.
+				'''
+		}
+	}
+
+	Tips: {
+		P1: Here you'll find my personal tips (from the developer of Thorium Info+) for playing Thorium. I've highlighted only the most important things worth your attention.
+		P2:
+			'''
+			[c/00ff00:Don't ignore NPCs]
+			In Thorium, almost all town NPCs have a purpose and meaning in the game — they weren't added to the mod for nothing (though not all of them, admittedly). 
+			For example, the {npc:ThoriumMod/Cobbler}Cobbler can give you a free movement speed boost early on and make crafting Terraspark Boots easier. 
+			The {npc:ThoriumMod/Druid}Druid makes potion crafting easier. 
+			The {npc:ThoriumMod/ConfusedZombie}Confused Zombie sells summon items for some bosses, letting you farm them for money. 
+			The {npc:ThoriumMod/Diverman}Diverman makes your stay in the Aquatic Depths easier. 
+			The {npc:ThoriumMod/Blacksmith}Blacksmith sells a crafting station on which you can create good equipment for the evil boss.
+			The {npc:ThoriumMod/Cook}Cook sells food that acts as an extra healing item. 
+			The {npc:ThoriumMod/DesertAcolyte}Desert Acolyte can summon a sandstorm.
+			'''
+		P3:
+			'''
+			[c/00ff00:Don't ignore defense]
+			In vanilla, defense is far preferable to damage, though many people just ignore this. 
+			Thorium, however, takes this to the max. 
+			Defense in Thorium is absurdly unbalanced — by making a defense build, you literally become unkillable. 
+			Below is a screenshot of my boss fight with the Moon Lord, where I just stood still the whole time and absorbed damage while playing an Only Sentry build.
+			'''
+		P4: "{img:TrashDef}"
+		P5:
+			'''
+			And the last important tip: [c/00ff00:complete the Tracker's contracts] 
+			For some of his fairly simple contracts, the Tracker can start selling quite useful items. 
+			For example, a summon item for regular mimics, a teleporter to the Dungeon, and so on. 
+			From this follows a brief additional tip: [c/00ff00:collect and save Vanquisher Medals] to buy important items.
+			'''
+	}
+}
+
+BestiaryIntro: {
+	Message: Bestiary entry for '{0}': {1}
+	Message_Boss: Bestiary entry for '{0}': {1}
+}
+
+// Don't touch Divider, there was a stripe there before, but I decided to remove it
+ArmorSetBonus: {
+	Header: Set bonus:
+	Divider: ""
+}
+
+// Check the set bonuses against their translations in the game in your language to avoid any discrepancies
+ManualSetBonus: {
+	Silk: 25% increased magic damage while above 90% maximum mana
+	LivingWood: Your Living Wood Sapling's auto attack will home in on enemies
+	SandStone: Desert winds have granted you a sandy double jump
+	Icy: An icy aura surrounds you, freezing enemies that stay too long within it
+	Steel: 8% increased damage reduction
+	Thorium: Damage done increased by 10%
+	Flight: You can now briefly fly
+	Granite: Immune to intense heat and enemy knockback, but your movement speed is slowed down greatly
+	Ebon: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
+	NoviceCleric:
+		'''
+		Every 5 seconds you generate up to 3 holy crosses
+		When casting healing spells, a cross is used instead of mana
+		'''
+	Coral:
+		'''
+		Increases radiant damage by 1
+		Radiant damage builds up to 25 life shield and life shielding no longer decays on you
+		Healing an ally transfers the life shield to them	
+		'''
+	YewWood:
+		'''
+		After four non-critical strikes, your next ranged attack will mini-crit for 150% damage
+		Mini-crits count as critical strikes for related effects
+		'''
+	Flesh:
+		'''
+		While hurt, damaged enemies have a 10% chance to drop flesh
+		Collected flesh restores life and grants bonus damage
+		'''
+	TideHunter: Ranged critical strikes release a splash of foam, slowing nearby enemies
+	DepthDiver: You and nearby allies gain 10% increased damage, 10% movement speed, and can breathe underwater
+	NagaSkin: Every 75 mana spent will significantly increase your magic damage and casting speed briefly
+	Criers: Your symphonic empowerments will last an additional 3 seconds
+	Nobles: Inspiration notes that drop are twice as potent and increase your symphonic damage briefly
+	Jesters: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
+	Jesters2: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
+	Cryomancer: Your magic damage will freeze enemies for two seconds
+	Astro: Summon damage has a chance to unleash a burst of damaging plasma on hit
+	Geode: You can now mine entire ore veins at once
+	Illumite: Your bows, guns, and launchers fire off additional projectiles periodically
+	Blooming: Your healing spells increase the life recovery and life recovery rate of the healed target
+	SpiritTrapper:
+		'''
+		Increases your max number of sentries by 1
+		Killing enemies or continually damaging bosses generates soul wisps
+		After generating 5 wisps, they are instantly consumed to heal you for 10 life	
+		'''
+	LifeBloom:
+		'''
+		Minion and sentry attacks have a 25% chance to heal you on hit
+		You cannot heal more than 50 life every 10 seconds
+		'''
+	Dread:
+		'''
+		Your boots vibrate at an unreal frequency, increasing base movement speed significantly
+		While moving, your melee damage and critical strike chance are increased
+		'''
+	Valadium: Reverse gravity by pressing UP. While reversed, ranged damage is increased by 15%
+	Lodestone:
+		'''
+		Enemies are more likely to target you
+		6% increased damage reduction for every 25% of life lost
+		Damage reduction increase maxes at 18% while below 25% life
+		'''
+	Titan: Damage done increased by 18%
+	Dragon: Attacks have a chance to unleash an explosion of dragon flames
+	DemonBlood: Maximum life increased by 100
+	TideTurner:
+		'''
+		Pressing the 'Armor Ability' key will envelop you within an impervious bubble
+		While the bubble is active, all damage taken is converted into healing	
+		'''
+	Darksteel: Nothing will stop your movement! Double tap to dash!
+	Durasteel: 10% increased damage reduction
+	WhiteKnight:
+		'''
+		40% of the mana you spend is stored as energy to a maximum of 727200
+		Pressing the 'Armor Ability' key will spend energy to restore up to 363600 mana and 363600 life at a time	
+		'''
+	HallowedBard:
+		'''
+		Become immune after striking an enemy
+		Increases the duration of your symphonic empowerments by 8 seconds
+		'''
+	HallowedHealer:
+		'''
+		Become immune after striking an enemy
+		Healing spells will heal an additional 6 life	
+		'''
+	BioTech:
+		'''
+		A biotech probe will assist you in healing your allies
+		Heals ally life equal to your bonus healing
+		'''
+	Warlock:
+		'''
+		Radiant attacks have a chance to generate up to 15 shadow wisps
+		Pressing the 'Armor Ability' key will unleash every stored shadow wisp towards your cursor's position	
+		'''
+	FallenPaladin: Taking damage heals nearby allies equal to 15% of the damage taken
+	Iridescent:
+		'''
+		Your luck is slightly increased
+		Radiant damage has a 15% chance to flash, healing nearby allies for 0 life and confusing enemies	
+		'''
+	LifeBinder: Healing spells will shortly increase the healed player's maximum life by 50
+	Sacred: Healing spells will heal an additional 5 life
+	Templar: If an ally is below half health, you will gain increased healing abilities
+	DreamWeaverHelmet:
+		'''
+		Pressing the 'Armor Ability' key will spend 200 mana and bend the very fabric of reality
+		Enemies will be heavily slowed and take 15% more damage from all sources
+		Allies will receive greatly increased movement and attack speed
+		'''
+	DreamWeaverHood:
+		'''
+		Pressing the 'Armor Ability' key will spend 200 mana and place you within the Dream
+		While in the Dream, healed allies will become briefly invulnerable and be cured of all debuffs	
+		'''
+	Whispering:
+		'''
+		You occasionally birth a tentacle of abyssal energy that attacks nearby enemies
+		You can have up to 6 tentacles and their damage saps life and mana from the hit enemy
+		'''
+	Celestial:
+		'''
+		Pressing the 'Armor Ability' key will summon a large aura around your cursor at the cost of 150 mana
+		Allies touched by the aura gain increased damage, damage reduction, defense, and life recovery
+		Enemies touched by the aura suffer from holy glare and take 15% more damage from all sources
+		'''
+	Conduit:
+		'''
+		Moving around generates up to 5 static rings, with each one generating life shielding
+		When fully charged, a bubble of energy will protect you from one attack
+		'''
+	Pyromancer: Your magic damage will heavily burn and damage all adjacent enemies
+	Terrarium:
+		'''
+		The energies of Terraria will seek to protect you when you're in combat
+		Pressing the 'Armor Ability' key will allow you to cycle and select a Class Focus
+		'''
+	ShootingStar:
+		'''
+		Increases the duration of your symphonic empowerments by 6 seconds
+		Each unique empowerment you have increases your symphonic damage by 5%
+		Each unique empowerment you have increases your inspiration regeneration by 2%	
+		'''
+	MarchingBand: While in combat, a rainbow of damaging symphonic symbols will follow your movement and stun enemies
+	Ornate:
+		'''
+		Symphonic critical strikes cause a random active empowerment to ascend to a fourth level of intensity
+		This effect can only trigger once every 5 seconds
+		'''
+	Maestro:
+		'''
+		Pressing the 'Armor Ability' key will summon a chorus of music playing ghosts
+		The ghosts rapidly damage nearby enemies with brass, wind, string, and percussion instrument damage
+		'''
+	CyberPunk:
+		'''
+		Pressing the 'Armor Ability' key will cycle you through four states:
+		Red - You and nearby allies are granted Flat Damage II & Damage II
+		Green - You and nearby allies are granted Movement Speed II & Flight Time II
+		Purple - You and nearby allies are granted Max Resource II & Resource Regen II
+		Blue - You and nearby allies are granted Defense II & Damage Reduction II
+		'''
+	Inspirator:
+		'''
+		Pressing the 'Armor Ability' key will overload all nearby allies with every empowerment III for 15 seconds
+		Using this ability requires 20 inspiration and must recharge for 1 minute
+		'''
+	Soloist:
+		'''
+		Pressing the 'Armor Ability' key will grant you endless inspiration, greatly increased symphonic damage and playing speed
+		This effect lasts for 10 seconds and needs to recharge for 1 minute
+		'''
+	MasterArbalest: Your ranged damage has a 10% chance to completely duplicate itself and deal 15% more damage
+	MasterMarksman:
+		'''
+		Your ranged damage has a 5% chance to completely eradicate the hit target
+		   This effect can only occur on bosses if they are below 5% maximum life
+		'''
+	MagmaSeer: All summon damage leaves a lingering burn that deals significant damage over time
+	Bronze: Throwing damage has a 20% chance to unleash a piercing lightning strike
+	SpiritTrapper2:
+		'''
+		Increases your max number of minions by 1
+		Killing enemies or continually damaging bosses generates soul wisps
+		After generating 5 wisps, they are instantly consumed to heal you for 10 life
+		'''
+	Fungus:
+		'''
+		Damage done against mycelium infected enemies is increased by 10%
+		Dealing damage to enemies infected with mycelium briefly increases throwing speed by 10%
+		'''
+	PlagueDoctors: Your plague gas will linger in the air twice as long and your plague reactions will deal 20% more damage
+	HallowedThrower:
+		'''
+		Become immune after striking enemy,
+		and increases your maximum technique points by 2
+		'''
+	Lich:
+		'''
+		Killing an enemy will release a soul fragment
+		Touching a soul fragment greatly increases your movement and throwing speed briefly
+		'''
+	WhiteDwarf:
+		'''
+		Critical strikes will unleash ivory flares from the cosmos
+		Ivory flares deal 0.1% of the hit target's maximum life as damage
+		'''
+	TideTurner2: Throwing damage has a 20% chance to unleash aquatic homing dagger all around you
+	ShadeMaster: Up to 50% of the damage you take is staggered over the next 10 seconds
+}
+
+Acquisition: {
+	Header: How to obtain:
+	HoldKey: Hold [{0}] to view additional information and where to get it
+	CraftHeader: Crafting:
+	CraftIngredient: "[i:{0}] {1} x{2}"
+	ShopHeader: Sold by:
+	Shop: "{0} {1}"
+	Shop_WithConditions: "{0} {1} — {2}"
+	DropHeader: Dropped by:
+	Drop: "{0} {1} ({2})"
+	Drop_WithSpawn: "{0} {1} — {3} ({2})"
+	ContainerHeader: Contained in:
+	ContainerDrop: "[i:{0}] {1} ({2})"
+	ContainerContentHeader: Contents:
+	ContainerContentItem: "[i:{0}] {1} ({2})"
+	ContainerContentMore: …and {0} more
+	ShimmerHeader: Shimmer:
+	ShimmerTransform: Transforms into: [i:{1}]
+	ShimmerSource: Obtained from: [i:{0}]
+	ManualHeader: Other:
+}
+
+EquipmentStats: {
+	WingHeader: Wing stats:
+	WingFlightTime: Flight time: {0}s
+	WingHorizSpeed: Horizontal speed: {0}
+	WingAccel: Acceleration: {0}x
+	WingHover: Can hover in the air
+	HookHeader: Hook stats:
+	HookCount: Hooks: {0}
+	HookSpeed: Pull speed: {0}
+	MountHeader: Mount stats:
+	MountSpeed: Speed: {0}
+	MountAccel: Acceleration: {0}
+	MountJump: Jump height: {0}
+	MountFlight: Flight time: {0}s
+	MountDoubleJump: Double jump
+	MountDash: Dash
+	AmmoHeader: Uses ammo:
+	AmmoLine: "[i:{0}] {1}"
+	AmmoMore: …and {0} more
+}
+
+// Don't translate 1 part of config, in game use part 2. A don't delete it, sorry
+Configs: {
+	ThoriumRecipesAddon: {
+		AcquisitionConfig: {
+			DisplayName: Thorium Info+ Configuration
+
+			Headers: {
+				AcquisitionTooltips: Acquisition tooltips
+				EquipmentStats: Equipment stats
+				AmmoInfo: Ammo info
+				SetBonus: Set bonuses
+				BestiaryIntro: Bestiary intro
+				HintBook: Hint book
+			}
+
+			EnableAcquisitionTooltips: {
+				Label: Enable acquisition tooltips
+				Tooltip: Shows how to obtain Thorium items.
+			}
+
+			ShowCraftSources: {
+				Label: Show crafting sources
+				Tooltip: Display crafting recipes.
+			}
+
+			ShowShopSources: {
+				Label: Show shop sources
+				Tooltip: Display NPCs that sell the item.
+			}
+
+			ShowDropSources: {
+				Label: Show drop sources
+				Tooltip: Display enemies that drop the item.
+			}
+
+			ShowShimmerSources: {
+				Label: Show shimmer sources
+				Tooltip: Display shimmer transmutations.
+			}
+
+			ShowContainerSources: {
+				Label: Show container sources
+				Tooltip: Display bags and crates that contain the item.
+			}
+
+			ShowContainerContents: {
+				Label: Show container contents
+				Tooltip: Display the contents of bags and crates before opening them.
+			}
+
+			ShowEquipmentStats: {
+				Label: Show equipment stats
+				Tooltip: Shows wings, hooks and mounts stats for Thorium items.
+			}
+
+			ShowWingStats: {
+				Label: Show wing stats
+				Tooltip: Show wing stats.
+			}
+
+			ShowHookStats: {
+				Label: Show hook stats
+				Tooltip: Show hook stats.
+			}
+
+			ShowMountStats: {
+				Label: Show mount stats
+				Tooltip: Show mount stats.
+			}
+
+			ShowAmmoInfo: {
+				Label: Show ammo info
+				Tooltip: Show which ammo types ranged weapons use.
+			}
+
+			ShowSetBonusPreview: {
+				Label: Show set bonuses
+				Tooltip: Show the armor set bonus in the helmet tooltip while the set is not equipped.
+			}
+
+			ShowBestiaryIntro: {
+				Label: Show bestiary entries
+				Tooltip: Sends a bestiary entry to chat on first kill of a modded mob.
+			}
+
+			ShowBestiaryIntroSounds: {
+				Label: Bestiary entry sounds
+				Tooltip: Play a sound when a bestiary entry appears.
+			}
+
+			AllowHintBook: {
+				Label: Enable handbook
+				Tooltip: Allows opening the in-game handbook via hotkey.
+			}
+
+			HintBookButtonVisibility: {
+				Label: Handbook button visibility
+				Tooltip: When to show the open handbook button.
+				WithInventory: With inventory
+				Always: Always
+				Never: Never
+			}
+
+			HintBookButtonX: {
+				Label: Button X position
+				Tooltip: Horizontal button position. -1 means auto (bottom right).
+			}
+
+			HintBookButtonY: {
+				Label: Button Y position
+				Tooltip: Vertical button position. -1 means auto (bottom right).
+			}
+		}
+	}
+
+	AcquisitionConfig: {
+		HintBookButtonY: {
+			Tooltip: Vertical button position. -1 means auto (bottom right).
+			Label: Button Y position
+		}
+
+		HintBookButtonX: {
+			Tooltip: Horizontal button position. -1 means auto (bottom right).
+			Label: Button X position
+		}
+
+		HintBookButtonVisibility: {
+			Tooltip: Determines under what conditions the Infobook open button is displayed on screen.
+			Label: Infobook Button Visibility
+		}
+
+		AllowHintBook: {
+			Tooltip: ""
+			Label: Enable Infobook Open Button
+		}
+
+		Headers: {
+			HintBook: Hint Book Header
+			BestiaryIntro: Bestiary Intro Header
+			SetBonus: Set Bonus Header
+			AmmoInfo: Ammo Info Header
+			EquipmentStats: Equipment Stats Header
+			AcquisitionTooltips: Acquisition Tooltips Header
+			ShopPreview: Shop Preview Header
+		}
+
+		ShowBestiaryIntroSounds: {
+			Tooltip: Enables sounds when Bestiary entries appear in chat.
+			Label: Bestiary Entries Sounds
+		}
+
+		ShowBestiaryIntro: {
+			Tooltip: Enables Bestiary entries for mobs to appear in chat after they are killed.
+			Label: Bestiary Entries
+		}
+
+		ShowSetBonusPreview: {
+			Tooltip: Enables an additional tooltip on armor set helmets, showing the set bonus in advance.
+			Label: Set Bonus Preview
+		}
+
+		ShowAmmoInfo: {
+			Tooltip: Enables an additional tooltip on ranged weapons, showing the ammunition they use
+			Label: Ammo Info
+		}
+
+		ShowMountStats: {
+			Tooltip: Display of mount stats
+			Label: Mount Stats
+		}
+
+		ShowHookStats: {
+			Tooltip: Display of hook stats
+			Label: Hook Stats
+		}
+
+		ShowWingStats: {
+			Tooltip: Display of wings stats
+			Label: Wings Stats
+		}
+
+		ShowEquipmentStats: {
+			Tooltip: Enables additional tooltips that show the stats of hooks, mounts, and wings.
+			Label: Equipment Stats
+		}
+
+		ShowContainerContents: {
+			Tooltip: Enables an additional tooltip on 'right-click-to-open' items that shows their contents.
+			Label: Container Contents
+		}
+
+		ShowContainerSources: {
+			Tooltip: Enables an additional tooltip on all 'right-click-to-open' items that shows their contents.
+			Label: Container Sources
+		}
+
+		ShowShimmerSources: {
+			Tooltip: Enables additional tooltips about Shimmer on items.
+			Label: Shimmer Sources
+		}
+
+		ShowDropSources: {
+			Tooltip: Enables additional tooltips on items dropped by enemies.
+			Label: Drop Sources
+		}
+
+		ShowShopSources: {
+			Tooltip: Enables additional tooltips on items sold by NPCs.
+			Label: Shop Sources
+		}
+
+		ShowCraftSources: {
+			Tooltip: Enables an additional tooltip with the crafting recipe for items.
+			Label: Craft Sources
+		}
+
+		EnableAcquisitionTooltips: {
+			Tooltip: Enables all additional tooltips on items
+			Label: Enable Additional Tooltips
+		}
+
+		DisplayName: Thorium Info+ Configuration
+
+		EnableShopPreview: {
+			Tooltip: Enables a preview of NPC shop inventories.
+			Label: Enable Shop Preview
+		}
+
+		EnableShopPreviewMessages: {
+			Tooltip: Enables chat messages that appear each time a new item becomes available in NPC shops.
+			Label: Enable Shop Preview Messages
+		}
+
+		EnableShopPreviewSounds: {
+			Label: Enable Shop Preview Sounds
+			Tooltip: Enables sounds for chat messages when new items appear in NPC shops.
+		}
+	}
+
+	HintBookButtonVisibility: {
+		Never: {
+			Tooltip: ""
+			Label: Never
+		}
+
+		Always: {
+			Tooltip: ""
+			Label: Always
+		}
+
+		WithInventory: {
+			Tooltip: ""
+			Label: With Inventory
+		}
+
+		Tooltip: ""
+	}
+}
+
+Items: {
+	InfoBookItem: {
+		DisplayName: Thorium Infobook
+		Tooltip:
+			'''
+			Use to gain access to the Infobook
+			'Contains detailed information about the Thorium Mod'
+			'''
+	}
+}
+
+Achievements: {
+	InfoBookAchievement: {
+		Description: Use the Thorium Infobook — a brief reference guide to the Thorium Mod
+		FriendlyName: I Know Everything!
+	}
+}
