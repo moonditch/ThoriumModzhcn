@@ -57,25 +57,25 @@ InfoBook: {
 
 HintBook: {
 	NpcTooltips: {
-		ThoriumMod_TheGrandThunderBird: Use a [i:ThoriumMod/GrandFlareGun] with [i:ThoriumMod/StormFlare] during the day in the Desert.
-		ThoriumMod_QueenJellyfish: Use a [i:ThoriumMod/JellyfishResonator] during the day at the Ocean.
-		ThoriumMod_GraniteEnergyStorm: Use a [i:ThoriumMod/UnstableCore] deep underground within a Granite Enclosure or find and defeat an Unstable Energy Anomaly.
-		ThoriumMod_BoreanStrider: Randomly appears during a Blizzard or summoned with a [i:ThoriumMod/StriderTear].
-		ThoriumMod_FallenBeholder: Use a [i:ThoriumMod/VoidLens] within the Underworld.
-		ThoriumMod_Viscount: Use 5 Unholy Shards at an underground Blood Chamber. Use a [i:ThoriumMod/GrimPointer] to track down the Blood Chamber.
-		ThoriumMod_PatchWerk: Randomly appears during the Blood Moon. Can be resummoned with a [i:ThoriumMod/FreshBrain] purchased from the Confused Zombie. Start the Blood Moon with a [i:BloodMoonStarter].
-		ThoriumMod_CorpseBloom: Randomly appears in the Underground Jungle after defeating the Eater of Worlds / Brain of Cthulhu. Can be resummoned with a [i:ThoriumMod/RottingSpore] purchased from the Confused Zombie.
-		ThoriumMod_Blacksmith: Comes after defeating the Eye of Cthulhu.
-		ThoriumMod_Druid: Comes after defeating the Corpse Bloom.
-		ThoriumMod_ConfusedZombie: Comes after defeating the Patch Werk.
-		ThoriumMod_Diverman: Comes after defeating the Queen Jellyfish.
-		ThoriumMod_BuriedChampion: Use a [i:ThoriumMod/AncientBlade] deep underground within a Marble Enclosure or find and defeat a Bizarre Rock Formation.
-		ThoriumMod_StarScouter: Use a [i:ThoriumMod/StarCaller] high in the sky.
-		ThoriumMod_Lich: Use 30 pumpkins at the Ancient Phylactery in the graveyard beyond the Dungeon.
-		ThoriumMod_ForgottenOne: Pick up 3 [i:ThoriumMod/AbyssalShadow], which are dropped by Aquatic Hallucinations in the Aquatic Depths.
-		ThoriumMod_Cobbler: Comes if a player in the world has any type of shoe accessory in their inventory or equipment slots, with addition of the Aglet and Anklet of the Wind.
-		ThoriumMod_Cook: Comes after defeating the King Slime.
-		ThoriumMod_DesertAcolyte: Comes after defeating The Grand Thunder Bird.
+		ThoriumMod_TheGrandThunderBird: 白天在沙漠使用[i:ThoriumMod/GrandFlareGun]发射[i:ThoriumMod/StormFlare]。
+		ThoriumMod_QueenJellyfish: 白天靠近海洋使用[i:ThoriumMod/JellyfishResonator]召唤。
+		ThoriumMod_GraniteEnergyStorm: 在花岗岩洞使用[i:ThoriumMod/UnstableCore]召唤Boss，如果区域内有不稳定的反常流能，不稳定核心不会生效。
+		ThoriumMod_BoreanStrider: 在困难模式暴雪期间自然生成，也可以使用[i:ThoriumMod/StriderTear]召唤。
+		ThoriumMod_FallenBeholder: 在地狱使用[i:ThoriumMod/VoidLens]召唤。
+		ThoriumMod_Viscount: 在鲜血祭坛使用5个不洁碎晶召唤，[i:ThoriumMod/GrimPointer]可以指示鲜血密室的位置。
+		ThoriumMod_PatchWerk: 缝合人会生成在血月期间，可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤。
+		ThoriumMod_CorpseBloom: 在克苏鲁之脑/世界吞噬怪被击败后它会生成在地下丛林附近，可以从迷途僵尸处购买[i:ThoriumMod/RottingSpore]再次进行召唤。
+		ThoriumMod_Blacksmith: 击败{$NPCName.EyeofCthulhu}。
+		ThoriumMod_Druid: 在骷髅王后的丛林击败绝命花。
+		ThoriumMod_ConfusedZombie: 在血月期间击败缝合人。
+		ThoriumMod_Diverman: 击败水母皇后。
+		ThoriumMod_BuriedChampion: 大理石洞内使用[i:ThoriumMod/AncientBlade]召唤Boss或者打死埋葬石像（骷髅王后生成）。
+		ThoriumMod_StarScouter: 在天空使用[i:ThoriumMod/StarCaller]召唤。
+		ThoriumMod_Lich: 使用30个南瓜在自然墓地的远古护身符召唤。（三王后的夜晚）。
+		ThoriumMod_ForgottenOne: 虚影潜游者会掉落[i:ThoriumMod/AbyssalShadow2]，拾取物品时，它会造成深渊幻影减益，深渊幻影减益叠加3次后，Boss生成（在深海）。
+		ThoriumMod_Cobbler: 在你的物品栏中有鞋子饰品（[i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等）。
+		ThoriumMod_Cook: 击败{$NPCName.KingSlime}。
+		ThoriumMod_DesertAcolyte: 击败惊雷王鹰。
 	}
 
 	Title: 瑟银信息手册
@@ -88,7 +88,7 @@ HintBook: {
 		EarlyGame: 模组进度
 		Progression: 机制
 		Bestiary: 生物
-		Tips: 小贴士
+		Tips: 贴士
 
 		Classes: {
 			$parentVal: 新职业
@@ -115,29 +115,35 @@ HintBook: {
 		P1:
 			'''
 			=====================================================
-			In this mini-guide, you will briefly learn where and at which stages of the game you should go to find new content. 
+			在这份简易指南中，你可以快速了解应该在游戏中的哪些地点以及那个阶段
+去寻找新内容。
 			=====================================================
 			'''
 		P2:
 			'''
-			[c/00ff00:Start game:]
-			At the very beginning of the game, you have a {i:ThoriumMod/FamilyHeirloom}Family Heirloom in your inventory. 
-			At the moment it is useless; only in the endgame can it be crafted into a weak weapon for your collection. 
-			It is not mentioned in the tooltip, but it grants 1 defense, so you can simply wear it until you get your first accessories.
+			[c/00ff00:游戏初期:]
+			游戏刚开始时，你的物品栏中就有一件 {i:ThoriumMod/FamilyHeirloom}的传家宝。 
+			现在这个物品毫无用处，只有在游戏后期可以制作成一件供你收藏的弱效武器。
+			虽然物品描述中未提及，但它能提供1点防御力，因此在获得首个饰品之前，
+你可以先把它装备上。
 			'''
 		P3:
 			'''
-			Thorium has virtually no impact on the beginning of the game; you still perform the same basic actions as in vanilla, and new content will find its way to you on its own. 
-			It is worth mentioning {i:ThoriumMod/ThoriumOre}Thorium Ore and {i:ThoriumMod/LifeQuartz}Life Quartz — at the start of the game these are pretty good materials. 
-			Thorium Ore is used to craft decent starting armor and a very useful accessory, {i:ThoriumMod/Crietz}Crietz, which you can wear until the start of hardmode.
+			瑟银模组对游戏初期几乎没有影响，你依然可以像在原版游戏中那样进行常规
+操作，而模组新增的内容会自然而然地出现在你的游戏进程中。
+			值得一提的是 {i:ThoriumMod/ThoriumOre}瑟银矿和 {i:ThoriumMod/LifeQuartz}生命石英 — 是游戏初期的优质材料。 
+			用瑟银矿可以在游戏初期做个不错的盔甲，以及{i:ThoriumMod/Crietz}精准项链，这个饰品甚至
+可以用到困难模式之后。
 			'''
 		P4:
 			'''
-			{npc:4}[c/00ff00:Post bosses:]
-			After defeating {npc:ThoriumMod/TheGrandThunderBird}The Grand Thunder Bird, the {npc:4}Eye of Cthulhu, {npc:50}King Slime, and the {npc:266}{npc:13}evil boss, several modded town NPCs will arrive who sell some useful items. 
-			For example, from the {npc:ThoriumMod/Blacksmith}Blacksmith you can buy the {i:ThoriumMod/ArcaneArmorFabricator}Arcane Armor Fabricator — a crafting station on which you can craft decent equipment before the evil boss. 
-			Also, during a Blood Moon, the mini-boss {npc:ThoriumMod/PatchWerk}Patch Werk spawns, from which a useful {i:ThoriumMod/SuspiciousMoisturizerBottle}hand pet drops that points to rare enemies and laughs at your deaths. 
-			During a Goblin Army invasion, you can obtain the {i:ThoriumMod/DarkGate}Dark Gate, also a useful item that can be used for some time.
+			{npc:4}[c/00ff00:初期BOSS:]
+			击败 {npc:ThoriumMod/TheGrandThunderBird}惊雷王鹰，{npc:4}克苏鲁之眼，{npc:50}史莱姆王，以及{npc:266}{npc:13}邪恶BOSS后，几位来自模组的城镇NPC会入住，并出售一些实用物品。
+			例如，你可以从 {npc:ThoriumMod/Blacksmith}铁匠处购买 {i:ThoriumMod/ArcaneArmorFabricator}奥术盔甲锻铸台，这是一个制作站，你
+可以利用它在挑战邪恶Boss之前制作不错的装备。
+			此外血月期间，迷你BOSS {npc:ThoriumMod/PatchWerk}缝合怪会生成，击败他可以掉落一个实用的 {i:ThoriumMod/SuspiciousMoisturizerBottle}手部宠物，它能指示稀有敌人的位置并会在你死亡时发生嘲笑。
+			在哥布林入侵期间，你可以获得 {i:ThoriumMod/DarkGate}暗影之门，这也是一件实用且能陪你
+度过一段游戏进程的物品。
 			'''
 		P5:
 			'''
@@ -1034,11 +1040,11 @@ Configs: {
 
 Items: {
 	InfoBookItem: {
-		DisplayName: Thorium Infobook
+		DisplayName: 打开信息手册
 		Tooltip:
 			'''
-			Use to gain access to the Infobook
-			'Contains detailed information about the Thorium Mod'
+			用于访问信息手册
+			“包含有关瑟银模组的详细信息'”
 			'''
 	}
 }
