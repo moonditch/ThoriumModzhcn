@@ -163,128 +163,128 @@ HintBook: {
 			'''
 		P6:
 			'''
-			{npc:35}[c/00ff00:Post Skeletron:]
-			After defeating Skeletron, the path to the Dungeon is open to you. 
-			In the Dungeon there are several new materials of interest to you, namely {i:ThoriumMod/aDarksteelAlloy}Darksteel Ingot and {i:ThoriumMod/SpiritDroplet}Spirit Droplet. 
-			In the Dungeon chests there is also new loot, you can look for it. 
-			Next up are as many as 3 modded bosses — {npc:ThoriumMod/GraniteEnergyStorm}Granite Energy Storm, {npc:ThoriumMod/BuriedChampion}Buried Champion, and {npc:ThoriumMod/StarScouter}Star Scouter. 
-			Granite Energy Storm doesn't particularly provide loot, but the Buried Champion drops decent {i:ThoriumMod/ChampionWing}wings before you craft hardmode ones. 
-			Star Scouter drops very good weapons for all classes except Healer, and with it the Wall of Flesh won't cause problems.
+			{npc:35}[c/00ff00:骷髅王后：]
+			击败骷髅王后，通往地牢的道路便向你敞开。
+			在地牢中，有几种新材料值得你关注，分别是{i:ThoriumMod/aDarksteelAlloy}暗钢锭与{i:ThoriumMod/SpiritDroplet}末灵。
+			地牢宝箱中也有新的战利品，你可以去寻找它们。
+			接下来是多达3个模组BOSS——{npc:ThoriumMod/GraniteEnergyStorm}花岗岩流能风暴，{npc:ThoriumMod/BuriedChampion}英灵遗骸和{npc:ThoriumMod/StarScouter}星际监察者。 
+			花岗岩能量风暴没有很特殊的掉落物品，但在你制作困难模式翅膀之前，英灵遗骸会掉落不错的{i:ThoriumMod/ChampionWing}翅膀。
+			星际监察者会为除牧师外的所有职业掉落相当不错的武器，有了它，肉墙就不会造成问题了。
 			'''
 		P7:
 			'''
-			{npc:113}[c/00ff00:Welcome to Hardmode:]
-			Well then, Hardmode... from this point on, Thorium becomes much more content-rich. 
-			From the chat message, you may have already guessed that new enemies have appeared in the Aquatic Depths. 
-			You should pay a visit there for two new materials — {i:ThoriumMod/DepthScale}Depth Scales and {i:ThoriumMod/AbyssalChitin}Abyssal Chitin. 
-			But far more important is {i:ThoriumMod/CrystalWave}Crystal Wave. Its usefulness is already clear from the tooltip. 
-			It grows in the Aquatic Depths starting from the beginning of Hardmode — just break it and it will drop. Below is what it looks like.
-			Don't forget to also throw one into Shimmer to obtain a permanent upgrade item.
+			{npc:113}[c/00ff00:欢迎来到困难模式：]
+			好了，你进入了困难模式……从现在开始，瑟银的内容将变得更加丰富。 
+			从聊天信息中，你可能已经猜到深海出现了新的敌人。
+			你应该去那里看看，那里出现了两种新的材料{i:ThoriumMod/DepthScale}深海之鳞和{i:ThoriumMod/AbyssalChitin}深渊角质鳞。
+			但更重要的是{i:ThoriumMod/CrystalWave}水晶波痕。它的用途从物品描述中就已经很清楚了。。 
+			从困难模式一开始，它就会在深海中生长——只要破坏它，它就会掉落。下面是它的样子。
+			别忘了也扔一个进微光，以获得永久升级。
 			'''
 		P8: "{img:Crystal_wave_world}"
 		P9:
 			'''
-			Beyond the Aquatic Depths, new content also awaits you in the Pirate Invasion, the Blood Moon, the Hallow, the Underworld, the Desert, and the evil biome. 
-			Each of them is notable for new materials, which in turn are used to craft starter equipment for certain classes. 
-			The materials you're looking for are: {i:ThoriumMod/UnfathomableFlesh}, {i:ThoriumMod/GreenDragonScale}, {i:ThoriumMod/SoulofPlight}, {i:ThoriumMod/PharaohsBreath}, {i:ThoriumMod/HallowedCharm}, and {i:ThoriumMod/BloodCell}. 
-			Check what you can craft from them and craft whatever you like.
-			You can also try killing the new mimics — {npc:ThoriumMod/SubmergedMimic}, {npc:ThoriumMod/HellBringerMimic} and {npc:ThoriumMod/MyceliumMimic}. They can either spawn naturally or be summoned using keys, similar to the vanilla Keys of Light and Night.
+			除了深海之外，海盗入侵、血月、神圣之地、地狱、沙漠和邪恶生物群系中也有新内容等着你。
+			它们各自都以新材料而值得注意，这些材料又可用于为某些职业制作入门装备。
+			你要找的素材是：{i:ThoriumMod/UnfathomableFlesh}, {i:ThoriumMod/GreenDragonScale}, {i:ThoriumMod/SoulofPlight}, {i:ThoriumMod/PharaohsBreath}, {i:ThoriumMod/HallowedCharm}, 和{i:ThoriumMod/BloodCell}. 
+			看看你能用它们制作什么，然后制作你喜欢的任何东西。
+			你也可以尝试击杀新的宝箱怪——{npc:ThoriumMod/SubmergedMimic}, {npc:ThoriumMod/HellBringerMimic}和{npc:ThoriumMod/MyceliumMimic}。它们可以自然生成，也可以使用钥匙召唤，类似于原版的光明钥匙和夜光钥匙。
 			'''
 		P10:
 			'''
 			{npc:ThoriumMod/FallenBeholder}[c/00ff00:First bosses:]
-			Before fighting the bosses, besides standard equipment, I recommend you craft {i:ThoriumMod/DemosGuidanceItem}Demo's Guidance — it's a pet that will replace all your stationary buff tiles. 
-			You can easily wear it until the end of the game; I don't know a more useful pet in Thorium. 
-			Next up are two new bosses: the {npc:ThoriumMod/BoreanStrider}Borean Strider and the {npc:ThoriumMod/FallenBeholder}Fallen Beholder. Both are VERY easy and won't cause any problems. 
-			The Borean Strider doesn't have impressive loot; after defeating it, new enemies will begin to spawn in the Spider Caves, but their drops aren't particularly exciting either. 
-			After defeating the Fallen Beholder, however, there's something to look forward to. First, there are two new ores — {i:ThoriumMod/LodeStoneChunk}Lodestone Chunks and {i:ThoriumMod/ValadiumChunk}Valadium Chunks. 
-			They spawn underground alternately after the boss is killed (i.e., the first kill spawns one ore, the second kill spawns the other, and then the cycle repeats). 
-			Mine them and see what you can craft. Second, the {npc:ThoriumMod/ConfusedZombie}Confused Zombie starts selling new useful items and the material {i:ThoriumMod/VoidHeart}Void Heart, from which an interesting hook is crafted. 
-			The Fallen Beholder itself drops decent weapons and a mount that can be upgraded in the endgame. After that, you just kill all the mechanical bosses.
+			在打Boss之前，除了常规装备外，我建议你制作{i:ThoriumMod/DemosGuidanceItem}蒂莫之指引——它是一个宠物，会替代你的固定增益方块。
+			你可以轻松地一直带着它直到游戏结束；在瑟银模组中，我不知道还有更有用的宠物。
+			接下来是两个新 Boss：{npc:ThoriumMod/BoreanStrider}极地遁蛛和{npc:ThoriumMod/FallenBeholder}堕落注视者。两者都非常非常简单，不会让你卡关。
+			极地遁蛛没有令人印象深刻的掉落物；击败它后，蜘蛛洞中会开始生成新敌怪，但它们的掉落物也不特别令人兴奋。
+			不过，击败堕落注视者后，就有值得期待的东西了。首先，会出现两种新矿石——{i:ThoriumMod/LodeStoneChunk}地脉矿与{i:ThoriumMod/ValadiumChunk}虚金矿。 
+			Boss 被击败后，它们会在地下交替生成（也就是说，第一次击杀生成一种矿石，第二次击杀生成另一种，之后循环往复）。
+			挖取它们，看看你能制作什么。其次，{npc:ThoriumMod/ConfusedZombie}迷途僵尸开始出售新的实用物品和材料{i:ThoriumMod/VoidHeart}虚空之心，可以用它制作一个有趣的钩爪。
+			堕落注视者本身会掉落不错的武器，以及一个可在游戏末期升级的坐骑。之后，你只要击败所有机械 Boss 就行了。
 			'''
 		P11:
 			'''
 			{npc:134}{npc:126}{npc:127}[c/00ff00:Post mechs:]
-			After defeating all three mechanical bosses, you gain access to several new materials. 
-			First of all, you need to upgrade your forge by crafting the {i:ThoriumMod/SoulForge}Soul Forge, on which almost all further Thorium items are crafted. 
-			Below is a list of what you can craft and why: 
-			{i:ThoriumMod/SubspaceWings}Subspace Wings — good wings for the upcoming bosses. 
-			{i:ThoriumMod/TimeWarp}Time Warp — if you're too lazy to skip time with a bed and you don't play with QoL mods. 
-			{i:ThoriumMod/AirStrikeShield}Air Strike Shield — a very useful item if you play using only Sentries or play in co-op. 
-			{i:ThoriumMod/WishingGlass}Wishing Glass — an upgrade to the Shellphone with extra teleportations. 
-			{i:ThoriumMod/AromaticBulb}Aromatic Bulb — if you can't find Plantera's Bulb, it'll be easier to use its summon item. 
-			{i:ThoriumMod/TitanicBar}Titanic Bar — a material. The armor made from it is shit, but the weapons are worth trying out. 
-			Also, the mechs dropped {i:ThoriumMod/StrangePlating}Strange Plating and {i:ThoriumMod/LifePoweredEnergyCell}Life-Powered Energy Cell for you. From the first, a very useful — I'd even say unbalanced — weapon is crafted for the rest of the game. It literally destroys every boss all the way up to the Lunatic Cultist. 
-			The second material is only useful for the Healer
+			击败全部三个机械 Boss 后，你就能获得几种新材料。
+			首先，你需要通过制作{i:ThoriumMod/SoulForge}灵魂熔炉来升级你的熔炉，之后几乎所有瑟银物品都要在它上面制作。
+			下面列出你可以制作的东西以及它们的用途：
+			{i:ThoriumMod/SubspaceWings}亚空间飞翼——适合接下来 Boss 战的好翅膀。
+			{i:ThoriumMod/TimeWarp}时间扭曲——如果你懒得用床跳过时间，而且你没装辅助类模组。
+			{i:ThoriumMod/AirStrikeShield}空援卫盾——如果你只玩哨兵或玩多人模式，这是非常有用的物品。
+			{i:ThoriumMod/WishingGlass}愿望魔镜——贝壳电话的升级版，附带额外传送。
+			{i:ThoriumMod/AromaticBulb}芳香球茎——如果你找不到世纪之花球茎，用它的召唤物品会更方便。
+			{i:ThoriumMod/TitanicBar}泰坦锭——一种材料。用它做的盔甲很垃圾，但武器值得一试。
+			另外，机械 Boss 会给你掉落{i:ThoriumMod/StrangePlating}奇异电镀和{i:ThoriumMod/LifePoweredEnergyCell}生命能源晶电池。用前者可以制作一把在游戏剩余流程中非常有用——我甚至要说超模——的武器。它简直能碾压直到拜月教邪教徒为止的每一个 Boss。 
+			第二种材料只对牧师有用。
 			'''
 		P12:
 			'''
-			Next, you'll have to face the {npc:ThoriumMod/Lich}Lich and {npc:262}Plantera. 
-			The Lich is summoned anywhere by using pumpkins on the {i:ThoriumMod/AncientPhylactery}Ancient Phylactery. 
-			It's located in the {link:https://thoriummod.wiki.gg/wiki/Natural_Graveyard|Graveyard} behind the Dungeon, but you can simply buy it from the {npc:ThoriumMod/ConfusedZombie}Confused Zombie and place it anywhere. That's even better. 
-			The Lich is a very easy boss, but it deals very high damage and can regenerate HP during its second phase. To prevent the regeneration, you need to kill the {npc:ThoriumMod/PhylacteryofaThousandSouls}Phylactery of a Thousand Souls, which it periodically spawns. 
-			Against this boss, it's very important to avoid contact damage and have high DPS — then you won't have any problems with it. 
-			In addition to materials and weapons, the Lich drops the {i:ThoriumMod/Phylactery}Phylactery (on Expert mode), which can be placed in a vanity slot and used when needed. 
-			After that, you just need to kill Plantera — with weapons made from {i:ThoriumMod/StrangePlating}Strange Plating, this boss is nothing.
+			接下来，你将不得不面对{npc:ThoriumMod/Lich}巫妖和{npc:262}世纪之花。
+			巫妖可以通过在{i:ThoriumMod/AncientPhylactery}远古护身符上使用南瓜，在任何地方召唤。
+			它位于地牢后面的{link:https://thoriummod.wiki.gg/wiki/Natural_Graveyard|墓地}，但你可以直接从{npc:ThoriumMod/ConfusedZombie}迷途僵尸处购买它，然后放置在任何地方。那样更方便。
+			巫妖是一个非常简单的 Boss，但它会造成非常高的伤害，并且能在第二阶段恢复生命值。为了防止恢复，你需要击杀它定期生成的{npc:ThoriumMod/PhylacteryofaThousandSouls}万魂匣。
+			对抗这个 Boss 时，避免接触伤害并拥有高 DPS 非常重要——这样你就出任何毛病。
+			除了材料和武器外，巫妖还会掉落{i:ThoriumMod/Phylactery}魂匣（专家模式下），它可以放在时装栏中，在需要时切换使用。
+			之后，你只需要击杀世纪之花——用{i:ThoriumMod/StrangePlating}奇异电镀制作的武器，这个 Boss 不算什么。
 			'''
 		P13:
 			'''
 			{npc:262}[c/00ff00:Post Plantera:]
-			After Plantera is defeated, {i:ThoriumMod/IllumiteChunk}Illumite becomes available. Illumite spawns in the Cavern and Underground layers, and only after Plantera's first defeat — just like Valadium and Lodestone after the Fallen Beholder, it won't spawn again on subsequent kills. 
-			Illumite is used to craft mediocre Ranger armor and a couple of questionable weapons, but you can try them out if you like. 
-			What should interest you far more are the changes to the Jungle Temple and the Dungeon. Both have new enemies that drop new materials — {i:ThoriumMod/SolarPebble}Solar Pebble in the Temple and {i:ThoriumMod/DarkMatter}Dark Matter in the Dungeon. 
-			Also, with Ectoplasm you can upgrade several materials you're already familiar with. Check the crafting recipes yourself. 
-			If you're a Healer, you can try farming Paladins for {i:ThoriumMod/HolyKnightsAlloy}Holy Knight's Alloy, which is used to craft some decent armor. 
-			You can already head out to kill the new boss — the {npc:ThoriumMod/ForgottenOne}Forgotten One. There's not much to say about it: the boss itself is easy, and its drops are, to put it mildly, not very useful — except maybe for farming Healer armor and a fishing rod. 
-			For now, I recommend killing Duke Fishron for the {i:ThoriumMod/SoulAnchor}Soul Anchor. The Anchor is one of the most useful items in the mod, especially if you're squeamish about healing at the Nurse. 
-			Vanilla events (Solar Eclipse and moons) have also gotten a bunch of new drops, so you can farm those if you want. After that, you can kill Golem.
+			击败世纪之花后，{i:ThoriumMod/IllumiteChunk}就可以获得荧光矿了。荧光矿生成于洞穴层和地下层，而且只在首次击败世纪之花后生成——就像堕落注视者之后的虚金和地脉矿一样，后续击杀不会再生成。
+			荧光矿用于制作平庸的射手盔甲和几把强度存疑的武器，但如果你喜欢可以试试。
+			更让你感兴趣的应该是丛林神庙和地牢的变化。两者都有新敌人，会掉落新材料——神庙中的{i:ThoriumMod/SolarPebble}太阳石砾和地牢中的{i:ThoriumMod/DarkMatter暗物质。
+			此外，你可以用灵气升级几种你已经熟悉的材料。自己查看制作配方吧。
+			如果你是牧师，可以尝试刷圣骑士获取{i:ThoriumMod/HolyKnightsAlloy}圣骑士合金，它用于制作不错的盔甲。 
+			你现在就可以出发去击杀新 Boss——{npc:ThoriumMod/ForgottenOne}遗忘之主。关于它没什么好说的：Boss 本身很简单，而它的掉落物，说得委婉点，不太有用——也许除了刷牧师盔甲和一根钓竿。 
+			目前，我建议击杀猪龙鱼公爵获取{i:ThoriumMod/SoulAnchor}定魂锚。定魂锚是模组中最有用的物品之一，尤其是如果你对找护士治疗感到不适。
+			原版事件（日食和各类月事件）也新增了一堆掉落物，所以如果你想，可以刷这些。之后，你就可以击杀石巨人。
 			'''
 		P14:
 			'''
 			{npc:439}[c/00ff00:Pre Moon Loser:]
-			The developers were a bit stingy with post-Golem content, so you'll mostly need to farm vanilla items. 
-			If your crit chance is around 50–70%+, I strongly recommend crafting the {i:ThoriumMod/MaskoftheCrystalEye}Mask of the Crystal Eye (what a dumb name). If you have high crit chance, this accessory roughly increases your damage by 12–20%, since each crit deals 12% more damage and also increases the crit itself by 8%. 
-			The Martian Invasion (unsurprisingly) also has new drops, both from enemies and from the flying saucer, so you can farm it if you want. 
-			After that, all that's left is to go for the Lunatic Cultist.
+			开发者在石巨人之后的内容上有点吝啬，所以你主要需要刷原版物品。 
+			如果你的暴击率大约在 50–70%+，我强烈建议制作{i:ThoriumMod/MaskoftheCrystalEye}水晶之眼面具（这名字真蠢）。如果你有高暴击率，这个饰品大约能提升你 12–20% 的伤害，因为每次暴击造成 12% 额外伤害，并且还会使暴击率本身提高 8%。
+			火星入侵（毫不意外）也有新掉落物，既有来自敌怪的，也有来自飞碟的，所以如果你想，可以刷它。
+			之后，剩下的就是去打拜月教邪教徒了。
 			'''
 		P15:
 			'''
-			A new weapon can drop from the Cultist... 3 MAGE WEAPONS FROM THE CULTIST. 
-			Why? What the hell for? It doesn't even drop with a 100% chance, and the Cultist doesn't spawn until the pillars are dead — so why would you even farm him?... 
-			Anyway, I dragged out this section, so now on to the content. 
-			After obtaining the Ancient Manipulator, you'll be able to craft {i:ThoriumMod/TerrariumCore}Terrarium Cores. Don't be scared by their recipe — you should already have all the materials from earlier, and getting the missing ones won't be a problem. 
-			From the Cores, a very good multi-class armor is crafted, which you can wear against the Moon Lord. 
-			They're also used to craft weapons for every class — an excellent alternative to the Fragment weapons. 
-			You can also craft {i:ThoriumMod/TerrariumWings}wings, if you didn't farm Fishron's or the Empress's wings. 
-			{i:ThoriumMod/TerrariumParticleSprinters}Terrarium Boots noticeably increase your movement speed, but do you really need them when you have wings and mounts? Decide for yourself. 
-			{i:ThoriumMod/TerrariumDefender}The Terrarium Defender... trash. It's not worth the farm, and it's completely useless against the last two bosses, trust me. 
-			Next, kill the Pillars and craft Fragment weapons, then kill the Moon Lord.
+			拜月教邪教徒会掉落新武器……3把法师武器，来自邪教徒。
+			为什么？到底图什么？它甚至都不是 100% 掉落，而且邪教徒要等天界柱全死才会生成——所以你为什么要刷他？……
+			总之，我把这一节拖得太长了，现在进入正题。
+			获得远古操纵机后，你就能制作{i:ThoriumMod/TerrariumCore}元素核心。别被它们的配方吓到——你之前应该已经拥有所有材料，缺少的那些也不难获得。 
+			用这些核心可以制作一套非常好的多职业盔甲，你可以穿着它对抗月亮领主。
+			它们也用于为每个职业制作武器——是碎片武器的绝佳替代品。
+			如果你没有刷猪龙鱼公爵或女皇的翅膀，你也可以制作{i:ThoriumMod/TerrariumWings}翅膀。
+			{i:ThoriumMod/TerrariumParticleSprinters}元素粒子加速靴会明显提高你的移动速度，但当你已经有翅膀和坐骑时，你真的需要它吗？自己决定吧。 
+			{i:ThoriumMod/TerrariumDefender}界元之庇佑，垃圾。不值得刷，而且对最后两个 Boss 完全没用，相信我。
+			接下来，击杀天界柱并制作碎片武器，然后击杀月亮领主。
 			'''
 		P16:
 			'''
 			{npc:ThoriumMod/DreamEater}[c/FF0000:T][c/FF7D00:H][c/FFFF00:E] [c/00FF00:P][c/0000FF:R][c/4B0082:I][c/9400D3:M][c/FF0000:O][c/FF7D00:R][c/FFFF00:D][c/00FF00:I][c/0000FF:A][c/4B0082:L][c/9400D3:S]
-			Now the most interesting part begins... The Primordials are the hardest boss in Thorium... for those who haven't heard about the legendary star! The one that drops from the Moon Lord! Which, in combination with the Soaring Insignia, counters all the attacks the devs made for them, easy-peasy! 
-			Anyway, on to the boss. 
-			It makes sense to bring post-Moon Lord gear — armor, weapons, Rod of Harmony, Celestial Star. 
-			There's nothing difficult in the first phase; you just need to fly horizontally across the whole world away from all three Primordials; their attacks will never reach you. 
-			The only one that can catch up to you is Omnicide, if you hesitate and stop, so be careful. 
-			Against Aquaius's tornado attack, a transparent full map will help you; watch his icon closely, and when you see he's stopped, start slowly flying up or down — that's how you survive that attack. 
-			Omnicide also has a very simple attack with spinning orbs. The thing is, they always spin in the direction they'll end up going, so you can easily predict which way to fly while they're spinning. 
-			The real fun begins in the second phase with the Dream Eater. 
-			You can still just fly around the world, but this time you can't predict the tornado, since the Dream Eater stops on several different attacks. 
-			There's also one very nasty attack with teleportation and circular movement, which personally I still don't understand how to counter. 
-			Generally, if he teleports behind you, you can just wait for him to fly to the other side relative to you, then sharply turn around and fly the other way. 
-			Defense is very important in this fight, because their damage and the debuffs they inflict are a horror incarnate. 
-			If you get debuffed, the best thing is to immediately cleanse them by equipping and instantly unequipping the Ankh Shield or the {i:ThoriumMod/MantleoftheProtector}Mantle of the Protector (individually these accessories don't cover all of the boss's debuffs, but their combination lets you completely ignore the boss's debuffs altogether). 
-			And don't forget about the {i:ThoriumMod/SoulAnchor}Soul Anchor — it can fully heal you once per fight. 
-			After defeating this boss, Thorium is considered complete, and all that's left is to craft items from the dropped Essences. For the collection. 
+			现在最有趣的部分开始了……始生灾灵是瑟银里最难的 Boss……前提是你没听说过那颗传奇的星星！就是月亮领主掉落的那颗！它和翱翔徽章组合起来，能克制开发者为他们设计的所有攻击，轻轻松松！
+			总之，来说这个 Boss。
+			带上月亮领主后的装备是合理的——盔甲、武器、和谐杖、天界星盘。
+			第一阶段没什么难的；你只需要水平横穿整个世界，远离所有三个始生灾灵；它们的攻击永远打不到你。
+			唯一能追上你的是毁灭之灵，如果你犹豫并停下来就会被撞到，所以要小心。
+			对抗潮汐之灵的龙卷风攻击时，一张透明全地图会帮到你；密切注意他的图标，当你看到他停下时，开始缓慢向上或向下飞——这就是你躲过那次攻击的方法。
+			毁灭之灵还有一个非常简单的旋转球攻击。关键在于，它们总是朝着最终要飞去的方向旋转，所以趁它们旋转时，你可以轻松预判该往哪边飞。
+			真正的乐趣从第二阶段的噬梦者开始。
+			你仍然可以绕着世界飞，但这次你无法预判龙卷风，因为噬梦者会使用几种不同的攻击。
+			还有一个非常恶心的传送加环形移动攻击，就我个人而言，我仍然不知道怎么应对。
+			一般来说，如果他传送到你身后，你可以等他飞到你相对的另一侧，然后猛地转身往另一个方向飞。
+			在这场战斗中防御非常重要，因为他们的伤害和造成的减益简直是恐怖化身。
+			如果你被施加了减益，最好的办法是立刻通过装备并瞬间卸下十字章护盾或{i:ThoriumMod/MantleoftheProtector}守护者披风来清除它们（单独来看，这些饰品并不能覆盖 Boss 的所有减益，但组合起来就能让你完全无视 Boss 的减益）。
+			别忘了{i:ThoriumMod/SoulAnchor}定魂锚，它每场战斗能有一次治疗你的机会。
+			击败这个 Boss 后，瑟银就算通关了，剩下的就是用掉落的精华制作物品。为了收集。 
 			=====================================================
-			Thanks for reading this Infobook tab, which I stretched out over 3 days because of my laziness. Bye-bye.
+			感谢阅读这个指南书，我因为懒拖了 3 天才写完。拜拜。
 			'''
 	}
 
 	Bestiary: {
-		DropsHeader: Drops:
+		DropsHeader: 掉落：
 		NoDrops: (no)
 		MoreDrops: …and {0} more
 		HP: HP: {0}
@@ -294,126 +294,126 @@ HintBook: {
 	}
 
 	Progression: {
-		P1: This section covers all the notable mechanics of the mod.
+		P1: 本节涵盖了该模组中所有值得注意的机制
 		P2:
 			'''
 			[c/00ff00:Death Prevention:]
-			Death Prevention is a mechanic added by the Thorium Mod. 
-			Normally, when a player reaches 0 life, they die and respawn after a short delay. 
-			Various items within the mod prevent, undo, or delay this process from happening, giving players a second chance to live. 
-			Prevent, Revive, and Delay are the current forms this mechanic can take.
-			[c/808080:A Prevent] stops a player from taking fatal damage, heals them by a set amount in most cases, and grants them brief invulnerability. All the below sources inflict a common debuff, preventing multiple death prevention means from being combined.
-			[c/808080:A Revive] brings a dead player back to life, allowing them to continue fighting.
-			[c/808080:A Delay] makes the player invulnerable to damage and stops them from dying right away for a set duration. After the duration, regardless of their health, the player dies as they would have.
+			免死是瑟银模组添加的一种机制。
+			正常情况下，当玩家的生命值降至 0 时，他们会死亡并在短暂延迟后重生。
+			模组中的各种物品可以阻止、撤销或延迟这一过程的发生，给玩家第二次存活的机会。
+			阻止、复活和延迟是该机制目前可以采取的形式。
+			[c/808080:阻止] 会阻止玩家受到致命伤害，在大多数情况下会治疗他们一定量生命值，并赋予他们短暂的无敌。以下所有来源都会施加一个共同的减益，防止多种死亡预防手段叠加使用。
+			[c/808080:A Revive] 会让已死亡的玩家复活，使他们能够继续战斗。
+			[c/808080:A Delay] 让玩家免疫伤害，并在设定时间内阻止他们立即死亡。持续时间结束后，无论其生命值如何，玩家都会像原本那样死亡。
 			'''
 		P3:
 			'''
-			[c/00ff00:Life Shield:]
-			Life Shield is a mechanic added by the Thorium Mod. 
-			It provides a temporary maximum life increase that varies in value per increment depending on the source. 
-			This effect stacks with successive applications of the shielding, up to a specified limit, and decays naturally over time. 
-			A blue border will appear around the hearts of the player as long as the life shield is active.
-			Basically, Life Shield is just a plain HP increase that was somehow made into a separate mechanic for no reason...
+			[c/00ff00:生命护盾：]
+			生命护盾是瑟银模组添加的一种机制。
+			它提供临时的最大生命值提升，其数值因来源而异。
+			该效果可以通过连续施加护盾来叠加，直到达到指定上限，并会随着时间自然衰减。
+			只要生命护盾处于激活状态，玩家心形生命值周围就会出现一圈蓝色边框。
+			基本上，生命护盾就是一种纯粹的生命值提升，却不知为何被硬生生做成了一个独立机制……
 			'''
 		P4:
 			'''
-			[c/00ff00:Transformations:]
-			Transformations are special items that, when used, transform the player into certain creatures or enemies. 
-			While transformed, the player cannot use any items except for Soul Link, which grants the transformations special abilities. 
-			Most transformations reduce the player's size, allowing them to fit through smaller gaps.
-			Transformations can go into the Mount equipment slot, and as such cannot be used while the player is on a Mount or if they have already transformed.
+			[c/00ff00:化形：]
+			化形是一种特殊物品，使用后可以将玩家变成某些生物或敌人。
+			变身后，玩家无法使用任何物品，除了灵魂链接，它赋予化形特殊能力。
+			大多数化形会缩小玩家的体型，使他们能够穿过更小的缝隙。
+			变形物品可以放入坐骑装备栏，因此当玩家骑乘坐骑或已经化形时，无法使用它们。
 			'''
 		P5:
 			'''
-			[c/00ff00:Out of Combat:]
-			Out of Combat is a mechanic added by the Thorium Mod. 
-			Various items only function when the player is 'in combat' or 'out of combat'. 
-			A player is considered 'in combat' if they have damaged or have been damaged by an enemy in the last 5 seconds. 
-			After 5 full seconds of doing neither, the player will be considered 'out of combat'.
+			[c/00ff00:脱战：]
+			脱战是瑟银模组添加的一种机制。
+			各类物品仅在玩家处于“战斗中”或“脱战”时生效。
+			如果玩家在过去 5 秒内伤害过敌人，或被敌人伤害过，则视为处于“战斗中”。
+			在整整 5 秒内既没有伤害敌人，也没有受到敌人伤害后，玩家将被视为处于“脱战”。
 			'''
 	}
 
 	Classes: {
-		P1: Thorium adds three classes: Bard, Healer and Thrower.
-		P2: You can view the class progression for all classes {link:https://thoriummod.wiki.gg/wiki/Guide:Class_setups|here}, but personally I recommend that you don't blindly follow the wiki guide — instead, find gear on your own and make your own builds.
+		P1: 瑟银新增了三个职业：吟游诗人，牧师与投手
+		P2: 你可以在这里查看所有职业的流程{链接:https://thoriummod.wiki.gg/wiki/Guide:Class_setups|}，但我个人建议你不要盲目遵循维基指南——相反，你应该自己寻找装备，并构建自己的玩法。
 
 		Bard: {
-			P1: Bard uses Inspiration to boost the party's stats. Its instruments buff nearby allies.
+			P1: 吟游诗人使用灵感来提升队伍的属性。他的乐器可以为附近的队友提供增益效果。
 			P2:
 				'''
-				[c/00ff00:Knowing Your Role:]
-				As a bard, your gameplay isn't remarkably different from classes like the ranger or mage. 
-				The primary mechanic that draws attention away from damaging enemies and bosses are the bards Empowerments. 
-				Empowerments are powerful buffs that get applied to the bard and his nearby allies when an instrument is used. 
-				Much of the power behind a bard comes from these boosts, allowing for better damage, defense, movement, and resource spending. 
-				As a bard you'll want to carry multiple instruments at once to allow a broader array of empowerment options. 
-				If you or your team is on the move, player percussion instruments to improve your mobility. 
-				If you're safely damaging enemies, use a brass instrument to increase you or your teams damage potential. 
-				If you or your team is stuck in long winded battles and boss fights, use string and wind instruments to improve your survivability and resource management.
+				[c/00ff00:了解你的定位：]
+				作为吟游诗人，你的玩法与射手或法师等职业并没有显著不同。
+				会让你把注意力从伤害敌人和 Boss 上转移开的主要机制，就是吟游诗人的咒音增幅。
+				咒音增幅是强大的增益，当使用乐器时会施加给吟游诗人及其附近的盟友。
+				吟游诗人的大部分力量都来自这些增益，它们能带来更好的伤害、防御、移动和资源消耗。
+				作为吟游诗人，你会想同时携带多种乐器，以获得更广泛的咒音增幅选项。
+				如果你或你的队伍在移动，使用打击乐器来提高你的机动性。
+				如果你在安全地伤害敌人，使用铜管乐器来提高你或你队伍的伤害潜力。
+				如果你或你的队伍陷入冗长的战斗和 Boss 战中，使用弦乐器和管乐器来提高你的生存能力和资源管理。
 				'''
 			P3:
 				'''
-				[c/00ff00:Empowerments:]
-				Empowerments are temporary stat boosts that the bard constantly provides to himself and nearby allies when using their instrument weapons. 
-				As one of the defining features of the class, many bard items are associated with the application or power of empowerments. 
-				Empowerments are grouped into 4 categories and are given by specific instrument types with the general rule being:
+				[c/00ff00:咒音增幅：]
+				咒音增幅是临时的属性提升，吟游诗人在使用乐器武器时会持续为自己和附近的盟友提供。
+				作为该职业的标志性特色之一，许多吟游诗人物品都与咒音增幅的施加或强度有关。
+				鼓舞分为 4 类，由特定的乐器类型提供，一般规则如下：
 
-				Brass Instruments -> Damage Empowerments
-				String Instruments -> Defensive Empowerments
-				Percussion Instruments -> Movement Empowerments
-				Wind Instruments -> Resource Empowerments
+				铜管乐器 -> 伤害类咒音增幅
+				弦乐器 -> 防御类咒音增幅
+				打击乐器 -> 移动类咒音增幅
+				管乐器 -> 资源类咒音增幅
 
-				Electronic is unique in that it provides no stat boosting empowerments themselves, but instead prolongs the active duration of any empowerments currently active on players.
+				电子乐器独特之处在于，它自身不提供任何属性提升类的咒音增幅，而是延长玩家当前激活的任何咒音增幅的持续时间。
 				'''
 			P4:
 				'''
-				[c/00ff00:Inspiration:]
-				Instead of using Mana, the Bard weapons draw from a unique resource called inspiration, which is increased using {i:ThoriumMod/InspirationFragment}Inspiration Fragments, {i:ThoriumMod/InspirationShard}Inspiration Shards, and {i:ThoriumMod/InspirationCrystalNew}Inspiration Crystals. 
-				Inspiration regenerates automatically. Although many of the Bard items are specific to inspiration, the fact that it's separate from Mana makes it a tempting choice for another class' backup. 
-				Inspiration regenerates far more quickly when allowed to run its course, encouraging a sort of 'reload' period for the resource.
+				[c/00ff00:灵感值：]
+				吟游诗人武器不使用法力，而是消耗一种名为灵感的独特资源，这种资源可以通过使用{i:ThoriumMod/InspirationFragment}灵感碎片、{i:ThoriumMod/InspirationShard}灵感碎块和{i:ThoriumMod/InspirationCrystalNew}灵感水晶提升。
+				灵感会自动回复。尽管许多吟游诗人物品都专门围绕灵感设计，但它独立于法力这一点，使它成为其他职业备用选择的诱人之处。
+				如果让灵感自然回复而不打断，它的回复速度会快得多，这鼓励玩家为这种资源安排一段类似“装填”的间隔。
 				'''
 			P5:
 				'''
-				[c/00ff00:Big Instruments:]
-				Big instruments are a subset of Bard weapons that utilize a timing mechanic. 
-				When held out, a timer will appear underneath the player (or underneath the cursor if the Move Instrument Timer to Mouse configuration setting is set to true); the instruments' effects vary depending on whether their attacks are used within a specific window of time or not. 
-				As the player successfully times their attacks, the big instrument will gain power, provided empowerment level, along with other effects, whereas missing the timing will greatly decrease these bonuses.
+				[c/00ff00:大型乐器：]
+				大型乐器是吟游诗人武器的一个子集，使用一种计时器机制。
+				当被持有时，玩家下方会出现一个计时器（如果配置设置“Move Instrument Timer to Mouse”设为 true，则出现在光标下方）；乐器的效果取决于其攻击是否在特定的时间窗口内使用。
+				随着玩家成功把握攻击时机，大型乐器会获得威力、提供鼓舞等级以及其他效果，而错过时机则会大幅降低这些加成。
 				'''
 		}
 
 		Healer: {
-			P1: Healer focuses on healing allies and applying defensive buffs.
+			P1: 牧师专注于治疗队友并施加防御增益效果。
 			P2:
 				'''
-				[c/00ff00:Class Background:]
-				Death in Terraria is the only major setback a player can encounter, and occurs after a player has made multiple mistakes in movement or judgment. 
-				In vanilla, these mistakes can only be remedied in a handful of limited ways such as Healing Potions, the Nurse, enemy-dropped hearts, and far later into the game, life stealing equipment. 
-				As a healer, however, the player has the unique ability to 'undo' these mistakes themselves at will and contribute towards a team that may lack skill or defensive equipment.
-				This ability, however, comes with a price. A majority of healer equipment decreases the effective damage of melee, ranged, magic, summoning, throwing and symphonic weapons. 
-				These damage reductions heavily impact the DPS potential of the player, and serve to balance out the extremely potent ability to heal and protect allies. However, healers have their own set of weapons that are empowered by their equipment and serve as a means of defending themselves, should they ever feel it in their best interest to strike back at enemies.
-				These weapons have their own unique damage type, known as 'radiant damage', and typically have a secondary effect associated with healing or supporting allies. 
-				In the case of a weapon like the Pill, its left click allows the player to damage enemies and its right click allows them to temporarily increase the life recovery of allies. 
-				Most, if not all, radiant weapons have a similar ability to support allies while simultaneously being able to damage enemies.
+				[c/00ff00:职业背景：]
+				在泰拉瑞亚中，死亡是玩家唯一可能遭遇的重大挫折，它发生在玩家在移动或判断上犯下多次错误之后。
+				在原版中，这些错误只能通过少数有限的方式来弥补，例如治疗药水、护士、敌人掉落的心，以及在游戏后期很晚才出现的吸血装备。
+				然而，作为牧师，玩家拥有独特的能力，可以随意“撤销”这些错误，并为可能缺乏技巧或防御装备的队伍做出贡献。
+				然而，这种能力是有代价的。大多数治疗师装备会降低近战、远程、魔法、召唤、投掷和音波武器的有效伤害。
+				这些伤害降低会严重影响玩家的 DPS 潜力，并用于平衡治疗和保护队友的极强能力。不过，牧师有自己的一套武器，这些武器会因其装备而得到强化，并在他们觉得反击敌人最符合自身利益时，作为自卫手段。
+				这些武器拥有自己独特的伤害类型，称为“光辉伤害”，并且通常带有与治疗或支援盟友相关的次要效果。
+				以 药丸 这样的武器为例，它的左键允许玩家伤害敌人，右键则允许他们暂时提高盟友的生命恢复。
+				大多数（如果不是全部）光辉武器都具有类似的能力，既能支援盟友，同时又能伤害敌人。
 				'''
 			P3:
 				'''
-				[c/00ff00:Knowing Your Role:]
-				It should be no surprise that as a healer, the primary goal is to heal your allies and keep them from dying. 
-				You have many ways to go about this in the form of healing spells, support spells and in some cases radiant weapons. 
-				The amount of upkeep and things to keep track of make healer a very stimulating and rewarding class to play. 
-				That said, healers should constantly survey how the fight is going and change to act accordingly. 
-				Since the tide of battle can change at any moment, its up to the healer to decide what they feel is a more pressing matter, but a very basic priority list for a healer is as follows.
+				[c/00ff00:了解你的定位：]
+				作为牧师，首要目标当然是治疗盟友并防止他们死亡，这一点应该不会让人意外。
+				你可以通过治疗法术、支援法术，以及某些情况下的光辉武器，用许多方式来实现这一点。
+				需要维持和追踪的内容之多，让牧师成为一个非常刺激且回报丰厚的职业。
+				话虽如此，牧师应该不断观察战斗进展，并相应地改变行动。
+				由于战局随时可能变化，决定什么才是更紧迫的事情取决于治疗师自己，但牧师的一个非常基本的优先级列表如下。
 
-				Drop Aggro >> Heal Allies > Set up Support > Damage Enemies
+				降低仇恨 >> 治疗队友 > 布置支援 > 伤害敌人
 
-				Keep that aggro off of you, healers!
-				[c/808080:Drop Aggro:] A dead healer is a useless healer (in most cases), so getting the enemies off your back and properly targeting another ally should be your first and constant goal. You have the ability to heal the ally that receives the aggro, while they do not, so getting out of harm's way is a top priority. That does not mean you do 'nothing' as you try to shake them off, but it should always be your goal when moving around during moments of constant pressure.
+				别让仇恨落在你身上，牧师们！
+				[c/808080:降低仇恨：] 死掉的牧师就是没用的牧师（大多数情况下），所以让敌人不再追着你，并正确地转去攻击另一名队友，应该是你首要且持续的目标。你有能力治疗承接仇恨的队友，而他们没有，所以远离伤害是首要任务。这并不意味着你在试图甩掉他们时“什么都不做”，但在持续受压时四处移动，这始终应该是你的目标。
 
-				[c/808080:Heal Allies:] Always keep your allies healed to a healthy amount. You should be aware of the tanking abilities of each of your team mates, so prioritize allies that are getting hurt with low defense or constantly taking aggro. In general, should your mana allow it, keeping players topped up near maximum life is the goal. But when things are getting hectic, especially during invasions and boss fights, you have mere seconds to decide who is in more danger of dying than everyone else. So topping off an ally may not be the smartest idea, instead going for some split healing to keep multiple allies away from dying would be a better choice.
+				[c/808080:治疗队友：] 始终让队友的生命值保持在健康水平。你应该了解每位队友的承伤能力，优先治疗防御低或持续承受仇恨而受伤的队友。一般来说，如果法力允许，目标就是让玩家的生命值保持在接近最大值。但当情况变得混乱，尤其是在入侵和 Boss 战中，你只有几秒钟来决定谁比其他人更有死亡危险。所以把一名队友奶满可能不是最聪明的做法，转而进行一些分散治疗，让多名队友远离死亡，会是更好的选择。
 
-				[c/808080:Set up Support:] There exist many support items that do not directly heal allies, but contribute towards their protection regardless. Damage reduction, life shields, life recovery, heal over time effects and the like take time to prepare, but can save lives when a ramp in danger occurs. During down moments in fights, a healer can prepare or dish out support abilities to better prepare for a phase or a dangerous and incoming attack. If your allies are pretty healthy, and you have not refreshed your support effects recently, it might be wise to set them up.
+				[c/808080:布置支援：] 有许多支援物品不会直接治疗队友，但仍有助于保护他们。伤害减免、生命护盾、生命恢复、持续治疗效果等需要时间准备，但当危险骤增时能挽救生命。在战斗中的空闲时刻，治疗师可以准备或施加支援能力，以便更好地为某个阶段或即将到来的危险攻击做准备。如果你的队友相当健康，而你最近没有刷新支援效果，那么把它们布置好可能是明智之举。
 
-				[c/808080:Damage Enemies:] If you are not in immediate danger, your allies are at an acceptable level of health, and your support spells still have a good bit of time on them, then it is time to start helping the cause. Your radiant weapons offer a way to dish out some damage, while still providing supportive effects, should things start turning ugly again. Just be sure not to drain all of your mana with radiant spells; should your allies start getting heavily damaged again, you may lack the necessary mana to save them.
+				[c/808080:伤害敌人：]如果你没有立刻面临危险，队友生命值处于可接受水平，且你的支援法术还有不少持续时间，那么就是时候开始为团队出力了。你的光辉武器提供了一种在造成一些伤害的同时仍能提供支援效果的方式，以防情况再次变糟。只是务必不要用光辉法术耗尽所有法力；如果队友再次开始受到大量伤害，你可能会缺少救他们所需的法力。
 				'''
 			P4:
 				'''
