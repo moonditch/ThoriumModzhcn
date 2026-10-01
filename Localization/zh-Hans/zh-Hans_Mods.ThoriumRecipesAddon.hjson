@@ -417,96 +417,96 @@ HintBook: {
 				'''
 			P4:
 				'''
-				[c/00ff00:Mechanics:]
-				The Healer class has various unique mechanics that are relevant to their success. 
+				[c/00ff00:机制：]
+				牧师职业拥有多种独特的机制，这些机制与其成功息息相关。
 
-				[c/808080:Additional Healing]
-				Most healing sources heal for a base amount as stated in their tooltips. Several items provide additional healing power to the owner, allowing them to increase their healing output. Usually these bonuses to healing cannot be used on the casting player wielding the items, but with spells like the Holy Staff, Twinkle and Renew the player can receive these bonuses along with their allies. Being afflicted by Mana Sickness after drinking Mana Potions also afflicts the player with Out of Touch, negating bonus healing. This negative effect encourages healers to better manage their mana consumption and punish healers who may try to spam Mana Potions.
+				[c/808080:额外治疗量]
+				大多数治疗来源会按照其工具提示中所述的基础量进行治疗。一些物品会为持有者提供额外的治疗能力，使他们能够提高治疗输出。通常这些治疗加成无法作用于持有这些物品的施法玩家自身，但通过诸如圣辉法杖、闪星和新生之类的法术，玩家可以与盟友一起获得这些加成。饮用魔力药水后受到的魔力疾病也会使玩家陷入“脱离联系”状态，从而抵消额外治疗。这种负面效果鼓励治疗师更好地管理魔力消耗，并惩罚那些试图滥用魔力药水的治疗师。
 
-				[c/808080:Life Recovery]
-				Life recovery is a special form of healing that functions as a heal over time effect. It works separately from life regeneration and continues to work even when life regeneration does not due to effects like Bleeding. The recovery rate is unaffected by movement, taking damage, dealing damage, or anything other than its timer. Every second, unless under the effects of the Quick Recovery buff, the player will heal life equal to their life recovery amount. All forms of life recovery provided by the healer come from accessory effects and work as buffs on the healed ally.
+				[c/808080:生命恢复]
+				生命恢复是一种特殊的治疗形式，其作用相当于持续治疗增益。它与生命再生分开运作，即使因流血等效果导致生命再生无法生效，它仍会继续生效。恢复速率不受移动、受到伤害、造成伤害或除其计时器以外的任何因素影响。每秒钟，除非处于快速恢复增益效果下，玩家将恢复等同于其生命恢复数值的生命值。牧师提供的所有形式的生命恢复都来自饰品效果，并作为增益作用于被治疗的队友。
 
-				Since life recovery effects are applied and last their full duration after only one trigger, it works well in situations where the healer may lose line of sight of their healing targets. It also works well in fights that are drawn out, where sustained healing is more important than burst healing. Healing spells that affect a large number of allies also work incredibly well with life recovery effects, as they can trigger a large amount of life recovery cycles with a single cast.
+				由于生命恢复效果只需触发一次即可施加并持续其完整持续时间，因此在牧师可能失去治疗目标视线的情况下效果很好。它在持久战中也表现出色，因为在这类战斗中，持续治疗比爆发治疗更重要。影响大量队友的治疗法术与生命恢复效果配合得也极其出色，因为它们可以通过一次施放触发大量生命恢复周期。
 
-				[c/808080:Barrier Life]
-				A maximum life and maximum shield life bar.
-				Barrier life is a decaying, temporary increase to a players maximum life. Taking damage will take health away from the barrier before truly effecting your health pool. Essentially, it works as a buffer against the next attacks against you. Many healing items and support spells give barrier life, though it can be granted by other items and effects as well. It doesn't take up a buff slot, so the ability to have 25/50 more maximum health is an incredibly powerful effect. A players barrier will decay by 1 every second until they have no more barrier life.
+				[c/808080:生命护盾]
+				最大生命值和最大生命护盾条。
+				生命护盾是一种会衰减的、临时提高玩家最大生命值的效果。受到伤害时，会先扣除生命护盾，然后才真正影响你的生命值。本质上，它相当于一个缓冲，抵御接下来对你的攻击。许多治疗物品和支援法术会提供生命护盾，不过其他物品和效果也可以提供。它不占用增益栏位，因此能够拥有额外 25/50 最大生命值是一种极其强大的效果。玩家的屏障每秒会衰减 1 点，直到不再有屏障生命。
 
-				[c/808080:Auras]
-				Auras are temporary rings of various sizes that surround the cursor of the owner when activated. They apply beneficial effects to any allies that touch the aura, but do not benefit the casting user. These auras do not have to be channeled, and last for a reasonable time after only one use. With one use of the chosen aura, the healer can then switch to whichever healing spell or weapon they feel is needed, and still grant special effects to allies they touch. The auras allow healers to improve the damage of their team and survivability passively, with minimal effort and upkeep.
+				[c/808080:光环]
+				光环是激活后围绕持有者光标的各种大小的临时圆环。它们会对任何触碰光环的队友施加增益效果，但不会使施法者本人受益。这些光环无需持续引导，只需使用一次就能持续相当长的时间。使用选定的光环一次后，牧师就可以切换到他们认为需要的任何治疗法术或武器，同时仍然对触碰到的队友施加特殊效果。光环让牧师能够以极少的精力和维持成本，被动地提高队伍的伤害和生存能力。
 
-				[c/808080:Heal Streak]
-				Looks like someone knows what they're doing.
-				Heal streaks are a primarily informative feature that displays the amount of healing done by a healer over a certain amount of time. After three seconds of not contributing towards a heal streak, a large green number will appear above the head of the healer displaying the total amount healed over the course of the streak and signifying its end. Currently, three actions will build up a heal streak:
+				[c/808080:治疗连击]
+				看来某人知道自己在做什么。
+				治疗连击主要是一种信息显示功能，用于显示治疗师在一定时间内完成的治疗量。在连续三秒没有为治疗连击做出贡献后，治疗师头顶会出现一个巨大的绿色数字，显示该连击期间的总治疗量，并标志着连击结束。目前，有三种行为会积累治疗连击：
 
-				Healing Players: Directly healing an ally player or the caster themselves through healing spells such as The Good Book or Holy Staff.
+				治疗玩家：通过诸如好人书或圣辉法杖之类的治疗法术，直接治疗盟友玩家或施法者自身。
 
-				Mitigating Damage: Reducing the damage allies take through items such as the Ancient Aegis and Protection Staff.
+				减轻伤害：通过远古庇护和保护法杖等物品，减少盟友受到的伤害。
 
-				Stealing Life: Stealing enemy life using radiant weapons such as Leech Bolt and Blood Transfusion.
+				窃取生命：使用诸如汲血牙和鲜血转移之类的光辉武器窃取敌人生命。
 
 				[c/808080:Radiant Damage]
-				Along with the healer class' new healing abilities, a new damage type has been created specifically for them known as Radiant Damage. They can increase radiant damage through healer armors, accessories, items, and even a buff potion. Radiant weapons have special secondary effects that support allies and even the healer themselves in some cases. Radiant weapons are categorized into three unlisted subgroups:
+				除了牧师职业新增的治疗能力外，一个新的伤害类型光辉伤害也应运而生。他们可以通过牧师盔甲、饰品、物品，甚至一种增益药水来提高光辉伤害。光辉武器具有特殊的次要效果，可以支援盟友，在某些情况下甚至能支援治疗师自身。光辉武器被分为三个未列出的子类别：
 
-				Light Radiant: Weapons that help to heal allies or the caster. This heal may be a direct heal, a heal over time, or heals that persist in the world for others to grab.
+				光明光辉：帮助治疗盟友或施法者的武器。这种治疗可以是直接治疗、持续治疗，或留滞留的供他人拾取的治疗。
 
-				Dark Radiant: Weapons that steal or cost life. They support allies by transferring some of the casters health into nearby hurt allies or stealing the life of enemies.
+				腐化光辉：窃取或消耗生命的武器。它们通过将施法者的一部分生命转移给附近受伤的队友，或窃取敌人生命来支援队友。
 
-				Benign Radiant: Weapons like the Scythes, which do not fit into the other two categories. They do not typically offer secondary supportive effects, and work more like traditional weapons.
+				温和光辉：诸如镰刀之类的武器，不属于其他两个类别。它们通常不提供次要支援效果，作用更像传统武器。
 				'''
 		}
 
 		Thrower: {
-			P1: The Thrower class became individualized and expanded upon by the Thorium Mod following vanilla Terraria's removal of the class in the 1.4 update.
+			P1: 在原版泰拉瑞亚1.4更新中移除投手职业后，瑟银模组将该职业独立化并加以扩展。
 			P2:
 				'''
-				[c/00ff00:Mechanics:]
-				[c/808080:Technique Scrolls]
-				Technique Scrolls are items that, when used, allow the player to perform special abilities, with the type depending on the last Technique Scroll used. For example, Technique: Shadow Dance allows the player to teleport to the cursor's location. These techniques draw from the player's Technique Points, which will automatically regenerate while dealing throwing damage.
+				[c/00ff00:机制：]
+				[c/808080:秘技卷轴]
+				秘技卷轴是使用后允许玩家执行特殊能力的物品，其类型取决于最后使用的秘技卷轴。例如，秘技卷轴：暗影之舞允许玩家传送到光标位置。这些秘技卷轴会消耗玩家的技巧值，技巧值会在造成投掷伤害时自动回复。
 
-				[c/808080:Thrower Exhaustion]
-				While using non-consumable throwing weapons, such as the Gauss Flinger or Stalker's Snippers, an Exhaustion Bar will begin to fill up. 
-				If brought to full, the player will be penalized with the Exhaustion debuff for 20 seconds. 
-				While the player has the debuff, using any non-consumable Thrower weapon will have its damage cut by 20% per use, until they only deal 1 damage. 
-				Killing an enemy with non-consumable throwing weapon replenishes 10% of the maximum Exhaustion.
-				The base Exhaustion cap is an unlisted value of 1200 (1680 with the Canteen, 1920 with the Mermaid's Canteen, and 2400 with both). 
-				Every time a non-consumable weapon is used, twice its useTime is added to the player's Exhaustion value. 
-				Every second, regardless of weapon uses within this time, 60 Exhaustion is recovered unless the player has the Exhaustion debuff. 
-				While the debuff is active, the player will recover no Exhaustion for the duration. 
-				Once the debuff has fully run its course, the player will recover all of their Exhaustion at once.
+				[c/808080:投掷疲劳]
+				使用非消耗性投掷武器时，例如高斯掷能匕或剪刀狂人的手剪，疲劳槽会开始填充。
+				如果疲劳槽满，玩家会受到20秒的疲惫减益惩罚。
+				当玩家拥有此减益时，每次使用非消耗性投手武器后伤害会降低 20% ，直到最后造成 1 点伤害。
+				使用非消耗性投手武器击杀敌怪时会补充 10% 最大疲惫值。
+				基础疲惫值上限为 1200（拥有水壶时为 1680，拥有美人鱼水壶时为 1920，二者都有时为 2400）。 
+				每次使用非消耗性投手武器时，使用时间的 2 倍会被计入疲惫值。
+				每秒钟，无论玩家在此期间使用什么武器都会恢复 60 疲惫值，除非玩家拥有疲惫减益。
+				当减益激活时，在此期间不会恢复疲惫值。
+				如果减益消失，玩家会立刻恢复所有疲惫值。
 				'''
 		}
 	}
 
 	Tips: {
-		P1: Here you'll find my personal tips (from the developer of Thorium Info+) for playing Thorium. I've highlighted only the most important things worth your attention.
+		P1: 在这里，你会找到我（Thorium Info+ 的开发者）关于游玩瑟银的个人建议。我只强调了最值得你注意的最重要的事情。
 		P2:
 			'''
-			[c/00ff00:Don't ignore NPCs]
-			In Thorium, almost all town NPCs have a purpose and meaning in the game — they weren't added to the mod for nothing (though not all of them, admittedly). 
-			For example, the {npc:ThoriumMod/Cobbler}Cobbler can give you a free movement speed boost early on and make crafting Terraspark Boots easier. 
-			The {npc:ThoriumMod/Druid}Druid makes potion crafting easier. 
-			The {npc:ThoriumMod/ConfusedZombie}Confused Zombie sells summon items for some bosses, letting you farm them for money. 
-			The {npc:ThoriumMod/Diverman}Diverman makes your stay in the Aquatic Depths easier. 
-			The {npc:ThoriumMod/Blacksmith}Blacksmith sells a crafting station on which you can create good equipment for the evil boss.
-			The {npc:ThoriumMod/Cook}Cook sells food that acts as an extra healing item. 
-			The {npc:ThoriumMod/DesertAcolyte}Desert Acolyte can summon a sandstorm.
+			[c/00ff00:不要忽视城镇NPC]
+			在瑟银中，几乎所有城镇 NPC 在游戏中都有目的和意义——他们并非无缘无故被加入模组（尽管并非所有 NPC 都是如此）。
+			例如，鞋匠{npc:ThoriumMod/Cobbler}可以在早期给你免费移动速度提升，并让制作泰拉闪耀靴更容易。
+			德鲁伊{npc:ThoriumMod/Druid}让药水制作更容易。
+			迷途僵尸{npc:ThoriumMod/ConfusedZombie}出售一些 Boss 的召唤物品，让你可以刷它们赚钱。
+			潜水员{npc:ThoriumMod/Diverman}让你在深海中的停留更容易。
+			铁匠{npc:ThoriumMod/Blacksmith}出售一个制作站，你可以使用它为邪恶 Boss 制作好装备。
+			厨师{npc:ThoriumMod/Cook}出售可作为额外治疗物品的食物。
+			沙漠侍僧{npc:ThoriumMod/DesertAcolyte}可以召唤沙尘暴。
 			'''
 		P3:
 			'''
-			[c/00ff00:Don't ignore defense]
-			In vanilla, defense is far preferable to damage, though many people just ignore this. 
-			Thorium, however, takes this to the max. 
-			Defense in Thorium is absurdly unbalanced — by making a defense build, you literally become unkillable. 
-			Below is a screenshot of my boss fight with the Moon Lord, where I just stood still the whole time and absorbed damage while playing an Only Sentry build.
+			[c/00ff00:不要忽视防御]
+			在原版中，防御远比伤害更可取，尽管很多人直接忽视了这一点。
+			然而，瑟银把这一点发挥到了极致。
+			瑟银中的防御极度不平衡——通过组建防御配装，你简直会变得杀不死。
+			下面是我与月亮领主 Boss 战的截图，我当时只是全程站着不动吸收伤害，同时玩的是纯哨兵。
 			'''
 		P4: "{img:TrashDef}"
 		P5:
 			'''
-			And the last important tip: [c/00ff00:complete the Tracker's contracts] 
-			For some of his fairly simple contracts, the Tracker can start selling quite useful items. 
-			For example, a summon item for regular mimics, a teleporter to the Dungeon, and so on. 
-			From this follows a brief additional tip: [c/00ff00:collect and save Vanquisher Medals] to buy important items.
+			最后一条重要提示：[c/00ff00:做赏金猎人的任务] 
+			完成赏金猎人一些相当简单的契约，他就会会开始出售相当有用的物品。
+			例如，普通宝箱怪的召唤物品、通往地牢的传送器等等。
+			由此引出一条简短的附加提示：[c/00ff00:收集并保存征服者勋章]以购买重要物品。
 			'''
 	}
 }
@@ -524,15 +524,15 @@ ArmorSetBonus: {
 
 // Check the set bonuses against their translations in the game in your language to avoid any discrepancies
 ManualSetBonus: {
-	Silk: 25% increased magic damage while above 90% maximum mana
-	LivingWood: Your Living Wood Sapling's auto attack will home in on enemies
-	SandStone: Desert winds have granted you a sandy double jump
-	Icy: An icy aura surrounds you, freezing enemies that stay too long within it
-	Steel: 8% increased damage reduction
-	Thorium: Damage done increased by 10%
-	Flight: You can now briefly fly
-	Granite: Immune to intense heat and enemy knockback, but your movement speed is slowed down greatly
-	Ebon: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
+	Silk: 高于 90% 最大魔力时 +25% 魔法伤害
+	LivingWood: 生命木橡子的攻击会追踪敌怪
+	SandStone: 沙漠之风为你提供了沙质二段跳
+	Icy: 一个寒冰光环环绕着你，冻结待在其内太长时间的敌怪
+	Steel: +8% 伤害减免
+	Thorium: +10% 伤害
+	Flight: 你可以短暂飞行
+	Granite: 免疫击退，火块，熔岩和着火了！，-50% 移动速度且最大奔跑速度有上限
+	Ebon: 腐化你的光辉能量，使它们呈现黑暗形态并造成额外效果
 	NoviceCleric:
 		'''
 		Every 5 seconds you generate up to 3 holy crosses
