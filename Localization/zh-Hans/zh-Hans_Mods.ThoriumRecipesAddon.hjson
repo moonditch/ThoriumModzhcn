@@ -535,209 +535,209 @@ ManualSetBonus: {
 	Ebon: 腐化你的光辉能量，使它们呈现黑暗形态并造成额外效果
 	NoviceCleric:
 		'''
-		Every 5 seconds you generate up to 3 holy crosses
-		When casting healing spells, a cross is used instead of mana
+		每5秒你会生成至多3个神圣十字架
+		在使用治疗法术时会消耗1个十字架而不是魔力
 		'''
 	Coral:
 		'''
-		Increases radiant damage by 1
-		Radiant damage builds up to 25 life shield and life shielding no longer decays on you
-		Healing an ally transfers the life shield to them	
+		增加1点光辉伤害
+		光辉伤害会建立至多20点生命护盾且你的生命护盾不会随时间衰减
+		治疗队友会将生命护盾转移到他们身上
 		'''
 	YewWood:
 		'''
-		After four non-critical strikes, your next ranged attack will mini-crit for 150% damage
-		Mini-crits count as critical strikes for related effects
+		四次非暴击打击后，你的下次远程攻击会小暴击造成150%伤害
+		小暴击会触发暴击相关的效果
 		'''
 	Flesh:
 		'''
-		While hurt, damaged enemies have a 10% chance to drop flesh
-		Collected flesh restores life and grants bonus damage
+		受伤时伤害敌怪有10%概率掉落肉
+		收集肉会恢复生命并获得伤害加成
 		'''
-	TideHunter: Ranged critical strikes release a splash of foam, slowing nearby enemies
-	DepthDiver: You and nearby allies gain 10% increased damage, 10% movement speed, and can breathe underwater
-	NagaSkin: Every 75 mana spent will significantly increase your magic damage and casting speed briefly
-	Criers: Your symphonic empowerments will last an additional 3 seconds
-	Nobles: Inspiration notes that drop are twice as potent and increase your symphonic damage briefly
-	Jesters: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
-	Jesters2: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
-	Cryomancer: Your magic damage will freeze enemies for two seconds
-	Astro: Summon damage has a chance to unleash a burst of damaging plasma on hit
-	Geode: You can now mine entire ore veins at once
-	Illumite: Your bows, guns, and launchers fire off additional projectiles periodically
-	Blooming: Your healing spells increase the life recovery and life recovery rate of the healed target
+	TideHunter: 远程暴击会释放一堆泡沫，减速附近敌怪
+	DepthDiver: 你和附近的队友会获得10%伤害提升，10%移动速度且可以在水下呼吸
+	NagaSkin: 每消耗75魔力会短暂地大幅增加你的魔法伤害和施法速度
+	Criers: 你的音波咒音增幅会额外持续 3 秒
+	Nobles: 灵感音符的潜能翻倍并短暂增加你的音波伤害
+	Jesters: 音波暴击会在你头顶响起一个铃铛，短暂减速附近所有敌怪
+	Jesters2: 音波暴击会在你头顶响起一个铃铛，短暂减速附近所有敌怪
+	Cryomancer: 魔法伤害会冻结敌怪两秒
+	Astro: 召唤伤害击中时有概率释放一道伤害性的爆炸脉冲
+	Geode: 你现在可以一次挖掘整个矿脉
+	Illumite: 你的弓，枪和发射器会定期发射额外弹幕
+	Blooming: 你的治疗法术会增加被治疗目标的生命恢复和生命恢复速率
 	SpiritTrapper:
 		'''
-		Increases your max number of sentries by 1
-		Killing enemies or continually damaging bosses generates soul wisps
-		After generating 5 wisps, they are instantly consumed to heal you for 10 life	
+		增加 1 个最大哨兵
+		击杀敌怪或持续伤害Boss会生成灵魂微粒
+		生成5个微粒后，它们会被立刻消耗并治疗你10点生命值
 		'''
 	LifeBloom:
 		'''
-		Minion and sentry attacks have a 25% chance to heal you on hit
-		You cannot heal more than 50 life every 10 seconds
+		仆从和哨兵攻击击中时有25%概率治疗你
+		10秒内你无法治疗超过50点生命值
 		'''
 	Dread:
 		'''
-		Your boots vibrate at an unreal frequency, increasing base movement speed significantly
-		While moving, your melee damage and critical strike chance are increased
+		你的靴子以不真实的频率振动，大幅增加基础移动速度
+		移动时，你的近战伤害和暴击率增加
 		'''
-	Valadium: Reverse gravity by pressing UP. While reversed, ranged damage is increased by 15%
+	Valadium: 按下▲上键翻转重力。翻转时，远程伤害增加15%
 	Lodestone:
 		'''
-		Enemies are more likely to target you
-		6% increased damage reduction for every 25% of life lost
-		Damage reduction increase maxes at 18% while below 25% life
+		敌怪更有可能瞄准你
+		每失去25%生命值增加6%伤害减免
+		低于25%生命值时伤害减免到达最大18%
 		'''
-	Titan: Damage done increased by 18%
-	Dragon: Attacks have a chance to unleash an explosion of dragon flames
-	DemonBlood: Maximum life increased by 100
+	Titan: 造成的伤害增加18%
+	Dragon: 攻击有概率释放龙焰爆炸
+	DemonBlood: +100 最大生命
 	TideTurner:
 		'''
-		Pressing the 'Armor Ability' key will envelop you within an impervious bubble
-		While the bubble is active, all damage taken is converted into healing	
+		按下盔甲能力键会将你包裹在密不透风的泡泡中
+		将所有受到的伤害转化为治疗
 		'''
-	Darksteel: Nothing will stop your movement! Double tap to dash!
-	Durasteel: 10% increased damage reduction
+	Darksteel: 没有什么能阻挡你的移动！双击来冲刺！
+	Durasteel: +10% 伤害减免
 	WhiteKnight:
 		'''
-		40% of the mana you spend is stored as energy to a maximum of 727200
-		Pressing the 'Armor Ability' key will spend energy to restore up to 363600 mana and 363600 life at a time	
+		你消耗魔力的40%会存储为能量，上限400
+		按下盔甲能力键会消耗存储的能量回复至多200魔力和20生命
 		'''
 	HallowedBard:
 		'''
-		Become immune after striking an enemy
-		Increases the duration of your symphonic empowerments by 8 seconds
+		击中敌怪后进入免疫状态
+		增加8秒你音波咒音增幅的持续时间
 		'''
 	HallowedHealer:
 		'''
-		Become immune after striking an enemy
-		Healing spells will heal an additional 6 life	
+		击中敌怪后进入免疫状态
+		治疗法术会额外治疗6点生命值
 		'''
 	BioTech:
 		'''
-		A biotech probe will assist you in healing your allies
-		Heals ally life equal to your bonus healing
+		一个生物工程探测器会协助你治疗队友
+		治疗队友等同于你治疗加成的生命值
 		'''
 	Warlock:
 		'''
-		Radiant attacks have a chance to generate up to 15 shadow wisps
-		Pressing the 'Armor Ability' key will unleash every stored shadow wisp towards your cursor's position	
+		光辉攻击会生成至多15颗暗影微粒
+		按下盔甲能力键会向光标位置释放所有存储的暗影微粒
 		'''
-	FallenPaladin: Taking damage heals nearby allies equal to 15% of the damage taken
+	FallenPaladin: 受到伤害会治疗附近队友所受伤害15%的生命值
 	Iridescent:
 		'''
-		Your luck is slightly increased
-		Radiant damage has a 15% chance to flash, healing nearby allies for 0 life and confusing enemies	
+		你的光辉伤害有15%概率释放一道致盲闪光
+		闪光会以你的治疗加成治疗所有附近队友并困惑敌怪
 		'''
-	LifeBinder: Healing spells will shortly increase the healed player's maximum life by 50
-	Sacred: Healing spells will heal an additional 5 life
-	Templar: If an ally is below half health, you will gain increased healing abilities
+	LifeBinder: 治疗法术会短暂增加被治疗玩家50点最大生命值
+	Sacred: 治疗法术会额外治疗5点生命值
+	Templar: 如果队友生命值低于一半，你会获得治疗能力提升
 	DreamWeaverHelmet:
 		'''
-		Pressing the 'Armor Ability' key will spend 200 mana and bend the very fabric of reality
-		Enemies will be heavily slowed and take 15% more damage from all sources
-		Allies will receive greatly increased movement and attack speed
+		按下“盔甲能力”键会消耗200魔力并扭曲现实结构
+		敌怪会被大幅减速且受到所有来源的伤害增加15%
+		队友会大幅增加移动速度和攻击速度，并将到来的非致命伤害转化为治疗
 		'''
 	DreamWeaverHood:
 		'''
-		Pressing the 'Armor Ability' key will spend 200 mana and place you within the Dream
-		While in the Dream, healed allies will become briefly invulnerable and be cured of all debuffs	
+		按下“盔甲能力”键会消耗200魔力并将你放置在梦中
+		在梦中时，被治疗的队友会变得短暂无敌且所有减益都会被治愈
 		'''
 	Whispering:
 		'''
-		You occasionally birth a tentacle of abyssal energy that attacks nearby enemies
-		You can have up to 6 tentacles and their damage saps life and mana from the hit enemy
+		你会偶尔产生一根深渊能量触手攻击附近敌怪
+		你可以拥有至多6根触手且它们的伤害会从被击中的敌怪吸取1点生命和魔力
 		'''
 	Celestial:
 		'''
-		Pressing the 'Armor Ability' key will summon a large aura around your cursor at the cost of 150 mana
-		Allies touched by the aura gain increased damage, damage reduction, defense, and life recovery
-		Enemies touched by the aura suffer from holy glare and take 15% more damage from all sources
+		按下盔甲能力键会消耗150魔力在你的光标周围召唤一个大型光环
+		光环接触的队友会获得伤害，伤害减免，防御和生命恢复的提升
+		光环接触的敌怪会受到神圣之怒且受到所有来源的伤害增加15%
 		'''
 	Conduit:
 		'''
-		Moving around generates up to 5 static rings, with each one generating life shielding
-		When fully charged, a bubble of energy will protect you from one attack
+		不断移动会生成至多5个静态环，每个都会为你添加生命护盾
+		满充能时，一个能量泡泡会保护你免受一次攻击
 		'''
-	Pyromancer: Your magic damage will heavily burn and damage all adjacent enemies
+	Pyromancer: 你的魔法伤害会造成严重烧伤并伤害所有附近敌怪
 	Terrarium:
 		'''
-		The energies of Terraria will seek to protect you when you're in combat
-		Pressing the 'Armor Ability' key will allow you to cycle and select a Class Focus
+		当你在战斗中时泰拉瑞亚的能量会追寻并保护你
+		按下“盔甲能力”键在一系列职业“专注”中循环切换
 		'''
 	ShootingStar:
 		'''
-		Increases the duration of your symphonic empowerments by 6 seconds
-		Each unique empowerment you have increases your symphonic damage by 5%
-		Each unique empowerment you have increases your inspiration regeneration by 2%	
+		增加6秒音波咒音增幅持续时间
+		你拥有的每个独特咒音增幅会增加5%音波伤害
+		你拥有的每个独特咒音增幅会增加2%灵感值再生
 		'''
-	MarchingBand: While in combat, a rainbow of damaging symphonic symbols will follow your movement and stun enemies
+	MarchingBand: 战斗中，一个伤害性的彩虹音波符号会跟随你的移动并晕眩敌怪
 	Ornate:
 		'''
-		Symphonic critical strikes cause a random active empowerment to ascend to a fourth level of intensity
-		This effect can only trigger once every 5 seconds
+		音波暴击会使当前激活的一个随机咒音增幅提升到第四级
+		此效果只能每5秒触发一次
 		'''
 	Maestro:
 		'''
-		Pressing the 'Armor Ability' key will summon a chorus of music playing ghosts
-		The ghosts rapidly damage nearby enemies with brass, wind, string, and percussion instrument damage
+		按下盔甲能力键会召唤一个演奏音乐的鬼魂合唱团
+		鬼魂会快速用铜管，管，弦和打击乐器造成伤害
 		'''
 	CyberPunk:
 		'''
-		Pressing the 'Armor Ability' key will cycle you through four states:
-		Red - You and nearby allies are granted Flat Damage II & Damage II
-		Green - You and nearby allies are granted Movement Speed II & Flight Time II
-		Purple - You and nearby allies are granted Max Resource II & Resource Regen II
-		Blue - You and nearby allies are granted Defense II & Damage Reduction II
+		按下盔甲能力键会让你在以下四种状态间循环：
+		红 - 你和附近队友获得固定伤害 II 和伤害 II
+		绿 - 你和附近队友获得移动速度 II 和飞行时间 II
+		紫 - 你和附近队友获得资源上限 II 和资源再生 II
+		蓝 - 你和附近队友获得防御 II 和伤害减免 II
 		'''
 	Inspirator:
 		'''
-		Pressing the 'Armor Ability' key will overload all nearby allies with every empowerment III for 15 seconds
-		Using this ability requires 20 inspiration and must recharge for 1 minute
+		按下盔甲能力键会用每种III级咒音增幅过载所有附近队友15秒
+		使用此能力需要20点灵感值且必须重新充能1分钟
 		'''
 	Soloist:
 		'''
-		Pressing the 'Armor Ability' key will grant you endless inspiration, greatly increased symphonic damage and playing speed
-		This effect lasts for 10 seconds and needs to recharge for 1 minute
+		按下盔甲能力键会让你获得无限的灵感值，大幅增加音波伤害和演奏速度
+		此效果持续10秒并需要重新充能1分钟
 		'''
-	MasterArbalest: Your ranged damage has a 10% chance to completely duplicate itself and deal 15% more damage
+	MasterArbalest: 你的伤害有10%概率完全复制自身并多造成15%伤害
 	MasterMarksman:
 		'''
-		Your ranged damage has a 5% chance to completely eradicate the hit target
-		   This effect can only occur on bosses if they are below 5% maximum life
+		你的远程伤害有5%概率完全湮灭击中的目标
+		此效果只能在Boss生命值低于5%时生效
 		'''
-	MagmaSeer: All summon damage leaves a lingering burn that deals significant damage over time
-	Bronze: Throwing damage has a 20% chance to unleash a piercing lightning strike
+	MagmaSeer: 所有召唤伤害会滞留下造成大量伤害的灼烧
+	Bronze: 投掷伤害有20%概率释放一道穿透性闪电
 	SpiritTrapper2:
 		'''
-		Increases your max number of minions by 1
-		Killing enemies or continually damaging bosses generates soul wisps
-		After generating 5 wisps, they are instantly consumed to heal you for 10 life
+		最大仆从数量增加1
+		击杀敌怪或持续伤害Boss会生成灵魂微粒
+		生成5个微粒后，它们会被立刻消耗并治疗你10点生命值
 		'''
 	Fungus:
 		'''
-		Damage done against mycelium infected enemies is increased by 10%
-		Dealing damage to enemies infected with mycelium briefly increases throwing speed by 10%
+		对受真菌感染的敌怪造成的伤害增加10%
+		对受真菌感染的敌怪造成伤害会短暂增加10%投掷速度
 		'''
-	PlagueDoctors: Your plague gas will linger in the air twice as long and your plague reactions will deal 20% more damage
+	PlagueDoctors: 你的瘟疫云在空中的滞留时间翻倍且你的瘟疫连锁反应多造成20%伤害
 	HallowedThrower:
 		'''
-		Become immune after striking enemy,
-		and increases your maximum technique points by 2
+		击中敌怪后进入免疫状态
+		增加2点最大技巧值
 		'''
 	Lich:
 		'''
-		Killing an enemy will release a soul fragment
-		Touching a soul fragment greatly increases your movement and throwing speed briefly
+		击杀敌怪会释放一道灵魂碎片
+		接触灵魂碎片会短暂地大幅增加你的移动速度和投掷速度
 		'''
 	WhiteDwarf:
 		'''
-		Critical strikes will unleash ivory flares from the cosmos
-		Ivory flares deal 0.1% of the hit target's maximum life as damage
+		暴击会从星宇释放象牙状火焰
+		象牙状火焰会造成被击中目标0.1%生命值的伤害
 		'''
-	TideTurner2: Throwing damage has a 20% chance to unleash aquatic homing dagger all around you
-	ShadeMaster: Up to 50% of the damage you take is staggered over the next 10 seconds
+	TideTurner2: 投掷伤害有20%概率在你周围释放追踪海潮飞刀
+	ShadeMaster: 你所受伤害的50%会束缚在接下来的10秒内
 }
 
 Acquisition: {
