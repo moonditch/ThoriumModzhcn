@@ -1,6 +1,6 @@
 Keybinds: {
 	ShowAcquisitionInfo.DisplayName: 显示资讯
-	OpenHintBook.DisplayName: 瑟银信息手册
+	OpenHintBook.DisplayName: 打开信息手册
 }
 
 ShopPreview: {
@@ -1040,7 +1040,7 @@ Configs: {
 
 Items: {
 	InfoBookItem: {
-		DisplayName: 打开信息手册
+		DisplayName: 瑟银信息手册
 		Tooltip:
 			'''
 			用于访问信息手册
