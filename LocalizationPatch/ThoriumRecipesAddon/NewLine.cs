@@ -1,5 +1,6 @@
 using Microsoft.CodeAnalysis;
 using Microsoft.Xna.Framework;
+using ReLogic.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ using System.Text.RegularExpressions;
 using Terraria.GameContent;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 using Terraria.UI;
 using ThoriumModzhcn.Systems;
 
@@ -24,7 +26,7 @@ namespace ThoriumModzhcn.LocalizationPatch.ThoriumRecipesAddon;
 // 可以直接引入dll文件，代替反射。
 
 //[JITWhenModsEnabled(MODNAME)]
-//[ExtendsFromMod(MODNAME)]
+//[ExtendsFromMod(MODNAME)] 
 public partial class NewLine : ModSystem
 {
     //public const string MODNAME = "ThoriumRecipesAddon";
@@ -36,6 +38,35 @@ public partial class NewLine : ModSystem
     private static List<string> keys = [];
     private static bool addonIsLoad = true;
 
+    public override void Load()
+    {
+        if (!ModLoader.TryGetMod("ThoriumRecipesAddon", out Mod mod)) {
+            return;
+        }
+
+        var stateType = AssemblyManager.GetLoadableTypes(mod.Code).FirstOrDefault(t => t.FullName.Contains("ThoriumRecipesAddon.Common.HintBook.HintBookUIState"));
+
+        // hook这个方法用来阻拦原模组的截词和断行。主要用于阻止这个逻辑的执行。
+        //if (currentWidth + tokenW > maxWidth && current.Count > 0 && !isSpace)
+        //{
+        //    result.Add(current);
+        //    current = new List<HintBookUIState.LineToken>();
+        //    currentWidth = 0f;
+        //}
+        var wapMethod = stateType.GetMethod("WrapParagraph", BindingFlags.NonPublic | BindingFlags.Static);
+        MonoModHooks.Add(wapMethod, delegate (Func<string, DynamicSpriteFont, float, object> orig, string text, DynamicSpriteFont font, float maxWidth) {
+            if (LanguageManager.Instance.ActiveCulture != GameCulture.FromCultureName(GameCulture.CultureName.Chinese)) {
+                orig(text, font, maxWidth);
+            }
+            return orig(text, font, float.MaxValue);
+        });
+
+    }
+
+    public override void OnWorldLoad()
+    {
+        UpdateLocalizeText(contentWidth);
+    }
     public override void UpdateUI(GameTime gameTime)
     {
         if (!addonIsLoad || !ModLoader.TryGetMod("ThoriumRecipesAddon", out _)) {
@@ -59,7 +90,7 @@ public partial class NewLine : ModSystem
             return;
         }
         var style = contentArea.GetInnerDimensions();
-        if (contentWidth != (int)style.Width) {   
+        if (contentWidth != (int)style.Width) {
             contentWidth = (int)style.Width;
             UpdateLocalizeText(contentWidth);
         }
@@ -85,7 +116,7 @@ public partial class NewLine : ModSystem
         weakHintBookUIState = new(hintBookUIState);
 
         var userInterface = bookSystemType.GetProperty("Interface", BindingFlags.Public | BindingFlags.Static);
-        weakUserInterface = new ((UserInterface)userInterface.GetValue(userInterface));
+        weakUserInterface = new((UserInterface)userInterface.GetValue(userInterface));
 
         var contentAreaFieldInfo = hintBookUIState.GetType().GetField("contentArea", BindingFlags.NonPublic | BindingFlags.Instance);
         var contentArea = (UIElement)contentAreaFieldInfo.GetValue(hintBookUIState);
@@ -106,7 +137,7 @@ public partial class NewLine : ModSystem
     // 缩放有0.82
     //  ChatManager.DrawColorCodedStringWithShadow(sb, FontAssets.MouseText.Value, token.Text, new Vector2(cursorX, y), HintBookUIState.TextMain, 0f, Vector2.Zero, new Vector2(0.82f), -1f, 2f);
 
-    private readonly static HashSet<char> symbol = ['，', '。', ',', '.', '!', '！', '?', '？'];
+    private readonly static HashSet<char> symbol = ['，', '。', ',', '.', '!', '！', '?', '？', '、'];
     private static void UpdateLocalizeText(int width)
     {
         var texts = LocalizeNew.LocalizedTexts;
@@ -149,7 +180,7 @@ public partial class NewLine : ModSystem
                 // 匹配到 [..] 内部 跳过
                 if (matchKind.Kind != Kind.Unknown) {
                     newLineIndex = matchKind.Match.Index + matchKind.Match.Length;
-                    i = newLineIndex - 1; // raw[i] = ']'
+                    i = newLineIndex /* - 1 */;
                 }
 
                 int p = i;
@@ -207,13 +238,10 @@ public partial class NewLine : ModSystem
         ColorText,
         Unknown
     }
-
-    [GeneratedRegex(@"\[c/[^:]+:([^\]]*)\]")]
-    private static partial Regex ColorTextRegex();
-    [GeneratedRegex(@"\{[^{}]*\}")]
-    private static partial Regex MarkTextRegex();
-    [GeneratedRegex(@"\[i:([^\]]*)\]")]
-    private static partial Regex ItemTextRegex();
+    //[GeneratedRegex(@"\[i(?:/[^:]*)?:([^\]]*)\]")] //@"\[i:([^\]]*)\]"
+    private static Regex ColorTextRegex() => new Regex(@"\[c/[^:]+:([^\]]*)\]");
+    private static Regex MarkTextRegex() => new Regex(@"\{[^{}]*\}");
+    private static Regex ItemTextRegex() => new Regex(@"\[i(?:/[^:]*)?:([^\]]*)\]");
 }
 
 public static class MatchExtensions
@@ -223,3 +251,5 @@ public static class MatchExtensions
         return index >= match.Index && index < match.Index + match.Length;
     }
 }
+
+
