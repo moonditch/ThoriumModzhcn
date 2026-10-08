@@ -1,6 +1,6 @@
 Keybinds: {
 	ShowAcquisitionInfo.DisplayName: 显示资讯
-	OpenHintBook.DisplayName: 打开信息手册
+	OpenHintBook.DisplayName: 瑟银信息手册
 }
 
 ShopPreview: {
@@ -102,12 +102,11 @@ HintBook: {
 		P1: "{img:ThoriumLogo}"
 		P2:
 			'''
-			瑟银是泰拉瑞亚最大的内容性模组之一，已开发超过 10 年。. 
-			它包含大量与泰拉瑞亚原版兼容的内容，包括: 约2900件物品，约200只NPC，3只迷你BOSS，11只BOSS，1个全新的生物群
-系，1个新建筑，以及大量兼容原版泰拉瑞亚的事件，生物群系等内容。
-			通过这本信息手册，你无需阅读wiki即可了解该模组的基础知识 (尽管它并不能完全代替维基百科). 
+			瑟银是泰拉瑞亚最大的内容性模组之一，已开发超过 10 年。.
+			它包含大量与泰拉瑞亚原版兼容的内容，包括: 约2900件物品，约200只NPC，3只迷你BOSS，11只BOSS，1个全新的生物群系，1个新建筑，以及大量兼容原版泰拉瑞亚的事件，生物群系等内容。
+			通过这本信息手册，你无需阅读wiki即可了解该模组的基础知识 (尽管它并不能完全代替维基百科)。
 			你还将找到我的个人游戏经验 (我已经通关约十次)。祝你游戏愉快!
-			以上翻译来自作者，与瑟银汉化组无关。
+			[c/00ff00:翻译来自作者的英文文案，推荐和与瑟银汉化组无关。]
 			'''
 	}
 
@@ -115,8 +114,7 @@ HintBook: {
 		P1:
 			'''
 			=====================================================
-			在这份简易指南中，你可以快速了解应该在游戏中的哪些地点以及那个阶段
-去寻找新内容。
+			在这份简易指南中，你可以快速了解应该在游戏中的哪些地点以及那个阶段去寻找新内容。
 			=====================================================
 			'''
 		P2:
@@ -124,39 +122,30 @@ HintBook: {
 			[c/00ff00:游戏初期:]
 			游戏刚开始时，你的物品栏中就有一件 {i:ThoriumMod/FamilyHeirloom}的传家宝。 
 			现在这个物品毫无用处，只有在游戏后期可以制作成一件供你收藏的弱效武器。
-			虽然物品描述中未提及，但它能提供1点防御力，因此在获得首个饰品之前，
-你可以先把它装备上。
+			虽然物品描述中未提及，但它能提供1点防御力，因此在获得首个饰品之前，你可以先把它装备上。
 			'''
 		P3:
 			'''
-			瑟银模组对游戏初期几乎没有影响，你依然可以像在原版游戏中那样进行常规
-操作，而模组新增的内容会自然而然地出现在你的游戏进程中。
+			瑟银模组对游戏初期几乎没有影响，你依然可以像在原版游戏中那样进行常规操作，而模组新增的内容会自然而然地出现在你的游戏进程中。
 			值得一提的是 {i:ThoriumMod/ThoriumOre}瑟银矿和 {i:ThoriumMod/LifeQuartz}生命石英 — 是游戏初期的优质材料。 
-			用瑟银矿可以在游戏初期做个不错的盔甲，以及{i:ThoriumMod/Crietz}精准项链，这个饰品甚至
-可以用到困难模式之后。
+			用瑟银矿可以在游戏初期做个不错的盔甲，以及{i:ThoriumMod/Crietz}精准项链，这个饰品甚至可以用到困难模式之后。
 			'''
 		P4:
 			'''
 			{npc:4}[c/00ff00:初期BOSS:]
-			击败 {npc:ThoriumMod/TheGrandThunderBird}惊雷王鹰，{npc:4}克苏鲁之眼，{npc:50}史莱姆王，以及{npc:266}{npc:13}邪恶BOSS后，
-几位来自模组的城镇NPC会入住，并出售一些实用物品。
-			例如，你可以从 {npc:ThoriumMod/Blacksmith}铁匠处购买 {i:ThoriumMod/ArcaneArmorFabricator}奥术盔甲锻铸台，这是一个制作站，你
-可以利用它在挑战邪恶Boss之前制作不错的装备。
+			击败 {npc:ThoriumMod/TheGrandThunderBird}惊雷王鹰，{npc:4}克苏鲁之眼，{npc:50}史莱姆王，以及{npc:266}{npc:13}邪恶BOSS后，几位来自模组的城镇NPC会入住，并出售一些实用物品。
+			例如，你可以从 {npc:ThoriumMod/Blacksmith}铁匠处购买 {i:ThoriumMod/ArcaneArmorFabricator}奥术盔甲锻铸台，这是一个制作站，你可以利用它在挑战邪恶Boss之前制作不错的装备。
 			此外血月期间，迷你BOSS {npc:ThoriumMod/PatchWerk}缝合怪会生成，击败他可以掉落一个实用的 {i:ThoriumMod/SuspiciousMoisturizerBottle}手部宠物，它能指示稀有敌人的位置并会在你死亡时发生嘲笑。
-			在哥布林入侵期间，你可以获得 {i:ThoriumMod/DarkGate}暗影之门，这也是一件实用且能陪你
-度过一段游戏进程的物品。
+			在哥布林入侵期间，你可以获得 {i:ThoriumMod/DarkGate}暗影之门，这也是一件实用且能陪你度过一段游戏进程的物品。
 			'''
 		P5:
 			'''
 			{npc:266}{npc:13}[c/00ff00:邪恶BOSS后:]
 			击败邪恶BOSS后，你将解锁几个新BOSS和一个新的生物群系。
-			地下丛林中，{npc:ThoriumMod/CorpseBloom}绝命花开始生成，击败后{npc:ThoriumMod/Druid}德鲁伊会入住，她会出售草药
-的种子。
+			地下丛林中，{npc:ThoriumMod/CorpseBloom}绝命花开始生成，击败后{npc:ThoriumMod/Druid}德鲁伊会入住，她会出售草药的种子。
 			从{npc:ThoriumMod/ConfusedZombie}迷途僵尸处购买，{i:ThoriumMod/GrimPointer}恐怖指针，你可以找到 {link:https://thoriummod.wiki.gg/wiki/Blood_Chamber|鲜血密室} ，然后再 {link:https://thoriummod.wiki.gg/wiki/Blood_Altar|鲜血祭坛} 处，使用5个{i:ThoriumMod/UnholyShards}不洁碎晶，召唤{npc:ThoriumMod/Viscount}蝙蝠子爵。
-			蝙蝠子爵会掉落相当不错的武器，总体来说，他是一个非常有趣的BOSS。
-（顺便说一句，他是这个模组里面我最喜欢的BOSS）
-			在海洋中，你可以召唤 {npc:ThoriumMod/QueenJellyfish}水母皇后，她会掉落...... {npc:ThoriumMod/Diverman}潜水员NPC，他可以让
-你在新的生物群系中生存的更加轻松。
+			蝙蝠子爵会掉落相当不错的武器，总体来说，他是一个非常有趣的BOSS。（顺便说一句，他是这个模组里面我最喜欢的BOSS）
+			在海洋中，你可以召唤 {npc:ThoriumMod/QueenJellyfish}水母皇后，她会掉落...... {npc:ThoriumMod/Diverman}潜水员NPC，他可以让你在新的生物群系中生存的更加轻松。
 			对了，新的生物群系 — 你现在可以前往 {link:https://thoriummod.wiki.gg/wiki/Aquatic_Depths|深海} 了。
 			它总是在丛林一侧的海洋下面生成，所以很容易找到他。 
 			这个生物群系没什么重要的东西，除了可以查看宝箱的战利品，以及 {i:ThoriumMod/Aquaite}海洋矿，接下来骷髅王和蜂后等着你击败。
@@ -175,9 +164,9 @@ HintBook: {
 			'''
 			{npc:113}[c/00ff00:欢迎来到困难模式：]
 			好了，你进入了困难模式……从现在开始，瑟银的内容将变得更加丰富。 
-			从聊天信息中，你可能已经猜到深海出现了新的敌人。
+			从世界频道中，你可能已经猜到深海出现了新的敌人。
 			你应该去那里看看，那里出现了两种新的材料{i:ThoriumMod/DepthScale}深海之鳞和{i:ThoriumMod/AbyssalChitin}深渊角质鳞。
-			但更重要的是{i:ThoriumMod/CrystalWave}水晶波痕。它的用途从物品描述中就已经很清楚了。。 
+			但更重要的是{i:ThoriumMod/CrystalWave}水晶波痕。它的用途从物品描述中就已经很清楚了。。
 			从困难模式一开始，它就会在深海中生长——只要破坏它，它就会掉落。下面是它的样子。
 			别忘了也扔一个进微光，以获得永久升级。
 			'''
@@ -186,13 +175,13 @@ HintBook: {
 			'''
 			除了深海之外，海盗入侵、血月、神圣之地、地狱、沙漠和邪恶生物群系中也有新内容等着你。
 			它们各自都以新材料而值得注意，这些材料又可用于为某些职业制作入门装备。
-			你要找的素材是：{i:ThoriumMod/UnfathomableFlesh}, {i:ThoriumMod/GreenDragonScale}, {i:ThoriumMod/SoulofPlight}, {i:ThoriumMod/PharaohsBreath}, {i:ThoriumMod/HallowedCharm}, 和{i:ThoriumMod/BloodCell}. 
+			你要找的素材是：{i:ThoriumMod/UnfathomableFlesh}, {i:ThoriumMod/GreenDragonScale}, {i:ThoriumMod/SoulofPlight}, {i:ThoriumMod/PharaohsBreath}, {i:ThoriumMod/HallowedCharm}, 和{i:ThoriumMod/BloodCell}。
 			看看你能用它们制作什么，然后制作你喜欢的任何东西。
 			你也可以尝试击杀新的宝箱怪——{npc:ThoriumMod/SubmergedMimic}, {npc:ThoriumMod/HellBringerMimic}和{npc:ThoriumMod/MyceliumMimic}。它们可以自然生成，也可以使用钥匙召唤，类似于原版的光明钥匙和夜光钥匙。
 			'''
 		P10:
 			'''
-			{npc:ThoriumMod/FallenBeholder}[c/00ff00:First bosses:]
+			{npc:ThoriumMod/FallenBeholder}[c/00ff00:肉后:]
 			在打Boss之前，除了常规装备外，我建议你制作{i:ThoriumMod/DemosGuidanceItem}蒂莫之指引——它是一个宠物，会替代你的固定增益方块。
 			你可以轻松地一直带着它直到游戏结束；在瑟银模组中，我不知道还有更有用的宠物。
 			接下来是两个新 Boss：{npc:ThoriumMod/BoreanStrider}极地遁蛛和{npc:ThoriumMod/FallenBeholder}堕落注视者。两者都非常非常简单，不会让你卡关。
@@ -204,7 +193,7 @@ HintBook: {
 			'''
 		P11:
 			'''
-			{npc:134}{npc:126}{npc:127}[c/00ff00:Post mechs:]
+			{npc:134}{npc:126}{npc:127}[c/00ff00:机械BOSS后:]
 			击败全部三个机械 Boss 后，你就能获得几种新材料。
 			首先，你需要通过制作{i:ThoriumMod/SoulForge}灵魂熔炉来升级你的熔炉，之后几乎所有瑟银物品都要在它上面制作。
 			下面列出你可以制作的东西以及它们的用途：
@@ -229,7 +218,7 @@ HintBook: {
 			'''
 		P13:
 			'''
-			{npc:262}[c/00ff00:Post Plantera:]
+			{npc:262}[c/00ff00:世纪之花后:]
 			击败世纪之花后，{i:ThoriumMod/IllumiteChunk}就可以获得荧光矿了。荧光矿生成于洞穴层和地下层，而且只在首次击败世纪之花后生成——就像堕落注视者之后的虚金和地脉矿一样，后续击杀不会再生成。
 			荧光矿用于制作平庸的射手盔甲和几把强度存疑的武器，但如果你喜欢可以试试。
 			更让你感兴趣的应该是丛林神庙和地牢的变化。两者都有新敌人，会掉落新材料——神庙中的{i:ThoriumMod/SolarPebble}太阳石砾和地牢中的{i:ThoriumMod/DarkMatter暗物质。
@@ -241,7 +230,7 @@ HintBook: {
 			'''
 		P14:
 			'''
-			{npc:439}[c/00ff00:Pre Moon Loser:]
+			{npc:439}[c/00ff00:月球领主后:]
 			开发者在石巨人之后的内容上有点吝啬，所以你主要需要刷原版物品。 
 			如果你的暴击率大约在 50–70%+，我强烈建议制作{i:ThoriumMod/MaskoftheCrystalEye}水晶之眼面具（这名字真蠢）。如果你有高暴击率，这个饰品大约能提升你 12–20% 的伤害，因为每次暴击造成 12% 额外伤害，并且还会使暴击率本身提高 8%。
 			火星入侵（毫不意外）也有新掉落物，既有来自敌怪的，也有来自飞碟的，所以如果你想，可以刷它。
@@ -262,7 +251,7 @@ HintBook: {
 			'''
 		P16:
 			'''
-			{npc:ThoriumMod/DreamEater}[c/FF0000:T][c/FF7D00:H][c/FFFF00:E] [c/00FF00:P][c/0000FF:R][c/4B0082:I][c/9400D3:M][c/FF0000:O][c/FF7D00:R][c/FFFF00:D][c/00FF00:I][c/0000FF:A][c/4B0082:L][c/9400D3:S]
+			{npc:ThoriumMod/DreamEater}[c/FF0000:始][c/FF7D00:生][c/FFFF00:灾][c/00FF00:灵] [c/0000FF:与] [c/4B0082:噬][c/9400D3:梦][c/FF0000:者]
 			现在最有趣的部分开始了……始生灾灵是瑟银里最难的 Boss……前提是你没听说过那颗传奇的星星！就是月亮领主掉落的那颗！它和翱翔徽章组合起来，能克制开发者为他们设计的所有攻击，轻轻松松！
 			总之，来说这个 Boss。
 			带上月亮领主后的装备是合理的——盔甲、武器、和谐杖、天界星盘。
@@ -297,14 +286,17 @@ HintBook: {
 		P1: 本节涵盖了该模组中所有值得注意的机制
 		P2:
 			'''
-			[c/00ff00:Death Prevention:]
+			[c/00ff00:免死:]
 			免死是瑟银模组添加的一种机制。
 			正常情况下，当玩家的生命值降至 0 时，他们会死亡并在短暂延迟后重生。
 			模组中的各种物品可以阻止、撤销或延迟这一过程的发生，给玩家第二次存活的机会。
 			阻止、复活和延迟是该机制目前可以采取的形式。
-			[c/808080:阻止] 会阻止玩家受到致命伤害，在大多数情况下会治疗他们一定量生命值，并赋予他们短暂的无敌。以下所有来源都会施加一个共同的减益，防止多种死亡预防手段叠加使用。
-			[c/808080:A Revive] 会让已死亡的玩家复活，使他们能够继续战斗。
-			[c/808080:A Delay] 让玩家免疫伤害，并在设定时间内阻止他们立即死亡。持续时间结束后，无论其生命值如何，玩家都会像原本那样死亡。
+			[c/808080:阻止] 
+			会阻止玩家受到致命伤害，在大多数情况下会治疗他们一定量生命值，并赋予他们短暂的无敌。以下所有来源都会施加一个共同的减益，防止多种死亡预防手段叠加使用。
+			[c/808080:复活] 
+			会让已死亡的玩家复活，使他们能够继续战斗。
+			[c/808080:延迟] 
+			让玩家免疫伤害，并在设定时间内阻止他们立即死亡。持续时间结束后，无论其生命值如何，玩家都会像原本那样死亡。
 			'''
 		P3:
 			'''
@@ -335,7 +327,7 @@ HintBook: {
 
 	Classes: {
 		P1: 瑟银新增了三个职业：吟游诗人，牧师与投手
-		P2: 你可以在这里查看所有职业的流程{链接:https://thoriummod.wiki.gg/wiki/Guide:Class_setups|}，但我个人建议你不要盲目遵循维基指南——相反，你应该自己寻找装备，并构建自己的玩法。
+		P2: 你可以在这里查看所有{link:https://thoriummod.wiki.gg/wiki/Guide:Class_setups|职业流程}，但我个人建议你不要盲目遵循维基指南——相反，你应该自己寻找装备，并构建自己的玩法。  
 
 		Bard: {
 			P1: 吟游诗人使用灵感来提升队伍的属性。他的乐器可以为附近的队友提供增益效果。
@@ -376,7 +368,7 @@ HintBook: {
 				'''
 				[c/00ff00:大型乐器：]
 				大型乐器是吟游诗人武器的一个子集，使用一种计时器机制。
-				当被持有时，玩家下方会出现一个计时器（如果配置设置“Move Instrument Timer to Mouse”设为 true，则出现在光标下方）；乐器的效果取决于其攻击是否在特定的时间窗口内使用。
+				当被持有时，玩家下方会出现一个计时器（如果配置设置“将乐器计时器移到光标”设为 是，则会出现在光标下方）；乐器的效果取决于其攻击是否在特定的时间窗口内使用。
 				随着玩家成功把握攻击时机，大型乐器会获得威力、提供鼓舞等级以及其他效果，而错过时机则会大幅降低这些加成。
 				'''
 		}
@@ -407,35 +399,39 @@ HintBook: {
 				降低仇恨 >> 治疗队友 > 布置支援 > 伤害敌人
 
 				别让仇恨落在你身上，牧师们！
-				[c/808080:降低仇恨：] 死掉的牧师就是没用的牧师（大多数情况下），所以让敌人不再追着你，并正确地转去攻击另一名队友，应该是你首要且持续的目标。你有能力治疗承接仇恨的队友，而他们没有，所以远离伤害是首要任务。这并不意味着你在试图甩掉他们时“什么都不做”，但在持续受压时四处移动，这始终应该是你的目标。
+				[c/808080:降低仇恨：] 
+				死掉的牧师就是没用的牧师（大多数情况下），所以让敌人不再追着你，并正确地转去攻击另一名队友，应该是你首要且持续的目标。你有能力治疗承接仇恨的队友，而他们没有，所以远离伤害是首要任务。这并不意味着你在试图甩掉他们时“什么都不做”，但在持续受压时四处移动，这始终应该是你的目标。
 
-				[c/808080:治疗队友：] 始终让队友的生命值保持在健康水平。你应该了解每位队友的承伤能力，优先治疗防御低或持续承受仇恨而受伤的队友。一般来说，如果法力允许，目标就是让玩家的生命值保持在接近最大值。但当情况变得混乱，尤其是在入侵和 Boss 战中，你只有几秒钟来决定谁比其他人更有死亡危险。所以把一名队友奶满可能不是最聪明的做法，转而进行一些分散治疗，让多名队友远离死亡，会是更好的选择。
+				[c/808080:治疗队友：] 
+				始终让队友的生命值保持在健康水平。你应该了解每位队友的承伤能力，优先治疗防御低或持续承受仇恨而受伤的队友。一般来说，如果法力允许，目标就是让玩家的生命值保持在接近最大值。但当情况变得混乱，尤其是在入侵和 Boss 战中，你只有几秒钟来决定谁比其他人更有死亡危险。所以把一名队友奶满可能不是最聪明的做法，转而进行一些分散治疗，让多名队友远离死亡，会是更好的选择。
 
-				[c/808080:布置支援：] 有许多支援物品不会直接治疗队友，但仍有助于保护他们。伤害减免、生命护盾、生命恢复、持续治疗效果等需要时间准备，但当危险骤增时能挽救生命。在战斗中的空闲时刻，治疗师可以准备或施加支援能力，以便更好地为某个阶段或即将到来的危险攻击做准备。如果你的队友相当健康，而你最近没有刷新支援效果，那么把它们布置好可能是明智之举。
+				[c/808080:布置支援：] 
+				有许多支援物品不会直接治疗队友，但仍有助于保护他们。伤害减免、生命护盾、生命恢复、持续治疗效果等需要时间准备，但当危险骤增时能挽救生命。在战斗中的空闲时刻，治疗师可以准备或施加支援能力，以便更好地为某个阶段或即将到来的危险攻击做准备。如果你的队友相当健康，而你最近没有刷新支援效果，那么把它们布置好可能是明智之举。
 
-				[c/808080:伤害敌人：]如果你没有立刻面临危险，队友生命值处于可接受水平，且你的支援法术还有不少持续时间，那么就是时候开始为团队出力了。你的光辉武器提供了一种在造成一些伤害的同时仍能提供支援效果的方式，以防情况再次变糟。只是务必不要用光辉法术耗尽所有法力；如果队友再次开始受到大量伤害，你可能会缺少救他们所需的法力。
+				[c/808080:伤害敌人：]
+				如果你没有立刻面临危险，队友生命值处于可接受水平，且你的支援法术还有不少持续时间，那么就是时候开始为团队出力了。你的光辉武器提供了一种在造成一些伤害的同时仍能提供支援效果的方式，以防情况再次变糟。只是务必不要用光辉法术耗尽所有法力；如果队友再次开始受到大量伤害，你可能会缺少救他们所需的法力。
 				'''
 			P4:
 				'''
 				[c/00ff00:机制：]
 				牧师职业拥有多种独特的机制，这些机制与其成功息息相关。
 
-				[c/808080:额外治疗量]
+				[c/808080:额外治疗量：]
 				大多数治疗来源会按照其工具提示中所述的基础量进行治疗。一些物品会为持有者提供额外的治疗能力，使他们能够提高治疗输出。通常这些治疗加成无法作用于持有这些物品的施法玩家自身，但通过诸如圣辉法杖、闪星和新生之类的法术，玩家可以与盟友一起获得这些加成。饮用魔力药水后受到的魔力疾病也会使玩家陷入“脱离联系”状态，从而抵消额外治疗。这种负面效果鼓励治疗师更好地管理魔力消耗，并惩罚那些试图滥用魔力药水的治疗师。
 
-				[c/808080:生命恢复]
+				[c/808080:生命恢复：]
 				生命恢复是一种特殊的治疗形式，其作用相当于持续治疗增益。它与生命再生分开运作，即使因流血等效果导致生命再生无法生效，它仍会继续生效。恢复速率不受移动、受到伤害、造成伤害或除其计时器以外的任何因素影响。每秒钟，除非处于快速恢复增益效果下，玩家将恢复等同于其生命恢复数值的生命值。牧师提供的所有形式的生命恢复都来自饰品效果，并作为增益作用于被治疗的队友。
 
 				由于生命恢复效果只需触发一次即可施加并持续其完整持续时间，因此在牧师可能失去治疗目标视线的情况下效果很好。它在持久战中也表现出色，因为在这类战斗中，持续治疗比爆发治疗更重要。影响大量队友的治疗法术与生命恢复效果配合得也极其出色，因为它们可以通过一次施放触发大量生命恢复周期。
 
-				[c/808080:生命护盾]
+				[c/808080:生命护盾：]
 				最大生命值和最大生命护盾条。
 				生命护盾是一种会衰减的、临时提高玩家最大生命值的效果。受到伤害时，会先扣除生命护盾，然后才真正影响你的生命值。本质上，它相当于一个缓冲，抵御接下来对你的攻击。许多治疗物品和支援法术会提供生命护盾，不过其他物品和效果也可以提供。它不占用增益栏位，因此能够拥有额外 25/50 最大生命值是一种极其强大的效果。玩家的屏障每秒会衰减 1 点，直到不再有屏障生命。
 
-				[c/808080:光环]
+				[c/808080:光环：]
 				光环是激活后围绕持有者光标的各种大小的临时圆环。它们会对任何触碰光环的队友施加增益效果，但不会使施法者本人受益。这些光环无需持续引导，只需使用一次就能持续相当长的时间。使用选定的光环一次后，牧师就可以切换到他们认为需要的任何治疗法术或武器，同时仍然对触碰到的队友施加特殊效果。光环让牧师能够以极少的精力和维持成本，被动地提高队伍的伤害和生存能力。
 
-				[c/808080:治疗连击]
+				[c/808080:治疗连击：]
 				看来某人知道自己在做什么。
 				治疗连击主要是一种信息显示功能，用于显示治疗师在一定时间内完成的治疗量。在连续三秒没有为治疗连击做出贡献后，治疗师头顶会出现一个巨大的绿色数字，显示该连击期间的总治疗量，并标志着连击结束。目前，有三种行为会积累治疗连击：
 
@@ -445,7 +441,7 @@ HintBook: {
 
 				窃取生命：使用诸如汲血牙和鲜血转移之类的光辉武器窃取敌人生命。
 
-				[c/808080:Radiant Damage]
+				[c/808080:光辉伤害]
 				除了牧师职业新增的治疗能力外，一个新的伤害类型光辉伤害也应运而生。他们可以通过牧师盔甲、饰品、物品，甚至一种增益药水来提高光辉伤害。光辉武器具有特殊的次要效果，可以支援盟友，在某些情况下甚至能支援治疗师自身。光辉武器被分为三个未列出的子类别：
 
 				光明光辉：帮助治疗盟友或施法者的武器。这种治疗可以是直接治疗、持续治疗，或留滞留的供他人拾取的治疗。
@@ -787,255 +783,255 @@ EquipmentStats: {
 Configs: {
 	ThoriumRecipesAddon: {
 		AcquisitionConfig: {
-			DisplayName: Thorium Info+ Configuration
+			DisplayName: 瑟银信息+ 配置
 
 			Headers: {
-				AcquisitionTooltips: Acquisition tooltips
-				EquipmentStats: Equipment stats
-				AmmoInfo: Ammo info
-				SetBonus: Set bonuses
-				BestiaryIntro: Bestiary intro
-				HintBook: Hint book
+				AcquisitionTooltips: 获取提示
+				EquipmentStats: 装备属性
+				AmmoInfo: 弹药信息
+				SetBonus: 套装效果
+				BestiaryIntro: 图鉴简介
+				HintBook: 手册提示
 			}
 
 			EnableAcquisitionTooltips: {
-				Label: Enable acquisition tooltips
-				Tooltip: Shows how to obtain Thorium items.
+				Label: 启用获取方式提示
+				Tooltip: 显示瑟银物品的获取方式
 			}
 
 			ShowCraftSources: {
-				Label: Show crafting sources
-				Tooltip: Display crafting recipes.
+				Label: 显示制作来源
+				Tooltip: 显示制作配方
 			}
 
 			ShowShopSources: {
-				Label: Show shop sources
-				Tooltip: Display NPCs that sell the item.
+				Label: 显示售卖来源
+				Tooltip: 显示售卖物品的NPC
 			}
 
 			ShowDropSources: {
-				Label: Show drop sources
-				Tooltip: Display enemies that drop the item.
+				Label: 显示掉落来源
+				Tooltip: 显示掉落物品的敌怪
 			}
 
 			ShowShimmerSources: {
-				Label: Show shimmer sources
-				Tooltip: Display shimmer transmutations.
+				Label: 显示微光嬗变来源
+				Tooltip: 显示微光嬗变转化配方。
 			}
 
 			ShowContainerSources: {
-				Label: Show container sources
-				Tooltip: Display bags and crates that contain the item.
+				Label: 显示摸彩袋来源
+				Tooltip: 显示包含该物品的摸彩袋。
 			}
 
 			ShowContainerContents: {
-				Label: Show container contents
-				Tooltip: Display the contents of bags and crates before opening them.
+				Label: 显示摸彩袋内容
+				Tooltip: 打开摸彩袋时显示其内容。
 			}
 
 			ShowEquipmentStats: {
-				Label: Show equipment stats
-				Tooltip: Shows wings, hooks and mounts stats for Thorium items.
+				Label: 显示装备属性
+				Tooltip: 显示瑟银物品中翅膀、钩爪和坐骑属性。
 			}
 
 			ShowWingStats: {
-				Label: Show wing stats
-				Tooltip: Show wing stats.
+				Label: 显示翅膀属性
+				Tooltip: 显示翅膀属性。
 			}
 
 			ShowHookStats: {
-				Label: Show hook stats
-				Tooltip: Show hook stats.
+				Label: 显示抓钩属性
+				Tooltip: 显示抓钩属性。
 			}
 
 			ShowMountStats: {
-				Label: Show mount stats
-				Tooltip: Show mount stats.
+				Label: 显示坐骑属性
+				Tooltip: 显示坐骑属性。
 			}
 
 			ShowAmmoInfo: {
-				Label: Show ammo info
-				Tooltip: Show which ammo types ranged weapons use.
+				Label: 显示弹药信息
+				Tooltip: 显示远程武器所使用的弹药类型。
 			}
 
 			ShowSetBonusPreview: {
-				Label: Show set bonuses
-				Tooltip: Show the armor set bonus in the helmet tooltip while the set is not equipped.
+				Label: 显示套装奖励
+				Tooltip: 在未装备装备时在头盔上显示套装奖励。
 			}
 
 			ShowBestiaryIntro: {
-				Label: Show bestiary entries
-				Tooltip: Sends a bestiary entry to chat on first kill of a modded mob.
+				Label: 显示图鉴简介
+				Tooltip: 在首次击杀模组敌怪时，在世界频道中显示图鉴简介。
 			}
 
 			ShowBestiaryIntroSounds: {
-				Label: Bestiary entry sounds
-				Tooltip: Play a sound when a bestiary entry appears.
+				Label: 图鉴条目音效
+				Tooltip: 显示图鉴条目时播放音效。
 			}
 
 			AllowHintBook: {
-				Label: Enable handbook
-				Tooltip: Allows opening the in-game handbook via hotkey.
+				Label: 启用信息手册
+				Tooltip: 允许通过快捷键打开游戏内的信息手册
 			}
 
 			HintBookButtonVisibility: {
-				Label: Handbook button visibility
-				Tooltip: When to show the open handbook button.
-				WithInventory: With inventory
-				Always: Always
-				Never: Never
+				Label: 提示手册按键可见性
+				Tooltip: 什么时候显示打开的按键
+				WithInventory: 打开物品栏时显示
+				Always: 总是
+				Never: 从不显示
 			}
 
 			HintBookButtonX: {
-				Label: Button X position
-				Tooltip: Horizontal button position. -1 means auto (bottom right).
+				Label: 按键 X 轴坐标
+				Tooltip: 按键水平位置。 -1 表示自动 (右下角)。
 			}
 
 			HintBookButtonY: {
-				Label: Button Y position
-				Tooltip: Vertical button position. -1 means auto (bottom right).
+				Label: 按键 Y 轴坐标
+				Tooltip: 按键垂直位置。 -1 表示自动 (右下角)。
 			}
 		}
 	}
 
 	AcquisitionConfig: {
 		HintBookButtonY: {
-			Tooltip: Vertical button position. -1 means auto (bottom right).
-			Label: Button Y position
+			Tooltip: 按键垂直位置。 -1 表示自动 (右下角)。
+			Label: 按键 Y 轴坐标
 		}
 
 		HintBookButtonX: {
-			Tooltip: Horizontal button position. -1 means auto (bottom right).
-			Label: Button X position
+			Tooltip: 按键水平位置。 -1 表示自动 (右下角)。
+			Label: 按键 X 轴坐标
 		}
 
 		HintBookButtonVisibility: {
-			Tooltip: Determines under what conditions the Infobook open button is displayed on screen.
-			Label: Infobook Button Visibility
+			Tooltip: 决定在何种条件下屏幕上显示“瑟银信息手册”打开的按键。
+			Label: 信息手册按键可见性
 		}
 
 		AllowHintBook: {
 			Tooltip: ""
-			Label: Enable Infobook Open Button
+			Label: 启用信息手册打开按键
 		}
 
 		Headers: {
-			HintBook: Hint Book Header
-			BestiaryIntro: Bestiary Intro Header
-			SetBonus: Set Bonus Header
-			AmmoInfo: Ammo Info Header
-			EquipmentStats: Equipment Stats Header
-			AcquisitionTooltips: Acquisition Tooltips Header
-			ShopPreview: Shop Preview Header
+			HintBook: 信息手册页
+			BestiaryIntro: 怪物图鉴简介页
+			SetBonus: 套装效果页
+			AmmoInfo: 弹药信息页
+			EquipmentStats: 装备属性页
+			AcquisitionTooltips: 获取方式提示页
+			ShopPreview: 商店预览页
 		}
 
 		ShowBestiaryIntroSounds: {
-			Tooltip: Enables sounds when Bestiary entries appear in chat.
-			Label: Bestiary Entries Sounds
+			Tooltip: 启用怪物图鉴条目在世界频道显示时的音效。
+			Label: 怪物图鉴条目音效
 		}
 
 		ShowBestiaryIntro: {
-			Tooltip: Enables Bestiary entries for mobs to appear in chat after they are killed.
-			Label: Bestiary Entries
+			Tooltip: 启用怪物被击杀后在聊天栏显示其图鉴条目的功能。
+			Label: 怪物图鉴条目
 		}
 
 		ShowSetBonusPreview: {
-			Tooltip: Enables an additional tooltip on armor set helmets, showing the set bonus in advance.
-			Label: Set Bonus Preview
+			Tooltip: 在套装头盔上启用额外提示，预先显示套装奖励。
+			Label: 套装奖励预览
 		}
 
 		ShowAmmoInfo: {
-			Tooltip: Enables an additional tooltip on ranged weapons, showing the ammunition they use
-			Label: Ammo Info
+			Tooltip: 在远程武器上启用额外提示，显示其使用的弹药。
+			Label: 弹药信息
 		}
 
 		ShowMountStats: {
-			Tooltip: Display of mount stats
-			Label: Mount Stats
+			Tooltip: 显示坐骑属性
+			Label: 坐骑属性
 		}
 
 		ShowHookStats: {
-			Tooltip: Display of hook stats
-			Label: Hook Stats
+			Tooltip: 显示抓钩属性
+			Label: 抓钩属性
 		}
 
 		ShowWingStats: {
-			Tooltip: Display of wings stats
-			Label: Wings Stats
+			Tooltip: 显示翅膀属性
+			Label: 翅膀属性
 		}
 
 		ShowEquipmentStats: {
-			Tooltip: Enables additional tooltips that show the stats of hooks, mounts, and wings.
-			Label: Equipment Stats
+			Tooltip: 启用额外提示，显示抓钩、坐骑和翅膀的属性。
+			Label: 装备属性
 		}
 
 		ShowContainerContents: {
-			Tooltip: Enables an additional tooltip on 'right-click-to-open' items that shows their contents.
-			Label: Container Contents
+			Tooltip: 在“右键点击打开”的物品上启用额外提示，显示其内容物。
+			Label: 摸彩袋内容
 		}
 
 		ShowContainerSources: {
-			Tooltip: Enables an additional tooltip on all 'right-click-to-open' items that shows their contents.
-			Label: Container Sources
+			Tooltip: 在所有“右键点击打开”的物品上启用额外提示，显示其内容物。
+			Label: 摸彩袋来源
 		}
 
 		ShowShimmerSources: {
-			Tooltip: Enables additional tooltips about Shimmer on items.
-			Label: Shimmer Sources
+			Tooltip: 为物品启用关于微光嬗变的额外提示。
+			Label: 微光嬗变来源
 		}
 
 		ShowDropSources: {
-			Tooltip: Enables additional tooltips on items dropped by enemies.
-			Label: Drop Sources
+			Tooltip: 为敌人掉落的物品启用额外提示。
+			Label: 掉落来源
 		}
 
 		ShowShopSources: {
-			Tooltip: Enables additional tooltips on items sold by NPCs.
-			Label: Shop Sources
+			Tooltip: 启用npc出售物品的额外提示。
+			Label: 商店来源
 		}
 
 		ShowCraftSources: {
-			Tooltip: Enables an additional tooltip with the crafting recipe for items.
-			Label: Craft Sources
+			Tooltip: 启用物品合成配方的额外提示。
+			Label: 合成来源
 		}
 
 		EnableAcquisitionTooltips: {
-			Tooltip: Enables all additional tooltips on items
-			Label: Enable Additional Tooltips
+			Tooltip: 启用物品的所有额外提示。
+			Label: 启用额外提示
 		}
 
-		DisplayName: Thorium Info+ Configuration
+		DisplayName: 瑟银信息+ 配置
 
 		EnableShopPreview: {
-			Tooltip: Enables a preview of NPC shop inventories.
-			Label: Enable Shop Preview
+			Tooltip: 启用npc商店库存预览。
+			Label: npc商店预览
 		}
 
 		EnableShopPreviewMessages: {
-			Tooltip: Enables chat messages that appear each time a new item becomes available in NPC shops.
-			Label: Enable Shop Preview Messages
+			Tooltip: 启用npc商店出现新物品时的世界频道提示。
+			Label: npc商店预览消息
 		}
 
 		EnableShopPreviewSounds: {
-			Label: Enable Shop Preview Sounds
-			Tooltip: Enables sounds for chat messages when new items appear in NPC shops.
+			Label: 启用商店预览音效
+			Tooltip: 启用NPC商店出现新物品时聊天消息的音效。
 		}
 	}
 
 	HintBookButtonVisibility: {
 		Never: {
 			Tooltip: ""
-			Label: Never
+			Label: 从不显示
 		}
 
 		Always: {
 			Tooltip: ""
-			Label: Always
+			Label: 总是
 		}
 
 		WithInventory: {
 			Tooltip: ""
-			Label: With Inventory
+			Label: 打开物品栏时显示
 		}
 
 		Tooltip: ""
@@ -1055,7 +1051,7 @@ Items: {
 
 Achievements: {
 	InfoBookAchievement: {
-		Description: Use the Thorium Infobook — a brief reference guide to the Thorium Mod
-		FriendlyName: I Know Everything!
+		Description: 使用瑟银信息手册——瑟银模组的简要参考指南
+		FriendlyName: 我无所不知！
 	}
 }
