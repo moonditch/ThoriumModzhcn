@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ModLoader;
 using ThoriumMod.Items;
 
-namespace ThoriumModzhcn.ZHhjson
+namespace ThoriumModzhcn.LocalizationPatch.Thorium
 {
     public class ItemTooltips : GlobalItem
     {
