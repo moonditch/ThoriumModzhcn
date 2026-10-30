@@ -25,6 +25,8 @@ namespace ThoriumModzhcn.LocalizationPatch.ThoriumRecipesAddon;
 
 // 可以直接引入dll文件，代替反射。
 
+[Autoload(Side = ModSide.Client)]
+[Autoload(Side = ModSide.NoSync)]
 //[JITWhenModsEnabled(MODNAME)]
 //[ExtendsFromMod(MODNAME)] 
 public partial class NewLine : ModSystem
