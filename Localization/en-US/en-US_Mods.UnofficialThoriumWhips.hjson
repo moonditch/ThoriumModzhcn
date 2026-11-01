@@ -1,0 +1,74 @@
+Items: {
+	ThoriumWhip: {
+		DisplayName: Thorium Whip
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			Increases summon critical strike chance by 6%
+			Your summons will focus struck enemies
+			'A unique whip forged from a unique material!'
+			'''
+	}
+
+	RoyalTentacleWhip: {
+		DisplayName: Royal Tentacle
+		Tooltip:
+			'''
+			33% chance on hit to summon a random jellyfish for 3 seconds
+			Striking again refreshes the active jellyfish duration
+			                     'Still wet...'
+			'''
+	}
+
+	RoyalTentacle: {
+		DisplayName: Royal Tentacle
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ThoriumWhipProj.DisplayName: Thorium Whip Proj
+	RoyalJellyWhipProj.DisplayName: Royal Tentacle Proj
+	ZealousJellyMinion.DisplayName: Zealous Jelly Minion
+	DistractingJellyMinion.DisplayName: Distracting Jelly Minion
+	JellyBubbleProj.DisplayName: Jelly Bubble
+	SpittingJellyMinion.DisplayName: Spitting Jelly Minion
+	RoyalTentacleProj.DisplayName: Royal Tentacle Proj
+}
+
+Buffs: {
+	ThoriumWhipDebuff: {
+		DisplayName: Thorium Whip Tag
+		Description: Summons deal extra damage and have increased critical strike chance
+	}
+
+	RoyalJellyBuff: {
+		DisplayName: Royal Jelly
+		Description: Your jellyfish is active!
+	}
+
+	EnemyBubbled: {
+		DisplayName: Bubbled
+		Description: Trapped in a jelly bubble
+	}
+
+	JellyShieldCooldown: {
+		DisplayName: Jelly Shield Cooldown
+		Description: Distracting Jellyfish cannot be summoned
+	}
+
+	DistractingJellyBuff: {
+		DisplayName: Distracting Jellyfish
+		Description: Ready to take 50% damage for you!
+	}
+
+	SpittingJellyBuff: {
+		DisplayName: Spitting Jellyfish
+		Description: Ready to shoot enemies for you!
+	}
+
+	ZealousJellyBuff: {
+		DisplayName: Zealous Jellyfish
+		Description: Ready to ram enemies for you!
+	}
+}
