@@ -1,0 +1,79 @@
+Items: {
+	ThoriumWhip: {
+		DisplayName: 瑟银鞭
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			增加6%召唤暴击率
+			召唤物将集中攻击被标记的敌人
+			“由独特材料锻造的独特鞭子！”
+			'''
+	}
+
+	RoyalTentacleWhip: {
+		DisplayName: 皇家触手
+		Tooltip:
+			'''
+			命中时有33%的概率召唤一只随机水母，持续3秒
+			再次命中会刷新当前水母的持续时间
+			                     “还湿着呢……”
+			'''
+	}
+
+	RoyalTentacle: {
+		DisplayName: 皇家触手
+		Tooltip: 
+			'''
+			命中时有33%的概率召唤一只随机水母，持续3秒
+			再次命中会刷新当前水母的持续时间
+			                     “还湿着呢……”
+			'''
+	}
+}
+
+Projectiles: {
+	ThoriumWhipProj.DisplayName: 瑟银鞭弹幕
+	RoyalJellyWhipProj.DisplayName: 皇家触手弹幕
+	ZealousJellyMinion.DisplayName: 狂热水母仆从
+	DistractingJellyMinion.DisplayName: 分心水母仆从
+	JellyBubbleProj.DisplayName: 水母泡泡
+	SpittingJellyMinion.DisplayName: 喷水水母仆从
+	RoyalTentacleProj.DisplayName: 皇家触手
+}
+
+Buffs: {
+	ThoriumWhipDebuff: {
+		DisplayName: 瑟银鞭标记
+		Description: 召唤攻击造成额外伤害并提升暴击率
+	}
+
+	RoyalJellyBuff: {
+		DisplayName: 皇家水母
+		Description: 你的水母已激活！
+	}
+
+	EnemyBubbled: {
+		DisplayName: 泡泡
+		Description: 被水母泡泡困住
+	}
+
+	JellyShieldCooldown: {
+		DisplayName: 水母护盾冷却
+		Description: 分心水母无法被召唤
+	}
+
+	DistractingJellyBuff: {
+		DisplayName: 分心水母
+		Description: 准备好为你承担50%收到的伤害！
+	}
+
+	SpittingJellyBuff: {
+		DisplayName: 喷水水母
+		Description: 准备好为你射击敌怪！
+	}
+
+	ZealousJellyBuff: {
+		DisplayName: 狂热水母
+		Description: 准备好为你撞击敌怪！
+	}
+}
