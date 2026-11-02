@@ -3,7 +3,7 @@ StarBeamRye: {
 	Tooltip:
 		'''
 		增加魔力再生，即使在使用物品时也是如此
-		魔法和光辉武器的伤害乘 {0}x 
+		魔法和光辉武器的伤害乘{0}
 		{$Common.AlcoholWarning}
 		'''
 }

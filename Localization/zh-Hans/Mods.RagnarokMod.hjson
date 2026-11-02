@@ -1760,7 +1760,7 @@ Configs: {
 		}
 
 		ShootOffsetForward: {
-			Label: Shoot Offset Forward
+			Label: 发射前进偏移
 			Tooltip: ""
 		}
 

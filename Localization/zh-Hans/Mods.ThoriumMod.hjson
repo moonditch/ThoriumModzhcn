@@ -68,7 +68,11 @@ Buffs: {
 Items: {
 	AmberRing: {
 		DisplayName: 琥珀戒指
-		Tooltip: 增加3%召唤伤害
+		Tooltip:
+			'''
+			增加1点召唤伤害
+			增加3%召唤伤害
+			'''
 	}
 
 	AmethystRing: {
@@ -78,42 +82,72 @@ Items: {
 
 	AquamarineRing: {
 		DisplayName: 海蓝宝石戒指
-		Tooltip: 增加3%光辉伤害
+		Tooltip:
+			'''
+			增加1点光辉伤害
+			增加3%光辉伤害
+			'''
 	}
 
 	EmeraldRing: {
 		DisplayName: 翡翠戒指
-		Tooltip: 增加3%远程伤害
+		Tooltip:
+			'''
+			增加1点远程伤害
+			增加3%远程伤害
+			'''
 	}
 
 	OpalRing: {
 		DisplayName: 欧珀戒指
-		Tooltip: 增加3%音波伤害
+		Tooltip:
+			'''
+			增加1点音波伤害
+			增加3%音波伤害
+			'''
 	}
 
 	RubyRing: {
 		DisplayName: 红玉戒指
-		Tooltip: 增加3%近战伤害
+		Tooltip:
+			'''
+			增加1点近战伤害
+			增加3%近战伤害
+			'''
 	}
 
 	SapphireRing: {
 		DisplayName: 蓝玉戒指
-		Tooltip: 增加3%魔法伤害
+		Tooltip:
+			'''
+			增加1点魔法伤害
+			增加3%魔法伤害
+			'''
 	}
 
 	TheRing: {
 		DisplayName: 魔戒
 		Tooltip:
 			'''
-			增加4点所有伤害
+			增加2点所有伤害
+			增加4%所有伤害
 			增加3点盔甲穿透
 			增加4%暴击率
 			'''
 	}
 
+	DiamondRing: {
+		DisplayName: 钻石戒指
+		Tooltip: 增加3%暴击率
+	}
+
 	TopazRing: {
 		DisplayName: 黄玉戒指
-		Tooltip: 增加1点盗贼伤害
+		Tooltip:
+			'''
+			增加1点魔法盗贼伤害
+			增加3%盗贼伤害
+			'''
 	}
 
 	FlightMail: {
@@ -192,6 +226,7 @@ Items: {
 			增加10%盗贼速度
 			使用盗贼物品有20%概率释放两道枯萎飞刀
 			枯萎飞刀追踪敌怪并施加高度感染的疾病
+			[c/FF0000:额外弹幕的伤害最高为2000]
 			'''
 	}
 
@@ -201,6 +236,7 @@ Items: {
 			'''
 			增加6%盗贼暴击率
 			连续造成两次盗贼暴击会产生暗影闪电并短暂增加盗贼速度
+			[c/FF0000:额外弹幕的伤害最高为500]
 			'''
 	}
 
@@ -394,13 +430,8 @@ Items: {
 	}
 
 	NinjaEmblem: {
-		DisplayName: 多职业徽章
-		Tooltip:
-			'''
-			增加8%伤害
-			增加5%暴击率
-			增加5%攻击速度
-			'''
+		DisplayName: 英雄徽章
+		Tooltip: 增加8%伤害
 	}
 
 	OlympicTorch: {
